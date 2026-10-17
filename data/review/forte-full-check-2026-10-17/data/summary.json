@@ -1,0 +1,23 @@
+{
+  "review_date": "2026-10-17",
+  "files": 42,
+  "unique_videos": 40,
+  "original_positive": 22,
+  "original_control": 20,
+  "controls_reviewed_unique": 19,
+  "control_overview_sheets": 38,
+  "control_all_reviewed_sheets": 46,
+  "control_verdicts": {
+    "no_supported_violation": 15,
+    "conditional_issue": 5
+  },
+  "control_files_with_candidates": [
+    "Х-10.mov",
+    "Х-19.mov",
+    "Х-35.mov",
+    "Х-37.mov",
+    "Х-39.mov"
+  ],
+  "rule_count": 34,
+  "evidence_files": 243
+}

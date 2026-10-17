@@ -224,8 +224,14 @@ def main() -> None:
     catalog = yaml.safe_load(violations_path.read_text()) if violations_path.exists() else {}
     norms_path = args.reference / "norms.yaml"
     norms = yaml.safe_load(norms_path.read_text()) if norms_path.exists() else {}
+    review_path = args.reference / "norms_review.yaml"
+    review_norms = yaml.safe_load(review_path.read_text()) if review_path.exists() else {}
 
     errors, warnings, safe_durations = [], [], []
+    for inv in [i for sc in scenarios.values() for i in sc.get("invariants", [])] + spec.get("video_invariants", []):
+        for b in inv.get("basis", []):  # косвенные основания — из аудита норм или выверенных вручную
+            if b["norm"] not in norms and b["norm"] not in review_norms:
+                errors.append(f"scenarios.yaml: основание {b['norm']} правила «{inv.get('title')}» нет в norms*.yaml")
     rows_by_video: dict[str, list[dict]] = {}
     coverage: dict[str, Counter] = defaultdict(Counter)
     n_instances: Counter = Counter()

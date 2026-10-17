@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "review_date": "2026-10-17",
+  "videos": 42,
+  "unique_videos": 40,
+  "norms": 34,
+  "original_labels_and_seconds_preserved": true,
+  "workbook_summary": [
+    42,
+    20,
+    5,
+    0
+  ],
+  "workbook_formula_errors": 0,
+  "local_workbook_links_checked": 76,
+  "markdown_local_links_checked": 282,
+  "evidence_hashes_checked": 243,
+  "normative_source_hashes_checked": 34,
+  "note": "Validation checks packaging and data consistency; it does not certify violations or current law editions."
+}

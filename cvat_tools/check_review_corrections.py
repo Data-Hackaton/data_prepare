@@ -33,6 +33,16 @@ def main():
         pass
     else:
         raise AssertionError('Changed baseline was not rejected')
+    addition={'label':'person','samples':[{'frame':3,'box':[12,22,32,52],'outside':False}]}
+    result,_=apply(original,spec([dict(operation='add_track',track=addition,
+        reason='Fixture: a visually confirmed missing object',evidence_frames=[3])]),list(range(8)))
+    assert result[-1]['samples'][0].get('occluded') is False, 'New reviewed tracks need the CVAT occlusion field'
+    assert 'occluded' not in addition['samples'][0], 'Do not mutate the patch input'
+    from import_annotations import payload_for
+    payload=payload_for({'tracks':result},{
+        'person':{'id':1,'name':'person','attributes':[]},
+        'table':{'id':2,'name':'table','attributes':[]}})
+    assert payload['tracks'][-1]['shapes'][0]['occluded'] is False
     print('PASS: gaps, relabel splits, VFR interpolation, preserved objects, immutable input, empty tracks, stale-baseline rejection')
 
 

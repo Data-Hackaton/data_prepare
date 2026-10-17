@@ -78,6 +78,7 @@ def apply(tracks, specification, times):
                 validate_box(sample['box'])
                 assert 0 <= sample['frame'] < len(times)
                 sample.setdefault('attributes', {})
+                sample.setdefault('occluded', False)
                 if not sample['outside']:
                     touched.add((len(corrected), sample['frame']))
             corrected.append(track)

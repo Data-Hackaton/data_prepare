@@ -1,0 +1,74 @@
+{
+  "checkpoint_patch_count": 223,
+  "new_since_192": 31,
+  "first_192_structurally_unchanged": true,
+  "checkpoint_sha256": "aec22efe465d8ec9329c570a6bf2b6454fdd6731d8a09f4a1fa1772aa945170e",
+  "baseline_apply_in_memory_passed": true,
+  "original_samples_and_baseline_hashes_verified": true,
+  "evidence_images_exist": true,
+  "sampled_selected_frames": 2372,
+  "sampled_remaining_frames": 0,
+  "full_frame_source_count": 10147,
+  "per_video": [
+    {
+      "video": "X-1",
+      "patch_count": 35,
+      "result_tracks": 56,
+      "changed_object_frames": 500
+    },
+    {
+      "video": "X-2",
+      "patch_count": 19,
+      "result_tracks": 30,
+      "changed_object_frames": 483
+    },
+    {
+      "video": "X-3",
+      "patch_count": 31,
+      "result_tracks": 39,
+      "changed_object_frames": 593
+    },
+    {
+      "video": "X-4",
+      "patch_count": 48,
+      "result_tracks": 91,
+      "changed_object_frames": 949
+    },
+    {
+      "video": "X-5",
+      "patch_count": 37,
+      "result_tracks": 115,
+      "changed_object_frames": 704
+    },
+    {
+      "video": "X-8",
+      "patch_count": 14,
+      "result_tracks": 36,
+      "changed_object_frames": 285
+    },
+    {
+      "video": "X-10",
+      "patch_count": 6,
+      "result_tracks": 24,
+      "changed_object_frames": 676
+    },
+    {
+      "video": "X-11",
+      "patch_count": 3,
+      "result_tracks": 25,
+      "changed_object_frames": 80
+    },
+    {
+      "video": "X-12",
+      "patch_count": 4,
+      "result_tracks": 39,
+      "changed_object_frames": 145
+    },
+    {
+      "video": "X-13",
+      "patch_count": 26,
+      "result_tracks": 85,
+      "changed_object_frames": 728
+    }
+  ]
+}

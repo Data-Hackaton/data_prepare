@@ -1,0 +1,57 @@
+{
+  "confirmed_unresolved_errors": [],
+  "uncertain_candidates": [
+    {
+      "video": "X-30",
+      "frames": [
+        335,
+        340
+      ],
+      "candidate": "Exact first visibility of the second entrant lies between selected frames335 and340. Confirmed visible phase begins340 in the new track; no assertion about unselected338/339."
+    },
+    {
+      "video": "X-30",
+      "frames": [
+        210,
+        344
+      ],
+      "candidate": "Intermittent faint cashier reflections during door motion/occlusion may have further short visibility gaps; clear fixed-pane240\u2013269 was corrected. No extra track without separable visible pixels."
+    },
+    {
+      "video": "X-31",
+      "frames": [
+        360,
+        379
+      ],
+      "track_index": 40,
+      "candidate": "Small hand/forearm boundary remains ambiguous; no confirmed deletion. Tiny upper-office reflections20/23/24/26 are preserved as potentially independent people."
+    },
+    {
+      "video": "X-32",
+      "frames": [
+        590,
+        599
+      ],
+      "track_index": 43,
+      "candidate": "Possible overlapping hand boxes may represent two actual hands. Do not remove without closer separation evidence."
+    },
+    {
+      "video": "X-33",
+      "frames": [
+        110,
+        119
+      ],
+      "candidate": "Possible brief actual handle-hand gap between tracks24 and25; fingers and handle are not reliably separated. Existing real handle hand24 was preserved."
+    },
+    {
+      "videos": [
+        "X-34",
+        "X-35",
+        "X-37",
+        "X-38"
+      ],
+      "candidate": "Several overlapping left-glass reflection chains may contain redundant fragments, but can also contain two separate people or pane images. Reclassified confirmed glass-only people; no speculative bulk deletion. Exact onset/occlusion boundaries between selected frames remain interpolated."
+    }
+  ],
+  "scope": "Only the final scene C confirmed queue is closed. No claim that the dataset contains zero remaining errors."
+}

@@ -1,0 +1,344 @@
+{
+  "checked_at": "2026-10-17T22:40:32.270528+00:00",
+  "videos": 42,
+  "all_readbacks_exact": true,
+  "corrections_sha256": "1ed9d8b850af348b8f53cf875098a5fe49d6855f8706f4fb916f75256f7a5d6b",
+  "per_video": [
+    {
+      "video": "X-1",
+      "task_id": 1,
+      "readback_exact": true,
+      "tracks": 57,
+      "assembled_sha256": "d45e87ef5baf75d4218ba82f9288bd26a55c7f5a49dd60b773a5a24e8e6c0ac1",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-2",
+      "task_id": 2,
+      "readback_exact": true,
+      "tracks": 31,
+      "assembled_sha256": "7d57abdc6e7bed71e341be9e544c86079e9b22ee61e28213ee98c51c808c552b",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-3",
+      "task_id": 3,
+      "readback_exact": true,
+      "tracks": 40,
+      "assembled_sha256": "a1c754bda366ecb4cf016fd018ad84b76731095affe6247a2e82484cf35599fe",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-4",
+      "task_id": 4,
+      "readback_exact": true,
+      "tracks": 92,
+      "assembled_sha256": "0833a54721a10de8e677997bc4ce2b44cf57150bec94bc8630413cdd4970495c",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-5",
+      "task_id": 5,
+      "readback_exact": true,
+      "tracks": 116,
+      "assembled_sha256": "5b9d83a9b1aad1eabb76b94127fdc6db52430c1acd5b1656a61d3dae4c7eea03",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-8",
+      "task_id": 6,
+      "readback_exact": true,
+      "tracks": 37,
+      "assembled_sha256": "85ca4fce7332bb4dc716d42f4ab37d6b837417aa06e2ab9e6c1f23fee272bdee",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-10",
+      "task_id": 7,
+      "readback_exact": true,
+      "tracks": 25,
+      "assembled_sha256": "2a90fee00fa64c861fc1a73755973b22e5c930544e74d72d878b99ad55d911f6",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-11",
+      "task_id": 8,
+      "readback_exact": true,
+      "tracks": 26,
+      "assembled_sha256": "2d5bd5e56e1b3f808b80029299d136fcd9e6d839d15eca3855456f90be6f9310",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-12",
+      "task_id": 9,
+      "readback_exact": true,
+      "tracks": 40,
+      "assembled_sha256": "4a4e99411325ebb68f3170b0d52671b92e825477f08b0a7baeb41e776e046e27",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-13",
+      "task_id": 10,
+      "readback_exact": true,
+      "tracks": 86,
+      "assembled_sha256": "1d4cfd7cd16bf4f2c8d6848650d8f9f412ac38d0aec8c0e8689217f7bd9b7c7d",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-14",
+      "task_id": 11,
+      "readback_exact": true,
+      "tracks": 100,
+      "assembled_sha256": "aa830322295af06bfb06af246095cd20b4a113a8c19f0f06b8f7041d8a429bf3",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-15",
+      "task_id": 12,
+      "readback_exact": true,
+      "tracks": 26,
+      "assembled_sha256": "9e77852587d5cc9f98fb973d449b3c65dac41ca0fc2543b9727b252290c71144",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-16",
+      "task_id": 13,
+      "readback_exact": true,
+      "tracks": 34,
+      "assembled_sha256": "5c9983e441a948b4f494d3cd005766384e537ddf0d66de049045c718a2931057",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-17",
+      "task_id": 14,
+      "readback_exact": true,
+      "tracks": 34,
+      "assembled_sha256": "e605aa4e73d8f8265939fa6bbc8379d24a7a14c2ab9157b1409088f7247e2e4d",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-18",
+      "task_id": 15,
+      "readback_exact": true,
+      "tracks": 52,
+      "assembled_sha256": "bd5bfe036ae85aea56375f9a3402bdfb937d96542751cb77293c78005bcb6c43",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-19",
+      "task_id": 16,
+      "readback_exact": true,
+      "tracks": 101,
+      "assembled_sha256": "f77b02b7968da8e8087d05c5d81aa6e5957b9c2d464d2c7280a8ef6002a27315",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-20",
+      "task_id": 17,
+      "readback_exact": true,
+      "tracks": 24,
+      "assembled_sha256": "413cc5cd652d394f2e174c9bb58a08d6312322b760ae530ec57c75bd7d3863c8",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-21",
+      "task_id": 18,
+      "readback_exact": true,
+      "tracks": 26,
+      "assembled_sha256": "834b92885c791f0a3d9f4bc7befe2af02f85f82a3e411505bcdd5e4c8da7dc21",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-22",
+      "task_id": 19,
+      "readback_exact": true,
+      "tracks": 22,
+      "assembled_sha256": "f7081979fe1c3af10cf5e1f73ce65592124155c03774108544cc8d2a3c4b6a38",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-23",
+      "task_id": 20,
+      "readback_exact": true,
+      "tracks": 23,
+      "assembled_sha256": "a212cf5ba4c0ee1266ce59fd68649fadf1a5dfb11a053454a93b57b19271cab7",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-24",
+      "task_id": 21,
+      "readback_exact": true,
+      "tracks": 21,
+      "assembled_sha256": "b247f6b6a19fc54cd1a6819c53ea9038b3729677b2f2f6bec85ec0c10a982cfa",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-25",
+      "task_id": 22,
+      "readback_exact": true,
+      "tracks": 37,
+      "assembled_sha256": "7af6a5d996c1102bbe18ffc985379a6e30472bc7c00cf287d686098a925d9223",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-26",
+      "task_id": 23,
+      "readback_exact": true,
+      "tracks": 23,
+      "assembled_sha256": "2b1b892226bc30ab39ed5c7ce9bb312d949ef182f03b51dd0b39808a21622833",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-27",
+      "task_id": 24,
+      "readback_exact": true,
+      "tracks": 25,
+      "assembled_sha256": "6f2f3899f54aef7e0f68faceca431997afddb6d3f4ec051b3db246be5cbe24e0",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-28",
+      "task_id": 25,
+      "readback_exact": true,
+      "tracks": 23,
+      "assembled_sha256": "35ae69f727de663e58026e5ffa9eaef6d0346ed0014957fe4a1d26eb22af8472",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-29",
+      "task_id": 26,
+      "readback_exact": true,
+      "tracks": 20,
+      "assembled_sha256": "1bb04fb1d46ec3393de7f5ed47e273ebd9f3eda6171fa3a6e2ad31f748628712",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-30",
+      "task_id": 27,
+      "readback_exact": true,
+      "tracks": 32,
+      "assembled_sha256": "42c1f95602a80e8a619f4af7151d4d67657d44f790fd8757a778beed0e20f547",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-31",
+      "task_id": 28,
+      "readback_exact": true,
+      "tracks": 35,
+      "assembled_sha256": "1e1ba3e5312e8bd61d7a41f7c750baf3930ef28b7443fc12bf3a581d48bc1003",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-32",
+      "task_id": 29,
+      "readback_exact": true,
+      "tracks": 31,
+      "assembled_sha256": "f7dc56fd9a8c561704f5c5497157bd9fa821929751a6dd19213a0a04e792f417",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-33",
+      "task_id": 30,
+      "readback_exact": true,
+      "tracks": 19,
+      "assembled_sha256": "37db6bcdb99107d3092d4fb230b2bf16c6c90eca69a693d1eb3f1eaf2d4051e2",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-34",
+      "task_id": 31,
+      "readback_exact": true,
+      "tracks": 49,
+      "assembled_sha256": "b0f66edca500276f579ac41d825383fafcc52a358cb489c8f71f0ed9c76cce06",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-35",
+      "task_id": 32,
+      "readback_exact": true,
+      "tracks": 97,
+      "assembled_sha256": "14cdd3f14a05594dd86e4f9325976ee26cee690dc408112b93eb497705a72514",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-37",
+      "task_id": 33,
+      "readback_exact": true,
+      "tracks": 44,
+      "assembled_sha256": "a098998ed91b0b38cb076a801303819e1ecb912b744cd7d0cf231d78dbc0ecf4",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-38",
+      "task_id": 34,
+      "readback_exact": true,
+      "tracks": 166,
+      "assembled_sha256": "72d37ae8850e336c63c3ecf0c317cda9626c74dfaab3395f4a0b653630a4f525",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-39",
+      "task_id": 35,
+      "readback_exact": true,
+      "tracks": 126,
+      "assembled_sha256": "6850abfd7fd53bde5409e8eb45dca749d3f88006d6416177586b2986a38b8cb5",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-40",
+      "task_id": 36,
+      "readback_exact": true,
+      "tracks": 43,
+      "assembled_sha256": "f9e8cb5f50c3876fa22f6fab07bc67d3b2764001260e307fa5670a7a62a359ae",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-43",
+      "task_id": 37,
+      "readback_exact": true,
+      "tracks": 32,
+      "assembled_sha256": "0f4c64dcc93d7517c56dbf3e16334f47116888f025697eff15dd763e0e2d0d84",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-44",
+      "task_id": 38,
+      "readback_exact": true,
+      "tracks": 22,
+      "assembled_sha256": "79a8306c0c926a98c461dd236477eb14db6baa8ce2ec15b42a756eba517febca",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-45",
+      "task_id": 39,
+      "readback_exact": true,
+      "tracks": 29,
+      "assembled_sha256": "888e5c91546870e5ea11a2af8432055e762d3934917618face08f2be9e834405",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-46",
+      "task_id": 40,
+      "readback_exact": true,
+      "tracks": 26,
+      "assembled_sha256": "f0daebdcf704b89f4055a71571e140d2246ff404ba881e95c128c439f898cb99",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-47",
+      "task_id": 41,
+      "readback_exact": true,
+      "tracks": 92,
+      "assembled_sha256": "5b737fcb9f2b5b7dfe7e99fccc37d56071d3a91a6112311179ebbf286239ba31",
+      "other_tracks_preserved": 0
+    },
+    {
+      "video": "X-48",
+      "task_id": 42,
+      "readback_exact": true,
+      "tracks": 116,
+      "assembled_sha256": "1574ac64fd0c27d8fbe754b0953049d13910db6da98e70914ae7ef112e28c2db",
+      "other_tracks_preserved": 0
+    }
+  ]
+}

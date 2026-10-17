@@ -79,11 +79,18 @@ def main(download=True):
         for name in src.namelist():dst.writestr(name,src.read(name))
     with zipfile.ZipFile(compressed) as z:assert z.testzip() is None
     compressed.replace(archive)
+    from qa_progress import build
+    progress=build()
     output={'archive':str(archive),'bytes':archive.stat().st_size,
             'sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),'entries':entries,
             'all_frames':43230,'videos':42,'exported_tracks':sum(exported_tracks.values()),
             'export_frame_coverage_verified':True,'per_video':individual,
-            'review_status':'assisted_annotations_require_visual_review'}
+            'requested_review_frame_step':progress['requested_review_frame_step'],
+            'requested_review_target_frames':progress['requested_review_target_frames'],
+            'requested_reviewed_frames':progress['requested_reviewed_frames'],
+            'requested_review_screening_complete':progress['requested_review_screening_complete'],
+            'review_status':'assisted_step5_reviewed' if progress['requested_review_screening_complete'] else 'assisted_annotations_require_visual_review',
+            'exhaustive_per_object_geometry_validation':False}
     (destination/'manifest.json').write_text(json.dumps(output,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({k:v for k,v in output.items() if k!='per_video'},ensure_ascii=False),flush=True)
 

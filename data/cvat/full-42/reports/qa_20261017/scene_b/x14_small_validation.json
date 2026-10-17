@@ -1,0 +1,331 @@
+{
+  "patches_applied": 42,
+  "distinct_object_frames_changed": 676,
+  "affected_source_tracks": 41,
+  "patch_details": [
+    {
+      "patch": 0,
+      "track_index": 48,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 140,
+      "last_frame": 149
+    },
+    {
+      "patch": 1,
+      "track_index": 50,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 170,
+      "last_frame": 179
+    },
+    {
+      "patch": 2,
+      "track_index": 52,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 210,
+      "last_frame": 219
+    },
+    {
+      "patch": 3,
+      "track_index": 53,
+      "operation": "outside",
+      "samples_changed": 20,
+      "first_frame": 690,
+      "last_frame": 709
+    },
+    {
+      "patch": 4,
+      "track_index": 55,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 800,
+      "last_frame": 809
+    },
+    {
+      "patch": 5,
+      "track_index": 61,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 920,
+      "last_frame": 929
+    },
+    {
+      "patch": 6,
+      "track_index": 67,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 1230,
+      "last_frame": 1239
+    },
+    {
+      "patch": 7,
+      "track_index": 73,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 1370,
+      "last_frame": 1379
+    },
+    {
+      "patch": 8,
+      "track_index": 81,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 1530,
+      "last_frame": 1539
+    },
+    {
+      "patch": 9,
+      "track_index": 82,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 1550,
+      "last_frame": 1559
+    },
+    {
+      "patch": 10,
+      "track_index": 86,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 1830,
+      "last_frame": 1839
+    },
+    {
+      "patch": 11,
+      "track_index": 87,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 1860,
+      "last_frame": 1869
+    },
+    {
+      "patch": 12,
+      "track_index": 89,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 1880,
+      "last_frame": 1889
+    },
+    {
+      "patch": 13,
+      "track_index": 91,
+      "operation": "outside",
+      "samples_changed": 80,
+      "first_frame": 1900,
+      "last_frame": 1979
+    },
+    {
+      "patch": 14,
+      "track_index": 92,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 1950,
+      "last_frame": 1959
+    },
+    {
+      "patch": 15,
+      "track_index": 93,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 1980,
+      "last_frame": 1989
+    },
+    {
+      "patch": 16,
+      "track_index": 94,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 1980,
+      "last_frame": 1989
+    },
+    {
+      "patch": 17,
+      "track_index": 98,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 2150,
+      "last_frame": 2159
+    },
+    {
+      "patch": 18,
+      "track_index": 103,
+      "operation": "outside",
+      "samples_changed": 30,
+      "first_frame": 2250,
+      "last_frame": 2279
+    },
+    {
+      "patch": 19,
+      "track_index": 106,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 2450,
+      "last_frame": 2459
+    },
+    {
+      "patch": 20,
+      "track_index": 109,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 2520,
+      "last_frame": 2529
+    },
+    {
+      "patch": 21,
+      "track_index": 110,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 2550,
+      "last_frame": 2559
+    },
+    {
+      "patch": 22,
+      "track_index": 108,
+      "operation": "outside",
+      "samples_changed": 50,
+      "first_frame": 2590,
+      "last_frame": 2639
+    },
+    {
+      "patch": 23,
+      "track_index": 113,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 2670,
+      "last_frame": 2679
+    },
+    {
+      "patch": 24,
+      "track_index": 113,
+      "operation": "outside",
+      "samples_changed": 20,
+      "first_frame": 2690,
+      "last_frame": 2709
+    },
+    {
+      "patch": 25,
+      "track_index": 115,
+      "operation": "outside",
+      "samples_changed": 20,
+      "first_frame": 2690,
+      "last_frame": 2709
+    },
+    {
+      "patch": 26,
+      "track_index": 116,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 2720,
+      "last_frame": 2729
+    },
+    {
+      "patch": 27,
+      "track_index": 117,
+      "operation": "outside",
+      "samples_changed": 40,
+      "first_frame": 2750,
+      "last_frame": 2789
+    },
+    {
+      "patch": 28,
+      "track_index": 119,
+      "operation": "outside",
+      "samples_changed": 20,
+      "first_frame": 2930,
+      "last_frame": 2949
+    },
+    {
+      "patch": 29,
+      "track_index": 122,
+      "operation": "outside",
+      "samples_changed": 20,
+      "first_frame": 3160,
+      "last_frame": 3179
+    },
+    {
+      "patch": 30,
+      "track_index": 123,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 3400,
+      "last_frame": 3409
+    },
+    {
+      "patch": 31,
+      "track_index": 124,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 3410,
+      "last_frame": 3419
+    },
+    {
+      "patch": 32,
+      "track_index": 126,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 3550,
+      "last_frame": 3559
+    },
+    {
+      "patch": 33,
+      "track_index": 129,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 3620,
+      "last_frame": 3629
+    },
+    {
+      "patch": 34,
+      "track_index": 131,
+      "operation": "outside",
+      "samples_changed": 10,
+      "first_frame": 3660,
+      "last_frame": 3669
+    },
+    {
+      "patch": 35,
+      "track_index": 74,
+      "operation": "replace_box",
+      "samples_changed": 10,
+      "first_frame": 1390,
+      "last_frame": 1399
+    },
+    {
+      "patch": 36,
+      "track_index": 78,
+      "operation": "replace_box",
+      "samples_changed": 10,
+      "first_frame": 1550,
+      "last_frame": 1559
+    },
+    {
+      "patch": 37,
+      "operation": "add_track",
+      "samples_changed": 11
+    },
+    {
+      "patch": 38,
+      "operation": "add_track",
+      "samples_changed": 11
+    },
+    {
+      "patch": 39,
+      "track_index": 6,
+      "operation": "replace_box",
+      "samples_changed": 18,
+      "first_frame": 1510,
+      "last_frame": 1527
+    },
+    {
+      "patch": 40,
+      "operation": "add_track",
+      "samples_changed": 25
+    },
+    {
+      "patch": 41,
+      "operation": "add_track",
+      "samples_changed": 35
+    }
+  ]
+}

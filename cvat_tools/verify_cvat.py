@@ -1,4 +1,6 @@
 """Read-only audit: full frame coverage and annotation state are reported separately."""
+import argparse
+import hashlib
 import json
 from datetime import datetime, timezone
 
@@ -6,12 +8,13 @@ from cvat_sdk import make_client
 from bootstrap_and_upload import HOST, ROOT, WORKSPACE, credentials
 
 
-def main():
+def main(exact_readback=False):
     imported = json.loads((ROOT / "cvat-full-project.json").read_text(encoding="utf-8"))
     source = json.loads((WORKSPACE / "data" / "video_frame_manifest.json").read_text(encoding="utf-8"))
     expected = {item["video"]: item for item in source["items"]}
     audit = {"checked_at": datetime.now(timezone.utc).isoformat(), "project_url": imported["project_url"],
              "tasks": [], "errors": [], "annotation_review": "No manual review completion is inferred from object counts."}
+    readbacks=[]
     with make_client(HOST, credentials=credentials()) as client:
         project = client.projects.retrieve(imported["project_id"])
         schema_path = ROOT / "labels-annotation.json"
@@ -36,6 +39,20 @@ def main():
         for item in imported["tasks"]:
             task = client.tasks.retrieve(item["task_id"])
             meta, annotations, jobs = task.get_meta(), task.get_annotations(), task.get_jobs()
+            if exact_readback:
+                from import_annotations import payload_for
+                from revise_own_annotations import fingerprints
+                path=ROOT/'assembled'/f"{item['video']}.json"
+                assembled=json.loads(path.read_text(encoding='utf-8'))
+                ledger=json.loads((ROOT/'imports'/f"{item['video']}.json").read_text(encoding='utf-8'))
+                labels={name:label.to_dict() for name,label in actual_labels.items()}
+                actual=annotations.to_dict()['tracks'];ids=set(ledger['track_ids'])
+                owned=[track for track in actual if track['id'] in ids]
+                assert fingerprints(owned)==fingerprints(payload_for(assembled,labels)['tracks']),item['video']
+                readbacks.append(dict(video=item['video'],task_id=task.id,readback_exact=True,
+                    tracks=len(owned),assembled_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),
+                    other_tracks_preserved=len(actual)-len(owned)))
+                print('READBACK_EXACT',item['video'],flush=True)
             original = expected[item["video"]]
             coverage = (meta.size == original["frame_count"] and meta.start_frame == 0
                         and meta.stop_frame == original["frame_count"]-1
@@ -61,10 +78,17 @@ def main():
     if audit["total_tasks"] != len(expected) or audit["total_frames"] != source["frames"]:
         audit["errors"].append("Video or frame totals differ from the source manifest")
     (ROOT / "verification.json").write_text(json.dumps(audit, ensure_ascii=False, indent=2), encoding="utf-8")
+    if exact_readback and not audit['errors']:
+        report=dict(checked_at=audit['checked_at'],videos=len(readbacks),all_readbacks_exact=True,
+            corrections_sha256=hashlib.sha256((ROOT/'manual/dense_corrections.json').read_bytes()).hexdigest(),
+            per_video=readbacks)
+        assert report['videos']==42
+        (ROOT/'qa_20261017/readback-step5-final.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
     print(json.dumps({key: value for key, value in audit.items() if key != "tasks"}, ensure_ascii=False))
     if audit["errors"]:
         raise SystemExit(1)
 
 
 if __name__ == "__main__":
-    main()
+    parser=argparse.ArgumentParser();parser.add_argument('--exact-readback',action='store_true')
+    main(exact_readback=parser.parse_args().exact_readback)

@@ -5,6 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 QA = ROOT / 'qa_20261017'
+REVIEW_STEP = 5  # User changed the requested review stride to every fifth frame.
 
 
 def read(path):
@@ -58,10 +59,20 @@ def build():
             else:
                 full = frames(entry['reviewed_frames'])
                 any_scope = full.copy()
+            selected = frames(entry.get('sampled_reviewed_frames', []))
+            any_scope.update(selected)
             assert full <= any_scope, (folder, name)
-            evidence[name] = dict(full=full, any_scope=any_scope,
-                                  ledger=f'{folder}/review.json',
-                                  unresolved=entry.get('unresolved', entry.get('notes', [])))
+            record = dict(full=full, any_scope=any_scope,
+                          sampled=full | selected,
+                          ledger=f'{folder}/review.json',
+                          unresolved=entry.get('unresolved', entry.get('notes', [])))
+            if folder == 'parent' and name in evidence:
+                previous = evidence[name]
+                record['full'].update(previous['full'])
+                record['any_scope'].update(previous['any_scope'])
+                record['sampled'].update(previous['sampled'])
+                record['ledger'] = [previous['ledger'], record['ledger']]
+            evidence[name] = record
     extra_path = QA / 'scene_b/c_extra_review.json'
     if extra_path.exists():
         entries = read(extra_path)['videos']
@@ -71,9 +82,12 @@ def build():
             ev = evidence[name]
             full = frames(entry.get('full_frame_reviewed_frames', []))
             any_scope = frames(entry.get('reviewed_frames', []))
+            selected = frames(entry.get('sampled_reviewed_frames', []))
+            any_scope.update(selected)
             assert full <= any_scope, name
             ev['full'].update(full)
             ev['any_scope'].update(any_scope)
+            ev['sampled'].update(full | selected)
             ev['ledger'] = [ev['ledger'], 'scene_b/c_extra_review.json']
             ev['unresolved'] = entry.get('unresolved', ev['unresolved'])
     by_name = {item['video']: item for item in items}
@@ -86,6 +100,8 @@ def build():
         ev = evidence[source]
         n = item['frame_count']
         all_frames = set(range(n))
+        targets = set(range(0, n, REVIEW_STEP)) | {n-1}
+        reviewed_targets = ev['sampled'] & targets
         assert ev['any_scope'] <= all_frames, source
         videos.append(dict(video=item['video'], source_video=source, frame_count=n,
             duplicate_evidence_inherited=source != item['video'],
@@ -94,6 +110,11 @@ def build():
             full_frame_screened_intervals=intervals(ev['full']),
             full_frame_remaining_intervals=intervals(all_frames-ev['full']),
             full_frame_screening_complete=ev['full'] == all_frames,
+            requested_review_frame_step=REVIEW_STEP,
+            requested_review_target_frames=len(targets),
+            requested_reviewed_frames=len(reviewed_targets),
+            requested_review_remaining_frames=sorted(targets-reviewed_targets),
+            requested_review_screening_complete=reviewed_targets == targets,
             all_object_geometry_validated=False, unresolved=ev['unresolved']))
     audit = read(QA / 'audit_summary.json')
     spec = read(ROOT / 'manual/dense_corrections.json')
@@ -106,6 +127,10 @@ def build():
         any_region_screened=sum(v['any_region_screened'] for v in videos),
         unique_source_frames=sum(v['frame_count'] for v in unique),
         unique_full_frame_screened=sum(v['full_frame_screened'] for v in unique),
+        requested_review_frame_step=REVIEW_STEP,
+        requested_review_target_frames=sum(v['requested_review_target_frames'] for v in videos),
+        requested_reviewed_frames=sum(v['requested_reviewed_frames'] for v in videos),
+        requested_review_screening_complete=all(v['requested_review_screening_complete'] for v in videos),
         source_frame_step=1, automated_audit_errors=audit['errors'],
         staged_correction_count=sum(len(v['patches']) for v in spec['videos'].values()),
         videos=videos)

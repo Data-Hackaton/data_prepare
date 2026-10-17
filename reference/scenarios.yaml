@@ -1,6 +1,7 @@
 # Эталонный порядок действий (L2) по 19 видео без нарушений. Описание сцен — docs/norm.md.
 # Шаг: action + actor (+ object, target). required: false — шаг бывает не в каждом экземпляре.
 # Порядок шагов в экземпляре должен совпадать с порядком в шаблоне (пропуски необязательных допустимы, повторы — тоже).
+# anytime: true — шаг бывает в любой момент (работа за компьютером, бумаги): засчитывается, порядок не задаёт.
 # Инварианты проверяются на каждом экземпляре сценария; это кандидаты в правила decision.
 # norm — id из norms.yaml; null — норматив не подтверждён, в отчёт без ссылки не выводим.
 # basis — косвенные и условные основания из norms_review.yaml (relation: косвенно / условно): идут в описание
@@ -47,8 +48,8 @@ scenarios:
       - {action: take, actor: cashier, object: banknotes, target: cash_machine, required: false}
       - {action: put, actor: cashier, object: banknotes, target: desk, required: false}
       - {action: take, actor: cashier, object: banknotes, target: desk, required: false}
-      - {action: use_laptop, actor: cashier, required: false}
-      - {action: paperwork, actor: cashier, required: false}
+      - {action: use_laptop, actor: cashier, required: false, anytime: true}
+      - {action: paperwork, actor: cashier, required: false, anytime: true}
       - {action: safe_open, actor: cashier, required: false}
       - {action: put, actor: cashier, object: banknotes, target: safe, required: false}
       - {action: take, actor: cashier, object: banknotes, target: safe, required: false}
@@ -84,7 +85,7 @@ scenarios:
       - {action: safe_open, actor: cashier, required: false}
       - {action: put, actor: cashier, object: banknotes, target: safe, required: false}
       - {action: safe_close, actor: cashier, required: false}
-      - {action: use_laptop, actor: cashier, required: false}
+      - {action: use_laptop, actor: cashier, required: false, anytime: true}
     invariants:
       - {title: Сейф открыт дольше обычного, kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, topics: [open_safe], why: сейф открыт только на время закладки; в эталоне до ~11 с}
       - {title: Присвоение части наличных, kind: forbidden, action: keep, norm: null, why: деньги не остаются у кассира}
@@ -101,8 +102,8 @@ scenarios:
       - {action: safe_close, actor: cashier, required: false}
       - {action: put, actor: cashier, object: banknotes, target: cash_machine, required: true}
       - {action: sort_banknotes, actor: cashier, required: false}
-      - {action: paperwork, actor: cashier, required: false}
-      - {action: use_laptop, actor: cashier, required: false}
+      - {action: paperwork, actor: cashier, required: false, anytime: true}
+      - {action: use_laptop, actor: cashier, required: false, anytime: true}
     invariants:
       - {title: Сейф открыт дольше обычного, kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, topics: [open_safe], why: сейф открыт только на время выемки; в эталоне до ~11 с}
       - {title: Присвоение части наличных, kind: forbidden, action: keep, norm: null, why: деньги не остаются у кассира}
@@ -113,8 +114,8 @@ scenarios:
   leave_workplace:
     title: Уход кассира с рабочего места
     steps:
-      - {action: use_laptop, actor: cashier, required: false}
-      - {action: paperwork, actor: cashier, required: false}
+      - {action: use_laptop, actor: cashier, required: false, anytime: true}
+      - {action: paperwork, actor: cashier, required: false, anytime: true}
       - {action: screen_lock, actor: cashier, required: false}  # в чистых X-12, X-23, X-27, X-29 — до работы с сейфом
       - {action: safe_open, actor: cashier, required: false}
       - {action: put, actor: cashier, object: [banknotes, document], target: safe, required: false}

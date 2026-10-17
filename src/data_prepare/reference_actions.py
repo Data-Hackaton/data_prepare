@@ -119,6 +119,10 @@ def check_instance(where: str, scenario: dict, actions: list[dict], errors: list
             flag(a["t"], "out_of_template", f"{a['action']} {a.get('object') or ''} на {a['t']} с — вне шаблона", warnings, a)
             assigned.append(None)
             continue
+        anytime = [i for i in candidates if steps[i].get("anytime")]
+        if anytime:  # шаг без места в порядке (работа за компьютером, бумаги) указатель не двигает
+            assigned.append(anytime[0])
+            continue
         forward = [i for i in candidates if i >= pointer]
         if not forward:
             flag(a["t"], "order", f"{a['action']} на {a['t']} с идёт раньше по шаблону, чем предыдущие шаги", errors, a)

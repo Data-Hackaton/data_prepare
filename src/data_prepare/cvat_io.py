@@ -81,7 +81,8 @@ def sync_labels(args) -> None:
 def reimport(args) -> None:
     """Заменить предразметку в задачах раунда, которые ещё никто не правил.
 
-    Нетронутая задача — все jobs в состоянии new и не сохранялись позже чем через 5 минут после создания задачи.
+    Нетронутая задача — все jobs в состоянии new и все боксы из импорта (source=file). Время изменения jobs
+    не годится: CVAT сдвигает его у всех jobs, когда в проект добавляют метки.
     Задачи, где уже есть правки человека, пропускаются: их разметку не трогаем.
     """
     root = args.data / "frames" / args.round
@@ -91,11 +92,10 @@ def reimport(args) -> None:
         for task in sorted(client.tasks.list(), key=lambda t: t.id):
             if task.project_id != project.id:
                 continue
-            jobs = task.get_jobs()
-            touched = [j.id for j in jobs
-                       if j.state != "new" or (j.updated_date - task.created_date).total_seconds() > 300]
-            if touched:
-                print(f"  {task.name}: пропущена — jobs {touched} уже правили")
+            touched = [j.id for j in task.get_jobs() if j.state != "new"]
+            manual = sum(1 for s in task.get_annotations().shapes if str(s.source) != "file")
+            if touched or manual:
+                print(f"  {task.name}: пропущена — jobs не в new: {touched}, ручных боксов: {manual}")
                 continue
             names = {Path(f.name).name for f in task.get_frames_info()}
             subset = coco_subset(coco, names)

@@ -3,6 +3,8 @@
 # Порядок шагов в экземпляре должен совпадать с порядком в шаблоне (пропуски необязательных допустимы, повторы — тоже).
 # Инварианты проверяются на каждом экземпляре сценария; это кандидаты в правила decision.
 # norm — id из norms.yaml; null — норматив не подтверждён, в отчёт без ссылки не выводим.
+# severity — статус события, на котором сработало правило: violation (нарушение) или warning (предупреждение);
+# по умолчанию violation, если есть norm, иначе warning (data_prepare/sop_events.py).
 
 vocabulary:
   actors: [cashier, client, collector]
@@ -52,8 +54,8 @@ scenarios:
       - {kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, why: сейф открыт только на время закладки или выемки; в эталоне до ~11 с}
       - {kind: before, first: safe_close, then: {action: person_leave, actor: client}, norm: null, why: клиент уходит при закрытом сейфе}
       - {kind: before, first: {action: put, target: cash_machine}, then: {action: put, target: safe}, norm: null, why: деньги идут в сейф после машинки}
-      - {kind: forbidden, action: split_bundle, norm: null, why: при клиенте пачку целиком отдают или кладут в сейф; по стопкам раскладывают только без посетителей (X-1)}
-      - {kind: forbidden, action: keep, norm: null, why: деньги не остаются у кассира (X-1)}
+      - {kind: forbidden, action: split_bundle, norm: null, severity: violation, why: при клиенте пачку целиком отдают или кладут в сейф; по стопкам раскладывают только без посетителей (X-1)}
+      - {kind: forbidden, action: keep, norm: null, severity: violation, why: деньги не остаются у кассира (X-1)}
       - {kind: forbidden_after, after: {action: person_leave, actor: client}, action: {action: put, object: banknotes, target: cash_machine}, norm: n231_p20, why: деньги пересчитываются в присутствии клиента (X-34)}
       - {kind: forbidden_after, after: {action: person_leave, actor: client}, action: count_by_hand, norm: n231_p20, why: деньги пересчитываются в присутствии клиента}
       - {kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, why: личные вещи хранятся вне кассового узла}

@@ -5,11 +5,13 @@
    порядок шагов по шаблону, обязательные шаги и инварианты;
 2. если ошибок нет, пишет в feature store (DATA_DIR/features):
    <sha256>/actions.parquet      журнал действий видео, source=reference_r0
+   <sha256>/events.parquet       события со статусами expected / warning / violation (sop_events.py)
    reference/scenarios.parquet   шаги шаблонов по порядку
    reference/invariants.parquet  инварианты шаблонов и видео, с нормативом
    reference/norms.parquet       нормативы (документ, пункт, URL, цитата)
    reference/violations.parquet  каталог нарушений: чем пойманы, норматив
    reference/summary.json        покрытие шагов и длительности открытого сейфа
+   reference/events_report.md    таймлайн событий по каждому видео
    index.parquet                 какие видео и источники лежат в store
 """
 
@@ -24,6 +26,8 @@ from pathlib import Path
 import pyarrow as pa
 import pyarrow.parquet as pq
 import yaml
+
+from data_prepare.sop_events import STATUS_RU, STATUSES, build_events, render_report, rule_severity, worst
 
 SOURCE = "reference_r0"
 CATCH_WINDOW_SEC = 3  # отклонение должно сработать не дальше, чем в 3 с от размеченной секунды
@@ -41,6 +45,27 @@ ACTIONS_SCHEMA = pa.schema([
     ("actor", pa.string()),
     ("object", pa.string()),
     ("target", pa.string()),
+    ("certain", pa.bool_()),
+    ("source", pa.string()),
+])
+
+EVENTS_SCHEMA = pa.schema([
+    ("video", pa.string()),
+    ("sha256", pa.string()),
+    ("scene", pa.string()),
+    ("scenario", pa.string()),
+    ("instance", pa.int32()),
+    ("step", pa.int32()),  # номер шага процедуры с 1, как в NVIDIA actions.json; null — вне процедуры
+    ("t_start", pa.float32()),
+    ("t_end", pa.float32()),
+    ("event", pa.string()),
+    ("actor", pa.string()),
+    ("object", pa.string()),
+    ("target", pa.string()),
+    ("status", pa.string()),  # expected / warning / violation
+    ("rules", pa.list_(pa.string())),
+    ("norm", pa.string()),
+    ("message", pa.string()),
     ("certain", pa.bool_()),
     ("source", pa.string()),
 ])
@@ -69,49 +94,53 @@ def selector_matches(sel, a: dict) -> bool:
 
 
 def check_instance(where: str, scenario: dict, actions: list[dict], errors: list, warnings: list,
-                   safe_durations: list, hits: list | None = None) -> list[int | None]:
+                   safe_durations: list, hits: list | None = None, partial: bool = False) -> list[int | None]:
     """Возвращает номер шага шаблона для каждого действия (None — вне шаблона).
 
     Каждое отклонение от нормы пишется в errors (или warnings для действий вне шаблона)
-    и, если передан hits, — туда же с временем и правилом: по hits видно, чем поймано нарушение.
+    и, если передан hits, — туда же с временем, правилом, статусом (sop_events.STATUSES) и ссылкой на действие:
+    по hits видно, чем поймано нарушение, и из них собираются события. partial — экземпляр в журнале
+    записан не с начала, пропущенные обязательные шаги не считаются.
     """
-    def flag(t: float, rule: str, message: str, target: list, norm: str | None = None) -> None:
+    def flag(t: float, rule: str, message: str, target: list, action: dict | None = None,
+             severity: str = "warning", norm: str | None = None) -> None:
         target.append(f"{where}: {message}")
         if hits is not None:
-            hits.append({"t": t, "rule": rule, "message": message, "norm": norm})
+            hits.append({"t": t, "rule": rule, "message": message, "norm": norm, "severity": severity,
+                         "ref": None if action is None else id(action)})
 
     steps = scenario["steps"]
     pointer, assigned = 0, []
     for a in actions:
         candidates = [i for i, s in enumerate(steps) if step_matches(s, a)]
         if not candidates:
-            flag(a["t"], "out_of_template", f"{a['action']} {a.get('object') or ''} на {a['t']} с — вне шаблона", warnings)
+            flag(a["t"], "out_of_template", f"{a['action']} {a.get('object') or ''} на {a['t']} с — вне шаблона", warnings, a)
             assigned.append(None)
             continue
         forward = [i for i in candidates if i >= pointer]
         if not forward:
-            flag(a["t"], "order", f"{a['action']} на {a['t']} с идёт раньше по шаблону, чем предыдущие шаги", errors)
+            flag(a["t"], "order", f"{a['action']} на {a['t']} с идёт раньше по шаблону, чем предыдущие шаги", errors, a)
             assigned.append(candidates[0])
             continue
         pointer = forward[0]
         assigned.append(pointer)
 
     for i, s in enumerate(steps):
-        if s.get("required") and i not in assigned:
+        if s.get("required") and i not in assigned and not partial:
             flag(actions[0]["t"] if actions else 0, "required", f"нет обязательного шага {s['action']} ({s.get('actor', '')})", errors)
 
     for inv in scenario.get("invariants", []):
-        norm = inv.get("norm")
+        norm, severity = inv.get("norm"), rule_severity(inv)
         if inv["kind"] == "max_duration":
             for a in (x for x in actions if selector_matches(inv["from"], x)):
                 close = next((b for b in actions if selector_matches(inv["to"], b) and b["t"] >= a["t"]), None)
                 if close is None:
-                    flag(a["t"], "max_duration", f"{inv['from']} на {a['t']} с без {inv['to']}", errors, norm)
+                    flag(a["t"], "max_duration", f"{inv['from']} на {a['t']} с без {inv['to']}", errors, a, severity, norm)
                     continue
                 duration = close["t"] - a["t"]
                 safe_durations.append(duration)
                 if duration > inv["sec"]:
-                    flag(a["t"], "max_duration", f"{inv['from']}→{inv['to']} {duration} с > {inv['sec']} с", errors, norm)
+                    flag(a["t"], "max_duration", f"{inv['from']}→{inv['to']} {duration} с > {inv['sec']} с", errors, a, severity, norm)
         elif inv["kind"] == "before":
             if "if_present" in inv and not any(selector_matches(inv["if_present"], x) for x in actions):
                 continue
@@ -119,20 +148,23 @@ def check_instance(where: str, scenario: dict, actions: list[dict], errors: list
             for then in (x for x in actions if selector_matches(inv["then"], x)):
                 if not firsts:
                     if "if_present" in inv:
-                        flag(then["t"], "before", f"{then['action']} на {then['t']} с без предшествующего {inv['first']}", errors, norm)
+                        flag(then["t"], "before", f"{then['action']} на {then['t']} с без предшествующего {inv['first']}",
+                             errors, then, severity, norm)
                 elif min(firsts) > then["t"]:
-                    flag(then["t"], "before", f"{inv['first']} после {then['action']} ({min(firsts)} с > {then['t']} с)", errors, norm)
+                    flag(then["t"], "before", f"{inv['first']} после {then['action']} ({min(firsts)} с > {then['t']} с)",
+                         errors, then, severity, norm)
         elif inv["kind"] == "forbidden":
             for a in (x for x in actions if selector_matches(inv["action"], x)):
                 flag(a["t"], f"forbidden:{a['action']}", f"{a['action']} {a.get('object') or ''} на {a['t']} с запрещено: {inv.get('why', '')}",
-                     errors, norm)
+                     errors, a, severity, norm)
         elif inv["kind"] == "forbidden_after":
             starts = [x["t"] for x in actions if selector_matches(inv["after"], x)]
             if not starts:
                 continue
             for a in (x for x in actions if selector_matches(inv["action"], x) and x["t"] >= min(starts)):
                 flag(a["t"], f"forbidden_after:{a['action']}",
-                     f"{a['action']} на {a['t']} с после {inv['after']} ({min(starts)} с): {inv.get('why', '')}", errors, norm)
+                     f"{a['action']} на {a['t']} с после {inv['after']} ({min(starts)} с): {inv.get('why', '')}",
+                     errors, a, severity, norm)
     return assigned
 
 
@@ -153,7 +185,7 @@ def check_video(where: str, instances: list[list[dict]], video_invariants: list[
                     errors.append(f"{where}: {message}")
                     if hits is not None:
                         hits.append({"t": t, "rule": f"desk_carryover:{inv['object']}", "message": message,
-                                     "norm": inv.get("norm")})
+                                     "norm": inv.get("norm"), "severity": rule_severity(inv), "ref": id(a)})
             if a.get("object") == inv["object"] and a.get("target") == "desk":
                 if a["action"] == "put":
                     on_desk.append((k, t))
@@ -185,9 +217,12 @@ def main() -> None:
     coverage: dict[str, Counter] = defaultdict(Counter)
     n_instances: Counter = Counter()
 
-    def journal_rows(video: str, entry: dict, verdict: str, check_errors: list, check_warnings: list,
-                     hits: list | None = None) -> list[dict] | None:
-        """Проверка словаря и таймкодов (ошибки — общие) и порядка по шаблону (ошибки — в check_*)."""
+    def journal_rows(video: str, entry: dict, verdict: str, check_errors: list, check_warnings: list
+                     ) -> tuple[list[dict], list[dict], list[dict]] | None:
+        """Проверка словаря и таймкодов (ошибки — общие) и порядка по шаблону (ошибки — в check_*).
+
+        Возвращает строки журнала для actions.parquet, события со статусами и все сработавшие правила.
+        """
         label = labels.get(video)
         if label is None:
             errors.append(f"{video}: нет в labels.csv")
@@ -195,7 +230,7 @@ def main() -> None:
         if label["verdict"] != verdict or label["duplicate_of"]:
             errors.append(f"{video}: ожидалось уникальное видео с вердиктом {verdict}")
         duration = float(label["duration_sec"])
-        rows, instance_actions = [], []
+        rows, instance_actions, instances, hits = [], [], [], []
         for idx, inst in enumerate(entry["instances"], start=1):
             name = inst["scenario"]
             where = f"{video}#{idx} {name}"
@@ -212,8 +247,12 @@ def main() -> None:
                         errors.append(f"{where}: {field}={a[field]} не из словаря")
                 if max(a["t"], a.get("t_end", a["t"])) > duration + 1:
                     errors.append(f"{where}: {a['action']} на {a['t']} с за пределами видео ({duration:.1f} с)")
+            first_hit = len(hits)
             steps = check_instance(where, scenarios[name], actions, check_errors, check_warnings,
-                                   safe_durations if verdict == "no_violation" else [], hits)
+                                   safe_durations if verdict == "no_violation" else [], hits, inst.get("partial", False))
+            for h in hits[first_hit:]:
+                h.update(instance=idx, scenario=name)
+            instances.append((name, actions, steps))
             if verdict == "no_violation":
                 n_instances[name] += 1
                 coverage[name].update({s for s in steps if s is not None})
@@ -226,24 +265,27 @@ def main() -> None:
                     "target": a.get("target"), "certain": a.get("certain", True), "source": SOURCE,
                 })
         check_video(video, instance_actions, spec.get("video_invariants", []), check_errors, hits)
-        return rows
+        for e in (events := build_events(video, instances, hits)):
+            e.update(sha256=label["sha256"], scene=entry.get("scene"), source=SOURCE)
+        return rows, events, hits
+
+    events_by_video: dict[str, list[dict]] = {}
 
     # эталон нормы: любое отклонение от шаблона — ошибка
     for video, entry in journal.items():
-        rows = journal_rows(video, entry, "no_violation", errors, warnings)
-        if rows is not None:
-            rows_by_video[video] = rows
+        result = journal_rows(video, entry, "no_violation", errors, warnings)
+        if result is not None:
+            rows_by_video[video], events_by_video[video], _ = result
 
     # каталог нарушений: отклонение обязано сработать рядом с каждой размеченной секундой
     violation_rows = []
     for video, entry in catalog.items():
-        hits: list[dict] = []
-        rows = journal_rows(video, entry, "violation", [], [], hits)
-        if rows is None:
+        result = journal_rows(video, entry, "violation", [], [])
+        if result is None:
             continue
-        rows_by_video[video] = rows
+        rows_by_video[video], events_by_video[video], hits = result
         for label_t in as_list(entry["label_t"]):
-            near = [h for h in hits if abs(h["t"] - label_t) <= CATCH_WINDOW_SEC]
+            near = [{k: v for k, v in h.items() if k != "ref"} for h in hits if abs(h["t"] - label_t) <= CATCH_WINDOW_SEC]
             if not near:
                 errors.append(f"{video}: шаблоны не ловят нарушение «{entry['type']}» около {label_t} с — дополнить scenarios.yaml")
             # норматив из каталога (его дал человек) важнее норматива сработавшего правила
@@ -258,6 +300,14 @@ def main() -> None:
                 "quote": norm.get("quote"),
                 "evidence": json.dumps(entry.get("evidence", {})), "caught_by": json.dumps(near, ensure_ascii=False),
             })
+
+    # сверка итогов событий с разметкой организаторов
+    for video, events in events_by_video.items():
+        status = worst(e["status"] for e in events)
+        if labels[video]["verdict"] == "no_violation" and status == "violation":
+            errors.append(f"{video}: видео без нарушения, а в событиях есть нарушение")
+        if labels[video]["verdict"] == "violation" and status != "violation":
+            errors.append(f"{video}: видео с нарушением, а итог событий — {STATUS_RU[status]}")
 
     summary = {"source": SOURCE, "videos": len(rows_by_video), "scenarios": {}}
     for name, scenario in scenarios.items():
@@ -291,6 +341,10 @@ def main() -> None:
         print(f"\n[нарушение] {v['video']} {v['label_t']:.0f} с — {v['type']}: {rules}")
         for h in caught:
             print(f"    {h['t']} с: {h['message']}")
+    print("\nсобытия по видео (ожидаемое / предупреждение / нарушение):")
+    for video, events in sorted(events_by_video.items(), key=lambda kv: int(kv[0][2:])):
+        counts = [sum(e["status"] == s for e in events) for s in STATUSES]
+        print(f"  {video:<5} {labels[video]['verdict']:<13} → {STATUS_RU[worst(e['status'] for e in events)]:<15} {counts}")
     for w in warnings:
         print(f"[вне шаблона] {w}")
     for e in errors:
@@ -307,10 +361,19 @@ def main() -> None:
         sha = labels[video]["sha256"]
         (store / sha).mkdir(exist_ok=True)
         pq.write_table(pa.Table.from_pylist(rows, schema=ACTIONS_SCHEMA), store / sha / "actions.parquet")
-        index.append({"sha256": sha, "video": video, "verdict": labels[video]["verdict"],
-                      "scene": (journal.get(video) or catalog.get(video)).get("scene"), "table": "actions",
-                      "source": SOURCE, "rows": len(rows)})
+        pq.write_table(pa.Table.from_pylist(events_by_video[video], schema=EVENTS_SCHEMA), store / sha / "events.parquet")
+        scene = (journal.get(video) or catalog.get(video)).get("scene")
+        for table, n in (("actions", len(rows)), ("events", len(events_by_video[video]))):
+            index.append({"sha256": sha, "video": video, "verdict": labels[video]["verdict"], "scene": scene,
+                          "table": table, "source": SOURCE, "rows": n})
     pq.write_table(pa.Table.from_pylist(index), store / "index.parquet")
+
+    report_videos = [
+        {"video": v, "scene": (journal.get(v) or catalog.get(v)).get("scene"), "label_verdict": labels[v]["verdict"],
+         "label_t": as_list(catalog.get(v, {}).get("label_t")), "events": events_by_video[v]}
+        for v in sorted(events_by_video, key=lambda v: int(v[2:]))
+    ]
+    (store / "reference" / "events_report.md").write_text(render_report(report_videos, norms))
     if violation_rows:
         pq.write_table(pa.Table.from_pylist(violation_rows), store / "reference" / "violations.parquet")
 
@@ -331,4 +394,6 @@ def main() -> None:
         pq.write_table(pa.Table.from_pylist([{"norm": k, **v} for k, v in norms.items()]),
                        store / "reference" / "norms.parquet")
     (store / "reference" / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2))
-    print(f"\n→ {store}: {len(index)} видео, {sum(r['rows'] for r in index)} действий")
+    actions_index = [r for r in index if r["table"] == "actions"]
+    n_events = sum(r["rows"] for r in index if r["table"] == "events")
+    print(f"\n→ {store}: {len(actions_index)} видео, {sum(r['rows'] for r in actions_index)} действий, {n_events} событий")

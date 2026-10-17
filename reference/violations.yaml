@@ -39,6 +39,7 @@ X-4:  # X-47 — побайтная копия X-4: таймкоды 57 с (X-4)
   evidence: {left_on_desk: [48, 56], next_client: [56.5, 59], mixed: [64.5, 71.5]}
   instances:
     - scenario: client_service
+      partial: true  # журнал с 44 с, начало визита первого клиента не записано
       actions:
         - {t: 44, t_end: 47, action: use_laptop, actor: cashier, certain: false}
         - {t: 47.5, t_end: 48.5, action: give, actor: cashier, object: document, target: client, certain: false}
@@ -63,6 +64,7 @@ X-38:
   evidence: {left_on_desk: [26, 40], next_client: [31, 36]}
   instances:
     - scenario: client_service
+      partial: true  # журнал с 24 с, начало визита первого клиента не записано
       actions:
         - {t: 24, action: put, actor: cashier, object: banknotes, target: desk, certain: false}
         - {t: 26, t_end: 28, action: person_leave, actor: client}

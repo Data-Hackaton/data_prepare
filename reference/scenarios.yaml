@@ -28,6 +28,7 @@ vocabulary:
     paperwork: оформляет бумаги на столе
     phone_call: говорит по мобильному телефону
     lights_off: выключает свет
+    safe_left_open: дверца сейфа открыта, а кассир отошёл от сейфа (по VLM)
     split_bundle: делит одну пачку на две части (в руках была одна пачка — стало две)
     keep: оставляет деньги при себе — не в машинку, не в сейф, не клиенту
 
@@ -63,6 +64,7 @@ scenarios:
       # предупреждение, не нарушение: детектор путает телефон у лица с удостоверением, поднятым к глазам (X-5)
       - {title: Телефон кассира при обслуживании клиента, kind: forbidden, action: phone_call, norm: null, severity: warning, why: при клиенте кассир не пользуется личным телефоном; примера в датасете нет (в X-2 у кассира купюры, не телефон; в X-14 телефон без клиента — норма)}
       - {title: Постороннее лицо у кассы во время обслуживания, kind: forbidden, action: {action: person_enter, actor: visitor}, norm: null, severity: violation, why: пока обслуживается клиент, у кассы нет других посетителей (X-18)}
+      - {title: Сейф оставлен открытым, kind: forbidden, action: safe_left_open, norm: null, severity: violation, why: дверцу сейфа закрывают сразу после закладки или выемки, а не оставляют открытой, отходя от сейфа (X-20, X-13)}
       - {title: Кассир ушёл до окончания обслуживания, kind: before, first: {action: person_leave, actor: client}, then: {action: person_leave, actor: cashier}, norm: n231_p22, why: кассир не покидает рабочее место, пока клиент не обслужен}
 
   collection:
@@ -85,6 +87,7 @@ scenarios:
       - {title: Присвоение части наличных, kind: forbidden, action: keep, norm: null, why: деньги не остаются у кассира}
       - {title: Деньги в сейф без пересчёта на машинке, kind: before, first: {action: put, target: cash_machine}, then: {action: put, target: safe}, norm: null, why: пачки идут в сейф после пересчёта}
       - {title: Личные вещи на кассовом столе, kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, why: личные вещи хранятся вне кассового узла}
+      - {title: Сейф оставлен открытым, kind: forbidden, action: safe_left_open, norm: null, severity: violation, why: дверцу сейфа закрывают сразу после закладки или выемки, а не оставляют открытой, отходя от сейфа (X-20, X-13)}
 
   cash_handling:
     title: Работа с наличностью без посетителей
@@ -101,6 +104,8 @@ scenarios:
       - {title: Сейф открыт дольше обычного, kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, why: сейф открыт только на время выемки; в эталоне до ~11 с}
       - {title: Присвоение части наличных, kind: forbidden, action: keep, norm: null, why: деньги не остаются у кассира}
       - {title: Личные вещи на кассовом столе, kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, why: личные вещи хранятся вне кассового узла (X-40)}
+      - {title: Сейф оставлен открытым, kind: forbidden, action: safe_left_open, norm: null, severity: violation, why: дверцу сейфа закрывают сразу после закладки или выемки, а не оставляют открытой, отходя от сейфа (X-20, X-13)}
+      - {title: Постороннее лицо у кассы, kind: forbidden, action: {action: person_enter, actor: visitor}, norm: null, severity: violation, why: на стороне кассира нет посторонних (X-30)}
 
   leave_workplace:
     title: Уход кассира с рабочего места
@@ -119,6 +124,8 @@ scenarios:
       - {title: Сейф открыт дольше обычного, kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, why: сейф открыт только на время закладки; в эталоне до ~11 с}
       - {title: Присвоение части наличных, kind: forbidden, action: keep, norm: null, why: деньги не остаются у кассира}
       - {title: Личные вещи на кассовом столе, kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, why: личные вещи хранятся вне кассового узла}
+      - {title: Сейф оставлен открытым, kind: forbidden, action: safe_left_open, norm: null, severity: violation, why: дверцу сейфа закрывают сразу после закладки или выемки, а не оставляют открытой, отходя от сейфа (X-20, X-13)}
+      - {title: Постороннее лицо у кассы, kind: forbidden, action: {action: person_enter, actor: visitor}, norm: null, severity: violation, why: на стороне кассира нет посторонних (X-30)}
 
 # Проверки через все экземпляры видео подряд.
 video_invariants:
@@ -134,11 +141,12 @@ video_invariants:
       - {action: put, object: banknotes, target: desk}
     norm: n231_p20
     why: на рабочем месте кассира только наличные текущего клиента, ранее принятые хранятся в сейфе (X-4, X-38)
-  # То же при уходе кассира: деньги и инкассаторская сумка не остаются на столе (X-15, X-26). any_instance —
-  # срабатывает и на том, что положено в этом же экземпляре.
+  # То же при уходе кассира: деньги, инкассаторская сумка, штампы и служебная книга (document) не остаются на
+  # столе (X-15, X-24, X-26; в чистом X-25 штампы и книга перед уходом убраны). any_instance — срабатывает и на
+  # том, что положено в этом же экземпляре.
   - kind: desk_carryover
-    title: Наличные на столе при уходе кассира
-    object: [banknotes, bag]
+    title: Ценности на столе при уходе кассира
+    object: [banknotes, bag, document]
     any_instance: true
     triggers:
       - {action: person_leave, actor: cashier}

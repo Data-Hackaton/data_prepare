@@ -1,0 +1,126 @@
+{
+  "created_at_utc": "2026-10-17T14:33:10.731876+00:00",
+  "official_sources_downloaded": 17,
+  "all_source_text_coverage_complete": true,
+  "rule_topics": 80,
+  "videos_in_inventory": 42,
+  "positive_scenarios_in_inventory": 22,
+  "positive_scenarios_with_source_mapping": 22,
+  "positive_scenarios_with_general_basis_only": [
+    "Х-28.mov"
+  ],
+  "negative_videos_without_existing_description": [
+    "Х-8.mov",
+    "Х-10.mov"
+  ],
+  "coverage_status_counts": {
+    "sources_mapped_with_conditions": 21,
+    "comparison_description_available": 18,
+    "no_existing_description": 2,
+    "general_basis_only": 1
+  },
+  "universal_legal_coverage_claimed": false,
+  "detector_accuracy_measured": false,
+  "new_video_review_performed": false,
+  "video_date_known": false,
+  "interpretation": "Полнота извлечения проверена для выбранных источников. Сопоставление всех известных сценариев с источниками не подтверждает нарушение в каждом ролике и не гарантирует покрытие неизвестных тестовых типов.",
+  "video_inventory_mode": "saved_preliminary_audit_records_not_new_video_review",
+  "video_audit_snapshot_at_utc": "2026-10-17T13:05:39.291879+00:00",
+  "video_observations_in_repository": true,
+  "new_source_ids": [
+    "K1500000414",
+    "P1600000832",
+    "V1500010889",
+    "V1500010949",
+    "V1500012534",
+    "V1500012665",
+    "V2200026867",
+    "V2300032810",
+    "Z1300000073",
+    "Z1300000094",
+    "Z2600000258"
+  ],
+  "combined_distinct_document_count": 21,
+  "retained_history_and_amendment_ids": [
+    "V1800016772",
+    "V1900019391",
+    "V2600038217",
+    "V2600039191"
+  ],
+  "public_bank_document_files": 31,
+  "new_public_bank_files_in_expansion": 26,
+  "combined_regulatory_and_bank_document_records": 52,
+  "public_bank_evidence_cards": 14,
+  "bank_document_count_includes_editions_annexes_manuals_and_reports": true,
+  "employee_specific_short_absence_rule_confirmed": false,
+  "bank_source_index": "forte_public/README.md",
+  "comparative_security_index": "comparative_security/README.md",
+  "comparative_sources_establish_forte_employee_obligation": false,
+  "labor_safety_source_ids": [
+    "K1500000414",
+    "V1500012534",
+    "V1500012665",
+    "V1500010889",
+    "V1500010949"
+  ],
+  "labor_safety_topics_added": 14,
+  "labor_safety_index": "labor_safety/README.md",
+  "labor_safety_audit_modes": {
+    "requires_documents_and_context": 6,
+    "conditional_visual_with_context": 2,
+    "requires_zone_classification": 1,
+    "document_audit_only": 4,
+    "requires_object_identification": 1
+  },
+  "labor_safety_immediate_screen_lock_rule_confirmed": false,
+  "reference_workflow_index": "reference_workflows/README.md",
+  "reference_workflow_summary": {
+    "workflow_count": 8,
+    "step_count": 42,
+    "schema_version": "2.0",
+    "topic_procedure_count": 80,
+    "topic_step_count": 241,
+    "topic_exception_count": 116,
+    "topic_exception_count_scope": "exceptions_alternatives_applicability_branches_and_evidence_limits",
+    "topic_condition_kinds": {
+      "express_normative_exception": 25,
+      "permitted_alternative": 22,
+      "applicability_limit": 37,
+      "evidence_limit": 28,
+      "conditional_branch": 4
+    },
+    "topic_coverage_scope": "all_80_catalog_topics_expanded_not_all_violations_proven",
+    "missing_topic_ids": [],
+    "unknown_topic_ids": [],
+    "topic_procedure_types": {
+      "standing_condition": 9,
+      "operator_procedure": 51,
+      "document_and_visual_review": 3,
+      "premises_audit": 4,
+      "system_control_audit": 4,
+      "unresolved_requirement_check": 1,
+      "document_audit": 6,
+      "general_obligation_review": 2
+    },
+    "distinct_references": 187,
+    "official_source_count": 16,
+    "step_observability": {
+      "context_required": 12,
+      "partly_observable": 19,
+      "not_visually_verifiable": 11
+    },
+    "topic_step_observability": {
+      "partly_observable": 85,
+      "context_required": 71,
+      "not_visually_verifiable": 85
+    },
+    "new_video_labels_created": false,
+    "model_trained": false,
+    "bank_approved_internal_regulation": false,
+    "all_80_rule_topics_covered": true,
+    "universal_legal_coverage_claimed": false,
+    "short_absence_immediate_lock_gap_closed": false
+  },
+  "bank_pdf_image_text_fully_transcribed": false,
+  "source_text_completeness_scope": "Полнота текстового извлечения выше относится к 17 государственным HTML-источникам. Для PDF банка проверен обход страниц; полный OCR изображений не заявлен."
+}

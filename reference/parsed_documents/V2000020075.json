@@ -1,0 +1,2950 @@
+{
+  "document_id": "V2000020075",
+  "short_name": "НБРК № 14 от 24.02.2020",
+  "title": "Об утверждении Правил организации охраны и устройства помещений банков второго уровня, филиалов банков-нерезидентов Республики Казахстан, Национального оператора почты, юридических лиц, исключительной деятельностью которых является инкассация банкнот, монет и ценностей, и юридических лиц, осуществляющих деятельность исключительно через обменные пункты на основании лицензии Национального Банка Республики Казахстан на обменные операции с наличной иностранной валютой",
+  "purpose": "охрана и устройство помещений",
+  "source_status": "Обновленный",
+  "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+  "source_path": "sources/V2000020075.html",
+  "source_sha256": "99ff8ab9895c7699d0b5f423c13eed6539b0ef96cea17c2f6c1604e5991427ce",
+  "parsed_at_utc": "2026-10-17T09:06:23.922348+00:00",
+  "status": "parsed",
+  "coverage": {
+    "article_text_complete": true,
+    "original_nonwhitespace_characters": 18101,
+    "extracted_nonwhitespace_characters": 18101,
+    "article_closed_in_source": true,
+    "image_refs_count": 0,
+    "images_transcribed": false
+  },
+  "stats": {
+    "note": 18,
+    "paragraph": 42,
+    "numbered_paragraph": 29,
+    "subparagraph": 48,
+    "table": 2,
+    "heading": 5
+  },
+  "blocks": [
+    {
+      "block_id": "V2000020075:block-1",
+      "order": 1,
+      "kind": "note",
+      "tag": "p",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "",
+      "text": "Сноска. Заголовок - в редакции постановления Правления Национального Банка РК от 21.09.2020 № 105 (вводится в действие с 16.12.2020).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 105",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2000021287#z7"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z4",
+      "order": 2,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z4",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z4",
+      "heading_context": "",
+      "text": "В соответствии с подпунктом 11) части второй статьи 15 Закона Республики Казахстан \"О Национальном Банке Республики Казахстан\" Правление Национального Банка Республики Казахстан ПОСТАНОВЛЯЕТ:",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z4"
+      ],
+      "links": [
+        {
+          "text": "подпунктом 11)",
+          "url": "https://old.adilet.zan.kz/rus/docs/Z950002155_#z496"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-3",
+      "order": 3,
+      "kind": "note",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "",
+      "text": "Сноска. Преамбула - в редакции постановления Правления Национального Банка РК от 19.12.2022",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-4",
+      "order": 4,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "",
+      "text": "№ 125",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 125",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2200031252#z97"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-5",
+      "order": 5,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "",
+      "text": "(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z5",
+      "order": 6,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z5",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z5",
+      "heading_context": "",
+      "text": "1. Утвердить прилагаемые Правила организации охраны и устройства помещений банков второго уровня, филиалов банков-нерезидентов Республики Казахстан, Национального оператора почты, юридических лиц, исключительной деятельностью которых является инкассация банкнот, монет и ценностей, и юридических лиц, осуществляющих деятельность исключительно через обменные пункты на основании лицензии Национального Банка Республики Казахстан на обменные операции с наличной иностранной валютой.",
+      "point_number": "1",
+      "subpoint_number": null,
+      "anchors": [
+        "z5"
+      ],
+      "links": [
+        {
+          "text": "Правила",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-7",
+      "order": 7,
+      "kind": "note",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "",
+      "text": "Сноска. Пункт 1 - в редакции постановления Правления Национального Банка РК от 21.09.2020",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-8",
+      "order": 8,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "",
+      "text": "№ 105",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 105",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2000021287#z9"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-9",
+      "order": 9,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "",
+      "text": "(вводится в действие с 16.12.2020).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z6",
+      "order": 10,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z6",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z6",
+      "heading_context": "",
+      "text": "2. Признать утратившими силу:",
+      "point_number": "2",
+      "subpoint_number": null,
+      "anchors": [
+        "z6"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z7",
+      "order": 11,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z7",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z7",
+      "heading_context": "",
+      "text": "1) постановление Правления Национального Банка Республики Казахстан от 24 августа 2012 года № 250 \"Об утверждении Правил организации охраны и устройства помещений банков и организаций, осуществляющих отдельные виды банковских операций\" (зарегистрировано в Реестре государственной регистрации нормативных правовых актов под № 8080, опубликовано 27 декабря 2012 года в газете \"Казахстанская правда\" № 449-450(27268-27269);",
+      "point_number": null,
+      "subpoint_number": "1",
+      "anchors": [
+        "z7"
+      ],
+      "links": [
+        {
+          "text": "постановление",
+          "url": "https://old.adilet.zan.kz/rus/docs/V1200008080#z1"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z8",
+      "order": 12,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z8",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z8",
+      "heading_context": "",
+      "text": "2) пункт 1 постановления Правления Национального Банка Республики Казахстан от 31 января 2019 года № 18 \"О внесении изменений в некоторые постановления Правления Национального Банка Республики Казахстан по вопросам организации охраны и устройства помещений банков и организаций, осуществляющих отдельные виды банковских операций, учета, хранения, перевозки и инкассации банкнот, монет и ценностей\" (зарегистрировано в Реестре государственной регистрации нормативных правовых актов под № 18297, опубликовано 25 февраля 2019 года в Эталонном контрольном банке нормативных правовых актов Республики Казахстан).",
+      "point_number": null,
+      "subpoint_number": "2",
+      "anchors": [
+        "z8"
+      ],
+      "links": [
+        {
+          "text": "пункт 1",
+          "url": "https://old.adilet.zan.kz/rus/docs/V1900018297#z5"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z9",
+      "order": 13,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z9",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z9",
+      "heading_context": "",
+      "text": "2. Департаменту наличного денежного обращения (Кажмуратов Ж.Т.) в установленном законодательством Республики Казахстан порядке обеспечить:",
+      "point_number": "2",
+      "subpoint_number": null,
+      "anchors": [
+        "z9"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z10",
+      "order": 14,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z10",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z10",
+      "heading_context": "",
+      "text": "1) совместно с Юридическим департаментом (Касенов А.С.) государственную регистрацию настоящего постановления в Министерстве юстиции Республики Казахстан;",
+      "point_number": null,
+      "subpoint_number": "1",
+      "anchors": [
+        "z10"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z11",
+      "order": 15,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z11",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z11",
+      "heading_context": "",
+      "text": "2) размещение настоящего постановления на официальном интернет-ресурсе Национального Банка Республики Казахстан после его официального опубликования;",
+      "point_number": null,
+      "subpoint_number": "2",
+      "anchors": [
+        "z11"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z12",
+      "order": 16,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z12",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z12",
+      "heading_context": "",
+      "text": "3) в течение десяти рабочих дней после государственной регистрации настоящего постановления представление в Юридический департамент сведений об исполнении мероприятий, предусмотренных подпунктом 2) настоящего пункта и пунктом 3 настоящего постановления.",
+      "point_number": null,
+      "subpoint_number": "3",
+      "anchors": [
+        "z12"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z13",
+      "order": 17,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z13",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z13",
+      "heading_context": "",
+      "text": "3. Департаменту информации и коммуникации – пресс-службе Национального Банка (Адамбаева А.Р.) обеспечить в течение десяти календарных дней после государственной регистрации настоящего постановления направление его копии на официальное опубликование в периодические печатные издания.",
+      "point_number": "3",
+      "subpoint_number": null,
+      "anchors": [
+        "z13"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z14",
+      "order": 18,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z14",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z14",
+      "heading_context": "",
+      "text": "4. Контроль за исполнением настоящего постановления возложить на заместителя Председателя Национального Банка Республики Казахстан Галиеву Д.Т.",
+      "point_number": "4",
+      "subpoint_number": null,
+      "anchors": [
+        "z14"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z15",
+      "order": 19,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z15",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z15",
+      "heading_context": "",
+      "text": "5. Настоящее постановление вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования.",
+      "point_number": "5",
+      "subpoint_number": null,
+      "anchors": [
+        "z15"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-20",
+      "order": 20,
+      "kind": "table",
+      "tag": "table",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "",
+      "text": "Председатель Национального Банка Е. Досаев",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": [],
+      "rows": [
+        [
+          {
+            "text": "Председатель Национального Банка",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Е. Досаев",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          }
+        ]
+      ],
+      "html": "<table border=\"0\" width=\"600\">\n<tr>\n<td align=\"left\" width=\"400\">\n<i>      <a name=\"z16\"></a>Председатель Национального Банка </i>\n</td>\n<td align=\"left\" width=\"215\">\n<i>Е. Досаев</i>\n</td>\n</tr>\n\n</table>"
+    },
+    {
+      "block_id": "V2000020075:z17",
+      "order": 21,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z17",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z17",
+      "heading_context": "",
+      "text": "\"СОГЛАСОВАНО\" Министерство внутренних дел Республики Казахстан",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z17"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z18",
+      "order": 22,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z18",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z18",
+      "heading_context": "",
+      "text": "\"СОГЛАСОВАНО\" Агентство Республики Казахстан по регулированию и развитию финансового рынка",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z18"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-23",
+      "order": 23,
+      "kind": "table",
+      "tag": "table",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "",
+      "text": "Утверждены постановлением Правления Национального Банка Республики Казахстан от \"24\" февраля года № 14",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": [],
+      "rows": [
+        [
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Утверждены постановлением Правления Национального Банка Республики Казахстан от \"24\" февраля года № 14",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          }
+        ]
+      ],
+      "html": "<table border=\"0\">\n<tr>\n<td align=\"center\" width=\"387\"> </td>\n<td align=\"center\" width=\"228\"><a name=\"z19\"></a>Утверждены<br>постановлением Правления<br>Национального Банка<br>Республики Казахстан<br>от \"24\" февраля года № 14</td>\n</tr></table>"
+    },
+    {
+      "block_id": "V2000020075:z20",
+      "order": 24,
+      "kind": "heading",
+      "tag": "h3",
+      "anchor": "z20",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z20",
+      "heading_context": "Правила организации охраны и устройства помещений банков второго уровня, филиалов банков-нерезидентов Республики Казахстан, Национального оператора почты, юридических лиц, исключительной деятельностью которых является инкассация банкнот, монет и ценностей, и юридических лиц, осуществляющих деятельность исключительно через обменные пункты на основании лицензии Национального Банка Республики Казахстан на обменные операции с наличной иностранной валютой",
+      "text": "Правила организации охраны и устройства помещений банков второго уровня, филиалов банков-нерезидентов Республики Казахстан, Национального оператора почты, юридических лиц, исключительной деятельностью которых является инкассация банкнот, монет и ценностей, и юридических лиц, осуществляющих деятельность исключительно через обменные пункты на основании лицензии Национального Банка Республики Казахстан на обменные операции с наличной иностранной валютой",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z20"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-25",
+      "order": 25,
+      "kind": "note",
+      "tag": "p",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Правила организации охраны и устройства помещений банков второго уровня, филиалов банков-нерезидентов Республики Казахстан, Национального оператора почты, юридических лиц, исключительной деятельностью которых является инкассация банкнот, монет и ценностей, и юридических лиц, осуществляющих деятельность исключительно через обменные пункты на основании лицензии Национального Банка Республики Казахстан на обменные операции с наличной иностранной валютой",
+      "text": "Сноска. Заголовок - в редакции постановления Правления Национального Банка РК от 21.09.2020 № 105 (вводится в действие с 16.12.2020).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 105",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2000021287#z12"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z21",
+      "order": 26,
+      "kind": "heading",
+      "tag": "h3",
+      "anchor": "z21",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z21",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "Глава 1. Общие положения",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z21"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z22",
+      "order": 27,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z22",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z22",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "1. Настоящие Правила организации охраны и устройства помещений банков второго уровня, филиалов банков - нерезидентов Республики Казахстан, Национального оператора почты, юридических лиц, исключительной деятельностью которых является инкассация банкнот, монет и ценностей, и юридических лиц, осуществляющих деятельность исключительно через обменные пункты на основании лицензии Национального Банка Республики Казахстан на обменные операции с наличной иностранной валютой (далее – Правила) разработаны в соответствии с законами Республики Казахстан \" О Национальном Банке Республики Казахстан\", \" О банках и банковской деятельности в Республике Казахстан\" и определяют порядок организации охраны и устройства помещений банков второго уровня, филиалов банков-нерезидентов Республики Казахстан, Национального оператора почты (далее – банки), юридических лиц, исключительной деятельностью которых является инкассация банкнот, монет и ценностей (далее – инкассаторские организации), юридических лиц, осуществляющих деятельность исключительно через обменные пункты на основании лицензии Национального Банка Республики Казахстан на обменные операции с наличной иностранной валютой (далее – уполномоченные организации), и их филиалов, используемых для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей, обменных операций с наличной иностранной валютой.",
+      "point_number": "1",
+      "subpoint_number": null,
+      "anchors": [
+        "z22"
+      ],
+      "links": [
+        {
+          "text": "О Национальном Банке",
+          "url": "https://old.adilet.zan.kz/rus/docs/Z950002155_#z147"
+        },
+        {
+          "text": "О банках и банковской деятельности",
+          "url": "https://old.adilet.zan.kz/rus/docs/Z950002444_#z1"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-28",
+      "order": 28,
+      "kind": "note",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "Сноска. Пункт 1 - в редакции постановления Правления Национального Банка РК от 19.12.2022",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-29",
+      "order": 29,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "№ 125",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 125",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2200031252#z100"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-30",
+      "order": 30,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z23",
+      "order": 31,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z23",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z23",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "2. В Правилах используются следующие понятия:",
+      "point_number": "2",
+      "subpoint_number": null,
+      "anchors": [
+        "z23"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z24",
+      "order": 32,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z24",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z24",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "1) бокс – изолированное помещение, предназначенное для размещения транспортного средства для осуществления погрузочно-разгрузочных работ с наличными деньгами и ценностями;",
+      "point_number": null,
+      "subpoint_number": "1",
+      "anchors": [
+        "z24"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z25",
+      "order": 33,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z25",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z25",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "2) касса – специально оборудованное помещение для осуществления кассовых операций по приему, выдаче, размену, обмену, пересчету, сортировке, упаковке наличных денег;",
+      "point_number": null,
+      "subpoint_number": "2",
+      "anchors": [
+        "z25"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z26",
+      "order": 34,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z26",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z26",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "3) кассовый узел – система специально оборудованных помещений, предназначенных для осуществления банком, инкассаторской организацией кассовых операций, операций по инкассации банкнот, монет и ценностей;",
+      "point_number": null,
+      "subpoint_number": "3",
+      "anchors": [
+        "z26"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z27",
+      "order": 35,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z27",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z27",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "4) кладовая – специальное помещение, предназначенное для хранения наличных денег и ценностей;",
+      "point_number": null,
+      "subpoint_number": "4",
+      "anchors": [
+        "z27"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z28",
+      "order": 36,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z28",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z28",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "5) предкладовая – помещение, расположенное перед входом в кладовую, предназначенное для вноса в кладовую и выноса из кладовой наличных денег и ценностей;",
+      "point_number": null,
+      "subpoint_number": "5",
+      "anchors": [
+        "z28"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z29",
+      "order": 37,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z29",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z29",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "6) наличные деньги – банкноты и монеты национальной и иностранной валюты;",
+      "point_number": null,
+      "subpoint_number": "6",
+      "anchors": [
+        "z29"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z30",
+      "order": 38,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z30",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z30",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "7) помещение для пересчета наличных денег – специальное помещение, предназначенное для пересчета наличных денег;",
+      "point_number": null,
+      "subpoint_number": "7",
+      "anchors": [
+        "z30"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z31",
+      "order": 39,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z31",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z31",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "8) мобильный кассовый узел – стационарное либо нестационарное помещение (место) банка, предназначенное для осуществления кассовых операций в случаях, предусмотренных в пункте 10 Правил;",
+      "point_number": null,
+      "subpoint_number": "8",
+      "anchors": [
+        "z31"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z32",
+      "order": 40,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z32",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z32",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "9) операционный зал – помещение, предназначенное для банковского обслуживания клиентов, расположенное вне кассового узла перед кассой;",
+      "point_number": null,
+      "subpoint_number": "9",
+      "anchors": [
+        "z32"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z33",
+      "order": 41,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z33",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z33",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "10) пункт централизованной охраны – стационарный технический пункт охраны объекта, предназначенный для приема сигналов тревоги с охраняемого объекта и дальнейшего реагирования вооруженной охраны;",
+      "point_number": null,
+      "subpoint_number": "10",
+      "anchors": [
+        "z33"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z34",
+      "order": 42,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z34",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z34",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "11) сейфовая комната – специально оборудованное помещение, в котором устанавливаются сейфы (металлические шкафы), предназначенные для хранения наличных денег и ценностей;",
+      "point_number": null,
+      "subpoint_number": "11",
+      "anchors": [
+        "z34"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z35",
+      "order": 43,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z35",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z35",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "12) погрузочно-разгрузочная площадка – специально выделенное место для осуществления погрузочно-разгрузочных работ с наличными деньгами и ценностями, исключающее доступ и просмотр посторонних лиц.",
+      "point_number": null,
+      "subpoint_number": "12",
+      "anchors": [
+        "z35"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-44",
+      "order": 44,
+      "kind": "note",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "Сноска. Пункт 2 с изменениями, внесенными постановлением Правления Национального Банка РК от 19.12.2022",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-45",
+      "order": 45,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "№ 125",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 125",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2200031252#z102"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-46",
+      "order": 46,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z36",
+      "order": 47,
+      "kind": "heading",
+      "tag": "h3",
+      "anchor": "z36",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z36",
+      "heading_context": "Глава 2. Порядок организации охраны",
+      "text": "Глава 2. Порядок организации охраны",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z36"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z37",
+      "order": 48,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z37",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z37",
+      "heading_context": "Глава 2. Порядок организации охраны",
+      "text": "3. Банки, инкассаторские организации, уполномоченные организации обеспечивают охрану помещений, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей, обменных операций с наличной иностранной валютой.",
+      "point_number": "3",
+      "subpoint_number": null,
+      "anchors": [
+        "z37"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z38",
+      "order": 49,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z38",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z38",
+      "heading_context": "Глава 2. Порядок организации охраны",
+      "text": "Помещения банков, инкассаторских организаций, уполномоченных организаций, предназначенные для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей, обменных операций с наличной иностранной валютой, охраняются частными охранными организациями путем выставления вооруженных постов охраны либо путем выезда на охраняемый объект по сигналу тревоги, поступившему на пункт централизованной охраны и оборудуются средствами охранной сигнализации в соответствии с требованиями законодательства Республики Казахстан в области охранной деятельности.",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z38"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z39",
+      "order": 50,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z39",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z39",
+      "heading_context": "Глава 2. Порядок организации охраны",
+      "text": "В населенных пунктах, где отсутствует пункт централизованной охраны, тревожная и пожарная сигнализации из охраняемых помещений передается на приемно-контрольный прибор, пульт централизованного наблюдения установленные на посту охраны. Допускается передача сигналов тревоги с охраняемого помещения банков, инкассаторских организаций, уполномоченных организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей, обменных операций с наличной иностранной валютой в жилище руководителя соответствующей организации и (или) участкового инспектора полиции.",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z39"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z40",
+      "order": 51,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z40",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z40",
+      "heading_context": "Глава 2. Порядок организации охраны",
+      "text": "4. Охрана помещений банков, инкассаторских организаций, уполномоченных организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей, обменных операций с наличной иностранной валютой, осуществляется на основании договора об оказании охранных услуг в соответствии с требованиями законодательства Республики Казахстан в области охранной деятельности.",
+      "point_number": "4",
+      "subpoint_number": null,
+      "anchors": [
+        "z40"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z41",
+      "order": 52,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z41",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z41",
+      "heading_context": "Глава 2. Порядок организации охраны",
+      "text": "5. В целях обеспечения пожарной безопасности помещений, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей, обменных операций с наличной иностранной валютой, оборудуется первичными средствами пожаротушения и пожарной автоматикой в соответствии с требованиями законодательства Республики Казахстан о гражданской защите.",
+      "point_number": "5",
+      "subpoint_number": null,
+      "anchors": [
+        "z41"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z42",
+      "order": 53,
+      "kind": "heading",
+      "tag": "h3",
+      "anchor": "z42",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z42",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z42"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z43",
+      "order": 54,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z43",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z43",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "6. В банках для осуществления кассовых операций оборудуется кассовый узел.",
+      "point_number": "6",
+      "subpoint_number": null,
+      "anchors": [
+        "z43"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z44",
+      "order": 55,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z44",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z44",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "7. Кассовый узел включает следующие помещения:",
+      "point_number": "7",
+      "subpoint_number": null,
+      "anchors": [
+        "z44"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z100",
+      "order": 56,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z100",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z100",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "1) кладовая и (или) сейфовая комната;",
+      "point_number": null,
+      "subpoint_number": "1",
+      "anchors": [
+        "z100"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z101",
+      "order": 57,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z101",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z101",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "2) предкладовая (при наличии кладовой);",
+      "point_number": null,
+      "subpoint_number": "2",
+      "anchors": [
+        "z101"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z102",
+      "order": 58,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z102",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z102",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "3) касса;",
+      "point_number": null,
+      "subpoint_number": "3",
+      "anchors": [
+        "z102"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z103",
+      "order": 59,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z103",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z103",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "4) помещение для пересчета наличных денег.",
+      "point_number": null,
+      "subpoint_number": "4",
+      "anchors": [
+        "z103"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z104",
+      "order": 60,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z104",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z104",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Необходимость наличия помещения для пересчета наличных денег определяется банком самостоятельно.",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z104"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-61",
+      "order": 61,
+      "kind": "note",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Сноска. Пункт 7 - в редакции постановления Правления Национального Банка РК от 19.12.2022",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-62",
+      "order": 62,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "№ 125",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 125",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2200031252#z107"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-63",
+      "order": 63,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z49",
+      "order": 64,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z49",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z49",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "8. Кассовый узел подлежит изолированию от других производственных, подсобных, подвальных и служебных помещений одним закрывающимся служебным входом.",
+      "point_number": "8",
+      "subpoint_number": null,
+      "anchors": [
+        "z49"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z50",
+      "order": 65,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z50",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z50",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Допускается оборудовать дополнительный закрывающийся вход для осуществления погрузочно-разгрузочных работ с наличными деньгами и ценностями в боксе или на погрузочно-разгрузочной площадке.",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z50"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z51",
+      "order": 66,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z51",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z51",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "9. Кладовая и (или) сейфовая комната не оборудуются в дополнительном помещении банка, при выполнении следующих операций:",
+      "point_number": "9",
+      "subpoint_number": null,
+      "anchors": [
+        "z51"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z52",
+      "order": 67,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z52",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z52",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "1) организации ежедневной инкассации банкнот, монет и ценностей, исключающей их хранение в нерабочее время в дополнительном помещении;",
+      "point_number": null,
+      "subpoint_number": "1",
+      "anchors": [
+        "z52"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z53",
+      "order": 68,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z53",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z53",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "2) осуществления кассовых операций исключительно с применением устройств, функционирующих в автоматическом режиме.",
+      "point_number": null,
+      "subpoint_number": "2",
+      "anchors": [
+        "z53"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z54",
+      "order": 69,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z54",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z54",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "10. Во время прохождения мероприятий, требующих организации кассового обслуживания участников мероприятия и (или) населения, а также в сельских населенных пунктах допускается использование мобильного кассового узла.",
+      "point_number": "10",
+      "subpoint_number": null,
+      "anchors": [
+        "z54"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-70",
+      "order": 70,
+      "kind": "note",
+      "tag": "font",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Примечание ИЗПИ!",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-71",
+      "order": 71,
+      "kind": "paragraph",
+      "tag": "font",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Действие пункта 11 приостановлено до 01.01.2027 постановлением Правления Национального Банка РК от 24.12.2024 № 88 установив, что в период приостановления данный пункт действует в следующей редакции:",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "приостановлено",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2400035552#z44"
+        },
+        {
+          "text": "№ 88",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2400035552#z46"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-72",
+      "order": 72,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "11. Банк для защиты оконных проемов в помещениях кассового узла применяет металлические решетки, и (или) противовзломные и пулестойкие ролеты, оборудованные защитными средствами, обеспечивающими безопасность кассового работника и исключающие возможность хищения наличных денег и ценностей.",
+      "point_number": "11",
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z56",
+      "order": 73,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z56",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z56",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "12. Устройство помещения кладовой соответствует следующим параметрам:",
+      "point_number": "12",
+      "subpoint_number": null,
+      "anchors": [
+        "z56"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z57",
+      "order": 74,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z57",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z57",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "1) толщина железобетонной оболочки стен и потолка кладовой не менее 200 (двести) миллиметров;",
+      "point_number": null,
+      "subpoint_number": "1",
+      "anchors": [
+        "z57"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z58",
+      "order": 75,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z58",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z58",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "2) стены кладовой не являются одновременно ограждающими стенами кассового узла;",
+      "point_number": null,
+      "subpoint_number": "2",
+      "anchors": [
+        "z58"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z59",
+      "order": 76,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z59",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z59",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "3) кладовая имеет только один вход, устройство окон не допускается;",
+      "point_number": null,
+      "subpoint_number": "3",
+      "anchors": [
+        "z59"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z60",
+      "order": 77,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z60",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z60",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "4) дверь в кладовую бронированная, обеспечивающая защиту от проникновения в кладовую;",
+      "point_number": null,
+      "subpoint_number": "4",
+      "anchors": [
+        "z60"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z61",
+      "order": 78,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z61",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z61",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "5) в дверном проеме устанавливается внутренняя решетчатая металлическая дверь, закрывающаяся на один замок;",
+      "point_number": null,
+      "subpoint_number": "5",
+      "anchors": [
+        "z61"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z62",
+      "order": 79,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z62",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z62",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "6) при оборудовании нового кассового узла по всему периметру кладовой предусматриваются смотровые коридоры, исключающие ведение скрытых работ по разрушению стены кладовой, между верхней плоскостью железобетонной оболочки кладовой и плитой перекрытия предусматривается смотровой проем не менее 500 (пятьсот) миллиметров для визуального контроля.",
+      "point_number": null,
+      "subpoint_number": "6",
+      "anchors": [
+        "z62"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z63",
+      "order": 80,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z63",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z63",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "13. Устройство помещения сейфовой комнаты соответствует следующим параметрам:",
+      "point_number": "13",
+      "subpoint_number": null,
+      "anchors": [
+        "z63"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z64",
+      "order": 81,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z64",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z64",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "1) стены сейфовой комнаты кирпичные, толщиной не менее 380 (триста восемьдесят) миллиметров или железобетонные толщиной не менее 200 (двести) миллиметров;",
+      "point_number": null,
+      "subpoint_number": "1",
+      "anchors": [
+        "z64"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z65",
+      "order": 82,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z65",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z65",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "2) стены, потолок и пол внутри сейфовой комнаты по периметру укрепляются металлической решеткой из стальных прутьев диаметром не менее 16 (шестнадцать) миллиметров, образующих ячейку размером не более 150 (сто пятьдесят) миллиметров в длину и 150 (сто пятьдесят) миллиметров в ширину;",
+      "point_number": null,
+      "subpoint_number": "2",
+      "anchors": [
+        "z65"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-83",
+      "order": 83,
+      "kind": "note",
+      "tag": "font",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Примечание ИЗПИ!",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-84",
+      "order": 84,
+      "kind": "paragraph",
+      "tag": "font",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Действие подпункта 3) приостановлено до 01.01.2027 постановлением Правления Национального Банка РК от 24.12.2024 № 88 установив, что в период приостановления данный подпункт действует в следующей редакции:",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "приостановлено",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2400035552#z44"
+        },
+        {
+          "text": "№ 88",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2400035552#z48"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-85",
+      "order": 85,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "3) дверь сейфовой комнаты металлическая, толщиной не менее 4 (четыре) миллиметра, закрывающаяся на два замка. В этом же проеме устанавливается внутренняя решетчатая металлическая дверь, закрывающаяся на один замок.",
+      "point_number": null,
+      "subpoint_number": "3",
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-86",
+      "order": 86,
+      "kind": "note",
+      "tag": "font",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Примечание ИЗПИ!",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-87",
+      "order": 87,
+      "kind": "paragraph",
+      "tag": "font",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Действие пункта 14 приостановлено до 01.01.2027 постановлением Правления Национального Банка РК от 24.12.2024 № 88 установив, что в период приостановления данный пункт действует в следующей редакции:",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "приостановлено",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2400035552#z44"
+        },
+        {
+          "text": "№ 88",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2400035552#z50"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-88",
+      "order": 88,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "14. В кладовой и сейфовой комнате не допускается проведение коммуникаций (технических устройств, обеспечивающих получение и использование энергии, линий электропередач, газо- и водопроводы, трансформаторные и наносные станции, а также инженерных коммуникаций, контрольно-измерительных приборов), за исключением трубопроводов и кабелей электропитания для средств механизации кассовых операций, освещения, систем безопасности и сигнализации.",
+      "point_number": "14",
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-89",
+      "order": 89,
+      "kind": "note",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Сноска. Пункт 14 - в редакции постановления Правления Национального Банка РК от 19.12.2022",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-90",
+      "order": 90,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "№ 125",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 125",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2200031252#z114"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-91",
+      "order": 91,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z68",
+      "order": 92,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z68",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z68",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "15. Помещение предкладовой имеет один вход, устройство окон не допускается.",
+      "point_number": "15",
+      "subpoint_number": null,
+      "anchors": [
+        "z68"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-93",
+      "order": 93,
+      "kind": "note",
+      "tag": "font",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Примечание ИЗПИ!",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-94",
+      "order": 94,
+      "kind": "paragraph",
+      "tag": "font",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Действие пункта 16 приостановлено до 01.01.2027 постановлением Правления Национального Банка РК от 24.12.2024 № 88 установив, что в период приостановления данный пункт действует в следующей редакции:",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "приостановлено",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2400035552#z44"
+        },
+        {
+          "text": "№ 88",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2400035552#z52"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-95",
+      "order": 95,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "16. Устройство помещения кассы (касс) соответствуют следующим параметрам:",
+      "point_number": "16",
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z121",
+      "order": 96,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z121",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z121",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "1) каждая касса имеет отдельный вход с закрывающейся на замок дверью;",
+      "point_number": null,
+      "subpoint_number": "1",
+      "anchors": [
+        "z121"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z122",
+      "order": 97,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z122",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z122",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "2) стены, потолок и пол кассы оборудуются защитными средствами, обеспечивающими безопасность кассового работника;",
+      "point_number": null,
+      "subpoint_number": "2",
+      "anchors": [
+        "z122"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z123",
+      "order": 98,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z123",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z123",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "3) передняя часть кассы имеет оконный проем, оборудованный защитными средствами, обеспечивающими безопасность кассового работника и исключающие возможность хищения наличных денег и ценностей;",
+      "point_number": null,
+      "subpoint_number": "3",
+      "anchors": [
+        "z123"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z124",
+      "order": 99,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z124",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z124",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "4) передняя часть кассы оборудуется специальными транспортирующими устройствами для передачи наличных денег и ценностей. Механизм приведения в действие и фиксации транспортирующего устройства находится внутри кассы в исправном состоянии.",
+      "point_number": null,
+      "subpoint_number": "4",
+      "anchors": [
+        "z124"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z125",
+      "order": 100,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z125",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z125",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Допускается оборудовать нижнюю переднюю часть кассы инкассаторским бункером, позволяющим принимать и выдавать более 10 (десяти) пачек банкнот и (или) 5 (пяти) мешков монет;",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z125"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z126",
+      "order": 101,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z126",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z126",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "5) между кассами оборудуются перегородки, отделяющие кассы и соответственно рабочие места кассовых работников между собой;",
+      "point_number": null,
+      "subpoint_number": "5",
+      "anchors": [
+        "z126"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z127",
+      "order": 102,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z127",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z127",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "6) касса оборудуется видеокамерами системы видеонаблюдения;",
+      "point_number": null,
+      "subpoint_number": "6",
+      "anchors": [
+        "z127"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z128",
+      "order": 103,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z128",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z128",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "7) касса оборудуется переговорным устройством (микрофоном).",
+      "point_number": null,
+      "subpoint_number": "7",
+      "anchors": [
+        "z128"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-104",
+      "order": 104,
+      "kind": "note",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Сноска. Пункт 16 - в редакции постановления Правления Национального Банка РК от 19.12.2022",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-105",
+      "order": 105,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "№ 125",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 125",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2200031252#z116"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-106",
+      "order": 106,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-107",
+      "order": 107,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "17. Исключен постановлением Правления Национального Банка РК от 24.12.2024",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-108",
+      "order": 108,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "№ 88",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 88",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2400035552#z31"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-109",
+      "order": 109,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z79",
+      "order": 110,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z79",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z79",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "18. Наличие помещений кассы не требуется при проведении кассовых операций с применением устройств, функционирующих в автоматическом режиме.",
+      "point_number": "18",
+      "subpoint_number": null,
+      "anchors": [
+        "z79"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z80",
+      "order": 111,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z80",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z80",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "19. Устройство помещения для пересчета наличных денег соответствует следующим параметрам:",
+      "point_number": "19",
+      "subpoint_number": null,
+      "anchors": [
+        "z80"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z81",
+      "order": 112,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z81",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z81",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "1) помещение для пересчета наличных денег имеет отдельный вход с закрывающейся на замок дверью;",
+      "point_number": null,
+      "subpoint_number": "1",
+      "anchors": [
+        "z81"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z82",
+      "order": 113,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z82",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z82",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "2) допускается облицовывать стены помещения для пересчета наличных денег звукопоглощающим материалом;",
+      "point_number": null,
+      "subpoint_number": "2",
+      "anchors": [
+        "z82"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z83",
+      "order": 114,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z83",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z83",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "3) помещение для пересчета наличных денег оборудуется в кассовом узле.",
+      "point_number": null,
+      "subpoint_number": "3",
+      "anchors": [
+        "z83"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z84",
+      "order": 115,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z84",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z84",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "20. Для осуществления операции по инкассации банкнот, монет и ценностей необходимо наличие следующих помещений:",
+      "point_number": "20",
+      "subpoint_number": null,
+      "anchors": [
+        "z84"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z115",
+      "order": 116,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z115",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z115",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "1) помещение для хранения служебного оружия и патронов к нему, оборудованное в соответствии с Правилами оборота гражданского и служебного оружия и патронов к нему, утвержденными приказом Министра внутренних дел Республики Казахстан от 1 июля 2019 года № 602, зарегистрированным в Реестре государственной регистрации нормативных правовых актов под № 18961;",
+      "point_number": null,
+      "subpoint_number": "1",
+      "anchors": [
+        "z115"
+      ],
+      "links": [
+        {
+          "text": "приказом",
+          "url": "https://old.adilet.zan.kz/rus/docs/V1900018961#z4"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z116",
+      "order": 117,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z116",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z116",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "2) кладовая и (или) сейфовая комната;",
+      "point_number": null,
+      "subpoint_number": "2",
+      "anchors": [
+        "z116"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z117",
+      "order": 118,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z117",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z117",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "3) предкладовая (при наличии кладовой);",
+      "point_number": null,
+      "subpoint_number": "3",
+      "anchors": [
+        "z117"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z118",
+      "order": 119,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z118",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z118",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "4) бокс или погрузочно-разгрузочная площадка.",
+      "point_number": null,
+      "subpoint_number": "4",
+      "anchors": [
+        "z118"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z119",
+      "order": 120,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z119",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z119",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Устройство помещений, указанных в подпунктах 2), 3) и 4) части первой настоящего пункта, осуществляется в соответствии с пунктами 12 , 13 , 14 , 15 и 21 Правил, и помещения располагаются в непосредственной близости друг от друга.",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z119"
+      ],
+      "links": [
+        {
+          "text": "пунктами 12",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z56"
+        },
+        {
+          "text": "13",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z63"
+        },
+        {
+          "text": "14",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z67"
+        },
+        {
+          "text": "15",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z68"
+        },
+        {
+          "text": "21",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z90"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-121",
+      "order": 121,
+      "kind": "note",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Сноска. Пункт 20 - в редакции постановления Правления Национального Банка РК от 19.12.2022",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-122",
+      "order": 122,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "№ 125",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 125",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2200031252#z126"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-123",
+      "order": 123,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z90",
+      "order": 124,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z90",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z90",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "21. Для осуществления инкассации банкнот, монет и ценностей оборудуется помещение бокса, примыкающее к входу кассового узла, с закрывающейся на замок дверью либо погрузочно-разгрузочная площадка.",
+      "point_number": "21",
+      "subpoint_number": null,
+      "anchors": [
+        "z90"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-125",
+      "order": 125,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "При устройстве бокса или погрузочно-разгрузочной площадки обеспечивается ограничение доступа и просмотра третьими лицами за осуществлением инкассации банкнот, монет и ценностей.",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-126",
+      "order": 126,
+      "kind": "note",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "Сноска. Пункт 21 - в редакции постановления Правления Национального Банка РК от 19.12.2022",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-127",
+      "order": 127,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "№ 125",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 125",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2200031252#z126"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-128",
+      "order": 128,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "text": "(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z92",
+      "order": 129,
+      "kind": "heading",
+      "tag": "h3",
+      "anchor": "z92",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z92",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "text": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z92"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z93",
+      "order": 130,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z93",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z93",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "text": "22. Помещение уполномоченной организации, расположенное в зданиях (сооружениях, помещениях), имеющее отдельный вход с улицы, включает следующие помещения:",
+      "point_number": "22",
+      "subpoint_number": null,
+      "anchors": [
+        "z93"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z130",
+      "order": 131,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z130",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z130",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "text": "1) касса;",
+      "point_number": null,
+      "subpoint_number": "1",
+      "anchors": [
+        "z130"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z131",
+      "order": 132,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z131",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z131",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "text": "2) операционный зал или помещение для обслуживания клиентов.",
+      "point_number": null,
+      "subpoint_number": "2",
+      "anchors": [
+        "z131"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z132",
+      "order": 133,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z132",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z132",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "text": "Помещение обменного пункта уполномоченной организации должно располагаться по адресу, указанному в правоустанавливающем документе и (или) договоре аренды.",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z132"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-134",
+      "order": 134,
+      "kind": "note",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "text": "Сноска. Пункт 22 – в редакции постановления Правления Национального Банка РК от 24.12.2024",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-135",
+      "order": 135,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "text": "№ 88",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 88",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2400035552#z32"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-136",
+      "order": 136,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "text": "(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z96",
+      "order": 137,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z96",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z96",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "text": "23. Устройство помещений кассы уполномоченной организации осуществляется в соответствии с пунктом 16 Правил.",
+      "point_number": "23",
+      "subpoint_number": null,
+      "anchors": [
+        "z96"
+      ],
+      "links": [
+        {
+          "text": "пунктом 16",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z69"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-138",
+      "order": 138,
+      "kind": "note",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "text": "Сноска. Пункт 23 – в редакции постановления Правления Национального Банка РК от 24.12.2024",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-139",
+      "order": 139,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "text": "№ 88",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 88",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2400035552#z32"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-140",
+      "order": 140,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "text": "(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:z98",
+      "order": 141,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z98",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z98",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "text": "24. В помещении уполномоченной организации с отдельным входом с улицы устанавливается входная металлическая дверь или пластиковая дверь со стеклопакетами или витражными окнами. В случае установления входной пластиковой двери со стеклопакетами или витражными окнами дополнительно устанавливается металлические решетчатые двери в том же дверном проеме или противовзломные и пулестойкие ролеты снаружи.",
+      "point_number": "24",
+      "subpoint_number": null,
+      "anchors": [
+        "z98"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-142",
+      "order": 142,
+      "kind": "note",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "text": "Сноска. Пункт 24 - в редакции постановления Правления Национального Банка РК от 19.12.2022",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-143",
+      "order": 143,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "text": "№ 125",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 125",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2200031252#z135"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V2000020075:block-144",
+      "order": 144,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "text": "(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    }
+  ],
+  "headings": [
+    {
+      "title": "Правила организации охраны и устройства помещений банков второго уровня, филиалов банков-нерезидентов Республики Казахстан, Национального оператора почты, юридических лиц, исключительной деятельностью которых является инкассация банкнот, монет и ценностей, и юридических лиц, осуществляющих деятельность исключительно через обменные пункты на основании лицензии Национального Банка Республики Казахстан на обменные операции с наличной иностранной валютой",
+      "anchor": "z20",
+      "block_index": 23
+    },
+    {
+      "title": "Глава 1. Общие положения",
+      "anchor": "z21",
+      "block_index": 25
+    },
+    {
+      "title": "Глава 2. Порядок организации охраны",
+      "anchor": "z36",
+      "block_index": 46
+    },
+    {
+      "title": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "anchor": "z42",
+      "block_index": 52
+    },
+    {
+      "title": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "anchor": "z92",
+      "block_index": 128
+    }
+  ],
+  "numbered_fragments": [
+    {
+      "id": "V2000020075:z5",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "1",
+      "heading_context": "",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z5",
+      "start_block": 6,
+      "end_block": 9,
+      "text": "1. Утвердить прилагаемые Правила организации охраны и устройства помещений банков второго уровня, филиалов банков-нерезидентов Республики Казахстан, Национального оператора почты, юридических лиц, исключительной деятельностью которых является инкассация банкнот, монет и ценностей, и юридических лиц, осуществляющих деятельность исключительно через обменные пункты на основании лицензии Национального Банка Республики Казахстан на обменные операции с наличной иностранной валютой.\nСноска. Пункт 1 - в редакции постановления Правления Национального Банка РК от 21.09.2020\n№ 105\n(вводится в действие с 16.12.2020).",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z6",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "2",
+      "heading_context": "",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z6",
+      "start_block": 10,
+      "end_block": 12,
+      "text": "2. Признать утратившими силу:\n1) постановление Правления Национального Банка Республики Казахстан от 24 августа 2012 года № 250 \"Об утверждении Правил организации охраны и устройства помещений банков и организаций, осуществляющих отдельные виды банковских операций\" (зарегистрировано в Реестре государственной регистрации нормативных правовых актов под № 8080, опубликовано 27 декабря 2012 года в газете \"Казахстанская правда\" № 449-450(27268-27269);\n2) пункт 1 постановления Правления Национального Банка Республики Казахстан от 31 января 2019 года № 18 \"О внесении изменений в некоторые постановления Правления Национального Банка Республики Казахстан по вопросам организации охраны и устройства помещений банков и организаций, осуществляющих отдельные виды банковских операций, учета, хранения, перевозки и инкассации банкнот, монет и ценностей\" (зарегистрировано в Реестре государственной регистрации нормативных правовых актов под № 18297, опубликовано 25 февраля 2019 года в Эталонном контрольном банке нормативных правовых актов Республики Казахстан).",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z9",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "2",
+      "heading_context": "",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z9",
+      "start_block": 13,
+      "end_block": 16,
+      "text": "2. Департаменту наличного денежного обращения (Кажмуратов Ж.Т.) в установленном законодательством Республики Казахстан порядке обеспечить:\n1) совместно с Юридическим департаментом (Касенов А.С.) государственную регистрацию настоящего постановления в Министерстве юстиции Республики Казахстан;\n2) размещение настоящего постановления на официальном интернет-ресурсе Национального Банка Республики Казахстан после его официального опубликования;\n3) в течение десяти рабочих дней после государственной регистрации настоящего постановления представление в Юридический департамент сведений об исполнении мероприятий, предусмотренных подпунктом 2) настоящего пункта и пунктом 3 настоящего постановления.",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z13",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "3",
+      "heading_context": "",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z13",
+      "start_block": 17,
+      "end_block": 17,
+      "text": "3. Департаменту информации и коммуникации – пресс-службе Национального Банка (Адамбаева А.Р.) обеспечить в течение десяти календарных дней после государственной регистрации настоящего постановления направление его копии на официальное опубликование в периодические печатные издания.",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z14",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "4",
+      "heading_context": "",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z14",
+      "start_block": 18,
+      "end_block": 18,
+      "text": "4. Контроль за исполнением настоящего постановления возложить на заместителя Председателя Национального Банка Республики Казахстан Галиеву Д.Т.",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z15",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "5",
+      "heading_context": "",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z15",
+      "start_block": 19,
+      "end_block": 22,
+      "text": "5. Настоящее постановление вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования.\nПредседатель Национального Банка Е. Досаев\n\"СОГЛАСОВАНО\" Министерство внутренних дел Республики Казахстан\n\"СОГЛАСОВАНО\" Агентство Республики Казахстан по регулированию и развитию финансового рынка",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z22",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "1",
+      "heading_context": "Глава 1. Общие положения",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z22",
+      "start_block": 27,
+      "end_block": 30,
+      "text": "1. Настоящие Правила организации охраны и устройства помещений банков второго уровня, филиалов банков - нерезидентов Республики Казахстан, Национального оператора почты, юридических лиц, исключительной деятельностью которых является инкассация банкнот, монет и ценностей, и юридических лиц, осуществляющих деятельность исключительно через обменные пункты на основании лицензии Национального Банка Республики Казахстан на обменные операции с наличной иностранной валютой (далее – Правила) разработаны в соответствии с законами Республики Казахстан \" О Национальном Банке Республики Казахстан\", \" О банках и банковской деятельности в Республике Казахстан\" и определяют порядок организации охраны и устройства помещений банков второго уровня, филиалов банков-нерезидентов Республики Казахстан, Национального оператора почты (далее – банки), юридических лиц, исключительной деятельностью которых является инкассация банкнот, монет и ценностей (далее – инкассаторские организации), юридических лиц, осуществляющих деятельность исключительно через обменные пункты на основании лицензии Национального Банка Республики Казахстан на обменные операции с наличной иностранной валютой (далее – уполномоченные организации), и их филиалов, используемых для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей, обменных операций с наличной иностранной валютой.\nСноска. Пункт 1 - в редакции постановления Правления Национального Банка РК от 19.12.2022\n№ 125\n(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z23",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "2",
+      "heading_context": "Глава 1. Общие положения",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z23",
+      "start_block": 31,
+      "end_block": 46,
+      "text": "2. В Правилах используются следующие понятия:\n1) бокс – изолированное помещение, предназначенное для размещения транспортного средства для осуществления погрузочно-разгрузочных работ с наличными деньгами и ценностями;\n2) касса – специально оборудованное помещение для осуществления кассовых операций по приему, выдаче, размену, обмену, пересчету, сортировке, упаковке наличных денег;\n3) кассовый узел – система специально оборудованных помещений, предназначенных для осуществления банком, инкассаторской организацией кассовых операций, операций по инкассации банкнот, монет и ценностей;\n4) кладовая – специальное помещение, предназначенное для хранения наличных денег и ценностей;\n5) предкладовая – помещение, расположенное перед входом в кладовую, предназначенное для вноса в кладовую и выноса из кладовой наличных денег и ценностей;\n6) наличные деньги – банкноты и монеты национальной и иностранной валюты;\n7) помещение для пересчета наличных денег – специальное помещение, предназначенное для пересчета наличных денег;\n8) мобильный кассовый узел – стационарное либо нестационарное помещение (место) банка, предназначенное для осуществления кассовых операций в случаях, предусмотренных в пункте 10 Правил;\n9) операционный зал – помещение, предназначенное для банковского обслуживания клиентов, расположенное вне кассового узла перед кассой;\n10) пункт централизованной охраны – стационарный технический пункт охраны объекта, предназначенный для приема сигналов тревоги с охраняемого объекта и дальнейшего реагирования вооруженной охраны;\n11) сейфовая комната – специально оборудованное помещение, в котором устанавливаются сейфы (металлические шкафы), предназначенные для хранения наличных денег и ценностей;\n12) погрузочно-разгрузочная площадка – специально выделенное место для осуществления погрузочно-разгрузочных работ с наличными деньгами и ценностями, исключающее доступ и просмотр посторонних лиц.\nСноска. Пункт 2 с изменениями, внесенными постановлением Правления Национального Банка РК от 19.12.2022\n№ 125\n(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z37",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "3",
+      "heading_context": "Глава 2. Порядок организации охраны",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z37",
+      "start_block": 48,
+      "end_block": 50,
+      "text": "3. Банки, инкассаторские организации, уполномоченные организации обеспечивают охрану помещений, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей, обменных операций с наличной иностранной валютой.\nПомещения банков, инкассаторских организаций, уполномоченных организаций, предназначенные для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей, обменных операций с наличной иностранной валютой, охраняются частными охранными организациями путем выставления вооруженных постов охраны либо путем выезда на охраняемый объект по сигналу тревоги, поступившему на пункт централизованной охраны и оборудуются средствами охранной сигнализации в соответствии с требованиями законодательства Республики Казахстан в области охранной деятельности.\nВ населенных пунктах, где отсутствует пункт централизованной охраны, тревожная и пожарная сигнализации из охраняемых помещений передается на приемно-контрольный прибор, пульт централизованного наблюдения установленные на посту охраны. Допускается передача сигналов тревоги с охраняемого помещения банков, инкассаторских организаций, уполномоченных организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей, обменных операций с наличной иностранной валютой в жилище руководителя соответствующей организации и (или) участкового инспектора полиции.",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z40",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "4",
+      "heading_context": "Глава 2. Порядок организации охраны",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z40",
+      "start_block": 51,
+      "end_block": 51,
+      "text": "4. Охрана помещений банков, инкассаторских организаций, уполномоченных организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей, обменных операций с наличной иностранной валютой, осуществляется на основании договора об оказании охранных услуг в соответствии с требованиями законодательства Республики Казахстан в области охранной деятельности.",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z41",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "5",
+      "heading_context": "Глава 2. Порядок организации охраны",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z41",
+      "start_block": 52,
+      "end_block": 52,
+      "text": "5. В целях обеспечения пожарной безопасности помещений, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей, обменных операций с наличной иностранной валютой, оборудуется первичными средствами пожаротушения и пожарной автоматикой в соответствии с требованиями законодательства Республики Казахстан о гражданской защите.",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z43",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "6",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z43",
+      "start_block": 54,
+      "end_block": 54,
+      "text": "6. В банках для осуществления кассовых операций оборудуется кассовый узел.",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z44",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "7",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z44",
+      "start_block": 55,
+      "end_block": 63,
+      "text": "7. Кассовый узел включает следующие помещения:\n1) кладовая и (или) сейфовая комната;\n2) предкладовая (при наличии кладовой);\n3) касса;\n4) помещение для пересчета наличных денег.\nНеобходимость наличия помещения для пересчета наличных денег определяется банком самостоятельно.\nСноска. Пункт 7 - в редакции постановления Правления Национального Банка РК от 19.12.2022\n№ 125\n(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z49",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "8",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z49",
+      "start_block": 64,
+      "end_block": 65,
+      "text": "8. Кассовый узел подлежит изолированию от других производственных, подсобных, подвальных и служебных помещений одним закрывающимся служебным входом.\nДопускается оборудовать дополнительный закрывающийся вход для осуществления погрузочно-разгрузочных работ с наличными деньгами и ценностями в боксе или на погрузочно-разгрузочной площадке.",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z51",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "9",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z51",
+      "start_block": 66,
+      "end_block": 68,
+      "text": "9. Кладовая и (или) сейфовая комната не оборудуются в дополнительном помещении банка, при выполнении следующих операций:\n1) организации ежедневной инкассации банкнот, монет и ценностей, исключающей их хранение в нерабочее время в дополнительном помещении;\n2) осуществления кассовых операций исключительно с применением устройств, функционирующих в автоматическом режиме.",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z54",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "10",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z54",
+      "start_block": 69,
+      "end_block": 71,
+      "text": "10. Во время прохождения мероприятий, требующих организации кассового обслуживания участников мероприятия и (или) населения, а также в сельских населенных пунктах допускается использование мобильного кассового узла.\nПримечание ИЗПИ!\nДействие пункта 11 приостановлено до 01.01.2027 постановлением Правления Национального Банка РК от 24.12.2024 № 88 установив, что в период приостановления данный пункт действует в следующей редакции:",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:block-72",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "11",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "start_block": 72,
+      "end_block": 72,
+      "text": "11. Банк для защиты оконных проемов в помещениях кассового узла применяет металлические решетки, и (или) противовзломные и пулестойкие ролеты, оборудованные защитными средствами, обеспечивающими безопасность кассового работника и исключающие возможность хищения наличных денег и ценностей.",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z56",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "12",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z56",
+      "start_block": 73,
+      "end_block": 79,
+      "text": "12. Устройство помещения кладовой соответствует следующим параметрам:\n1) толщина железобетонной оболочки стен и потолка кладовой не менее 200 (двести) миллиметров;\n2) стены кладовой не являются одновременно ограждающими стенами кассового узла;\n3) кладовая имеет только один вход, устройство окон не допускается;\n4) дверь в кладовую бронированная, обеспечивающая защиту от проникновения в кладовую;\n5) в дверном проеме устанавливается внутренняя решетчатая металлическая дверь, закрывающаяся на один замок;\n6) при оборудовании нового кассового узла по всему периметру кладовой предусматриваются смотровые коридоры, исключающие ведение скрытых работ по разрушению стены кладовой, между верхней плоскостью железобетонной оболочки кладовой и плитой перекрытия предусматривается смотровой проем не менее 500 (пятьсот) миллиметров для визуального контроля.",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z63",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "13",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z63",
+      "start_block": 80,
+      "end_block": 87,
+      "text": "13. Устройство помещения сейфовой комнаты соответствует следующим параметрам:\n1) стены сейфовой комнаты кирпичные, толщиной не менее 380 (триста восемьдесят) миллиметров или железобетонные толщиной не менее 200 (двести) миллиметров;\n2) стены, потолок и пол внутри сейфовой комнаты по периметру укрепляются металлической решеткой из стальных прутьев диаметром не менее 16 (шестнадцать) миллиметров, образующих ячейку размером не более 150 (сто пятьдесят) миллиметров в длину и 150 (сто пятьдесят) миллиметров в ширину;\nПримечание ИЗПИ!\nДействие подпункта 3) приостановлено до 01.01.2027 постановлением Правления Национального Банка РК от 24.12.2024 № 88 установив, что в период приостановления данный подпункт действует в следующей редакции:\n3) дверь сейфовой комнаты металлическая, толщиной не менее 4 (четыре) миллиметра, закрывающаяся на два замка. В этом же проеме устанавливается внутренняя решетчатая металлическая дверь, закрывающаяся на один замок.\nПримечание ИЗПИ!\nДействие пункта 14 приостановлено до 01.01.2027 постановлением Правления Национального Банка РК от 24.12.2024 № 88 установив, что в период приостановления данный пункт действует в следующей редакции:",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:block-88",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "14",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "start_block": 88,
+      "end_block": 91,
+      "text": "14. В кладовой и сейфовой комнате не допускается проведение коммуникаций (технических устройств, обеспечивающих получение и использование энергии, линий электропередач, газо- и водопроводы, трансформаторные и наносные станции, а также инженерных коммуникаций, контрольно-измерительных приборов), за исключением трубопроводов и кабелей электропитания для средств механизации кассовых операций, освещения, систем безопасности и сигнализации.\nСноска. Пункт 14 - в редакции постановления Правления Национального Банка РК от 19.12.2022\n№ 125\n(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z68",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "15",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z68",
+      "start_block": 92,
+      "end_block": 94,
+      "text": "15. Помещение предкладовой имеет один вход, устройство окон не допускается.\nПримечание ИЗПИ!\nДействие пункта 16 приостановлено до 01.01.2027 постановлением Правления Национального Банка РК от 24.12.2024 № 88 установив, что в период приостановления данный пункт действует в следующей редакции:",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:block-95",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "16",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+      "start_block": 95,
+      "end_block": 109,
+      "text": "16. Устройство помещения кассы (касс) соответствуют следующим параметрам:\n1) каждая касса имеет отдельный вход с закрывающейся на замок дверью;\n2) стены, потолок и пол кассы оборудуются защитными средствами, обеспечивающими безопасность кассового работника;\n3) передняя часть кассы имеет оконный проем, оборудованный защитными средствами, обеспечивающими безопасность кассового работника и исключающие возможность хищения наличных денег и ценностей;\n4) передняя часть кассы оборудуется специальными транспортирующими устройствами для передачи наличных денег и ценностей. Механизм приведения в действие и фиксации транспортирующего устройства находится внутри кассы в исправном состоянии.\nДопускается оборудовать нижнюю переднюю часть кассы инкассаторским бункером, позволяющим принимать и выдавать более 10 (десяти) пачек банкнот и (или) 5 (пяти) мешков монет;\n5) между кассами оборудуются перегородки, отделяющие кассы и соответственно рабочие места кассовых работников между собой;\n6) касса оборудуется видеокамерами системы видеонаблюдения;\n7) касса оборудуется переговорным устройством (микрофоном).\nСноска. Пункт 16 - в редакции постановления Правления Национального Банка РК от 19.12.2022\n№ 125\n(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).\n17. Исключен постановлением Правления Национального Банка РК от 24.12.2024\n№ 88\n(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z79",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "18",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z79",
+      "start_block": 110,
+      "end_block": 110,
+      "text": "18. Наличие помещений кассы не требуется при проведении кассовых операций с применением устройств, функционирующих в автоматическом режиме.",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z80",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "19",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z80",
+      "start_block": 111,
+      "end_block": 114,
+      "text": "19. Устройство помещения для пересчета наличных денег соответствует следующим параметрам:\n1) помещение для пересчета наличных денег имеет отдельный вход с закрывающейся на замок дверью;\n2) допускается облицовывать стены помещения для пересчета наличных денег звукопоглощающим материалом;\n3) помещение для пересчета наличных денег оборудуется в кассовом узле.",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z84",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "20",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z84",
+      "start_block": 115,
+      "end_block": 123,
+      "text": "20. Для осуществления операции по инкассации банкнот, монет и ценностей необходимо наличие следующих помещений:\n1) помещение для хранения служебного оружия и патронов к нему, оборудованное в соответствии с Правилами оборота гражданского и служебного оружия и патронов к нему, утвержденными приказом Министра внутренних дел Республики Казахстан от 1 июля 2019 года № 602, зарегистрированным в Реестре государственной регистрации нормативных правовых актов под № 18961;\n2) кладовая и (или) сейфовая комната;\n3) предкладовая (при наличии кладовой);\n4) бокс или погрузочно-разгрузочная площадка.\nУстройство помещений, указанных в подпунктах 2), 3) и 4) части первой настоящего пункта, осуществляется в соответствии с пунктами 12 , 13 , 14 , 15 и 21 Правил, и помещения располагаются в непосредственной близости друг от друга.\nСноска. Пункт 20 - в редакции постановления Правления Национального Банка РК от 19.12.2022\n№ 125\n(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z90",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "21",
+      "heading_context": "Глава 3. Порядок устройства помещений банков, инкассаторских организаций, предназначенных для осуществления кассовых операций, операций по инкассации банкнот, монет и ценностей",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z90",
+      "start_block": 124,
+      "end_block": 128,
+      "text": "21. Для осуществления инкассации банкнот, монет и ценностей оборудуется помещение бокса, примыкающее к входу кассового узла, с закрывающейся на замок дверью либо погрузочно-разгрузочная площадка.\nПри устройстве бокса или погрузочно-разгрузочной площадки обеспечивается ограничение доступа и просмотра третьими лицами за осуществлением инкассации банкнот, монет и ценностей.\nСноска. Пункт 21 - в редакции постановления Правления Национального Банка РК от 19.12.2022\n№ 125\n(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z93",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "22",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z93",
+      "start_block": 130,
+      "end_block": 136,
+      "text": "22. Помещение уполномоченной организации, расположенное в зданиях (сооружениях, помещениях), имеющее отдельный вход с улицы, включает следующие помещения:\n1) касса;\n2) операционный зал или помещение для обслуживания клиентов.\nПомещение обменного пункта уполномоченной организации должно располагаться по адресу, указанному в правоустанавливающем документе и (или) договоре аренды.\nСноска. Пункт 22 – в редакции постановления Правления Национального Банка РК от 24.12.2024\n№ 88\n(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z96",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "23",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z96",
+      "start_block": 137,
+      "end_block": 140,
+      "text": "23. Устройство помещений кассы уполномоченной организации осуществляется в соответствии с пунктом 16 Правил.\nСноска. Пункт 23 – в редакции постановления Правления Национального Банка РК от 24.12.2024\n№ 88\n(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "source_status": "Обновленный"
+    },
+    {
+      "id": "V2000020075:z98",
+      "document_id": "V2000020075",
+      "document": "НБРК № 14 от 24.02.2020",
+      "point": "24",
+      "heading_context": "Глава 4. Порядок устройства помещений уполномоченных организаций",
+      "url": "https://old.adilet.zan.kz/rus/docs/V2000020075#z98",
+      "start_block": 141,
+      "end_block": 144,
+      "text": "24. В помещении уполномоченной организации с отдельным входом с улицы устанавливается входная металлическая дверь или пластиковая дверь со стеклопакетами или витражными окнами. В случае установления входной пластиковой двери со стеклопакетами или витражными окнами дополнительно устанавливается металлические решетчатые двери в том же дверном проеме или противовзломные и пулестойкие ролеты снаружи.\nСноска. Пункт 24 - в редакции постановления Правления Национального Банка РК от 19.12.2022\n№ 125\n(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "source_status": "Обновленный"
+    }
+  ],
+  "image_refs": [],
+  "interpretation_note": "Нумерованные фрагменты включают постановление, основной текст, цитируемые поправки и приложения. Одинаковые номера в разных частях не являются одной нормой. Правовая применимость не устанавливается парсером."
+}

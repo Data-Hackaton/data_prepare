@@ -1,0 +1,55 @@
+{
+  "selection_note": "User requested United States, Europe and international sources. Bangladesh, India and Russia are excluded from the principal evidence set; earlier files and receipts are retained for provenance.",
+  "candidates": [
+    {
+      "id": "muslim_cooperative_bank_isms_2022",
+      "title": "The Muslim Co-Operative Bank Ltd. — Information Security Management System Policy, PL-01 v2.0",
+      "url": "https://muslimcooperativebank.com/images/notice/PL%2001-%20ISMS%20Policy.pdf",
+      "version": "2.0; release date 18.10.2022 on cover; current internal status not independently established",
+      "source_type": "other_bank_internal_policy_public_copy",
+      "jurisdiction": "India",
+      "scope": "Users of this bank's information assets, including staff and contractors; head and branch offices. Not ForteBank.",
+      "locator": "7.21 Clean and Clear Desk, PDF/printed page 23; scope pp. 6–7",
+      "pdf_page": 23,
+      "check": "Screens must be locked",
+      "render_pages": [
+        1,
+        7,
+        23
+      ]
+    },
+    {
+      "id": "bangladesh_bank_ict_v4_2023",
+      "title": "Bangladesh Bank — Guideline on ICT Security, Version 4.0, 2023",
+      "url": "https://www.bb.org.bd/mediaroom/circulars/brpd/jun192023brpd10.pdf",
+      "version": "Version 4.0; BRPD Circular No. 10, 19.06.2023; downloaded published version, not a claim of exhaustive subsequent-amendment review",
+      "source_type": "foreign_financial_regulator_guideline",
+      "jurisdiction": "Bangladesh",
+      "scope": "Institutions regulated by Bangladesh Bank, as defined in section 1.2. Not a Kazakhstan regulation.",
+      "locator": "5.12.1.2, PDF 44 / printed 33; scope 1.2, PDF 13 / printed 2",
+      "pdf_page": 44,
+      "check": "5.12.1.2",
+      "render_pages": [
+        2,
+        13,
+        44
+      ]
+    },
+    {
+      "id": "moex_code_ethics_2024",
+      "title": "Кодекс профессиональной этики ПАО Московская Биржа",
+      "url": "https://www.moex.com/files/4m8te7k9fcc54z7ekd68bfbhx4",
+      "version": "Утвержден 11.12.2024, протокол №13; опубликованная копия",
+      "source_type": "financial_market_organization_employee_code",
+      "jurisdiction": "Russia",
+      "scope": "Работники и члены органов управления ПАО Московская Биржа; не банковский регламент ForteBank и не обязательное правило для всех компаний группы.",
+      "locator": "11.3, PDF/печатная 7; область действия — раздел 1 и сноски, PDF 2",
+      "pdf_page": 7,
+      "check": "блокируем компьютер",
+      "render_pages": [
+        1,
+        7
+      ]
+    }
+  ]
+}

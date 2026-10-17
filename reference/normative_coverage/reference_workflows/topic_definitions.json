@@ -1,0 +1,4621 @@
+{
+  "schema_version": "2.0",
+  "review_date": "2026-10-17",
+  "topic_procedures": [
+    {
+      "rule_id": "personal_items",
+      "actor": "Кассовый работник; банк устанавливает места хранения",
+      "procedure_type": "standing_condition",
+      "applicability": "Предмет принадлежит работнику и находится именно в кассовом узле.",
+      "steps": [
+        {
+          "action": "Разместить личные вещи, деньги и ценности вне кассового узла по установленному банком порядку.",
+          "source_specs": [
+            "V1900019680:12"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "При проверке отличить личное имущество работника от имущества клиента и допускаемых предметов.",
+          "source_specs": [
+            "V1900019680:12"
+          ],
+          "kind": "review_check",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Лекарственные средства, медицинские изделия, средства связи без фото- и видеофиксации.",
+          "behavior": "Допускается внос в кассовый узел.",
+          "source_specs": [
+            "V1900019680:12"
+          ],
+          "kind": "express_normative_exception"
+        }
+      ],
+      "expected_outcome": "В кассовом узле отсутствует неподпадающее под исключения личное имущество работников.",
+      "evidence": [
+        "Принадлежность и функции предмета",
+        "Граница кассового узла"
+      ],
+      "linked_workflows": [
+        "start_work"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "deposit_count",
+      "actor": "Кассовый работник",
+      "procedure_type": "operator_procedure",
+      "applicability": "Приём наличных от клиента, а не отдельный служебный пересчёт или приём сумки.",
+      "steps": [
+        {
+          "action": "Принять банкноты с полистным пересчётом, монеты — по кружкам, с проверкой подлинности и платёжности; п.19 пп.2).",
+          "source_specs": [
+            "V1900019680:19"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Принимать и пересчитывать наличные в присутствии клиента.",
+          "source_specs": [
+            "V1900019680:20"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Подтвердить полный этап пересчёта и результат, не заменяя его впечатлением от редких кадров.",
+          "source_specs": [
+            "V1900019680:19",
+            "V1900019680:20"
+          ],
+          "kind": "review_check",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Применён машинный пересчёт.",
+          "behavior": "Проверять фактический пересчёт и проверку денег; ручное перелистывание не является единственным способом исполнения.",
+          "source_specs": [
+            "V1900019680:19",
+            "V1900019680:20"
+          ],
+          "kind": "permitted_alternative"
+        }
+      ],
+      "expected_outcome": "Поступившие деньги пересчитаны и проверены при клиенте.",
+      "evidence": [
+        "Весь этап приёма",
+        "Движение и принадлежность денег",
+        "Результат работы прибора при наличии"
+      ],
+      "linked_workflows": [
+        "cash_receipt"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "client_presence",
+      "actor": "Кассовый работник",
+      "procedure_type": "operator_procedure",
+      "applicability": "Определены текущий клиент и операция приёма его денег.",
+      "steps": [
+        {
+          "action": "Принимать деньги в присутствии клиента.",
+          "source_specs": [
+            "V1900019680:20"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Пересчитывать принимаемые деньги при присутствующем клиенте; проверяющему учитывать весь ракурс и границы эпизода.",
+          "source_specs": [
+            "V1900019680:20"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Это отдельный служебный пересчёт ранее принятых денег.",
+          "behavior": "Применить профиль control_count; требование присутствия именно этого клиента не переносится автоматически.",
+          "source_specs": [
+            "V1900019680:20"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Приём и пересчёт текущей суммы происходят в присутствии клиента.",
+      "evidence": [
+        "Тип операции",
+        "Положение клиента на всём этапе"
+      ],
+      "linked_workflows": [
+        "cash_receipt"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "previous_cash_storage",
+      "actor": "Кассовый работник",
+      "procedure_type": "standing_condition",
+      "applicability": "Деньги идентифицированы как ранее принятые, а не наличные текущего клиента.",
+      "steps": [
+        {
+          "action": "На рабочем месте оставлять деньги текущего клиента; ранее принятые деньги хранить в предназначенном для хранения устройстве, закрывающемся на ключ.",
+          "source_specs": [
+            "V1900019680:20"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "При проверке проследить, к какой операции относятся деньги и что является устройством хранения.",
+          "source_specs": [
+            "V1900019680:20"
+          ],
+          "kind": "review_check",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Открытие рабочего сейфа или ящика для выполнения операции.",
+          "behavior": "Само по себе не подтверждает несоблюдение п.20; пункт описывает вид устройства и хранение прежних денег.",
+          "source_specs": [
+            "V1900019680:20"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Ранее принятые деньги находятся в предусмотренном устройстве хранения.",
+      "evidence": [
+        "Связь денег с завершённой операцией",
+        "Устройство хранения"
+      ],
+      "linked_workflows": [
+        "cash_receipt",
+        "storage_and_absence"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "separate_receipts",
+      "actor": "Кассовый работник",
+      "procedure_type": "operator_procedure",
+      "applicability": "Один клиент вносит деньги по нескольким приходным кассовым документам.",
+      "steps": [
+        {
+          "action": "Соотнести каждую принимаемую сумму с отдельным приходным документом.",
+          "source_specs": [
+            "V1900019680:21"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Принимать наличные по каждому приходному документу отдельно.",
+          "source_specs": [
+            "V1900019680:21"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "В кадре несколько листов, но несколько приходных документов не установлены.",
+          "behavior": "Не применять ветку нескольких документов по одному числу листов.",
+          "source_specs": [
+            "V1900019680:21"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Приём разделён по приходным документам.",
+      "evidence": [
+        "Вид и количество приходных документов",
+        "Принадлежность каждой суммы"
+      ],
+      "linked_workflows": [
+        "cash_receipt"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "leave_workplace",
+      "actor": "Кассовый работник",
+      "procedure_type": "operator_procedure",
+      "applicability": "Подтверждены приём наличных и незавершённое обслуживание клиента.",
+      "steps": [
+        {
+          "action": "Оставаться на рабочем месте до окончания обслуживания клиента.",
+          "source_specs": [
+            "V1900019680:22"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "До оценки ухода установить окончание обслуживания и границы рабочего места.",
+          "source_specs": [
+            "V1900019680:22"
+          ],
+          "kind": "review_check",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Обслуживание завершено либо человек переместился внутри рабочего места.",
+          "behavior": "Пункт 22 сам по себе не доказывает нарушение; отдельные обязанности хранения проверяются отдельно.",
+          "source_specs": [
+            "V1900019680:22"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "В период незавершённого обслуживания рабочее место не покинуто.",
+      "evidence": [
+        "Непрерывный эпизод обслуживания",
+        "Границы места и момент ухода"
+      ],
+      "linked_workflows": [
+        "cash_receipt",
+        "storage_and_absence"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "deposit_receipt",
+      "actor": "Кассовый работник",
+      "procedure_type": "operator_procedure",
+      "applicability": "Завершён приём наличных; известна применимая форма подтверждения.",
+      "steps": [
+        {
+          "action": "Оформить подтверждение приёма наличных и выдать его клиенту; п.19 пп.6).",
+          "source_specs": [
+            "V1900019680:19"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Для цифрового варианта проверить применимость кассовой операции с цифровыми документами и факт предоставления документа.",
+          "source_specs": [
+            "V1900019680:10-1"
+          ],
+          "kind": "review_check",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Используются цифровые документы по п.10-1.",
+          "behavior": "Отсутствие передачи бумажного листа не доказывает отсутствие подтверждения; надлежащая цифровая процедура требует проверки.",
+          "source_specs": [
+            "V1900019680:10-1",
+            "V1900019680:19"
+          ],
+          "kind": "permitted_alternative"
+        }
+      ],
+      "expected_outcome": "Клиент получил надлежащее подтверждение приёма денег.",
+      "evidence": [
+        "Конец операции",
+        "Бумажный документ либо подтверждённая цифровая выдача"
+      ],
+      "linked_workflows": [
+        "cash_receipt"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "withdrawal_count",
+      "actor": "Кассовый работник",
+      "procedure_type": "operator_procedure",
+      "applicability": "Выдача наличных клиенту; установлены вид денег и состояние упаковки.",
+      "steps": [
+        {
+          "action": "Пересчитать подготовленные к выдаче деньги в присутствии клиента и выдать; п.31 пп.4).",
+          "source_specs": [
+            "V1900019680:31"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Для выдачи по упаковке применить правила п.32; банкноты из неполных и повреждённых корешков пересчитывать полистно, монеты из неполных мешков — по кружкам.",
+          "source_specs": [
+            "V1900019680:32"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Предусмотренная п.32 неповреждённая упаковка пачек/корешков либо монет.",
+          "behavior": "Допускается выдача по обозначенным суммам/надписям без полистного пересчёта; проверить конкретный вид упаковки.",
+          "source_specs": [
+            "V1900019680:32"
+          ],
+          "kind": "express_normative_exception"
+        }
+      ],
+      "expected_outcome": "Выдача сопровождается предусмотренным для данной упаковки пересчётом при клиенте.",
+      "evidence": [
+        "Состояние упаковки",
+        "Полный эпизод выдачи",
+        "Присутствие клиента"
+      ],
+      "linked_workflows": [
+        "cash_issue"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "withdrawal_receipt",
+      "actor": "Кассовый работник",
+      "procedure_type": "operator_procedure",
+      "applicability": "Завершена выдача наличных клиенту.",
+      "steps": [
+        {
+          "action": "Выдать клиенту документ о проведённой выдаче; п.31 пп.6).",
+          "source_specs": [
+            "V1900019680:31"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Проверить форму и способ предоставления подтверждения, включая применимый цифровой документооборот.",
+          "source_specs": [
+            "V1900019680:10-1"
+          ],
+          "kind": "review_check",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Применим цифровой документ.",
+          "behavior": "Проверять предоставление документа по цифровой процедуре; бумажный лист не является единственным видимым признаком исполнения.",
+          "source_specs": [
+            "V1900019680:10-1",
+            "V1900019680:31"
+          ],
+          "kind": "permitted_alternative"
+        }
+      ],
+      "expected_outcome": "Выдача денег подтверждена документом для клиента.",
+      "evidence": [
+        "Завершение выдачи",
+        "Подтверждение получения документа"
+      ],
+      "linked_workflows": [
+        "cash_issue"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "identity_procedure",
+      "actor": "Кассовый работник; проверяющий не идентифицирует лица по записи",
+      "procedure_type": "operator_procedure",
+      "applicability": "Операция приёма или выдачи наличных; этап идентификации входит в наблюдаемый процесс.",
+      "steps": [
+        {
+          "action": "При приёме провести визуальную идентификацию клиента по документу или данным сервиса цифровых документов; п.19 пп.1).",
+          "source_specs": [
+            "V1900019680:19"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "При выдаче применить идентификацию по п.31 пп.1); при оценке подтвердить используемый канал документа.",
+          "source_specs": [
+            "V1900019680:31"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Учитывать равнозначность документа из сервиса цифровых документов бумажному, кроме установленных законом случаев.",
+          "source_specs": [
+            "Z1300000073:6.4"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Нет видимой пластиковой карточки.",
+          "behavior": "Проверить цифровой канал; отсутствие карточки не доказывает отсутствие идентификации.",
+          "source_specs": [
+            "Z1300000073:6.4",
+            "V1900019680:19",
+            "V1900019680:31"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Работник выполнил требуемую идентификацию; видеосистема не распознаёт личность клиента.",
+      "evidence": [
+        "Канал предъявления документа",
+        "Полный этап операции",
+        "Подтверждение проверки без биометрической идентификации моделью"
+      ],
+      "linked_workflows": [
+        "cash_receipt",
+        "cash_issue"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "cash_document_execution",
+      "actor": "Кассовый работник; операционный работник при участии",
+      "procedure_type": "operator_procedure",
+      "applicability": "Определены приходная/расходная операция и применимая форма документа.",
+      "steps": [
+        {
+          "action": "При приёме проверить подписи клиента и участвующего операционного работника по п.19 пп.3), подписать и проштамповать все экземпляры по пп.5).",
+          "source_specs": [
+            "V1900019680:19"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "При выдаче проверить подписи по п.31 пп.2), подписать и проштамповать экземпляры по пп.5).",
+          "source_specs": [
+            "V1900019680:31"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Для цифровых документов установить применимую процедуру оформления; не оценивать подлинность подписей по жестам.",
+          "source_specs": [
+            "V1900019680:10-1"
+          ],
+          "kind": "review_check",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Документы оформляются в цифровом виде.",
+          "behavior": "Проверить надлежащее цифровое оформление; отсутствие рукописного движения или бумажного штампа отдельно не доказывает нарушение.",
+          "source_specs": [
+            "V1900019680:10-1",
+            "V1900019680:19",
+            "V1900019680:31"
+          ],
+          "kind": "permitted_alternative"
+        }
+      ],
+      "expected_outcome": "Документ оформлен с предусмотренными подписями и удостоверением для применимой формы.",
+      "evidence": [
+        "Тип документа",
+        "Читаемые реквизиты или цифровой журнал",
+        "Участие операционного работника"
+      ],
+      "linked_workflows": [
+        "cash_receipt",
+        "cash_issue"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "exchange_sequence",
+      "actor": "Кассовый работник",
+      "procedure_type": "operator_procedure",
+      "applicability": "Клиент требует размен уже подготовленной к выдаче суммы на другие номиналы.",
+      "steps": [
+        {
+          "action": "Выдать клиенту подготовленные наличные.",
+          "source_specs": [
+            "V1900019680:34"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "После выдачи выполнить требуемый размен одного номинала на другие.",
+          "source_specs": [
+            "V1900019680:34"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Требование размена не установлено либо это подготовка первоначальной выдачи.",
+          "behavior": "Не объявлять изменение состава суммы нарушением п.34 без подтверждения ветки.",
+          "source_specs": [
+            "V1900019680:34"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Размен выполняется после выдачи приготовленных денег.",
+      "evidence": [
+        "Назначение операций",
+        "Последовательность выдачи и размена"
+      ],
+      "linked_workflows": [
+        "cash_issue"
+      ],
+      "ordering": [
+        {
+          "before": 0,
+          "after": 1,
+          "basis": "explicit_normative_order",
+          "source_specs": [
+            "V1900019680:34"
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "control_count",
+      "actor": "Кассовый и контролирующий работники",
+      "procedure_type": "operator_procedure",
+      "applicability": "Служебные пересчёт, сортировка или упаковка наличных.",
+      "steps": [
+        {
+          "action": "Определить, относится ли операция к служебной обработке либо к приёму/выдаче клиенту.",
+          "source_specs": [
+            "V1900019680:42"
+          ],
+          "kind": "applicability_check",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Служебные пересчёт, сортировку и упаковку проводить в присутствии контролирующего работника.",
+          "source_specs": [
+            "V1900019680:42"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Приём или выдача наличных непосредственно клиенту.",
+          "behavior": "Исключение п.42: обязательное присутствие контролирующего работника этим пунктом не устанавливается.",
+          "source_specs": [
+            "V1900019680:42"
+          ],
+          "kind": "express_normative_exception"
+        }
+      ],
+      "expected_outcome": "На операции, подпадающей под п.42, присутствует контролирующий работник.",
+      "evidence": [
+        "Тип операции",
+        "Полный обзор и подтверждение роли контролёра"
+      ],
+      "linked_workflows": [
+        "incoming_collection"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "authentication_equipment",
+      "actor": "Банк обеспечивает оборудование; кассовый работник выполняет проверку",
+      "procedure_type": "operator_procedure",
+      "applicability": "Определены операция, валюта и характеристики оборудования.",
+      "steps": [
+        {
+          "action": "Обеспечить специальное оборудование для определения подлинности и платёжности.",
+          "source_specs": [
+            "V1900019680:9"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "При приёме проверять деньги по п.19 пп.2); при пересчёте и сортировке использовать оборудование с проверкой не менее двух машиночитаемых признаков по п.41.",
+          "source_specs": [
+            "V1900019680:19",
+            "V1900019680:41"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Для тенге применять Правила №230; для иностранной валюты — официальные образцы/справочники и требования Правил №49.",
+          "source_specs": [
+            "V1900019680:57",
+            "V1900019680:58"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Отдельная УФ-лампа не видна.",
+          "behavior": "Проверить функции применяемого оборудования; корпус устройства не доказывает ни наличие, ни отсутствие нужных проверок.",
+          "source_specs": [
+            "V1900019680:9",
+            "V1900019680:41",
+            "V1900019680:58"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Деньги проверены предусмотренным для валюты способом на подходящем оборудовании.",
+      "evidence": [
+        "Технические характеристики прибора",
+        "Вид валюты и операции",
+        "Результат проверки"
+      ],
+      "linked_workflows": [
+        "cash_receipt",
+        "incoming_collection"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "bag_acceptance",
+      "actor": "Кассир банка, инкассатор-сборщик или старший бригады — по стадии",
+      "procedure_type": "operator_procedure",
+      "applicability": "Установлены вид инкассации и роль принимающего.",
+      "steps": [
+        {
+          "action": "Кассиру при приёме сумки проверить сведения препроводительного документа, зарегистрировать сумму, осмотреть целостность и пломбирование.",
+          "source_specs": [
+            "V1900019680:24"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Инкассатору-сборщику при приёме от клиента проверить сумку, пломбу и её соответствие образцу, явочную карточку и препроводительный документ.",
+          "source_specs": [
+            "V1900019680:107"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Старшему бригады принять карточку и сумку от сборщика, проверить по п.107, вернуть карточку и выдать порожнюю сумку следующего клиента.",
+          "source_specs": [
+            "V1900019680:108"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "В кадре только одна из стадий передачи.",
+          "behavior": "Применять действия соответствующей роли; отсутствие другой роли в данном эпизоде не является пропуском её процедуры.",
+          "source_specs": [
+            "V1900019680:24",
+            "V1900019680:107",
+            "V1900019680:108"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Каждый приём сопровождается проверками, установленными для принимающего субъекта.",
+      "evidence": [
+        "Роль принимающего",
+        "Непрерывный осмотр сумки/пломбы",
+        "Документы"
+      ],
+      "linked_workflows": [
+        "incoming_collection"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "bag_packaging",
+      "actor": "Клиент-отправитель; банк или организация, осуществляющая инкассацию",
+      "procedure_type": "operator_procedure",
+      "applicability": "Подтверждена инкассация, а не обычная выдача наличных клиенту.",
+      "steps": [
+        {
+          "action": "Упаковать подлежащие инкассации банкноты, монеты и ценности в сумку, составить препроводительный документ.",
+          "source_specs": [
+            "V1900019680:105"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Указать все реквизиты п.106, включая номер, дату формирования, клиента и банк, общую сумму и опись, номер пломбы и подпись клиента.",
+          "source_specs": [
+            "V1900019680:106"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Оформить три экземпляра для клиента, банка и инкассатора-сборщика; после доставки сдать экземпляр руководителю/дежурному для хранения не менее года.",
+          "source_specs": [
+            "V1900019680:106"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Обычная выдача клиенту или другая стадия операции.",
+          "behavior": "Не переносить обязанность сумки и трёх экземпляров на иную операцию.",
+          "source_specs": [
+            "V1900019680:105",
+            "V1900019680:106"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Инкассируемые ценности подготовлены в сумке с надлежащим документом.",
+      "evidence": [
+        "Тип передачи",
+        "Реквизиты и число экземпляров",
+        "Связь пломбы с сумкой"
+      ],
+      "linked_workflows": [
+        "outgoing_transport"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "damaged_packaging",
+      "actor": "Бригада инкассации при перевозке",
+      "procedure_type": "operator_procedure",
+      "applicability": "Применяется приём ценностей для перевозки по п.112–113.",
+      "steps": [
+        {
+          "action": "До принятия проверить упаковку, число корешков, накладки/ярлыки и пломбы согласно п.112.",
+          "source_specs": [
+            "V1900019680:112"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Не принимать пачки и мешки с обнаруженными дефектами упаковки и оформления.",
+          "source_specs": [
+            "V1900019680:112"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "После проверки упаковать принятые ценности в сумки в присутствии отправителя и оформить по п.113.",
+          "source_specs": [
+            "V1900019680:113"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Пломба размыта на записи либо упаковка скрыта.",
+          "behavior": "Присвоить статус недостаточной наблюдаемости, пока конкретный дефект не подтверждён.",
+          "source_specs": [
+            "V1900019680:112",
+            "V1900019680:113"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Для перевозки не приняты ценности с обнаруженными дефектами упаковки.",
+      "evidence": [
+        "Подтверждённый дефект",
+        "Стадия приёма",
+        "Полный эпизод"
+      ],
+      "linked_workflows": [
+        "outgoing_transport"
+      ],
+      "ordering": [
+        {
+          "before": 0,
+          "after": 2,
+          "basis": "explicit_normative_order",
+          "source_specs": [
+            "V1900019680:113"
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "collector_equipment",
+      "actor": "Банк/инкассаторская организация обеспечивает бригаду",
+      "procedure_type": "document_and_visual_review",
+      "applicability": "Подтверждена инкассаторская бригада и применимость требования экипировки.",
+      "steps": [
+        {
+          "action": "Обеспечить бригаду экипировкой, индивидуальной защитой, включая бронежилеты и каски/шлемы, и служебным оружием.",
+          "source_specs": [
+            "V1900019680:103"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Сопоставить комплект выдачи/обеспечения и доступные наблюдения; не отождествлять невидимое оружие с отсутствующим.",
+          "source_specs": [
+            "V1900019680:103"
+          ],
+          "kind": "review_check",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Часть экипировки или сотрудник находятся вне кадра.",
+          "behavior": "Недостаточно данных для вывода об отсутствии обеспечения. Сам п.103 исключения для обычной одежды не устанавливает.",
+          "source_specs": [
+            "V1900019680:103"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Обеспечение бригады требуемым комплектом подтверждено.",
+      "evidence": [
+        "Роль человека",
+        "Документы обеспечения и доступный обзор"
+      ],
+      "linked_workflows": [
+        "outgoing_transport"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "collector_team",
+      "actor": "Банк/инкассаторская организация и бригада",
+      "procedure_type": "document_and_visual_review",
+      "applicability": "Оценивается полный состав бригады, включая водителя вне кассового помещения.",
+      "steps": [
+        {
+          "action": "Сформировать бригаду не менее чем из трёх человек и распределить функции водителя, сборщика и старшего.",
+          "source_specs": [
+            "V1900019680:98"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "При оценке бригады из двух человек проверить применение случаев п.99: наличие в автомобиле видеокамер с онлайн-доступом руководителю/дежурному; применение кейсов и контейнеров со специальной краской. Условия конкретного маршрута должны быть подтверждены.",
+          "source_specs": [
+            "V1900019680:99"
+          ],
+          "kind": "review_check",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Сверить полный состав и условия маршрута; не считать только видимых у окна людей.",
+          "source_specs": [
+            "V1900019680:98",
+            "V1900019680:99"
+          ],
+          "kind": "review_check",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Применим предусмотренный п.99 случай.",
+          "behavior": "Допускается бригада из сборщика и водителя; условия исключения должны быть подтверждены.",
+          "source_specs": [
+            "V1900019680:99"
+          ],
+          "kind": "express_normative_exception"
+        }
+      ],
+      "expected_outcome": "Состав и распределение функций соответствуют основной норме или установленному исключению.",
+      "evidence": [
+        "Состав маршрута",
+        "Роль водителя",
+        "Подтверждение основания п.99"
+      ],
+      "linked_workflows": [
+        "outgoing_transport"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "vault_access",
+      "actor": "Ответственные за сохранность наличных и допущенные лица",
+      "procedure_type": "operator_procedure",
+      "applicability": "Объект — кладовая или сейфовая комната, а не любое рабочее место кассира.",
+      "steps": [
+        {
+          "action": "Допускать ответственных за сохранность; иных лиц — на основании распоряжения руководителя и в сопровождении ответственных.",
+          "source_specs": [
+            "V1900019680:75"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Хранить ключи/коды двери у ответственных за сохранность.",
+          "source_specs": [
+            "V1900019680:76"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Хранение, выдачу и передачу ключей и ценностей выполнять по внутреннему порядку, исключающему несанкционированное использование.",
+          "source_specs": [
+            "V1900019680:80"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Лицо не опознано на видео.",
+          "behavior": "Не считать его посторонним без проверки полномочий, распоряжения и сопровождения.",
+          "source_specs": [
+            "V1900019680:75",
+            "V1900019680:80"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Вход, ключи и передача ценностей находятся под предусмотренным контролем.",
+      "evidence": [
+        "Категория помещения",
+        "Распоряжение и полномочия",
+        "Порядок ключей"
+      ],
+      "linked_workflows": [
+        "storage_and_absence"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "secure_cash_area",
+      "actor": "Банк, подразделения организации помещений и безопасности",
+      "procedure_type": "premises_audit",
+      "applicability": "Подтверждено реальное банковское помещение, вид операций, дата и применимая редакция требований.",
+      "steps": [
+        {
+          "action": "Изолировать кассовый узел закрывающимся служебным входом.",
+          "source_specs": [
+            "V2000020075:8"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Для кассы обеспечить отдельный вход, замок, защитные средства, исправное передающее устройство, перегородки, видеонаблюдение и переговорное устройство по п.16 в редакции на дату события.",
+          "source_specs": [
+            "V2000020075:16",
+            "V2000020075:16@transition_until_2027"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "При применении автоматических устройств отдельно проверить исключение из требования помещения кассы.",
+          "source_specs": [
+            "V2000020075:18"
+          ],
+          "kind": "applicability_check",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Нужен вход для погрузочно-разгрузочных работ.",
+          "behavior": "Пункт 8 допускает дополнительный закрывающийся вход.",
+          "source_specs": [
+            "V2000020075:8"
+          ],
+          "kind": "express_normative_exception"
+        },
+        {
+          "condition": "Операции проводятся с применением устройств, функционирующих автоматически.",
+          "behavior": "Пункт 18 не требует наличия помещений кассы.",
+          "source_specs": [
+            "V2000020075:18"
+          ],
+          "kind": "express_normative_exception"
+        },
+        {
+          "condition": "Дата до 01.01.2027.",
+          "behavior": "Учитывать примечание о временной редакции п.16; не применять будущую редакцию без проверки даты.",
+          "source_specs": [
+            "V2000020075:16@transition_until_2027"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Планировка и защита соответствуют применимой категории помещения и редакции.",
+      "evidence": [
+        "Проект/паспорт помещения",
+        "Вид операций",
+        "Дата события",
+        "Проверка оборудования"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "collection_area",
+      "actor": "Банк и служба безопасности",
+      "procedure_type": "premises_audit",
+      "applicability": "Место предназначено для погрузки/разгрузки инкассируемых ценностей.",
+      "steps": [
+        {
+          "action": "Оборудовать примыкающий к входу кассового узла бокс с закрывающейся на замок дверью либо погрузочно-разгрузочную площадку.",
+          "source_specs": [
+            "V2000020075:21"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Обеспечить ограничение доступа и просмотра третьими лицами процесса инкассации.",
+          "source_specs": [
+            "V2000020075:21"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Используется площадка вместо бокса.",
+          "behavior": "Пункт 21 допускает оба варианта при соблюдении ограничения доступа и просмотра.",
+          "source_specs": [
+            "V2000020075:21"
+          ],
+          "kind": "permitted_alternative"
+        }
+      ],
+      "expected_outcome": "Зона погрузки защищена от доступа и наблюдения третьих лиц.",
+      "evidence": [
+        "Назначение зоны",
+        "Планировка и обзор",
+        "Полномочия присутствующих"
+      ],
+      "linked_workflows": [
+        "outgoing_transport"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "cash_handover_record",
+      "actor": "Передающий и принимающий кассовые работники",
+      "procedure_type": "operator_procedure",
+      "applicability": "Подтверждена передача наличных между кассовыми работниками банка.",
+      "steps": [
+        {
+          "action": "Отразить передачу в документе учёта принятых и выданных наличных и ценностей.",
+          "source_specs": [
+            "V1900019680:15"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Указать дату, ФИО/должности и подписи обоих работников, сумму цифрами и прописью, количество и вид наличных.",
+          "source_specs": [
+            "V1900019680:15"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Сверить запись с данной передачей; отсутствие бумажного журнала в кадре не считать доказательством отсутствия учёта.",
+          "source_specs": [
+            "V1900019680:15"
+          ],
+          "kind": "review_check",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Передача не между кассовыми работниками либо документ находится вне кадра.",
+          "behavior": "Сначала установить субъект и учёт; не подменять отсутствие наблюдения отсутствием записи.",
+          "source_specs": [
+            "V1900019680:15"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Передача имеет предусмотренную запись с реквизитами обоих участников.",
+      "evidence": [
+        "Идентификация ролей без распознавания лиц",
+        "Документ учёта",
+        "Соответствие суммы и времени"
+      ],
+      "linked_workflows": [
+        "start_work",
+        "close_shift"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "day_end_cash",
+      "actor": "Кассовый работник; заведующий кассой/исполняющий функции",
+      "procedure_type": "operator_procedure",
+      "applicability": "Подтверждён конец рабочего дня, остаток и применимый порядок сдачи.",
+      "steps": [
+        {
+          "action": "Сформировать, упаковать и сдать принятые деньги по приходным документам заведующему; сдача возможна также несколько раз в течение дня.",
+          "source_specs": [
+            "V1900019680:23"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Остаток пересчитать, отсортировать, упаковать и сдать с расходными документами.",
+          "source_specs": [
+            "V1900019680:37"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Заведующему составить свод оборотов, сверить с бухгалтерским учётом и подшить документы.",
+          "source_specs": [
+            "V1900019680:64"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Формировать документы дня отдельно по приходу/расходу и валюте после окончания дня, не позднее следующего рабочего дня.",
+          "source_specs": [
+            "V1900019680:66",
+            "V1900019680:67"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Деньги уже сдавались в течение дня.",
+          "behavior": "Пункт 23 это допускает; нельзя требовать повторной сдачи тех же денег в финальном фрагменте.",
+          "source_specs": [
+            "V1900019680:23"
+          ],
+          "kind": "permitted_alternative"
+        },
+        {
+          "condition": "Подшивка не закончена перед уходом.",
+          "behavior": "Пункт 66 даёт срок до следующего рабочего дня; проверять фактический срок.",
+          "source_specs": [
+            "V1900019680:66"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Наличные сданы, свод и документы оформлены надлежащими лицами в установленные сроки.",
+      "evidence": [
+        "Окончание дня",
+        "Остаток",
+        "Документы сдачи и учёта",
+        "Роль заведующего"
+      ],
+      "linked_workflows": [
+        "close_shift"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "counterfeit_return",
+      "actor": "Кассовый работник/банк; правоохранительные органы",
+      "procedure_type": "operator_procedure",
+      "applicability": "Установлены признаки подделки или подтверждена поддельность конкретных денег.",
+      "steps": [
+        {
+          "action": "Сообщить о банкнотах/монетах с признаками подделки в правоохранительные органы; изъятие выполняется ими по протоколу с экземпляром клиенту.",
+          "source_specs": [
+            "V1900019680:60"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Не возвращать такие деньги клиенту и не зачислять принятую сумму на его счёт.",
+          "source_specs": [
+            "V1900019680:61"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Поддельные банкноты/монеты не обменивать и передать в правоохранительные органы.",
+          "source_specs": [
+            "V1700016120:24"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Есть только визуальное подозрение или категория сомнительных денег.",
+          "behavior": "Не присваивать статус подделки; применить процедуру экспертизы при подтверждённой сомнительности.",
+          "source_specs": [
+            "V1900019680:60",
+            "V1900019680:61",
+            "V1700016120:24"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Деньги с подтверждённым соответствующим статусом не возвращены/не обменены; оформлено дальнейшее обращение.",
+      "evidence": [
+        "Результат проверки",
+        "Идентичность банкнот",
+        "Протокол/сообщение",
+        "Учёт отдельно"
+      ],
+      "linked_workflows": [
+        "suspect_cash"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "suspect_expertise",
+      "actor": "Кассовый работник, заведующий кассой, клиент и филиал НБРК",
+      "procedure_type": "operator_procedure",
+      "applicability": "Классификация по Правилам №230: повреждения затрудняют определение подлинности; для банкнот — сохранено более 50% площади.",
+      "steps": [
+        {
+          "action": "Подтвердить категорию сомнительных денег по п.29 и принять их на экспертизу по п.30.",
+          "source_specs": [
+            "V1700016120:29",
+            "V1700016120:30"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "В присутствии клиента и заведующего составить акт в двух экземплярах с реквизитами п.59; экземпляр выдать клиенту.",
+          "source_specs": [
+            "V1900019680:59"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Направить деньги в филиал НБРК в течение пяти рабочих дней; дальнейший возврат/выдачу результата выполнить по итогам экспертизы.",
+          "source_specs": [
+            "V1900019680:59"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Экспертиза признала деньги платёжными.",
+          "behavior": "Вернуть на основании экземпляра акта клиента.",
+          "source_specs": [
+            "V1900019680:59"
+          ],
+          "kind": "conditional_branch"
+        },
+        {
+          "condition": "Признаны неплатёжными.",
+          "behavior": "Не возвращать банкноты/монеты; выдать результат экспертизы.",
+          "source_specs": [
+            "V1900019680:59"
+          ],
+          "kind": "conditional_branch"
+        }
+      ],
+      "expected_outcome": "Сомнительные деньги приняты, документированы и направлены на экспертизу с последующим действием по результату.",
+      "evidence": [
+        "Подтверждённая категория",
+        "Акт",
+        "Роли присутствующих",
+        "Дата отправки и результат"
+      ],
+      "linked_workflows": [
+        "suspect_cash"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "dyed_notes",
+      "actor": "Банк или инкассаторская организация; клиент подписывает акт",
+      "procedure_type": "operator_procedure",
+      "applicability": "Окрашивание вызвано специальной краской спецконтейнера, а не обычным пятном.",
+      "steps": [
+        {
+          "action": "Принять окрашенные банкноты по процедуре п.59, приложив акт срабатывания спецконтейнера с реквизитами п.63-4.",
+          "source_specs": [
+            "V1900019680:63-4",
+            "V1900019680:59"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Оформить три экземпляра акта срабатывания: клиенту, банку/организации и для филиала НБРК вместе с банкнотами.",
+          "source_specs": [
+            "V1900019680:63-4"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Перед отправкой на экспертизу высушить, полистно пересчитать, упаковать в мешок без наружных швов; оформить ярлык с реквизитами и отметкой об окраске.",
+          "source_specs": [
+            "V1900019680:63-5"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Происхождение краски не установлено.",
+          "behavior": "Не переносить специальную процедуру на любое загрязнение или цветовой артефакт видео.",
+          "source_specs": [
+            "V1900019680:63-4",
+            "V1900019680:63-5"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Специально окрашенные банкноты подготовлены к экспертизе и сопровождаются обоими актами.",
+      "evidence": [
+        "Акт срабатывания",
+        "Характер краски",
+        "Документы и упаковка",
+        "Стадия отправки"
+      ],
+      "linked_workflows": [
+        "suspect_cash"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "cash_sorting",
+      "actor": "Кассовый работник и ответственные за хранение",
+      "procedure_type": "operator_procedure",
+      "applicability": "Завершённая сортировка/упаковка или хранение; номиналы и состояние подтверждены.",
+      "steps": [
+        {
+          "action": "Сортировать деньги по номиналам и степени износа: отдельно годные, ветхие/дефектные, изъятые/изымаемые; для сдачи в НБРК дополнительно по годам выпуска банкнот.",
+          "source_specs": [
+            "V1900019680:43"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Упаковывать годные отдельно от ветхих, дефектных и изъятых/изымаемых.",
+          "source_specs": [
+            "V1900019680:45"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Сборные пачки оформить по п.50; в кладовой/сейфовой комнате хранить раздельно по валюте и номиналам.",
+          "source_specs": [
+            "V1900019680:50",
+            "V1900019680:77"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Нужна сборная пачка разных номиналов.",
+          "behavior": "Допускается до десяти корешков при накладках, раздельной описи номиналов и штампе «Сборная».",
+          "source_specs": [
+            "V1900019680:50"
+          ],
+          "kind": "permitted_alternative"
+        },
+        {
+          "condition": "Промежуточная стопка ещё пересчитывается.",
+          "behavior": "Не применять требования к завершённой упаковке до соответствующего этапа.",
+          "source_specs": [
+            "V1900019680:43",
+            "V1900019680:45",
+            "V1900019680:50"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Итоговая сортировка, упаковка и хранение соответствуют выбранному допустимому варианту.",
+      "evidence": [
+        "Номиналы и состояние",
+        "Этап обработки",
+        "Маркировка готовой пачки"
+      ],
+      "linked_workflows": [
+        "close_shift"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "unfit_recirculation",
+      "actor": "Уполномоченный банк и кассовый работник",
+      "procedure_type": "operator_procedure",
+      "applicability": "Для тенге подтверждены платёжность и ветхость банкнот/дефектность монет.",
+      "steps": [
+        {
+          "action": "Классифицировать повреждения банкнот по п.10, монет — по п.11 Правил №230.",
+          "source_specs": [
+            "V1700016120:10",
+            "V1700016120:11"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Отсортировать платёжные ветхие/дефектные деньги, не выпускать в обращение и передать для обмена в филиал НБРК.",
+          "source_specs": [
+            "V1700016120:12"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Упаковать их отдельно от годных денег.",
+          "source_specs": [
+            "V1900019680:45"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Платёжная ветхая банкнота принимается от клиента.",
+          "behavior": "Это не запрещённый повторный выпуск в обращение; различать приём и выдачу.",
+          "source_specs": [
+            "V1700016120:12",
+            "V1900019680:45"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Ветхие/дефектные деньги отделены и не выданы обратно в обращение.",
+      "evidence": [
+        "Категория повреждения",
+        "Направление движения денег",
+        "Назначение упаковки"
+      ],
+      "linked_workflows": [
+        "close_shift"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "worn_acceptance",
+      "actor": "Уполномоченный банк и кассовый работник",
+      "procedure_type": "operator_procedure",
+      "applicability": "Тенге; определены подлинность, сохранность и правовой статус денежного знака.",
+      "steps": [
+        {
+          "action": "Определить платёжность банкнот по п.4, включая сохранность не менее 70% и предусмотренные признаки; не решать по общей картинке.",
+          "source_specs": [
+            "V1700016120:4"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Платёжные ветхие банкноты и дефектные монеты принимать для всех видов платежей и переводов без ограничений.",
+          "source_specs": [
+            "V1700016120:15"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "При неплатёжности/утрате законного статуса учитывать п.25 и 28; сомнительные принимать и направлять на экспертизу по п.30.",
+          "source_specs": [
+            "V1700016120:25",
+            "V1700016120:28",
+            "V1700016120:30"
+          ],
+          "kind": "conditional_action",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Сомнительные деньги либо деньги с неплатёжным/незаконным статусом.",
+          "behavior": "Использовать соответствующую ветку; общий запрет отказа по ветхости не означает обязательного обычного приёма любой банкноты.",
+          "source_specs": [
+            "V1700016120:25",
+            "V1700016120:28",
+            "V1700016120:30"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Платёжные ветхие деньги приняты; иная подтверждённая категория обработана по своему порядку.",
+      "evidence": [
+        "Результаты проверки",
+        "Размер/повреждения",
+        "Причина отказа",
+        "Валюта"
+      ],
+      "linked_workflows": [
+        "cash_receipt",
+        "suspect_cash"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "bundle_formation",
+      "actor": "Кассовый работник или бригада",
+      "procedure_type": "operator_procedure",
+      "applicability": "Формируется окончательная пачка банкнот; вариант упаковки установлен.",
+      "steps": [
+        {
+          "action": "Сформировать корешок из 100 листов одного номинала лицом вверх в одну сторону; обандеролить и указать реквизиты п.46, для ветхих — отметку.",
+          "source_specs": [
+            "V1900019680:46"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Сформировать полную пачку из 10 корешков/1000 листов с верхней и нижней накладками и реквизитами п.47.",
+          "source_specs": [
+            "V1900019680:47"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Упаковать шпагатом и пломбой либо в заваренный на вакуумном упаковщике пакет с кодами на шве по п.48.",
+          "source_specs": [
+            "V1900019680:48"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Остатки объединять с полистным пересчётом по п.49; неполные и сборные пачки оформлять по п.50, не более десяти корешков, с отметкой «Сборная» при разных номиналах.",
+          "source_specs": [
+            "V1900019680:49",
+            "V1900019680:50"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Неполные корешки/остатки или разные номиналы.",
+          "behavior": "Использовать варианты п.49–50, включая общую бандероль для предусмотренных остатков без реквизитов части 2 п.46; нельзя требовать от всех пачек 1000 листов одного номинала.",
+          "source_specs": [
+            "V1900019680:49",
+            "V1900019680:50"
+          ],
+          "kind": "permitted_alternative"
+        },
+        {
+          "condition": "Вакуумная упаковка.",
+          "behavior": "Применяется альтернативный способ п.48; отсутствие шпагата само по себе не нарушение.",
+          "source_specs": [
+            "V1900019680:48"
+          ],
+          "kind": "permitted_alternative"
+        }
+      ],
+      "expected_outcome": "Готовая пачка отвечает конкретному допустимому варианту по количеству, оформлению и защите.",
+      "evidence": [
+        "Завершённая пачка",
+        "Пересчёт/номиналы",
+        "Бандероль, накладки, шов/пломба"
+      ],
+      "linked_workflows": [
+        "close_shift"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "coin_packaging",
+      "actor": "Кассовый работник или бригада",
+      "procedure_type": "operator_procedure",
+      "applicability": "Монеты пересчитаны и отсортированы; определена тара и номинал.",
+      "steps": [
+        {
+          "action": "Упаковать монеты в мешки/пакеты/тюбики; количество в пакетах и тюбиках задаёт банк, они затем упаковываются в мешки без наружных швов и повреждений.",
+          "source_specs": [
+            "V1900019680:51"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Для мешка применять количества п.51: 1 и 2 ₸ — 4000; 5 ₸ — 3000; 10 и 20 ₸ — 2500; 50 ₸ — 1500; 100 ₸ — 1000; 200 ₸ — 750 монет.",
+          "source_specs": [
+            "V1900019680:51"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Прошить горловину с ярлыком, завязать и опломбировать по п.52; указать на ярлыке реквизиты п.53.",
+          "source_specs": [
+            "V1900019680:52",
+            "V1900019680:53"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Сборный мешок либо дефектные монеты.",
+          "behavior": "Проставить предусмотренную отметку и для сборного — номиналы, количества, суммы и общую сумму; не выводить состав из внешнего размера мешка.",
+          "source_specs": [
+            "V1900019680:53"
+          ],
+          "kind": "conditional_branch"
+        }
+      ],
+      "expected_outcome": "Тара, количество и маркировка соответствуют виду упаковки монет.",
+      "evidence": [
+        "Вид тары",
+        "Пересчёт и номинал",
+        "Ярлык/пломба",
+        "Редакция на дату"
+      ],
+      "linked_workflows": [
+        "close_shift"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "outgoing_packaging",
+      "actor": "Кассовый работник",
+      "procedure_type": "operator_procedure",
+      "applicability": "Выдача наличных клиенту в упаковке.",
+      "steps": [
+        {
+          "action": "Проверить целостность и вид упаковки; применить пересчёт по п.32.",
+          "source_specs": [
+            "V1900019680:32"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Выдать деньги в упаковке банка с учётом допускаемых вариантов по п.33.",
+          "source_specs": [
+            "V1900019680:33"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Упаковка Национального Банка или другого банка.",
+          "behavior": "Учитывать предусмотренное п.33 условие урегулирования претензий договором корреспондентского счёта; не запрещать по одному чужому логотипу.",
+          "source_specs": [
+            "V1900019680:33"
+          ],
+          "kind": "express_normative_exception"
+        },
+        {
+          "condition": "Предусмотренная неповреждённая упаковка.",
+          "behavior": "Допускается выдача по суммам на упаковке по п.32.",
+          "source_specs": [
+            "V1900019680:32"
+          ],
+          "kind": "permitted_alternative"
+        }
+      ],
+      "expected_outcome": "Деньги выданы в допустимой упаковке с соответствующим способом пересчёта.",
+      "evidence": [
+        "Происхождение упаковки",
+        "Состояние пачки/корешка",
+        "Договорное условие при необходимости"
+      ],
+      "linked_workflows": [
+        "cash_issue"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "client_recount",
+      "actor": "Клиент; кассовый или контролирующий работник",
+      "procedure_type": "operator_procedure",
+      "applicability": "Клиент пересчитывает полученные деньги или заявляет расхождение.",
+      "steps": [
+        {
+          "action": "При пересчёте клиентом соблюдать предусмотренное место: не отходя от кассы либо в помещении для пересчёта в присутствии кассового/контролирующего работника.",
+          "source_specs": [
+            "V1900019680:35"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "При выявлении недостачи/излишка кассовому или контролирующему работнику составить акт по форме банка.",
+          "source_specs": [
+            "V1900019680:35"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "При рассмотрении заявления установить соблюдение условий пересчёта, предусмотренных п.35.",
+          "source_specs": [
+            "V1900019680:35"
+          ],
+          "kind": "review_check",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Клиент не пересчитывает полученное.",
+          "behavior": "Не превращать это в автоматически установленное нарушение кассира; п.35 регулирует процедуру пересчёта и заявления.",
+          "source_specs": [
+            "V1900019680:35"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Проведённый клиентом пересчёт и выявленное расхождение обработаны по установленной процедуре.",
+      "evidence": [
+        "Факт пересчёта",
+        "Место и присутствие работника",
+        "Акт и заявление"
+      ],
+      "linked_workflows": [
+        "cash_issue"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "damaged_bag_recount",
+      "actor": "Кассир, передающий инкассатор; контролирующий работник при служебной обработке",
+      "procedure_type": "operator_procedure",
+      "applicability": "Нарушенная целостность инкассаторской сумки установлена до вскрытия.",
+      "steps": [
+        {
+          "action": "При приёме проверить документы, сумму, целостность и пломбирование по п.24.",
+          "source_specs": [
+            "V1900019680:24"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "При повреждении вскрыть и пересчитать в присутствии работника инкассации; при расхождении составить акт.",
+          "source_specs": [
+            "V1900019680:25"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "При пересчёте/сортировке использовать оборудование п.41 и присутствие контролирующего работника по п.42, учитывая исключение для операций с клиентом.",
+          "source_specs": [
+            "V1900019680:41",
+            "V1900019680:42"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Сумка целая.",
+          "behavior": "Пункт 25 не устанавливает обязанность немедленно вскрывать каждую целую сумку.",
+          "source_specs": [
+            "V1900019680:24",
+            "V1900019680:25"
+          ],
+          "kind": "applicability_limit"
+        },
+        {
+          "condition": "Обычный приём/выдача наличных клиенту.",
+          "behavior": "Исключение п.42 оценивать по фактическому виду операции, не по названию сотрудника.",
+          "source_specs": [
+            "V1900019680:42"
+          ],
+          "kind": "express_normative_exception"
+        }
+      ],
+      "expected_outcome": "Повреждённая сумка пересчитана с требуемыми участниками и оформлением расхождений.",
+      "evidence": [
+        "Повреждение до вскрытия",
+        "Полный эпизод",
+        "Роли участников",
+        "Акт"
+      ],
+      "linked_workflows": [
+        "incoming_collection"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "received_bag_recount",
+      "actor": "Кассовый и контролирующий работники",
+      "procedure_type": "operator_procedure",
+      "applicability": "Подтверждено, что начат этап вскрытия и служебного пересчёта принятой сумки.",
+      "steps": [
+        {
+          "action": "Различить приём закрытой сумки по п.24 и обязательный пересчёт повреждённой по п.25.",
+          "source_specs": [
+            "V1900019680:24",
+            "V1900019680:25"
+          ],
+          "kind": "applicability_check",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Выполнить служебный пересчёт/сортировку на оборудовании с предусмотренными функциями и в присутствии контролирующего работника.",
+          "source_specs": [
+            "V1900019680:41",
+            "V1900019680:42"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Для повреждённой сумки обеспечить присутствие инкассатора и акт при расхождении.",
+          "source_specs": [
+            "V1900019680:25"
+          ],
+          "kind": "conditional_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Целая сумка только принята и ещё не наступил этап пересчёта.",
+          "behavior": "Данные пункты не задают универсальный срок немедленного вскрытия; отсутствие пересчёта на передаче не считать доказанным пропуском.",
+          "source_specs": [
+            "V1900019680:24",
+            "V1900019680:25"
+          ],
+          "kind": "applicability_limit"
+        },
+        {
+          "condition": "Приём/выдача денег клиенту.",
+          "behavior": "Применимо исключение п.42 для контролирующего работника.",
+          "source_specs": [
+            "V1900019680:42"
+          ],
+          "kind": "express_normative_exception"
+        }
+      ],
+      "expected_outcome": "На установленном этапе пересчёт выполнен с требуемыми средствами и контролем.",
+      "evidence": [
+        "Начало и конец служебного пересчёта",
+        "Состояние сумки",
+        "Роли и прибор"
+      ],
+      "linked_workflows": [
+        "incoming_collection"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "collection_document_flow",
+      "actor": "Клиент, банк, инкассатор — каждый на своей стадии",
+      "procedure_type": "operator_procedure",
+      "applicability": "Подтверждены инкассация, направление передачи и вид документа.",
+      "steps": [
+        {
+          "action": "При подготовке инкассации упаковать ценности с препроводительным документом по п.105–106.",
+          "source_specs": [
+            "V1900019680:105",
+            "V1900019680:106"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Кассиру банка при приёме проверить сведения и зарегистрировать сумму по п.24; при выдаче инкассации использовать документ п.106 согласно п.38.",
+          "source_specs": [
+            "V1900019680:24",
+            "V1900019680:38"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Сборщику при приёме проверить явочную карточку и сведения препроводительного документа; обеспечить дальнейшее движение экземпляра по п.106.",
+          "source_specs": [
+            "V1900019680:107",
+            "V1900019680:106"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "При цифровой форме проверить установленную процедуру кассовых документов.",
+          "source_specs": [
+            "V1900019680:10-1"
+          ],
+          "kind": "review_check",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Документ находится в кармане сумки или вне обзора.",
+          "behavior": "Проверить предусмотренные форму и передачу; отсутствие свободного бумажного листа в руке недостаточно для вывода. Эта оговорка не устанавливает самостоятельного разрешения заменить документы инкассации произвольным цифровым сообщением.",
+          "source_specs": [
+            "V1900019680:24",
+            "V1900019680:38",
+            "V1900019680:106",
+            "V1900019680:10-1"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "У каждой стадии передачи есть соответствующий документ и проверка его реквизитов.",
+      "evidence": [
+        "Документ и его реквизиты",
+        "Направление передачи",
+        "Все экземпляры/цифровая процедура"
+      ],
+      "linked_workflows": [
+        "incoming_collection",
+        "outgoing_transport"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "collector_documents",
+      "actor": "Руководитель/дежурный инкассатор; сборщик; старший бригады",
+      "procedure_type": "operator_procedure",
+      "applicability": "Различены сбор по маршруту и перевозка ценностей.",
+      "steps": [
+        {
+          "action": "Перед выездом провести инструктаж и выдать сборщику доверенность, явочную карточку, служебное удостоверение и штамп маршрута; старшему — порожние сумки и удостоверение.",
+          "source_specs": [
+            "V1900019680:101"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Для перевозки обеспечить доверенность у старшего с реквизитами отправителя, суммы, состава бригады и срока по п.111.",
+          "source_specs": [
+            "V1900019680:111"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "По окончании маршрута вернуть документы руководителю или дежурному согласно п.101.",
+          "source_specs": [
+            "V1900019680:101"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Виден только кассовый эпизод.",
+          "behavior": "Выдача перед выездом и возврат после маршрута могли происходить вне записи; наличие карточки не устанавливается по её размеру.",
+          "source_specs": [
+            "V1900019680:101",
+            "V1900019680:111"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "У участников имеются документы для соответствующего вида маршрута, возврат оформлен.",
+      "evidence": [
+        "Роль и вид маршрута",
+        "Реквизиты доверенности",
+        "Выдача и возврат"
+      ],
+      "linked_workflows": [
+        "outgoing_transport"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "collection_documents_storage",
+      "actor": "Работники подразделения инкассации/инкассаторской организации",
+      "procedure_type": "operator_procedure",
+      "applicability": "Этап хранения после инкассации и завершения маршрута.",
+      "steps": [
+        {
+          "action": "Хранить инкассированные ценности в кладовой/сейфовой комнате, отвечающей требованиям устройства помещений.",
+          "source_specs": [
+            "V1900019680:122"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Вместе с ценностями разместить и закрыть в сейфе/металлическом шкафу явочные карточки, доверенность и служебные удостоверения.",
+          "source_specs": [
+            "V1900019680:123"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "При нескольких маршрутах проверить специальный срок размещения доверенности и удостоверения.",
+          "source_specs": [
+            "V1900019680:123"
+          ],
+          "kind": "review_check",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Несколько маршрутов за рабочий день.",
+          "behavior": "Доверенность и служебное удостоверение размещаются и закрываются после последнего маршрута; не требовать этого после каждого промежуточного.",
+          "source_specs": [
+            "V1900019680:123"
+          ],
+          "kind": "express_normative_exception"
+        }
+      ],
+      "expected_outcome": "Ценности и предусмотренные документы помещены под хранение на правильной стадии.",
+      "evidence": [
+        "Число/этап маршрутов",
+        "Вид помещения",
+        "Назначение документов"
+      ],
+      "linked_workflows": [
+        "storage_and_absence"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "cash_storage",
+      "actor": "Банк и ответственные за сохранность наличных",
+      "procedure_type": "operator_procedure",
+      "applicability": "Учтённые деньги передаются на хранение, а не остаются в текущей операции.",
+      "steps": [
+        {
+          "action": "После учёта в автоматизированной системе обеспечить хранение в кладовой/сейфовой комнате по внутренним документам.",
+          "source_specs": [
+            "V1900019680:74"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Ограничить вход по п.75, хранить деньги раздельно по валюте и номиналам в предусмотренных устройствах.",
+          "source_specs": [
+            "V1900019680:75",
+            "V1900019680:77"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Выдачу/передачу ценностей и ключей выполнять по внутреннему порядку, исключающему несанкционированное использование.",
+          "source_specs": [
+            "V1900019680:80"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Это наличные текущего обслуживания, а не стадия хранения после учёта.",
+          "behavior": "Не требовать переноса каждой текущей купюры в кладовую на основании п.74.",
+          "source_specs": [
+            "V1900019680:74",
+            "V1900019680:80"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Учтённые деньги хранятся в соответствующем месте с контролируемым доступом.",
+      "evidence": [
+        "Стадия учёта/хранения",
+        "Категория помещения",
+        "Разделение наличных",
+        "Полномочия"
+      ],
+      "linked_workflows": [
+        "storage_and_absence"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "unattended_cash",
+      "actor": "Кассовый работник и ответственные за хранение",
+      "procedure_type": "operator_procedure",
+      "applicability": "Установлены содержимое/принадлежность ценностей, стадия обслуживания и уход.",
+      "steps": [
+        {
+          "action": "При приёме завершить обслуживание до ухода; ранее принятые деньги держать в предусмотренном устройстве.",
+          "source_specs": [
+            "V1900019680:20",
+            "V1900019680:22"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "На стадии хранения после учёта применить кладовую/сейфовую комнату и внутренний порядок передачи/защиты ценностей.",
+          "source_specs": [
+            "V1900019680:74",
+            "V1900019680:80"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Сумка пуста, деньги относятся к текущему обслуживанию либо сотрудник не покинул рабочее место.",
+          "behavior": "Проверить соответствующую предпосылку, не считать любой оставленный предмет подтверждёнными деньгами без контроля.",
+          "source_specs": [
+            "V1900019680:20",
+            "V1900019680:22",
+            "V1900019680:74",
+            "V1900019680:80"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Для установленной стадии обеспечены обслуживание и предусмотренное хранение ценностей.",
+      "evidence": [
+        "Содержимое и принадлежность",
+        "Начало/конец обслуживания",
+        "Факт ухода",
+        "Режим хранения"
+      ],
+      "linked_workflows": [
+        "storage_and_absence"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "open_safe",
+      "actor": "Кассовый работник; ответственные за локальный порядок",
+      "procedure_type": "standing_condition",
+      "applicability": "Определён рабочий сейф/ящик и стадия доступа к наличным.",
+      "steps": [
+        {
+          "action": "Хранить ранее принятые деньги в специальном устройстве, закрывающемся на ключ.",
+          "source_specs": [
+            "V1900019680:20"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Соблюдать внутренний порядок доступа к ценностям и ключам, исключающий несанкционированное использование.",
+          "source_specs": [
+            "V1900019680:80"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "При проверке установить доступ постороннего или конкретное несоблюдение применимого порядка.",
+          "source_specs": [
+            "V1900019680:20",
+            "V1900019680:80"
+          ],
+          "kind": "review_check",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Краткое открытие рабочего сейфа при выполнении операции.",
+          "behavior": "Публичные пункты не устанавливают запрета любого открытого состояния; открытая дверца сама по себе недостаточна.",
+          "source_specs": [
+            "V1900019680:20",
+            "V1900019680:80"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Хранение и доступ соответствуют режиму устройства без неподтверждённого запрета его открывать.",
+      "evidence": [
+        "Назначение устройства",
+        "Стадия операции",
+        "Правила доступа",
+        "Наличие доступных ценностей"
+      ],
+      "linked_workflows": [
+        "storage_and_absence"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "keys_stamps",
+      "actor": "Ответственные за сохранность; кассовый работник",
+      "procedure_type": "operator_procedure",
+      "applicability": "Определены вид ключа/кода/штампа и его назначение.",
+      "steps": [
+        {
+          "action": "Ключи и коды двери кладовой/сейфовой комнаты хранить у ответственных за сохранность.",
+          "source_specs": [
+            "V1900019680:76"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Рабочие ключи, печати, штампы, пломбираторы и ценности хранить, выдавать и передавать по порядку банка, исключающему несанкционированное использование.",
+          "source_specs": [
+            "V1900019680:80"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Сопоставить фактическую доступность с конкретным порядком и полномочиями лица.",
+          "source_specs": [
+            "V1900019680:80"
+          ],
+          "kind": "review_check",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "В кадре связка ключей неизвестного назначения.",
+          "behavior": "Не применять требования к ключу кладовой к любому ключу и не выдумывать обязательное единственное место хранения.",
+          "source_specs": [
+            "V1900019680:76",
+            "V1900019680:80"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Ключи и средства удостоверения находятся под установленным контролем.",
+      "evidence": [
+        "Назначение ключа/штампа",
+        "Полномочия",
+        "Внутренний порядок и доступность"
+      ],
+      "linked_workflows": [
+        "storage_and_absence"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "service_overlap",
+      "actor": "Кассовый работник",
+      "procedure_type": "operator_procedure",
+      "applicability": "Различены текущие и предыдущие операции, клиенты и приходные документы.",
+      "steps": [
+        {
+          "action": "Принимать/пересчитывать текущую сумму при клиенте, ранее принятые деньги хранить в специальном устройстве.",
+          "source_specs": [
+            "V1900019680:20"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Деньги по нескольким приходным документам принимать отдельно.",
+          "source_specs": [
+            "V1900019680:21"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Не покидать рабочее место до завершения обслуживания в процедуре приёма.",
+          "source_specs": [
+            "V1900019680:22"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Рядом стоят несколько людей или лежат несколько листов.",
+          "behavior": "Это не самостоятельный запрет параллельного общения; требуются факты смешения приёма по документам или несоблюдения конкретного пункта.",
+          "source_specs": [
+            "V1900019680:20",
+            "V1900019680:21",
+            "V1900019680:22"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Прослеживаются раздельные суммы/документы и соблюдены условия обслуживания.",
+      "evidence": [
+        "Связь денег с клиентами",
+        "Документы",
+        "Полный ход обслуживания"
+      ],
+      "linked_workflows": [
+        "cash_receipt"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "atm_cash",
+      "actor": "Уполномоченные работники банка/инкассации; банк отвечает за устройство",
+      "procedure_type": "operator_procedure",
+      "applicability": "Устройство функционирует автоматически; установлен режим загрузки либо повторного использования денег.",
+      "steps": [
+        {
+          "action": "Подготовить банкноты для загрузки в кассеты полистно; кассеты закрыть на ключ и опломбировать с защитой от несанкционированного вскрытия.",
+          "source_specs": [
+            "V1900019680:55"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Поручить загрузку/изъятие ответственным работникам по внутреннему порядку; загружать только годные к обращению деньги.",
+          "source_specs": [
+            "V1900019680:69",
+            "V1900019680:71"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Для устройства с повторным использованием принятых денег обеспечить распознавание не менее двух машиночитаемых признаков.",
+          "source_specs": [
+            "V1900019680:72"
+          ],
+          "kind": "conditional_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Банк выбрал иной допустимый вид пломбы.",
+          "behavior": "Пункт 55 оставляет выбор банку; бумажная пломба не является единственным вариантом.",
+          "source_specs": [
+            "V1900019680:55"
+          ],
+          "kind": "permitted_alternative"
+        },
+        {
+          "condition": "Устройство не предусматривает повторного использования принятых денег.",
+          "behavior": "Не переносить условное требование п.72 без проверки конструкции.",
+          "source_specs": [
+            "V1900019680:72"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Кассеты, персонал, годность денег и функции устройства соответствуют его режиму.",
+      "evidence": [
+        "Модель устройства",
+        "Опломбирование кассеты",
+        "Назначенные работники",
+        "Результаты проверки денег"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "fx_access",
+      "actor": "Работники и ответственные за операционную кассу обменного пункта",
+      "procedure_type": "standing_condition",
+      "applicability": "Подтверждена именно операционная касса обменного пункта и полномочия присутствующих.",
+      "steps": [
+        {
+          "action": "Не допускать присутствия посторонних лиц в операционной кассе.",
+          "source_specs": [
+            "V1900018545:41"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Деньги, не относящиеся к деятельности уполномоченного юридического лица, хранить в отдельной комнате или шкафах вне операционной кассы.",
+          "source_specs": [
+            "V1900018545:41"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Помещение не является операционной кассой обменного пункта либо полномочия человека неизвестны.",
+          "behavior": "Сначала установить область применения и роль; внешний вид не определяет постороннего.",
+          "source_specs": [
+            "V1900018545:41"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "В операционной кассе находятся уполномоченные лица и относящиеся к деятельности деньги.",
+      "evidence": [
+        "Категория помещения",
+        "Права доступа",
+        "Принадлежность денег"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "fx_equipment",
+      "actor": "Банк/юридическое лицо и кассир обменного пункта",
+      "procedure_type": "operator_procedure",
+      "applicability": "Обычный обменный пункт; отдельно проверяется исключение для автоматизированного.",
+      "steps": [
+        {
+          "action": "Обеспечить требования п.11: помещение, видеосистему с хранением 90 календарных дней и защитой архива, учётный комплекс/ККМ и средства проверки банкнот в УФ и на магнитные метки.",
+          "source_specs": [
+            "V1900018545:11"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "В ходе деятельности обеспечивать соответствие помещения, оборудования и персонала п.33 с учётом применимости требований к конкретному субъекту.",
+          "source_specs": [
+            "V1900018545:33"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "При возникшем несоответствии требованиям п.11 не проводить обменные операции.",
+          "source_specs": [
+            "V1900018545:34"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Автоматизированный обменный пункт.",
+          "behavior": "Учитывать исключения п.11 и 33; не применять требования рабочего места обычного кассира автоматически.",
+          "source_specs": [
+            "V1900018545:11",
+            "V1900018545:33"
+          ],
+          "kind": "express_normative_exception"
+        },
+        {
+          "condition": "Прибор визуально не похож на отдельную УФ-лампу.",
+          "behavior": "Проверить технические функции, а не название или корпус.",
+          "source_specs": [
+            "V1900018545:11",
+            "V1900018545:34"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Обмен проводится при подтверждённом соответствии обязательного оснащения и условий.",
+      "evidence": [
+        "Тип пункта",
+        "Технические документы и работоспособность",
+        "Архивная политика",
+        "Факт обмена"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "fx_display",
+      "actor": "Юридическое лицо/обменный пункт",
+      "procedure_type": "standing_condition",
+      "applicability": "Обменный пункт и дата/время действующего распоряжения о курсах установлены.",
+      "steps": [
+        {
+          "action": "Разместить доступную клиенту информацию п.39: применимую копию лицензии; для уполномоченной организации — приложение к ней, для банка — полученное письменное подтверждение либо ранее полученное свидетельство; сведения о контролирующем филиале НБ и подаче жалобы по приложению 10; действующий акт о пределах курсового отклонения; ФИО кассира и адрес сайта при наличии. Проверить исключения по виду пункта и способу размещения.",
+          "source_specs": [
+            "V1900018545:39"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Разместить стенд курсов не менее 0,4 м в высоту и 0,4 м в ширину внутри пункта либо непосредственно возле операционной кассы. Не размещать его вне помещения; ограничение обзора с открытого пространства применять с учётом исключений по местоположению пункта. Для автоматизированного пункта допустим монитор.",
+          "source_specs": [
+            "V1900018545:39"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Установить курсы распоряжением с валютами, датой и временем начала действия; проводить обмен по соответствующим курсам.",
+          "source_specs": [
+            "V1900018545:42"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Весь период действия распоряжения показывать клиентам предусмотренные курсы по всем используемым валютам.",
+          "source_specs": [
+            "V1900018545:46"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "По требованию физического лица предоставить сведения о признаках годных/негодных банкнот и порядке/условиях принятия на инкассо неплатёжных или негодных банкнот; для автоматизированного пункта действует исключение.",
+          "source_specs": [
+            "V1900018545:39"
+          ],
+          "kind": "conditional_action",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Автоматизированный пункт.",
+          "behavior": "Курсы допускается показывать на мониторе; информация о кассире и предусмотренная последним абзацем консультация кассира по требованию клиента не обязательны для автоматизированного пункта.",
+          "source_specs": [
+            "V1900018545:39"
+          ],
+          "kind": "permitted_alternative"
+        },
+        {
+          "condition": "Информация п.39 пп.1), 3), 6) размещена на сайте.",
+          "behavior": "Пункт допускает такой канал; для других сведений проверить собственное требование.",
+          "source_specs": [
+            "V1900018545:39"
+          ],
+          "kind": "permitted_alternative"
+        },
+        {
+          "condition": "Распоряжением установлены разные курсы в зависимости от суммы.",
+          "behavior": "Пункт 42 допускает это; сравнивать с соответствующим диапазоном суммы.",
+          "source_specs": [
+            "V1900018545:42"
+          ],
+          "kind": "permitted_alternative"
+        },
+        {
+          "condition": "Пункт расположен в здании/сооружении многофункционального назначения (включая деловой центр), здании железнодорожного вокзала или казино, внутри аэровокзала международного аэропорта либо на территории автомобильного, морского или речного пограничного пункта пропуска.",
+          "behavior": "Оговорка п.39 пп.4) допускает внешний визуальный обзор стенда; она не отменяет отдельный запрет размещать сам стенд вне помещения.",
+          "source_specs": [
+            "V1900018545:39"
+          ],
+          "kind": "express_normative_exception"
+        },
+        {
+          "condition": "Получение лицензии не требуется в случае, указанном в п.39 пп.1), либо разрешительный документ зависит от статуса организации/банка.",
+          "behavior": "Не требовать неприменимую копию; установить правовое основание исключения. Приложение к лицензии организации и письменное подтверждение/ранее полученное свидетельство банка — разные позиции.",
+          "source_specs": [
+            "V1900018545:39"
+          ],
+          "kind": "express_normative_exception"
+        }
+      ],
+      "expected_outcome": "Клиенту доступна применимая информация, курсы согласованы с действующим распоряжением.",
+      "evidence": [
+        "Стенд/монитор/сайт",
+        "Распоряжение и время",
+        "Вид пункта",
+        "Сумма операции"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "fx_identity",
+      "actor": "Кассир и юридическое лицо, ведущее обмен",
+      "procedure_type": "operator_procedure",
+      "applicability": "Обменная операция; установлены сумма в эквиваленте тенге и дата редакции.",
+      "steps": [
+        {
+          "action": "Фиксировать сведения на основе предусмотренного документа или сервиса цифровых документов.",
+          "source_specs": [
+            "V1900018545:51",
+            "Z1300000073:6.4"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "При сумме свыше эквивалента 500 000 тенге по курсу операции записать ИИН; если ИИН не присвоен — вид, дату выдачи, номер и срок действия документа; юридический адрес (государство, населённый пункт, улица, дом, квартира при наличии); полные ФИО с отчеством при наличии. При сумме не выше порога — полные ФИО и ИИН при наличии. Юридический адрес исключён из требования брать сведения именно из удостоверяющего документа.",
+          "source_specs": [
+            "V1900018545:51"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "При решении об отказе проверить основания п.53, включая непредставление требуемого документа/цифровых данных; не выводить идентификацию из наличия пластика.",
+          "source_specs": [
+            "V1900018545:53"
+          ],
+          "kind": "review_check",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Предъявлен документ через сервис цифровых документов.",
+          "behavior": "Применить его равнозначность с установленными законом исключениями.",
+          "source_specs": [
+            "Z1300000073:6.4"
+          ],
+          "kind": "permitted_alternative"
+        },
+        {
+          "condition": "Операция равна 500 000 тенге.",
+          "behavior": "Это категория «не превышающая», а не «превышающая» порог п.51.",
+          "source_specs": [
+            "V1900018545:51"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Объём и основание фиксации данных соответствуют сумме и применимой редакции.",
+      "evidence": [
+        "Сумма и курс",
+        "Документ/цифровой канал",
+        "Запись реестра",
+        "Законное основание отказа"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "fx_receipt",
+      "actor": "Обменный пункт, включая автоматизированный",
+      "procedure_type": "operator_procedure",
+      "applicability": "Обменная операция проведена.",
+      "steps": [
+        {
+          "action": "Подтвердить проведение обмена выдачей контрольного чека по п.54.",
+          "source_specs": [
+            "V1900018545:54"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Проверить факт и применимую форму выдачи чека по требованиям, на которые ссылается п.54.",
+          "source_specs": [
+            "V1900018545:54"
+          ],
+          "kind": "review_check",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Операция ещё не завершена или способ выдачи/зона передачи не виден.",
+          "behavior": "Не считать отсутствие наблюдаемого листа достаточным доказательством отсутствия чека.",
+          "source_specs": [
+            "V1900018545:54"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Клиенту выдан предусмотренный контрольный чек.",
+      "evidence": [
+        "Завершение обмена",
+        "Чек или подтверждение его выдачи"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "fx_refusal_fee",
+      "actor": "Уполномоченный банк/обменный пункт",
+      "procedure_type": "operator_procedure",
+      "applicability": "Известны правовой статус банкнот, наличие нужной валюты, причина отказа и вид комиссии.",
+      "steps": [
+        {
+          "action": "Не ограничивать приём обращающихся денежных знаков по номиналу/году и не отказывать при наличии нужных сумм, кроме оснований п.53.",
+          "source_specs": [
+            "V1900018545:53"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "При отказе из-за отсутствия нужной валюты выдать по требованию клиента справку с видом/суммой, датой/временем и подписью, зарегистрировать её.",
+          "source_specs": [
+            "V1900018545:53"
+          ],
+          "kind": "conditional_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Не взимать комиссию за покупку/продажу законного платёжного средства и обмен ранних выпусков на поздние по п.57.",
+          "source_specs": [
+            "V1900018545:57"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Для неплатёжных/негодных банкнот применить особый порядок п.61: отношения с иностранными банками, предупреждение о комиссии/риске отказа и письменное согласие при инкассо; комиссия не более 10% номинала.",
+          "source_specs": [
+            "V1900018545:61"
+          ],
+          "kind": "conditional_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Законное основание отказа по статье 13 закона о ПОД/ФТ/ФРОМУ или непредставление документа в предусмотренном случае.",
+          "behavior": "Пункт 53 сохраняет исключения; их наличие проверяется отдельно и не предполагается по кадру.",
+          "source_specs": [
+            "V1900018545:53"
+          ],
+          "kind": "express_normative_exception"
+        },
+        {
+          "condition": "Комиссия относится к неплатёжным/негодным банкнотам.",
+          "behavior": "Это специальная ветка п.61, отличная от запрета п.57.",
+          "source_specs": [
+            "V1900018545:57",
+            "V1900018545:61"
+          ],
+          "kind": "conditional_branch"
+        }
+      ],
+      "expected_outcome": "Отказ и комиссия имеют подтверждённое допустимое основание; необходимые документы выданы.",
+      "evidence": [
+        "Статус банкнот",
+        "Наличие валюты",
+        "Причина отказа",
+        "Тариф и согласие"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "fx_note_quality",
+      "actor": "Уполномоченный банк/обменный пункт",
+      "procedure_type": "operator_procedure",
+      "applicability": "Иностранная валюта; известен эмитент, состояние и правовой статус банкноты.",
+      "steps": [
+        {
+          "action": "Проверять платёжность по официальным образцам/справочным материалам эмитента и признакам п.58 Правил №49.",
+          "source_specs": [
+            "V1900019680:58",
+            "V1900018545:58"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Отнести банкноту к годной по п.59 или негодной/неплатёжной по п.60; при неразрешимой классификации использовать рекомендации центрального банка эмитента по п.60-1.",
+          "source_specs": [
+            "V1900018545:59",
+            "V1900018545:60",
+            "V1900018545:60-1"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Неплатёжные/негодные банкноты обрабатывать по п.61; не продавать клиентам приобретённые/принятые в порядке замены, направлять на инкассо по установленным отношениям.",
+          "source_specs": [
+            "V1900018545:61"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "При принятии на инкассо предупредить о комиссии и риске отказа, получить письменное согласие; при отказе иностранного банка предоставить подтверждающие документы.",
+          "source_specs": [
+            "V1900018545:61"
+          ],
+          "kind": "conditional_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Состояние не укладывается однозначно в п.59–60.",
+          "behavior": "Применить справочные рекомендации эмитента по п.60-1; не переносить критерии тенге на иностранную валюту.",
+          "source_specs": [
+            "V1900018545:60-1",
+            "V1900019680:58"
+          ],
+          "kind": "applicability_limit"
+        },
+        {
+          "condition": "Обычная небольшая отметина/износ.",
+          "behavior": "Сопоставить с точными критериями п.60, включая размеры/количество повреждений; видимость пятна сама по себе недостаточна.",
+          "source_specs": [
+            "V1900018545:60"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Категория и дальнейший маршрут банкноты подтверждены применимыми критериями.",
+      "evidence": [
+        "Эмитент и справочник",
+        "Размеры/тип повреждений",
+        "Статус обращения",
+        "Согласие и документы инкассо"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "access_control",
+      "actor": "Банк, подразделение безопасности и ответственные за кассовые операции",
+      "procedure_type": "premises_audit",
+      "applicability": "Установлены зона банка, её режим и полномочия участника.",
+      "steps": [
+        {
+          "action": "Обеспечить изоляцию кассового узла и устройство кассы по п.8 и 16 с учётом даты и исключений.",
+          "source_specs": [
+            "V2000020075:8",
+            "V2000020075:16",
+            "V2000020075:16@transition_until_2027",
+            "V2000020075:18"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Подразделению безопасности организовать пропускной и внутриобъектовый режим.",
+          "source_specs": [
+            "V2600038336:18"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Кассовые операции поручать работникам в рамках должностных обязанностей с распределением функций, исключающим конфликт интересов и условия хищения.",
+          "source_specs": [
+            "V1900019680:14"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Сопоставить фактический вход/действие с установленным режимом и полномочиями, не определяя постороннего по внешности.",
+          "source_specs": [
+            "V2600038336:18",
+            "V1900019680:14"
+          ],
+          "kind": "review_check",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Автоматические устройства вместо помещения кассы.",
+          "behavior": "Проверить исключение п.18 Правил №14.",
+          "source_specs": [
+            "V2000020075:18"
+          ],
+          "kind": "express_normative_exception"
+        },
+        {
+          "condition": "Открытие закрывающейся двери на время разрешённого прохода.",
+          "behavior": "Само по себе не доказывает нарушение устройства помещения или режима допуска.",
+          "source_specs": [
+            "V2000020075:8",
+            "V2000020075:16",
+            "V2600038336:18"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Организация зоны и фактический допуск согласованы с установленными полномочиями.",
+      "evidence": [
+        "Режим и список допуска",
+        "Назначение зоны",
+        "Распределение обязанностей",
+        "Дата редакции"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "rko_pass_regime",
+      "actor": "Руководитель РКО, субъект охраны и сотрудники охраны",
+      "procedure_type": "operator_procedure",
+      "applicability": "Подтверждено, что РКО отнесено к уязвимым в террористическом отношении.",
+      "steps": [
+        {
+          "action": "Проверить применимость Инструкции №21 по п.1.",
+          "source_specs": [
+            "V2400034348:1"
+          ],
+          "kind": "applicability_check",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Организовать пропускной режим по п.14–15: контроль входов/выходов, не менее двух зон, перечни допуска и запрещённых предметов, защиту критических зон.",
+          "source_specs": [
+            "V2400034348:14",
+            "V2400034348:15"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Проводить предусмотренный п.18 досмотр техническими средствами; при выявлении перечисленных запрещённых предметов информировать территориальные органы внутренних дел и нацбезопасности.",
+          "source_specs": [
+            "V2400034348:18"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Закрепить в инструкции охраны проверки документов/целей визита и грузов, записи о посетителях, обходы, доклад и действия при нарушениях по п.19.",
+          "source_specs": [
+            "V2400034348:19"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Категория уязвимого РКО не подтверждена.",
+          "behavior": "Не переносить все требования Инструкции на любое банковское окно.",
+          "source_specs": [
+            "V2400034348:1"
+          ],
+          "kind": "applicability_limit"
+        },
+        {
+          "condition": "Лицо входит в утверждённый перечень допуска или находится в общедоступной зоне.",
+          "behavior": "Оценивать соответствующий режим зоны, а не объявлять каждый вход посетителя нарушением.",
+          "source_specs": [
+            "V2400034348:15"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Для применимого объекта действуют зонирование, допуск и предусмотренные процедуры охраны.",
+      "evidence": [
+        "Статус объекта",
+        "Порядок допуска",
+        "Перечни и инструкция охраны",
+        "Контекст досмотра"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "session_timeout",
+      "actor": "Банк и администратор информационной системы",
+      "procedure_type": "system_control_audit",
+      "applicability": "Определены система/актив, критичность, применимость п.71 и отсутствие исключения п.72.",
+      "steps": [
+        {
+          "action": "Проверить категорию активов: для критичных применять Требования; защиту некритичных и полностью состоящих из них систем банк определяет самостоятельно.",
+          "source_specs": [
+            "V2600038336:34",
+            "V2600038336:35"
+          ],
+          "kind": "applicability_check",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "При применимости настроить по п.71 пп.9) автоматическое завершение сеанса либо блокировку станции/ноутбука при неактивности более 30 минут, разблокировку — с аутентификацией.",
+          "source_specs": [
+            "V2600038336:71"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Проверить настройки и непрерывный интервал неактивности; отдельно установить условия исключений п.72.",
+          "source_specs": [
+            "V2600038336:72"
+          ],
+          "kind": "review_check",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Аутентификация интегрирована с соответствующей п.71 системой либо функции одной системы минимизируют риск неавторизованного доступа в другой.",
+          "behavior": "Пункт 72 исключает применение п.71 в перечисленных случаях; применимость исключения подтверждается.",
+          "source_specs": [
+            "V2600038336:72"
+          ],
+          "kind": "express_normative_exception"
+        },
+        {
+          "condition": "Краткий уход, активность неизвестна либо светится только дисплей.",
+          "behavior": "Не делать вывод о нарушении 30-минутного таймаута.",
+          "source_specs": [
+            "V2600038336:71",
+            "V2600038336:72"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Параметры и срабатывание контроля подтверждены для применимой системы.",
+      "evidence": [
+        "Классификация актива",
+        "Настройки/журналы",
+        "Интервал неактивности",
+        "Архитектура аутентификации"
+      ],
+      "linked_workflows": [
+        "storage_and_absence"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "short_absence_screen",
+      "actor": "Банк устанавливает меры; работник соблюдает применимые требования",
+      "procedure_type": "unresolved_requirement_check",
+      "applicability": "Установлены рабочая система, характер доступных данных, применимое правило и дата.",
+      "steps": [
+        {
+          "action": "Установить права доступа по функциональным обязанностям и принятые банком меры защиты рабочих станций.",
+          "source_specs": [
+            "V2600038336:36",
+            "V2600038336:53"
+          ],
+          "kind": "review_check",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Проверить применимость автоматического таймаута и исключений, не подменяя их немедленной ручной блокировкой.",
+          "source_specs": [
+            "V2600038336:71",
+            "V2600038336:72"
+          ],
+          "kind": "review_check",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Для персональных данных проверить меры предотвращения/обнаружения несанкционированного доступа и минимизации последствий.",
+          "source_specs": [
+            "Z1300000094:22.1"
+          ],
+          "kind": "review_check",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "До конкретного вывода подтвердить правило ручной блокировки именно для кассира и системы. При отсутствии подтверждения сохранить незакрытый вопрос применимости.",
+          "source_specs": [
+            "V2600038336:53",
+            "Z1300000094:22.1"
+          ],
+          "kind": "unresolved_requirement",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Известен только короткий уход и включённый экран.",
+          "behavior": "Общая обязанность защиты и таймаут не устанавливают универсального запрета любого краткого ухода.",
+          "source_specs": [
+            "V2600038336:71",
+            "V2600038336:72",
+            "Z1300000094:22.1"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Зафиксировано, какое требование применимо; без конкретного основания нарушение не утверждается.",
+      "evidence": [
+        "Рабочая система",
+        "Правило на дату события",
+        "Состояние сеанса и доступность данных",
+        "Продолжительность/активность"
+      ],
+      "linked_workflows": [
+        "storage_and_absence"
+      ],
+      "ordering": [],
+      "universal_immediate_lock_obligation_confirmed": false,
+      "final_violation_from_short_absence_alone_allowed": false
+    },
+    {
+      "rule_id": "account_sharing",
+      "actor": "Банк, администраторы и пользователи систем",
+      "procedure_type": "system_control_audit",
+      "applicability": "Подтверждены учётная запись, фактический пользователь и режим доступа; видимость работы за компьютером этого не устанавливает.",
+      "steps": [
+        {
+          "action": "Использовать персонализированные пользовательские учётные записи.",
+          "source_specs": [
+            "V2600038336:40"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Организовать управление учётными записями/паролями и идентификацию заявителей; не допускать неправомерной передачи паролей по п.73 пп.1–5).",
+          "source_specs": [
+            "V2600038336:73"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Не работать под чужой записью, кроме оформленного случая непрерывности по п.73 пп.6) с согласованием ИБ, заданным временем и точной идентификацией пользователя.",
+          "source_specs": [
+            "V2600038336:73"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Доступ к чужой записи предоставлен для непрерывности деятельности.",
+          "behavior": "Проверить все условия п.73 пп.6); не считать исключение разрешением свободно делиться паролем.",
+          "source_specs": [
+            "V2600038336:73"
+          ],
+          "kind": "express_normative_exception"
+        },
+        {
+          "condition": "Некритичные активы/система.",
+          "behavior": "Подтвердить область применения п.34–35 и локальные меры.",
+          "source_specs": [
+            "V2600038336:34",
+            "V2600038336:35"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Учётная запись и пользователь персонализированы либо оформлено предусмотренное исключение.",
+      "evidence": [
+        "Журнал входов",
+        "Согласование ИБ",
+        "Интервал и идентификация пользователя"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "third_party_system_access",
+      "actor": "Банк и уполномоченное третье лицо",
+      "procedure_type": "system_control_audit",
+      "applicability": "Лицо не является работником или клиентом в смысле п.56; установлены работа, актив и договорное основание.",
+      "steps": [
+        {
+          "action": "Разграничить доступ работника по обязанностям и доступ третьего лица; обеспечить безопасность соответствующих активов.",
+          "source_specs": [
+            "V2600038336:36",
+            "V2600038336:56"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Ограничить доступ третьего лица сроком и объёмом работ на основании договора с условиями ИБ/конфиденциальности и ответственности, кроме предусмотренных законом случаев.",
+          "source_specs": [
+            "V2600038336:57"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Предусмотреть как минимум одну меру п.59: проверку результата, присутствие работника, аудиторский след или запись сеанса.",
+          "source_specs": [
+            "V2600038336:59"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Снижать риск доступа неавторизованных или несоответствующих настройкам устройств организационными и/или техническими мерами.",
+          "source_specs": [
+            "V2600038336:45"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Рядом не видно сотрудника банка.",
+          "behavior": "Сопровождение — одна из альтернатив п.59; проверить иной предусмотренный контроль.",
+          "source_specs": [
+            "V2600038336:59"
+          ],
+          "kind": "permitted_alternative"
+        },
+        {
+          "condition": "Исключение предусмотрено законодательством либо актив некритичен.",
+          "behavior": "Проверить законное основание и область применения; не выводить полномочия из одежды.",
+          "source_specs": [
+            "V2600038336:57",
+            "V2600038336:34",
+            "V2600038336:35"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Доступ ограничен и подкреплён допустимым основанием и контролем.",
+      "evidence": [
+        "Договор/законное основание",
+        "Объём и срок",
+        "Выбранная мера контроля",
+        "Авторизация устройства"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "paper_protection",
+      "actor": "Банк и лица с доступом к защищаемым документам",
+      "procedure_type": "standing_condition",
+      "applicability": "Установлены защищаемое содержание бумаги и полномочия получателя.",
+      "steps": [
+        {
+          "action": "Определить и применять организационные ограничения или технический контроль работы/вывода защищаемой информации на бумагу по п.76.",
+          "source_specs": [
+            "V2600038336:76"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Обеспечивать конфиденциальность персональных данных ограниченного доступа; не распространять без согласия либо иного законного основания.",
+          "source_specs": [
+            "Z1300000094:11.1",
+            "Z1300000094:11.2"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Применять необходимые меры защиты персональных данных от несанкционированного доступа и его последствий.",
+          "source_specs": [
+            "Z1300000094:22.1"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "При уничтожении защищаемой информации выбирать применимый к носителю способ, исключающий восстановление, по п.78.",
+          "source_specs": [
+            "V2600038336:78"
+          ],
+          "kind": "conditional_action",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Документ на столе не идентифицирован или доступ имеют уполномоченные лица.",
+          "behavior": "Нельзя автоматически считать любую бумагу нарушением; п.76 допускает альтернативные методы защиты.",
+          "source_specs": [
+            "V2600038336:76",
+            "Z1300000094:11.1"
+          ],
+          "kind": "evidence_limit"
+        },
+        {
+          "condition": "Этап уничтожения не наступил.",
+          "behavior": "Не требовать немедленного уничтожения рабочего документа по п.78.",
+          "source_specs": [
+            "V2600038336:78"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Документы используются и уничтожаются с применимыми мерами защиты без недоказанного универсального запрета бумаг на столе.",
+      "evidence": [
+        "Содержание документа",
+        "Право доступа",
+        "Выбранная мера",
+        "Стадия использования/уничтожения"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "client_data_disclosure",
+      "actor": "Банк, работник, собственник/оператор персональных данных",
+      "procedure_type": "standing_condition",
+      "applicability": "Подтверждены сведения, их защищаемый статус, получатель и основание передачи.",
+      "steps": [
+        {
+          "action": "Отнести сведения к банковской тайне по ст.69 п.1 и обеспечить её сохранение по п.2.",
+          "source_specs": [
+            "Z2600000258:69.1",
+            "Z2600000258:69.2"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Для персональных данных ограниченного доступа соблюдать конфиденциальность и проверять согласие либо другое законное основание распространения.",
+          "source_specs": [
+            "Z1300000094:11.1",
+            "Z1300000094:11.2"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Обеспечить меры предотвращения/обнаружения несанкционированного доступа и минимизации последствий по закону и п.21 Правил защиты.",
+          "source_specs": [
+            "Z1300000094:22.1",
+            "V2300032810:21"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "При оценке передачи подтвердить содержание, получателя и отсутствие применимого законного основания, не выводить разглашение из нечитаемого экрана.",
+          "source_specs": [
+            "Z2600000258:69.2",
+            "Z1300000094:11.1"
+          ],
+          "kind": "review_check",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Есть законное основание предоставления сведений.",
+          "behavior": "Оценить его для конкретного режима тайны; не считать любую передачу бумаги разглашением.",
+          "source_specs": [
+            "Z1300000094:11.1",
+            "Z2600000258:69.2"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Защищаемые сведения доступны только при подтверждённом допустимом основании.",
+      "evidence": [
+        "Читаемое содержание",
+        "Режим тайны",
+        "Получатель/полномочия",
+        "Основание передачи"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "external_media",
+      "actor": "Банк, ИБ, администратор и уполномоченный пользователь",
+      "procedure_type": "system_control_audit",
+      "applicability": "Носитель подключён к банковской инфраструктуре; определены авторизация устройства, информация и выбранные меры защиты.",
+      "steps": [
+        {
+          "action": "Снижать риск доступа неавторизованных устройств и устройств с несоответствующими настройками.",
+          "source_specs": [
+            "V2600038336:45"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "При записи/использовании внешних носителей применять предусмотренный организационный или программно-технический метод защиты по п.75.",
+          "source_specs": [
+            "V2600038336:75"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Обеспечить требования к используемому антивирусу по п.116, включая сканирование сменных носителей при подключении; подтверждать по настройкам/журналам.",
+          "source_specs": [
+            "V2600038336:116"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Применяется разрешённый организационный метод п.75.",
+          "behavior": "Не считать отсутствие видимого шифрования доказательством нарушения: методы перечислены как альтернативы.",
+          "source_specs": [
+            "V2600038336:75"
+          ],
+          "kind": "permitted_alternative"
+        },
+        {
+          "condition": "Устройство подключено, но его авторизация неизвестна.",
+          "behavior": "Не приравнивать любое USB-устройство к запрещённому; проверить актив и область п.34–35.",
+          "source_specs": [
+            "V2600038336:45",
+            "V2600038336:34",
+            "V2600038336:35"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Подключение и обработка носителя соответствуют выбранным и применимым мерам защиты.",
+      "evidence": [
+        "Авторизация носителя",
+        "Настройки защиты",
+        "Антивирусные журналы",
+        "Категория актива"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "fire_end_shift",
+      "actor": "Ответственный за помещения/оборудование и работник по инструкции",
+      "procedure_type": "operator_procedure",
+      "applicability": "Подтверждены конец рабочего времени/смены, питание и назначение устройства.",
+      "steps": [
+        {
+          "action": "По окончании рабочего времени обесточить электрические установки и приборы, не подпадающие под исключения.",
+          "source_specs": [
+            "V2200026867:83"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Сохранить питание аварийного освещения, предусмотренных установок пожаротушения/водоснабжения и сигнализации.",
+          "source_specs": [
+            "V2200026867:83"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Для иных оставленных под напряжением устройств подтвердить функциональное назначение и/или требование инструкции изготовителя.",
+          "source_specs": [
+            "V2200026867:83"
+          ],
+          "kind": "review_check",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Непрерывное питание обусловлено функцией и/или инструкцией изготовителя.",
+          "behavior": "Пункт 83 допускает оставление под напряжением.",
+          "source_specs": [
+            "V2200026867:83"
+          ],
+          "kind": "express_normative_exception"
+        },
+        {
+          "condition": "Монитор светится, но питание от сети и конец смены не установлены.",
+          "behavior": "Не делать вывод об оставленном под напряжением приборе после работы.",
+          "source_specs": [
+            "V2200026867:83"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "После смены питание снято там, где нет предусмотренного исключения.",
+      "evidence": [
+        "Конец смены",
+        "Подключение/питание",
+        "Модель и инструкция",
+        "Функция устройства"
+      ],
+      "linked_workflows": [
+        "close_shift"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "fire_electrical_defect",
+      "actor": "Ответственный за эксплуатацию; уполномоченный персонал устраняет неисправность",
+      "procedure_type": "operator_procedure",
+      "applicability": "Подтверждён конкретный дефект или нарушение инструкции, имеющее отношение к требованиям п.86.",
+      "steps": [
+        {
+          "action": "Не эксплуатировать сети/приборы с перечисленными в п.86 опасными дефектами, повреждённой изоляцией, нарушенной защитой или иным установленным запретом.",
+          "source_specs": [
+            "V2200026867:86"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "При обнаружении неисправности обесточить электроустановку/бытовой прибор.",
+          "source_specs": [
+            "V2200026867:95"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Повторно включать только после устранения неисправности.",
+          "source_specs": [
+            "V2200026867:95"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Специальная подставка или терморегулятор конструкцией/инструкцией не предусмотрены.",
+          "behavior": "Учитывать условия соответствующих подпунктов п.86; не требовать несуществующий элемент от любого прибора.",
+          "source_specs": [
+            "V2200026867:86"
+          ],
+          "kind": "applicability_limit"
+        },
+        {
+          "condition": "Есть только внешний износ без подтверждённой неисправности.",
+          "behavior": "Нужна диагностика/видимый конкретный дефект, а не предположение по возрасту устройства.",
+          "source_specs": [
+            "V2200026867:86",
+            "V2200026867:95"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Неисправный прибор обесточен и не используется до устранения дефекта.",
+      "evidence": [
+        "Конкретный дефект",
+        "Инструкция изготовителя",
+        "Факт питания",
+        "Подтверждение устранения"
+      ],
+      "linked_workflows": [],
+      "ordering": [
+        {
+          "before": 1,
+          "after": 2,
+          "basis": "explicit_normative_order",
+          "source_specs": [
+            "V2200026867:95"
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "evacuation_blocked",
+      "actor": "Работодатель и ответственные за пожарную безопасность/помещение",
+      "procedure_type": "standing_condition",
+      "applicability": "Подтверждено, что проход/дверь является путём или выходом эвакуации.",
+      "steps": [
+        {
+          "action": "Содержать аварийные пути/выходы обозначенными и свободными; не загромождать выходы и доступ к средствам пожарной безопасности.",
+          "source_specs": [
+            "K1500000414:184.3",
+            "V2200026867:24"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Обеспечить свободное открывание эвакуационного выхода изнутри без ключа, кроме законных исключений.",
+          "source_specs": [
+            "V2200026867:34"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Не сужать проектные размеры путей, не блокировать двери; для специальных дверей/турникетов проверить дублирующий путь или предусмотренное техническое решение по п.36.",
+          "source_specs": [
+            "V2200026867:36"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Решётка установлена в помещении кассы.",
+          "behavior": "Пункт 24 пп.8) содержит исключение для касс; сама решётка не доказывает загромождение эвакуации.",
+          "source_specs": [
+            "V2200026867:24"
+          ],
+          "kind": "express_normative_exception"
+        },
+        {
+          "condition": "Специальная дверь/турникет имеет предусмотренное открывание и фиксацию либо дублирующий путь.",
+          "behavior": "Оценить условия п.36; не запрещать конструкцию по её внешнему виду.",
+          "source_specs": [
+            "V2200026867:36"
+          ],
+          "kind": "permitted_alternative"
+        },
+        {
+          "condition": "Дверь заперта снаружи.",
+          "behavior": "Проверять открывание изнутри и назначение выхода; внешняя скважина не доказывает блокировку.",
+          "source_specs": [
+            "V2200026867:34"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Эвакуация свободна и выходы открываются в применимом режиме.",
+      "evidence": [
+        "План эвакуации/проект",
+        "Размеры прохода",
+        "Открывание изнутри",
+        "Назначение помещения"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "id_collateral",
+      "actor": "Кассовый работник/банк; уполномоченные органы в отдельном случае",
+      "procedure_type": "standing_condition",
+      "applicability": "Установлена цель удержания документа, удостоверяющего личность.",
+      "steps": [
+        {
+          "action": "Не принимать удостоверяющий личность документ в залог.",
+          "source_specs": [
+            "Z1300000073:23.2"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "При оценке изъятия отличить предусмотренное законом действие должностного лица по ст.23 п.1 от удержания банком в обеспечение.",
+          "source_specs": [
+            "Z1300000073:23.1"
+          ],
+          "kind": "review_check",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Подтвердить залоговую цель и условия возврата, а не только краткую передачу документа.",
+          "source_specs": [
+            "Z1300000073:23.2"
+          ],
+          "kind": "review_check",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Документ предъявлен для обычной идентификации или правомерно изъят уполномоченным должностным лицом.",
+          "behavior": "Не квалифицировать по одному факту нахождения документа в чужой руке как залог.",
+          "source_specs": [
+            "Z1300000073:23.1",
+            "Z1300000073:23.2"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Документ не удерживается как обеспечение обязательства.",
+      "evidence": [
+        "Цель передачи",
+        "Условия возврата",
+        "Полномочия изымающего"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "digital_id_exception",
+      "actor": "Кассовый работник",
+      "procedure_type": "operator_procedure",
+      "applicability": "Предъявлены данные именно сервиса цифровых документов, а не произвольная фотография удостоверения.",
+      "steps": [
+        {
+          "action": "Учитывать равнозначность документа из сервиса цифровых документов бумажному с установленными законом исключениями.",
+          "source_specs": [
+            "Z1300000073:6.4"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "При приёме наличных использовать допустимые данные по п.19 пп.1), при выдаче — по п.31 пп.1).",
+          "source_specs": [
+            "V1900019680:19",
+            "V1900019680:31"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Проверяющему установить канал предъявления; не считать отсутствие пластика пропуском идентификации.",
+          "source_specs": [
+            "Z1300000073:6.4",
+            "V1900019680:19",
+            "V1900019680:31"
+          ],
+          "kind": "review_check",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Показана обычная фотография либо источник цифровых данных неизвестен.",
+          "behavior": "Не приравнивать автоматически к сервису цифровых документов; правомерность канала требует подтверждения.",
+          "source_specs": [
+            "Z1300000073:6.4"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Идентификация учитывает законный цифровой вариант без ложного требования пластиковой карточки.",
+      "evidence": [
+        "Источник цифрового документа",
+        "Этап идентификации",
+        "Применимая операция"
+      ],
+      "linked_workflows": [
+        "cash_receipt",
+        "cash_issue"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "ls_local_duties",
+      "actor": "Работодатель и работник",
+      "procedure_type": "document_audit",
+      "applicability": "Известны трудовая функция, договор, акты работодателя и время/причина отсутствия.",
+      "steps": [
+        {
+          "action": "Работодателю утвердить правила трудового распорядка с режимом рабочего времени/отдыха и дисциплиной.",
+          "source_specs": [
+            "K1500000414:63.1",
+            "K1500000414:63.2"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Ознакомить работника с относящимися к работе актами; работнику выполнять обязанности по договору и актам.",
+          "source_specs": [
+            "K1500000414:23.2/6",
+            "K1500000414:22.2/1"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Предусмотреть перерыв для отдыха/питания не менее 30 минут; время и длительность определить по ст.81 п.2.",
+          "source_specs": [
+            "K1500000414:81.1",
+            "K1500000414:81.2"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Для работ, где обычный перерыв невозможен, обеспечить отдых и питание в рабочее время в оборудованном месте по установленному перечню и порядку.",
+          "source_specs": [
+            "K1500000414:81.3"
+          ],
+          "kind": "conditional_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Непрерывная работа или подтверждённый разрешённый перерыв.",
+          "behavior": "Применить ст.81 п.3 либо установленный режим; отсутствие работника само по себе не нарушение.",
+          "source_specs": [
+            "K1500000414:81.1",
+            "K1500000414:81.2",
+            "K1500000414:81.3"
+          ],
+          "kind": "express_normative_exception"
+        }
+      ],
+      "expected_outcome": "Обязанности и режим отдыха установлены, доведены и соблюдаются в соответствующих обстоятельствах.",
+      "evidence": [
+        "Договор и правила",
+        "Ознакомление",
+        "График/перечень работ",
+        "Причина отсутствия"
+      ],
+      "linked_workflows": [
+        "storage_and_absence"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "ls_cyber_policy",
+      "actor": "Работодатель и работник",
+      "procedure_type": "document_audit",
+      "applicability": "Известны акты по кибербезопасности для должности и системы на дату события.",
+      "steps": [
+        {
+          "action": "Работодателю ознакомить работников с требованиями своих актов по кибербезопасности и контролировать исполнение.",
+          "source_specs": [
+            "K1500000414:23.2/25-1"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Работнику соблюдать требования безопасности, включая кибербезопасность, на рабочем месте.",
+          "source_specs": [
+            "K1500000414:22.2/3"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Для конкретного отклонения установить содержание требования, его применимость и наблюдаемое несоблюдение.",
+          "source_specs": [
+            "K1500000414:22.2/3",
+            "K1500000414:23.2/25-1"
+          ],
+          "kind": "review_check",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Конкретное правило немедленной блокировки для кассира не найдено.",
+          "behavior": "Общие обязанности не дополнять вымышленным сроком или действием; сохранить вопрос применимости.",
+          "source_specs": [
+            "K1500000414:22.2/3",
+            "K1500000414:23.2/25-1"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Применимые требования доведены, а оценка поведения опирается на их установленное содержание.",
+      "evidence": [
+        "Акт работодателя",
+        "Ознакомление",
+        "Система и дата",
+        "Фактическое действие"
+      ],
+      "linked_workflows": [
+        "storage_and_absence"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "ls_property_care",
+      "actor": "Работник",
+      "procedure_type": "general_obligation_review",
+      "applicability": "Подтверждены имущество работодателя/работников и конкретная угроза его сохранности.",
+      "steps": [
+        {
+          "action": "Бережно относиться к имуществу работодателя и работников.",
+          "source_specs": [
+            "K1500000414:22.2/4"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Сообщить о возникшей ситуации, угрожающей жизни/здоровью людей или сохранности имущества, и о простое в предусмотренном ст.22 п.2 пп.5) порядке.",
+          "source_specs": [
+            "K1500000414:22.2/5"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "При оценке установить, какое действие связано с конкретной угрозой; не выводить обязательное место ключа из общей обязанности.",
+          "source_specs": [
+            "K1500000414:22.2/4",
+            "K1500000414:22.2/5"
+          ],
+          "kind": "review_check",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Нет подтверждённой угрозы, принадлежности имущества или наблюдения сообщения.",
+          "behavior": "Общая обязанность не доказывает нарушение конкретного работника по одному предмету на столе.",
+          "source_specs": [
+            "K1500000414:22.2/4",
+            "K1500000414:22.2/5"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Имущество используется бережно, о возникшей угрозе сообщено при наличии основания.",
+      "evidence": [
+        "Принадлежность",
+        "Характер угрозы",
+        "Канал сообщения",
+        "Действия работника"
+      ],
+      "linked_workflows": [
+        "storage_and_absence"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "ls_confidentiality",
+      "actor": "Работник",
+      "procedure_type": "general_obligation_review",
+      "applicability": "Сведения получены по работе и относятся к охраняемой законом тайне.",
+      "steps": [
+        {
+          "action": "Не разглашать государственную, служебную, коммерческую и иную охраняемую законом тайну, ставшую известной в связи с трудовыми обязанностями.",
+          "source_specs": [
+            "K1500000414:22.2/6"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "При оценке установить защищаемое содержание, получателя и факт разглашения; не подменять их наличием бумаги или светящегося экрана.",
+          "source_specs": [
+            "K1500000414:22.2/6"
+          ],
+          "kind": "review_check",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Сведения не идентифицированы или правовой режим и факт разглашения неизвестны.",
+          "behavior": "Недостаточно данных для вывода по общей трудовой обязанности.",
+          "source_specs": [
+            "K1500000414:22.2/6"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Работник сохраняет установленную законом тайну; конкретный вывод подкреплён содержанием и фактом передачи.",
+      "evidence": [
+        "Категория сведений",
+        "Получатель",
+        "Содержание и обстоятельства передачи"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "ls_hazard_notification",
+      "actor": "Работник и работодатель — разные обязанности",
+      "procedure_type": "operator_procedure",
+      "applicability": "Установлена реальная угроза жизни/здоровью или опасная аварийная ситуация.",
+      "steps": [
+        {
+          "action": "Работнику незамедлительно сообщать о травмах, признаках профзаболевания и угрозе жизни/здоровью в объёме ст.181 п.2 пп.2).",
+          "source_specs": [
+            "K1500000414:181.2/2"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Работодателю приостанавливать работу, если её продолжение создаёт угрозу жизни/здоровью.",
+          "source_specs": [
+            "K1500000414:23.2/13"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Работодателю принимать неотложные меры для предотвращения развития аварийной ситуации и воздействия травмирующих факторов на других лиц.",
+          "source_specs": [
+            "K1500000414:182.2/15"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Сообщение сделано вне кадра или по цифровому каналу.",
+          "behavior": "Не считать отсутствующим по одному молчанию/жесту; проверить фактический канал и время.",
+          "source_specs": [
+            "K1500000414:181.2/2"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Работник сообщил, работодатель выполнил применимые меры прекращения и предотвращения опасности.",
+      "evidence": [
+        "Подтверждённая угроза",
+        "Время обнаружения",
+        "Сообщение",
+        "Действия работодателя"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "ls_equipment_safety",
+      "actor": "Работодатель, ответственные за условия труда и эксплуатацию",
+      "procedure_type": "document_and_visual_review",
+      "applicability": "Известны вид оборудования, применимые нормы и установленный дефект/защита.",
+      "steps": [
+        {
+          "action": "Обеспечить соответствие оборудования нормам безопасности, наличие предусмотренных технических документов, предупреждений и защит по ст.184 п.2.",
+          "source_specs": [
+            "K1500000414:184.2"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Работодателю обеспечить безопасные условия и учитывать установленную ответственность по ст.184 п.2-1.",
+          "source_specs": [
+            "K1500000414:184.2-1"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Эксплуатировать электроустановки в исправном состоянии и безопасных условиях по п.4 Правил №222.",
+          "source_specs": [
+            "V1500010889:4"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Обычному устройству конструкцией не требуется предполагаемое ограждение/сигнализация.",
+          "behavior": "Сначала установить требования к этому типу оборудования; не выводить дефект из отсутствия произвольного элемента.",
+          "source_specs": [
+            "K1500000414:184.2"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Для конкретного оборудования подтверждены исправность и требуемая защита.",
+      "evidence": [
+        "Тип/паспорт",
+        "Применимые нормы",
+        "Диагностика и защитные средства",
+        "Ответственный субъект"
+      ],
+      "linked_workflows": [
+        "start_work"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "ls_danger_zone_access",
+      "actor": "Работодатель",
+      "procedure_type": "premises_audit",
+      "applicability": "Опасная зона определена по характеру работы и риску для работников.",
+      "steps": [
+        {
+          "action": "Обозначить опасную зону ясными знаками и обеспечить устройства, ограничивающие доступ посторонних.",
+          "source_specs": [
+            "K1500000414:184.4"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Проверить границы, характер опасности и действие ограничения доступа.",
+          "source_specs": [
+            "K1500000414:184.4"
+          ],
+          "kind": "review_check",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Помещение — касса, но конкретная опасная зона по условиям труда не установлена.",
+          "behavior": "Не присваивать категорию только по наличию сейфа или денег; применимость трудовой нормы подтвердить отдельно.",
+          "source_specs": [
+            "K1500000414:184.4"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Подтверждённая опасная зона обозначена и защищена от доступа посторонних.",
+      "evidence": [
+        "Классификация опасности",
+        "Границы и знаки",
+        "Устройства доступа"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "ls_instruction_lifecycle",
+      "actor": "Работодатель; служба охраны труда и согласующие лица",
+      "procedure_type": "document_audit",
+      "applicability": "Известны профессии/работы, условия труда и действующая инструкция.",
+      "steps": [
+        {
+          "action": "Разработать инструкции как акты работодателя для профессий/работ по перечню с учётом нормативов, технологии и документации изготовителя.",
+          "source_specs": [
+            "K1500000414:182.2/16",
+            "V1500012534:2",
+            "V1500012534:3",
+            "V1500012534:5"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Согласовать инструкцию со службой охраны труда/ответственным, заинтересованными подразделениями и представителями работников; утвердить работодателем.",
+          "source_specs": [
+            "V1500012534:17"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Пересматривать не реже раза в три года в редакции с 01.07.2026 и досрочно при предусмотренных изменениях законодательства, техники или результатах расследования.",
+          "source_specs": [
+            "V1500012534:19"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Если условия не изменились, оформить предусмотренное продление отметкой «Пересмотрено», ФИО, датой и подписью ответственного.",
+          "source_specs": [
+            "V1500012534:20"
+          ],
+          "kind": "conditional_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Условия труда не изменились в установленный срок.",
+          "behavior": "Пункт 20 предусматривает продление с отметкой; отсутствие полностью нового текста не доказывает просрочку.",
+          "source_specs": [
+            "V1500012534:19",
+            "V1500012534:20"
+          ],
+          "kind": "permitted_alternative"
+        },
+        {
+          "condition": "Инструкция не опубликована в интернете.",
+          "behavior": "Проверить её наличие у работодателя; неопубликованность не равна отсутствию.",
+          "source_specs": [
+            "V1500012534:2",
+            "V1500012534:17"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Инструкция разработана, согласована, утверждена и своевременно пересмотрена/продлена.",
+      "evidence": [
+        "Перечень профессий",
+        "Основания и инструкция",
+        "Согласования",
+        "Даты/отметки"
+      ],
+      "linked_workflows": [
+        "start_work"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "ls_shift_shutdown",
+      "actor": "Работодатель задаёт инструкцию; работник исполняет её",
+      "procedure_type": "operator_procedure",
+      "applicability": "Подтверждено окончание работы и применимая инструкция для устройства/профессии.",
+      "steps": [
+        {
+          "action": "Включить в инструкцию раздел требований по окончании работы.",
+          "source_specs": [
+            "V1500012534:10/5"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Установить порядок безопасного отключения/остановки и иной предусмотренной обработки оборудования; при непрерывном процессе — передачи смене.",
+          "source_specs": [
+            "V1500012534:15/1"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Установить порядок сдачи рабочего места и сообщения о выявленных недостатках.",
+          "source_specs": [
+            "V1500012534:15/2",
+            "V1500012534:15/5"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Работнику выполнять применимые требования инструкции по охране труда.",
+          "source_specs": [
+            "K1500000414:181.2/1"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Непрерывный процесс.",
+          "behavior": "Пункт 15 прямо предусматривает передачу по смене; нельзя требовать безусловного отключения всего.",
+          "source_specs": [
+            "V1500012534:15/1"
+          ],
+          "kind": "permitted_alternative"
+        }
+      ],
+      "expected_outcome": "Инструкция задаёт завершение/передачу, а действия соответствуют установленному режиму.",
+      "evidence": [
+        "Инструкция",
+        "Конец смены",
+        "Режим устройства",
+        "Передача и уведомление"
+      ],
+      "linked_workflows": [
+        "close_shift"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "ls_workplace_preparation",
+      "actor": "Работодатель и работник",
+      "procedure_type": "operator_procedure",
+      "applicability": "Известны действующая инструкция, характер работы и этап подготовки/приёма смены.",
+      "steps": [
+        {
+          "action": "Предусмотреть подготовку рабочего места и проверку оборудования/защитных устройств в инструкции.",
+          "source_specs": [
+            "V1500012534:12/1",
+            "V1500012534:12/2"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Для непрерывной работы предусмотреть порядок приёма смены; включить безопасное содержание рабочего места во время работы.",
+          "source_specs": [
+            "V1500012534:12/4",
+            "V1500012534:13/4"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Работнику выполнять установленные требования и предусмотренные проверки.",
+          "source_specs": [
+            "K1500000414:181.2/1"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Подготовка была до начала ролика или операция не требует приёма непрерывной смены.",
+          "behavior": "Не считать отсутствие соответствующего действия в фрагменте подтверждённым пропуском.",
+          "source_specs": [
+            "V1500012534:12/1",
+            "V1500012534:12/2",
+            "V1500012534:12/4"
+          ],
+          "kind": "evidence_limit"
+        }
+      ],
+      "expected_outcome": "Рабочее место подготовлено и содержится в соответствии с применимой инструкцией.",
+      "evidence": [
+        "Инструкция и стадия",
+        "Проверки оборудования",
+        "Приём смены"
+      ],
+      "linked_workflows": [
+        "start_work"
+      ],
+      "ordering": []
+    },
+    {
+      "rule_id": "ls_training",
+      "actor": "Работодатель, организатор обучения, инструктирующий и работник",
+      "procedure_type": "document_audit",
+      "applicability": "Установлены категория работника, профессия, вид работ, даты и применимая программа.",
+      "steps": [
+        {
+          "action": "Работодателю организовать обучение/инструктажи за свой счёт; работнику пройти предусмотренное обучение, инструктажи и проверку знаний.",
+          "source_specs": [
+            "K1500000414:182.2/2",
+            "K1500000414:181.2/8"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "По разделу для работников: обучение вновь принятых/переведённых с проверкой знаний — не позднее месяца; очередное — не реже раза в год; к работе без требуемой проверки не допускать.",
+          "source_specs": [
+            "V1500012665:4",
+            "V1500012665:5",
+            "V1500012665:6"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Установить перечни профессий/работ и форму обучения по п.7; проводить вводный инструктаж для категорий п.56.",
+          "source_specs": [
+            "V1500012665:7",
+            "V1500012665:56"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Проверить оформленные освобождения от первичного инструктажа и категории повторного; повторный инструктаж проводить не реже раза в полугодие с учётом п.62.",
+          "source_specs": [
+            "V1500012665:61",
+            "V1500012665:62"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Записывать инструктажи и допуск в журнал с подписями; электронный журнал удостоверять ЭЦП по п.71.",
+          "source_specs": [
+            "V1500012665:71"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Перемещение в пределах профессии с сохранением условий труда.",
+          "behavior": "Пункт 6 не требует повторного обучения и проверки знаний при указанных условиях.",
+          "source_specs": [
+            "V1500012665:6"
+          ],
+          "kind": "express_normative_exception"
+        },
+        {
+          "condition": "Оформленное освобождение определённой категории от первичного инструктажа.",
+          "behavior": "Проверить решение и утверждённый перечень п.61; оно не освобождает автоматически от всех видов обучения.",
+          "source_specs": [
+            "V1500012665:61"
+          ],
+          "kind": "express_normative_exception"
+        },
+        {
+          "condition": "Категории, указанные в оговорке п.62, либо электронный журнал.",
+          "behavior": "Учитывать исключение повторного инструктажа и допустимость журнала с ЭЦП; отсутствие бумажной книги не доказательство.",
+          "source_specs": [
+            "V1500012665:62",
+            "V1500012665:71"
+          ],
+          "kind": "permitted_alternative"
+        }
+      ],
+      "expected_outcome": "Обучение, инструктажи и допуск подтверждены по категории, срокам и документам.",
+      "evidence": [
+        "Категория/перечни",
+        "Протоколы и сроки",
+        "Журнал/ЭЦП",
+        "Решения об исключениях"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "ls_electrical_roles",
+      "actor": "Руководитель потребителя/банка и ответственные за электроустановки",
+      "procedure_type": "document_audit",
+      "applicability": "Речь о технической эксплуатации электроустановок, а не обычном пользовании ноутбуком.",
+      "steps": [
+        {
+          "action": "Организовать эксплуатацию подготовленным электротехническим персоналом либо по договору со специализированной организацией.",
+          "source_specs": [
+            "V1500010949:3"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Юридическому лицу назначить ответственного за электроустановки и заместителя по п.4, с учётом предусмотренных исключений.",
+          "source_specs": [
+            "V1500010949:4"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Назначить ответственных структурных подразделений по представлению и закрепить распределение обязанностей в должностных инструкциях.",
+          "source_specs": [
+            "V1500010949:7"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Установленная мощность электроустановок не превышает 10 кВА.",
+          "behavior": "Пункт 4 не требует замещающего работника; это не общее освобождение юридического лица от ответственного.",
+          "source_specs": [
+            "V1500010949:4"
+          ],
+          "kind": "express_normative_exception"
+        },
+        {
+          "condition": "Эксплуатация передана специализированной организации.",
+          "behavior": "Пункт 3 допускает договор; проверить договор и распределение ответственности, не считать отсутствие собственного электрика нарушением.",
+          "source_specs": [
+            "V1500010949:3"
+          ],
+          "kind": "permitted_alternative"
+        },
+        {
+          "condition": "Исключения для физических лиц.",
+          "behavior": "Не переносить их на банк как юридическое лицо.",
+          "source_specs": [
+            "V1500010949:4"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Эксплуатация поручена подготовленным и надлежаще назначенным исполнителям.",
+      "evidence": [
+        "Приказы/договор",
+        "Квалификация",
+        "Мощность",
+        "Должностные инструкции"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "ls_electrical_room_access",
+      "actor": "Оперативный/административно-технический персонал и допущенные работники",
+      "procedure_type": "operator_procedure",
+      "applicability": "Подтверждено помещение электроустановки, камера/щит/сборка и режим работ.",
+      "steps": [
+        {
+          "action": "Единоличный осмотр выполнять лицам по п.19; иных работников допускать с сопровождающим по п.20, контролирующим их безопасность.",
+          "source_specs": [
+            "V1500010889:19",
+            "V1500010889:20"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Оборудовать двери запирающими устройствами; при производстве работ камеры, щиты и сборки не запирать.",
+          "source_specs": [
+            "V1500010889:26"
+          ],
+          "kind": "required_action",
+          "video_verification": "partly_observable"
+        },
+        {
+          "action": "Учитывать и нумеровать ключи, хранить в запираемом ящике с запасным комплектом; выдавать под расписку уполномоченным лицам.",
+          "source_specs": [
+            "V1500010889:27"
+          ],
+          "kind": "required_action",
+          "video_verification": "context_required"
+        },
+        {
+          "action": "Возвращать ключи по окончании работ/осмотра и учитывать выдачу/возврат в предусмотренном журнале.",
+          "source_specs": [
+            "V1500010889:27"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Нет местного оперативного персонала.",
+          "behavior": "Ключи могут возвращаться не позднее следующего рабочего дня после осмотра или полного окончания работ.",
+          "source_specs": [
+            "V1500010889:27"
+          ],
+          "kind": "express_normative_exception"
+        },
+        {
+          "condition": "Идут работы в камере, щите или сборке.",
+          "behavior": "Пункт 26 предусматривает незапирание; открытое состояние само по себе не нарушение.",
+          "source_specs": [
+            "V1500010889:26"
+          ],
+          "kind": "express_normative_exception"
+        },
+        {
+          "condition": "Ключ относится к денежному сейфу или кассовой двери.",
+          "behavior": "Эта электротехническая процедура не применяется без идентификации объекта.",
+          "source_specs": [
+            "V1500010889:19",
+            "V1500010889:26",
+            "V1500010889:27"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Доступ и ключи электроустановок контролируются по полномочиям и режиму работ.",
+      "evidence": [
+        "Назначение помещения/ключа",
+        "Допуск и группа",
+        "Режим работ",
+        "Журнал выдачи"
+      ],
+      "linked_workflows": [],
+      "ordering": []
+    },
+    {
+      "rule_id": "ls_electrical_documents",
+      "actor": "Потребитель электроустановок/работодатель и ответственные за эксплуатацию",
+      "procedure_type": "document_audit",
+      "applicability": "Известны оборудование, профессии и комплект эксплуатационных документов.",
+      "steps": [
+        {
+          "action": "Вести журнал оборудования с техническими данными/инвентарными номерами и приложенными документами изготовителя, испытаний, ремонта и обслуживания по п.99 пп.1).",
+          "source_specs": [
+            "V1500010949:99/1"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Иметь эксплуатационные инструкции и инструкции по безопасности/охране труда по п.99 пп.6); при разработке учитывать нормы, технологию и документацию изготовителя.",
+          "source_specs": [
+            "V1500010949:99/6",
+            "V1500012534:5"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        },
+        {
+          "action": "Утвердить/иметь предусмотренный перечень профессий и рабочих мест, требующих отнесения к группе 1 по электробезопасности.",
+          "source_specs": [
+            "V1500010949:99/13"
+          ],
+          "kind": "required_action",
+          "video_verification": "not_visually_verifiable"
+        }
+      ],
+      "exceptions": [
+        {
+          "condition": "Проверяется основание непрерывного питания ноутбука или требование группы 1 к кассиру.",
+          "behavior": "Пункт 99 не устанавливает их автоматически; нужны конкретная инструкция устройства и перечень профессий/мест.",
+          "source_specs": [
+            "V1500010949:99/1",
+            "V1500010949:99/13",
+            "V1500012534:5"
+          ],
+          "kind": "applicability_limit"
+        }
+      ],
+      "expected_outcome": "Комплект технических документов и перечни существуют и соответствуют оборудованию/работам.",
+      "evidence": [
+        "Инвентарный журнал",
+        "Паспорта и инструкции",
+        "Протоколы",
+        "Перечень профессий"
+      ],
+      "linked_workflows": [
+        "start_work",
+        "close_shift"
+      ],
+      "ordering": []
+    }
+  ],
+  "exception_kind_meanings": {
+    "express_normative_exception": "Прямо указанное исключение из основной обязанности.",
+    "permitted_alternative": "Допустимый способ исполнения или вариант процедуры.",
+    "applicability_limit": "Предел применимости нормы по операции, субъекту, стадии или дате.",
+    "evidence_limit": "Ограничение вывода из доступных наблюдений; не самостоятельное освобождение от обязанности.",
+    "conditional_branch": "Особое действие при наступлении указанного условия или результата."
+  },
+  "exception_classification_note": "Типы условных записей — редакционная классификация для проверки; доказательственные ограничения не называются исключениями, прямо установленными законом."
+}

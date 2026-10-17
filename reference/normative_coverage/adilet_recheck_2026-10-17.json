@@ -1,0 +1,140 @@
+{
+  "checked_at_utc": "2026-10-17T11:46:59.725663+00:00",
+  "scope": "Recheck of the 12 selected sources, not an exhaustive review of Kazakhstan legislation or applicability at the video date.",
+  "selected_source_count": 12,
+  "all_saved_texts_match_live": true,
+  "rows": [
+    {
+      "id": "P1600000832",
+      "title": "Постановление Правительства №832",
+      "url": "https://adilet.zan.kz/rus/docs/P1600000832",
+      "checked_at_utc": "2026-10-17T11:46:56.017845+00:00",
+      "status": "checked",
+      "portal_status": "upd",
+      "portal_is_actual": true,
+      "text_sha256": "079c775b95f73e234c8d7ea99628022e2222a7670c770441f820b768ffe3e886",
+      "saved_text_matches_live": true
+    },
+    {
+      "id": "V1700016120",
+      "title": "НБРК №230",
+      "url": "https://adilet.zan.kz/rus/docs/V1700016120",
+      "checked_at_utc": "2026-10-17T11:46:53.474950+00:00",
+      "status": "checked",
+      "portal_status": "upd",
+      "portal_is_actual": true,
+      "text_sha256": "8822ff8258ba5a1badf6f39cb41f5bb783e0d66efa637e5e6aa14e09c7d8f3f7",
+      "saved_text_matches_live": true
+    },
+    {
+      "id": "V1900018545",
+      "title": "НБРК №49",
+      "url": "https://adilet.zan.kz/rus/docs/V1900018545",
+      "checked_at_utc": "2026-10-17T11:46:53.475955+00:00",
+      "status": "checked",
+      "portal_status": "upd",
+      "portal_is_actual": true,
+      "text_sha256": "af565d20ba223ad1230180e2c6656f020101c590da06aa538c249a709300a089",
+      "saved_text_matches_live": true
+    },
+    {
+      "id": "V1900019680",
+      "title": "НБРК №231",
+      "url": "https://adilet.zan.kz/rus/docs/V1900019680",
+      "checked_at_utc": "2026-10-17T11:46:53.472579+00:00",
+      "status": "checked",
+      "portal_status": "upd",
+      "portal_is_actual": true,
+      "text_sha256": "1798a349b2326ba4c32a007a62db532ea6de906e71f0249a9de8dc81aa915de8",
+      "saved_text_matches_live": true
+    },
+    {
+      "id": "V2000020075",
+      "title": "НБРК №14",
+      "url": "https://adilet.zan.kz/rus/docs/V2000020075",
+      "checked_at_utc": "2026-10-17T11:46:53.473951+00:00",
+      "status": "checked",
+      "portal_status": "upd",
+      "portal_is_actual": true,
+      "text_sha256": "89b91567941acfa3d4fca1d374f04b1716cdf20fab43bd4d50ca7074b17ee16d",
+      "saved_text_matches_live": true
+    },
+    {
+      "id": "V2200026867",
+      "title": "МЧС №55 от 21.02.2022",
+      "url": "https://adilet.zan.kz/rus/docs/V2200026867",
+      "checked_at_utc": "2026-10-17T11:46:54.895831+00:00",
+      "status": "checked",
+      "portal_status": "upd",
+      "portal_is_actual": true,
+      "text_sha256": "78fe2bd7a62a24920d4ab05ca186a3ee6075dc4a1b119f34166fabda0875e02e",
+      "saved_text_matches_live": true
+    },
+    {
+      "id": "V2300032810",
+      "title": "Правила мер защиты персональных данных",
+      "url": "https://adilet.zan.kz/rus/docs/V2300032810",
+      "checked_at_utc": "2026-10-17T11:46:55.541263+00:00",
+      "status": "checked",
+      "portal_status": "upd",
+      "portal_is_actual": true,
+      "text_sha256": "41a9e8dc6ca98196c247c373dbc50c66a8cfaa04f9695181636865198abd2efb",
+      "saved_text_matches_live": true
+    },
+    {
+      "id": "V2400034348",
+      "title": "АРРФР №21",
+      "url": "https://adilet.zan.kz/rus/docs/V2400034348",
+      "checked_at_utc": "2026-10-17T11:46:54.285395+00:00",
+      "status": "checked",
+      "portal_status": "new",
+      "portal_is_actual": true,
+      "text_sha256": "6c50928b202602e19988795c66abf9ac23b57da8251fe212202cdd3ef9c1a772",
+      "saved_text_matches_live": true
+    },
+    {
+      "id": "V2600038336",
+      "title": "АРРФР №53",
+      "url": "https://adilet.zan.kz/rus/docs/V2600038336",
+      "checked_at_utc": "2026-10-17T11:46:54.416701+00:00",
+      "status": "checked",
+      "portal_status": "new",
+      "portal_is_actual": true,
+      "text_sha256": "8d3ffc326265de22e160bcee437c58d5aa954951ab7922db2cd596089b07898c",
+      "saved_text_matches_live": true
+    },
+    {
+      "id": "Z1300000073",
+      "title": "Закон о документах, удостоверяющих личность №73-V",
+      "url": "https://adilet.zan.kz/rus/docs/Z1300000073",
+      "checked_at_utc": "2026-10-17T11:46:56.374926+00:00",
+      "status": "checked",
+      "portal_status": "upd",
+      "portal_is_actual": true,
+      "text_sha256": "8ac1510232eacf7a015d11c0a67e271d2220d598ddb0a85286dcbc2ba00ab7a1",
+      "saved_text_matches_live": true
+    },
+    {
+      "id": "Z1300000094",
+      "title": "Закон о персональных данных №94-V",
+      "url": "https://adilet.zan.kz/rus/docs/Z1300000094",
+      "checked_at_utc": "2026-10-17T11:46:55.372911+00:00",
+      "status": "checked",
+      "portal_status": "upd",
+      "portal_is_actual": true,
+      "text_sha256": "c340e815c5d11f01146820aab2e8f7d8168e378491e64da684d8e93a028436f6",
+      "saved_text_matches_live": true
+    },
+    {
+      "id": "Z2600000258",
+      "title": "Закон о банках №258-VIII",
+      "url": "https://adilet.zan.kz/rus/docs/Z2600000258",
+      "checked_at_utc": "2026-10-17T11:46:55.070216+00:00",
+      "status": "checked",
+      "portal_status": "upd",
+      "portal_is_actual": true,
+      "text_sha256": "6f4505e4cc4564f77ef384d7ea927692d8c2390fbc43d6a7411ef4c617237694",
+      "saved_text_matches_live": true
+    }
+  ]
+}

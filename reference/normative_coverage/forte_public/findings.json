@@ -1,0 +1,258 @@
+[
+  {
+    "id": "F01",
+    "source_id": "forte_ethics_2024",
+    "pdf_pages": [
+      2,
+      4,
+      6,
+      7
+    ],
+    "locator": "Ст. 1 п. 3; ст. 4 п. 2 подп. 1 и 8",
+    "summary": "Кодекс обязателен для работников; требует соблюдать внутренние документы и защищать доверенную информацию.",
+    "evidence_strength": "employee_general_duty",
+    "limitations": "Не устанавливает в этом извлечении срок ручной блокировки при уходе.",
+    "related_rule_ids": [
+      "short_absence_screen",
+      "paper_protection",
+      "third_party_system_access"
+    ],
+    "source_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Kodeks_korp_etiki_izvlechenie_na_razmeshhenie_148494258d_8850aeb114.pdf",
+    "source_sha256": "800f5c24fe8f3e3ba0e9dd8d8a63fe6ee8b1f77c306ceca19a6df56d0b34a55d",
+    "final_video_violation_proven": false
+  },
+  {
+    "id": "F02",
+    "source_id": "forte_online_procedure_2025",
+    "pdf_pages": [
+      3,
+      6
+    ],
+    "locator": "П. 35(4); определение Пользователя в разделе 2",
+    "summary": "После работы предусмотрен выход из системы; активную сессию нельзя оставлять без присмотра.",
+    "evidence_strength": "direct_client_system_rule",
+    "limitations": "Адресат — получатель услуг Онлайн-платформы. Связь с рабочим приложением кассира не установлена.",
+    "related_rule_ids": [
+      "short_absence_screen"
+    ],
+    "source_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Proczedura_EBU_11_2025_final_docx_2e559bb913.pdf",
+    "source_sha256": "d1c0c85749504d69eacc7f933ec50644d2325400adf8a566203a2ee058bf705e",
+    "final_video_violation_proven": false
+  },
+  {
+    "id": "F03",
+    "source_id": "forte_online_procedure_2024",
+    "pdf_pages": [
+      9
+    ],
+    "locator": "П. 35(3), историческая редакция",
+    "summary": "Объясняет прежний номер ссылки: в редакции 2024 запрет имел номер 35(3), в версии 2025 — 35(4).",
+    "evidence_strength": "version_comparison",
+    "limitations": "Не дает дополнительного независимого основания и требует даты события.",
+    "related_rule_ids": [
+      "short_absence_screen"
+    ],
+    "source_url": "https://main.storage-object.pscloud.io/Proczedura_predostavleniya_EBU_na_Onlajn_platforme_111024_3e3be56ce8.pdf",
+    "source_sha256": "29562c59431c9ea07298f6a8ee1f7404ce0940a276d2fde42d739a523af413b1",
+    "final_video_violation_proven": false
+  },
+  {
+    "id": "F04",
+    "source_id": "forte_remote_terms",
+    "pdf_pages": [
+      5
+    ],
+    "locator": "П. 4.6-1 подп. 11",
+    "summary": "Клиенту предписаны выход из системы после работы и контроль текущей сессии на компьютере или мобильном устройстве.",
+    "evidence_strength": "direct_client_system_rule",
+    "limitations": "Клиентский договор ForteBusiness не доказывает нарушение внутренней инструкции кассира.",
+    "related_rule_ids": [
+      "short_absence_screen"
+    ],
+    "source_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Obshhie_usloviya_distanczionnogo_obsluzhivaniya_IBMIB_b2d3e86193.pdf",
+    "source_sha256": "f700d2eaf92206d3997540ec8b03cd6f506cf2d8cfa463be965df557b3f4a70f",
+    "final_video_violation_proven": false
+  },
+  {
+    "id": "F05",
+    "source_id": "forte_ebu_rules",
+    "pdf_pages": [
+      12,
+      13
+    ],
+    "locator": "Гл. 10 п. 17 подп. 11",
+    "summary": "Правила клиентского банкинга также предусматривают запрет оставлять текущую сессию без присмотра.",
+    "evidence_strength": "direct_client_system_rule",
+    "limitations": "Не распространять на любое рабочее окно сотрудника без проверки используемой системы.",
+    "related_rule_ids": [
+      "short_absence_screen"
+    ],
+    "source_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Pravila_preostavleniya_EBU_dlya_Yu_L_i_IP_v_sisteme_IB_i_MIB_Utv_UL_13d9f445d4.pdf",
+    "source_sha256": "9f7cdae8aef56ea6785c38ce71d9b28a95b2aae10c7284dbcad7b66af26da56b",
+    "final_video_violation_proven": false
+  },
+  {
+    "id": "F06",
+    "source_id": "forte_ca_regulation",
+    "pdf_pages": [
+      3,
+      10
+    ],
+    "locator": "П. 1.1(25); п. 9.7 подп. 4, 7, 8; исключения п. 9.2",
+    "summary": "Для информации УЦ установлены физическая сохранность, контроль доступа и запрет оставлять конфиденциальные сведения без присмотра.",
+    "evidence_strength": "direct_special_scope_rule",
+    "limitations": "Нужна связь с процессами УЦ. Публичные сведения о свидетельствах исключены из конфиденциальных.",
+    "related_rule_ids": [
+      "short_absence_screen",
+      "paper_protection",
+      "third_party_system_access"
+    ],
+    "source_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Reglament_deyatelnosti_Udostoveryayushhego_czentra_Banka_f104551fb6_35f92b17c6.pdf",
+    "source_sha256": "53dc17b686965b487ac3ef605b8407e718f0a9031526887a364603964eeb99f5",
+    "final_video_violation_proven": false
+  },
+  {
+    "id": "F07",
+    "source_id": "forte_insider_access",
+    "pdf_pages": [
+      2,
+      11
+    ],
+    "locator": "Ст. 1 п. 1; ст. 9 п. 3 подп. 4, пп. 4–5",
+    "summary": "Доступ посторонних к документам с инсайдерской информацией должен контролироваться; ее передача ограничена.",
+    "evidence_strength": "direct_special_scope_rule",
+    "limitations": "Проверить содержание информации и доступ: обычный кассовый документ не автоматически инсайдерский.",
+    "related_rule_ids": [
+      "paper_protection",
+      "third_party_system_access"
+    ],
+    "source_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Pravila_vnutr_kontrolya_dostupa_k_insajderskoj_informaczii_bd0846cdb3_b87c94b2a5.pdf",
+    "source_sha256": "96544a249cabcce807b0b5c5254580d627724bef3226a45416f9428e1b40cd33",
+    "final_video_violation_proven": false
+  },
+  {
+    "id": "F08",
+    "source_id": "forte_anticorruption",
+    "pdf_pages": [
+      3,
+      4
+    ],
+    "locator": "Ст. 1 п. 4; ст. 3 пп. 15 и 18 подп. 1",
+    "summary": "Есть запрет подарков в виде наличных или эквивалентов и подарков, создающих конфликт интересов.",
+    "evidence_strength": "direct_employee_rule",
+    "limitations": "Отличать подарок от законной кассовой операции. Часть публичной политики скрыта самим банком.",
+    "related_rule_ids": [],
+    "source_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Politika_po_protivodejstviyu_korrupczii_e1979499eb_5e37296c21.pdf",
+    "source_sha256": "f6d79a92730856e4e8bd8963d00ce264e9696978aa8cb71c7996d4886d929287",
+    "final_video_violation_proven": false
+  },
+  {
+    "id": "F09",
+    "source_id": "forte_business_accounts_2026",
+    "pdf_pages": [
+      1,
+      4
+    ],
+    "locator": "Пп. 2.14–2.17; два пункта с номером 2.15 в оригинале",
+    "summary": "Уточнены каналы работы с наличными, условия предварительной заявки и претензий при пересчете в присутствии сторон.",
+    "evidence_strength": "contract_conditional",
+    "limitations": "Не выводить из этого документа универсальную обязанность немедленно пересчитать любую инкассаторскую сумку.",
+    "related_rule_ids": [
+      "client_presence",
+      "received_bag_recount"
+    ],
+    "source_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Obshhie_usloviya_po_schetam_240726_Final_Utv_sajt_1_819c71eebf.pdf",
+    "source_sha256": "53a8f6af5e5b4531f27ec2b1c4fa23cdf6b490844de0fb65bb2c481142d64824",
+    "final_video_violation_proven": false
+  },
+  {
+    "id": "F10",
+    "source_id": "forte_personal_data_inventory",
+    "pdf_pages": [
+      1,
+      2,
+      3
+    ],
+    "locator": "Перечень персональных данных, таблица",
+    "summary": "Перечень помогает установить, относится ли видимый документ к данным, обрабатываемым банком.",
+    "evidence_strength": "supporting_information_scope",
+    "limitations": "Нужны читаемое содержание и доступ третьих лиц; сам лист на столе ничего не доказывает.",
+    "related_rule_ids": [
+      "paper_protection"
+    ],
+    "source_url": "https://main.storage-object.pscloud.io/Perechen_personalnyh_dannyh_380f64c7dd.pdf",
+    "source_sha256": "1561fa6bd794ea763125ff6ac5b745eb49a6f2c0aff09bde8841294418435616",
+    "final_video_violation_proven": false
+  },
+  {
+    "id": "F11",
+    "source_id": "forte_payment_acceptance_contract",
+    "pdf_pages": [
+      7
+    ],
+    "locator": "Пп. 7.1–7.7, в частности 7.2 и 7.6",
+    "summary": "Предусмотрены конфиденциальность сторон и ограничение ознакомления работников целями договора.",
+    "evidence_strength": "contract_conditional",
+    "limitations": "Нужно подтвердить отношения по этому договору; есть законные основания раскрытия.",
+    "related_rule_ids": [
+      "paper_protection"
+    ],
+    "source_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Dogovor_ob_okazanii_uslug_po_priemu_i_perevodu_platezhej_8c1b8b50b3_44d1612673.pdf",
+    "source_sha256": "b516007f67fa8f40a92d69d8f040cf351f3eb0a89eef53cff0cff2283b9c76a2",
+    "final_video_violation_proven": false
+  },
+  {
+    "id": "F12",
+    "source_id": "forte_annual_report_2024",
+    "pdf_pages": [
+      82
+    ],
+    "locator": "Раздел «Безопасность и охрана труда», печатная стр. 81",
+    "summary": "Упомянуты политика охраны труда и инструкции для кассиров и работы с компьютером.",
+    "evidence_strength": "internal_document_existence_only",
+    "limitations": "Отчет не содержит их полных текстов или номеров пунктов.",
+    "related_rule_ids": [
+      "fire_end_shift",
+      "short_absence_screen"
+    ],
+    "source_url": "https://kase.kz/files/emitters/ASBN/asbnp_2024_rus.pdf.pdf",
+    "source_sha256": "eab09109d12a89a58ed4b55d2d9e861d75242e56dbaa4e70c03f7b3930a2dc6b",
+    "final_video_violation_proven": false
+  },
+  {
+    "id": "F13",
+    "source_id": "forte_annual_report_2024",
+    "pdf_pages": [
+      86
+    ],
+    "locator": "Раздел «Кибербезопасность», печатная стр. 85",
+    "summary": "Упомянуты политика ИБ, контроль прав доступа и внутренние документы об обучении работников.",
+    "evidence_strength": "internal_document_existence_only",
+    "limitations": "Нельзя восстановить правило немедленной блокировки по общему описанию политики.",
+    "related_rule_ids": [
+      "short_absence_screen",
+      "account_sharing",
+      "third_party_system_access"
+    ],
+    "source_url": "https://kase.kz/files/emitters/ASBN/asbnp_2024_rus.pdf.pdf",
+    "source_sha256": "eab09109d12a89a58ed4b55d2d9e861d75242e56dbaa4e70c03f7b3930a2dc6b",
+    "final_video_violation_proven": false
+  },
+  {
+    "id": "F14",
+    "source_id": "forte_annual_report_2023",
+    "pdf_pages": [
+      99
+    ],
+    "locator": "Раздел об охране труда, стр. 99",
+    "summary": "Названы Правила проведения противопожарных инструктажей, утвержденные в 2023 году.",
+    "evidence_strength": "internal_document_existence_only",
+    "limitations": "Это подтверждение упоминания регламента, а не его доступный полный текст.",
+    "related_rule_ids": [
+      "fire_end_shift"
+    ],
+    "source_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Forte_Bank_AR_2023_rus_smart_last_f6939900b4_9655040ae4.pdf",
+    "source_sha256": "9e881e5e74f422f4ae04285ecb9bf50c48a017f715ff00190b4e329636a89e46",
+    "final_video_violation_proven": false
+  }
+]

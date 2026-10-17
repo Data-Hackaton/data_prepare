@@ -1,0 +1,12 @@
+{
+  "rule_ids_unique": true,
+  "every_rule_has_resolved_official_references": true,
+  "source_html_hashes_match": true,
+  "all_text_coverage_checks_pass": true,
+  "no_fabricated_final_video_verdicts": true,
+  "labor_safety_rules_have_addressee_and_mode": true,
+  "labor_safety_sources_resolved": true,
+  "x28_stays_general_basis_only": true,
+  "all_22_positive_inventory_entries_accounted_for": true,
+  "all_saved_scenario_rule_ids_resolve": true
+}

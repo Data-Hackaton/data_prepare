@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "id": "forte_antifraud_response",
+    "title": "Как действовать при обнаружении мошеннических операций",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Kak_dejstvovat_pri_obnaruzhenii_moshennicheskih_operaczij_e139024b04_0a6cd6912d.pdf",
+    "landing_url": "https://business.forte.kz/ru/service",
+    "discovery_snapshot": "discovery/business_service.html",
+    "source_role": "client_guidance",
+    "present_before_expansion": false,
+    "legal_force_note": "Публичный документ банка или отчетность, не государственный нормативный правовой акт; применимость проверяется отдельно.",
+    "video_date_known": false,
+    "sha256": "70d7bc5087f65ae5e21c688d8ce6d62bfc4e81f872eb10ebd8fc8f1a477e7a20",
+    "bytes": 9662974,
+    "page_count": 1,
+    "retrieved_at_utc": "2026-10-17T10:08:46.904607+00:00",
+    "parsed_at_utc": "2026-10-17T10:10:39.600395+00:00",
+    "characters": 1330,
+    "pages_without_text": [],
+    "pages_below_80_characters": [],
+    "extraction_method": "pypdf; every PDF page visited; image-only content may require OCR",
+    "full_legal_applicability_confirmed": false,
+    "duplicate_of": null,
+    "pdf_path": "forte_antifraud_response.pdf",
+    "parsed_path": "forte_antifraud_response.json"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "text": "С подробной информацией можете \nознакомиться на сайте , также можете \n для перехода на сайт\nf or t e.kz\nпросканировать QR\nПодготовьте необходимую информацию для \nразговора с Банком по телефону:\nданные организации: \nперсональные данные: \nдетали платежа: \nБИН/ИИН, название организации\nФИО, документ, удостоверяющий личность\nномер, дата и время платежного документа, счет и сумма списания.\nСвяжитесь с обслуживающим менеджером Банка \nили оператором Контакт центра по номеру 555 75.\nОбратитесь в правоохранительные органы \nлично или через сервис https:// ego v .kz/.\nрекомендуем подготовить компьютер или другое ваше устройство, с которого были \nсовершены операции без вашего ведома, для проверки.\nВ ыполните \n Проверьте актуальность всех прав и доступов \n Постарайтесь исключить использование программ \n, с помощью которых \nвы совер ш аете финансовые операции\nД ополнительную информацию можно получить по ссылке.\nсамооценку по кибергигиене\nк Интернет - банкингу и \nмобильному приложению F o r t e Bu s in ess\nудаленного управления \n(AnyD esk, T e amVi e w e r , R u st D esk и др. )  на устройствах\nОбновите программное обеспечение и антивирусы на компьютерах. \nПосле выполнения всех \nнеотложных действий:\nК ак дей ствовать  \nпри о б нар уже нии \nм о ше нни че ски х  оп е ра ц и й?\nxxxxxxxxxxx\n*********\nWWW\nОСТОРОЖНО!  МОШЕННИКИ!\n"
+    }
+  ]
+}

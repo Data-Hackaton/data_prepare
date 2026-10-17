@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "id": "nist_sp800_53_release_520_changes",
+    "title": "NIST — Summary of Changes: SP 800-53 Release 5.2.0",
+    "url": "https://csrc.nist.gov/files/projects/Risk-Management/800-53%20Comment%20Site/SP800-53-r5.2.0-changes.pdf",
+    "version": "Release 5.2.0, announced 27.08.2025",
+    "source_type": "version_change_record",
+    "jurisdiction": "United States",
+    "scope": "Version record; not a separate screen-lock rule. AC-11 is not listed as changed in this release.",
+    "locator": "Table 1, pp. 1–2",
+    "pdf_page": 1,
+    "check": "5.2.0",
+    "render_pages": [],
+    "matching_pages": [
+      1
+    ],
+    "sha256": "bc4e626745fa4cf48a1bb6d09f552aa4f7a4b945b459119407d08f2e97a89a86",
+    "page_count": 2,
+    "bytes": 93468,
+    "retrieved_at_utc": "2026-10-17T10:40:47.951828+00:00",
+    "parsed_at_utc": "2026-10-17T10:53:20.745234+00:00",
+    "pdf_path": "nist_sp800_53_release_520_changes.pdf",
+    "parsed_path": "nist_sp800_53_release_520_changes.json",
+    "direct_forte_employee_obligation": false,
+    "pages_without_extracted_text": [],
+    "extraction_note": "pypdf text from every page; not a full OCR transcription. Key pages rendered separately."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "text": "August 27, 2025 \n 1 \nSummary of Changes: NIST SP 800-53 Release 5.2.0 \nNIST Special Publication (SP) 800-53 Release 5.2.0, Security and Privacy Controls for Information \nSystems and Organizations, is available.  This revision focuses on improving the security and \nreliability of software updates and patches in response to Executive Order 14306 on strengthening \nthe Nation’s cybersecurity.  \nSP 800-53 Release 5.2.0 addresses multiple aspects of the software development and deployment \nprocess, including software and system resiliency by design, developer testing, the deployment \nand management of updates, and software integrity and validation. This update also revises the \ndiscussion sections of some existing controls to provide additional scoping and implementation \nexamples. A detailed list of changes is included below in Table 1.  \nNIST SP 800-53A Release 5.2.0, Assessing Security and Privacy Controls in Information Systems \nand Organizations, includes updates to assessment procedures for new or revised control and \ncontrol requirements.  NIST SP 800-53B Release 5.2.0, Control Baselines for Information Systems \nand Organizations, has no changes; the version number was updated for consistency with SP 800-\n53 and SP 800-53A.   \nTable 1. Changes in NIST SP 800-53 Release 5.2.0 \nControl / Control Enhancement Description of Change \nNew Control/Control Enhancement and Assessment Procedure \nSA-15(13) Development \nProcess, Standards, and Tools | \nLogging Syntax \nNew Control Enhancement to address more clear \nrequirements for logging. \nControl enhancement not included in any SP 800-53B \nbaseline. \nSA-24, Design for Cyber Resiliency New in final based on stakeholder feedback. \nAdded to address cyber resiliency by design. \nControl not included in any SP 800-53B baseline. \nSI-02(07) Flaw Remediation | Root \nCause Analysis \nNew control enhancement to address conducting a root \ncause analysis. \nIdentified as a gap from analysis of the NIST SSDF . \nControl enhancement not included in any SP 800-53B \nbaseline.  \nRevision to Existing Control Requirement \nSI-07(12) Revised existing control enhancement to address all \norganization-defined software instead of only \norganization-defined user software.   \nControl enhancement not included in any SP 800-53B \nbaseline. \nUpdate to Existing Control/Control Enhancement Discussion \nChange to discussion does not impact control requirement. "
+    },
+    {
+      "page": 2,
+      "text": " \nAugust 27, 2025 \n 2 \nSA-04 Updated discussion to address customer agreements and \nnotification, and coordination of updates. \nSA-05 Updated discussion to address additional considerations \nto include in developer artifacts and documentation.  \nSA-08(14) Updated discussion to address limiting the functions that \nhave access to operate with elevated privileges \nSI-02 Updated discussion to address flaw remediation testing \nSI-02(05) Updated discussion to provide an implementation \nexample. \nUpdate to Related Controls or References \nAll -01 Controls: Policy & Procedure Added as related control to newly added SI-02(07) \nAU-02 Added as related control to newly added SA-15(13), SI-\n02(07) \nAU-03 Added as related control to newly added SA-15(13) \nCA-07 Added as related control to newly added SI-02(07) \nIR-04 Added as related control to newly added SA-15(13) \nIR-06 Added as related control to newly added SI-02(07) \nIR-08 Added as related control to newly added SI-02(07) \nMA-03 Added as related control to newly added SI-02(07) \nSA-08 Added new references \nSA-15 Added as related control to newly added SI-02(07) \nSI-02 Added new reference  \nSR-08 Added as related control to newly added SI-02(07) \n "
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "id": "enisa_ncsa_transatlantic_checklist_2020",
+    "title": "ENISA / NCSA — 2020 Transatlantic Cybersecurity Checklist for Small Businesses",
+    "url": "https://www.enisa.europa.eu/sites/default/files/2024-10/transatlantic-cybersecurity-checklist.pdf",
+    "version": "November 2020; year in storage directory is not the document edition.",
+    "source_type": "joint_eu_us_awareness_guidance",
+    "jurisdiction": "European Union and United States",
+    "scope": "Baseline guidance for small businesses and employee cyber hygiene; not banking regulation.",
+    "locator": "Educate employees on cyber hygiene basics, first bullet, PDF/printed page 2; joint authorship page 1",
+    "pdf_page": 2,
+    "check": "always lock your device",
+    "render_pages": [
+      1,
+      2
+    ],
+    "matching_pages": [
+      2
+    ],
+    "sha256": "89071290fd55739eb4edb35ac25a0643e316a4d7ba4c5f91927697af36adc89e",
+    "page_count": 2,
+    "bytes": 772936,
+    "retrieved_at_utc": "2026-10-17T10:50:14.027475+00:00",
+    "parsed_at_utc": "2026-10-17T10:53:22.869268+00:00",
+    "pdf_path": "enisa_ncsa_transatlantic_checklist_2020.pdf",
+    "parsed_path": "enisa_ncsa_transatlantic_checklist_2020.json",
+    "direct_forte_employee_obligation": false,
+    "pages_without_extracted_text": [],
+    "extraction_note": "pypdf text from every page; not a full OCR transcription. Key pages rendered separately."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "text": "  \n \n1 \n \nSTAY SECURE ONLINE – 2020 \nTRANSATLANTIC CYBERSECURITY \nCHECKLIST FOR SMALL BUSINESSES \n \n INTRODUCTION \nSmall businesses are an important driver for innovation and growth for the European Union and for the United States of \nAmerica. They are also the staple for both economies and their workforces. The COVID-19 outbreak has put an \nincredible stress on these businesses this year. Many are struggling to grasp a new way of doing business in today’s \nhyper-connected world. For those small businesses navigating this new digital environment where employees work \nfrom home and business is increasingly conducted online, cybersecurity has become an increased concern.  \nThis ‘Stay Secure Online – 2020 Transatlantic Cybersecurity Checklist for Small Businesses’ has been drafted jointly by \nthe European Union Agency for Cybersecurity (ENISA) and the National Cyber Security Alliance (NCSA). This document \nidentifies many of the challenges faced by small businesses during this year’s digital surge and offers small business \nowners a basic guide to maintaining digital security.  \n     CYBERSECURITY CHALLENGES FACING EU’S AND USA’S SMALL BUSINESSES \nThe EU Agency for Cybersecurity and the National Cyber Security Alliance have identified four main cybersecurity \nchallenges faced by small businesses (referred to as Small and Medium Enterprises – SMEs - in Europe) across the \nEuropean Union and United States of America this year, fuelled by the COVID-19 pandemic as the below: \nLow Cyber-Awareness: Cybersecurity may be a complex issue connected with technical solutions and measures, but it \nmust be a part of the culture for small businesses as a successful cyber-attack can cause serious financial and/or \nreputational harm to any size of business.  \nLack of Remote IT Security: As more employees log in to their home computers to work, more data and \ncommunications are being transmitted across insecure channels - ultimately leaving valuable business content exposed.  \nHigh Cost of Cybersecurity Solutions: The cost of technical solutions, organisational overhead, cybersecurity trainings \nand cybersecurity expertise require funds that many businesses simply do not have.  \nIncreased Attacks such as Phishing: Teleworking has opened new opportunities for cyber criminals through ‘urgent’ and \n‘fear-based’ emails to trick online users into revealing personal information, click on malicious links or attachments, and \ninadvertently download malware directly on their computers.  \n \n "
+    },
+    {
+      "page": 2,
+      "text": " CYBERSECURITY CHECKLIST \n \n2 \nNovember 2020 \n \n   \n \n 2020 TRANSATLANTIC CYBERSECURITY CHECKLIST FOR SMALL BUSINESSES \nThis 2020 Transatlantic Cybersecurity Checklist for Small Businesses provides baseline tasks that small business owners \ncan do to gain  peace of mind that their businesses, information and employees are more secure online.  \n \nCreate a digital mind-set based on the BIG FOUR: Strong passwords. Antivirus. Automatic updates. Backups.  \n \nEducate employees on cyber hygiene basics:  \n Never leave your laptop unattended and always lock your device when not in use; \n Never plug in an unknown USB drive or other device into your computer; \n Store company passwords securely as advised by your employer;  \n Avoid emails from unknown sources that call for ‘urgent’ action; \n Check links before clicking on them, each and every time; \n Back up data on a regular basis and check up on saved data; \n Install anti-spam, anti-spyware and anti-virus software, and make sure your operating system is up to date;  \n Use your business phone hotspot instead of open Wi-Fi networks when working in public spaces, outside your \nhome or office. \n \nEstablish and enforce an IT security policy: First, you need to assess the main assets of your business and the possible \nthreats, both internal and external. Once you know what you are protecting, you can put a policy into place and appoint \na manager to oversee implementation. Each policy should include a set of rules that addresses key questions every \nemployee should be able to answer: \n May I access enterprise network from a home computer?  \n May I access work email via my private smartphone? If so, what are the requirements?  \n May I use software that is unapproved by IT on my work computer?  \n May I upload company documents to a public cloud? If so, should I invite specific colleagues to collaborate, or may I \nto share the documents through a link? \n May I use public Wi-Fi at an airport or in a hotel? May I use such a network to access my work email? \n May I use a password manager? If so, which one? \n \nEnsure regular backups and updates: Establish an automated system for you and your employees to backup data on a \nregular basis. This will prepare you for facing attacks such as ransomware. Schedule regular updates for your company \nservers, workstations and smartphones. Apply all the official recommended updates. \n \nSecure remote access: If you are not operating your business on the cloud, and are instead operating your own ICT \nenvironment, make sure to secure the remote access as much as possible. You can do this by using a virtual private \nnetwork (VPN), encrypting communications, enforcing strong passwords, setting up Multi-Factor Authentication (MFA) \nwhere applicable, and, most importantly, by giving your employees clear guidelines and access to help.  \n \nCreate a secure meeting space: Allow your employees to use digital communications such as chat, audio, video and \nscreen sharing in a secure manner by requiring them to follow good practices such as: \n Use password protection for all meetings; \n Keep conference links and meeting passwords within the invited participant list; \n When using video, ensure your visual background does not reveal personal or professional data to participants.  \n \nMake an incident management plan: Be prepared with a plan that lays out how to handle cyber incidents, provides \nlocal resources that can help and includes a response policy for your internal and external audiences. Then exercise it \nto see whether it works in real life. \n "
+    }
+  ]
+}

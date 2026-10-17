@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-10-17T12:06:30.728236+00:00",
+  "all_31_selected_files_saved": true,
+  "all_sha256_match_saved_originals": true,
+  "all_review_notes_have_sources": true,
+  "all_finding_page_locators_in_range": true,
+  "all_extractions_have_every_page": true,
+  "no_confirmed_new_video_verdicts": true,
+  "limits": "Проверены наличие, хеши, диапазоны страниц и связи. Не утверждается полнота OCR, всех норм или юридическая применимость к каждому видео."
+}

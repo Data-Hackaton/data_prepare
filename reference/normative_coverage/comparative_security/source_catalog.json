@@ -1,0 +1,121 @@
+[
+  {
+    "id": "nist_sp800_53r5_2020",
+    "title": "NIST SP 800-53 Rev. 5 — Security and Privacy Controls for Information Systems and Organizations",
+    "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf",
+    "version": "September 2020, updates 10.12.2020; official landing page announces release 5.2.0 on 27.08.2025; see separate changes file",
+    "source_type": "security_control_catalog",
+    "jurisdiction": "United States; comparative methodological reference",
+    "scope": "Configurable controls adopted through an organization's risk management; selection is needed for AC-11a. No evidence of adoption by ForteBank.",
+    "locator": "AC-11 and AC-11(1), PDF 69 / printed 42; discussion continues PDF 70",
+    "pdf_page": 69,
+    "check": "AC-11",
+    "render_pages": [
+      69
+    ]
+  },
+  {
+    "id": "nist_sp800_53_release_520_changes",
+    "title": "NIST — Summary of Changes: SP 800-53 Release 5.2.0",
+    "url": "https://csrc.nist.gov/files/projects/Risk-Management/800-53%20Comment%20Site/SP800-53-r5.2.0-changes.pdf",
+    "version": "Release 5.2.0, announced 27.08.2025",
+    "source_type": "version_change_record",
+    "jurisdiction": "United States",
+    "scope": "Version record; not a separate screen-lock rule. AC-11 is not listed as changed in this release.",
+    "locator": "Table 1, pp. 1–2",
+    "pdf_page": 1,
+    "check": "5.2.0",
+    "render_pages": []
+  },
+  {
+    "id": "bank_of_england_our_code_2024",
+    "title": "Bank of England — Our Code, January 2024",
+    "web_review_only": true,
+    "web_review_path": "bank_of_england_our_code_2024_web_review.json",
+    "url": "https://beta.bankofengland.co.uk/-/media/boe/files/about/human-resources/our-code-2024.pdf",
+    "version": "January 2024; historical published edition. Current January 2026 web code differs and does not reproduce this specific sentence.",
+    "source_type": "central_bank_employee_code_historical",
+    "jurisdiction": "United Kingdom",
+    "scope": "Staff of the Bank of England; a published historical employee rule, not a rule for every UK bank or ForteBank.",
+    "locator": "Safety and security at the Bank’s premises, PDF 35 / printed 34; staff scope PDF 2–3",
+    "pdf_page": 35,
+    "check": "lock your computer screen",
+    "render_pages": [
+      1,
+      2,
+      35
+    ]
+  },
+  {
+    "id": "fdic_cybersecurity_privacy_training",
+    "title": "FDIC — Cybersecurity and Privacy Awareness Training",
+    "url": "https://www.fdic.gov/formsdocuments/it-security-privacy-awareness.pdf",
+    "version": "No edition date on cover. PDF metadata: created 24.10.2025, modified 14.11.2025; metadata dates are not an approval date. Public copy retrieved 17.10.2026.",
+    "source_type": "financial_regulator_staff_training",
+    "jurisdiction": "United States",
+    "scope": "FDIC employees, contractors and authorized visitors using FDIC systems. Not a general rule for all banks supervised by FDIC.",
+    "locator": "Protecting Information Throughout the Lifecycle / Acceptable Use Policy for FDIC Information, PDF/printed 25–26; direct screen rule page 26",
+    "pdf_page": 26,
+    "check": "Always lock your screen",
+    "render_pages": [
+      1,
+      25,
+      26
+    ]
+  },
+  {
+    "id": "enisa_ncsa_transatlantic_checklist_2020",
+    "title": "ENISA / NCSA — 2020 Transatlantic Cybersecurity Checklist for Small Businesses",
+    "url": "https://www.enisa.europa.eu/sites/default/files/2024-10/transatlantic-cybersecurity-checklist.pdf",
+    "version": "November 2020; year in storage directory is not the document edition.",
+    "source_type": "joint_eu_us_awareness_guidance",
+    "jurisdiction": "European Union and United States",
+    "scope": "Baseline guidance for small businesses and employee cyber hygiene; not banking regulation.",
+    "locator": "Educate employees on cyber hygiene basics, first bullet, PDF/printed page 2; joint authorship page 1",
+    "pdf_page": 2,
+    "check": "always lock your device",
+    "render_pages": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "pci_ssc_faq_1147",
+    "title": "PCI SSC — FAQ 1147: Purpose of PCI DSS Requirement 8.2.8",
+    "url": "https://www.pcisecuritystandards.org/faqs/1147/",
+    "format": "html",
+    "version": "November 2025 on official FAQ",
+    "source_type": "payment_industry_standard_official_explanation",
+    "jurisdiction": "International payment card industry",
+    "scope": "PCI DSS scoped systems. Exception for POS accounts accessing only one card number at a time for one transaction. Scope of the X-28 device is unknown.",
+    "locator": "FAQ 1147, requirement 8.2.8 and applicability note",
+    "check": "15 minutes",
+    "render_pages": []
+  },
+  {
+    "id": "cnil_workstation_security_2024",
+    "title": "CNIL — Sécurité : Sécuriser les postes de travail",
+    "url": "https://www.cnil.fr/fr/securite-securiser-les-postes-de-travail",
+    "format": "html",
+    "version": "14 March 2024 on official page",
+    "source_type": "data_protection_authority_guidance",
+    "jurisdiction": "France / European Union",
+    "scope": "Guidance for securing workstations processing personal data; does not establish a universal immediate-lock rule or a Kazakhstan employee duty.",
+    "locator": "Les précautions élémentaires, first bullet",
+    "check": "verrouillage automatique",
+    "render_pages": []
+  },
+  {
+    "id": "bank_of_england_our_code_2026",
+    "title": "Bank of England — Our Code, January 2026 (version context)",
+    "url": "https://www.bankofengland.co.uk/about/governance-and-funding/staff-codes-and-policies/our-code",
+    "format": "html",
+    "version": "January 2026; page last updated 30 January 2026",
+    "source_type": "version_context",
+    "jurisdiction": "United Kingdom",
+    "scope": "Current public overview; staff duties and reference to separate Security conduct policy. Does not reproduce the 2024 immediate-lock sentence.",
+    "locator": "3: Demonstrating openness and accountability / Security conduct",
+    "check": "Security conduct",
+    "render_pages": []
+  }
+]

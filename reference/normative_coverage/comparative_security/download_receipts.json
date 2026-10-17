@@ -1,0 +1,94 @@
+{
+  "muslim_cooperative_bank_isms_2022": {
+    "url": "https://muslimcooperativebank.com/images/notice/PL%2001-%20ISMS%20Policy.pdf",
+    "retrieved_at_utc": "2026-10-17T10:40:22.734088+00:00",
+    "status": "failed",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  "bangladesh_bank_ict_v4_2023": {
+    "url": "https://www.bb.org.bd/mediaroom/circulars/brpd/jun192023brpd10.pdf",
+    "retrieved_at_utc": "2026-10-17T10:40:26.341367+00:00",
+    "final_url": "https://www.bb.org.bd/mediaroom/circulars/brpd/jun192023brpd10.pdf",
+    "content_type": "text/html",
+    "status": "failed",
+    "error": "ValueError: Response is not an acceptable PDF"
+  },
+  "nist_sp800_53r5_2020": {
+    "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf",
+    "retrieved_at_utc": "2026-10-17T10:40:32.815891+00:00",
+    "final_url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "bytes": 6073678,
+    "sha256": "fc63bcd61715d0181dd8e85998b1e6201ae3515fc6626102101cab1841e11ec6"
+  },
+  "nist_sp800_53_release_520_changes": {
+    "url": "https://csrc.nist.gov/files/projects/Risk-Management/800-53%20Comment%20Site/SP800-53-r5.2.0-changes.pdf",
+    "retrieved_at_utc": "2026-10-17T10:40:47.951828+00:00",
+    "final_url": "https://csrc.nist.gov/files/projects/Risk-Management/800-53%20Comment%20Site/SP800-53-r5.2.0-changes.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "bytes": 93468,
+    "sha256": "bc4e626745fa4cf48a1bb6d09f552aa4f7a4b945b459119407d08f2e97a89a86"
+  },
+  "moex_code_ethics_2024": {
+    "url": "https://www.moex.com/files/4m8te7k9fcc54z7ekd68bfbhx4",
+    "retrieved_at_utc": "2026-10-17T10:40:50.571932+00:00",
+    "final_url": "https://www.moex.com/files/4m8te7k9fcc54z7ekd68bfbhx4",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "bytes": 272495,
+    "sha256": "23a6307c3be623713acb12c6ff131c51763cadc278938fee2fdca37dc93c6016"
+  },
+  "bank_of_england_our_code_2024": {
+    "url": "https://beta.bankofengland.co.uk/-/media/boe/files/about/human-resources/our-code-2024.pdf",
+    "retrieved_at_utc": "2026-10-17T10:49:02.618963+00:00",
+    "status": "failed",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  "fdic_cybersecurity_privacy_training": {
+    "url": "https://www.fdic.gov/formsdocuments/it-security-privacy-awareness.pdf",
+    "retrieved_at_utc": "2026-10-17T10:49:09.352037+00:00",
+    "final_url": "https://www.fdic.gov/formsdocuments/it-security-privacy-awareness.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "bytes": 386220,
+    "sha256": "2066eeb284f05db6f6db6f4e5f314dcfbb61651f216a52c7b96345db95eb3bf6"
+  },
+  "enisa_ncsa_transatlantic_checklist_2020": {
+    "url": "https://www.enisa.europa.eu/sites/default/files/2024-10/transatlantic-cybersecurity-checklist.pdf",
+    "retrieved_at_utc": "2026-10-17T10:50:14.027475+00:00",
+    "final_url": "https://www.enisa.europa.eu/sites/default/files/2024-10/transatlantic-cybersecurity-checklist.pdf",
+    "content_type": "application/pdf",
+    "status": "downloaded",
+    "bytes": 772936,
+    "sha256": "89071290fd55739eb4edb35ac25a0643e316a4d7ba4c5f91927697af36adc89e"
+  },
+  "pci_ssc_faq_1147": {
+    "url": "https://www.pcisecuritystandards.org/faqs/1147/",
+    "retrieved_at_utc": "2026-10-17T10:50:42.526549+00:00",
+    "final_url": "https://www.pcisecuritystandards.org/faqs/1147/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "bytes": 654167,
+    "sha256": "d827cd8bb8cc66dabd015211ebf7483940b9d36d8de279e9533fecd55ef0de8c"
+  },
+  "cnil_workstation_security_2024": {
+    "url": "https://www.cnil.fr/fr/securite-securiser-les-postes-de-travail",
+    "retrieved_at_utc": "2026-10-17T10:51:17.725417+00:00",
+    "final_url": "https://www.cnil.fr/fr/securite-securiser-les-postes-de-travail",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "downloaded",
+    "bytes": 102922,
+    "sha256": "f5cbda4fa339f98bb234a3870127270bde3cd55c720845681b40a5211a685475"
+  },
+  "bank_of_england_our_code_2026": {
+    "url": "https://www.bankofengland.co.uk/about/governance-and-funding/staff-codes-and-policies/our-code",
+    "retrieved_at_utc": "2026-10-17T10:51:31.213196+00:00",
+    "final_url": "https://www.bankofengland.co.uk/about/governance-and-funding/staff-codes-and-policies/our-code",
+    "content_type": "text/html; charset=utf-8",
+    "status": "downloaded",
+    "bytes": 236185,
+    "sha256": "713d71180ca2c16ca05d8965586cbb6e8234237d507035ecc4f9ba6526516dde"
+  }
+}

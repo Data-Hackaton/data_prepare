@@ -16,3 +16,6 @@ data/frames/*/preview*/
 data/frames/*/exp_*.json
 # кэш предсказаний L1 (python -m cv.infer) — пересобирается за минуты
 data/features/*/l1_*.json
+# Local source inputs for regenerating the saved preliminary audit reports.
+reference/review_observations.py
+reference/dataset_manifest.json

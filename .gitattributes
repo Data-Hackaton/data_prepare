@@ -1,0 +1,5 @@
+# Preserve evidence and generated-artifact hashes across Windows/Linux clones.
+reference/normative_coverage/** -text
+reference/parsed_documents/** -text
+reference/sources/** -text
+reference/rule_catalog.json -text

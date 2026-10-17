@@ -1,0 +1,325 @@
+[
+  {
+    "document_id": "V1900019680",
+    "short_name": "НБРК № 231 от 29.11.2019",
+    "title": "Об утверждении Правил осуществления кассовых операций и операций по инкассации банкнот, монет и ценностей в банках второго уровня, филиалах банков-нерезидентов Республики Казахстан, Национальном операторе почты и юридических лицах, исключительной деятельностью которых является инкассация банкнот, монет и ценностей",
+    "purpose": "основной кассовый регламент",
+    "source_status": "Обновленный",
+    "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019680",
+    "source_path": "sources/V1900019680.html",
+    "source_sha256": "46b670bb4eeadd7fd2105eb756a87586dc7724dc9abea6951b72609ccf6bdc98",
+    "parsed_at_utc": "2026-10-17T09:06:23.839564+00:00",
+    "status": "parsed",
+    "coverage": {
+      "article_text_complete": true,
+      "original_nonwhitespace_characters": 104142,
+      "extracted_nonwhitespace_characters": 104142,
+      "article_closed_in_source": true,
+      "image_refs_count": 0,
+      "images_transcribed": false
+    },
+    "stats": {
+      "note": 40,
+      "paragraph": 197,
+      "numbered_paragraph": 180,
+      "subparagraph": 145,
+      "table": 33,
+      "heading": 31
+    },
+    "interpretation_note": "Нумерованные фрагменты включают постановление, основной текст, цитируемые поправки и приложения. Одинаковые номера в разных частях не являются одной нормой. Правовая применимость не устанавливается парсером.",
+    "numbered_fragments": 180,
+    "headings": 31
+  },
+  {
+    "document_id": "V2000020075",
+    "short_name": "НБРК № 14 от 24.02.2020",
+    "title": "Об утверждении Правил организации охраны и устройства помещений банков второго уровня, филиалов банков-нерезидентов Республики Казахстан, Национального оператора почты, юридических лиц, исключительной деятельностью которых является инкассация банкнот, монет и ценностей, и юридических лиц, осуществляющих деятельность исключительно через обменные пункты на основании лицензии Национального Банка Республики Казахстан на обменные операции с наличной иностранной валютой",
+    "purpose": "охрана и устройство помещений",
+    "source_status": "Обновленный",
+    "source_url": "https://old.adilet.zan.kz/rus/docs/V2000020075",
+    "source_path": "sources/V2000020075.html",
+    "source_sha256": "99ff8ab9895c7699d0b5f423c13eed6539b0ef96cea17c2f6c1604e5991427ce",
+    "parsed_at_utc": "2026-10-17T09:06:23.922348+00:00",
+    "status": "parsed",
+    "coverage": {
+      "article_text_complete": true,
+      "original_nonwhitespace_characters": 18101,
+      "extracted_nonwhitespace_characters": 18101,
+      "article_closed_in_source": true,
+      "image_refs_count": 0,
+      "images_transcribed": false
+    },
+    "stats": {
+      "note": 18,
+      "paragraph": 42,
+      "numbered_paragraph": 29,
+      "subparagraph": 48,
+      "table": 2,
+      "heading": 5
+    },
+    "interpretation_note": "Нумерованные фрагменты включают постановление, основной текст, цитируемые поправки и приложения. Одинаковые номера в разных частях не являются одной нормой. Правовая применимость не устанавливается парсером.",
+    "numbered_fragments": 29,
+    "headings": 5
+  },
+  {
+    "document_id": "V1700016120",
+    "short_name": "НБРК № 230 от 29.11.2017",
+    "title": "Об утверждении Правил определения платежности банкнот и монет национальной валюты Республики Казахстан",
+    "purpose": "платежность банкнот и монет тенге",
+    "source_status": "Обновленный",
+    "source_url": "https://old.adilet.zan.kz/rus/docs/V1700016120",
+    "source_path": "sources/V1700016120.html",
+    "source_sha256": "8e2aea2f3cff0a5426976130973a7362cf6f0a8ba81c624a8590d5bf5d3591f8",
+    "parsed_at_utc": "2026-10-17T09:06:23.995422+00:00",
+    "status": "parsed",
+    "coverage": {
+      "article_text_complete": true,
+      "original_nonwhitespace_characters": 33034,
+      "extracted_nonwhitespace_characters": 33034,
+      "article_closed_in_source": true,
+      "image_refs_count": 0,
+      "images_transcribed": false
+    },
+    "stats": {
+      "paragraph": 150,
+      "note": 19,
+      "numbered_paragraph": 52,
+      "subparagraph": 36,
+      "table": 16,
+      "heading": 21
+    },
+    "interpretation_note": "Нумерованные фрагменты включают постановление, основной текст, цитируемые поправки и приложения. Одинаковые номера в разных частях не являются одной нормой. Правовая применимость не устанавливается парсером.",
+    "numbered_fragments": 52,
+    "headings": 21
+  },
+  {
+    "document_id": "V1900018545",
+    "short_name": "НБРК № 49 от 04.04.2019",
+    "title": "Об утверждении Правил осуществления обменных операций с наличной иностранной валютой в Республике Казахстан",
+    "purpose": "обмен наличной иностранной валюты",
+    "source_status": "Обновленный",
+    "source_url": "https://adilet.zan.kz/rus/docs/V1900018545",
+    "source_path": "parsed_documents/V1900018545.source.html",
+    "source_sha256": "af565d20ba223ad1230180e2c6656f020101c590da06aa538c249a709300a089",
+    "parsed_at_utc": "2026-10-17T09:06:24.172487+00:00",
+    "status": "parsed",
+    "coverage": {
+      "article_text_complete": true,
+      "original_nonwhitespace_characters": 171567,
+      "extracted_nonwhitespace_characters": 171567,
+      "article_closed_in_source": true,
+      "image_refs_count": 0,
+      "images_transcribed": false
+    },
+    "stats": {
+      "note": 97,
+      "paragraph": 507,
+      "numbered_paragraph": 182,
+      "subparagraph": 94,
+      "table": 54,
+      "heading": 45
+    },
+    "interpretation_note": "Нумерованные фрагменты включают постановление, основной текст, цитируемые поправки и приложения. Одинаковые номера в разных частях не являются одной нормой. Правовая применимость не устанавливается парсером.",
+    "api_provenance": {
+      "url": "https://adilet.zan.kz/api/documents/by-ngr/V1900018545?language=rus",
+      "response_path": "parsed_documents/V1900018545.api-metadata.json",
+      "response_sha256": "4c81aa4eb2dcc3b1e37b1b1df476547ee52d9054b3029c8488f7391cc2f09d77",
+      "html_field": "text_content",
+      "document_uuid": "0d776d3e-1c76-40f2-90ea-64f6de7868dc",
+      "is_actual": true,
+      "status_code": "upd",
+      "start_date_raw": "2019-04-03T18:00:00.000Z",
+      "end_date_raw": "2026-06-29T18:00:00.000Z",
+      "updated_at_raw": "2026-09-15T08:28:33.876Z",
+      "response_saved_at_utc": "2026-10-17T09:05:32.415539+00:00",
+      "source_html_matches_api_exactly": true
+    },
+    "numbered_fragments": 182,
+    "headings": 45
+  },
+  {
+    "document_id": "V2400034348",
+    "short_name": "АРРФР № 21 от 30.04.2024",
+    "title": "Об утверждении Инструкции по организации антитеррористической защиты расчетно-кассовых отделений банков второго уровня, уязвимых в террористическом отношении",
+    "purpose": "антитеррористическая защита применимых объектов",
+    "source_status": "Новый",
+    "source_url": "https://old.adilet.zan.kz/rus/docs/V2400034348",
+    "source_path": "sources/V2400034348.html",
+    "source_sha256": "1a23ec9787f3c594bcd5b26a8e2f5d1041826c2840c7b21065d51541affec50e",
+    "parsed_at_utc": "2026-10-17T09:06:24.292917+00:00",
+    "status": "parsed",
+    "coverage": {
+      "article_text_complete": true,
+      "original_nonwhitespace_characters": 61339,
+      "extracted_nonwhitespace_characters": 61339,
+      "article_closed_in_source": true,
+      "image_refs_count": 0,
+      "images_transcribed": false
+    },
+    "stats": {
+      "paragraph": 174,
+      "numbered_paragraph": 129,
+      "subparagraph": 118,
+      "table": 9,
+      "heading": 19,
+      "note": 2
+    },
+    "interpretation_note": "Нумерованные фрагменты включают постановление, основной текст, цитируемые поправки и приложения. Одинаковые номера в разных частях не являются одной нормой. Правовая применимость не устанавливается парсером.",
+    "numbered_fragments": 129,
+    "headings": 19
+  },
+  {
+    "document_id": "V2600038217",
+    "short_name": "НБРК № 25 от 16.03.2026",
+    "title": "О внесении изменений и дополнений в некоторые постановления Правления Национального Банка Республики Казахстан по вопросам наличного денежного обращения и признании утратившими силу некоторых постановлений Правления Национального Банка Республики Казахстан",
+    "purpose": "изменения и отмена нормативных актов",
+    "source_status": "Обновленный",
+    "source_url": "https://old.adilet.zan.kz/rus/docs/V2600038217",
+    "source_path": "sources/V2600038217.html",
+    "source_sha256": "64f2134fd92ad16e3fa25c5aa25ab7e1e839a2bb984244a8c088eccd59ca6139",
+    "parsed_at_utc": "2026-10-17T09:06:24.359711+00:00",
+    "status": "parsed",
+    "coverage": {
+      "article_text_complete": true,
+      "original_nonwhitespace_characters": 48129,
+      "extracted_nonwhitespace_characters": 48129,
+      "article_closed_in_source": true,
+      "image_refs_count": 0,
+      "images_transcribed": false
+    },
+    "stats": {
+      "note": 2,
+      "paragraph": 96,
+      "numbered_paragraph": 46,
+      "subparagraph": 37,
+      "table": 23,
+      "heading": 9
+    },
+    "interpretation_note": "Нумерованные фрагменты включают постановление, основной текст, цитируемые поправки и приложения. Одинаковые номера в разных частях не являются одной нормой. Правовая применимость не устанавливается парсером.",
+    "numbered_fragments": 46,
+    "headings": 9
+  },
+  {
+    "document_id": "V2600039191",
+    "short_name": "НБРК № 78 от 30.06.2026",
+    "title": "О внесении изменений в некоторые постановления Правления Национального Банка Республики Казахстан",
+    "purpose": "изменения нормативных актов",
+    "source_status": "Исправление ошибки",
+    "source_url": "https://old.adilet.zan.kz/rus/docs/V2600039191",
+    "source_path": "sources/V2600039191.html",
+    "source_sha256": "8cff25abb59e3d96a462d77dc304561a8c5205a42b7d7a35a7e4d289b1981bff",
+    "parsed_at_utc": "2026-10-17T09:06:24.575165+00:00",
+    "status": "parsed",
+    "coverage": {
+      "article_text_complete": true,
+      "original_nonwhitespace_characters": 194337,
+      "extracted_nonwhitespace_characters": 194337,
+      "article_closed_in_source": true,
+      "image_refs_count": 0,
+      "images_transcribed": false
+    },
+    "stats": {
+      "paragraph": 465,
+      "numbered_paragraph": 151,
+      "subparagraph": 251,
+      "table": 118,
+      "heading": 65,
+      "note": 12
+    },
+    "interpretation_note": "Нумерованные фрагменты включают постановление, основной текст, цитируемые поправки и приложения. Одинаковые номера в разных частях не являются одной нормой. Правовая применимость не устанавливается парсером.",
+    "numbered_fragments": 151,
+    "headings": 65
+  },
+  {
+    "document_id": "V1900019391",
+    "short_name": "НБРК № 159 от 12.09.2019",
+    "title": "Об утверждении Инструкции по организации автомобильных инкассаторских перевозок в Республике Казахстан",
+    "purpose": "отменённая инструкция сохранена для справки",
+    "source_status": "Утративший силу",
+    "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+    "source_path": "sources/V1900019391.html",
+    "source_sha256": "5ad22dd172d19b51b34e6056e2280f5d45cfea01c9f90cefc75d551e24162b11",
+    "parsed_at_utc": "2026-10-17T09:06:24.705141+00:00",
+    "status": "parsed",
+    "coverage": {
+      "article_text_complete": true,
+      "original_nonwhitespace_characters": 13269,
+      "extracted_nonwhitespace_characters": 13269,
+      "article_closed_in_source": true,
+      "image_refs_count": 0,
+      "images_transcribed": false
+    },
+    "stats": {
+      "note": 6,
+      "paragraph": 28,
+      "numbered_paragraph": 19,
+      "subparagraph": 17,
+      "table": 8,
+      "heading": 5
+    },
+    "interpretation_note": "Нумерованные фрагменты включают постановление, основной текст, цитируемые поправки и приложения. Одинаковые номера в разных частях не являются одной нормой. Правовая применимость не устанавливается парсером.",
+    "numbered_fragments": 19,
+    "headings": 5
+  },
+  {
+    "document_id": "V2600038336",
+    "short_name": "АРРФР № 53 от 03.04.2026",
+    "title": "Об утверждении Требований к обеспечению информационной безопасности банков, филиалов банков-нерезидентов Республики Казахстан и организаций, осуществляющих отдельные виды банковских операций",
+    "purpose": "информационная безопасность банков",
+    "source_status": "Новый",
+    "source_url": "https://old.adilet.zan.kz/rus/docs/V2600038336",
+    "source_path": "sources/V2600038336.html",
+    "source_sha256": "90fcd9472810f481f38ce09a158036ddada2354d40af42196c32161c1fd2e4de",
+    "parsed_at_utc": "2026-10-17T09:06:24.751385+00:00",
+    "status": "parsed",
+    "coverage": {
+      "article_text_complete": true,
+      "original_nonwhitespace_characters": 72733,
+      "extracted_nonwhitespace_characters": 72733,
+      "article_closed_in_source": true,
+      "image_refs_count": 0,
+      "images_transcribed": false
+    },
+    "stats": {
+      "paragraph": 14,
+      "numbered_paragraph": 174,
+      "subparagraph": 250,
+      "table": 3,
+      "heading": 25
+    },
+    "interpretation_note": "Нумерованные фрагменты включают постановление, основной текст, цитируемые поправки и приложения. Одинаковые номера в разных частях не являются одной нормой. Правовая применимость не устанавливается парсером.",
+    "numbered_fragments": 174,
+    "headings": 25
+  },
+  {
+    "document_id": "V1800016772",
+    "short_name": "НБРК № 48 от 27.03.2018",
+    "title": "Об утверждении Требований к обеспечению информационной безопасности банков, филиалов банков-нерезидентов Республики Казахстан и организаций, осуществляющих отдельные виды банковских операций, Правил и сроков предоставления информации об инцидентах информационной безопасности, включая сведения о нарушениях, сбоях в информационных системах",
+    "purpose": "отменённые требования информационной безопасности",
+    "source_status": "Утративший силу",
+    "source_url": "https://old.adilet.zan.kz/rus/docs/V1800016772",
+    "source_path": "sources/V1800016772.html",
+    "source_sha256": "866ffaf69928bfca243d35f717ae38ef1a5c0a3be7063aa8b915f8436f61182d",
+    "parsed_at_utc": "2026-10-17T09:06:24.827572+00:00",
+    "status": "parsed",
+    "coverage": {
+      "article_text_complete": true,
+      "original_nonwhitespace_characters": 77405,
+      "extracted_nonwhitespace_characters": 77405,
+      "article_closed_in_source": true,
+      "image_refs_count": 0,
+      "images_transcribed": false
+    },
+    "stats": {
+      "note": 16,
+      "paragraph": 42,
+      "numbered_paragraph": 171,
+      "subparagraph": 266,
+      "table": 3,
+      "heading": 25
+    },
+    "interpretation_note": "Нумерованные фрагменты включают постановление, основной текст, цитируемые поправки и приложения. Одинаковые номера в разных частях не являются одной нормой. Правовая применимость не устанавливается парсером.",
+    "numbered_fragments": 171,
+    "headings": 25
+  }
+]

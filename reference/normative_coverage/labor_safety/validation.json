@@ -1,0 +1,201 @@
+{
+  "checked_at_utc": "2026-10-17T12:10:13.791031+00:00",
+  "scope": "Five-act labor, occupational and electrical safety extension; source text and evidence-link integrity, not a legal verdict on videos.",
+  "checks": {
+    "all_17_full_texts_and_both_source_hashes_match": true,
+    "five_new_sources_current_at_retrieval": true,
+    "80_unique_topics_including_66_previous_topics_and_14_new": true,
+    "new_topic_ids_match_definition_file": true,
+    "new_topics_identify_addressee_scope_and_evidence_mode": true,
+    "all_new_references_match_official_html_anchors_and_parent_units": true,
+    "all_new_references_use_the_five_added_acts": true,
+    "selected_material_clauses_and_exceptions_retained": true,
+    "42_original_video_labels_timestamps_and_stored_hashes_preserved": true,
+    "22_preliminary_positive_scenarios_still_mapped": true,
+    "x28_keeps_general_basis_and_no_employee_specific_lock_claim": true,
+    "x11_and_x28_supplemented_with_relevant_general_norms": true,
+    "no_new_video_or_universal_coverage_claim": true,
+    "document_counts_consistent_in_both_catalogs": true,
+    "main_build_validation_passed": true,
+    "updated_catalog_links_and_rulebook_anchors_resolve": true
+  },
+  "source_details": [
+    {
+      "id": "V1900019680",
+      "new_in_this_extension": false,
+      "html_hash_matches": true,
+      "api_response_hash_matches": true,
+      "full_html_text_preserved": true,
+      "status": "upd",
+      "is_actual": true
+    },
+    {
+      "id": "V2000020075",
+      "new_in_this_extension": false,
+      "html_hash_matches": true,
+      "api_response_hash_matches": true,
+      "full_html_text_preserved": true,
+      "status": "upd",
+      "is_actual": true
+    },
+    {
+      "id": "V1700016120",
+      "new_in_this_extension": false,
+      "html_hash_matches": true,
+      "api_response_hash_matches": true,
+      "full_html_text_preserved": true,
+      "status": "upd",
+      "is_actual": true
+    },
+    {
+      "id": "V1900018545",
+      "new_in_this_extension": false,
+      "html_hash_matches": true,
+      "api_response_hash_matches": true,
+      "full_html_text_preserved": true,
+      "status": "upd",
+      "is_actual": true
+    },
+    {
+      "id": "V2400034348",
+      "new_in_this_extension": false,
+      "html_hash_matches": true,
+      "api_response_hash_matches": true,
+      "full_html_text_preserved": true,
+      "status": "new",
+      "is_actual": true
+    },
+    {
+      "id": "V2600038336",
+      "new_in_this_extension": false,
+      "html_hash_matches": true,
+      "api_response_hash_matches": true,
+      "full_html_text_preserved": true,
+      "status": "new",
+      "is_actual": true
+    },
+    {
+      "id": "V2200026867",
+      "new_in_this_extension": false,
+      "html_hash_matches": true,
+      "api_response_hash_matches": true,
+      "full_html_text_preserved": true,
+      "status": "upd",
+      "is_actual": true
+    },
+    {
+      "id": "Z2600000258",
+      "new_in_this_extension": false,
+      "html_hash_matches": true,
+      "api_response_hash_matches": true,
+      "full_html_text_preserved": true,
+      "status": "upd",
+      "is_actual": true
+    },
+    {
+      "id": "Z1300000094",
+      "new_in_this_extension": false,
+      "html_hash_matches": true,
+      "api_response_hash_matches": true,
+      "full_html_text_preserved": true,
+      "status": "upd",
+      "is_actual": true
+    },
+    {
+      "id": "V2300032810",
+      "new_in_this_extension": false,
+      "html_hash_matches": true,
+      "api_response_hash_matches": true,
+      "full_html_text_preserved": true,
+      "status": "upd",
+      "is_actual": true
+    },
+    {
+      "id": "P1600000832",
+      "new_in_this_extension": false,
+      "html_hash_matches": true,
+      "api_response_hash_matches": true,
+      "full_html_text_preserved": true,
+      "status": "upd",
+      "is_actual": true
+    },
+    {
+      "id": "Z1300000073",
+      "new_in_this_extension": false,
+      "html_hash_matches": true,
+      "api_response_hash_matches": true,
+      "full_html_text_preserved": true,
+      "status": "upd",
+      "is_actual": true
+    },
+    {
+      "id": "K1500000414",
+      "new_in_this_extension": true,
+      "html_hash_matches": true,
+      "api_response_hash_matches": true,
+      "full_html_text_preserved": true,
+      "status": "upd",
+      "is_actual": true
+    },
+    {
+      "id": "V1500012534",
+      "new_in_this_extension": true,
+      "html_hash_matches": true,
+      "api_response_hash_matches": true,
+      "full_html_text_preserved": true,
+      "status": "upd",
+      "is_actual": true
+    },
+    {
+      "id": "V1500012665",
+      "new_in_this_extension": true,
+      "html_hash_matches": true,
+      "api_response_hash_matches": true,
+      "full_html_text_preserved": true,
+      "status": "upd",
+      "is_actual": true
+    },
+    {
+      "id": "V1500010889",
+      "new_in_this_extension": true,
+      "html_hash_matches": true,
+      "api_response_hash_matches": true,
+      "full_html_text_preserved": true,
+      "status": "upd",
+      "is_actual": true
+    },
+    {
+      "id": "V1500010949",
+      "new_in_this_extension": true,
+      "html_hash_matches": true,
+      "api_response_hash_matches": true,
+      "full_html_text_preserved": true,
+      "status": "upd",
+      "is_actual": true
+    }
+  ],
+  "reviewed_clause_checks": {
+    "K1500000414:22.2/3": true,
+    "K1500000414:23.2/25-1": true,
+    "K1500000414:22.2/4": true,
+    "V1500012534:15/1": true,
+    "V1500012534:19": true,
+    "V1500012665:61": true,
+    "V1500012665:62": true,
+    "V1500012665:71": true,
+    "V1500010889:26": true,
+    "V1500010949:4": true,
+    "V1500010949:99/13": true,
+    "K1500000414:184.3": true
+  },
+  "new_topic_count": 14,
+  "reference_uses_checked": 57,
+  "distinct_references_checked": 55,
+  "passed": true,
+  "errors": [],
+  "limits": [
+    "No new video inspection; labels and stored hashes compared with existing inventory, without reopening video files.",
+    "Current consolidation does not establish the version applicable on an unknown recording date.",
+    "No assertion that every relevant RK act or internal ForteBank rule has been found."
+  ]
+}

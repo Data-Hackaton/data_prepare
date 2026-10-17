@@ -1,0 +1,1705 @@
+{
+  "catalog_topics": 80,
+  "expanded_topics": 80,
+  "missing_topic_ids": [],
+  "unknown_topic_ids": [],
+  "scope": "catalog_topic_expansion_only",
+  "rows": [
+    {
+      "rule_id": "personal_items",
+      "title": "Личные вещи или личные деньги в кассовом узле",
+      "procedure_id": "topic_personal_items",
+      "procedure_type": "standing_condition",
+      "step_count": 2,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:12"
+      ],
+      "procedure_references": [
+        "V1900019680:12"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_personal_items"
+    },
+    {
+      "rule_id": "deposit_count",
+      "title": "Приём наличных без видимого пересчёта",
+      "procedure_id": "topic_deposit_count",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:19",
+        "V1900019680:20"
+      ],
+      "procedure_references": [
+        "V1900019680:19",
+        "V1900019680:20"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_deposit_count"
+    },
+    {
+      "rule_id": "client_presence",
+      "title": "Пересчёт принятой наличности без клиента",
+      "procedure_id": "topic_client_presence",
+      "procedure_type": "operator_procedure",
+      "step_count": 2,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:20"
+      ],
+      "procedure_references": [
+        "V1900019680:20"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_client_presence"
+    },
+    {
+      "rule_id": "previous_cash_storage",
+      "title": "Ранее принятые деньги остаются вне устройства хранения",
+      "procedure_id": "topic_previous_cash_storage",
+      "procedure_type": "standing_condition",
+      "step_count": 2,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:20"
+      ],
+      "procedure_references": [
+        "V1900019680:20"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_previous_cash_storage"
+    },
+    {
+      "rule_id": "separate_receipts",
+      "title": "Совместный приём денег по нескольким приходным документам",
+      "procedure_id": "topic_separate_receipts",
+      "procedure_type": "operator_procedure",
+      "step_count": 2,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:21"
+      ],
+      "procedure_references": [
+        "V1900019680:21"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_separate_receipts"
+    },
+    {
+      "rule_id": "leave_workplace",
+      "title": "Кассир покидает место до конца обслуживания",
+      "procedure_id": "topic_leave_workplace",
+      "procedure_type": "operator_procedure",
+      "step_count": 2,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:22"
+      ],
+      "procedure_references": [
+        "V1900019680:22"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_leave_workplace"
+    },
+    {
+      "rule_id": "deposit_receipt",
+      "title": "Не выдан документ о приёме денег",
+      "procedure_id": "topic_deposit_receipt",
+      "procedure_type": "operator_procedure",
+      "step_count": 2,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:19"
+      ],
+      "procedure_references": [
+        "V1900019680:10-1",
+        "V1900019680:19"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_deposit_receipt"
+    },
+    {
+      "rule_id": "withdrawal_count",
+      "title": "Выдача без пересчёта в присутствии клиента",
+      "procedure_id": "topic_withdrawal_count",
+      "procedure_type": "operator_procedure",
+      "step_count": 2,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:31",
+        "V1900019680:32"
+      ],
+      "procedure_references": [
+        "V1900019680:31",
+        "V1900019680:32"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_withdrawal_count"
+    },
+    {
+      "rule_id": "withdrawal_receipt",
+      "title": "Не выдан документ о выдаче денег",
+      "procedure_id": "topic_withdrawal_receipt",
+      "procedure_type": "operator_procedure",
+      "step_count": 2,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:31"
+      ],
+      "procedure_references": [
+        "V1900019680:10-1",
+        "V1900019680:31"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_withdrawal_receipt"
+    },
+    {
+      "rule_id": "identity_procedure",
+      "title": "Не наблюдается проверка документа клиента",
+      "procedure_id": "topic_identity_procedure",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:19",
+        "V1900019680:31"
+      ],
+      "procedure_references": [
+        "V1900019680:19",
+        "V1900019680:31",
+        "Z1300000073:6.4"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_identity_procedure"
+    },
+    {
+      "rule_id": "cash_document_execution",
+      "title": "Возможный пропуск подписи или штампа",
+      "procedure_id": "topic_cash_document_execution",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:19",
+        "V1900019680:31"
+      ],
+      "procedure_references": [
+        "V1900019680:10-1",
+        "V1900019680:19",
+        "V1900019680:31"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_cash_document_execution"
+    },
+    {
+      "rule_id": "exchange_sequence",
+      "title": "Размен до завершения выдачи приготовленных денег",
+      "procedure_id": "topic_exchange_sequence",
+      "procedure_type": "operator_procedure",
+      "step_count": 2,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:34"
+      ],
+      "procedure_references": [
+        "V1900019680:34"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_exchange_sequence"
+    },
+    {
+      "rule_id": "control_count",
+      "title": "Служебный пересчёт без контролирующего работника",
+      "procedure_id": "topic_control_count",
+      "procedure_type": "operator_procedure",
+      "step_count": 2,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:42"
+      ],
+      "procedure_references": [
+        "V1900019680:42"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_control_count"
+    },
+    {
+      "rule_id": "authentication_equipment",
+      "title": "Не наблюдается проверка на счётном оборудовании",
+      "procedure_id": "topic_authentication_equipment",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:19",
+        "V1900019680:41",
+        "V1900019680:57",
+        "V1900019680:58",
+        "V1900019680:9"
+      ],
+      "procedure_references": [
+        "V1900019680:19",
+        "V1900019680:41",
+        "V1900019680:57",
+        "V1900019680:58",
+        "V1900019680:9"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_authentication_equipment"
+    },
+    {
+      "rule_id": "bag_acceptance",
+      "title": "Пропуск проверки сумки или пломбы при приёме",
+      "procedure_id": "topic_bag_acceptance",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:107",
+        "V1900019680:108",
+        "V1900019680:24"
+      ],
+      "procedure_references": [
+        "V1900019680:107",
+        "V1900019680:108",
+        "V1900019680:24"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_bag_acceptance"
+    },
+    {
+      "rule_id": "bag_packaging",
+      "title": "Передача на инкассацию без надлежащей сумки",
+      "procedure_id": "topic_bag_packaging",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:105",
+        "V1900019680:106"
+      ],
+      "procedure_references": [
+        "V1900019680:105",
+        "V1900019680:106"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_bag_packaging"
+    },
+    {
+      "rule_id": "damaged_packaging",
+      "title": "Приём для перевозки повреждённой упаковки",
+      "procedure_id": "topic_damaged_packaging",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:112",
+        "V1900019680:113"
+      ],
+      "procedure_references": [
+        "V1900019680:112",
+        "V1900019680:113"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_damaged_packaging"
+    },
+    {
+      "rule_id": "collector_equipment",
+      "title": "Возможное отсутствие экипировки инкассатора",
+      "procedure_id": "topic_collector_equipment",
+      "procedure_type": "document_and_visual_review",
+      "step_count": 2,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:103"
+      ],
+      "procedure_references": [
+        "V1900019680:103"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_collector_equipment"
+    },
+    {
+      "rule_id": "collector_team",
+      "title": "Возможный недостаточный состав бригады",
+      "procedure_id": "topic_collector_team",
+      "procedure_type": "document_and_visual_review",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:98",
+        "V1900019680:99"
+      ],
+      "procedure_references": [
+        "V1900019680:98",
+        "V1900019680:99"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_collector_team"
+    },
+    {
+      "rule_id": "vault_access",
+      "title": "Доступ в кладовую или сейфовую комнату",
+      "procedure_id": "topic_vault_access",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:75",
+        "V1900019680:76",
+        "V1900019680:80"
+      ],
+      "procedure_references": [
+        "V1900019680:75",
+        "V1900019680:76",
+        "V1900019680:80"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_vault_access"
+    },
+    {
+      "rule_id": "secure_cash_area",
+      "title": "Возможный недостаток изоляции кассового узла",
+      "procedure_id": "topic_secure_cash_area",
+      "procedure_type": "premises_audit",
+      "step_count": 3,
+      "exception_count": 3,
+      "catalog_references": [
+        "V2000020075:16",
+        "V2000020075:8"
+      ],
+      "procedure_references": [
+        "V2000020075:16",
+        "V2000020075:16@transition_until_2027",
+        "V2000020075:18",
+        "V2000020075:8"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_secure_cash_area"
+    },
+    {
+      "rule_id": "collection_area",
+      "title": "Просмотр или доступ третьих лиц при погрузке",
+      "procedure_id": "topic_collection_area",
+      "procedure_type": "premises_audit",
+      "step_count": 2,
+      "exception_count": 1,
+      "catalog_references": [
+        "V2000020075:21"
+      ],
+      "procedure_references": [
+        "V2000020075:21"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_collection_area"
+    },
+    {
+      "rule_id": "cash_handover_record",
+      "title": "Передача наличных между кассовыми работниками",
+      "procedure_id": "topic_cash_handover_record",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:15"
+      ],
+      "procedure_references": [
+        "V1900019680:15"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_cash_handover_record"
+    },
+    {
+      "rule_id": "day_end_cash",
+      "title": "Пересчет, сортировка, упаковка и сдача остатка в конце дня",
+      "procedure_id": "topic_day_end_cash",
+      "procedure_type": "operator_procedure",
+      "step_count": 4,
+      "exception_count": 2,
+      "catalog_references": [
+        "V1900019680:23",
+        "V1900019680:37",
+        "V1900019680:64",
+        "V1900019680:66",
+        "V1900019680:67"
+      ],
+      "procedure_references": [
+        "V1900019680:23",
+        "V1900019680:37",
+        "V1900019680:64",
+        "V1900019680:66",
+        "V1900019680:67"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_day_end_cash"
+    },
+    {
+      "rule_id": "counterfeit_return",
+      "title": "Возврат клиенту банкнот с установленными признаками подделки",
+      "procedure_id": "topic_counterfeit_return",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1700016120:24",
+        "V1900019680:60",
+        "V1900019680:61"
+      ],
+      "procedure_references": [
+        "V1700016120:24",
+        "V1900019680:60",
+        "V1900019680:61"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_counterfeit_return"
+    },
+    {
+      "rule_id": "suspect_expertise",
+      "title": "Оформление приема сомнительных банкнот на экспертизу",
+      "procedure_id": "topic_suspect_expertise",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 2,
+      "catalog_references": [
+        "V1700016120:29",
+        "V1700016120:30",
+        "V1900019680:59"
+      ],
+      "procedure_references": [
+        "V1700016120:29",
+        "V1700016120:30",
+        "V1900019680:59"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_suspect_expertise"
+    },
+    {
+      "rule_id": "dyed_notes",
+      "title": "Обработка банкнот, окрашенных краской спецконтейнера",
+      "procedure_id": "topic_dyed_notes",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:63-4",
+        "V1900019680:63-5"
+      ],
+      "procedure_references": [
+        "V1900019680:59",
+        "V1900019680:63-4",
+        "V1900019680:63-5"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_dyed_notes"
+    },
+    {
+      "rule_id": "cash_sorting",
+      "title": "Сортировка по номиналам и состоянию",
+      "procedure_id": "topic_cash_sorting",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 2,
+      "catalog_references": [
+        "V1900019680:43",
+        "V1900019680:45",
+        "V1900019680:50",
+        "V1900019680:77"
+      ],
+      "procedure_references": [
+        "V1900019680:43",
+        "V1900019680:45",
+        "V1900019680:50",
+        "V1900019680:77"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_cash_sorting"
+    },
+    {
+      "rule_id": "unfit_recirculation",
+      "title": "Возврат ветхих тенге в обращение",
+      "procedure_id": "topic_unfit_recirculation",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1700016120:10",
+        "V1700016120:11",
+        "V1700016120:12",
+        "V1900019680:45"
+      ],
+      "procedure_references": [
+        "V1700016120:10",
+        "V1700016120:11",
+        "V1700016120:12",
+        "V1900019680:45"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_unfit_recirculation"
+    },
+    {
+      "rule_id": "worn_acceptance",
+      "title": "Отказ принимать платежные ветхие тенге",
+      "procedure_id": "topic_worn_acceptance",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1700016120:15",
+        "V1700016120:25",
+        "V1700016120:28",
+        "V1700016120:30",
+        "V1700016120:4"
+      ],
+      "procedure_references": [
+        "V1700016120:15",
+        "V1700016120:25",
+        "V1700016120:28",
+        "V1700016120:30",
+        "V1700016120:4"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_worn_acceptance"
+    },
+    {
+      "rule_id": "bundle_formation",
+      "title": "Формирование корешков и пачек банкнот",
+      "procedure_id": "topic_bundle_formation",
+      "procedure_type": "operator_procedure",
+      "step_count": 4,
+      "exception_count": 2,
+      "catalog_references": [
+        "V1900019680:46",
+        "V1900019680:47",
+        "V1900019680:48",
+        "V1900019680:49",
+        "V1900019680:50"
+      ],
+      "procedure_references": [
+        "V1900019680:46",
+        "V1900019680:47",
+        "V1900019680:48",
+        "V1900019680:49",
+        "V1900019680:50"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_bundle_formation"
+    },
+    {
+      "rule_id": "coin_packaging",
+      "title": "Упаковка монет и маркировка мешков",
+      "procedure_id": "topic_coin_packaging",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:51",
+        "V1900019680:52",
+        "V1900019680:53"
+      ],
+      "procedure_references": [
+        "V1900019680:51",
+        "V1900019680:52",
+        "V1900019680:53"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_coin_packaging"
+    },
+    {
+      "rule_id": "outgoing_packaging",
+      "title": "Выдача наличных в надлежащей упаковке",
+      "procedure_id": "topic_outgoing_packaging",
+      "procedure_type": "operator_procedure",
+      "step_count": 2,
+      "exception_count": 2,
+      "catalog_references": [
+        "V1900019680:32",
+        "V1900019680:33"
+      ],
+      "procedure_references": [
+        "V1900019680:32",
+        "V1900019680:33"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_outgoing_packaging"
+    },
+    {
+      "rule_id": "client_recount",
+      "title": "Возможность пересчета полученных денег клиентом",
+      "procedure_id": "topic_client_recount",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:35"
+      ],
+      "procedure_references": [
+        "V1900019680:35"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_client_recount"
+    },
+    {
+      "rule_id": "damaged_bag_recount",
+      "title": "Вскрытие и пересчет поврежденной инкассаторской сумки",
+      "procedure_id": "topic_damaged_bag_recount",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 2,
+      "catalog_references": [
+        "V1900019680:24",
+        "V1900019680:25",
+        "V1900019680:41",
+        "V1900019680:42"
+      ],
+      "procedure_references": [
+        "V1900019680:24",
+        "V1900019680:25",
+        "V1900019680:41",
+        "V1900019680:42"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_damaged_bag_recount"
+    },
+    {
+      "rule_id": "received_bag_recount",
+      "title": "Пересчет содержимого вскрытой сумки",
+      "procedure_id": "topic_received_bag_recount",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 2,
+      "catalog_references": [
+        "V1900019680:24",
+        "V1900019680:25",
+        "V1900019680:41",
+        "V1900019680:42"
+      ],
+      "procedure_references": [
+        "V1900019680:24",
+        "V1900019680:25",
+        "V1900019680:41",
+        "V1900019680:42"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_received_bag_recount"
+    },
+    {
+      "rule_id": "collection_document_flow",
+      "title": "Препроводительные документы при приеме и выдаче инкассации",
+      "procedure_id": "topic_collection_document_flow",
+      "procedure_type": "operator_procedure",
+      "step_count": 4,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:105",
+        "V1900019680:106",
+        "V1900019680:107",
+        "V1900019680:24",
+        "V1900019680:38"
+      ],
+      "procedure_references": [
+        "V1900019680:10-1",
+        "V1900019680:105",
+        "V1900019680:106",
+        "V1900019680:107",
+        "V1900019680:24",
+        "V1900019680:38"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_collection_document_flow"
+    },
+    {
+      "rule_id": "collector_documents",
+      "title": "Документы и полномочия инкассаторской бригады",
+      "procedure_id": "topic_collector_documents",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:101",
+        "V1900019680:111"
+      ],
+      "procedure_references": [
+        "V1900019680:101",
+        "V1900019680:111"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_collector_documents"
+    },
+    {
+      "rule_id": "collection_documents_storage",
+      "title": "Хранение документов инкассации после маршрута",
+      "procedure_id": "topic_collection_documents_storage",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:122",
+        "V1900019680:123"
+      ],
+      "procedure_references": [
+        "V1900019680:122",
+        "V1900019680:123"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_collection_documents_storage"
+    },
+    {
+      "rule_id": "cash_storage",
+      "title": "Хранение учтенных наличных в кладовой или сейфовой комнате",
+      "procedure_id": "topic_cash_storage",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:74",
+        "V1900019680:75",
+        "V1900019680:77",
+        "V1900019680:80"
+      ],
+      "procedure_references": [
+        "V1900019680:74",
+        "V1900019680:75",
+        "V1900019680:77",
+        "V1900019680:80"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_cash_storage"
+    },
+    {
+      "rule_id": "unattended_cash",
+      "title": "Наличные или сумка с деньгами оставлены при уходе",
+      "procedure_id": "topic_unattended_cash",
+      "procedure_type": "operator_procedure",
+      "step_count": 2,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:20",
+        "V1900019680:22",
+        "V1900019680:74",
+        "V1900019680:80"
+      ],
+      "procedure_references": [
+        "V1900019680:20",
+        "V1900019680:22",
+        "V1900019680:74",
+        "V1900019680:80"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_unattended_cash"
+    },
+    {
+      "rule_id": "open_safe",
+      "title": "Открытый рабочий сейф",
+      "procedure_id": "topic_open_safe",
+      "procedure_type": "standing_condition",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:20",
+        "V1900019680:80"
+      ],
+      "procedure_references": [
+        "V1900019680:20",
+        "V1900019680:80"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_open_safe"
+    },
+    {
+      "rule_id": "keys_stamps",
+      "title": "Ключи, печати и штампы оставлены доступными",
+      "procedure_id": "topic_keys_stamps",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:76",
+        "V1900019680:80"
+      ],
+      "procedure_references": [
+        "V1900019680:76",
+        "V1900019680:80"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_keys_stamps"
+    },
+    {
+      "rule_id": "service_overlap",
+      "title": "Параллельное обслуживание клиентов и риск смешения операций",
+      "procedure_id": "topic_service_overlap",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:20",
+        "V1900019680:21",
+        "V1900019680:22"
+      ],
+      "procedure_references": [
+        "V1900019680:20",
+        "V1900019680:21",
+        "V1900019680:22"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_service_overlap"
+    },
+    {
+      "rule_id": "atm_cash",
+      "title": "Наличные для устройств с автоматической обработкой",
+      "procedure_id": "topic_atm_cash",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 2,
+      "catalog_references": [
+        "V1900019680:55",
+        "V1900019680:69",
+        "V1900019680:71",
+        "V1900019680:72"
+      ],
+      "procedure_references": [
+        "V1900019680:55",
+        "V1900019680:69",
+        "V1900019680:71",
+        "V1900019680:72"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_atm_cash"
+    },
+    {
+      "rule_id": "fx_access",
+      "title": "Посторонние лица и посторонние деньги в операционной кассе обменного пункта",
+      "procedure_id": "topic_fx_access",
+      "procedure_type": "standing_condition",
+      "step_count": 2,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900018545:41"
+      ],
+      "procedure_references": [
+        "V1900018545:41"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_fx_access"
+    },
+    {
+      "rule_id": "fx_equipment",
+      "title": "Обмен при неисправном обязательном оборудовании",
+      "procedure_id": "topic_fx_equipment",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 2,
+      "catalog_references": [
+        "V1900018545:11",
+        "V1900018545:33",
+        "V1900018545:34"
+      ],
+      "procedure_references": [
+        "V1900018545:11",
+        "V1900018545:33",
+        "V1900018545:34"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_fx_equipment"
+    },
+    {
+      "rule_id": "fx_display",
+      "title": "Информация и обменные курсы для клиентов",
+      "procedure_id": "topic_fx_display",
+      "procedure_type": "standing_condition",
+      "step_count": 5,
+      "exception_count": 5,
+      "catalog_references": [
+        "V1900018545:39",
+        "V1900018545:42",
+        "V1900018545:46"
+      ],
+      "procedure_references": [
+        "V1900018545:39",
+        "V1900018545:42",
+        "V1900018545:46"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_fx_display"
+    },
+    {
+      "rule_id": "fx_identity",
+      "title": "Идентификация при валютной обменной операции",
+      "procedure_id": "topic_fx_identity",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 2,
+      "catalog_references": [
+        "V1900018545:51",
+        "V1900018545:53",
+        "Z1300000073:6.4"
+      ],
+      "procedure_references": [
+        "V1900018545:51",
+        "V1900018545:53",
+        "Z1300000073:6.4"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_fx_identity"
+    },
+    {
+      "rule_id": "fx_receipt",
+      "title": "Подтверждение валютного обмена чеком",
+      "procedure_id": "topic_fx_receipt",
+      "procedure_type": "operator_procedure",
+      "step_count": 2,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900018545:54"
+      ],
+      "procedure_references": [
+        "V1900018545:54"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_fx_receipt"
+    },
+    {
+      "rule_id": "fx_refusal_fee",
+      "title": "Необоснованный отказ в обмене или комиссия",
+      "procedure_id": "topic_fx_refusal_fee",
+      "procedure_type": "operator_procedure",
+      "step_count": 4,
+      "exception_count": 2,
+      "catalog_references": [
+        "V1900018545:53",
+        "V1900018545:57",
+        "V1900018545:61"
+      ],
+      "procedure_references": [
+        "V1900018545:53",
+        "V1900018545:57",
+        "V1900018545:61"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_fx_refusal_fee"
+    },
+    {
+      "rule_id": "fx_note_quality",
+      "title": "Проверка и прием негодной иностранной валюты",
+      "procedure_id": "topic_fx_note_quality",
+      "procedure_type": "operator_procedure",
+      "step_count": 4,
+      "exception_count": 2,
+      "catalog_references": [
+        "V1900018545:58",
+        "V1900018545:59",
+        "V1900018545:60",
+        "V1900018545:60-1",
+        "V1900018545:61",
+        "V1900019680:58"
+      ],
+      "procedure_references": [
+        "V1900018545:58",
+        "V1900018545:59",
+        "V1900018545:60",
+        "V1900018545:60-1",
+        "V1900018545:61",
+        "V1900019680:58"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_fx_note_quality"
+    },
+    {
+      "rule_id": "access_control",
+      "title": "Контроль допуска в кассовую зону",
+      "procedure_id": "topic_access_control",
+      "procedure_type": "premises_audit",
+      "step_count": 4,
+      "exception_count": 2,
+      "catalog_references": [
+        "V1900019680:14",
+        "V2000020075:16",
+        "V2000020075:8",
+        "V2600038336:18"
+      ],
+      "procedure_references": [
+        "V1900019680:14",
+        "V2000020075:16",
+        "V2000020075:16@transition_until_2027",
+        "V2000020075:18",
+        "V2000020075:8",
+        "V2600038336:18"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_access_control"
+    },
+    {
+      "rule_id": "rko_pass_regime",
+      "title": "Пропускной режим уязвимого в террористическом отношении РКО",
+      "procedure_id": "topic_rko_pass_regime",
+      "procedure_type": "operator_procedure",
+      "step_count": 4,
+      "exception_count": 2,
+      "catalog_references": [
+        "V2400034348:1",
+        "V2400034348:14",
+        "V2400034348:15",
+        "V2400034348:18",
+        "V2400034348:19"
+      ],
+      "procedure_references": [
+        "V2400034348:1",
+        "V2400034348:14",
+        "V2400034348:15",
+        "V2400034348:18",
+        "V2400034348:19"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_rko_pass_regime"
+    },
+    {
+      "rule_id": "session_timeout",
+      "title": "Автоматическое завершение сеанса или блокировка",
+      "procedure_id": "topic_session_timeout",
+      "procedure_type": "system_control_audit",
+      "step_count": 3,
+      "exception_count": 2,
+      "catalog_references": [
+        "V2600038336:34",
+        "V2600038336:35",
+        "V2600038336:71",
+        "V2600038336:72"
+      ],
+      "procedure_references": [
+        "V2600038336:34",
+        "V2600038336:35",
+        "V2600038336:71",
+        "V2600038336:72"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_session_timeout"
+    },
+    {
+      "rule_id": "short_absence_screen",
+      "title": "Краткий уход от незаблокированного рабочего места",
+      "procedure_id": "topic_short_absence_screen",
+      "procedure_type": "unresolved_requirement_check",
+      "step_count": 4,
+      "exception_count": 1,
+      "catalog_references": [
+        "V2600038336:36",
+        "V2600038336:53",
+        "V2600038336:71",
+        "V2600038336:72",
+        "Z1300000094:22.1"
+      ],
+      "procedure_references": [
+        "V2600038336:36",
+        "V2600038336:53",
+        "V2600038336:71",
+        "V2600038336:72",
+        "Z1300000094:22.1"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded_with_applicability_gap",
+      "procedure_link": "topics.md#topic_short_absence_screen"
+    },
+    {
+      "rule_id": "account_sharing",
+      "title": "Передача пароля или работа под чужой учетной записью",
+      "procedure_id": "topic_account_sharing",
+      "procedure_type": "system_control_audit",
+      "step_count": 3,
+      "exception_count": 2,
+      "catalog_references": [
+        "V2600038336:40",
+        "V2600038336:73"
+      ],
+      "procedure_references": [
+        "V2600038336:34",
+        "V2600038336:35",
+        "V2600038336:40",
+        "V2600038336:73"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_account_sharing"
+    },
+    {
+      "rule_id": "third_party_system_access",
+      "title": "Доступ третьего лица к банковской системе",
+      "procedure_id": "topic_third_party_system_access",
+      "procedure_type": "system_control_audit",
+      "step_count": 4,
+      "exception_count": 2,
+      "catalog_references": [
+        "V2600038336:36",
+        "V2600038336:45",
+        "V2600038336:56",
+        "V2600038336:57",
+        "V2600038336:59"
+      ],
+      "procedure_references": [
+        "V2600038336:34",
+        "V2600038336:35",
+        "V2600038336:36",
+        "V2600038336:45",
+        "V2600038336:56",
+        "V2600038336:57",
+        "V2600038336:59"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_third_party_system_access"
+    },
+    {
+      "rule_id": "paper_protection",
+      "title": "Защищаемые бумажные документы оставлены доступными",
+      "procedure_id": "topic_paper_protection",
+      "procedure_type": "standing_condition",
+      "step_count": 4,
+      "exception_count": 2,
+      "catalog_references": [
+        "V2600038336:76",
+        "V2600038336:78",
+        "Z1300000094:11.1",
+        "Z1300000094:11.2",
+        "Z1300000094:22.1"
+      ],
+      "procedure_references": [
+        "V2600038336:76",
+        "V2600038336:78",
+        "Z1300000094:11.1",
+        "Z1300000094:11.2",
+        "Z1300000094:22.1"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_paper_protection"
+    },
+    {
+      "rule_id": "client_data_disclosure",
+      "title": "Разглашение клиентских сведений на бумаге или экране",
+      "procedure_id": "topic_client_data_disclosure",
+      "procedure_type": "standing_condition",
+      "step_count": 4,
+      "exception_count": 1,
+      "catalog_references": [
+        "V2300032810:21",
+        "Z1300000094:11.1",
+        "Z1300000094:11.2",
+        "Z1300000094:22.1",
+        "Z2600000258:69.1",
+        "Z2600000258:69.2"
+      ],
+      "procedure_references": [
+        "V2300032810:21",
+        "Z1300000094:11.1",
+        "Z1300000094:11.2",
+        "Z1300000094:22.1",
+        "Z2600000258:69.1",
+        "Z2600000258:69.2"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_client_data_disclosure"
+    },
+    {
+      "rule_id": "external_media",
+      "title": "Защита данных при использовании внешнего носителя",
+      "procedure_id": "topic_external_media",
+      "procedure_type": "system_control_audit",
+      "step_count": 3,
+      "exception_count": 2,
+      "catalog_references": [
+        "V2600038336:116",
+        "V2600038336:45",
+        "V2600038336:75"
+      ],
+      "procedure_references": [
+        "V2600038336:116",
+        "V2600038336:34",
+        "V2600038336:35",
+        "V2600038336:45",
+        "V2600038336:75"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_external_media"
+    },
+    {
+      "rule_id": "fire_end_shift",
+      "title": "Приборы оставлены под напряжением после окончания смены",
+      "procedure_id": "topic_fire_end_shift",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 2,
+      "catalog_references": [
+        "V2200026867:83"
+      ],
+      "procedure_references": [
+        "V2200026867:83"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_fire_end_shift"
+    },
+    {
+      "rule_id": "fire_electrical_defect",
+      "title": "Эксплуатация явно неисправного электрооборудования",
+      "procedure_id": "topic_fire_electrical_defect",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 2,
+      "catalog_references": [
+        "V2200026867:86",
+        "V2200026867:95"
+      ],
+      "procedure_references": [
+        "V2200026867:86",
+        "V2200026867:95"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_fire_electrical_defect"
+    },
+    {
+      "rule_id": "evacuation_blocked",
+      "title": "Загроможденный выход или заблокированная эвакуация",
+      "procedure_id": "topic_evacuation_blocked",
+      "procedure_type": "standing_condition",
+      "step_count": 3,
+      "exception_count": 3,
+      "catalog_references": [
+        "K1500000414:184.3",
+        "V2200026867:24",
+        "V2200026867:34",
+        "V2200026867:36"
+      ],
+      "procedure_references": [
+        "K1500000414:184.3",
+        "V2200026867:24",
+        "V2200026867:34",
+        "V2200026867:36"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_evacuation_blocked"
+    },
+    {
+      "rule_id": "id_collateral",
+      "title": "Удостоверение личности принято в залог",
+      "procedure_id": "topic_id_collateral",
+      "procedure_type": "standing_condition",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "Z1300000073:23.1",
+        "Z1300000073:23.2"
+      ],
+      "procedure_references": [
+        "Z1300000073:23.1",
+        "Z1300000073:23.2"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_id_collateral"
+    },
+    {
+      "rule_id": "digital_id_exception",
+      "title": "Цифровое удостоверение вместо пластиковой карточки",
+      "procedure_id": "topic_digital_id_exception",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1900019680:19",
+        "V1900019680:31",
+        "Z1300000073:6.4"
+      ],
+      "procedure_references": [
+        "V1900019680:19",
+        "V1900019680:31",
+        "Z1300000073:6.4"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_digital_id_exception"
+    },
+    {
+      "rule_id": "ls_local_duties",
+      "title": "Трудовой распорядок, обязанности и уход на перерыв",
+      "procedure_id": "topic_ls_local_duties",
+      "procedure_type": "document_audit",
+      "step_count": 4,
+      "exception_count": 1,
+      "catalog_references": [
+        "K1500000414:22.2/1",
+        "K1500000414:23.2/6",
+        "K1500000414:63.1",
+        "K1500000414:63.2",
+        "K1500000414:81.1",
+        "K1500000414:81.2",
+        "K1500000414:81.3"
+      ],
+      "procedure_references": [
+        "K1500000414:22.2/1",
+        "K1500000414:23.2/6",
+        "K1500000414:63.1",
+        "K1500000414:63.2",
+        "K1500000414:81.1",
+        "K1500000414:81.2",
+        "K1500000414:81.3"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_ls_local_duties"
+    },
+    {
+      "rule_id": "ls_cyber_policy",
+      "title": "Обязанность соблюдать требования кибербезопасности и ознакомление с актами работодателя",
+      "procedure_id": "topic_ls_cyber_policy",
+      "procedure_type": "document_audit",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "K1500000414:22.2/3",
+        "K1500000414:23.2/25-1"
+      ],
+      "procedure_references": [
+        "K1500000414:22.2/3",
+        "K1500000414:23.2/25-1"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_ls_cyber_policy"
+    },
+    {
+      "rule_id": "ls_property_care",
+      "title": "Бережное отношение к имуществу и сообщение об угрозе его сохранности",
+      "procedure_id": "topic_ls_property_care",
+      "procedure_type": "general_obligation_review",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "K1500000414:22.2/4",
+        "K1500000414:22.2/5"
+      ],
+      "procedure_references": [
+        "K1500000414:22.2/4",
+        "K1500000414:22.2/5"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_ls_property_care"
+    },
+    {
+      "rule_id": "ls_confidentiality",
+      "title": "Неразглашение охраняемой законом тайны работником",
+      "procedure_id": "topic_ls_confidentiality",
+      "procedure_type": "general_obligation_review",
+      "step_count": 2,
+      "exception_count": 1,
+      "catalog_references": [
+        "K1500000414:22.2/6"
+      ],
+      "procedure_references": [
+        "K1500000414:22.2/6"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_ls_confidentiality"
+    },
+    {
+      "rule_id": "ls_hazard_notification",
+      "title": "Сообщение об опасной ситуации и приостановление опасной работы",
+      "procedure_id": "topic_ls_hazard_notification",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "K1500000414:181.2/2",
+        "K1500000414:182.2/15",
+        "K1500000414:23.2/13"
+      ],
+      "procedure_references": [
+        "K1500000414:181.2/2",
+        "K1500000414:182.2/15",
+        "K1500000414:23.2/13"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_ls_hazard_notification"
+    },
+    {
+      "rule_id": "ls_equipment_safety",
+      "title": "Безопасность рабочего оборудования и техническая исправность электроустановок",
+      "procedure_id": "topic_ls_equipment_safety",
+      "procedure_type": "document_and_visual_review",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "K1500000414:184.2",
+        "K1500000414:184.2-1",
+        "V1500010889:4"
+      ],
+      "procedure_references": [
+        "K1500000414:184.2",
+        "K1500000414:184.2-1",
+        "V1500010889:4"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_ls_equipment_safety"
+    },
+    {
+      "rule_id": "ls_danger_zone_access",
+      "title": "Ограничение доступа посторонних в опасную рабочую зону",
+      "procedure_id": "topic_ls_danger_zone_access",
+      "procedure_type": "premises_audit",
+      "step_count": 2,
+      "exception_count": 1,
+      "catalog_references": [
+        "K1500000414:184.4"
+      ],
+      "procedure_references": [
+        "K1500000414:184.4"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_ls_danger_zone_access"
+    },
+    {
+      "rule_id": "ls_instruction_lifecycle",
+      "title": "Разработка, утверждение и пересмотр инструкции по охране труда",
+      "procedure_id": "topic_ls_instruction_lifecycle",
+      "procedure_type": "document_audit",
+      "step_count": 4,
+      "exception_count": 2,
+      "catalog_references": [
+        "K1500000414:182.2/16",
+        "V1500012534:17",
+        "V1500012534:19",
+        "V1500012534:2",
+        "V1500012534:20",
+        "V1500012534:3",
+        "V1500012534:5"
+      ],
+      "procedure_references": [
+        "K1500000414:182.2/16",
+        "V1500012534:17",
+        "V1500012534:19",
+        "V1500012534:2",
+        "V1500012534:20",
+        "V1500012534:3",
+        "V1500012534:5"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_ls_instruction_lifecycle"
+    },
+    {
+      "rule_id": "ls_shift_shutdown",
+      "title": "Порядок отключения оборудования и передачи рабочего места после смены",
+      "procedure_id": "topic_ls_shift_shutdown",
+      "procedure_type": "operator_procedure",
+      "step_count": 4,
+      "exception_count": 1,
+      "catalog_references": [
+        "K1500000414:181.2/1",
+        "V1500012534:10/5",
+        "V1500012534:15/1",
+        "V1500012534:15/2",
+        "V1500012534:15/5"
+      ],
+      "procedure_references": [
+        "K1500000414:181.2/1",
+        "V1500012534:10/5",
+        "V1500012534:15/1",
+        "V1500012534:15/2",
+        "V1500012534:15/5"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_ls_shift_shutdown"
+    },
+    {
+      "rule_id": "ls_workplace_preparation",
+      "title": "Подготовка и безопасное содержание рабочего места",
+      "procedure_id": "topic_ls_workplace_preparation",
+      "procedure_type": "operator_procedure",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "K1500000414:181.2/1",
+        "V1500012534:12/1",
+        "V1500012534:12/2",
+        "V1500012534:12/4",
+        "V1500012534:13/4"
+      ],
+      "procedure_references": [
+        "K1500000414:181.2/1",
+        "V1500012534:12/1",
+        "V1500012534:12/2",
+        "V1500012534:12/4",
+        "V1500012534:13/4"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_ls_workplace_preparation"
+    },
+    {
+      "rule_id": "ls_training",
+      "title": "Обучение, инструктажи и документальный допуск к работе",
+      "procedure_id": "topic_ls_training",
+      "procedure_type": "document_audit",
+      "step_count": 5,
+      "exception_count": 3,
+      "catalog_references": [
+        "K1500000414:181.2/8",
+        "K1500000414:182.2/2",
+        "V1500012665:4",
+        "V1500012665:5",
+        "V1500012665:56",
+        "V1500012665:6",
+        "V1500012665:61",
+        "V1500012665:62",
+        "V1500012665:7",
+        "V1500012665:71"
+      ],
+      "procedure_references": [
+        "K1500000414:181.2/8",
+        "K1500000414:182.2/2",
+        "V1500012665:4",
+        "V1500012665:5",
+        "V1500012665:56",
+        "V1500012665:6",
+        "V1500012665:61",
+        "V1500012665:62",
+        "V1500012665:7",
+        "V1500012665:71"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_ls_training"
+    },
+    {
+      "rule_id": "ls_electrical_roles",
+      "title": "Ответственные лица и подготовленный персонал для эксплуатации электроустановок",
+      "procedure_id": "topic_ls_electrical_roles",
+      "procedure_type": "document_audit",
+      "step_count": 3,
+      "exception_count": 3,
+      "catalog_references": [
+        "V1500010949:3",
+        "V1500010949:4",
+        "V1500010949:7"
+      ],
+      "procedure_references": [
+        "V1500010949:3",
+        "V1500010949:4",
+        "V1500010949:7"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_ls_electrical_roles"
+    },
+    {
+      "rule_id": "ls_electrical_room_access",
+      "title": "Доступ, запирающие устройства и ключи помещений электроустановок",
+      "procedure_id": "topic_ls_electrical_room_access",
+      "procedure_type": "operator_procedure",
+      "step_count": 4,
+      "exception_count": 3,
+      "catalog_references": [
+        "V1500010889:19",
+        "V1500010889:20",
+        "V1500010889:26",
+        "V1500010889:27"
+      ],
+      "procedure_references": [
+        "V1500010889:19",
+        "V1500010889:20",
+        "V1500010889:26",
+        "V1500010889:27"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_ls_electrical_room_access"
+    },
+    {
+      "rule_id": "ls_electrical_documents",
+      "title": "Инструкции изготовителя и техническая документация электрооборудования",
+      "procedure_id": "topic_ls_electrical_documents",
+      "procedure_type": "document_audit",
+      "step_count": 3,
+      "exception_count": 1,
+      "catalog_references": [
+        "V1500010949:99/1",
+        "V1500010949:99/13",
+        "V1500010949:99/6",
+        "V1500012534:5"
+      ],
+      "procedure_references": [
+        "V1500010949:99/1",
+        "V1500010949:99/13",
+        "V1500010949:99/6",
+        "V1500012534:5"
+      ],
+      "missing_references": [],
+      "expansion_status": "expanded",
+      "procedure_link": "topics.md#topic_ls_electrical_documents"
+    }
+  ]
+}

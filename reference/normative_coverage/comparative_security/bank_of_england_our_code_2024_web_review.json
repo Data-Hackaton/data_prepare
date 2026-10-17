@@ -1,0 +1,16 @@
+{
+  "source_url": "https://beta.bankofengland.co.uk/-/media/boe/files/about/human-resources/our-code-2024.pdf",
+  "checked_date": "2026-10-17",
+  "method": "Read indexed PDF text through web search/open: cover, staff scope and PDF page 35 (zero-based page 34). This is not a locally downloaded PDF.",
+  "title": "Bank of England — Our Code, January 2024",
+  "source_document_pages": 60,
+  "pdf_page": 35,
+  "printed_page": 34,
+  "section": "Safety and security at the Bank’s premises",
+  "short_excerpt": "During the day when leaving your desk for any period of time, lock your computer screen and secure Bank information.",
+  "scope_ru": "Работники Банка Англии; историческая публичная редакция кодекса. Не требование ко всем банкам Великобритании и не внутренний регламент ForteBank.",
+  "download_status": "Direct download of beta.bankofengland.co.uk returned HTTP 403; standard www URL returned 404. Screenshot service returned cache miss. No local PDF or visual page verification is claimed.",
+  "current_version_note": "Public Our Code page dated January 2026 has a shorter Security conduct section and does not reproduce this sentence; continuity of the detailed internal requirement is unverified.",
+  "current_version_url": "https://www.bankofengland.co.uk/about/governance-and-funding/staff-codes-and-policies/our-code",
+  "binding_on_forte_confirmed": false
+}

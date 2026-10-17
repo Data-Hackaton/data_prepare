@@ -1,0 +1,4 @@
+# Optional dependencies for re-extracting public sources; the saved-corpus checks use only stdlib.
+lxml==6.1.1
+pypdf==6.10.0
+pypdfium2==5.14.0

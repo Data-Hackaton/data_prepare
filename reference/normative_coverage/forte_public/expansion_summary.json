@@ -1,0 +1,26 @@
+{
+  "review_date_local": "2026-10-17",
+  "timezone": "Asia/Qyzylorda",
+  "public_bank_document_files": 31,
+  "newly_downloaded_files": 26,
+  "previously_downloaded_files": 5,
+  "distinct_pdf_sha256": 31,
+  "pdf_pages_processed": 567,
+  "regulatory_document_records": 21,
+  "combined_document_and_version_records": 52,
+  "evidence_cards": 14,
+  "count_includes_editions_annexes_manuals_and_annual_reports": true,
+  "new_state_normative_acts_added_in_this_expansion": 0,
+  "short_absence_employee_specific_gap_closed": false,
+  "new_video_review_performed": false,
+  "all_pdf_image_text_transcribed": false,
+  "group_counts": {
+    "Дистанционное обслуживание": 9,
+    "Работники и управление": 4,
+    "Счета и операции": 7,
+    "Персональные данные и договоры": 4,
+    "Удостоверяющий центр": 2,
+    "Памятки по безопасности": 3,
+    "Годовые отчеты": 2
+  }
+}

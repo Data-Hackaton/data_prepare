@@ -1,0 +1,2275 @@
+{
+  "document_id": "V1900019391",
+  "short_name": "НБРК № 159 от 12.09.2019",
+  "title": "Об утверждении Инструкции по организации автомобильных инкассаторских перевозок в Республике Казахстан",
+  "purpose": "отменённая инструкция сохранена для справки",
+  "source_status": "Утративший силу",
+  "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+  "source_path": "sources/V1900019391.html",
+  "source_sha256": "5ad22dd172d19b51b34e6056e2280f5d45cfea01c9f90cefc75d551e24162b11",
+  "parsed_at_utc": "2026-10-17T09:06:24.705141+00:00",
+  "status": "parsed",
+  "coverage": {
+    "article_text_complete": true,
+    "original_nonwhitespace_characters": 13269,
+    "extracted_nonwhitespace_characters": 13269,
+    "article_closed_in_source": true,
+    "image_refs_count": 0,
+    "images_transcribed": false
+  },
+  "stats": {
+    "note": 6,
+    "paragraph": 28,
+    "numbered_paragraph": 19,
+    "subparagraph": 17,
+    "table": 8,
+    "heading": 5
+  },
+  "blocks": [
+    {
+      "block_id": "V1900019391:block-1",
+      "order": 1,
+      "kind": "note",
+      "tag": "p",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "",
+      "text": "Сноска. Утратило силу постановлением Правления Национального Банка РК от 16.03.2026 № 25 (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 25",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2600038217#z135"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z4",
+      "order": 2,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z4",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z4",
+      "heading_context": "",
+      "text": "В соответствии с подпунктом 14) части второй статьи 15 Закона Республики Казахстан \"О Национальном Банке Республики Казахстан\" Правление Национального Банка Республики Казахстан ПОСТАНОВЛЯЕТ :",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z4"
+      ],
+      "links": [
+        {
+          "text": "подпунктом 14)",
+          "url": "https://old.adilet.zan.kz/rus/docs/Z950002155_#z499"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-3",
+      "order": 3,
+      "kind": "note",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "",
+      "text": "Сноска. Преамбула - в редакции постановления Правления Национального Банка РК от 28.02.2022",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-4",
+      "order": 4,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "",
+      "text": "№ 21",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 21",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2200027072#z6"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-5",
+      "order": 5,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "",
+      "text": "(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z5",
+      "order": 6,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z5",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z5",
+      "heading_context": "",
+      "text": "1. Утвердить прилагаемую Инструкцию по организации автомобильных инкассаторских перевозок в Республике Казахстан.",
+      "point_number": "1",
+      "subpoint_number": null,
+      "anchors": [
+        "z5"
+      ],
+      "links": [
+        {
+          "text": "Инструкцию",
+          "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z6",
+      "order": 7,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z6",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z6",
+      "heading_context": "",
+      "text": "2. Признать утратившими силу:",
+      "point_number": "2",
+      "subpoint_number": null,
+      "anchors": [
+        "z6"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z7",
+      "order": 8,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z7",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z7",
+      "heading_context": "",
+      "text": "1) постановление Правления Национального Банка Республики Казахстан от 20 апреля 2001 года № 110 \"Об утверждении Инструкции по организации автомобильных инкассаторских перевозок в Республике Казахстан (зарегистрировано в Реестре государственной регистрации нормативных правовых актов под № 1549);",
+      "point_number": null,
+      "subpoint_number": "1",
+      "anchors": [
+        "z7"
+      ],
+      "links": [
+        {
+          "text": "постановление",
+          "url": "https://old.adilet.zan.kz/rus/docs/V010001549_#z0"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z8",
+      "order": 9,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z8",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z8",
+      "heading_context": "",
+      "text": "2) пункт 2 Перечня некоторых постановлений Правления Национального Банка Республики Казахстан, в которые вносятся изменения по вопросам наличного денежного обращения, утвержденного постановлением Правления Национального Банка Республики Казахстан от 29 октября 2018 года № 265 \"О внесении изменений в некоторые постановления Правления Национального Банка Республики Казахстан по вопросам наличного денежного обращения\" (зарегистрировано в Реестре государственной регистрации нормативных правовых актов под № 18173, опубликовано 23 января 2019 года в Эталонном контрольном банке нормативных правовых актов Республики Казахстан).",
+      "point_number": null,
+      "subpoint_number": "2",
+      "anchors": [
+        "z8"
+      ],
+      "links": [
+        {
+          "text": "пункт 2",
+          "url": "https://old.adilet.zan.kz/rus/docs/V1800018173#z63"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z9",
+      "order": 10,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z9",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z9",
+      "heading_context": "",
+      "text": "3. Департаменту наличного денежного обращения (Кажмуратов Ж.Т.) в установленном законодательством Республики Казахстан порядке обеспечить:",
+      "point_number": "3",
+      "subpoint_number": null,
+      "anchors": [
+        "z9"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z10",
+      "order": 11,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z10",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z10",
+      "heading_context": "",
+      "text": "1) совместно с Юридическим департаментом (Сарсенова Н.В.) государственную регистрацию настоящего постановления в Министерстве юстиции Республики Казахстан;",
+      "point_number": null,
+      "subpoint_number": "1",
+      "anchors": [
+        "z10"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z11",
+      "order": 12,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z11",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z11",
+      "heading_context": "",
+      "text": "2) в течение десяти календарных дней со дня государственной регистрации настоящего постановления его направление на казахском и русском языках в Республиканское государственное предприятие на праве хозяйственного ведения \"Институт законодательства и правовой информации Республики Казахстан\" Министерства юстиции Республики Казахстан для официального опубликования и включения в Эталонный контрольный банк нормативных правовых актов Республики Казахстан;",
+      "point_number": null,
+      "subpoint_number": "2",
+      "anchors": [
+        "z11"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z12",
+      "order": 13,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z12",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z12",
+      "heading_context": "",
+      "text": "3) размещение настоящего постановления на официальном интернет-ресурсе Национального Банка Республики Казахстан после его официального опубликования;",
+      "point_number": null,
+      "subpoint_number": "3",
+      "anchors": [
+        "z12"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z13",
+      "order": 14,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z13",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z13",
+      "heading_context": "",
+      "text": "4) в течение десяти рабочих дней после государственной регистрации настоящего постановления предоставление в Юридический департамент сведений об исполнении мероприятий, предусмотренных подпунктами 2), 3) настоящего пункта и пунктом 4 настоящего постановления.",
+      "point_number": null,
+      "subpoint_number": "4",
+      "anchors": [
+        "z13"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z14",
+      "order": 15,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z14",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z14",
+      "heading_context": "",
+      "text": "4. Департаменту внешних коммуникаций - пресс-службе Национального Банка (Адамбаева А.Р.) обеспечить в течение десяти календарных дней после государственной регистрации настоящего постановления направление его копии на официальное опубликование в периодические печатные издания.",
+      "point_number": "4",
+      "subpoint_number": null,
+      "anchors": [
+        "z14"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z15",
+      "order": 16,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z15",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z15",
+      "heading_context": "",
+      "text": "5. Контроль за исполнением настоящего постановления возложить на заместителя Председателя Национального Банка Республики Казахстан Галиеву Д.Т.",
+      "point_number": "5",
+      "subpoint_number": null,
+      "anchors": [
+        "z15"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z16",
+      "order": 17,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z16",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z16",
+      "heading_context": "",
+      "text": "6. Настоящее постановление вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования.",
+      "point_number": "6",
+      "subpoint_number": null,
+      "anchors": [
+        "z16"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-18",
+      "order": 18,
+      "kind": "table",
+      "tag": "table",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "",
+      "text": "Председатель Национального Банка Е. Досаев",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": [],
+      "rows": [
+        [
+          {
+            "text": "Председатель Национального Банка",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Е. Досаев",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          }
+        ]
+      ],
+      "html": "<table border=\"0\" width=\"600\">\n<tr>\n<td align=\"left\" width=\"400\">\n<i>      <a name=\"z17\"></a>Председатель<br>Национального Банка </i>\n</td>\n<td align=\"left\" width=\"215\">\n<i>Е. Досаев</i>\n</td>\n</tr>\n\n</table>"
+    },
+    {
+      "block_id": "V1900019391:z18",
+      "order": 19,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z18",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z18",
+      "heading_context": "",
+      "text": "\"СОГЛАСОВАНО\" Министерство внутренних дел Республики Казахстан",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z18"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-20",
+      "order": 20,
+      "kind": "table",
+      "tag": "table",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "",
+      "text": "Утверждена постановлением Правления Национального Банка Республики Казахстан от 12 сентября 2019 года № 159",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": [],
+      "rows": [
+        [
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Утверждена постановлением Правления Национального Банка Республики Казахстан от 12 сентября 2019 года № 159",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          }
+        ]
+      ],
+      "html": "<table border=\"0\">\n<tr>\n<td align=\"center\" width=\"387\"> </td>\n<td align=\"center\" width=\"228\"><a name=\"z19\"></a>Утверждена<br>постановлением Правления<br>Национального Банка<br>Республики Казахстан<br>от 12 сентября 2019 года № 159</td>\n</tr></table>"
+    },
+    {
+      "block_id": "V1900019391:z20",
+      "order": 21,
+      "kind": "heading",
+      "tag": "h3",
+      "anchor": "z20",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z20",
+      "heading_context": "Инструкция по организации автомобильных инкассаторских перевозок в Республике Казахстан",
+      "text": "Инструкция по организации автомобильных инкассаторских перевозок в Республике Казахстан",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z20"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z21",
+      "order": 22,
+      "kind": "heading",
+      "tag": "h3",
+      "anchor": "z21",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z21",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "Глава 1. Общие положения",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z21"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z22",
+      "order": 23,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z22",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z22",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "1. Настоящая Инструкция по организации автомобильных инкассаторских перевозок в Республике Казахстан (далее – Инструкция) разработана в соответствии с Законом Республики Казахстан \"О Национальном Банке Республики Казахстан\" и детализирует порядок организации автомобильных инкассаторских перевозок в Республике Казахстан (далее – автомобильные инкассаторские перевозки) банками второго уровня, филиалами банков-нерезидентов Республики Казахстан, Национальным оператором почты (далее – банки), юридическими лицами, исключительной деятельностью которых является инкассация банкнот, монет и ценностей (далее – инкассаторские организации).",
+      "point_number": "1",
+      "subpoint_number": null,
+      "anchors": [
+        "z22"
+      ],
+      "links": [
+        {
+          "text": "Законом",
+          "url": "https://old.adilet.zan.kz/rus/docs/Z950002155_#z147"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-24",
+      "order": 24,
+      "kind": "note",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "Сноска. Пункт 1 - в редакции постановления Правления Национального Банка РК от 28.02.2022",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-25",
+      "order": 25,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "№ 21",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 21",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2200027072#z9"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-26",
+      "order": 26,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z23",
+      "order": 27,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z23",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z23",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "2. В Инструкции используются следующие понятия:",
+      "point_number": "2",
+      "subpoint_number": null,
+      "anchors": [
+        "z23"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z24",
+      "order": 28,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z24",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z24",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "1) маршрут и график инкассации банкнот, монет и ценностей –установленные руководителем службы инкассации или дежурным инкассатором по согласованию с клиентом, путь следования бригады работников службы инкассации и время инкассации банкнот, монет и ценностей;",
+      "point_number": null,
+      "subpoint_number": "1",
+      "anchors": [
+        "z24"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z25",
+      "order": 29,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z25",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z25",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "2) водитель-инкассатор – работник службы инкассации, осуществляющий управление транспортным средством;",
+      "point_number": null,
+      "subpoint_number": "2",
+      "anchors": [
+        "z25"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-30",
+      "order": 30,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "3) исключен постановлением Правления Национального Банка РК от 28.02.2022",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-31",
+      "order": 31,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "№ 21",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 21",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2200027072#z12"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-32",
+      "order": 32,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования);",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z27",
+      "order": 33,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z27",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z27",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "4) путевой лист – документ, предназначенный для ведения учета и контроля работы водителя-инкассатора (водителя) и транспортного средства;",
+      "point_number": null,
+      "subpoint_number": "4",
+      "anchors": [
+        "z27"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z28",
+      "order": 34,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z28",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z28",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "5) служба инкассации – подразделение банка, филиала банка-нерезидента Республики Казахстан, инкассаторской организации, Национального Банка, осуществляющее прием, сбор, доставку, перевозку, хранение и сдачу банкнот, монет и ценностей, а также сопровождение клиента с банкнотами, монетами и ценностями;",
+      "point_number": null,
+      "subpoint_number": "5",
+      "anchors": [
+        "z28"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z29",
+      "order": 35,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z29",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z29",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "6) дежурный инкассатор – работник службы инкассации, ответственный за организацию работы транспортного средства и его выпуск на маршрут для инкассации банкнот, монет и ценностей;",
+      "point_number": null,
+      "subpoint_number": "6",
+      "anchors": [
+        "z29"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z30",
+      "order": 36,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z30",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z30",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "7) транспортные средства – специализированные транспортные средства, предназначенные для перевозки банкнот, монет и ценностей.",
+      "point_number": null,
+      "subpoint_number": "7",
+      "anchors": [
+        "z30"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-37",
+      "order": 37,
+      "kind": "note",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "Сноска. Пункт 2 с изменениями, внесенными постановлением Правления Национального Банка РК от 28.02.2022",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-38",
+      "order": 38,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "№ 21",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 21",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2200027072#z11"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-39",
+      "order": 39,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 1. Общие положения",
+      "text": "(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z31",
+      "order": 40,
+      "kind": "heading",
+      "tag": "h3",
+      "anchor": "z31",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z31",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z31"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z32",
+      "order": 41,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z32",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z32",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "3. Автомобильные инкассаторские перевозки осуществляются по заданию руководителя службы инкассации или дежурного инкассатора бригадой работников службы инкассации.",
+      "point_number": "3",
+      "subpoint_number": null,
+      "anchors": [
+        "z32"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-42",
+      "order": 42,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "Бригада работников службы инкассации обеспечивает движение транспортного средства по маршруту и графику инкассации банкнот, монет и ценностей без каких-либо отклонений. Не осуществляется провоз лиц, не связанных с выполнением задания по инкассации банкнот, монет и ценностей.",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-43",
+      "order": 43,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "Не допускается использование транспортных средств банками, инкассаторскими организациями для перевозки грузов, не являющихся банкнотами, монетами и ценностями, а также наличие или установка газового оборудования в салоне.",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-44",
+      "order": 44,
+      "kind": "note",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "Сноска. Пункт 3 - в редакции постановления Правления Национального Банка РК от 28.02.2022",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-45",
+      "order": 45,
+      "kind": "paragraph",
+      "tag": "a",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "№ 21",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 21",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2200027072#z15"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-46",
+      "order": 46,
+      "kind": "paragraph",
+      "tag": "span",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z35",
+      "order": 47,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z35",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z35",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "4. Для автомобильных инкассаторских перевозок используются транспортные средства, имеющие закрытый кузов, а также оборудованные средствами для обеспечения сохранности банкнот, монет и ценностей, и безопасности работников службы инкассации и лиц, сопровождающих (кассир, бухгалтер) банкноты, монеты и ценности (бойницами, отдельными бронированными отсеками или специальными бронированными кузовами и другими средствами защиты), радиостанциями либо иным устройством связи для обмена информацией с руководителем службы инкассации или дежурным инкассатором.",
+      "point_number": "4",
+      "subpoint_number": null,
+      "anchors": [
+        "z35"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z36",
+      "order": 48,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z36",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z36",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "При инкассации банкнот, монет и ценностей весом более 10 (десяти) тонн допускается использование транспортных средств грузоподъемностью более 10 (десяти) тонн, имеющих закрытый кузов.",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z36"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z37",
+      "order": 49,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z37",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z37",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "Допускается дополнительное оборудование транспортных средств сейфами и металлическими шкафами.",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z37"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z38",
+      "order": 50,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z38",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z38",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "При инкассации банкнот, монет и ценностей с применением специальных контейнеров, оборудованных специальными красками, используются транспортные средства, имеющие закрытый кузов. Часть салона транспортного средства, где находятся работники службы инкассации и лица, сопровождающие банкноты, монеты и ценности, оборудуется средствами для обеспечения их безопасности, а также радиостанциями либо иным устройством связи для обмена информацией с руководителем службы инкассации или дежурным инкассатором.",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z38"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z39",
+      "order": 51,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z39",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z39",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "5. Транспортные средства оборудуются специальными световыми и звуковыми сигналами и окрашиваются по специальным цветографическим схемам в соответствии с требованиями законодательства Республики Казахстан о дорожном движении.",
+      "point_number": "5",
+      "subpoint_number": null,
+      "anchors": [
+        "z39"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z40",
+      "order": 52,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z40",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z40",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "6. Выезд по маршруту и графику инкассации банкнот, монет и ценностей сроком на 1 (один) месяц осуществляется на основании путевого листа по форме согласно приложению 1 к Инструкции, который подписывается руководителем службы инкассации или дежурным инкассатором и хранится в службе инкассации.",
+      "point_number": "6",
+      "subpoint_number": null,
+      "anchors": [
+        "z40"
+      ],
+      "links": [
+        {
+          "text": "приложению 1",
+          "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z70"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z41",
+      "order": 53,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z41",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z41",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "7. Перед каждым выездом бригады работников службы инкассации по маршруту и графику инкассации банкнот, монет и ценностей руководитель службы инкассации или дежурный инкассатор:",
+      "point_number": "7",
+      "subpoint_number": null,
+      "anchors": [
+        "z41"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z42",
+      "order": 54,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z42",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z42",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "1) проверяет готовность транспортного средства к автомобильным инкассаторским перевозкам (техническую исправность, укомплектованность запасными частями, заправку горюче-смазочными материалами, работу средств связи, средств пожаротушения);",
+      "point_number": null,
+      "subpoint_number": "1",
+      "anchors": [
+        "z42"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z43",
+      "order": 55,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z43",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z43",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "2) проверяет наличие у водителя-инкассатора документов, предусмотренных подпунктом 1) пункта 1 раздела 2 Правил дорожного движения, утвержденных постановлением Правительства Республики Казахстан от 13 ноября 2014 года № 1196 (далее – Правила дорожного движения);",
+      "point_number": null,
+      "subpoint_number": "2",
+      "anchors": [
+        "z43"
+      ],
+      "links": [
+        {
+          "text": "пункта 1",
+          "url": "https://old.adilet.zan.kz/rus/docs/P1400001196#z95"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z44",
+      "order": 56,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z44",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z44",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "3) выдает путевой лист, указанный в пункте 6 Инструкции.",
+      "point_number": null,
+      "subpoint_number": "3",
+      "anchors": [
+        "z44"
+      ],
+      "links": [
+        {
+          "text": "пункте 6",
+          "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z40"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z45",
+      "order": 57,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z45",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z45",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "8. Выезд работника службы инкассации по маршруту и графику инкассации банкнот, монет и ценностей не осуществляется в следующих случаях:",
+      "point_number": "8",
+      "subpoint_number": null,
+      "anchors": [
+        "z45"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z46",
+      "order": 58,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z46",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z46",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "1) отсутствие экипировки, средств индивидуальной защиты, в том числе бронежилетов, касок (шлемов), а также служебного оружия;",
+      "point_number": null,
+      "subpoint_number": "1",
+      "anchors": [
+        "z46"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z47",
+      "order": 59,
+      "kind": "subparagraph",
+      "tag": "p",
+      "anchor": "z47",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z47",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "2) отсутствие права на управление транспортным средством у водителя-инкассатора.",
+      "point_number": null,
+      "subpoint_number": "2",
+      "anchors": [
+        "z47"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z48",
+      "order": 60,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z48",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z48",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "9. После завершения задания путевой лист сдается водителем-инкассатором руководителю службы инкассации или дежурному инкассатору.",
+      "point_number": "9",
+      "subpoint_number": null,
+      "anchors": [
+        "z48"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z49",
+      "order": 61,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z49",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z49",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "Выдача и сдача путевого листа отражается в журнале учета приема и сдачи путевого листа по форме согласно приложению 2 к Инструкции.",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z49"
+      ],
+      "links": [
+        {
+          "text": "приложению 2",
+          "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z74"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z50",
+      "order": 62,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z50",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z50",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "После окончания срока действия путевые листы подшиваются в отдельную папку и хранятся в службе инкассации не менее 1 (одного) года, после истечения которого уничтожаются.",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z50"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z51",
+      "order": 63,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z51",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z51",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "10. Допускается использование транспортных средств Национального оператора почты при совмещении операций по инкассации банкнот, монет и ценностей с перевозкой и доставкой специальных отправлений.",
+      "point_number": "10",
+      "subpoint_number": null,
+      "anchors": [
+        "z51"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z52",
+      "order": 64,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z52",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z52",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "11. Остановка транспортного средства по требованию сотрудника органов внутренних дел осуществляется в соответствии с пунктом 1 статьи 52 Закона Республики Казахстан от 17 апреля 2014 года \"О дорожном движении\".",
+      "point_number": "11",
+      "subpoint_number": null,
+      "anchors": [
+        "z52"
+      ],
+      "links": [
+        {
+          "text": "пунктом 1",
+          "url": "https://old.adilet.zan.kz/rus/docs/Z1400000194#z229"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z53",
+      "order": 65,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z53",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z53",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "В случае остановки транспортного средства по требованию сотрудников органов внутренних дел и истребования документов водитель-инкассатор транспортного средства, предъявляет путевой лист и водительское удостоверение, не выходя из транспортного средства.",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z53"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z54",
+      "order": 66,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z54",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z54",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "text": "Старший бригады работников службы инкассации незамедлительно сообщает руководителю службы инкассации или дежурному инкассатору об остановке и о месте остановки транспортного средства, а также об обнаружении неисправности в транспортном средстве, дорожно-транспортном происшествии с участием транспортного средства и иную информацию о возникновении нештатной ситуации с использованием любого доступного устройства связи.",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z54"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z55",
+      "order": 67,
+      "kind": "heading",
+      "tag": "h3",
+      "anchor": "z55",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z55",
+      "heading_context": "Глава 3. Особенности организации автомобильных инкассаторских перевозок Национальным Банком",
+      "text": "Глава 3. Особенности организации автомобильных инкассаторских перевозок Национальным Банком",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z55"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-68",
+      "order": 68,
+      "kind": "note",
+      "tag": "p",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 3. Особенности организации автомобильных инкассаторских перевозок Национальным Банком",
+      "text": "Сноска. Глава 3 исключена постановлением Правления Национального Банка РК от 28.02.2022 № 21 (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [
+        {
+          "text": "№ 21",
+          "url": "https://old.adilet.zan.kz/rus/docs/V2200027072#z19"
+        }
+      ],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z67",
+      "order": 69,
+      "kind": "heading",
+      "tag": "h3",
+      "anchor": "z67",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z67",
+      "heading_context": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "text": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z67"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z68",
+      "order": 70,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z68",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z68",
+      "heading_context": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "text": "17. Сотрудники органов внутренних дел Республики Казахстан, в случае обращения к ним работников службы инкассации, осуществляющих автомобильные инкассаторские перевозки о преступных посягательствах на работников службы инкассации и (или) перевозимые банкноты, монеты и ценности оказывают содействие по пресечению правонарушений и задержанию правонарушителей, охране места происшествия, а также информированию о происшествии ближайшее подразделение органов внутренних дел.",
+      "point_number": "17",
+      "subpoint_number": null,
+      "anchors": [
+        "z68"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z69",
+      "order": 71,
+      "kind": "numbered_paragraph",
+      "tag": "p",
+      "anchor": "z69",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z69",
+      "heading_context": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "text": "18. В случае обнаружения неисправностей в транспортном средстве, приведших к невозможности дальнейшего осуществления автомобильных инкассаторских перевозок, а также в случае дорожно-транспортных происшествий с участием транспортного средства сотрудник органов внутренних дел Республики Казахстан незамедлительно сообщает о случившемся в ближайшее подразделение органов внутренних дел и оказывает содействие бригаде работников службы инкассации в обеспечении сохранности перевозимых банкнот, монет и ценностей.",
+      "point_number": "18",
+      "subpoint_number": null,
+      "anchors": [
+        "z69"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-72",
+      "order": 72,
+      "kind": "table",
+      "tag": "table",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "text": "Приложение 1 к Инструкции по организации автомобильных инкассаторских перевозок в Республике Казахстан",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": [],
+      "rows": [
+        [
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Приложение 1 к Инструкции по организации автомобильных инкассаторских перевозок в Республике Казахстан",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          }
+        ]
+      ],
+      "html": "<table border=\"0\">\n<tr>\n<td align=\"center\" width=\"387\"> </td>\n<td align=\"center\" width=\"228\"><a name=\"z70\"></a>Приложение 1<br>к Инструкции по организации<br>автомобильных инкассаторских<br>перевозок в Республике Казахстан</td>\n</tr></table>"
+    },
+    {
+      "block_id": "V1900019391:block-73",
+      "order": 73,
+      "kind": "table",
+      "tag": "table",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "text": "Оборотная сторона",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": [],
+      "rows": [
+        [
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Оборотная сторона",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          }
+        ]
+      ],
+      "html": "<table border=\"0\">\n<tr>\n<td align=\"center\" width=\"387\"> </td>\n<td align=\"center\" width=\"228\"><a name=\"z72\"></a>Оборотная сторона</td>\n</tr></table>"
+    },
+    {
+      "block_id": "V1900019391:block-74",
+      "order": 74,
+      "kind": "table",
+      "tag": "table",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "text": "Дата (дд.мм.гггг) Водители-инкассаторы Начало смены Транспортное средство и водителя проверил, выезд разрешаю (подпись руководителя или дежурного инкассатора службы инкассации) Первая смена Вторая смена Первая смена Вторая смена Фамилия, и инициалы Фамилия и инициалы Время выезда Время выезда 1 2 3 4 5 6",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": [],
+      "rows": [
+        [
+          {
+            "text": "Дата (дд.мм.гггг)",
+            "colspan": 1,
+            "rowspan": 3,
+            "header": false
+          },
+          {
+            "text": "Водители-инкассаторы",
+            "colspan": 2,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Начало смены",
+            "colspan": 2,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Транспортное средство и водителя проверил, выезд разрешаю (подпись руководителя или дежурного инкассатора службы инкассации)",
+            "colspan": 1,
+            "rowspan": 3,
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "Первая смена",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Вторая смена",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Первая смена",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Вторая смена",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "Фамилия, и инициалы",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Фамилия и инициалы",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Время выезда",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Время выезда",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "1",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "2",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "3",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "4",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "5",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "6",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          }
+        ]
+      ],
+      "html": "<table width=\"615\"><tr><td rowspan=\"3\"><p>\nДата (дд.мм.гггг)</p>\n</td><td colspan=\"2\"><p>\nВодители-инкассаторы</p>\n</td><td colspan=\"2\"><p>\nНачало смены</p>\n</td><td rowspan=\"3\"><p>\nТранспортное средство и водителя проверил, выезд разрешаю (подпись руководителя или дежурного инкассатора службы инкассации)</p>\n</td></tr><tr><td><p>\nПервая смена</p>\n</td><td><p>\nВторая смена</p>\n</td><td><p>\nПервая смена</p>\n</td><td><p>\nВторая смена</p>\n</td></tr><tr><td><p>\nФамилия, и инициалы</p>\n</td><td><p>\nФамилия и инициалы</p>\n</td><td><p>\nВремя выезда</p>\n</td><td><p>\nВремя выезда</p>\n</td></tr><tr><td><p>\n1</p>\n</td><td><p>\n2</p>\n</td><td><p>\n3</p>\n</td><td><p>\n4</p>\n</td><td><p>\n5</p>\n</td><td><p>\n6</p>\n</td></tr><tr><td><br>\n</td><td><br>\n</td><td><br>\n</td><td><br>\n</td><td><br>\n</td><td><br>\n</td></tr></table>"
+    },
+    {
+      "block_id": "V1900019391:z73",
+      "order": 75,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z73",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z73",
+      "heading_context": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "text": "продолжение таблицы",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z73"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-76",
+      "order": 76,
+      "kind": "table",
+      "tag": "table",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "text": "№ маршрута Окончание смены (фактическое) Пробег после окончания смены (в километрах) Первая смена Вторая смена Первая смена Вторая смена Первая смена Вторая смена Время заезда Время заезда Пробег за смену (в километрах) Итого пробег (в километрах) Пробег за смену (в километрах) Итого пробег (в километрах) 7 8 9 10 11 12 13 14",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": [],
+      "rows": [
+        [
+          {
+            "text": "№ маршрута",
+            "colspan": 2,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Окончание смены (фактическое)",
+            "colspan": 2,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Пробег после окончания смены (в километрах)",
+            "colspan": 4,
+            "rowspan": 1,
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "Первая смена",
+            "colspan": 1,
+            "rowspan": 2,
+            "header": false
+          },
+          {
+            "text": "Вторая смена",
+            "colspan": 1,
+            "rowspan": 2,
+            "header": false
+          },
+          {
+            "text": "Первая смена",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Вторая смена",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Первая смена",
+            "colspan": 2,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Вторая смена",
+            "colspan": 2,
+            "rowspan": 1,
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "Время заезда",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Время заезда",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Пробег за смену (в километрах)",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Итого пробег (в километрах)",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Пробег за смену (в километрах)",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Итого пробег (в километрах)",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "7",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "8",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "9",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "10",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "11",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "12",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "13",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "14",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          }
+        ]
+      ],
+      "html": "<table width=\"615\"><tr><td colspan=\"2\"><p>\n№ маршрута</p>\n</td><td colspan=\"2\"><p>\nОкончание смены (фактическое)</p>\n</td><td colspan=\"4\"><p>\nПробег после окончания смены (в километрах)</p>\n</td></tr><tr><td rowspan=\"2\"><p>\nПервая смена</p>\n</td><td rowspan=\"2\"><p>\nВторая смена</p>\n</td><td><p>\nПервая смена</p>\n</td><td><p>\nВторая смена</p>\n</td><td colspan=\"2\"><p>\nПервая смена</p>\n</td><td colspan=\"2\"><p>\nВторая смена</p>\n</td></tr><tr><td><p>\nВремя заезда</p>\n</td><td><p>\nВремя заезда</p>\n</td><td><p>\nПробег за смену (в километрах)</p>\n</td><td><p>\nИтого пробег (в километрах)</p>\n</td><td><p>\nПробег за смену (в километрах)</p>\n</td><td><p>\nИтого пробег (в километрах)</p>\n</td></tr><tr><td><p>\n7</p>\n</td><td><p>\n8</p>\n</td><td><p>\n9</p>\n</td><td><p>\n10</p>\n</td><td><p>\n11</p>\n</td><td><p>\n12</p>\n</td><td><p>\n13</p>\n</td><td><p>\n14</p>\n</td></tr><tr><td><br>\n</td><td><br>\n</td><td><br>\n</td><td><br>\n</td><td><br>\n</td><td><br>\n</td><td><br>\n</td><td><br>\n</td></tr></table>"
+    },
+    {
+      "block_id": "V1900019391:block-77",
+      "order": 77,
+      "kind": "table",
+      "tag": "table",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "text": "Приложение 2 к Инструкции по организации автомобильных инкассаторских перевозок в Республике Казахстан",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": [],
+      "rows": [
+        [
+          {
+            "text": "",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Приложение 2 к Инструкции по организации автомобильных инкассаторских перевозок в Республике Казахстан",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          }
+        ]
+      ],
+      "html": "<table border=\"0\">\n<tr>\n<td align=\"center\" width=\"387\"> </td>\n<td align=\"center\" width=\"228\"><a name=\"z74\"></a>Приложение 2<br>к Инструкции по организации<br>автомобильных инкассаторских перевозок<br>в Республике Казахстан</td>\n</tr></table>"
+    },
+    {
+      "block_id": "V1900019391:z75",
+      "order": 78,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z75",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z75",
+      "heading_context": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "text": "Журнал учета приема и сдачи путевого листа ________________________________________________________________________ (наименование филиала банка, инкассаторской организации) ________________________________________________________________________ (наименование службы инкассации)",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z75"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z76",
+      "order": 79,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z76",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z76",
+      "heading_context": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "text": "Начат _________________________ Окончен ______________________",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z76"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z77",
+      "order": 80,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z77",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z77",
+      "heading_context": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "text": "___________________________________________________________________ (наименование филиала банка, инкассаторской организации)",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z77"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:block-81",
+      "order": 81,
+      "kind": "table",
+      "tag": "table",
+      "anchor": null,
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391",
+      "heading_context": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "text": "№ Дата приема путевого листа (дд.мм.гггг) Должность, фамилия и инициалы лица, получившего путевой лист Подпись лица, получившего путевой лист Дата сдачи путевого листа (дд.мм.гггг) Должность, фамилия и инициалы, лица сдавшего путевой лист Подпись лица, сдавшего путевой лист Отметка о возникновении нештатной ситуации 1 2 3 4 5 6 7 8",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [],
+      "links": [],
+      "images": [],
+      "rows": [
+        [
+          {
+            "text": "№",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Дата приема путевого листа (дд.мм.гггг)",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Должность, фамилия и инициалы лица, получившего путевой лист",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Подпись лица, получившего путевой лист",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Дата сдачи путевого листа (дд.мм.гггг)",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Должность, фамилия и инициалы, лица сдавшего путевой лист",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Подпись лица, сдавшего путевой лист",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "Отметка о возникновении нештатной ситуации",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          }
+        ],
+        [
+          {
+            "text": "1",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "2",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "3",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "4",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "5",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "6",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "7",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          },
+          {
+            "text": "8",
+            "colspan": 1,
+            "rowspan": 1,
+            "header": false
+          }
+        ]
+      ],
+      "html": "<table width=\"615\"><tr><td><p>\n№</p>\n</td><td><p>\nДата приема путевого листа (дд.мм.гггг)</p>\n</td><td><p>\nДолжность, фамилия и инициалы лица, получившего путевой лист</p>\n</td><td><p>\nПодпись лица, получившего путевой лист</p>\n</td><td><p>\nДата сдачи путевого листа (дд.мм.гггг)</p>\n</td><td><p>\nДолжность, фамилия и инициалы, лица сдавшего путевой лист</p>\n</td><td><p>\nПодпись лица, сдавшего путевой лист</p>\n</td><td><p>\nОтметка о возникновении нештатной ситуации</p>\n</td></tr><tr><td><p>\n1</p>\n</td><td><p>\n2</p>\n</td><td><p>\n3</p>\n</td><td><p>\n4</p>\n</td><td><p>\n5</p>\n</td><td><p>\n6</p>\n</td><td><p>\n7</p>\n</td><td><p>\n8</p>\n</td></tr></table>"
+    },
+    {
+      "block_id": "V1900019391:z78",
+      "order": 82,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z78",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z78",
+      "heading_context": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "text": "Заверительная надпись В настоящем журнале прошнуровано, пронумеровано _____________________________________________________________ листов (прописью)",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z78"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "block_id": "V1900019391:z79",
+      "order": 83,
+      "kind": "paragraph",
+      "tag": "p",
+      "anchor": "z79",
+      "source_url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z79",
+      "heading_context": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "text": "Руководитель филиала банка, инкассаторской организации ______________________________________ ________________ (фамилия, имя, отчество (подпись) (при его наличии) Руководитель службы инкассации ______________________________________________ ________________ (фамилия, имя, отчество (подпись) (при его наличии)",
+      "point_number": null,
+      "subpoint_number": null,
+      "anchors": [
+        "z79"
+      ],
+      "links": [],
+      "images": []
+    }
+  ],
+  "headings": [
+    {
+      "title": "Инструкция по организации автомобильных инкассаторских перевозок в Республике Казахстан",
+      "anchor": "z20",
+      "block_index": 20
+    },
+    {
+      "title": "Глава 1. Общие положения",
+      "anchor": "z21",
+      "block_index": 21
+    },
+    {
+      "title": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "anchor": "z31",
+      "block_index": 39
+    },
+    {
+      "title": "Глава 3. Особенности организации автомобильных инкассаторских перевозок Национальным Банком",
+      "anchor": "z55",
+      "block_index": 66
+    },
+    {
+      "title": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "anchor": "z67",
+      "block_index": 68
+    }
+  ],
+  "numbered_fragments": [
+    {
+      "id": "V1900019391:z5",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "1",
+      "heading_context": "",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z5",
+      "start_block": 6,
+      "end_block": 6,
+      "text": "1. Утвердить прилагаемую Инструкцию по организации автомобильных инкассаторских перевозок в Республике Казахстан.",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z6",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "2",
+      "heading_context": "",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z6",
+      "start_block": 7,
+      "end_block": 9,
+      "text": "2. Признать утратившими силу:\n1) постановление Правления Национального Банка Республики Казахстан от 20 апреля 2001 года № 110 \"Об утверждении Инструкции по организации автомобильных инкассаторских перевозок в Республике Казахстан (зарегистрировано в Реестре государственной регистрации нормативных правовых актов под № 1549);\n2) пункт 2 Перечня некоторых постановлений Правления Национального Банка Республики Казахстан, в которые вносятся изменения по вопросам наличного денежного обращения, утвержденного постановлением Правления Национального Банка Республики Казахстан от 29 октября 2018 года № 265 \"О внесении изменений в некоторые постановления Правления Национального Банка Республики Казахстан по вопросам наличного денежного обращения\" (зарегистрировано в Реестре государственной регистрации нормативных правовых актов под № 18173, опубликовано 23 января 2019 года в Эталонном контрольном банке нормативных правовых актов Республики Казахстан).",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z9",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "3",
+      "heading_context": "",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z9",
+      "start_block": 10,
+      "end_block": 14,
+      "text": "3. Департаменту наличного денежного обращения (Кажмуратов Ж.Т.) в установленном законодательством Республики Казахстан порядке обеспечить:\n1) совместно с Юридическим департаментом (Сарсенова Н.В.) государственную регистрацию настоящего постановления в Министерстве юстиции Республики Казахстан;\n2) в течение десяти календарных дней со дня государственной регистрации настоящего постановления его направление на казахском и русском языках в Республиканское государственное предприятие на праве хозяйственного ведения \"Институт законодательства и правовой информации Республики Казахстан\" Министерства юстиции Республики Казахстан для официального опубликования и включения в Эталонный контрольный банк нормативных правовых актов Республики Казахстан;\n3) размещение настоящего постановления на официальном интернет-ресурсе Национального Банка Республики Казахстан после его официального опубликования;\n4) в течение десяти рабочих дней после государственной регистрации настоящего постановления предоставление в Юридический департамент сведений об исполнении мероприятий, предусмотренных подпунктами 2), 3) настоящего пункта и пунктом 4 настоящего постановления.",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z14",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "4",
+      "heading_context": "",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z14",
+      "start_block": 15,
+      "end_block": 15,
+      "text": "4. Департаменту внешних коммуникаций - пресс-службе Национального Банка (Адамбаева А.Р.) обеспечить в течение десяти календарных дней после государственной регистрации настоящего постановления направление его копии на официальное опубликование в периодические печатные издания.",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z15",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "5",
+      "heading_context": "",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z15",
+      "start_block": 16,
+      "end_block": 16,
+      "text": "5. Контроль за исполнением настоящего постановления возложить на заместителя Председателя Национального Банка Республики Казахстан Галиеву Д.Т.",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z16",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "6",
+      "heading_context": "",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z16",
+      "start_block": 17,
+      "end_block": 19,
+      "text": "6. Настоящее постановление вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования.\nПредседатель Национального Банка Е. Досаев\n\"СОГЛАСОВАНО\" Министерство внутренних дел Республики Казахстан",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z22",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "1",
+      "heading_context": "Глава 1. Общие положения",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z22",
+      "start_block": 23,
+      "end_block": 26,
+      "text": "1. Настоящая Инструкция по организации автомобильных инкассаторских перевозок в Республике Казахстан (далее – Инструкция) разработана в соответствии с Законом Республики Казахстан \"О Национальном Банке Республики Казахстан\" и детализирует порядок организации автомобильных инкассаторских перевозок в Республике Казахстан (далее – автомобильные инкассаторские перевозки) банками второго уровня, филиалами банков-нерезидентов Республики Казахстан, Национальным оператором почты (далее – банки), юридическими лицами, исключительной деятельностью которых является инкассация банкнот, монет и ценностей (далее – инкассаторские организации).\nСноска. Пункт 1 - в редакции постановления Правления Национального Банка РК от 28.02.2022\n№ 21\n(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z23",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "2",
+      "heading_context": "Глава 1. Общие положения",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z23",
+      "start_block": 27,
+      "end_block": 39,
+      "text": "2. В Инструкции используются следующие понятия:\n1) маршрут и график инкассации банкнот, монет и ценностей –установленные руководителем службы инкассации или дежурным инкассатором по согласованию с клиентом, путь следования бригады работников службы инкассации и время инкассации банкнот, монет и ценностей;\n2) водитель-инкассатор – работник службы инкассации, осуществляющий управление транспортным средством;\n3) исключен постановлением Правления Национального Банка РК от 28.02.2022\n№ 21\n(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования);\n4) путевой лист – документ, предназначенный для ведения учета и контроля работы водителя-инкассатора (водителя) и транспортного средства;\n5) служба инкассации – подразделение банка, филиала банка-нерезидента Республики Казахстан, инкассаторской организации, Национального Банка, осуществляющее прием, сбор, доставку, перевозку, хранение и сдачу банкнот, монет и ценностей, а также сопровождение клиента с банкнотами, монетами и ценностями;\n6) дежурный инкассатор – работник службы инкассации, ответственный за организацию работы транспортного средства и его выпуск на маршрут для инкассации банкнот, монет и ценностей;\n7) транспортные средства – специализированные транспортные средства, предназначенные для перевозки банкнот, монет и ценностей.\nСноска. Пункт 2 с изменениями, внесенными постановлением Правления Национального Банка РК от 28.02.2022\n№ 21\n(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z32",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "3",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z32",
+      "start_block": 41,
+      "end_block": 46,
+      "text": "3. Автомобильные инкассаторские перевозки осуществляются по заданию руководителя службы инкассации или дежурного инкассатора бригадой работников службы инкассации.\nБригада работников службы инкассации обеспечивает движение транспортного средства по маршруту и графику инкассации банкнот, монет и ценностей без каких-либо отклонений. Не осуществляется провоз лиц, не связанных с выполнением задания по инкассации банкнот, монет и ценностей.\nНе допускается использование транспортных средств банками, инкассаторскими организациями для перевозки грузов, не являющихся банкнотами, монетами и ценностями, а также наличие или установка газового оборудования в салоне.\nСноска. Пункт 3 - в редакции постановления Правления Национального Банка РК от 28.02.2022\n№ 21\n(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z35",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "4",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z35",
+      "start_block": 47,
+      "end_block": 50,
+      "text": "4. Для автомобильных инкассаторских перевозок используются транспортные средства, имеющие закрытый кузов, а также оборудованные средствами для обеспечения сохранности банкнот, монет и ценностей, и безопасности работников службы инкассации и лиц, сопровождающих (кассир, бухгалтер) банкноты, монеты и ценности (бойницами, отдельными бронированными отсеками или специальными бронированными кузовами и другими средствами защиты), радиостанциями либо иным устройством связи для обмена информацией с руководителем службы инкассации или дежурным инкассатором.\nПри инкассации банкнот, монет и ценностей весом более 10 (десяти) тонн допускается использование транспортных средств грузоподъемностью более 10 (десяти) тонн, имеющих закрытый кузов.\nДопускается дополнительное оборудование транспортных средств сейфами и металлическими шкафами.\nПри инкассации банкнот, монет и ценностей с применением специальных контейнеров, оборудованных специальными красками, используются транспортные средства, имеющие закрытый кузов. Часть салона транспортного средства, где находятся работники службы инкассации и лица, сопровождающие банкноты, монеты и ценности, оборудуется средствами для обеспечения их безопасности, а также радиостанциями либо иным устройством связи для обмена информацией с руководителем службы инкассации или дежурным инкассатором.",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z39",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "5",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z39",
+      "start_block": 51,
+      "end_block": 51,
+      "text": "5. Транспортные средства оборудуются специальными световыми и звуковыми сигналами и окрашиваются по специальным цветографическим схемам в соответствии с требованиями законодательства Республики Казахстан о дорожном движении.",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z40",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "6",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z40",
+      "start_block": 52,
+      "end_block": 52,
+      "text": "6. Выезд по маршруту и графику инкассации банкнот, монет и ценностей сроком на 1 (один) месяц осуществляется на основании путевого листа по форме согласно приложению 1 к Инструкции, который подписывается руководителем службы инкассации или дежурным инкассатором и хранится в службе инкассации.",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z41",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "7",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z41",
+      "start_block": 53,
+      "end_block": 56,
+      "text": "7. Перед каждым выездом бригады работников службы инкассации по маршруту и графику инкассации банкнот, монет и ценностей руководитель службы инкассации или дежурный инкассатор:\n1) проверяет готовность транспортного средства к автомобильным инкассаторским перевозкам (техническую исправность, укомплектованность запасными частями, заправку горюче-смазочными материалами, работу средств связи, средств пожаротушения);\n2) проверяет наличие у водителя-инкассатора документов, предусмотренных подпунктом 1) пункта 1 раздела 2 Правил дорожного движения, утвержденных постановлением Правительства Республики Казахстан от 13 ноября 2014 года № 1196 (далее – Правила дорожного движения);\n3) выдает путевой лист, указанный в пункте 6 Инструкции.",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z45",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "8",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z45",
+      "start_block": 57,
+      "end_block": 59,
+      "text": "8. Выезд работника службы инкассации по маршруту и графику инкассации банкнот, монет и ценностей не осуществляется в следующих случаях:\n1) отсутствие экипировки, средств индивидуальной защиты, в том числе бронежилетов, касок (шлемов), а также служебного оружия;\n2) отсутствие права на управление транспортным средством у водителя-инкассатора.",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z48",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "9",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z48",
+      "start_block": 60,
+      "end_block": 62,
+      "text": "9. После завершения задания путевой лист сдается водителем-инкассатором руководителю службы инкассации или дежурному инкассатору.\nВыдача и сдача путевого листа отражается в журнале учета приема и сдачи путевого листа по форме согласно приложению 2 к Инструкции.\nПосле окончания срока действия путевые листы подшиваются в отдельную папку и хранятся в службе инкассации не менее 1 (одного) года, после истечения которого уничтожаются.",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z51",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "10",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z51",
+      "start_block": 63,
+      "end_block": 63,
+      "text": "10. Допускается использование транспортных средств Национального оператора почты при совмещении операций по инкассации банкнот, монет и ценностей с перевозкой и доставкой специальных отправлений.",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z52",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "11",
+      "heading_context": "Глава 2. Осуществление автомобильных инкассаторских перевозок банками, инкассаторскими организациями",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z52",
+      "start_block": 64,
+      "end_block": 66,
+      "text": "11. Остановка транспортного средства по требованию сотрудника органов внутренних дел осуществляется в соответствии с пунктом 1 статьи 52 Закона Республики Казахстан от 17 апреля 2014 года \"О дорожном движении\".\nВ случае остановки транспортного средства по требованию сотрудников органов внутренних дел и истребования документов водитель-инкассатор транспортного средства, предъявляет путевой лист и водительское удостоверение, не выходя из транспортного средства.\nСтарший бригады работников службы инкассации незамедлительно сообщает руководителю службы инкассации или дежурному инкассатору об остановке и о месте остановки транспортного средства, а также об обнаружении неисправности в транспортном средстве, дорожно-транспортном происшествии с участием транспортного средства и иную информацию о возникновении нештатной ситуации с использованием любого доступного устройства связи.",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z68",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "17",
+      "heading_context": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z68",
+      "start_block": 70,
+      "end_block": 70,
+      "text": "17. Сотрудники органов внутренних дел Республики Казахстан, в случае обращения к ним работников службы инкассации, осуществляющих автомобильные инкассаторские перевозки о преступных посягательствах на работников службы инкассации и (или) перевозимые банкноты, монеты и ценности оказывают содействие по пресечению правонарушений и задержанию правонарушителей, охране места происшествия, а также информированию о происшествии ближайшее подразделение органов внутренних дел.",
+      "source_status": "Утративший силу"
+    },
+    {
+      "id": "V1900019391:z69",
+      "document_id": "V1900019391",
+      "document": "НБРК № 159 от 12.09.2019",
+      "point": "18",
+      "heading_context": "Глава 4. Взаимодействие с сотрудниками органов внутренних дел при автомобильных инкассаторских перевозках",
+      "url": "https://old.adilet.zan.kz/rus/docs/V1900019391#z69",
+      "start_block": 71,
+      "end_block": 71,
+      "text": "18. В случае обнаружения неисправностей в транспортном средстве, приведших к невозможности дальнейшего осуществления автомобильных инкассаторских перевозок, а также в случае дорожно-транспортных происшествий с участием транспортного средства сотрудник органов внутренних дел Республики Казахстан незамедлительно сообщает о случившемся в ближайшее подразделение органов внутренних дел и оказывает содействие бригаде работников службы инкассации в обеспечении сохранности перевозимых банкнот, монет и ценностей.",
+      "source_status": "Утративший силу"
+    }
+  ],
+  "image_refs": [],
+  "interpretation_note": "Нумерованные фрагменты включают постановление, основной текст, цитируемые поправки и приложения. Одинаковые номера в разных частях не являются одной нормой. Правовая применимость не устанавливается парсером."
+}

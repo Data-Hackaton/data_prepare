@@ -1,0 +1,47 @@
+{
+  "workflow_count": 8,
+  "step_count": 42,
+  "schema_version": "2.0",
+  "topic_procedure_count": 80,
+  "topic_step_count": 241,
+  "topic_exception_count": 116,
+  "topic_exception_count_scope": "exceptions_alternatives_applicability_branches_and_evidence_limits",
+  "topic_condition_kinds": {
+    "express_normative_exception": 25,
+    "permitted_alternative": 22,
+    "applicability_limit": 37,
+    "evidence_limit": 28,
+    "conditional_branch": 4
+  },
+  "topic_coverage_scope": "all_80_catalog_topics_expanded_not_all_violations_proven",
+  "missing_topic_ids": [],
+  "unknown_topic_ids": [],
+  "topic_procedure_types": {
+    "standing_condition": 9,
+    "operator_procedure": 51,
+    "document_and_visual_review": 3,
+    "premises_audit": 4,
+    "system_control_audit": 4,
+    "unresolved_requirement_check": 1,
+    "document_audit": 6,
+    "general_obligation_review": 2
+  },
+  "distinct_references": 187,
+  "official_source_count": 16,
+  "step_observability": {
+    "context_required": 12,
+    "partly_observable": 19,
+    "not_visually_verifiable": 11
+  },
+  "topic_step_observability": {
+    "partly_observable": 85,
+    "context_required": 71,
+    "not_visually_verifiable": 85
+  },
+  "new_video_labels_created": false,
+  "model_trained": false,
+  "bank_approved_internal_regulation": false,
+  "all_80_rule_topics_covered": true,
+  "universal_legal_coverage_claimed": false,
+  "short_absence_immediate_lock_gap_closed": false
+}

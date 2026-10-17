@@ -1,0 +1,18 @@
+{
+  "checked_date": "2026-10-17",
+  "method": "Assistant inspection of rendered page images",
+  "pages_reviewed": {
+    "fdic_cybersecurity_privacy_training": [
+      25,
+      26
+    ],
+    "nist_sp800_53r5_2020": [
+      69
+    ],
+    "enisa_ncsa_transatlantic_checklist_2020": [
+      2
+    ]
+  },
+  "confirmed": "The displayed rule, qualification and page numbering match the research cards.",
+  "bank_of_england_2024_visual_review": false
+}

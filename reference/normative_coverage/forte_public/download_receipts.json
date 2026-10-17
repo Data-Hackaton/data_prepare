@@ -1,0 +1,261 @@
+{
+  "forte_online_procedure_2025": {
+    "retrieved_at_utc": "2026-10-17T09:41:21.364355+00:00",
+    "origin": "previously_saved_file",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Proczedura_EBU_11_2025_final_docx_2e559bb913.pdf"
+  },
+  "forte_ethics_2024": {
+    "retrieved_at_utc": "2026-10-17T09:41:24.330491+00:00",
+    "origin": "previously_saved_file",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Kodeks_korp_etiki_izvlechenie_na_razmeshhenie_148494258d_8850aeb114.pdf"
+  },
+  "forte_general_operations_2026": {
+    "retrieved_at_utc": "2026-10-17T09:41:28.237334+00:00",
+    "origin": "previously_saved_file",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Pravila_ob_obshhih_usloviyah_bankovskih_i_inyh_operaczijs_Izm_SD_36_z_ot160926_dc368384cd.pdf"
+  },
+  "forte_remote_terms": {
+    "retrieved_at_utc": "2026-10-17T09:41:33.036911+00:00",
+    "origin": "previously_saved_file",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Obshhie_usloviya_distanczionnogo_obsluzhivaniya_IBMIB_b2d3e86193.pdf"
+  },
+  "forte_ebu_rules": {
+    "retrieved_at_utc": "2026-10-17T09:41:38.315853+00:00",
+    "origin": "previously_saved_file",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Pravila_preostavleniya_EBU_dlya_Yu_L_i_IP_v_sisteme_IB_i_MIB_Utv_UL_13d9f445d4.pdf"
+  },
+  "forte_business_manual": {
+    "retrieved_at_utc": "2026-10-17T10:07:59.823616+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Rukovodstvo_polzovatelya_Sistemy_Forte_Business_27e882066b_ee0cfa0a37.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Rukovodstvo_polzovatelya_Sistemy_Forte_Business_27e882066b_ee0cfa0a37.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 6910789,
+    "sha256": "5838e0fd87729824820ae45a27554ddd54f0e4a9188d89e577ed8455cf489152"
+  },
+  "forte_insider_access": {
+    "retrieved_at_utc": "2026-10-17T10:08:01.505701+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Pravila_vnutr_kontrolya_dostupa_k_insajderskoj_informaczii_bd0846cdb3_b87c94b2a5.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Pravila_vnutr_kontrolya_dostupa_k_insajderskoj_informaczii_bd0846cdb3_b87c94b2a5.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 376398,
+    "sha256": "96544a249cabcce807b0b5c5254580d627724bef3226a45416f9428e1b40cd33"
+  },
+  "forte_governance_2025": {
+    "retrieved_at_utc": "2026-10-17T10:08:03.300226+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Kodeks_korporativnogo_upravleniya_2025_504cb5b4fd_52c3393f7b.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Kodeks_korporativnogo_upravleniya_2025_504cb5b4fd_52c3393f7b.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 380611,
+    "sha256": "3d4649cf49c394cae70d3df577e92441ed83b4cf7d7858586c16a0d425ba87f4"
+  },
+  "forte_personal_data_inventory": {
+    "retrieved_at_utc": "2026-10-17T10:08:03.890414+00:00",
+    "url": "https://main.storage-object.pscloud.io/Perechen_personalnyh_dannyh_380f64c7dd.pdf",
+    "final_url": "https://main.storage-object.pscloud.io/Perechen_personalnyh_dannyh_380f64c7dd.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 142443,
+    "sha256": "1561fa6bd794ea763125ff6ac5b745eb49a6f2c0aff09bde8841294418435616"
+  },
+  "forte_payment_acceptance_contract": {
+    "retrieved_at_utc": "2026-10-17T10:08:05.013461+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Dogovor_ob_okazanii_uslug_po_priemu_i_perevodu_platezhej_8c1b8b50b3_44d1612673.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Dogovor_ob_okazanii_uslug_po_priemu_i_perevodu_platezhej_8c1b8b50b3_44d1612673.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 209434,
+    "sha256": "b516007f67fa8f40a92d69d8f040cf351f3eb0a89eef53cff0cff2283b9c76a2"
+  },
+  "forte_personal_data_consent_2026": {
+    "retrieved_at_utc": "2026-10-17T10:08:06.177179+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Soglasie_na_sbor_i_obrabotku_personalnyh_dannyh_rus_yaz_s_14_07_26_1_4050d1b0b8.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Soglasie_na_sbor_i_obrabotku_personalnyh_dannyh_rus_yaz_s_14_07_26_1_4050d1b0b8.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 184977,
+    "sha256": "219593d6f12849605e3c8e3762d6e77346caef859534d04e4688f7e0e72733c8"
+  },
+  "forte_web_user_agreement": {
+    "retrieved_at_utc": "2026-10-17T10:08:07.291728+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Polzovatelskoe_soglashenie_dlya_internet_resursa_Banka_91d4f79834_5e9953e863.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Polzovatelskoe_soglashenie_dlya_internet_resursa_Banka_91d4f79834_5e9953e863.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 292699,
+    "sha256": "b545113641474a211baa1388e78096f7df591286754ef5ffed1c3ef14ee5e916"
+  },
+  "forte_anticorruption": {
+    "retrieved_at_utc": "2026-10-17T10:08:08.508695+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Politika_po_protivodejstviyu_korrupczii_e1979499eb_5e37296c21.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Politika_po_protivodejstviyu_korrupczii_e1979499eb_5e37296c21.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 375569,
+    "sha256": "f6d79a92730856e4e8bd8963d00ce264e9696978aa8cb71c7996d4886d929287"
+  },
+  "forte_business_accounts_2026": {
+    "retrieved_at_utc": "2026-10-17T10:08:10.303221+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Obshhie_usloviya_po_schetam_240726_Final_Utv_sajt_1_819c71eebf.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Obshhie_usloviya_po_schetam_240726_Final_Utv_sajt_1_819c71eebf.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 403224,
+    "sha256": "53a8f6af5e5b4531f27ec2b1c4fa23cdf6b490844de0fb65bb2c481142d64824"
+  },
+  "forte_account_docs_legal": {
+    "retrieved_at_utc": "2026-10-17T10:08:11.502114+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Perechen_dokumentov_dlya_otkrytiya_bankovskogo_scheta_Yu_L_rezident_nerezident_fil_predstavit_f097657ce6_0859911648.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Perechen_dokumentov_dlya_otkrytiya_bankovskogo_scheta_Yu_L_rezident_nerezident_fil_predstavit_f097657ce6_0859911648.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 228510,
+    "sha256": "0ca55ab29810a0e4b95eb5ff80f78a3a7a0428838386849b0d6cf56d7af22993"
+  },
+  "forte_account_docs_llp": {
+    "retrieved_at_utc": "2026-10-17T10:08:12.694482+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Perechen_dokumentov_dlya_otkrytiya_bankovskogo_scheta_TOO_Edinstvennj_uchastnik_7ab796b89b_875f2fbbc8.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Perechen_dokumentov_dlya_otkrytiya_bankovskogo_scheta_TOO_Edinstvennj_uchastnik_7ab796b89b_875f2fbbc8.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 210644,
+    "sha256": "08452cb4601a219c73aa4485ced629f67e9383f704715772cfa5b269e45cacc0"
+  },
+  "forte_account_docs_entrepreneur": {
+    "retrieved_at_utc": "2026-10-17T10:08:14.192910+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Perechen_dokumentov_dlya_otkrytiya_bankovskogo_scheta_IP_KH_FH_Ch_P_c649515711_d088d59c52.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Perechen_dokumentov_dlya_otkrytiya_bankovskogo_scheta_IP_KH_FH_Ch_P_c649515711_d088d59c52.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 183815,
+    "sha256": "bdd8f1bc76185e0eea1927c4a0ce4c239749df86c0c4c9045595bd292dbfaf65"
+  },
+  "forte_business_card_contract": {
+    "retrieved_at_utc": "2026-10-17T10:08:16.701907+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Dogovor_o_vydache_i_obsluzhivanii_korporativnyh_platezhnyh_kartochek_dejstvuyut_c_07_12_2024_fc4ca726a5_473b276040.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Dogovor_o_vydache_i_obsluzhivanii_korporativnyh_platezhnyh_kartochek_dejstvuyut_c_07_12_2024_fc4ca726a5_473b276040.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 353109,
+    "sha256": "c4167ae9f3c1ed3a6c6f469115ac94b62f82fa61eed8cd813d1a8a4a71ce9632"
+  },
+  "forte_registration_rules": {
+    "retrieved_at_utc": "2026-10-17T10:08:18.985609+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Pravila_registraczii_84c36c26ef_a1ecf5eedc.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Pravila_registraczii_84c36c26ef_a1ecf5eedc.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 390699,
+    "sha256": "63863e46a3f3269cdfc7ebaa2447810d25a294c1cfadd3b92fc1cd8805a3e174"
+  },
+  "forte_business_registration_rules": {
+    "retrieved_at_utc": "2026-10-17T10:08:23.733322+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Pravila_registraczii_dlya_Forte_Business_be07f56f42_585e251691.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Pravila_registraczii_dlya_Forte_Business_be07f56f42_585e251691.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 1062864,
+    "sha256": "06ea9a8f67841420399da816ff56a860f24bea3ca31faadf632af62c24133f1b"
+  },
+  "forte_otp_manual": {
+    "retrieved_at_utc": "2026-10-17T10:08:26.265579+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Forte_OTP_v3_2_3_user_guide_v2_0_8c92c86c34.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Forte_OTP_v3_2_3_user_guide_v2_0_8c92c86c34.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 964315,
+    "sha256": "4b9fe9f3f8cba98fecd065cf15b76a5cf40a2ba047840e4c4f3c6b6de6db2a99"
+  },
+  "forte_ca_regulation": {
+    "retrieved_at_utc": "2026-10-17T10:08:27.315838+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Reglament_deyatelnosti_Udostoveryayushhego_czentra_Banka_f104551fb6_35f92b17c6.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Reglament_deyatelnosti_Udostoveryayushhego_czentra_Banka_f104551fb6_35f92b17c6.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 197924,
+    "sha256": "53dc17b686965b487ac3ef605b8407e718f0a9031526887a364603964eeb99f5"
+  },
+  "forte_ca_certificate_policy": {
+    "retrieved_at_utc": "2026-10-17T10:08:29.358078+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Politika_primeneniya_registraczionnyh_svidetelstv_U_Cz_ba54cc6e7e_5ba7fba2c3.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Politika_primeneniya_registraczionnyh_svidetelstv_U_Cz_ba54cc6e7e_5ba7fba2c3.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 423161,
+    "sha256": "4ba41fc0166cf9494e47124ab94e66d612c438d9129298a7b133adf3e8389b69"
+  },
+  "forte_antifraud_response": {
+    "retrieved_at_utc": "2026-10-17T10:08:46.904607+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Kak_dejstvovat_pri_obnaruzhenii_moshennicheskih_operaczij_e139024b04_0a6cd6912d.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Kak_dejstvovat_pri_obnaruzhenii_moshennicheskih_operaczij_e139024b04_0a6cd6912d.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 9662974,
+    "sha256": "70d7bc5087f65ae5e21c688d8ce6d62bfc4e81f872eb10ebd8fc8f1a477e7a20"
+  },
+  "forte_online_safety": {
+    "retrieved_at_utc": "2026-10-17T10:08:57.690652+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Zashhitite_sebya_v_seti_34b570bafc_e727a7937c.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Zashhitite_sebya_v_seti_34b570bafc_e727a7937c.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 8255040,
+    "sha256": "78de9cacdad84f68a514a1b54b584af8ee907e8bedd2189d313fea005bd74b4c"
+  },
+  "forte_antifraud_memo": {
+    "retrieved_at_utc": "2026-10-17T10:09:09.032092+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Pamyatka_dlya_klienta_Kak_ne_stat_zhertvoj_moshennikov_d83a4fe61d_f030676149.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Pamyatka_dlya_klienta_Kak_ne_stat_zhertvoj_moshennikov_d83a4fe61d_f030676149.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 6689860,
+    "sha256": "5c1aa5a9c4686e85574d20799f856db72a95a508d68e7f3e8d7fd713041c92cd"
+  },
+  "forte_cash_tariff_limits_2025": {
+    "retrieved_at_utc": "2026-10-17T10:09:11.391738+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/03_Prilozhenie_3_Predelnye_velichiny_tarifov_RKO_utv_SD_49_1_ot_121225_4f253d7939.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/03_Prilozhenie_3_Predelnye_velichiny_tarifov_RKO_utv_SD_49_1_ot_121225_4f253d7939.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 139647,
+    "sha256": "41a3012b99012724964cacba9aa08bb9eb576945df61b6d734392275ff5d7cb3"
+  },
+  "forte_annual_report_2023": {
+    "retrieved_at_utc": "2026-10-17T10:09:39.437172+00:00",
+    "url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Forte_Bank_AR_2023_rus_smart_last_f6939900b4_9655040ae4.pdf",
+    "final_url": "https://prod-one-strapi.s3.eu-north-1.amazonaws.com/Forte_Bank_AR_2023_rus_smart_last_f6939900b4_9655040ae4.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 17509051,
+    "sha256": "9e881e5e74f422f4ae04285ecb9bf50c48a017f715ff00190b4e329636a89e46"
+  },
+  "forte_annual_report_2024": {
+    "retrieved_at_utc": "2026-10-17T10:10:03.241150+00:00",
+    "url": "https://kase.kz/files/emitters/ASBN/asbnp_2024_rus.pdf.pdf",
+    "final_url": "https://kase.kz/files/emitters/ASBN/asbnp_2024_rus.pdf.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 15946861,
+    "sha256": "eab09109d12a89a58ed4b55d2d9e861d75242e56dbaa4e70c03f7b3930a2dc6b"
+  },
+  "forte_online_procedure_2024": {
+    "retrieved_at_utc": "2026-10-17T10:10:03.840591+00:00",
+    "url": "https://main.storage-object.pscloud.io/Proczedura_predostavleniya_EBU_na_Onlajn_platforme_111024_3e3be56ce8.pdf",
+    "final_url": "https://main.storage-object.pscloud.io/Proczedura_predostavleniya_EBU_na_Onlajn_platforme_111024_3e3be56ce8.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 189384,
+    "sha256": "29562c59431c9ea07298f6a8ee1f7404ce0940a276d2fde42d739a523af413b1"
+  },
+  "forte_business_ebu_rules": {
+    "retrieved_at_utc": "2026-10-17T10:10:06.117561+00:00",
+    "url": "https://main.storage-object.pscloud.io/Pravila_predostavleniya_EBU_posredstvom_sistem_Forte_Business_1706_s_pechatyu_bbfb1fe7ee.pdf",
+    "final_url": "https://main.storage-object.pscloud.io/Pravila_predostavleniya_EBU_posredstvom_sistem_Forte_Business_1706_s_pechatyu_bbfb1fe7ee.pdf",
+    "content_type": "application/pdf",
+    "origin": "downloaded_in_expansion",
+    "bytes": 1499930,
+    "sha256": "400a4d5913107c691157fb0b4095ae0a88fdb4ef319010779d9ec13c577071e8"
+  }
+}

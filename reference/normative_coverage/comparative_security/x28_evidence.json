@@ -1,0 +1,27 @@
+{
+  "checked_date": "2026-10-17",
+  "scenario_id": "Х-28",
+  "basis_type": "comparative_security_practice",
+  "risk_basis_supported": true,
+  "binding_on_forte_confirmed": false,
+  "manual_lock_rule_for_forte_employee_found": false,
+  "new_video_review_performed": false,
+  "cards": [
+    {"id": "C01", "source_id": "fdic_cybersecurity_privacy_training", "locator": "Acceptable Use Policy for FDIC Information, PDF/printed 25–26; screen-lock bullet on 26", "rule_type": "manual_lock_when_unattended", "statement_ru": "В учебном материале FDIC требуется блокировать экран, оставляя устройство без присмотра.", "scope_ru": "Работники, подрядчики и допущенные посетители FDIC. Не все американские банки.", "binding_on_forte_confirmed": false},
+    {"id": "C02", "source_id": "nist_sp800_53r5_2020", "locator": "AC-11(a–b), AC-11(1), PDF 69 / printed 42", "rule_type": "organization_selected_device_lock_control", "statement_ru": "Организация выбирает блокировку по бездействию и/или инициируемую пользователем перед уходом; снятие блокировки требует аутентификации.", "scope_ru": "Каталог настраиваемых контролей. Обязательность конкретного выбора для ForteBank не установлена.", "binding_on_forte_confirmed": false},
+    {"id": "C03", "source_id": "enisa_ncsa_transatlantic_checklist_2020", "locator": "Educate employees on cyber hygiene basics, first bullet, PDF 2", "rule_type": "employee_awareness_guidance", "statement_ru": "Совместная рекомендация ENISA и NCSA: блокировать устройство, когда оно не используется.", "scope_ru": "Кибергигиена малого бизнеса ЕС и США; ноябрь 2020, не банковский регламент.", "binding_on_forte_confirmed": false},
+    {"id": "C04", "source_id": "bank_of_england_our_code_2024", "locator": "Safety and security at the Bank’s premises, PDF 35 / printed 34", "rule_type": "historical_employee_manual_lock_rule", "statement_ru": "Кодекс 2024 года требует блокировать экран при уходе на любой срок.", "scope_ru": "Работники Банка Англии. Проверен индексированный текст; PDF недоступен для локального скачивания. Кодекс 2026 года эту фразу не воспроизводит; непрерывность действия не установлена.", "binding_on_forte_confirmed": false},
+    {"id": "C05", "source_id": "pci_ssc_faq_1147", "locator": "FAQ 1147, PCI DSS 8.2.8, November 2025", "rule_type": "idle_timeout_reauthentication", "statement_ru": "Повторная аутентификация после 15 минут бездействия; короткое отсутствие не доказывает несоблюдение этого требования.", "scope_ru": "Нужна область PCI DSS. Исключение: POS-учётные записи с одним номером карты за раз для одной транзакции.", "binding_on_forte_confirmed": false},
+    {"id": "C06", "source_id": "cnil_workstation_security_2024", "locator": "Les précautions élémentaires, first bullet, 14.03.2024", "rule_type": "idle_timeout_guidance", "statement_ru": "Рекомендуется автоматическая блокировка после установленного периода неиспользования; конкретного таймаута не задано.", "scope_ru": "Французское руководство по защите рабочих мест и персональных данных; не правило немедленной ручной блокировки.", "binding_on_forte_confirmed": false}
+  ],
+  "proposed_review_rule": {
+    "label_ru": "Рабочее место оставлено без присмотра при доступном незаблокированном сеансе",
+    "output_status": "possible_security_risk_requires_human_review",
+    "required_evidence": ["Рабочее место осталось без контроля уполномоченного сотрудника", "Сеанс действительно доступен без повторной аутентификации", "Назначение системы и контекст сцены установлены"],
+    "insufficient_evidence_alone": ["Монитор светится", "Видно окно приложения", "Не видно нажатия комбинации блокировки", "Сотрудник вышел из кадра"],
+    "alternative_explanations_to_check": ["Автоматическая блокировка или датчик присутствия", "Передача контроля уполномоченному сотруднику", "Информационный экран без доступа к рабочему сеансу", "Неизвестное состояние приложения или монтаж записи"],
+    "legal_verdict_requires": ["Внутренняя норма ForteBank на дату события", "Применимость нормы к роли сотрудника и системе", "Доказанные обстоятельства события и проверенные исключения"]
+  },
+  "excluded_primary_jurisdictions_per_user": ["Bangladesh", "India", "Russia"],
+  "state_normative_rule_count_changed": false
+}

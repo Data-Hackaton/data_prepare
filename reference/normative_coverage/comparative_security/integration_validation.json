@@ -1,0 +1,20 @@
+{
+  "checked_at_utc": "2026-10-17T10:57:03.932072+00:00",
+  "checks": {
+    "eight_references_six_substantive_cards": true,
+    "four_pdfs_three_html_one_web_reference": true,
+    "531_pdf_pages": true,
+    "original_file_hashes_match": true,
+    "all_cards_have_sources": true,
+    "no_unverified_forte_obligation": true,
+    "bangladesh_not_in_main_set": true,
+    "all_saved_pdf_pages_accounted_for": true,
+    "local_document_links_resolve": true,
+    "state_rule_and_video_counts_preserved": true,
+    "full_legal_coverage_not_claimed": true,
+    "fdic_exact_screen_rule_on_page_26": true,
+    "nist_selection_qualifier_retained": true
+  },
+  "missing_links": [],
+  "passed": true
+}

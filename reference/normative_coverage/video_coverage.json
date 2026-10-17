@@ -1,0 +1,661 @@
+[
+  {
+    "file": "X-1.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 22,
+    "video_sha256": "8911a9219b9433091824e553a70bb80335f075fd8ac982d2062d2ecf023c16bc",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Возврат банкнот после проверки: причина не установлена",
+    "preliminary_observation": "После обработки денег в счётной машине кассир рассматривает банкноты на 20–22 с и передаёт их клиенту на 23–24 с.",
+    "rule_ids": [
+      "counterfeit_return",
+      "suspect_expertise"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Нужна подтвержденная категория банкнот и причина возврата; по цвету это не устанавливается."
+  },
+  {
+    "file": "X-2.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 10,
+    "video_sha256": "9932ae0a10d3b9371bf52ea558dc19092fcf47adcd275a73a52a56b95464bca6",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Приём денег без видимого предъявления удостоверения",
+    "preliminary_observation": "Клиент кладёт деньги на стол на 9–10 с. Кассир берёт их, пересчитывает и кладёт в машину. Предъявления удостоверения перед приёмом на просмотренных кадрах нет.",
+    "rule_ids": [
+      "identity_procedure",
+      "digital_id_exception"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Проверить весь эпизод и цифровую идентификацию; отсутствие карточки недостаточно."
+  },
+  {
+    "file": "Х-3.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "21468fcef4ea5f45ce7d465e620f84e09c8b50314f4ecdc06f69224c701b3a5b",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "identity_procedure",
+      "digital_id_exception"
+    ],
+    "related_positive_scenarios": [
+      2
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-4.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 57,
+    "video_sha256": "5385be9420e6a70547d6bcfd0b13d60f9c0738877645afa277d09550a96b8445",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Деньги предыдущего клиента остаются на столе",
+    "preliminary_observation": "После ухода первого клиента на столе остаётся его стопка банкнот. Около 57 с входит следующий клиент; деньги ещё не убраны.",
+    "rule_ids": [
+      "previous_cash_storage"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Пункт 20 прямо относится к ранее принятым деньгам; подтвердить принадлежность стопки завершенной операции."
+  },
+  {
+    "file": "Х-5.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "1f5840bff58f298e89c4afa00cb1c18f6dafc5c4096c251d9b507604ebefe906",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "previous_cash_storage"
+    ],
+    "related_positive_scenarios": [
+      4,
+      47
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-8.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "6a53e10acdcf52396ad5b1697eead32d8322c0911d792523a5c33fe5b388f4e7",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [],
+    "related_positive_scenarios": [],
+    "coverage_status": "no_existing_description",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-10.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "57a0e46c7a45f0e831f61d9c80722fefe4b74dbcfe1d3031ff58307d481f9a5c",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [],
+    "related_positive_scenarios": [],
+    "coverage_status": "no_existing_description",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-11.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 18,
+    "video_sha256": "b3a954a5b761ad47943e061599315e3fe9d22573eeb92bb14bf315cdcd422fc5",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Уход после выключения света с работающей техникой",
+    "preliminary_observation": "Кассир выключает свет и выходит. Ноутбук остаётся с открытым светлым рабочим окном; индикаторы кассовой техники продолжают светиться.",
+    "rule_ids": [
+      "fire_end_shift",
+      "session_timeout",
+      "ls_shift_shutdown",
+      "ls_electrical_documents"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Прямое основание: №55, пункт 83. №927 пункт 15 требует описать отключение либо передачу смене в локальной инструкции; №246 пункт 99 указывает на техническую документацию. Подтвердить конец смены, питание от сети и отсутствие исключения. Эти общие нормы не доказывают, что любая техника должна быть выключена; 30-минутная блокировка этим роликом не проверяется."
+  },
+  {
+    "file": "Х-12.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "955755baf54418b48ea645dcd98e7e8dcca1d1e227e9b286a9427062db304fd4",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "fire_end_shift",
+      "session_timeout",
+      "ls_shift_shutdown",
+      "ls_electrical_documents"
+    ],
+    "related_positive_scenarios": [
+      11
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-13.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 47,
+    "video_sha256": "a37930cf119bb691be77d8624b18333b04d9c67066a7f4627d63e3208dfa6057",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Банкноты из вскрытой сумки убраны без видимого пересчёта",
+    "preliminary_observation": "Из зелёной сумки последовательно выкладывают три пачки/стопки. Затем их собирают со стола и помещают в сейф около 47–48 с. На расширенной выборке с шагом 3 с машинного или полистного пересчёта между извлечением и хранением не видно.",
+    "rule_ids": [
+      "received_bag_recount",
+      "damaged_bag_recount"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Для целой сумки не найден универсальный срок немедленного пересчета; для поврежденной прямо применяется пункт 25. Нужен непрерывный просмотр."
+  },
+  {
+    "file": "Х-14.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "7d6890ecb4a2b28bbdd3b61b6711566eee84a53ab3439c40cd9b6a3a6714c681",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "received_bag_recount",
+      "damaged_bag_recount"
+    ],
+    "related_positive_scenarios": [
+      13
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-15.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 15,
+    "video_sha256": "69caf59620fcd80bedcb664514730ab38f2f800da27000a8e037d7440be5dc7a",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Инкассаторская сумка оставлена на столе при уходе",
+    "preliminary_observation": "После осмотра зелёную сумку кладут на стол. Кассир закрывает сейф и выходит; сумка остаётся на столе.",
+    "rule_ids": [
+      "unattended_cash",
+      "cash_storage"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Подтвердить, что сумка содержит деньги или ценности; пустая тара не образует этого нарушения."
+  },
+  {
+    "file": "Х-16.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "3f516431cf37e3900b7eae857a7b09be258f485702ab56bc6e5b6129103f1fa5",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "collection_document_flow",
+      "collector_documents"
+    ],
+    "related_positive_scenarios": [
+      17
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-17.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 7,
+    "video_sha256": "0378b8026b2e6afd1775a5d0fdd12dd09c491785b626e9c20428f7dc6bd59364",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Получение сумки без видимой проверки документов передающего",
+    "preliminary_observation": "Участник приносит зелёную сумку и передаёт её кассиру на 7–8 с; кассир осматривает сумку. Предшествующей передачи удостоверения или отдельного документа не видно.",
+    "rule_ids": [
+      "collection_document_flow",
+      "collector_documents"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Разделить препроводительный документ и удостоверение инкассатора. Универсальная обязанность показывать карточку кассиру при каждой передаче из пункта 101 не следует."
+  },
+  {
+    "file": "Х-18.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 20,
+    "video_sha256": "90607b0b0cb772fcf29b0c7e0e56fa6af36da6fac0efe93b8a616b5de94a156c",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Начало обслуживания второго клиента до завершения первого",
+    "preliminary_observation": "Первый клиент остаётся сидеть у кассы. Второй подходит; кассир принимает и рассматривает его карточку на 20–22 с, пока операция первого визуально не завершена.",
+    "rule_ids": [
+      "service_overlap",
+      "previous_cash_storage"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Запрет самого присутствия второго клиента не установлен; доказательством должны быть деньги нескольких операций либо иное конкретное действие."
+  },
+  {
+    "file": "Х-19.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "16065504b21260bff18698c7bbf048ffa356c9de43d43b92643b6c2eddedac0f",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "service_overlap",
+      "previous_cash_storage"
+    ],
+    "related_positive_scenarios": [
+      18
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-20.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 5,
+    "video_sha256": "7e585e33517f7258bd2d1ed3e139556609bc997bb07b78355555060ef193b77a",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Сейф остаётся открытым после извлечения денег",
+    "preliminary_observation": "Кассир открывает сейф, берёт деньги и возвращается к столу. На 5–9 с дверь сейфа остаётся широко открытой за спиной.",
+    "rule_ids": [
+      "open_safe"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Кратко открытый сейф и незащищенное хранение — разные факты; нужны содержимое, стадия работы и доступность посторонним."
+  },
+  {
+    "file": "Х-21.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "efd876a04224cac781ac64bf5d6e107ded67340b7b7715fd9ca3408b240a1075",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "open_safe"
+    ],
+    "related_positive_scenarios": [
+      20
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-22.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 14,
+    "video_sha256": "c9a30d44907e4a41b3a8ccf101774cd2e0804de20927bfbc9e1ccba1f2326b78",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Вероятно, ключ оставлен в замке сейфа",
+    "preliminary_observation": "После поворота замка кассир уходит. В области замка остаётся небольшой выступающий предмет; на сравнительных кадрах Х-23 видно дополнительное движение извлечения ключа.",
+    "rule_ids": [
+      "keys_stamps"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Подтвердить, что предмет является ключом и что его оставление допускает несанкционированное использование."
+  },
+  {
+    "file": "Х-23.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "b637677ef5a7f0fa54d9f116ce6493cf74a4c99b8149a9c9916b96ef257535bd",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "keys_stamps"
+    ],
+    "related_positive_scenarios": [
+      22
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-24.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 8,
+    "video_sha256": "c175a683749401d5a9ecf6f1c188b64fa8a09543f41482c1e4eb2232255715d3",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Печати/штампы и книга остаются на столе после ухода",
+    "preliminary_observation": "Кассир заканчивает работу с книгой, подходит к сейфу и выходит. На столе остаются книга и два зелёных предмета, похожих на печати/штампы.",
+    "rule_ids": [
+      "keys_stamps",
+      "paper_protection"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Печати охватывает пункт 80; для книги требуется доказать служебное назначение или защищаемые сведения."
+  },
+  {
+    "file": "Х-25.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "901f61cf1a1b8754dda56466308c19fc203a1a4c0e85d1e7827849d34e2d52f0",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "keys_stamps",
+      "paper_protection"
+    ],
+    "related_positive_scenarios": [
+      24
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-26.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 9,
+    "video_sha256": "e3a00b6e0f38b1d9b5498140f14906c71e204359262a90ce7a9974d64bf081e9",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Наличные оставлены на столе при уходе кассира",
+    "preliminary_observation": "Кассир пересчитывает банкноты, кладёт их на стол на 8 с и уходит. Стопка остаётся на столе после выхода.",
+    "rule_ids": [
+      "unattended_cash"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Подтвердить наличие ранее принятых наличных; пункт об уходе до конца обслуживания требует наличия клиента."
+  },
+  {
+    "file": "Х-27.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "d3d21494d74e40a7586fe4f6164e515f6621a2d413538c4e15c67d394e85fc2d",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "unattended_cash"
+    ],
+    "related_positive_scenarios": [
+      26
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-28.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 7,
+    "video_sha256": "d15ef04bcfae571bd2d7fc4e4d709ba595ae19f44136a43e7277f17e7b6e5b6d",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Уход с открытым рабочим окном ноутбука",
+    "preliminary_observation": "Кассир прекращает печатать, встаёт и выходит; на ноутбуке остаётся то же светлое рабочее окно. Видимого перехода на экран блокировки нет.",
+    "rule_ids": [
+      "short_absence_screen",
+      "session_timeout",
+      "ls_cyber_policy",
+      "ls_local_duties"
+    ],
+    "coverage_status": "general_basis_only",
+    "review_comment": "ТК: ст. 22 п. 2 пп. 3) и ст. 23 п. 2 пп. 25-1) дают общие обязанности по кибербезопасности, но не задают немедленную блокировку экрана. Ст. 81 предусматривает перерыв для отдыха. ForteBank: п. 35(4) процедуры 2025 запрещает оставлять активную сессию клиентской Онлайн-платформы без присмотра; в версии 2024 это п. 35(3). Применимость к кассиру и системе не доказана. Нужны локальное правило, дата и состояние сеанса; 30-минутный таймаут не заменяет их."
+  },
+  {
+    "file": "Х-29.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "b9bfb76ac8ea47eb368fc78a2f6370e4d98e79185972f63cf301ee22f12b5941",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "short_absence_screen",
+      "session_timeout",
+      "ls_cyber_policy",
+      "ls_local_duties"
+    ],
+    "related_positive_scenarios": [
+      28
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-30.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 13,
+    "video_sha256": "05af66ce27b83d7c10c5d33b6f1847ec042c01ed21afdcbd43a13abcefd28199",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Другой человек входит за кассира через открытый служебный вход",
+    "preliminary_observation": "Кассир находится за столом и поворачивается к оборудованию. Другой участник проходит через оставшийся открытым вход и оказывается непосредственно за кассиром около 13 с.",
+    "rule_ids": [
+      "access_control",
+      "fx_access",
+      "rko_pass_regime"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Проверить права вошедшего; №49 пункт 41 применим к обменному пункту, №21 — к объекту соответствующей категории."
+  },
+  {
+    "file": "Х-31.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "6a9fa7dd2e6db4cbe57f3c96a6cb256f23c04aa4e6fd44622fdf5de662cc0649",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "access_control",
+      "fx_access",
+      "rko_pass_regime"
+    ],
+    "related_positive_scenarios": [
+      30,
+      32
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-32.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 5,
+    "video_sha256": "bcc277cbf1a36245156b2bb9a0e0b826432390b42040c0b82201a8c21ab23ce9",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Служебная дверь оставлена открытой после входа",
+    "preliminary_observation": "Кассир проходит через дверь и садится за стол, не закрыв её; открытый проход остаётся за спиной.",
+    "rule_ids": [
+      "access_control"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Проверить режим допуска; требование иметь закрывающийся вход не равнозначно запрету любого короткого открытия двери."
+  },
+  {
+    "file": "Х-33.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 6,
+    "video_sha256": "209e8aaca88df59064e5f28b3bcc489fee3eea9eb920889b69c03c83d52430c6",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Вход в пустую кассовую зону без видимого контроля допуска",
+    "preliminary_observation": "В отсутствие другого работника участница открывает дверь, проходит за рабочий стол, садится и касается оборудования.",
+    "rule_ids": [
+      "access_control",
+      "third_party_system_access"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Должность и полномочия вошедшего неизвестны; личность и должность нельзя определять по лицу."
+  },
+  {
+    "file": "Х-34.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 13,
+    "video_sha256": "f3e351bea71150f4e8c76e2c8f0656a4e92063319d7cd39e264078c5ba9139c3",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Пересчёт принятых денег продолжается после ухода клиента",
+    "preliminary_observation": "Клиент передаёт деньги, встаёт и уходит. Кассир начинает/продолжает загрузку банкнот в счётную машину на 13–17 с, когда клиент уже покидает место обслуживания.",
+    "rule_ids": [
+      "client_presence"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Прямая связь с пунктом 20; подтвердить, что это пересчет приема именно ушедшего клиента."
+  },
+  {
+    "file": "Х-35.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "26430119e074d6f0eb5dbc7ec3e26bbc31cf18903265bb4372bd7d7104908640",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "client_presence"
+    ],
+    "related_positive_scenarios": [
+      34
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-37.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "ac4cf04844c0aa08a5e19f5f7fe984f1477943294922d6ef77bdc5b88b97160e",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "client_presence"
+    ],
+    "related_positive_scenarios": [
+      34
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-38.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 33,
+    "video_sha256": "5a6f6a13ef88191ec1d9a2a303f1be74d16aa3381a57aaadba8850aac715ff10",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Стопка предыдущего клиента не убрана перед новым клиентом",
+    "preliminary_observation": "После ухода первого клиента синяя стопка остаётся на столе. На 33 с входит следующий; около 37 с начинается передача его документа, а прежние деньги по-прежнему лежат рядом.",
+    "rule_ids": [
+      "previous_cash_storage"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Прямая связь с пунктом 20 при подтверждении завершенной первой операции."
+  },
+  {
+    "file": "Х-39.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "deeeee54539fb894b17447296bd7f0807b9dc662bad9af4dcd27f4fbdd677187",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "previous_cash_storage"
+    ],
+    "related_positive_scenarios": [
+      38
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-40.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 17,
+    "video_sha256": "6a81739ced0efdcd4a4feb76ea16562a20ceb53a2232a801528716c450366c9f",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Личная сумка и верхняя одежда на кассовом столе",
+    "preliminary_observation": "Участница входит за рабочий стол с сумкой и верхней одеждой, кладёт их на стол и начинает работать с оборудованием, оставив вещи рядом.",
+    "rule_ids": [
+      "personal_items"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Прямая связь с пунктом 12; вещи должны принадлежать работнику и находиться в кассовом узле."
+  },
+  {
+    "file": "Х-43.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "39e28d7be01cdb090ede1881ce3ef704fa413271deb69d6735c1953f340d6069",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "cash_sorting",
+      "bundle_formation",
+      "personal_items"
+    ],
+    "related_positive_scenarios": [
+      44,
+      46
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-44.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 16,
+    "video_sha256": "9774ed882153af3ba1a7e71c9b9249619e2b3a97ae336aad6143369802ca3522",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Различающиеся банкноты объединены в одну стопку",
+    "preliminary_observation": "После счётной машины кассир соединяет банкноты разных видимых цветов/оформления в одну стопку на 15–17 с и оставляет её на столе. Отдельный малый прибор в расширенной выборке не используется.",
+    "rule_ids": [
+      "cash_sorting",
+      "bundle_formation"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Допускаются сборные пачки по пункту 50. Для нарушения нужны различимые номиналы и неподходящая завершенная сортировка/упаковка, а не временная общая стопка."
+  },
+  {
+    "file": "Х-45.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "524bf9ff2d5e81211dbbeff73129dbb5f3a5e5e35a64f443f53e16b1c2d471c7",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "cash_sorting",
+      "bundle_formation",
+      "personal_items"
+    ],
+    "related_positive_scenarios": [
+      44,
+      46
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  },
+  {
+    "file": "Х-46.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 11,
+    "video_sha256": "66fc5d28c2371592f9260305589bdc86636fdd2ebe7a7ec976eec00a23d43df4",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Личная ёмкость с напитком на кассовом рабочем месте",
+    "preliminary_observation": "После пересчёта денег кассир достаёт из-за оборудования ёмкость/кружку, держит её рядом с банкнотами и пьёт на 14–15 с.",
+    "rule_ids": [
+      "personal_items"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Определить предмет и принадлежность; чашка или бутылка не автоматически доказывает распитие алкоголя либо состояние работника."
+  },
+  {
+    "file": "Х-47.mov",
+    "label": "нарушение",
+    "label_timestamp_sec": 68,
+    "video_sha256": "5385be9420e6a70547d6bcfd0b13d60f9c0738877645afa277d09550a96b8445",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Новая операция при неубранных деньгах предыдущего клиента",
+    "preliminary_observation": "На том же видео, что Х-4, около 68 с кассир уже работает с деньгами следующего клиента; прежняя стопка остаётся на столе рядом.",
+    "rule_ids": [
+      "previous_cash_storage"
+    ],
+    "coverage_status": "sources_mapped_with_conditions",
+    "review_comment": "Прямая связь с пунктом 20; дубликат другого файла не является независимым подтверждением качества классификатора."
+  },
+  {
+    "file": "Х-48.mov",
+    "label": "без нарушения",
+    "label_timestamp_sec": null,
+    "video_sha256": "1f5840bff58f298e89c4afa00cb1c18f6dafc5c4096c251d9b507604ebefe906",
+    "basis": "preliminary_description_not_new_frame_review",
+    "scenario": "Контрольный ролик с исходной меткой «без нарушения»",
+    "rule_ids": [
+      "previous_cash_storage"
+    ],
+    "related_positive_scenarios": [
+      4,
+      47
+    ],
+    "coverage_status": "comparison_description_available",
+    "review_comment": "Исходная метка не заменяет проверку всех правил. Здесь не выполнялся новый просмотр видео."
+  }
+]

@@ -119,6 +119,10 @@ def check_instance(where: str, scenario: dict, actions: list[dict], errors: list
             flag(a["t"], "out_of_template", f"{a['action']} {a.get('object') or ''} на {a['t']} с — вне шаблона", warnings, a)
             assigned.append(None)
             continue
+        anytime = [i for i in candidates if steps[i].get("anytime")]
+        if anytime:  # шаг без места в порядке (работа за компьютером, бумаги) указатель не двигает
+            assigned.append(anytime[0])
+            continue
         forward = [i for i in candidates if i >= pointer]
         if not forward:
             flag(a["t"], "order", f"{a['action']} на {a['t']} с идёт раньше по шаблону, чем предыдущие шаги", errors, a)
@@ -224,8 +228,25 @@ def main() -> None:
     catalog = yaml.safe_load(violations_path.read_text()) if violations_path.exists() else {}
     norms_path = args.reference / "norms.yaml"
     norms = yaml.safe_load(norms_path.read_text()) if norms_path.exists() else {}
+    known_norms = set(norms)
+    for name in ("norms_review.yaml", "norms_corpus.yaml"):  # аудит пакета проверки и нормативный корпус
+        path = args.reference / name
+        known_norms |= set(yaml.safe_load(path.read_text()) or {}) if path.exists() else set()
+    topics_path = args.reference / "topics.yaml"
+    topics = yaml.safe_load(topics_path.read_text()) if topics_path.exists() else {}
 
     errors, warnings, safe_durations = [], [], []
+    for inv in [i for sc in scenarios.values() for i in sc.get("invariants", [])] + spec.get("video_invariants", []):
+        for b in inv.get("basis", []):  # косвенные основания — из аудита норм, корпуса или выверенных вручную
+            if b["norm"] not in known_norms:
+                errors.append(f"scenarios.yaml: основание {b['norm']} правила «{inv.get('title')}» нет в norms*.yaml")
+        for t in inv.get("topics", []):  # процедуры проверки из нормативного корпуса
+            if t not in topics:
+                errors.append(f"scenarios.yaml: темы {t} правила «{inv.get('title')}» нет в topics.yaml")
+        topic_norms = {n for t in inv.get("topics", []) for n in topics.get(t, {}).get("norms", [])}
+        for b in inv.get("basis", []):
+            if inv.get("topics") and b["norm"] not in topic_norms:
+                print(f"[основание] {b['norm']} правила «{inv.get('title')}» не из норм его тем {inv['topics']}")
     rows_by_video: dict[str, list[dict]] = {}
     coverage: dict[str, Counter] = defaultdict(Counter)
     n_instances: Counter = Counter()

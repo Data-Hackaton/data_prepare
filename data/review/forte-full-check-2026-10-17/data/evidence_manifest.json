@@ -1,0 +1,1946 @@
+[
+  {
+    "path": "evidence/X-1_001.jpg",
+    "source": "review_full/evidence/X-1_01_0019.933s.jpg",
+    "sha256": "9207a390973d02168e337aac2ed36c241efc90cc58d93a890b6d2d358e4b56b2",
+    "source_pts_sec": 19.933333,
+    "caption": "Извлечение из аппарата.",
+    "video_id": "X-1"
+  },
+  {
+    "path": "evidence/X-1_002.jpg",
+    "source": "review_full/evidence/X-1_02_0022.200s.jpg",
+    "sha256": "afc7dfd018308c016810b5841e73d4729c363d71a2cf15890ba6ce4be62cb3e9",
+    "source_pts_sec": 22.2,
+    "caption": "Осмотр перед передачей.",
+    "video_id": "X-1"
+  },
+  {
+    "path": "evidence/X-1_003.jpg",
+    "source": "review_full/evidence/X-1_03_0022.867s.jpg",
+    "sha256": "14e9dd11964cdb3a8fd5353068a1f078a9817cdf9f4af27d9f4579dc43ac11a1",
+    "source_pts_sec": 22.866667,
+    "caption": "Передача обратно клиенту.",
+    "video_id": "X-1"
+  },
+  {
+    "path": "evidence/X-1_004.jpg",
+    "source": "review_full/evidence/X-1_04_0024.067s.jpg",
+    "sha256": "f5841988ac49ace73339393b9e6528d5bd4ce94cf2e83df5a9b219197f1f3493",
+    "source_pts_sec": 24.066667,
+    "caption": "Клиент забирает переданное.",
+    "video_id": "X-1"
+  },
+  {
+    "path": "evidence/X-2_005.jpg",
+    "source": "review_full/evidence/X-2_01_0008.267s.jpg",
+    "sha256": "23fbdc975d76d997273de661a9dc6b0aa22730661b9e6d7650f672087a4e05fa",
+    "source_pts_sec": 8.266667,
+    "caption": "Деньги достаются перед передачей.",
+    "video_id": "X-2"
+  },
+  {
+    "path": "evidence/X-2_006.jpg",
+    "source": "review_full/evidence/X-2_02_0009.600s.jpg",
+    "sha256": "7e212cc40ee0756a88b1994d6257b417bcbc890a04593a51969a5bb5db4ccb74",
+    "source_pts_sec": 9.6,
+    "caption": "Клиент кладёт наличные.",
+    "video_id": "X-2"
+  },
+  {
+    "path": "evidence/X-2_007.jpg",
+    "source": "review_full/evidence/X-2_03_0010.400s.jpg",
+    "sha256": "d4568b0461312a4e80a0b3fea44d8b5f03890254d5781595cee8b1afdbdc702c",
+    "source_pts_sec": 10.4,
+    "caption": "Кассир принимает деньги.",
+    "video_id": "X-2"
+  },
+  {
+    "path": "evidence/X-2_008.jpg",
+    "source": "review_full/evidence/X-2_04_0011.467s.jpg",
+    "sha256": "29c1278338f2f617198e615614c9848b016ee51527ad4694cc739aad4a478341",
+    "source_pts_sec": 11.466667,
+    "caption": "Начинается пересчёт.",
+    "video_id": "X-2"
+  },
+  {
+    "path": "evidence/Х-3_009.jpg",
+    "source": "review_full/evidence/Х-3_01_0009.033s.jpg",
+    "sha256": "ede5eea785ceb1417ea2db0eea8536147ef140309bbe31546a4292831b9f8559",
+    "source_pts_sec": 9.033333,
+    "caption": "Сотрудница рассматривает предъявленную карточку.",
+    "video_id": "Х-3"
+  },
+  {
+    "path": "evidence/Х-3_010.jpg",
+    "source": "review_full/evidence/Х-3_02_0016.033s.jpg",
+    "sha256": "1d807542cbba9b62d67029a0f3dd6b271c372e3c1306d186ac57eda4aa33092b",
+    "source_pts_sec": 16.033333,
+    "caption": "Наличные приняты после работы с карточкой.",
+    "video_id": "Х-3"
+  },
+  {
+    "path": "evidence/Х-3_011.jpg",
+    "source": "full_review/frames/Х-3/sample-00010.jpg",
+    "sha256": "dcebf45a754cd5ad42abcd1434b3b8147fc984a4d5846294b55d3374237b1da5",
+    "source_pts_sec": 9.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-3"
+  },
+  {
+    "path": "evidence/Х-3_012.jpg",
+    "source": "full_review/frames/Х-3/overview-01.jpg",
+    "sha256": "9cdcad2fe7818f0221ded9e39679a4bafc82f85bc4e0ee53a9bbf98be28476f7",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-3"
+  },
+  {
+    "path": "evidence/Х-4_013.jpg",
+    "source": "review_full/evidence/Х-4_01_0050.033s.jpg",
+    "sha256": "483fc0385d802a144b38a34e8dbd4ae59fade800747ce6ac2490f7cfd7e90b0e",
+    "source_pts_sec": 50.033333,
+    "caption": "Первая клиентка завершает обслуживание; деньги остаются на столе.",
+    "video_id": "Х-4"
+  },
+  {
+    "path": "evidence/Х-4_014.jpg",
+    "source": "review_full/evidence/Х-4_02_0059.033s.jpg",
+    "sha256": "c2842816433a6cdd411753840398b1a59b6d5731a2fb92e374a406792c34a033",
+    "source_pts_sec": 59.033333,
+    "caption": "Подошла следующая клиентка, прежняя стопка не убрана.",
+    "video_id": "Х-4"
+  },
+  {
+    "path": "evidence/Х-4_015.jpg",
+    "source": "review_full/evidence/Х-4_03_0068.067s.jpg",
+    "sha256": "b5b3874f0718632a752009b85bf7f40d00b3df6831fbfbfe2545e923db869942",
+    "source_pts_sec": 68.066667,
+    "caption": "Принимаются следующие деньги рядом с ранее принятой стопкой.",
+    "video_id": "Х-4"
+  },
+  {
+    "path": "evidence/Х-5_016.jpg",
+    "source": "review_full/evidence/Х-5_01_0052.033s.jpg",
+    "sha256": "bfbc99ad884381eaf0cbceff1485daf66a68db9e3ae683ae0ff0cb5dbf0eac62",
+    "source_pts_sec": 52.033333,
+    "caption": "Первая стопка перемещена в сейф.",
+    "video_id": "Х-5"
+  },
+  {
+    "path": "evidence/Х-5_017.jpg",
+    "source": "review_full/evidence/Х-5_02_0066.067s.jpg",
+    "sha256": "b1087e5e4a67ba2ea1d3987c37bf9a171b1ef8cb5ca7cb3d11b7a6e58ad91f93",
+    "source_pts_sec": 66.066667,
+    "caption": "Пришла следующая клиентка; прежней стопки на столе нет.",
+    "video_id": "Х-5"
+  },
+  {
+    "path": "evidence/Х-5_018.jpg",
+    "source": "full_review/frames/Х-5/overview-01.jpg",
+    "sha256": "36c2b72ba80a7d8f26d4ba8549281968a5ba3cfe88172d98f93afb5203dd069f",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-5"
+  },
+  {
+    "path": "evidence/Х-5_019.jpg",
+    "source": "full_review/frames/Х-5/overview-02.jpg",
+    "sha256": "262329f30e910a18a6b238958dce878b87517fbc3c3ef5707686d7363cbd84a2",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-5"
+  },
+  {
+    "path": "evidence/Х-5_020.jpg",
+    "source": "full_review/frames/Х-5/sample-00053.jpg",
+    "sha256": "ad6fdd6a0d11082dd6a454473ba107422f5530794af59f636004a9e6545a13f0",
+    "source_pts_sec": 52.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-5"
+  },
+  {
+    "path": "evidence/Х-5_021.jpg",
+    "source": "full_review/frames/Х-5/sample-00054.jpg",
+    "sha256": "334401df139d43f1c337d95964cf97c01308019aff38cb01b7419e58e65b875c",
+    "source_pts_sec": 53.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-5"
+  },
+  {
+    "path": "evidence/Х-5_022.jpg",
+    "source": "full_review/frames/Х-5/overview-03.jpg",
+    "sha256": "85fbfe3d4485b759d4602111cca779ed4b5b135c38cd587169e949da3a89ef96",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-5"
+  },
+  {
+    "path": "evidence/Х-8_023.jpg",
+    "source": "review_full/evidence/Х-8_01_0015.033s.jpg",
+    "sha256": "215d29e117fc8d8d091e15417f02210c5f5ee7248c631728571811c231c3aa6d",
+    "source_pts_sec": 15.033333,
+    "caption": "Ручная работа с банкнотами.",
+    "video_id": "Х-8"
+  },
+  {
+    "path": "evidence/Х-8_024.jpg",
+    "source": "review_full/evidence/Х-8_02_0023.033s.jpg",
+    "sha256": "4f9a94cfeaa80b72e3686110a76aaa709a568ada83ff00614e91bd14fe5fa5e0",
+    "source_pts_sec": 23.033333,
+    "caption": "Перемещение денег в сейф.",
+    "video_id": "Х-8"
+  },
+  {
+    "path": "evidence/Х-8_025.jpg",
+    "source": "full_review/frames/Х-8/overview-01.jpg",
+    "sha256": "587a121c8c9169568edcb45e2415aaf11b411e778a4cad2774abd0af5b102bba",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-8"
+  },
+  {
+    "path": "evidence/Х-8_026.jpg",
+    "source": "full_review/frames/Х-8/sample-00028.jpg",
+    "sha256": "3329bfc20dde3dfc73e28538ff8d844e078a271e74a984d2ccc1d48e6fe3c40f",
+    "source_pts_sec": 27.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-8"
+  },
+  {
+    "path": "evidence/Х-8_027.jpg",
+    "source": "full_review/frames/Х-8/overview-02.jpg",
+    "sha256": "15c1febd4f08758ba17bc77d03673067b0996ef68bc194dac071e04b736af038",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-8"
+  },
+  {
+    "path": "evidence/Х-10_028.jpg",
+    "source": "review_full/evidence/Х-10_01_0000.250s.jpg",
+    "sha256": "88a671e310d8b2cdad05acac40452dbe1519db0cf89b1b76c86262e37349cb0b",
+    "source_pts_sec": null,
+    "caption": "Небольшой прямоугольный предмет в руках.",
+    "video_id": "Х-10"
+  },
+  {
+    "path": "evidence/Х-10_029.jpg",
+    "source": "review_full/evidence/Х-10_02_0002.500s.jpg",
+    "sha256": "466425ad03953a07d1fc22d9710e3477d5b389af666dee008efbeec585948acb",
+    "source_pts_sec": null,
+    "caption": "Движение предмета к бедру/карману.",
+    "video_id": "Х-10"
+  },
+  {
+    "path": "evidence/Х-10_030.jpg",
+    "source": "review_full/evidence/Х-10_03_0010.033s.jpg",
+    "sha256": "176eaae647473a54aefb7702cb3d3243846f5b9169b5dfcc29a0e8118dad6278",
+    "source_pts_sec": 10.033333,
+    "caption": "Дальнейшая работа с банкнотами.",
+    "video_id": "Х-10"
+  },
+  {
+    "path": "evidence/Х-10_031.jpg",
+    "source": "full_review/frames/Х-10/overview-01.jpg",
+    "sha256": "dcc6955b24039f6b348158b28e04b669867b8fff7c393b8da3c90be9a4c22629",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-10"
+  },
+  {
+    "path": "evidence/Х-10_032.jpg",
+    "source": "full_review/dense/Х-10/dense-01.jpg",
+    "sha256": "9d074b536f5e3ea04a47e88fafb46795a348fddb99c702f1618aed499c009af4",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-10"
+  },
+  {
+    "path": "evidence/Х-10_033.jpg",
+    "source": "full_review/dense/Х-10/dense-02.jpg",
+    "sha256": "c3a08be52552433bcb25ee147d9993bfc185537b49cf752a16e66ea8a3ee6603",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-10"
+  },
+  {
+    "path": "evidence/Х-10_034.jpg",
+    "source": "full_review/dense/Х-10/0000.25.jpg",
+    "sha256": "f4171bc2c5bf5201609d66f14463cc91063b041c214f5f2d853e33758eb18bf5",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-10"
+  },
+  {
+    "path": "evidence/Х-10_035.jpg",
+    "source": "full_review/dense/Х-10/0000.75.jpg",
+    "sha256": "4d9a81967af54f22ec5da4abc8757223c292ef275484af5c352e21b3ca80e89c",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-10"
+  },
+  {
+    "path": "evidence/Х-10_036.jpg",
+    "source": "full_review/frames/Х-10/sample-00002.jpg",
+    "sha256": "6ceba9ae1cb9fb685edebe19c1bed4d466676ed67357b2228c2726bb03cdd112",
+    "source_pts_sec": 1.0,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-10"
+  },
+  {
+    "path": "evidence/Х-11_037.jpg",
+    "source": "review_full/evidence/Х-11_01_0015.500s.jpg",
+    "sha256": "fbdc4c49759f114320dcb0ab4b5e92d7d2f34feb89b35c07ea07d164633be98f",
+    "source_pts_sec": 15.5,
+    "caption": "Состояние места перед выключением света.",
+    "video_id": "Х-11"
+  },
+  {
+    "path": "evidence/Х-11_038.jpg",
+    "source": "review_full/evidence/Х-11_02_0016.033s.jpg",
+    "sha256": "c6b874e52ce3607ab7ba4e1096d165fbe98e0477c3b64c79a8b9b832db7adb52",
+    "source_pts_sec": 16.033333,
+    "caption": "Освещение выключено.",
+    "video_id": "Х-11"
+  },
+  {
+    "path": "evidence/Х-11_039.jpg",
+    "source": "review_full/evidence/Х-11_03_0022.033s.jpg",
+    "sha256": "31b14addf49ec38c694c91d10132cf9897a61e518c8e4acb1a8a1120c99fd561",
+    "source_pts_sec": 22.033333,
+    "caption": "Сотрудник выходит, экран остаётся включён.",
+    "video_id": "Х-11"
+  },
+  {
+    "path": "evidence/Х-11_040.jpg",
+    "source": "review_full/evidence/Х-11_04_0025.533s.jpg",
+    "sha256": "e9c9eabb6e3c988549a9547706eef1de17ac3146a7ba69d569342fd967304d9b",
+    "source_pts_sec": 25.533333,
+    "caption": "Оборудование после ухода.",
+    "video_id": "Х-11"
+  },
+  {
+    "path": "evidence/Х-12_041.jpg",
+    "source": "review_full/evidence/Х-12_01_0016.033s.jpg",
+    "sha256": "6c5ae3c7a701f15739826e2c8e6e7a043db4a289ebe061159079a57af3baae45",
+    "source_pts_sec": 16.033333,
+    "caption": "Подготовка и отключение оборудования перед уходом.",
+    "video_id": "Х-12"
+  },
+  {
+    "path": "evidence/Х-12_042.jpg",
+    "source": "review_full/evidence/Х-12_02_0039.033s.jpg",
+    "sha256": "6e9c2757073aa04ff23320e53c5e7e97b47f5511b8427ebee8bae3f9e86d38c1",
+    "source_pts_sec": 39.033333,
+    "caption": "После ухода рабочее место с закрытым ноутбуком.",
+    "video_id": "Х-12"
+  },
+  {
+    "path": "evidence/Х-12_043.jpg",
+    "source": "full_review/frames/Х-12/overview-01.jpg",
+    "sha256": "037cacb68becf38fa6a2fe208fc2ad9e9cd5f1d6dca1d8c874f2643af44a6351",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-12"
+  },
+  {
+    "path": "evidence/Х-12_044.jpg",
+    "source": "full_review/frames/Х-12/sample-00032.jpg",
+    "sha256": "3302d3cb4406e1d13a952f7fe74f73387086928db6eba59eee2762b03e3c2e4c",
+    "source_pts_sec": 31.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-12"
+  },
+  {
+    "path": "evidence/Х-12_045.jpg",
+    "source": "full_review/frames/Х-12/overview-02.jpg",
+    "sha256": "55e7aca4a14c3f864c1702bd30516d0512da60f9c954a5c21a6226f78b77d569",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-12"
+  },
+  {
+    "path": "evidence/Х-13_046.jpg",
+    "source": "review_full/evidence/Х-13_01_0022.000s.jpg",
+    "sha256": "32374a996707253ef32adf67391652560873f3877377503ea4bfa8f2f3785aca",
+    "source_pts_sec": 22.0,
+    "caption": "Первая извлечённая стопка.",
+    "video_id": "Х-13"
+  },
+  {
+    "path": "evidence/Х-13_047.jpg",
+    "source": "review_full/evidence/Х-13_02_0029.000s.jpg",
+    "sha256": "23a0348ced670d579d87c99151ecb7348f0cb8ea12e54c33917dd9c20e46814a",
+    "source_pts_sec": 29.0,
+    "caption": "На столе видны извлечённые стопки.",
+    "video_id": "Х-13"
+  },
+  {
+    "path": "evidence/Х-13_048.jpg",
+    "source": "review_full/evidence/Х-13_03_0043.533s.jpg",
+    "sha256": "e3f6784c9d49d8de167c3a82832d3d9c0b3d4db53bf3a1988fb518de6489db02",
+    "source_pts_sec": 43.533333,
+    "caption": "Сбор стопок перед помещением в сейф.",
+    "video_id": "Х-13"
+  },
+  {
+    "path": "evidence/Х-13_049.jpg",
+    "source": "review_full/evidence/Х-13_04_0049.533s.jpg",
+    "sha256": "02f36dd99f7d7632b152b1f00b3ea4b323ba6b7a84b4887c2a4d249555d7c389",
+    "source_pts_sec": 49.533333,
+    "caption": "Перемещение стопок внутрь сейфа.",
+    "video_id": "Х-13"
+  },
+  {
+    "path": "evidence/Х-14_050.jpg",
+    "source": "review_full/evidence/Х-14_01_0066.067s.jpg",
+    "sha256": "029a4ddd9d60164f6242e6de00535404fecd4e42bf80a5e69ba42126e4b94e89",
+    "source_pts_sec": 66.066667,
+    "caption": "Одна из стопок обрабатывается на машине.",
+    "video_id": "Х-14"
+  },
+  {
+    "path": "evidence/Х-14_051.jpg",
+    "source": "review_full/evidence/Х-14_02_0121.067s.jpg",
+    "sha256": "7f8856feff215a61b20d555397723a600ee62bc879ab99b5297c1e62ba2dd04a",
+    "source_pts_sec": 121.066667,
+    "caption": "Деньги убираются после этапов пересчёта.",
+    "video_id": "Х-14"
+  },
+  {
+    "path": "evidence/Х-14_052.jpg",
+    "source": "full_review/frames/Х-14/overview-02.jpg",
+    "sha256": "c5cc6f698e506a6dc4354498ce7820e2449891e485de0d6985a45505e4bfa218",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-14"
+  },
+  {
+    "path": "evidence/Х-14_053.jpg",
+    "source": "full_review/frames/Х-14/overview-03.jpg",
+    "sha256": "730da26e388015844e49cc262ef1db74fa7b902488b0fe5a9aa95ccf19526c06",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-14"
+  },
+  {
+    "path": "evidence/Х-14_054.jpg",
+    "source": "full_review/frames/Х-14/overview-04.jpg",
+    "sha256": "3b6c76409053a789bcc71238d42edae10420cc86703b2071b4c8e0dcaba6dadc",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-14"
+  },
+  {
+    "path": "evidence/Х-14_055.jpg",
+    "source": "full_review/frames/Х-14/sample-00084.jpg",
+    "sha256": "7ef82c41b59626f7ff95bd874df48b9018d8f7387b2e79a2173ba9611fac2daa",
+    "source_pts_sec": 83.066667,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-14"
+  },
+  {
+    "path": "evidence/Х-14_056.jpg",
+    "source": "full_review/frames/Х-14/sample-00120.jpg",
+    "sha256": "c239ee12d8874c81d42b1f8ab6e423e8d3352b73e12af28fd75bf343fa8e723b",
+    "source_pts_sec": 119.066667,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-14"
+  },
+  {
+    "path": "evidence/Х-14_057.jpg",
+    "source": "full_review/frames/Х-14/overview-06.jpg",
+    "sha256": "e72aeaba4b6d3cca301737dc880c312451cc6d2fd3f81df39d23b368b2a12792",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-14"
+  },
+  {
+    "path": "evidence/Х-15_058.jpg",
+    "source": "review_full/evidence/Х-15_01_0001.333s.jpg",
+    "sha256": "8052a8490091bae31dde0dd50edaa0eb533117556f30003fa57ddbb170c87bcc",
+    "source_pts_sec": 1.333333,
+    "caption": "Сумка расправляется.",
+    "video_id": "Х-15"
+  },
+  {
+    "path": "evidence/Х-15_059.jpg",
+    "source": "review_full/evidence/Х-15_02_0005.333s.jpg",
+    "sha256": "ea60630fdc3fec89ee34679b15ac3d76ded15109026920adaac09c38e32c617c",
+    "source_pts_sec": 5.333333,
+    "caption": "Начало складывания сумки.",
+    "video_id": "Х-15"
+  },
+  {
+    "path": "evidence/Х-15_060.jpg",
+    "source": "review_full/evidence/Х-15_03_0006.133s.jpg",
+    "sha256": "e7b12afedb1692eb80857b2dd37a5c12cd882f9914bc28c272db4c3475c5941c",
+    "source_pts_sec": 6.133333,
+    "caption": "Сумка сложена почти плоско.",
+    "video_id": "Х-15"
+  },
+  {
+    "path": "evidence/Х-15_061.jpg",
+    "source": "review_full/evidence/Х-15_04_0020.533s.jpg",
+    "sha256": "c4a8edf4a640d58c72c989bd51340e012d6d4f5f7b9dc6dcf4e02fae2ab211d8",
+    "source_pts_sec": 20.533333,
+    "caption": "Оставленная сумка после ухода.",
+    "video_id": "Х-15"
+  },
+  {
+    "path": "evidence/Х-16_062.jpg",
+    "source": "review_full/evidence/Х-16_01_0012.033s.jpg",
+    "sha256": "62e2db981a72c8a8d73738fcf09415ba7ed9210b3ce5bc7d5bdce26db97fa1e2",
+    "source_pts_sec": 12.033333,
+    "caption": "Карточка рассматривается до передачи сумки.",
+    "video_id": "Х-16"
+  },
+  {
+    "path": "evidence/Х-16_063.jpg",
+    "source": "review_full/evidence/Х-16_02_0020.033s.jpg",
+    "sha256": "65e4b4402fad88d1001e0badd6ce4d65d9d1ab4d22c8444b7a463455966ea0d7",
+    "source_pts_sec": 20.033333,
+    "caption": "Сумка осматривается, доставляющий остаётся рядом.",
+    "video_id": "Х-16"
+  },
+  {
+    "path": "evidence/Х-16_064.jpg",
+    "source": "full_review/frames/Х-16/sample-00011.jpg",
+    "sha256": "c00ae8a2cdbf2991aea233dea58ef26376348779503f40dcdb430bb54c2b5a27",
+    "source_pts_sec": 10.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-16"
+  },
+  {
+    "path": "evidence/Х-16_065.jpg",
+    "source": "full_review/frames/Х-16/sample-00019.jpg",
+    "sha256": "508b189dbd0a81c6d8addccfbf53cf6490d727451d31125977d1fb64e2604b0c",
+    "source_pts_sec": 18.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-16"
+  },
+  {
+    "path": "evidence/Х-16_066.jpg",
+    "source": "full_review/frames/Х-16/overview-01.jpg",
+    "sha256": "f232ec9a7e1857bd1c0536306386e127c111628c90e2b775cd95d459de03b8f3",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-16"
+  },
+  {
+    "path": "evidence/Х-17_067.jpg",
+    "source": "review_full/evidence/Х-17_01_0007.333s.jpg",
+    "sha256": "7396e02a848f573b2f6236ffaae07495940b57818296643b755b9ac4096c68b8",
+    "source_pts_sec": 7.333333,
+    "caption": "Передача сумки.",
+    "video_id": "Х-17"
+  },
+  {
+    "path": "evidence/Х-17_068.jpg",
+    "source": "review_full/evidence/Х-17_02_0008.133s.jpg",
+    "sha256": "26347d0f5c4c93645b5440cd967762c318a7d9a454152b591a97c0cb8656df64",
+    "source_pts_sec": 8.133333,
+    "caption": "Кассир принимает сумку; сверху виден светлый элемент.",
+    "video_id": "Х-17"
+  },
+  {
+    "path": "evidence/Х-17_069.jpg",
+    "source": "review_full/evidence/Х-17_03_0010.000s.jpg",
+    "sha256": "be950435c1b2d14b8f8353ac95bf82740e551ca35f1a85e84c5bfbba8bcdf9c1",
+    "source_pts_sec": 10.0,
+    "caption": "Осмотр принятой сумки.",
+    "video_id": "Х-17"
+  },
+  {
+    "path": "evidence/Х-17_070.jpg",
+    "source": "review_full/evidence/Х-17_04_0014.533s.jpg",
+    "sha256": "2929317bdcf4c13eb225107d039db3814a5831561d8a7833e4ba0b5c61ed0879",
+    "source_pts_sec": 14.533333,
+    "caption": "Действия с сумкой после ухода передающего.",
+    "video_id": "Х-17"
+  },
+  {
+    "path": "evidence/Х-18_071.jpg",
+    "source": "review_full/evidence/Х-18_01_0018.533s.jpg",
+    "sha256": "c72fa1de70d5439ff12dbfae484798b214355301d886bc3339293cf8b7f7f53c",
+    "source_pts_sec": 18.533333,
+    "caption": "Второй посетитель у стола при первом клиенте.",
+    "video_id": "Х-18"
+  },
+  {
+    "path": "evidence/Х-18_072.jpg",
+    "source": "review_full/evidence/Х-18_02_0020.933s.jpg",
+    "sha256": "cb22a454cf1fc4f2e7f19b2d3e857182c58a47ee4f0de416e5281ea457a657ce",
+    "source_pts_sec": 20.933333,
+    "caption": "Передача небольшого предмета.",
+    "video_id": "Х-18"
+  },
+  {
+    "path": "evidence/Х-18_073.jpg",
+    "source": "review_full/evidence/Х-18_03_0021.733s.jpg",
+    "sha256": "7e9a4a861572c83e015fe0c9c7b37276ec35b9d6a7820f9cd9d166b56fb1388d",
+    "source_pts_sec": 21.733333,
+    "caption": "Нативный кадр позволяет различить карточку в руках.",
+    "video_id": "Х-18"
+  },
+  {
+    "path": "evidence/Х-18_074.jpg",
+    "source": "review_full/evidence/Х-18_04_0022.533s.jpg",
+    "sha256": "b4788aaaca365ac8e2d732d3fe694ccf5b105bb0a7c3c5d5945d07645a19fe8e",
+    "source_pts_sec": 22.533333,
+    "caption": "Карточка остаётся в руках кассира.",
+    "video_id": "Х-18"
+  },
+  {
+    "path": "evidence/Х-19_075.jpg",
+    "source": "review_full/evidence/Х-19_01_0040.033s.jpg",
+    "sha256": "21fb388b2e45db622ddd51fc80c246e746acbb7a6776f2fd4dad70fd7ebdd0cc",
+    "source_pts_sec": 40.033333,
+    "caption": "Первая наличность убирается.",
+    "video_id": "Х-19"
+  },
+  {
+    "path": "evidence/Х-19_076.jpg",
+    "source": "review_full/evidence/Х-19_02_0055.033s.jpg",
+    "sha256": "be72d95a697b4e00bdb2669a4d15752d810d45777a06f52a7371826d922d6a6b",
+    "source_pts_sec": 55.033333,
+    "caption": "Начинается следующее обслуживание после ухода первого посетителя.",
+    "video_id": "Х-19"
+  },
+  {
+    "path": "evidence/Х-19_077.jpg",
+    "source": "full_review/frames/Х-19/overview-01.jpg",
+    "sha256": "314db18fd000f889135d9d9ef7499bfa6b91730f5b86fb2b50463ce14f677e2e",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-19"
+  },
+  {
+    "path": "evidence/Х-19_078.jpg",
+    "source": "full_review/frames/Х-19/sample-00009.jpg",
+    "sha256": "83054803e5d1a6acef0a9b9a43417ebc8660ec4014586deb0fd22ec89b7c11ff",
+    "source_pts_sec": 8.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-19"
+  },
+  {
+    "path": "evidence/Х-19_079.jpg",
+    "source": "full_review/frames/Х-19/sample-00010.jpg",
+    "sha256": "9599d47ca2a173110d28cc157468013b777e4a95c8443f1f4f92a092de18fc1c",
+    "source_pts_sec": 9.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-19"
+  },
+  {
+    "path": "evidence/Х-19_080.jpg",
+    "source": "full_review/frames/Х-19/sample-00012.jpg",
+    "sha256": "1e24678a72b02388df6f9b28bdefc2629575fd9cccfa84b700f28f3085719cdc",
+    "source_pts_sec": 11.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-19"
+  },
+  {
+    "path": "evidence/Х-19_081.jpg",
+    "source": "full_review/frames/Х-19/sample-00024.jpg",
+    "sha256": "0108684169f4e64954acbc25b1966ee425df858b10620af8b85bac60d949bb18",
+    "source_pts_sec": 23.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-19"
+  },
+  {
+    "path": "evidence/Х-19_082.jpg",
+    "source": "full_review/frames/Х-19/sample-00036.jpg",
+    "sha256": "903addc49ee009bb198ccbf479d8e8f038ab430530b5928bff3c3c697224c130",
+    "source_pts_sec": 35.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-19"
+  },
+  {
+    "path": "evidence/Х-19_083.jpg",
+    "source": "full_review/frames/Х-19/sample-00043.jpg",
+    "sha256": "913360a32dddd0454db1b2862dd7e51f4bf33bdd2dca75585496416fdfa55ea8",
+    "source_pts_sec": 42.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-19"
+  },
+  {
+    "path": "evidence/Х-19_084.jpg",
+    "source": "full_review/frames/Х-19/overview-03.jpg",
+    "sha256": "a1c10eef5f755fd12239c9ed9c10d5bf5df73dbf5d7f7ee111d478189f7f8027",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-19"
+  },
+  {
+    "path": "evidence/Х-19_085.jpg",
+    "source": "full_review/frames/Х-19/sample-00008.jpg",
+    "sha256": "8d61b799f0a0cab9b370de59286ca6f62eb58a5fd0ec4311f36b95806c2fc30b",
+    "source_pts_sec": 7.0,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-19"
+  },
+  {
+    "path": "evidence/Х-19_086.jpg",
+    "source": "full_review/frames/Х-19/sample-00011.jpg",
+    "sha256": "a636b623ec4627c0f424b958df696e110ec5d522334769fa0be1c1603fbd11ae",
+    "source_pts_sec": 10.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-19"
+  },
+  {
+    "path": "evidence/Х-20_087.jpg",
+    "source": "review_full/evidence/Х-20_01_0002.133s.jpg",
+    "sha256": "c92465f591b0776ed9101d9164776e0748a4d03a81c4e42b50374b77bf0667ed",
+    "source_pts_sec": 2.133333,
+    "caption": "Дверца открыта.",
+    "video_id": "Х-20"
+  },
+  {
+    "path": "evidence/Х-20_088.jpg",
+    "source": "review_full/evidence/Х-20_02_0003.733s.jpg",
+    "sha256": "0b4a47c6c09df3afe02e6b1379c74bc7d26265ece5ae4b61fd2e8026def8e658",
+    "source_pts_sec": 3.733333,
+    "caption": "Изъятие пачки из сейфа.",
+    "video_id": "Х-20"
+  },
+  {
+    "path": "evidence/Х-20_089.jpg",
+    "source": "review_full/evidence/Х-20_03_0005.600s.jpg",
+    "sha256": "ec321029b2d5a33a842f92929bb3ad30aafc4a70ee131609e59def5047e2a473",
+    "source_pts_sec": 5.6,
+    "caption": "Пересчёт при открытой дверце.",
+    "video_id": "Х-20"
+  },
+  {
+    "path": "evidence/Х-20_090.jpg",
+    "source": "review_full/evidence/Х-20_04_0010.667s.jpg",
+    "sha256": "06a8641d9c98ea1e441d8a7887816c9cfb2f31f326663b7687edcbf74e76e622",
+    "source_pts_sec": 10.666667,
+    "caption": "Дальнейшая работа при открытой дверце.",
+    "video_id": "Х-20"
+  },
+  {
+    "path": "evidence/Х-21_091.jpg",
+    "source": "review_full/evidence/Х-21_01_0005.000s.jpg",
+    "sha256": "dda861b23d7454118977d7eff3350ef22b803a592fb089d47cf243257be10975",
+    "source_pts_sec": null,
+    "caption": "Дверца закрывается.",
+    "video_id": "Х-21"
+  },
+  {
+    "path": "evidence/Х-21_092.jpg",
+    "source": "review_full/evidence/Х-21_02_0011.000s.jpg",
+    "sha256": "00e24278b5830380d5e3be58a98d0d1096607ecf8bf2c9bca1453610c4adc0b5",
+    "source_pts_sec": null,
+    "caption": "Работа продолжается при закрытой дверце.",
+    "video_id": "Х-21"
+  },
+  {
+    "path": "evidence/Х-21_093.jpg",
+    "source": "full_review/frames/Х-21/overview-01.jpg",
+    "sha256": "c7cb7422b3843cab69a24e22e7d51b6627a590229c1045161ce1b46b9f4d7a69",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-21"
+  },
+  {
+    "path": "evidence/Х-21_094.jpg",
+    "source": "full_review/dense/Х-21/dense-01.jpg",
+    "sha256": "3d905b05d453bd0fb74e29cd90e8be30ab0dfa2cc5a52af1c44893b78550cf12",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-21"
+  },
+  {
+    "path": "evidence/Х-21_095.jpg",
+    "source": "full_review/frames/Х-21/sample-00008.jpg",
+    "sha256": "cdd2982c6fbfbfaf1d2f2761f0f6f6feabdfb19ee7d6144ff9b7a80c1428ad72",
+    "source_pts_sec": 7.0,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-21"
+  },
+  {
+    "path": "evidence/Х-22_096.jpg",
+    "source": "review_full/evidence/Х-22_01_0013.100s.jpg",
+    "sha256": "01e51c4af7e725a74b2b72aadd1e9b0c32136bf83a095c396a7a8a91248d21fc",
+    "source_pts_sec": 13.1,
+    "caption": "Рука у замка.",
+    "video_id": "Х-22"
+  },
+  {
+    "path": "evidence/Х-22_097.jpg",
+    "source": "review_full/evidence/Х-22_02_0013.500s.jpg",
+    "sha256": "646a6d40e1878c51fa493f2c0c1e921c2b644ff65f9ba07d426471224c5b7eb2",
+    "source_pts_sec": 13.5,
+    "caption": "Рука отводится от дверцы.",
+    "video_id": "Х-22"
+  },
+  {
+    "path": "evidence/Х-22_098.jpg",
+    "source": "review_full/evidence/Х-22_03_0013.900s.jpg",
+    "sha256": "33fd0456af63f79c7e6c5fd0b4cef6c5e0cc5688f0acc01ba292148fac9b6540",
+    "source_pts_sec": 13.9,
+    "caption": "Небольшой выступ после движения руки.",
+    "video_id": "Х-22"
+  },
+  {
+    "path": "evidence/Х-22_099.jpg",
+    "source": "review_full/evidence/Х-22_04_0014.500s.jpg",
+    "sha256": "80f75e41b1d80d20bb73dca2ad04049a850e1cacf1146e1801179f1fb5f9b9d3",
+    "source_pts_sec": 14.5,
+    "caption": "Выступ остаётся после отхода.",
+    "video_id": "Х-22"
+  },
+  {
+    "path": "evidence/Х-23_100.jpg",
+    "source": "review_full/evidence/Х-23_01_0011.500s.jpg",
+    "sha256": "28996ecc72b0f416f1a69f4af472398fc66324b47679835d4c5efc4ab545d05b",
+    "source_pts_sec": null,
+    "caption": "Завершается извлекающее движение у замка.",
+    "video_id": "Х-23"
+  },
+  {
+    "path": "evidence/Х-23_101.jpg",
+    "source": "review_full/evidence/Х-23_02_0012.500s.jpg",
+    "sha256": "5d91a2c82f09f0915e199a3e8d6bb7f6a52f4f3aef7ee6172263ee66f86d0822",
+    "source_pts_sec": null,
+    "caption": "Рука отведена; прежнего выступа не видно.",
+    "video_id": "Х-23"
+  },
+  {
+    "path": "evidence/Х-23_102.jpg",
+    "source": "full_review/frames/Х-23/sample-00006.jpg",
+    "sha256": "734744706d35b0aa83aa7ee308e8e81d5473a606a9e997aab2b22f1d25baf2ad",
+    "source_pts_sec": 5.0,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-23"
+  },
+  {
+    "path": "evidence/Х-23_103.jpg",
+    "source": "full_review/dense/Х-23/dense-01.jpg",
+    "sha256": "98040cb6f67e49fda43c3afc49ac3a31f9bda2c85821b7b045dc5fcfb8858800",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-23"
+  },
+  {
+    "path": "evidence/Х-23_104.jpg",
+    "source": "full_review/dense/Х-23/dense-02.jpg",
+    "sha256": "81261d1d6e8dc9db46df3e1e2fb9f45b41e4d1e91619bfc6033800e734c3bbb6",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-23"
+  },
+  {
+    "path": "evidence/Х-23_105.jpg",
+    "source": "full_review/dense/Х-23/0011.50.jpg",
+    "sha256": "4f0d8c23d8628e42c8627fbcdd9361e69ee917c55a7d6deeb1a936a29cf8bf3a",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-23"
+  },
+  {
+    "path": "evidence/Х-23_106.jpg",
+    "source": "full_review/frames/Х-23/end.jpg",
+    "sha256": "43a59489edd9be9b8277a87ea3022c0f7d915be13858825729b1f3c3768ee948",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-23"
+  },
+  {
+    "path": "evidence/Х-24_107.jpg",
+    "source": "review_full/evidence/Х-24_01_0001.600s.jpg",
+    "sha256": "789101cf3053cdc2547e6b375a18c185b1f453e62f706a2ff28c7703004b975b",
+    "source_pts_sec": 1.6,
+    "caption": "Перелистывание книги.",
+    "video_id": "Х-24"
+  },
+  {
+    "path": "evidence/Х-24_108.jpg",
+    "source": "review_full/evidence/Х-24_02_0003.467s.jpg",
+    "sha256": "82da9aae27dfa98cd7ff2ac3e7819ff78bb9a08387f48c9fc84ee591fd3e90da",
+    "source_pts_sec": 3.466667,
+    "caption": "Книга закрыта.",
+    "video_id": "Х-24"
+  },
+  {
+    "path": "evidence/Х-24_109.jpg",
+    "source": "review_full/evidence/Х-24_03_0005.333s.jpg",
+    "sha256": "c35015034a5e4a700ee487bd2079aa18c214578d195047c9d622690734c89b9c",
+    "source_pts_sec": 5.333333,
+    "caption": "Начало ухода; предметы на столе.",
+    "video_id": "Х-24"
+  },
+  {
+    "path": "evidence/Х-24_110.jpg",
+    "source": "review_full/evidence/Х-24_04_0008.800s.jpg",
+    "sha256": "70f07f14f30147967033c2bea2278762f6f013cc9b4127dacfec48ee87d97687",
+    "source_pts_sec": 8.8,
+    "caption": "Закрытая книга и предметы после ухода.",
+    "video_id": "Х-24"
+  },
+  {
+    "path": "evidence/Х-25_111.jpg",
+    "source": "review_full/evidence/Х-25_01_0016.033s.jpg",
+    "sha256": "93e2a18eff874abe9dba8422c3439bdcab3639698c2b17c8c390d0a64b7285e1",
+    "source_pts_sec": 16.033333,
+    "caption": "Небольшие предметы перемещаются в сейф.",
+    "video_id": "Х-25"
+  },
+  {
+    "path": "evidence/Х-25_112.jpg",
+    "source": "review_full/evidence/Х-25_02_0029.033s.jpg",
+    "sha256": "0a3aae44d136d97b9962055fb0f6e03ae98c71d76d26ff144ed25e7eead5daf1",
+    "source_pts_sec": 29.033333,
+    "caption": "После ухода соответствующие предметы убраны со стола.",
+    "video_id": "Х-25"
+  },
+  {
+    "path": "evidence/Х-25_113.jpg",
+    "source": "full_review/frames/Х-25/sample-00014.jpg",
+    "sha256": "3e6fc3cbe45f7fe769fd22a2cbeb95bde8cbc37e66661d056c7425f1dad1cc72",
+    "source_pts_sec": 13.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-25"
+  },
+  {
+    "path": "evidence/Х-25_114.jpg",
+    "source": "full_review/frames/Х-25/sample-00022.jpg",
+    "sha256": "879fc4a80c6dfcd6a878983968b79a5b029a91a33728ececfd1539c1494bdc6c",
+    "source_pts_sec": 21.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-25"
+  },
+  {
+    "path": "evidence/Х-25_115.jpg",
+    "source": "full_review/frames/Х-25/sample-00026.jpg",
+    "sha256": "1105a28c62fe71129613c2b893111c90e4666d0b2b709016a61416b06c210203",
+    "source_pts_sec": 25.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-25"
+  },
+  {
+    "path": "evidence/Х-25_116.jpg",
+    "source": "full_review/frames/Х-25/overview-01.jpg",
+    "sha256": "bb3099a744cc9a3fccd7d325d07953532000012ccf90537da8930efea95ac5b2",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-25"
+  },
+  {
+    "path": "evidence/Х-25_117.jpg",
+    "source": "full_review/frames/Х-25/overview-02.jpg",
+    "sha256": "c2e02071c63404e93a1e7d04ca0fa903d5819db4cdb04136072fbf3d606e218e",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-25"
+  },
+  {
+    "path": "evidence/Х-26_118.jpg",
+    "source": "review_full/evidence/Х-26_01_0007.200s.jpg",
+    "sha256": "c977949f8ebf43516d2bb8c230d8a1b719a75e43861d202880089570f14f33b1",
+    "source_pts_sec": 7.2,
+    "caption": "Деньги ещё в руках.",
+    "video_id": "Х-26"
+  },
+  {
+    "path": "evidence/Х-26_119.jpg",
+    "source": "review_full/evidence/Х-26_02_0008.000s.jpg",
+    "sha256": "f708e4ed2b12c8d8acd9475d8d6820e0b81930882f163b412bf67992f3a26299",
+    "source_pts_sec": 8.0,
+    "caption": "Пачка положена на стол.",
+    "video_id": "Х-26"
+  },
+  {
+    "path": "evidence/Х-26_120.jpg",
+    "source": "review_full/evidence/Х-26_03_0010.133s.jpg",
+    "sha256": "520f373a7cee14d28de21f35c518ed3a363987ae7827c523555dcddb8a4d0500",
+    "source_pts_sec": 10.133333,
+    "caption": "Сотрудник встаёт, пачка остаётся.",
+    "video_id": "Х-26"
+  },
+  {
+    "path": "evidence/Х-26_121.jpg",
+    "source": "review_full/evidence/Х-26_04_0013.867s.jpg",
+    "sha256": "da0b7c230472db09546d78e6fe96376c45756f20f0de47014bc76f2e23c2258a",
+    "source_pts_sec": 13.866667,
+    "caption": "Сотрудник выходит; пачка на столе.",
+    "video_id": "Х-26"
+  },
+  {
+    "path": "evidence/Х-27_122.jpg",
+    "source": "review_full/evidence/Х-27_01_0013.033s.jpg",
+    "sha256": "48382cc01f3a451b696a0dd435d9f0ecdc02a5fa56cb5bf50cfe84961c290f0b",
+    "source_pts_sec": 13.033333,
+    "caption": "Стопка помещается в сейф.",
+    "video_id": "Х-27"
+  },
+  {
+    "path": "evidence/Х-27_123.jpg",
+    "source": "review_full/evidence/Х-27_02_0023.033s.jpg",
+    "sha256": "cb12e4f48932128da8fdd8128f329df7d2e40ebc6a184c05ae7815cace493406",
+    "source_pts_sec": 23.033333,
+    "caption": "После ухода стопки на столе нет.",
+    "video_id": "Х-27"
+  },
+  {
+    "path": "evidence/Х-27_124.jpg",
+    "source": "full_review/frames/Х-27/sample-00008.jpg",
+    "sha256": "558d08af8487a2da33b0c895528fa5508c8f4c4c44dc0fe83b2b7230b1b4db9c",
+    "source_pts_sec": 7.0,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-27"
+  },
+  {
+    "path": "evidence/Х-27_125.jpg",
+    "source": "full_review/frames/Х-27/sample-00014.jpg",
+    "sha256": "4b139d2aa98fbd864d48ec3ecdc31e8dd8ad61a55f3cd16578ed60aeeae09ab3",
+    "source_pts_sec": 13.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-27"
+  },
+  {
+    "path": "evidence/Х-27_126.jpg",
+    "source": "full_review/frames/Х-27/sample-00018.jpg",
+    "sha256": "fa6dac704df8d0d813720959a0c6e57966878c6827fc4adbb6ee9415485aae96",
+    "source_pts_sec": 17.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-27"
+  },
+  {
+    "path": "evidence/Х-27_127.jpg",
+    "source": "full_review/frames/Х-27/sample-00020.jpg",
+    "sha256": "bdfead9d1a610b017b816051b1ba76d1bf50f5639868175c2ee266ae1be2f32c",
+    "source_pts_sec": 19.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-27"
+  },
+  {
+    "path": "evidence/Х-27_128.jpg",
+    "source": "full_review/frames/Х-27/overview-01.jpg",
+    "sha256": "ecc011d890c78ecc7b8bdb9b9cdd0fe177bb8b730e47fcbca3e060aab008719c",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-27"
+  },
+  {
+    "path": "evidence/Х-27_129.jpg",
+    "source": "full_review/frames/Х-27/overview-02.jpg",
+    "sha256": "2b96aa4d0abdd3e4b6e2f122205858488f0dc45180bbf49bb797ee3110ad88dd",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-27"
+  },
+  {
+    "path": "evidence/Х-28_130.jpg",
+    "source": "review_full/evidence/Х-28_01_0005.600s.jpg",
+    "sha256": "34654a5d2331ad9f6e67ef5849a4065155471233862d5ab3faddd3f779423864",
+    "source_pts_sec": 5.6,
+    "caption": "Последние видимые действия у ноутбука.",
+    "video_id": "Х-28"
+  },
+  {
+    "path": "evidence/Х-28_131.jpg",
+    "source": "review_full/evidence/Х-28_02_0007.200s.jpg",
+    "sha256": "b64dce28b5d3e38b2b0876bce4c89a680e05df9ba80117ff8e8399f270019947",
+    "source_pts_sec": 7.2,
+    "caption": "Сотрудник отошёл от клавиатуры.",
+    "video_id": "Х-28"
+  },
+  {
+    "path": "evidence/Х-28_132.jpg",
+    "source": "review_full/evidence/Х-28_03_0011.200s.jpg",
+    "sha256": "ce41584db1732ff56fe24db4d4a1886da8f3b0c84c0b8bea0e10015f12294de9",
+    "source_pts_sec": 11.2,
+    "caption": "Выход из рабочей зоны.",
+    "video_id": "Х-28"
+  },
+  {
+    "path": "evidence/Х-28_133.jpg",
+    "source": "review_full/evidence/Х-28_04_0013.867s.jpg",
+    "sha256": "1875cd6425ec890dda490c0a12744f6a1b5095ee3f0f2bf0eea16a1536adff80",
+    "source_pts_sec": 13.866667,
+    "caption": "Окно остаётся на экране после ухода.",
+    "video_id": "Х-28"
+  },
+  {
+    "path": "evidence/Х-29_134.jpg",
+    "source": "review_full/evidence/Х-29_01_0007.000s.jpg",
+    "sha256": "985c3385b16d43740008fa7f10fecfe19a04e4ddd0b417278e508174fab9d45e",
+    "source_pts_sec": 7.0,
+    "caption": "Экран изменён перед оставлением рабочего места.",
+    "video_id": "Х-29"
+  },
+  {
+    "path": "evidence/Х-29_135.jpg",
+    "source": "review_full/evidence/Х-29_02_0014.033s.jpg",
+    "sha256": "5f404b59f7c7fb06413c2d7c1b053e084c7627036be64efa0af17f8d69d473fc",
+    "source_pts_sec": 14.033333,
+    "caption": "После ухода рабочее окно не отображается.",
+    "video_id": "Х-29"
+  },
+  {
+    "path": "evidence/Х-29_136.jpg",
+    "source": "full_review/frames/Х-29/sample-00006.jpg",
+    "sha256": "23208a592ff2e092f10c56b3d68f7e595c693481ef3efd90a85e26fd2e204091",
+    "source_pts_sec": 5.0,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-29"
+  },
+  {
+    "path": "evidence/Х-29_137.jpg",
+    "source": "full_review/frames/Х-29/sample-00007.jpg",
+    "sha256": "64432315cf8b2ee8900ea455c72858d99209b9e4ab1f7672813ed33fec9ba664",
+    "source_pts_sec": 6.0,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-29"
+  },
+  {
+    "path": "evidence/Х-29_138.jpg",
+    "source": "full_review/frames/Х-29/sample-00008.jpg",
+    "sha256": "6e2744aafda57ff7685f4c884925dbe80c0540c324917d542ea49936fc1af573",
+    "source_pts_sec": 7.0,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-29"
+  },
+  {
+    "path": "evidence/Х-29_139.jpg",
+    "source": "full_review/frames/Х-29/sample-00018.jpg",
+    "sha256": "0a4f4aeb31cb1a0628b41887393ba874819f7a527b02d21abdc114946a038b5c",
+    "source_pts_sec": 17.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-29"
+  },
+  {
+    "path": "evidence/Х-29_140.jpg",
+    "source": "full_review/frames/Х-29/overview-01.jpg",
+    "sha256": "86fa4227123cf9f5e966fb0104508bc0080533bc7b8d3c51727abb62ba0e0d1a",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-29"
+  },
+  {
+    "path": "evidence/Х-30_141.jpg",
+    "source": "review_full/evidence/Х-30_01_0012.267s.jpg",
+    "sha256": "65cffee1120ec692fa88eaa619735813830f8ff64104648adde903b40ad2c928",
+    "source_pts_sec": 12.266667,
+    "caption": "Подход к рабочей части.",
+    "video_id": "Х-30"
+  },
+  {
+    "path": "evidence/Х-30_142.jpg",
+    "source": "review_full/evidence/Х-30_02_0012.800s.jpg",
+    "sha256": "b54061edb6597286f3442835f6b0b852438dd1abcadac5729aaa03d5ad932eb0",
+    "source_pts_sec": 12.8,
+    "caption": "Вход через дверной проход.",
+    "video_id": "Х-30"
+  },
+  {
+    "path": "evidence/Х-30_143.jpg",
+    "source": "review_full/evidence/Х-30_03_0013.333s.jpg",
+    "sha256": "6ae85e1450507acb2cfdccda8404a33d4a14ede1fedf12688eac3eafef62db38",
+    "source_pts_sec": 13.333333,
+    "caption": "Человек за рабочим столом.",
+    "video_id": "Х-30"
+  },
+  {
+    "path": "evidence/Х-30_144.jpg",
+    "source": "review_full/evidence/Х-30_04_0017.333s.jpg",
+    "sha256": "aa1d05c66f3330b5a6996c9a4a12cf539789f7d00a41063b071f7816f251a800",
+    "source_pts_sec": 17.333333,
+    "caption": "Оба остаются в рабочей части.",
+    "video_id": "Х-30"
+  },
+  {
+    "path": "evidence/Х-31_145.jpg",
+    "source": "review_full/evidence/Х-31_01_0010.033s.jpg",
+    "sha256": "2fe15d24538c4ffc6d4511f0dcad771e8e094526ef502cedeed398d2553266a0",
+    "source_pts_sec": 10.033333,
+    "caption": "Дверь закрыта после входа.",
+    "video_id": "Х-31"
+  },
+  {
+    "path": "evidence/Х-31_146.jpg",
+    "source": "review_full/evidence/Х-31_02_0018.033s.jpg",
+    "sha256": "657efe14943d85c3a6d5b2936a1db8dc2408816136facfceee520a8591dec1fd",
+    "source_pts_sec": 18.033333,
+    "caption": "Сотрудница работает при закрытой двери.",
+    "video_id": "Х-31"
+  },
+  {
+    "path": "evidence/Х-31_147.jpg",
+    "source": "full_review/frames/Х-31/overview-01.jpg",
+    "sha256": "e63f6f4c0efb1495c320a703328f0dd21516ab0a4fba5830ae0e90d1b0bd49d6",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-31"
+  },
+  {
+    "path": "evidence/Х-31_148.jpg",
+    "source": "full_review/frames/Х-31/sample-00020.jpg",
+    "sha256": "96a2ae2a94aa3bdbe96df2dc93126ecc3a15a88ea391165caa10706bcab39953",
+    "source_pts_sec": 19.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-31"
+  },
+  {
+    "path": "evidence/Х-31_149.jpg",
+    "source": "full_review/frames/Х-31/sample-00023.jpg",
+    "sha256": "a23c84b2ecbe1d98a6ef04ec81faf6272f50927131cecad2bda4429226dcef2f",
+    "source_pts_sec": 22.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-31"
+  },
+  {
+    "path": "evidence/Х-32_150.jpg",
+    "source": "review_full/evidence/Х-32_01_0004.600s.jpg",
+    "sha256": "4c0a45e62b04c092d41939f0cca79ce3e2afebb852cc30152ac1b740999ba6b4",
+    "source_pts_sec": 4.6,
+    "caption": "Вход в рабочую зону.",
+    "video_id": "Х-32"
+  },
+  {
+    "path": "evidence/Х-32_151.jpg",
+    "source": "review_full/evidence/Х-32_02_0007.533s.jpg",
+    "sha256": "035114582614018f4ad2c0ced399fcdd8652d92b547955d789b534826f7b6ea5",
+    "source_pts_sec": 7.533333,
+    "caption": "Подход к столу при открытом проходе.",
+    "video_id": "Х-32"
+  },
+  {
+    "path": "evidence/Х-32_152.jpg",
+    "source": "review_full/evidence/Х-32_03_0009.400s.jpg",
+    "sha256": "03d4e05ac13a4002138fd858adce5eeb5a753d3d9a00d05e672b2f6c49cb3a24",
+    "source_pts_sec": 9.4,
+    "caption": "Сотрудник садится.",
+    "video_id": "Х-32"
+  },
+  {
+    "path": "evidence/Х-32_153.jpg",
+    "source": "review_full/evidence/Х-32_04_0011.800s.jpg",
+    "sha256": "3af4cce6d3d7edfc006e027232173269df470605eccb45975dfe8dadd5808a99",
+    "source_pts_sec": 11.8,
+    "caption": "Работа продолжается; других входящих не видно.",
+    "video_id": "Х-32"
+  },
+  {
+    "path": "evidence/Х-33_154.jpg",
+    "source": "review_full/evidence/Х-33_01_0005.600s.jpg",
+    "sha256": "6846055fe26166922db253231e91b2523e008e07cacc6954c88e28dd7ab2edcd",
+    "source_pts_sec": 5.6,
+    "caption": "Открытый вход и рабочее место, 5,6 с",
+    "video_id": "Х-33"
+  },
+  {
+    "path": "evidence/Х-33_155.jpg",
+    "source": "review_full/evidence/Х-33_02_0008.800s.jpg",
+    "sha256": "f404fd0258a03f45556aae1bd90814fb0507fdc12ba8f16b9c7941a11b0022ef",
+    "source_pts_sec": 8.8,
+    "caption": "Открытый вход и рабочее место, 8,8 с",
+    "video_id": "Х-33"
+  },
+  {
+    "path": "evidence/Х-33_156.jpg",
+    "source": "review_full/evidence/Х-33_03_0010.667s.jpg",
+    "sha256": "f36bcb2946555a644778e27894fb2cb4b3a4b960000d5568babc3a1012ade69b",
+    "source_pts_sec": 10.666667,
+    "caption": "Открытый вход и рабочее место, 10,6667 с",
+    "video_id": "Х-33"
+  },
+  {
+    "path": "evidence/Х-33_157.jpg",
+    "source": "review_full/evidence/Х-33_04_0012.800s.jpg",
+    "sha256": "de4c3b1f4db757a0c3c520640a52460ad94b1bf241b1d107d806ce2ee33bccde",
+    "source_pts_sec": 12.8,
+    "caption": "Открытый вход и рабочее место, 12,8 с",
+    "video_id": "Х-33"
+  },
+  {
+    "path": "evidence/Х-34_158.jpg",
+    "source": "review_full/evidence/Х-34_01_0009.033s.jpg",
+    "sha256": "a2d2bf9daa2452364047ecec4235ebad6f45ceb72a4021a4fd5d6d887acb2c18",
+    "source_pts_sec": 9.033333,
+    "caption": "Передача наличных клиентом.",
+    "video_id": "Х-34"
+  },
+  {
+    "path": "evidence/Х-34_159.jpg",
+    "source": "review_full/evidence/Х-34_02_0013.033s.jpg",
+    "sha256": "2c1aa9e1bb0682a60b9780acc46089f8563af35e4ff89bfae7b67e82baa1b404",
+    "source_pts_sec": 13.033333,
+    "caption": "Клиент уходит при загрузке денег в машину.",
+    "video_id": "Х-34"
+  },
+  {
+    "path": "evidence/Х-34_160.jpg",
+    "source": "review_full/evidence/Х-34_03_0017.033s.jpg",
+    "sha256": "12784c3b5ac72e4b06939e0811ff3a7e15c7a9056eeed00cac9c161cfedc859f",
+    "source_pts_sec": 17.033333,
+    "caption": "Пересчёт продолжается без клиента у кассы.",
+    "video_id": "Х-34"
+  },
+  {
+    "path": "evidence/Х-35_161.jpg",
+    "source": "review_full/evidence/Х-35_01_0017.033s.jpg",
+    "sha256": "a275a49898abb2f4727b46e00a269cc44d6a7119bbb53dc1cb62fda1f898bcae",
+    "source_pts_sec": 17.033333,
+    "caption": "Клиент присутствует при машинном пересчёте.",
+    "video_id": "Х-35"
+  },
+  {
+    "path": "evidence/Х-35_162.jpg",
+    "source": "review_full/evidence/Х-35_02_0044.033s.jpg",
+    "sha256": "b106fce00ee81d7a0161a5c5b027ff7621c3c10285efbb88d58a2e4952d4c697",
+    "source_pts_sec": 44.033333,
+    "caption": "Деньги перемещаются в сейф при остающемся клиенте.",
+    "video_id": "Х-35"
+  },
+  {
+    "path": "evidence/Х-35_163.jpg",
+    "source": "full_review/frames/Х-35/overview-01.jpg",
+    "sha256": "42e4af88c502cf3cdb023e66a4900a005dd26b854d1863d357a65d612d21066e",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-35"
+  },
+  {
+    "path": "evidence/Х-35_164.jpg",
+    "source": "full_review/frames/Х-35/overview-02.jpg",
+    "sha256": "a3c61bcf69bf3160a15b249dafa0b160ee57b2d232f037b739c5c1891497b6d3",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-35"
+  },
+  {
+    "path": "evidence/Х-35_165.jpg",
+    "source": "full_review/frames/Х-35/overview-03.jpg",
+    "sha256": "3168e9c87b86f586256ceca57d60b4dde966af3ceaf31ea3135744b6a9d06459",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-35"
+  },
+  {
+    "path": "evidence/Х-35_166.jpg",
+    "source": "full_review/frames/Х-35/sample-00009.jpg",
+    "sha256": "8fe8ae2707047282a8cfafb936c9001e8d88a6f95623fc311b04909ffd87251b",
+    "source_pts_sec": 8.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-35"
+  },
+  {
+    "path": "evidence/Х-35_167.jpg",
+    "source": "full_review/frames/Х-35/sample-00011.jpg",
+    "sha256": "dc3373640503cccf165c596c5e940aa01055224c0af90a8fcd7905c78c2144a8",
+    "source_pts_sec": 10.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-35"
+  },
+  {
+    "path": "evidence/Х-35_168.jpg",
+    "source": "full_review/frames/Х-35/sample-00013.jpg",
+    "sha256": "18d424354fd088d59796473c81f73e8bc1db39fd66cdd3abe312750bf48fa810",
+    "source_pts_sec": 12.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-35"
+  },
+  {
+    "path": "evidence/Х-35_169.jpg",
+    "source": "full_review/frames/Х-35/sample-00031.jpg",
+    "sha256": "4e6ba53cca0b634d8a51506323c9805faf4ecc09ac4c151482199ed660878f5f",
+    "source_pts_sec": 30.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-35"
+  },
+  {
+    "path": "evidence/Х-35_170.jpg",
+    "source": "full_review/frames/Х-35/sample-00035.jpg",
+    "sha256": "6f60dc995c43bdff29938e3e4cb4bec0034e96892426d320981338007ae35c04",
+    "source_pts_sec": 34.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-35"
+  },
+  {
+    "path": "evidence/Х-35_171.jpg",
+    "source": "full_review/frames/Х-35/sample-00044.jpg",
+    "sha256": "48b9632e161699ee0ecaf091864b58a191e49eb15d1e3ef3570bf3e2ecefa505",
+    "source_pts_sec": 43.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-35"
+  },
+  {
+    "path": "evidence/Х-37_172.jpg",
+    "source": "review_full/evidence/Х-37_01_0009.033s.jpg",
+    "sha256": "5c525a22c93dc46869bd6fc708c0281d98f019c3e1091d25e627073bcc5701cc",
+    "source_pts_sec": 9.033333,
+    "caption": "Передача денег клиентом.",
+    "video_id": "Х-37"
+  },
+  {
+    "path": "evidence/Х-37_173.jpg",
+    "source": "review_full/evidence/Х-37_02_0015.033s.jpg",
+    "sha256": "e30b671ead55984e8baa66a7fe9b631bfb2778fafa41e825b00cd79b55308f60",
+    "source_pts_sec": 15.033333,
+    "caption": "Клиент остаётся во время работы машины.",
+    "video_id": "Х-37"
+  },
+  {
+    "path": "evidence/Х-37_174.jpg",
+    "source": "full_review/frames/Х-37/overview-01.jpg",
+    "sha256": "a92dc16a3841a96e8893fde699486e0386a50ec4a767252e6e1df129eac0ebbb",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-37"
+  },
+  {
+    "path": "evidence/Х-37_175.jpg",
+    "source": "full_review/frames/Х-37/sample-00009.jpg",
+    "sha256": "efac8cd9de6fcc613578d719fd9d82916daedb97dace9cee2e4c9aeb931d3ee1",
+    "source_pts_sec": 8.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-37"
+  },
+  {
+    "path": "evidence/Х-37_176.jpg",
+    "source": "full_review/frames/Х-37/sample-00010.jpg",
+    "sha256": "88b6ed267f24eed3c937942eebb28a11c5bb129d5e66f48530ce4dcb9defac2e",
+    "source_pts_sec": 9.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-37"
+  },
+  {
+    "path": "evidence/Х-37_177.jpg",
+    "source": "full_review/frames/Х-37/sample-00013.jpg",
+    "sha256": "47dcb2057a217adbcc3b5654120db4e2e1323c8eee9d768af33821fc2e6437cf",
+    "source_pts_sec": 12.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-37"
+  },
+  {
+    "path": "evidence/Х-37_178.jpg",
+    "source": "full_review/frames/Х-37/end.jpg",
+    "sha256": "46b3e8322fd5f8563520a00a783f38515794c656dc0c13ab5f316c4cedb3a51a",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-37"
+  },
+  {
+    "path": "evidence/Х-37_179.jpg",
+    "source": "full_review/frames/Х-37/sample-00012.jpg",
+    "sha256": "3386b297cbcbc51d892caf00ac4ec5032e383996a06e70c962466005f8779d0c",
+    "source_pts_sec": 11.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-37"
+  },
+  {
+    "path": "evidence/Х-38_180.jpg",
+    "source": "review_full/evidence/Х-38_01_0029.033s.jpg",
+    "sha256": "5ab68e19b078ad4d3bc6af4a650cdc0e48df32e143cc6f3cd0327ed81424ef4d",
+    "source_pts_sec": 29.033333,
+    "caption": "Первая стопка остаётся после первого обслуживания.",
+    "video_id": "Х-38"
+  },
+  {
+    "path": "evidence/Х-38_181.jpg",
+    "source": "review_full/evidence/Х-38_02_0037.033s.jpg",
+    "sha256": "562708b75dda02b8ba732c0ccaeeb4b953536fcece3e217e5ac647bd7531905a",
+    "source_pts_sec": 37.033333,
+    "caption": "Следующая клиентка передаёт банкноты.",
+    "video_id": "Х-38"
+  },
+  {
+    "path": "evidence/Х-38_182.jpg",
+    "source": "review_full/evidence/Х-38_03_0058.033s.jpg",
+    "sha256": "19fd1d462019ac9c301aaa834a3d06f13dea8a6425ee955a3756604e6c8ad3d1",
+    "source_pts_sec": 58.033333,
+    "caption": "После второго пересчёта рядом находятся обе стопки.",
+    "video_id": "Х-38"
+  },
+  {
+    "path": "evidence/Х-39_183.jpg",
+    "source": "review_full/evidence/Х-39_01_0034.033s.jpg",
+    "sha256": "ea546681d5fe1a92ccc673ee960aadf69cf210a6bef9136318da3ff8927c4e94",
+    "source_pts_sec": 34.033333,
+    "caption": "Первая наличность убирается в сейф.",
+    "video_id": "Х-39"
+  },
+  {
+    "path": "evidence/Х-39_184.jpg",
+    "source": "review_full/evidence/Х-39_02_0054.033s.jpg",
+    "sha256": "8d40fb2f0b6c0d3e2eaf984c3c39a386498f013a790ed5a81e3058cda23e84b6",
+    "source_pts_sec": 54.033333,
+    "caption": "Следующая наличность принимается после уборки первой.",
+    "video_id": "Х-39"
+  },
+  {
+    "path": "evidence/Х-39_185.jpg",
+    "source": "full_review/frames/Х-39/overview-01.jpg",
+    "sha256": "4fa8cc878da53204133e8287e64e81af2cce1a8789d29cb49f9d54bc490842f9",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-39"
+  },
+  {
+    "path": "evidence/Х-39_186.jpg",
+    "source": "full_review/frames/Х-39/overview-02.jpg",
+    "sha256": "e8ec5917affbceae03b409698f8fa4c090283ae0fdaa5e1c86406244bf2d1935",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-39"
+  },
+  {
+    "path": "evidence/Х-39_187.jpg",
+    "source": "full_review/frames/Х-39/overview-03.jpg",
+    "sha256": "7c363ae981d4c01b5adf3c6889c969cc802e2ca33c0df2e554cddcbbfdcb1cf1",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-39"
+  },
+  {
+    "path": "evidence/Х-39_188.jpg",
+    "source": "full_review/frames/Х-39/overview-04.jpg",
+    "sha256": "3f57f4760029fd71426e8d6561271a241cd3bafb50cc5763406813263487ce54",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-39"
+  },
+  {
+    "path": "evidence/Х-39_189.jpg",
+    "source": "full_review/frames/Х-39/sample-00008.jpg",
+    "sha256": "06e6f919df97f7ddce5f4115cc17277caf3519af38773c514a06daad79c3825b",
+    "source_pts_sec": 7.0,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-39"
+  },
+  {
+    "path": "evidence/Х-39_190.jpg",
+    "source": "full_review/frames/Х-39/sample-00010.jpg",
+    "sha256": "8cda361686eb5986d74cee8023ad5eddce01cb20b21307975534863dae8352ac",
+    "source_pts_sec": 9.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-39"
+  },
+  {
+    "path": "evidence/Х-39_191.jpg",
+    "source": "full_review/frames/Х-39/sample-00033.jpg",
+    "sha256": "e4119e8938c3a8e017948a9e50d11d371a8aab4ed86d3562f69f5efef893d956",
+    "source_pts_sec": 32.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-39"
+  },
+  {
+    "path": "evidence/Х-39_192.jpg",
+    "source": "full_review/frames/Х-39/sample-00038.jpg",
+    "sha256": "6052936f4f0c21ed0f25f9e94184acc973872b81e90a95b20432e472de21ef9f",
+    "source_pts_sec": 37.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-39"
+  },
+  {
+    "path": "evidence/Х-39_193.jpg",
+    "source": "full_review/frames/Х-39/sample-00051.jpg",
+    "sha256": "9045d65f11fb1cf9468979fc5816bd83bfe7b4145165bcc696cab0192ace0989",
+    "source_pts_sec": 50.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-39"
+  },
+  {
+    "path": "evidence/Х-39_194.jpg",
+    "source": "full_review/frames/Х-39/sample-00057.jpg",
+    "sha256": "62304d01e30ab484cf4e4a1e15dff4f348e9573c08cb276f2f577b03828aaa77",
+    "source_pts_sec": 56.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-39"
+  },
+  {
+    "path": "evidence/Х-39_195.jpg",
+    "source": "full_review/frames/Х-39/sample-00070.jpg",
+    "sha256": "c3ac7244c4a30e2b97c40523ed65da281d872e260506ecfe7e4645a4c0d48f88",
+    "source_pts_sec": 69.066667,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-39"
+  },
+  {
+    "path": "evidence/Х-39_196.jpg",
+    "source": "full_review/frames/Х-39/sample-00073.jpg",
+    "sha256": "3023212d227719450ca95a1c38fdf30ab41e6e2240d5cee6fb17f5ee6cf62664",
+    "source_pts_sec": 72.066667,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-39"
+  },
+  {
+    "path": "evidence/Х-39_197.jpg",
+    "source": "full_review/frames/Х-39/sample-00022.jpg",
+    "sha256": "955f84cabea63d361f33afd39a84a13199e082f70df6b0eb3244da4771755ce8",
+    "source_pts_sec": 21.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-39"
+  },
+  {
+    "path": "evidence/Х-39_198.jpg",
+    "source": "full_review/frames/Х-39/sample-00054.jpg",
+    "sha256": "78a22d10014004db454596f3d83fa37bc18d730cf2907190e339125d40596a32",
+    "source_pts_sec": 53.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-39"
+  },
+  {
+    "path": "evidence/Х-40_199.jpg",
+    "source": "review_full/evidence/Х-40_01_0010.033s.jpg",
+    "sha256": "0802f13289f9716de8bbace76ff152c53febd243b6583c06c0e4404fc42687af",
+    "source_pts_sec": 10.033333,
+    "caption": "Личная сумка размещена на рабочем столе.",
+    "video_id": "Х-40"
+  },
+  {
+    "path": "evidence/Х-40_200.jpg",
+    "source": "review_full/evidence/Х-40_02_0015.033s.jpg",
+    "sha256": "1d6804b91d131fd54a1a71e6a1c29f5a540b0eafe26018388534374787296c88",
+    "source_pts_sec": 15.033333,
+    "caption": "Верхняя одежда также оставлена в рабочей зоне.",
+    "video_id": "Х-40"
+  },
+  {
+    "path": "evidence/Х-40_201.jpg",
+    "source": "review_full/evidence/Х-40_03_0021.033s.jpg",
+    "sha256": "fdde874e77f94679b390536d5bc0bc2c7c03feed2539b3f1382b029057036347",
+    "source_pts_sec": 21.033333,
+    "caption": "Сотрудница работает, вещи остаются рядом.",
+    "video_id": "Х-40"
+  },
+  {
+    "path": "evidence/Х-43_202.jpg",
+    "source": "review_full/evidence/Х-43_01_0015.033s.jpg",
+    "sha256": "ebaccd80612406b237205b47846b28bee321d4987cb7b32d13c62e274c1ac69d",
+    "source_pts_sec": 15.033333,
+    "caption": "Банкноты подносятся к отдельному прибору.",
+    "video_id": "Х-43"
+  },
+  {
+    "path": "evidence/Х-43_203.jpg",
+    "source": "review_full/evidence/Х-43_02_0022.033s.jpg",
+    "sha256": "52572780fc0f80e86f239367e18bf6ced04e9f7e0e82ec00849361f0dcc53a74",
+    "source_pts_sec": 22.033333,
+    "caption": "Банкноты в завершающей части обработки; раздельность стопок не подтверждена",
+    "video_id": "Х-43"
+  },
+  {
+    "path": "evidence/Х-43_204.jpg",
+    "source": "full_review/frames/Х-43/overview-01.jpg",
+    "sha256": "a9eee55efcda40f328df482ebd15b84333464924ab54569764358a84b1b4da27",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-43"
+  },
+  {
+    "path": "evidence/Х-43_205.jpg",
+    "source": "full_review/frames/Х-43/sample-00002.jpg",
+    "sha256": "b6f6750e0666e426c013725965ed13bd686ce53b33592cb4713860bf7a33df58",
+    "source_pts_sec": 1.0,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-43"
+  },
+  {
+    "path": "evidence/Х-43_206.jpg",
+    "source": "full_review/frames/Х-43/sample-00009.jpg",
+    "sha256": "f4606937ef158d9405085e0d77e645b6fdbeac9a34fc894928d0b7810c7c1fd3",
+    "source_pts_sec": 8.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-43"
+  },
+  {
+    "path": "evidence/Х-43_207.jpg",
+    "source": "full_review/frames/Х-43/sample-00016.jpg",
+    "sha256": "42da4d3969dbe9ff2cde6784628d78525d9e6697c508877e56f0ceaff45d1637",
+    "source_pts_sec": 15.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-43"
+  },
+  {
+    "path": "evidence/Х-43_208.jpg",
+    "source": "full_review/frames/Х-43/sample-00021.jpg",
+    "sha256": "e7d72a3750107f823ee2006355227f9cc9e0fc1ea26d50579b29d61bd80c0c17",
+    "source_pts_sec": 20.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-43"
+  },
+  {
+    "path": "evidence/Х-43_209.jpg",
+    "source": "full_review/frames/Х-43/sample-00022.jpg",
+    "sha256": "89feca38f91d89733b6ec469c38c96b9d025162c2d1b2ec1462e341374a72cfb",
+    "source_pts_sec": 21.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-43"
+  },
+  {
+    "path": "evidence/Х-43_210.jpg",
+    "source": "full_review/frames/Х-43/sample-00023.jpg",
+    "sha256": "8307e5ab20ee96bdba73dbd4563c46a658a3e10a7621f7ea3f2d824ef9d70347",
+    "source_pts_sec": 22.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-43"
+  },
+  {
+    "path": "evidence/Х-43_211.jpg",
+    "source": "full_review/frames/Х-43/sample-00024.jpg",
+    "sha256": "b25408d00bcf038a9196fb6f6b7b30c78b11bd5146242477c1c665a9123bfb07",
+    "source_pts_sec": 23.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-43"
+  },
+  {
+    "path": "evidence/Х-43_212.jpg",
+    "source": "full_review/frames/Х-43/end.jpg",
+    "sha256": "1088a217c9fff06cde294a68c864f16e66ca2988d7cae231d726bf55270006d9",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-43"
+  },
+  {
+    "path": "evidence/Х-43_213.png",
+    "source": "review_v5/extra_frames/Х-43/dense-19-23.png",
+    "sha256": "886f61cf9bdd8ef43946a04c6bd2020d93e567084b281a9c10fee475fb1ef247",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-43"
+  },
+  {
+    "path": "evidence/Х-43_214.png",
+    "source": "review_v5/extra_frames/Х-43/frame-0012.png",
+    "sha256": "e5aec4630e27321903fe6b0cd2360c5a2d53642ceb435e528ea43e7ba96d5fab",
+    "source_pts_sec": 21.933333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-43"
+  },
+  {
+    "path": "evidence/Х-43_215.png",
+    "source": "review_v5/extra_frames/Х-43/frame-0013.png",
+    "sha256": "2dd2478082e65244f8c7353aea0f9fdcbd5dbea41806f399c5567e11aad11cf4",
+    "source_pts_sec": 22.2,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-43"
+  },
+  {
+    "path": "evidence/Х-43_216.png",
+    "source": "review_v5/extra_frames/Х-43/frame-0014.png",
+    "sha256": "b1772a9280a6b92f1bdece87926604ac31163a3a6ea4677c9eb2f47534551a00",
+    "source_pts_sec": 22.466667,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-43"
+  },
+  {
+    "path": "evidence/Х-43_217.png",
+    "source": "review_v5/extra_frames/Х-43/frame-0017.png",
+    "sha256": "367ecbf2785f977f0daa44b891dd6301a4d27596c164e8e00e94cd56bb65d028",
+    "source_pts_sec": 23.266667,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-43"
+  },
+  {
+    "path": "evidence/Х-44_218.jpg",
+    "source": "review_full/evidence/Х-44_01_0003.733s.jpg",
+    "sha256": "bca582e43de7e2e2f4eca1e919a9d89bc04bd8e9a572666f9bfc13427e43ddaa",
+    "source_pts_sec": 3.733333,
+    "caption": "Загрузка в счётчик.",
+    "video_id": "Х-44"
+  },
+  {
+    "path": "evidence/Х-44_219.jpg",
+    "source": "review_full/evidence/Х-44_02_0010.400s.jpg",
+    "sha256": "6bb5bb8d31f11179974c6611155f03ee81103a44abff2f47de3e8bd910c4c6cd",
+    "source_pts_sec": 10.4,
+    "caption": "Извлечение банкнот.",
+    "video_id": "Х-44"
+  },
+  {
+    "path": "evidence/Х-44_220.jpg",
+    "source": "review_full/evidence/Х-44_03_0014.400s.jpg",
+    "sha256": "5e8418274f8d79e4aca964df9d9f6635070e92220c3343a7cf5b3d3219dcbb09",
+    "source_pts_sec": 14.4,
+    "caption": "Сбор и выравнивание.",
+    "video_id": "Х-44"
+  },
+  {
+    "path": "evidence/Х-44_221.jpg",
+    "source": "review_full/evidence/Х-44_04_0018.400s.jpg",
+    "sha256": "7d666f384cf0c5fd83b64904cc641c08ef1f665b97be7f3f84df42df3539812b",
+    "source_pts_sec": 18.4,
+    "caption": "Одна итоговая стопка на столе.",
+    "video_id": "Х-44"
+  },
+  {
+    "path": "evidence/Х-45_222.jpg",
+    "source": "review_full/evidence/Х-45_01_0017.033s.jpg",
+    "sha256": "e412a3737b1d6f65dd88da261fb86e54c1831a0a6bd07c7c0d75e45cda18d739",
+    "source_pts_sec": 17.033333,
+    "caption": "Используется отдельный небольшой прибор.",
+    "video_id": "Х-45"
+  },
+  {
+    "path": "evidence/Х-45_223.jpg",
+    "source": "review_full/evidence/Х-45_02_0032.250s.jpg",
+    "sha256": "e5f1cb329c627bb89b1fe69b31c1df2e0f17ad965ff9bab64d9575ffa7c632f5",
+    "source_pts_sec": null,
+    "caption": "В контрольном ролике в конце тоже остаётся одна стопка.",
+    "video_id": "Х-45"
+  },
+  {
+    "path": "evidence/Х-45_224.jpg",
+    "source": "full_review/frames/Х-45/overview-01.jpg",
+    "sha256": "b5f47dfa8da12bfaf7cbd98c63a5e577e5d09d4318000b22849f7887ef8eae0e",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-45"
+  },
+  {
+    "path": "evidence/Х-45_225.jpg",
+    "source": "full_review/frames/Х-45/overview-02.jpg",
+    "sha256": "73a87ff5fea35dfe833c1264e6b8029d344c2af5e99d6402a94736350b88f285",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-45"
+  },
+  {
+    "path": "evidence/Х-45_226.jpg",
+    "source": "full_review/frames/Х-45/sample-00015.jpg",
+    "sha256": "9d8a95781885675d74c46f40196c20d113046338f1373ee7289dc4d97977e3a2",
+    "source_pts_sec": 14.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-45"
+  },
+  {
+    "path": "evidence/Х-45_227.jpg",
+    "source": "full_review/frames/Х-45/sample-00018.jpg",
+    "sha256": "b5624366faf5acaee5649882e75025856bd688be7a6954159c5a9495d8d03592",
+    "source_pts_sec": 17.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-45"
+  },
+  {
+    "path": "evidence/Х-45_228.jpg",
+    "source": "full_review/frames/Х-45/sample-00025.jpg",
+    "sha256": "4ab79d6fe4448ff0167faddfc8568df4643fb13cc08604f03dbb6df78b11fcbc",
+    "source_pts_sec": 24.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-45"
+  },
+  {
+    "path": "evidence/Х-45_229.jpg",
+    "source": "full_review/frames/Х-45/sample-00028.jpg",
+    "sha256": "281a41dddf828e84618a99ec00a6d9178ec3e1339cc6f579bbda4602790ed6e6",
+    "source_pts_sec": 27.033333,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-45"
+  },
+  {
+    "path": "evidence/Х-45_230.jpg",
+    "source": "full_review/frames/Х-45/end.jpg",
+    "sha256": "30e2af035b1bd0cc258bd6ae1ad2bdbcd992c146f63795b438ca9d5f51683505",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-45"
+  },
+  {
+    "path": "evidence/Х-45_231.jpg",
+    "source": "full_review/dense/Х-45/dense-01.jpg",
+    "sha256": "3506965146f39daf683b6bfdf07b13080a29bf6da3d253132267f07d9a17fe0b",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-45"
+  },
+  {
+    "path": "evidence/Х-45_232.jpg",
+    "source": "full_review/dense/Х-45/dense-02.jpg",
+    "sha256": "6c26b42705dbbc79bb958e6092593e660602d6cc76ea9e40fbbeb3c22c218b84",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-45"
+  },
+  {
+    "path": "evidence/Х-45_233.jpg",
+    "source": "full_review/dense/Х-45/0031.50.jpg",
+    "sha256": "92f9cec68234d140af9506d0da5c1cd8946560b9024ee4cd520dff093451cce3",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-45"
+  },
+  {
+    "path": "evidence/Х-45_234.jpg",
+    "source": "full_review/dense/Х-45/0032.00.jpg",
+    "sha256": "bd94a6a4daa39c55926a8eb9258f1c315429ac6e236e4b4943f8770365238424",
+    "source_pts_sec": null,
+    "caption": "Дополнительный кадр повторной проверки",
+    "video_id": "Х-45"
+  },
+  {
+    "path": "evidence/Х-46_235.jpg",
+    "source": "review_full/evidence/Х-46_01_0011.333s.jpg",
+    "sha256": "e3c638c213477c2846c4d9115467bf463617401eafa06ba5aebaa7b32917c6cc",
+    "source_pts_sec": 11.333333,
+    "caption": "Ёмкость взята в руки.",
+    "video_id": "Х-46"
+  },
+  {
+    "path": "evidence/Х-46_236.jpg",
+    "source": "review_full/evidence/Х-46_02_0013.867s.jpg",
+    "sha256": "2f4094426f841bc28c9e85e72047b239c6c943ff6854f5544814a7682831927c",
+    "source_pts_sec": 13.866667,
+    "caption": "Питьё возле банкнот.",
+    "video_id": "Х-46"
+  },
+  {
+    "path": "evidence/Х-46_237.jpg",
+    "source": "review_full/evidence/Х-46_03_0016.700s.jpg",
+    "sha256": "346b324475468cb1944816d5bd881062e9429ef9bec2294dcf7938536e80440a",
+    "source_pts_sec": 16.7,
+    "caption": "Действие продолжается.",
+    "video_id": "Х-46"
+  },
+  {
+    "path": "evidence/Х-46_238.jpg",
+    "source": "review_full/evidence/Х-46_04_0017.900s.jpg",
+    "sha256": "927b9c4a891ca55bf7476fcdb4dcb51111bbaa9df71ec28d9843583eedf15c94",
+    "source_pts_sec": 17.9,
+    "caption": "Ёмкость поставлена на стол.",
+    "video_id": "Х-46"
+  },
+  {
+    "path": "evidence/Х-47_239.jpg",
+    "source": "review_full/evidence/Х-47_01_0065.067s.jpg",
+    "sha256": "7813156f69797c0524269e741757fcb855bf9a3ceaa50ec372683caa27870f08",
+    "source_pts_sec": 65.066667,
+    "caption": "Следующее обслуживание начато, первая стопка на столе.",
+    "video_id": "Х-47"
+  },
+  {
+    "path": "evidence/Х-47_240.jpg",
+    "source": "review_full/evidence/Х-47_02_0068.067s.jpg",
+    "sha256": "b5b3874f0718632a752009b85bf7f40d00b3df6831fbfbfe2545e923db869942",
+    "source_pts_sec": 68.066667,
+    "caption": "Принимается новая наличность.",
+    "video_id": "Х-47"
+  },
+  {
+    "path": "evidence/Х-47_241.jpg",
+    "source": "review_full/evidence/Х-47_03_0070.067s.jpg",
+    "sha256": "3620b87c069f77bdfcf9dd1aa6f455d2667546e91e09b30b76e8cb6f8e85c40a",
+    "source_pts_sec": 70.066667,
+    "caption": "Ранее принятые деньги не помещены в устройство хранения.",
+    "video_id": "Х-47"
+  },
+  {
+    "path": "evidence/Х-48_242.jpg",
+    "source": "review_full/evidence/Х-48_01_0052.033s.jpg",
+    "sha256": "bfbc99ad884381eaf0cbceff1485daf66a68db9e3ae683ae0ff0cb5dbf0eac62",
+    "source_pts_sec": 52.033333,
+    "caption": "Первая наличность убрана.",
+    "video_id": "Х-48"
+  },
+  {
+    "path": "evidence/Х-48_243.jpg",
+    "source": "review_full/evidence/Х-48_02_0066.067s.jpg",
+    "sha256": "b1087e5e4a67ba2ea1d3987c37bf9a171b1ef8cb5ca7cb3d11b7a6e58ad91f93",
+    "source_pts_sec": 66.066667,
+    "caption": "Следующее обслуживание после уборки первой стопки.",
+    "video_id": "Х-48"
+  }
+]

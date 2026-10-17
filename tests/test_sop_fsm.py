@@ -67,6 +67,17 @@ def test_tricky_cases_equal():
             assert run_new(scenario, actions, partial) == run_old(scenario, actions, partial)
 
 
+def test_anytime_step_keeps_order():
+    """Работа за компьютером в начале (экран включён с первого кадра) не делает остальные шаги «не по порядку»."""
+    actions = [act(0, "person_enter", "client"), act(0, "use_laptop", "cashier"), act(7, "give", "client", "id_card", "cashier"),
+               act(9, "inspect", "cashier", "id_card"), act(12, "give", "client", "banknotes", "cashier"),
+               act(13, "put", "cashier", "banknotes", "desk"), act(14, "paperwork", "cashier"), act(16, "take", "cashier", "banknotes", "desk")]
+    scenario = SPEC["scenarios"]["client_service"]
+    new = run_new(scenario, actions)
+    assert new == run_old(scenario, actions)
+    assert not [h for h in new[4] if h["rule"] in ("order", "out_of_template")]
+
+
 def test_video_carryover_equal():
     inst = [[act(0, "person_enter", "client"), act(2, "put", "cashier", "banknotes", "desk")],
             [act(9, "person_enter", "client"), act(10, "take", "cashier", "banknotes", "desk"),

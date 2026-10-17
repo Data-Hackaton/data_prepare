@@ -42,8 +42,14 @@ class ProcedureMachine:
         n = max(1, len(steps))
         self.machine = Machine(model=self, states=[f"s{i}" for i in range(n)], initial="s0", auto_transitions=False,
                                send_event=True)
+        anytime = [j for j, s in enumerate(steps) if s.get("anytime")]
         for p in range(len(steps)):
+            for j in anytime:  # шаг без места в порядке: засчитывается, указатель на месте
+                self.machine.add_transition("observe", f"s{p}", None, conditions=[partial(self._fits, j)],
+                                            after=partial(self._assign, j))
             for j in range(p, len(steps)):  # вперёд: первый подходящий шаг не раньше указателя
+                if j in anytime:
+                    continue
                 self.machine.add_transition("observe", f"s{p}", f"s{j}", conditions=[partial(self._fits, j)],
                                             after=partial(self._assign, j))
             self.machine.add_transition("observe", f"s{p}", None, conditions=[self._fits_earlier], after=self._order)

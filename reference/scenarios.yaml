@@ -1,8 +1,12 @@
 # Эталонный порядок действий (L2) по 19 видео без нарушений. Описание сцен — docs/norm.md.
 # Шаг: action + actor (+ object, target). required: false — шаг бывает не в каждом экземпляре.
 # Порядок шагов в экземпляре должен совпадать с порядком в шаблоне (пропуски необязательных допустимы, повторы — тоже).
+# anytime: true — шаг бывает в любой момент (работа за компьютером, бумаги): засчитывается, порядок не задаёт.
 # Инварианты проверяются на каждом экземпляре сценария; это кандидаты в правила decision.
 # norm — id из norms.yaml; null — норматив не подтверждён, в отчёт без ссылки не выводим.
+# basis — косвенные и условные основания из norms_review.yaml (relation: косвенно / условно): идут в описание
+# события с пометкой, на статус не влияют. Прямое основание — только norm.
+# topics — процедуры проверки из topics.yaml (нормативный корпус): что проверить человеку; на статус не влияют.
 # title — тип нарушения в ответе жюри и в интерфейсе.
 # severity — статус события, на котором сработало правило: violation (нарушение) или warning (предупреждение);
 # по умолчанию violation, если есть norm, иначе warning (data_prepare/sop_events.py).
@@ -44,8 +48,8 @@ scenarios:
       - {action: take, actor: cashier, object: banknotes, target: cash_machine, required: false}
       - {action: put, actor: cashier, object: banknotes, target: desk, required: false}
       - {action: take, actor: cashier, object: banknotes, target: desk, required: false}
-      - {action: use_laptop, actor: cashier, required: false}
-      - {action: paperwork, actor: cashier, required: false}
+      - {action: use_laptop, actor: cashier, required: false, anytime: true}
+      - {action: paperwork, actor: cashier, required: false, anytime: true}
       - {action: safe_open, actor: cashier, required: false}
       - {action: put, actor: cashier, object: banknotes, target: safe, required: false}
       - {action: take, actor: cashier, object: banknotes, target: safe, required: false}
@@ -53,19 +57,19 @@ scenarios:
       - {action: give, actor: cashier, object: [banknotes, id_card, document], target: client, required: false}
       - {action: person_leave, actor: client, required: false}
     invariants:
-      - {title: Сейф открыт дольше обычного, kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, why: сейф открыт только на время закладки или выемки; в эталоне до ~11 с}
-      - {title: Клиент ушёл при открытом сейфе, kind: before, first: safe_close, then: {action: person_leave, actor: client}, norm: null, why: клиент уходит при закрытом сейфе}
-      - {title: Деньги в сейф без пересчёта на машинке, kind: before, first: {action: put, target: cash_machine}, then: {action: put, target: safe}, norm: null, why: деньги идут в сейф после машинки}
-      - {title: Присвоение части наличных, kind: forbidden, action: split_bundle, norm: null, severity: violation, why: при клиенте пачку целиком отдают или кладут в сейф; по стопкам раскладывают только без посетителей (X-1)}
+      - {title: Сейф открыт дольше обычного, kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, topics: [open_safe], why: сейф открыт только на время закладки или выемки; в эталоне до ~11 с}
+      - {title: Клиент ушёл при открытом сейфе, kind: before, first: safe_close, then: {action: person_leave, actor: client}, norm: null, topics: [open_safe], why: клиент уходит при закрытом сейфе}
+      - {title: Деньги в сейф без пересчёта на машинке, kind: before, first: {action: put, target: cash_machine}, then: {action: put, target: safe}, norm: null, topics: [authentication_equipment], basis: [{norm: n231_p41, relation: косвенно}], why: деньги идут в сейф после машинки}
+      - {title: Присвоение части наличных, kind: forbidden, action: split_bundle, norm: null, severity: violation, why: при клиенте пачку целиком отдают или кладут в сейф; по стопкам раскладывают только без посетителей; точный вид нарушения и норма не установлены (X-1)}
       - {title: Присвоение части наличных, kind: forbidden, action: keep, norm: null, severity: violation, why: деньги не остаются у кассира (X-1)}
-      - {title: Пересчёт наличных после ухода клиента, kind: forbidden_after, after: {action: person_leave, actor: client}, action: {action: put, object: banknotes, target: cash_machine}, norm: n231_p20, why: деньги пересчитываются в присутствии клиента (X-34)}
-      - {title: Пересчёт наличных после ухода клиента, kind: forbidden_after, after: {action: person_leave, actor: client}, action: count_by_hand, norm: n231_p20, why: деньги пересчитываются в присутствии клиента}
-      - {title: Личные вещи на кассовом столе, kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, why: личные вещи хранятся вне кассового узла}
+      - {title: Пересчёт наличных после ухода клиента, kind: forbidden_after, after: {action: person_leave, actor: client}, action: {action: put, object: banknotes, target: cash_machine}, norm: n231_p20, topics: [client_presence], why: деньги пересчитываются в присутствии клиента (X-34)}
+      - {title: Пересчёт наличных после ухода клиента, kind: forbidden_after, after: {action: person_leave, actor: client}, action: count_by_hand, norm: n231_p20, topics: [client_presence], why: деньги пересчитываются в присутствии клиента}
+      - {title: Личные вещи на кассовом столе, kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, topics: [personal_items], why: личные вещи хранятся вне кассового узла}
       # предупреждение, не нарушение: детектор путает телефон у лица с удостоверением, поднятым к глазам (X-5)
-      - {title: Телефон кассира при обслуживании клиента, kind: forbidden, action: phone_call, norm: null, severity: warning, why: при клиенте кассир не пользуется личным телефоном; примера в датасете нет (в X-2 у кассира купюры, не телефон; в X-14 телефон без клиента — норма)}
-      - {title: Постороннее лицо у кассы во время обслуживания, kind: forbidden, action: {action: person_enter, actor: visitor}, norm: null, severity: violation, why: пока обслуживается клиент, у кассы нет других посетителей (X-18)}
-      - {title: Сейф оставлен открытым, kind: forbidden, action: safe_left_open, norm: null, severity: violation, why: дверцу сейфа закрывают сразу после закладки или выемки, а не оставляют открытой, отходя от сейфа (X-20, X-13)}
-      - {title: Кассир ушёл до окончания обслуживания, kind: before, first: {action: person_leave, actor: client}, then: {action: person_leave, actor: cashier}, norm: n231_p22, why: кассир не покидает рабочее место, пока клиент не обслужен}
+      - {title: Телефон кассира при обслуживании клиента, kind: forbidden, action: phone_call, norm: null, severity: warning, topics: [personal_items], why: "при клиенте кассир не отвлекается на телефон; п.12 Правил №231 средства связи без фото- и видеофиксации допускает, поэтому только предупреждение (X-2 — купюры, не телефон; X-14 — телефон без клиента, норма)"}
+      - {title: Постороннее лицо у кассы во время обслуживания, kind: forbidden, action: {action: person_enter, actor: visitor}, norm: null, severity: violation, topics: [service_overlap], why: "пока обслуживается клиент, у кассы нет других посетителей — внутренний порядок, прямого запрета в п.20 Правил №231 нет (X-18)"}
+      - {title: Сейф оставлен открытым, kind: forbidden, action: safe_left_open, norm: null, severity: violation, topics: [open_safe], basis: [{norm: n231_p80, relation: косвенно}], why: "дверцу сейфа закрывают сразу после закладки или выемки, а не оставляют открытой, отходя от сейфа (X-20, X-13)"}
+      - {title: Кассир ушёл до окончания обслуживания, kind: before, first: {action: person_leave, actor: client}, then: {action: person_leave, actor: cashier}, norm: n231_p22, topics: [leave_workplace], why: "кассир не покидает рабочее место, пока клиент не обслужен"}
 
   collection:
     title: Инкассация — передача и вскрытие сумок
@@ -81,13 +85,13 @@ scenarios:
       - {action: safe_open, actor: cashier, required: false}
       - {action: put, actor: cashier, object: banknotes, target: safe, required: false}
       - {action: safe_close, actor: cashier, required: false}
-      - {action: use_laptop, actor: cashier, required: false}
+      - {action: use_laptop, actor: cashier, required: false, anytime: true}
     invariants:
-      - {title: Сейф открыт дольше обычного, kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, why: сейф открыт только на время закладки; в эталоне до ~11 с}
+      - {title: Сейф открыт дольше обычного, kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, topics: [open_safe], why: сейф открыт только на время закладки; в эталоне до ~11 с}
       - {title: Присвоение части наличных, kind: forbidden, action: keep, norm: null, why: деньги не остаются у кассира}
-      - {title: Деньги в сейф без пересчёта на машинке, kind: before, first: {action: put, target: cash_machine}, then: {action: put, target: safe}, norm: null, why: пачки идут в сейф после пересчёта}
-      - {title: Личные вещи на кассовом столе, kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, why: личные вещи хранятся вне кассового узла}
-      - {title: Сейф оставлен открытым, kind: forbidden, action: safe_left_open, norm: null, severity: violation, why: дверцу сейфа закрывают сразу после закладки или выемки, а не оставляют открытой, отходя от сейфа (X-20, X-13)}
+      - {title: Деньги в сейф без пересчёта на машинке, kind: before, first: {action: put, target: cash_machine}, then: {action: put, target: safe}, norm: null, topics: [received_bag_recount, authentication_equipment], basis: [{norm: n231_p41, relation: косвенно}], why: пачки идут в сейф после пересчёта}
+      - {title: Личные вещи на кассовом столе, kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, topics: [personal_items], why: личные вещи хранятся вне кассового узла}
+      - {title: Сейф оставлен открытым, kind: forbidden, action: safe_left_open, norm: null, severity: violation, topics: [open_safe], basis: [{norm: n231_p80, relation: косвенно}], why: "дверцу сейфа закрывают сразу после закладки или выемки, а не оставляют открытой, отходя от сейфа (X-20, X-13)"}
 
   cash_handling:
     title: Работа с наличностью без посетителей
@@ -98,20 +102,20 @@ scenarios:
       - {action: safe_close, actor: cashier, required: false}
       - {action: put, actor: cashier, object: banknotes, target: cash_machine, required: true}
       - {action: sort_banknotes, actor: cashier, required: false}
-      - {action: paperwork, actor: cashier, required: false}
-      - {action: use_laptop, actor: cashier, required: false}
+      - {action: paperwork, actor: cashier, required: false, anytime: true}
+      - {action: use_laptop, actor: cashier, required: false, anytime: true}
     invariants:
-      - {title: Сейф открыт дольше обычного, kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, why: сейф открыт только на время выемки; в эталоне до ~11 с}
+      - {title: Сейф открыт дольше обычного, kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, topics: [open_safe], why: сейф открыт только на время выемки; в эталоне до ~11 с}
       - {title: Присвоение части наличных, kind: forbidden, action: keep, norm: null, why: деньги не остаются у кассира}
-      - {title: Личные вещи на кассовом столе, kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, why: личные вещи хранятся вне кассового узла (X-40)}
-      - {title: Сейф оставлен открытым, kind: forbidden, action: safe_left_open, norm: null, severity: violation, why: дверцу сейфа закрывают сразу после закладки или выемки, а не оставляют открытой, отходя от сейфа (X-20, X-13)}
-      - {title: Постороннее лицо у кассы, kind: forbidden, action: {action: person_enter, actor: visitor}, norm: null, severity: violation, why: на стороне кассира нет посторонних (X-30)}
+      - {title: Личные вещи на кассовом столе, kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, topics: [personal_items], why: личные вещи хранятся вне кассового узла (X-40)}
+      - {title: Сейф оставлен открытым, kind: forbidden, action: safe_left_open, norm: null, severity: violation, topics: [open_safe], basis: [{norm: n231_p80, relation: косвенно}], why: "дверцу сейфа закрывают сразу после закладки или выемки, а не оставляют открытой, отходя от сейфа (X-20, X-13)"}
+      - {title: Постороннее лицо у кассы, kind: forbidden, action: {action: person_enter, actor: visitor}, norm: null, severity: violation, topics: [access_control, secure_cash_area], basis: [{norm: n14_p8, relation: косвенно}, {norm: n14_p16, relation: косвенно}], why: на стороне кассира нет посторонних (X-30)}
 
   leave_workplace:
     title: Уход кассира с рабочего места
     steps:
-      - {action: use_laptop, actor: cashier, required: false}
-      - {action: paperwork, actor: cashier, required: false}
+      - {action: use_laptop, actor: cashier, required: false, anytime: true}
+      - {action: paperwork, actor: cashier, required: false, anytime: true}
       - {action: screen_lock, actor: cashier, required: false}  # в чистых X-12, X-23, X-27, X-29 — до работы с сейфом
       - {action: safe_open, actor: cashier, required: false}
       - {action: put, actor: cashier, object: [banknotes, document], target: safe, required: false}
@@ -119,13 +123,13 @@ scenarios:
       - {action: lights_off, actor: cashier, required: false}
       - {action: person_leave, actor: cashier, required: true}
     invariants:
-      - {title: Кассир ушёл при открытом сейфе, kind: before, first: safe_close, then: {action: person_leave, actor: cashier}, if_present: safe_open, norm: null, why: кассир уходит при закрытом сейфе}
-      - {title: Компьютер с активной сессией без присмотра, kind: before, first: screen_lock, then: {action: person_leave, actor: cashier}, if_present: use_laptop, norm: null, severity: violation, why: перед уходом кассир блокирует экран или закрывает ноутбук (X-11, X-28; в чистых X-12, X-29 — блокирует)}
-      - {title: Сейф открыт дольше обычного, kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, why: сейф открыт только на время закладки; в эталоне до ~11 с}
+      - {title: Кассир ушёл при открытом сейфе, kind: before, first: safe_close, then: {action: person_leave, actor: cashier}, if_present: safe_open, norm: null, topics: [open_safe, keys_stamps], basis: [{norm: n231_p80, relation: косвенно}], why: кассир уходит при закрытом сейфе}
+      - {title: Компьютер с активной сессией без присмотра, kind: before, first: screen_lock, then: {action: person_leave, actor: cashier}, if_present: use_laptop, norm: null, severity: violation, topics: [short_absence_screen, session_timeout], basis: [{norm: n53_p71, relation: условно}], why: "перед уходом кассир блокирует экран или закрывает ноутбук (X-11, X-28; в чистых X-12, X-29 — блокирует)"}
+      - {title: Сейф открыт дольше обычного, kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, topics: [open_safe], why: сейф открыт только на время закладки; в эталоне до ~11 с}
       - {title: Присвоение части наличных, kind: forbidden, action: keep, norm: null, why: деньги не остаются у кассира}
-      - {title: Личные вещи на кассовом столе, kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, why: личные вещи хранятся вне кассового узла}
-      - {title: Сейф оставлен открытым, kind: forbidden, action: safe_left_open, norm: null, severity: violation, why: дверцу сейфа закрывают сразу после закладки или выемки, а не оставляют открытой, отходя от сейфа (X-20, X-13)}
-      - {title: Постороннее лицо у кассы, kind: forbidden, action: {action: person_enter, actor: visitor}, norm: null, severity: violation, why: на стороне кассира нет посторонних (X-30)}
+      - {title: Личные вещи на кассовом столе, kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, topics: [personal_items], why: личные вещи хранятся вне кассового узла}
+      - {title: Сейф оставлен открытым, kind: forbidden, action: safe_left_open, norm: null, severity: violation, topics: [open_safe], basis: [{norm: n231_p80, relation: косвенно}], why: "дверцу сейфа закрывают сразу после закладки или выемки, а не оставляют открытой, отходя от сейфа (X-20, X-13)"}
+      - {title: Постороннее лицо у кассы, kind: forbidden, action: {action: person_enter, actor: visitor}, norm: null, severity: violation, topics: [access_control, secure_cash_area], basis: [{norm: n14_p8, relation: косвенно}, {norm: n14_p16, relation: косвенно}], why: на стороне кассира нет посторонних (X-30)}
 
 # Проверки через все экземпляры видео подряд.
 video_invariants:
@@ -133,6 +137,7 @@ video_invariants:
   # Срабатывает в момент, когда приходит следующий клиент или кладутся его деньги, а деньги прошлого ещё на столе.
   - kind: desk_carryover
     title: Деньги предыдущего клиента на кассовом столе
+    topics: [previous_cash_storage]
     object: banknotes
     min_age_sec: 3  # положенное за секунды до прихода клиента — его же деньги (X-39)
     triggers:
@@ -146,11 +151,13 @@ video_invariants:
   # том, что положено в этом же экземпляре.
   - kind: desk_carryover
     title: Ценности на столе при уходе кассира
+    topics: [unattended_cash, paper_protection]
     object: [banknotes, bag, document]
     any_instance: true
     triggers:
       - {action: person_leave, actor: cashier}
     norm: n231_p20
+    basis: [{norm: n231_p80, relation: косвенно}]  # штампы и служебная книга — порядок хранения определяет банк
     why: ранее принятые наличные хранятся в устройствах, закрывающихся на ключ, а не на столе
 
 # Правила, которые ещё не проверяются на эталоне: нужен признак из L1 или подтверждённый норматив.

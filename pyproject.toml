@@ -22,6 +22,8 @@ reference-actions = "data_prepare.reference_actions:main"
 sample-frames = "data_prepare.sample_frames:main"
 cvat-io = "data_prepare.cvat_io:main"
 build-datasets = "data_prepare.build_datasets:main"
+review-import = "data_prepare.review_import:main"
+corpus-import = "data_prepare.corpus_import:main"
 
 [build-system]
 requires = ["uv_build>=0.12.17,<0.13.0"]

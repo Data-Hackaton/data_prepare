@@ -176,19 +176,24 @@ def check_video(where: str, instances: list[list[dict]], video_invariants: list[
     for inv in video_invariants:
         if inv["kind"] != "desk_carryover":
             continue
-        on_desk: list[tuple[int, float]] = []  # (экземпляр, когда положили) для предметов inv["object"]
+        # object — предмет или список; target — куда положили (по умолчанию стол); any_instance — срабатывать и на
+        # положенном в этом же экземпляре (уход кассира), иначе только на оставшемся от предыдущего клиента
+        objects, target = as_list(inv["object"]), inv.get("target", "desk")
+        rule = f"desk_carryover:{'/'.join(objects)}" + (f"@{target}" if target != "desk" else "")
+        on_desk: list[tuple[int, float]] = []  # (экземпляр, когда положили) для предметов objects
         for t, k, a in timeline:
             if any(selector_matches(trig, a) for trig in inv["triggers"]):
-                stale = [(k0, t0) for k0, t0 in on_desk if k0 < k]
+                stale = [(k0, t0) for k0, t0 in on_desk if k0 < k or inv.get("any_instance")]
                 if stale:
-                    message = (f"{a['action']} на {t} с, а на столе {inv['object']} предыдущего клиента "
+                    whose = "" if inv.get("any_instance") else " предыдущего клиента"
+                    message = (f"{a['action']} на {t} с, а на месте «{target}» {'/'.join(objects)}{whose} "
                                f"(положены на {stale[0][1]} с): {inv.get('why', '')}")
                     errors.append(f"{where}: {message}")
                     if hits is not None:
-                        hits.append({"t": t, "rule": f"desk_carryover:{inv['object']}", "message": message,
+                        hits.append({"t": t, "rule": rule, "message": message,
                                      "norm": inv.get("norm"), "severity": rule_severity(inv), "title": inv.get("title"),
                                      "ref": id(a)})
-            if a.get("object") == inv["object"] and a.get("target") == "desk":
+            if a.get("object") in objects and a.get("target") == target:
                 if a["action"] == "put":
                     on_desk.append((k, t))
                 elif a["action"] == "take" and on_desk:

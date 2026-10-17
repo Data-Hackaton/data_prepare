@@ -8,7 +8,7 @@
 # по умолчанию violation, если есть norm, иначе warning (data_prepare/sop_events.py).
 
 vocabulary:
-  actors: [cashier, client, collector]
+  actors: [cashier, client, collector, visitor]  # visitor — второй посетитель, пока обслуживается клиент
   objects: [banknotes, id_card, bag, phone, document, foreign_object, computer]
   targets: [cash_machine, safe, safe_top, bag, desk, client, cashier, door]
   actions:
@@ -60,6 +60,9 @@ scenarios:
       - {title: Пересчёт наличных после ухода клиента, kind: forbidden_after, after: {action: person_leave, actor: client}, action: {action: put, object: banknotes, target: cash_machine}, norm: n231_p20, why: деньги пересчитываются в присутствии клиента (X-34)}
       - {title: Пересчёт наличных после ухода клиента, kind: forbidden_after, after: {action: person_leave, actor: client}, action: count_by_hand, norm: n231_p20, why: деньги пересчитываются в присутствии клиента}
       - {title: Личные вещи на кассовом столе, kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, why: личные вещи хранятся вне кассового узла}
+      - {title: Телефон кассира при обслуживании клиента, kind: forbidden, action: phone_call, norm: null, severity: violation, why: при клиенте кассир не пользуется личным телефоном (X-2; в X-14 телефон без клиента — норма)}
+      - {title: Постороннее лицо у кассы во время обслуживания, kind: forbidden, action: {action: person_enter, actor: visitor}, norm: null, severity: violation, why: пока обслуживается клиент, у кассы нет других посетителей (X-18)}
+      - {title: Кассир ушёл до окончания обслуживания, kind: before, first: {action: person_leave, actor: client}, then: {action: person_leave, actor: cashier}, norm: n231_p22, why: кассир не покидает рабочее место, пока клиент не обслужен}
 
   collection:
     title: Инкассация — передача и вскрытие сумок
@@ -103,14 +106,15 @@ scenarios:
     steps:
       - {action: use_laptop, actor: cashier, required: false}
       - {action: paperwork, actor: cashier, required: false}
+      - {action: screen_lock, actor: cashier, required: false}  # в чистых X-12, X-23, X-27, X-29 — до работы с сейфом
       - {action: safe_open, actor: cashier, required: false}
       - {action: put, actor: cashier, object: [banknotes, document], target: safe, required: false}
       - {action: safe_close, actor: cashier, required: false}
-      - {action: screen_lock, actor: cashier, required: false}
       - {action: lights_off, actor: cashier, required: false}
       - {action: person_leave, actor: cashier, required: true}
     invariants:
       - {title: Кассир ушёл при открытом сейфе, kind: before, first: safe_close, then: {action: person_leave, actor: cashier}, if_present: safe_open, norm: null, why: кассир уходит при закрытом сейфе}
+      - {title: Компьютер с активной сессией без присмотра, kind: before, first: screen_lock, then: {action: person_leave, actor: cashier}, if_present: use_laptop, norm: null, severity: violation, why: перед уходом кассир блокирует экран или закрывает ноутбук (X-11, X-28; в чистых X-12, X-29 — блокирует)}
       - {title: Сейф открыт дольше обычного, kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, why: сейф открыт только на время закладки; в эталоне до ~11 с}
       - {title: Присвоение части наличных, kind: forbidden, action: keep, norm: null, why: деньги не остаются у кассира}
       - {title: Личные вещи на кассовом столе, kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, why: личные вещи хранятся вне кассового узла}
@@ -128,10 +132,16 @@ video_invariants:
       - {action: put, object: banknotes, target: desk}
     norm: n231_p20
     why: на рабочем месте кассира только наличные текущего клиента, ранее принятые хранятся в сейфе (X-4, X-38)
+  # То же при уходе кассира: деньги и инкассаторская сумка не остаются на столе (X-15, X-26). any_instance —
+  # срабатывает и на том, что положено в этом же экземпляре.
+  - kind: desk_carryover
+    title: Наличные на столе при уходе кассира
+    object: [banknotes, bag]
+    any_instance: true
+    triggers:
+      - {action: person_leave, actor: cashier}
+    norm: n231_p20
+    why: ранее принятые наличные хранятся в устройствах, закрывающихся на ключ, а не на столе
 
 # Правила, которые ещё не проверяются на эталоне: нужен признак из L1 или подтверждённый норматив.
-pending_rules:
-  - id: unattended_session
-    what: кассир вышел, а на компьютере активная сессия (computer.screen = active в момент person_leave cashier)
-    norm: null  # «п.35(3)» — источник не подтверждён; в Правилах №231 п.35 про пересчёт денег клиентом
-    needs: состояние экрана из детектора (класс computer, атрибут screen) и проверка чистых видео ухода (X-12, X-23, X-25, X-27, X-29)
+pending_rules: []

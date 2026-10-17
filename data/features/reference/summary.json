@@ -375,6 +375,15 @@
         },
         {
           "step": 2,
+          "action": "screen_lock",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "4/5"
+        },
+        {
+          "step": 3,
           "action": "safe_open",
           "actor": "cashier",
           "object": null,
@@ -383,7 +392,7 @@
           "seen_in": "2/5"
         },
         {
-          "step": 3,
+          "step": 4,
           "action": "put",
           "actor": "cashier",
           "object": [
@@ -395,22 +404,13 @@
           "seen_in": "2/5"
         },
         {
-          "step": 4,
+          "step": 5,
           "action": "safe_close",
           "actor": "cashier",
           "object": null,
           "target": null,
           "required": false,
           "seen_in": "4/5"
-        },
-        {
-          "step": 5,
-          "action": "screen_lock",
-          "actor": "cashier",
-          "object": null,
-          "target": null,
-          "required": false,
-          "seen_in": "0/5"
         },
         {
           "step": 6,

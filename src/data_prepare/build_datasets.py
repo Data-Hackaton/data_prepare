@@ -1,7 +1,8 @@
 """Разметка кадров → датасеты для обучения детекторов.
 
 Источник: выгрузка CVAT (data/frames/<round>/cvat_export/*.zip, COCO 1.0) или, для дым-теста до конца
-валидации, сырая предразметка (--from-prelabels). Классы — в порядке cvat/labels.json; split — из manifest.csv.
+валидации, сырая предразметка (--from-prelabels). Раундов можно несколько (--round r1 r1b), имена кадров
+не пересекаются. Классы — в порядке cvat/labels.json; split — из manifest.csv каждого раунда.
 Результат в data/datasets/<name>/:
   yolo/  images/{train,val}, labels/{train,val}, data.yaml — для Ultralytics
   coco/  {train,valid,test}/ + _annotations.coco.json    — для RF-DETR (test = valid)
@@ -57,19 +58,22 @@ def link(src: Path, dst: Path) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--data", type=Path, default=Path(os.environ.get("DATA_DIR", "/data")))
-    ap.add_argument("--round", default="r1")
+    ap.add_argument("--round", nargs="+", default=["r1"])
     ap.add_argument("--name", default="det_r1")
     ap.add_argument("--from-prelabels", action="store_true", help="сырая предразметка вместо выгрузки CVAT (дым-тест)")
     args = ap.parse_args()
 
     class_names = [label["name"] for label in json.loads(LABELS.read_text())]
-    root = args.data / "frames" / args.round
-    with (root / "manifest.csv").open() as f:
-        split_of = {m["file"]: m["split"] for m in csv.DictReader(f)}
-    if args.from_prelabels:
-        cocos = [json.loads((root / "prelabels.coco.json").read_text())]
-    else:
-        cocos = load_cvat_exports(root / "cvat_export")
+    split_of, root_of, cocos = {}, {}, []
+    for rnd in args.round:
+        root = args.data / "frames" / rnd
+        with (root / "manifest.csv").open() as f:
+            for m in csv.DictReader(f):
+                split_of[m["file"]], root_of[m["file"]] = m["split"], root
+        if args.from_prelabels:
+            cocos.append(json.loads((root / "prelabels.coco.json").read_text()))
+        else:
+            cocos += load_cvat_exports(root / "cvat_export")
     by_file = merge(cocos, class_names)
 
     out = args.data / "datasets" / args.name
@@ -82,7 +86,7 @@ def main() -> None:
         split = split_of.get(file_name)
         if split is None:
             continue
-        src = root / "images" / file_name
+        src = root_of[file_name] / "images" / file_name
         stem = Path(file_name).stem
 
         link(src, out / "yolo" / "images" / split / file_name)
@@ -120,7 +124,7 @@ def main() -> None:
         f"path: {out / 'yolo'}\ntrain: images/train\nval: images/val\nnames:\n"
         + "".join(f"  {i}: {n}\n" for i, n in enumerate(class_names))
     )
-    print(f"→ {out} ({'предразметка' if args.from_prelabels else 'CVAT'})")
+    print(f"→ {out} ({'предразметка' if args.from_prelabels else 'CVAT'}: {' + '.join(args.round)})")
     print(f"{'класс':<14}{'train':>7}{'val':>7}")
     for i, n in enumerate(class_names):
         print(f"{n:<14}{counts['train'][i]:>7}{counts['val'][i]:>7}")

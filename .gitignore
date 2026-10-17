@@ -14,3 +14,5 @@ data/runs/
 data/datasets/
 data/frames/*/preview*/
 data/frames/*/exp_*.json
+# кэш предсказаний L1 (python -m cv.infer) — пересобирается за минуты
+data/features/*/l1_*.json

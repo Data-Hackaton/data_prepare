@@ -67,6 +67,7 @@ X-12:
     - scenario: leave_workplace
       actions:
         - {t: 0, t_end: 9, action: use_laptop, actor: cashier}
+        - {t: 9, action: screen_lock, actor: cashier, certain: false}  # яркость экрана 0,36 → 0,19 (L1)
         - {t: 25, t_end: 31, action: safe_close, actor: cashier, certain: false}
         - {t: 32, action: lights_off, actor: cashier}
         - {t: 37, action: person_leave, actor: cashier}
@@ -132,6 +133,7 @@ X-23:
     - scenario: leave_workplace
       actions:
         - {t: 0, t_end: 4, action: use_laptop, actor: cashier}
+        - {t: 5, action: screen_lock, actor: cashier, certain: false}  # яркость экрана 0,41 → 0,26 (L1)
         - {t: 6, t_end: 11, action: safe_close, actor: cashier, certain: false}
         - {t: 12, action: person_leave, actor: cashier}
 
@@ -152,6 +154,7 @@ X-27:
     - scenario: leave_workplace
       actions:
         - {t: 0, t_end: 8, action: use_laptop, actor: cashier, certain: false}
+        - {t: 8, action: screen_lock, actor: cashier, certain: false}  # экран всё видео на уровне заставки 0,24–0,29 (L1)
         - {t: 12, action: safe_open, actor: cashier}
         - {t: 13, action: put, actor: cashier, object: document, target: safe, certain: false}
         - {t: 14, t_end: 18, action: safe_close, actor: cashier}
@@ -163,6 +166,7 @@ X-29:
     - scenario: leave_workplace
       actions:
         - {t: 0, t_end: 6, action: use_laptop, actor: cashier}
+        - {t: 6, action: screen_lock, actor: cashier, certain: false}  # яркость экрана 0,42 → 0,28 (L1)
         - {t: 8, action: person_leave, actor: cashier}
 
 X-31:

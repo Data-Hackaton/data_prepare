@@ -3,3 +3,11 @@ reference/normative_coverage/** -text
 reference/parsed_documents/** -text
 reference/sources/** -text
 reference/rule_catalog.json -text
+# Preserve dataset bytes and recorded SHA-256 on every operating system.
+data/cvat/full-42/** -text
+data/frames/all-videos/** -text
+data/frame_times/** -text
+data/video_frame_manifest.json -text
+cvat_tools/manual/** -text
+cvat_tools/probe/parity/** -text
+cvat_tools/models/** -text

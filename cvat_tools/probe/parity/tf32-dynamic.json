@@ -1,0 +1,162 @@
+[
+  {
+    "file": "X-1_007000.jpg",
+    "mode": "people",
+    "elapsed_sec": 1.200796099999934,
+    "passed": true,
+    "matches": [
+      {
+        "iou": 0.9999521485309599,
+        "score_error": 0.0020999999999999908
+      },
+      {
+        "iou": 0.9998236487082266,
+        "score_error": 0.0009000000000000119
+      },
+      {
+        "iou": 0.9996618245828733,
+        "score_error": 0.0013000000000000789
+      },
+      {
+        "iou": 1.0,
+        "score_error": 0.0006999999999999784
+      }
+    ],
+    "expected_count": 4,
+    "actual_count": 4
+  },
+  {
+    "file": "X-1_007000.jpg",
+    "mode": "hands",
+    "elapsed_sec": 0.49690410000039265,
+    "passed": true,
+    "matches": [
+      {
+        "iou": 0.9995456610631536,
+        "score_error": 0.00039999999999995595
+      },
+      {
+        "iou": 1.0,
+        "score_error": 0.00019999999999997797
+      },
+      {
+        "iou": 0.999600638977635,
+        "score_error": 0.0006999999999999784
+      }
+    ],
+    "expected_count": 3,
+    "actual_count": 3
+  },
+  {
+    "file": "X-8_000000.jpg",
+    "mode": "people",
+    "elapsed_sec": 0.5889838999992207,
+    "passed": true,
+    "matches": [
+      {
+        "iou": 1.0,
+        "score_error": 0.0013999999999999568
+      }
+    ],
+    "expected_count": 1,
+    "actual_count": 1
+  },
+  {
+    "file": "X-8_000000.jpg",
+    "mode": "hands",
+    "elapsed_sec": 0.41931950000071083,
+    "passed": true,
+    "matches": [
+      {
+        "iou": 1.0,
+        "score_error": 0.0007000000000000339
+      },
+      {
+        "iou": 0.9995100440960311,
+        "score_error": 0.0005000000000000004
+      },
+      {
+        "iou": 0.9988094896023658,
+        "score_error": 0.001600000000000018
+      }
+    ],
+    "expected_count": 3,
+    "actual_count": 3
+  },
+  {
+    "file": "X-35_010033.jpg",
+    "mode": "people",
+    "elapsed_sec": 0.5295363999994152,
+    "passed": true,
+    "matches": [
+      {
+        "iou": 0.999805017939347,
+        "score_error": 9.999999999998899e-05
+      },
+      {
+        "iou": 0.9998677598518911,
+        "score_error": 0.00019999999999997797
+      },
+      {
+        "iou": 0.9995705820982904,
+        "score_error": 0.0007000000000000339
+      },
+      {
+        "iou": 0.9996145247089663,
+        "score_error": 0.0008000000000000229
+      }
+    ],
+    "expected_count": 4,
+    "actual_count": 4
+  },
+  {
+    "file": "X-35_010033.jpg",
+    "mode": "hands",
+    "elapsed_sec": 0.47782290000031935,
+    "passed": true,
+    "matches": [
+      {
+        "iou": 0.9996239187664528,
+        "score_error": 0.0007000000000000339
+      }
+    ],
+    "expected_count": 1,
+    "actual_count": 1
+  },
+  {
+    "file": "X-40_015033.jpg",
+    "mode": "people",
+    "elapsed_sec": 0.5694550999996864,
+    "passed": true,
+    "matches": [
+      {
+        "iou": 0.9998816568807335,
+        "score_error": 0.0016999999999999793
+      },
+      {
+        "iou": 0.9989894611270335,
+        "score_error": 0.0005000000000000004
+      }
+    ],
+    "expected_count": 2,
+    "actual_count": 2
+  },
+  {
+    "file": "X-40_015033.jpg",
+    "mode": "hands",
+    "elapsed_sec": 0.44458680000025197,
+    "passed": true,
+    "matches": [
+      {
+        "iou": 0.9991232211247084,
+        "score_error": 0.0010000000000000009
+      },
+      {
+        "iou": 1.0,
+        "score_error": 0.000500000000000056
+      }
+    ],
+    "expected_count": 2,
+    "actual_count": 2
+  }
+]

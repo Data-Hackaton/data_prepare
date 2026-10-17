@@ -1,0 +1,2383 @@
+{
+  "videos": [
+    {
+      "video": "X-12",
+      "reviewed_samples": [
+        "X-12_000000.jpg",
+        "X-12_002000.jpg",
+        "X-12_004000.jpg",
+        "X-12_006000.jpg",
+        "X-12_008033.jpg",
+        "X-12_010033.jpg",
+        "X-12_012033.jpg",
+        "X-12_014033.jpg",
+        "X-12_016033.jpg",
+        "X-12_018033.jpg",
+        "X-12_020033.jpg",
+        "X-12_022033.jpg",
+        "X-12_024033.jpg",
+        "X-12_026033.jpg",
+        "X-12_028033.jpg",
+        "X-12_030033.jpg",
+        "X-12_032033.jpg",
+        "X-12_033033.jpg",
+        "X-12_034033.jpg",
+        "X-12_035033.jpg",
+        "X-12_036033.jpg",
+        "X-12_037033.jpg",
+        "X-12_038033.jpg",
+        "X-12_039033.jpg",
+        "X-12_040033.jpg",
+        "X-12_041033.jpg",
+        "X-12_042033.jpg",
+        "X-12_042250.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                46,
+                377,
+                117,
+                459
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 42.266667,
+              "box": [
+                46,
+                377,
+                117,
+                459
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                44,
+                388,
+                319,
+                505
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 42.266667,
+              "box": [
+                44,
+                388,
+                319,
+                505
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                226,
+                305,
+                301,
+                417
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 42.266667,
+              "box": [
+                226,
+                305,
+                301,
+                417
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                223,
+                351,
+                285,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "screen": "unknown"
+              }
+            },
+            {
+              "time_sec": 10.033,
+              "box": [
+                223,
+                351,
+                285,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "screen": "unknown"
+              }
+            },
+            {
+              "time_sec": 11.033,
+              "box": [
+                223,
+                351,
+                285,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "screen": "unknown"
+              }
+            },
+            {
+              "time_sec": 12.033,
+              "box": [
+                224,
+                384,
+                276,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "screen": "off"
+              }
+            },
+            {
+              "time_sec": 42.266667,
+              "box": [
+                224,
+                384,
+                276,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "screen": "off"
+              }
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                50,
+                143,
+                483
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 35.033,
+              "box": [
+                0,
+                50,
+                143,
+                483
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 36.033,
+              "box": [
+                0,
+                53,
+                116,
+                490
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 37.033,
+              "box": [
+                0,
+                53,
+                133,
+                488
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 38.033,
+              "box": [
+                0,
+                50,
+                143,
+                483
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 39.033,
+              "box": [
+                0,
+                50,
+                143,
+                483
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 42.266667,
+              "box": [
+                0,
+                50,
+                143,
+                483
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "table box covers the wooden work surface only; its axis-aligned enclosure necessarily contains some non-surface pixels at the diagonal edges. White foreground desk and vertical wood panels are excluded.",
+        "Stationary desk telephone, receipt printer, papers, wallets held by clients and work scissors are excluded.",
+        "Transition times are first observed sampled states, generally uncertain by up to 1 second (2 seconds for sparse bag and cash motion). Geometry between keyframes is interpolated, not independently reviewed.",
+        "Root reviewed both desk sheets, native frames at 0,12.033,36.033,38.033 and42.25s, and door detail samples35–42s. Laptop lid is closed by12.033s; safe stays closed, no confidently visible cash/card/green bag. Fixed desk telephone is excluded from mobile phone class. Room is empty after the closed door at39.033s."
+      ],
+      "unresolved": [
+        "Frame-by-frame validation of interpolated small-object motion and appearance/disappearance boundaries remains necessary.",
+        "Laptop display content before lid closure cannot be distinguished reliably: screen=unknown. Door/lid transition boundaries remain within adjacent approximately1s samples."
+      ],
+      "last_source_time_sec": 42.266667,
+      "annotation_ready": true,
+      "reflection_regions": [
+        {
+          "kind": "closed_door",
+          "box": [
+            0,
+            45,
+            142,
+            390
+          ],
+          "max_person_bottom_y": 380,
+          "max_center_x": 130
+        },
+        {
+          "kind": "fixed_glass",
+          "box": [
+            115,
+            40,
+            242,
+            370
+          ],
+          "max_person_bottom_y": 330
+        }
+      ],
+      "empty_room_intervals_sec": [
+        [
+          39.033,
+          42.266667
+        ]
+      ]
+    },
+    {
+      "video": "X-14",
+      "reviewed_samples": [
+        "X-14_000000.jpg",
+        "X-14_002000.jpg",
+        "X-14_004000.jpg",
+        "X-14_006000.jpg",
+        "X-14_008033.jpg",
+        "X-14_010033.jpg",
+        "X-14_012033.jpg",
+        "X-14_014033.jpg",
+        "X-14_016033.jpg",
+        "X-14_018033.jpg",
+        "X-14_020033.jpg",
+        "X-14_022033.jpg",
+        "X-14_024033.jpg",
+        "X-14_026033.jpg",
+        "X-14_028033.jpg",
+        "X-14_030033.jpg",
+        "X-14_032033.jpg",
+        "X-14_034033.jpg",
+        "X-14_036033.jpg",
+        "X-14_038033.jpg",
+        "X-14_040033.jpg",
+        "X-14_042033.jpg",
+        "X-14_044033.jpg",
+        "X-14_046033.jpg",
+        "X-14_048033.jpg",
+        "X-14_050033.jpg",
+        "X-14_052033.jpg",
+        "X-14_054033.jpg",
+        "X-14_056033.jpg",
+        "X-14_058033.jpg",
+        "X-14_060033.jpg",
+        "X-14_062033.jpg",
+        "X-14_064067.jpg",
+        "X-14_066067.jpg",
+        "X-14_068067.jpg",
+        "X-14_070067.jpg",
+        "X-14_072067.jpg",
+        "X-14_074067.jpg",
+        "X-14_076067.jpg",
+        "X-14_078067.jpg",
+        "X-14_080067.jpg",
+        "X-14_082067.jpg",
+        "X-14_084067.jpg",
+        "X-14_086067.jpg",
+        "X-14_088067.jpg",
+        "X-14_090067.jpg",
+        "X-14_092067.jpg",
+        "X-14_094067.jpg",
+        "X-14_096067.jpg",
+        "X-14_098067.jpg",
+        "X-14_100067.jpg",
+        "X-14_102067.jpg",
+        "X-14_104067.jpg",
+        "X-14_106067.jpg",
+        "X-14_108067.jpg",
+        "X-14_110067.jpg",
+        "X-14_112067.jpg",
+        "X-14_114067.jpg",
+        "X-14_115067.jpg",
+        "X-14_116067.jpg",
+        "X-14_117067.jpg",
+        "X-14_118067.jpg",
+        "X-14_119067.jpg",
+        "X-14_120067.jpg",
+        "X-14_121067.jpg",
+        "X-14_122067.jpg",
+        "X-14_123067.jpg",
+        "X-14_124067.jpg",
+        "X-14_125067.jpg",
+        "X-14_126067.jpg",
+        "X-14_127067.jpg",
+        "X-14_128100.jpg",
+        "X-14_130100.jpg",
+        "X-14_132100.jpg",
+        "X-14_134100.jpg",
+        "X-14_136100.jpg",
+        "X-14_138100.jpg",
+        "X-14_140100.jpg",
+        "X-14_142100.jpg",
+        "X-14_142480.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                46,
+                377,
+                117,
+                459
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 142.5,
+              "box": [
+                46,
+                377,
+                117,
+                459
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                44,
+                388,
+                319,
+                505
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 142.5,
+              "box": [
+                44,
+                388,
+                319,
+                505
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                50,
+                143,
+                483
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 142.5,
+              "box": [
+                0,
+                50,
+                143,
+                483
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                225,
+                350,
+                284,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "screen": "unknown"
+              }
+            },
+            {
+              "time_sec": 129.1,
+              "box": [
+                225,
+                350,
+                284,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "screen": "unknown"
+              }
+            },
+            {
+              "time_sec": 130.1,
+              "box": [
+                225,
+                350,
+                284,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "screen": "unknown"
+              }
+            },
+            {
+              "time_sec": 131.1,
+              "box": [
+                225,
+                350,
+                284,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "screen": "active"
+              }
+            },
+            {
+              "time_sec": 142.5,
+              "box": [
+                225,
+                350,
+                284,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "screen": "active"
+              }
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                226,
+                305,
+                301,
+                419
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 116.067,
+              "box": [
+                226,
+                305,
+                301,
+                419
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 117.067,
+              "box": [
+                209,
+                305,
+                301,
+                419
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 118.067,
+              "box": [
+                207,
+                305,
+                301,
+                419
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 119.067,
+              "box": [
+                207,
+                305,
+                301,
+                419
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 120.067,
+              "box": [
+                207,
+                305,
+                301,
+                419
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 122.067,
+              "box": [
+                207,
+                305,
+                301,
+                419
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 123.067,
+              "box": [
+                210,
+                305,
+                301,
+                419
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 124.067,
+              "box": [
+                226,
+                305,
+                301,
+                419
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 142.5,
+              "box": [
+                226,
+                305,
+                301,
+                419
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        },
+        {
+          "label": "bag",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                160,
+                416,
+                215,
+                452
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 2.0,
+              "box": [
+                159,
+                329,
+                218,
+                408
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                168,
+                337,
+                222,
+                419
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 6.0,
+              "box": [
+                192,
+                353,
+                207,
+                434
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 8.033,
+              "box": [
+                197,
+                350,
+                224,
+                439
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 10.033,
+              "box": [
+                182,
+                334,
+                215,
+                413
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 12.033,
+              "box": [
+                192,
+                345,
+                219,
+                435
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.033,
+              "box": [
+                199,
+                349,
+                219,
+                432
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.033,
+              "box": [
+                203,
+                343,
+                218,
+                424
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 18.033,
+              "box": [
+                190,
+                333,
+                213,
+                410
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.033,
+              "box": [
+                191,
+                341,
+                216,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 22.033,
+              "box": [
+                169,
+                335,
+                250,
+                398
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 24.033,
+              "box": [
+                170,
+                346,
+                216,
+                405
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 26.033,
+              "box": [
+                198,
+                344,
+                220,
+                421
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 28.033,
+              "box": [
+                185,
+                326,
+                258,
+                399
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 30.033,
+              "box": [
+                189,
+                325,
+                258,
+                401
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 31.033,
+              "box": [
+                199,
+                315,
+                265,
+                388
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 32.033,
+              "box": [
+                199,
+                316,
+                265,
+                389
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 34.033,
+              "box": [
+                199,
+                311,
+                263,
+                379
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 35.033,
+              "box": [
+                235,
+                259,
+                288,
+                331
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 36.033,
+              "box": [
+                242,
+                251,
+                283,
+                319
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 37.033,
+              "box": [
+                222,
+                271,
+                267,
+                347
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 38.033,
+              "box": [
+                201,
+                284,
+                248,
+                365
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 39.033,
+              "box": [
+                205,
+                280,
+                249,
+                361
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 40.033,
+              "box": [
+                204,
+                242,
+                243,
+                322
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 41.033,
+              "box": [
+                204,
+                242,
+                243,
+                322
+              ],
+              "outside": true,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 31.033,
+              "box": [
+                182,
+                423,
+                207,
+                438
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 32.033,
+              "box": [
+                182,
+                422,
+                208,
+                438
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 34.033,
+              "box": [
+                183,
+                422,
+                208,
+                438
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 38.033,
+              "box": [
+                183,
+                421,
+                208,
+                438
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 46.033,
+              "box": [
+                183,
+                423,
+                209,
+                439
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 48.033,
+              "box": [
+                184,
+                424,
+                209,
+                439
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 49.033,
+              "box": [
+                184,
+                424,
+                209,
+                439
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 50.033,
+              "box": [
+                172,
+                409,
+                189,
+                424
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 51.033,
+              "box": [
+                172,
+                409,
+                189,
+                424
+              ],
+              "outside": true,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 33.033,
+              "box": [
+                200,
+                413,
+                225,
+                430
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 34.033,
+              "box": [
+                200,
+                413,
+                225,
+                430
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 48.033,
+              "box": [
+                200,
+                413,
+                225,
+                430
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 52.033,
+              "box": [
+                200,
+                413,
+                225,
+                430
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 54.033,
+              "box": [
+                200,
+                413,
+                225,
+                430
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 56.033,
+              "box": [
+                199,
+                412,
+                219,
+                427
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 57.033,
+              "box": [
+                199,
+                412,
+                219,
+                427
+              ],
+              "outside": true,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 34.033,
+              "box": [
+                215,
+                412,
+                236,
+                426
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 54.033,
+              "box": [
+                215,
+                412,
+                236,
+                426
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 56.033,
+              "box": [
+                215,
+                413,
+                236,
+                426
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 58.033,
+              "box": [
+                215,
+                413,
+                236,
+                426
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 60.033,
+              "box": [
+                211,
+                412,
+                233,
+                429
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 70.067,
+              "box": [
+                211,
+                412,
+                233,
+                429
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 72.067,
+              "box": [
+                210,
+                414,
+                232,
+                429
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 73.067,
+              "box": [
+                210,
+                414,
+                232,
+                429
+              ],
+              "outside": true,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 52.033,
+              "box": [
+                184,
+                429,
+                198,
+                440
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 54.033,
+              "box": [
+                184,
+                429,
+                198,
+                440
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 56.033,
+              "box": [
+                184,
+                429,
+                198,
+                440
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 58.033,
+              "box": [
+                184,
+                429,
+                198,
+                440
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 60.033,
+              "box": [
+                188,
+                428,
+                204,
+                440
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 80.067,
+              "box": [
+                188,
+                428,
+                204,
+                440
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 90.067,
+              "box": [
+                188,
+                428,
+                204,
+                440
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 100.067,
+              "box": [
+                188,
+                428,
+                204,
+                440
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 104.067,
+              "box": [
+                188,
+                428,
+                204,
+                440
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 106.067,
+              "box": [
+                188,
+                428,
+                204,
+                440
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 111.067,
+              "box": [
+                188,
+                428,
+                204,
+                440
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 59.033,
+              "box": [
+                164,
+                429,
+                183,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 60.033,
+              "box": [
+                164,
+                429,
+                183,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 80.067,
+              "box": [
+                164,
+                429,
+                183,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 82.067,
+              "box": [
+                163,
+                430,
+                183,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 84.067,
+              "box": [
+                163,
+                430,
+                183,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 100.067,
+              "box": [
+                163,
+                430,
+                183,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 102.067,
+              "box": [
+                163,
+                430,
+                183,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 103.067,
+              "box": [
+                163,
+                430,
+                183,
+                447
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 58.033,
+              "box": [
+                192,
+                416,
+                212,
+                432
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 59.033,
+              "box": [
+                191,
+                399,
+                207,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 60.033,
+              "box": [
+                184,
+                391,
+                202,
+                411
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 61.033,
+              "box": [
+                151,
+                395,
+                173,
+                413
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 62.033,
+              "box": [
+                132,
+                398,
+                149,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 63.033,
+              "box": [
+                104,
+                382,
+                129,
+                401
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 64.067,
+              "box": [
+                104,
+                382,
+                129,
+                401
+              ],
+              "outside": true,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 71.067,
+              "box": [
+                171,
+                407,
+                196,
+                421
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 72.067,
+              "box": [
+                171,
+                407,
+                196,
+                421
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 80.067,
+              "box": [
+                171,
+                407,
+                196,
+                421
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 90.067,
+              "box": [
+                171,
+                407,
+                196,
+                421
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 92.067,
+              "box": [
+                172,
+                407,
+                196,
+                421
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 93.067,
+              "box": [
+                172,
+                407,
+                196,
+                421
+              ],
+              "outside": true,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 74.067,
+              "box": [
+                135,
+                391,
+                156,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 75.067,
+              "box": [
+                108,
+                383,
+                131,
+                403
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 76.067,
+              "box": [
+                108,
+                383,
+                131,
+                403
+              ],
+              "outside": true,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 83.067,
+              "box": [
+                146,
+                397,
+                169,
+                419
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 84.067,
+              "box": [
+                147,
+                396,
+                169,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 86.067,
+              "box": [
+                145,
+                397,
+                168,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 88.067,
+              "box": [
+                153,
+                393,
+                175,
+                416
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 90.067,
+              "box": [
+                156,
+                389,
+                176,
+                411
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 91.067,
+              "box": [
+                156,
+                389,
+                176,
+                411
+              ],
+              "outside": true,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 92.067,
+              "box": [
+                183,
+                402,
+                211,
+                419
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 94.067,
+              "box": [
+                185,
+                404,
+                212,
+                420
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 96.067,
+              "box": [
+                204,
+                412,
+                227,
+                429
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 100.067,
+              "box": [
+                204,
+                412,
+                227,
+                429
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 102.067,
+              "box": [
+                204,
+                412,
+                227,
+                429
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 110.067,
+              "box": [
+                204,
+                412,
+                227,
+                429
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 112.067,
+              "box": [
+                204,
+                412,
+                227,
+                429
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 114.067,
+              "box": [
+                204,
+                412,
+                227,
+                429
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 115.067,
+              "box": [
+                204,
+                412,
+                227,
+                429
+              ],
+              "outside": true,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 95.067,
+              "box": [
+                143,
+                397,
+                165,
+                417
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 96.067,
+              "box": [
+                150,
+                397,
+                172,
+                417
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 98.067,
+              "box": [
+                151,
+                387,
+                177,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 100.067,
+              "box": [
+                152,
+                390,
+                175,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 101.067,
+              "box": [
+                152,
+                390,
+                175,
+                412
+              ],
+              "outside": true,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 102.067,
+              "box": [
+                192,
+                405,
+                215,
+                422
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 104.067,
+              "box": [
+                192,
+                405,
+                215,
+                422
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 110.067,
+              "box": [
+                192,
+                405,
+                215,
+                422
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 112.067,
+              "box": [
+                190,
+                404,
+                215,
+                422
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 113.067,
+              "box": [
+                190,
+                404,
+                215,
+                422
+              ],
+              "outside": true,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 104.067,
+              "box": [
+                164,
+                408,
+                184,
+                430
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 106.067,
+              "box": [
+                143,
+                403,
+                183,
+                424
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 108.067,
+              "box": [
+                146,
+                400,
+                184,
+                420
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 110.067,
+              "box": [
+                146,
+                405,
+                174,
+                425
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 111.067,
+              "box": [
+                163,
+                409,
+                196,
+                430
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 112.067,
+              "box": [
+                183,
+                414,
+                211,
+                433
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 114.067,
+              "box": [
+                191,
+                393,
+                215,
+                416
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 115.067,
+              "box": [
+                190,
+                404,
+                215,
+                425
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 116.067,
+              "box": [
+                194,
+                386,
+                220,
+                409
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 117.067,
+              "box": [
+                194,
+                387,
+                221,
+                411
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 118.067,
+              "box": [
+                190,
+                350,
+                205,
+                373
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 119.067,
+              "box": [
+                183,
+                350,
+                205,
+                385
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 120.067,
+              "box": [
+                193,
+                362,
+                211,
+                383
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 121.067,
+              "box": [
+                188,
+                361,
+                205,
+                382
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 122.067,
+              "box": [
+                188,
+                361,
+                205,
+                382
+              ],
+              "outside": true,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "table box covers the wooden work surface only; its axis-aligned enclosure necessarily contains some non-surface pixels at the diagonal edges. White foreground desk and vertical wood panels are excluded.",
+        "Stationary desk telephone, receipt printer, papers, wallets held by clients and work scissors are excluded.",
+        "Transition times are first observed sampled states, generally uncertain by up to 1 second (2 seconds for sparse bag and cash motion). Geometry between keyframes is interpolated, not independently reviewed.",
+        "Root additionally reviewed all five desk sheets,64 enlarged cash/safe/computer samples and native32.033/64.067s frames. Green collection bag visible0–40s, cash groups then counted and placed into safe; safe first observed open117.067s,closed124.067s. Computer display is visibly active by131.1s. Door remains closed. No ID card or mobile phone confidently identified."
+      ],
+      "unresolved": [
+        "Frame-by-frame validation of interpolated small-object motion and appearance/disappearance boundaries remains necessary.",
+        "Cash in hands and feeding slot may be hidden between sampled observations; held notes and tiny table groups need frame-level QA. Source-frame presence is dense, while most manually observed object keyframes are1–2s apart. No exhaustive visual certification."
+      ],
+      "last_source_time_sec": 142.5,
+      "annotation_ready": true,
+      "reflection_regions": [
+        {
+          "kind": "closed_door",
+          "box": [
+            0,
+            45,
+            142,
+            395
+          ],
+          "max_person_bottom_y": 380,
+          "max_center_x": 125
+        },
+        {
+          "kind": "fixed_glass",
+          "box": [
+            120,
+            40,
+            240,
+            370
+          ],
+          "max_person_bottom_y": 315
+        }
+      ]
+    }
+  ],
+  "review_method": "Visual source-frame and contact-sheet review by root; linear interpolation between reviewed observations."
+}

@@ -1,0 +1,308 @@
+[
+  {
+    "file": "X-1_007000.jpg",
+    "elapsed_sec": 3.237685500000225,
+    "passed": false,
+    "matches": [
+      {
+        "iou": 0.9987272881434276,
+        "score_error": 0.0029000000000000137,
+        "label_equal": true,
+        "uncertain": false
+      },
+      {
+        "iou": 0.9988451509693018,
+        "score_error": 0.0004999999999999449,
+        "label_equal": true,
+        "uncertain": false
+      },
+      {
+        "iou": 0.9995629524685583,
+        "score_error": 0.0011999999999999789,
+        "label_equal": true,
+        "uncertain": false
+      },
+      {
+        "iou": 0.9947359562725789,
+        "score_error": 0.00030000000000002247,
+        "label_equal": false,
+        "uncertain": false
+      },
+      {
+        "iou": 0.9965784856900053,
+        "score_error": 0.0039000000000000146,
+        "label_equal": true,
+        "uncertain": false
+      },
+      {
+        "iou": 0.9955650400459761,
+        "score_error": 0.002599999999999991,
+        "label_equal": true,
+        "uncertain": false
+      },
+      {
+        "iou": 0.9979421225117335,
+        "score_error": 0.00040000000000001146,
+        "label_equal": true,
+        "uncertain": false
+      },
+      {
+        "iou": 0.9962135417894243,
+        "score_error": 0.002799999999999997,
+        "label_equal": true,
+        "uncertain": false
+      },
+      {
+        "iou": 0.9945371293861636,
+        "score_error": 0.0,
+        "label_equal": false,
+        "uncertain": true
+      },
+      {
+        "iou": 0.9959315417101828,
+        "score_error": 0.004300000000000026,
+        "label_equal": false,
+        "uncertain": true
+      }
+    ],
+    "actual": [
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.7769,
+        "box": [
+          170.27,
+          114.41,
+          270.23,
+          323.61
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.7679,
+        "box": [
+          115.27,
+          24.18,
+          213.27,
+          137.59
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.2967,
+        "box": [
+          46.65,
+          0.0,
+          130.61,
+          50.28
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "foreign_object",
+        "query": "handbag",
+        "score": 0.2854,
+        "box": [
+          173.33,
+          153.23,
+          191.27,
+          179.08
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "table",
+        "query": "desk",
+        "score": 0.2813,
+        "box": [
+          0.27,
+          121.91,
+          297.96,
+          323.38
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "phone",
+        "query": "smartphone",
+        "score": 0.2793,
+        "box": [
+          176.95,
+          134.08,
+          195.76,
+          151.83
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.2535,
+        "box": [
+          0.0,
+          0.04,
+          53.43,
+          48.05
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.2339,
+        "box": [
+          1.74,
+          0.01,
+          53.55,
+          22.2
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "foreign_object",
+        "query": "handbag",
+        "score": 0.2078,
+        "box": [
+          157.65,
+          115.14,
+          179.27,
+          133.12
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "foreign_object",
+        "query": "handbag",
+        "score": 0.2058,
+        "box": [
+          186.27,
+          141.32,
+          207.79,
+          163.87
+        ],
+        "source": "auto"
+      }
+    ]
+  },
+  {
+    "file": "X-35_010033.jpg",
+    "elapsed_sec": 0.745554599998286,
+    "passed": true,
+    "matches": [
+      {
+        "iou": 0.9990900714437208,
+        "score_error": 0.0015999999999999348,
+        "label_equal": true,
+        "uncertain": false
+      },
+      {
+        "iou": 0.9985865736178667,
+        "score_error": 0.00990000000000002,
+        "label_equal": true,
+        "uncertain": false
+      },
+      {
+        "iou": 0.9976852317470666,
+        "score_error": 0.0014000000000000123,
+        "label_equal": true,
+        "uncertain": false
+      },
+      {
+        "iou": 0.9962190304584845,
+        "score_error": 0.0002999999999999947,
+        "label_equal": true,
+        "uncertain": false
+      },
+      {
+        "iou": 0.9981367835450307,
+        "score_error": 0.0007999999999999952,
+        "label_equal": true,
+        "uncertain": false
+      },
+      {
+        "iou": 0.9966150189567603,
+        "score_error": 0.0009000000000000119,
+        "label_equal": false,
+        "uncertain": true
+      }
+    ],
+    "actual": [
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.8029,
+        "box": [
+          168.78,
+          0.0,
+          246.02,
+          101.88
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.7421,
+        "box": [
+          171.3,
+          94.27,
+          276.91,
+          293.89
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "table",
+        "query": "desk",
+        "score": 0.2668,
+        "box": [
+          68.09,
+          94.04,
+          336.35,
+          274.26
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "table",
+        "query": "desk",
+        "score": 0.2457,
+        "box": [
+          309.0,
+          168.31,
+          443.78,
+          302.64
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "foreign_object",
+        "query": "jacket",
+        "score": 0.2241,
+        "box": [
+          153.77,
+          213.68,
+          298.12,
+          316.0
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "foreign_object",
+        "query": "handbag",
+        "score": 0.2087,
+        "box": [
+          182.29,
+          136.45,
+          202.44,
+          162.78
+        ],
+        "source": "auto"
+      }
+    ]
+  }
+]

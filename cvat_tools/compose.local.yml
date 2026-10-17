@@ -1,0 +1,115 @@
+name: hackalem-cvat
+
+x-local-backend: &local-backend
+  CVAT_BASE_URL: http://localhost:48080
+  NUMPROCS: 1
+  CVAT_ANALYTICS: '0'
+  DJANGO_LOG_SERVER_HOST: ''
+
+x-local-deps: &local-deps !override
+  cvat_redis_inmem:
+    condition: service_started
+  cvat_redis_ondisk:
+    condition: service_started
+  cvat_db:
+    condition: service_started
+
+x-shared-data: &shared-data
+  - ../data:/home/django/share:ro
+
+services:
+  cvat_db:
+    container_name: hackalem-cvat-db
+  cvat_redis_inmem:
+    container_name: hackalem-cvat-redis
+  cvat_redis_ondisk:
+    container_name: hackalem-cvat-kvrocks
+  cvat_server:
+    container_name: hackalem-cvat-server
+    depends_on: !override
+      cvat_db:
+        condition: service_started
+      cvat_redis_inmem:
+        condition: service_started
+      cvat_redis_ondisk:
+        condition: service_started
+      cvat_opa:
+        condition: service_started
+    environment: *local-backend
+    volumes: *shared-data
+  cvat_worker_utils:
+    container_name: hackalem-cvat-utils
+    depends_on: *local-deps
+    environment: *local-backend
+    volumes: *shared-data
+  cvat_worker_import:
+    container_name: hackalem-cvat-import
+    depends_on: *local-deps
+    environment: *local-backend
+    volumes: *shared-data
+  cvat_worker_export:
+    container_name: hackalem-cvat-export
+    depends_on: *local-deps
+    environment: *local-backend
+    volumes: *shared-data
+  cvat_worker_annotation:
+    container_name: hackalem-cvat-annotation
+    depends_on: *local-deps
+    environment: *local-backend
+    volumes: *shared-data
+  cvat_worker_webhooks:
+    container_name: hackalem-cvat-webhooks
+    depends_on: *local-deps
+    environment: *local-backend
+  cvat_worker_quality_reports:
+    container_name: hackalem-cvat-quality
+    depends_on: *local-deps
+    environment: *local-backend
+    volumes: *shared-data
+  cvat_worker_chunks:
+    container_name: hackalem-cvat-chunks
+    depends_on: *local-deps
+    environment: *local-backend
+    volumes: *shared-data
+  cvat_worker_consensus:
+    container_name: hackalem-cvat-consensus
+    depends_on: *local-deps
+    environment: *local-backend
+    volumes: *shared-data
+  cvat_ui:
+    container_name: hackalem-cvat-ui
+  cvat_opa:
+    container_name: hackalem-cvat-opa
+  cvat_clickhouse:
+    container_name: hackalem-cvat-clickhouse
+    profiles: [analytics]
+  cvat_vector:
+    container_name: hackalem-cvat-vector
+    profiles: [analytics]
+  cvat_grafana:
+    container_name: hackalem-cvat-grafana
+    profiles: [analytics]
+  traefik:
+    container_name: hackalem-cvat-traefik
+    profiles: [traefik]
+    ports: !override
+      - 127.0.0.1:48080:8080
+    environment:
+      TRAEFIK_PROVIDERS_DOCKER_NETWORK: hackalem-cvat
+  local_proxy:
+    image: nginx@sha256:df221db836e1754089190208cee7eeda94f233197056426eda74a43ab1abeac2
+    container_name: hackalem-cvat-proxy
+    restart: unless-stopped
+    depends_on:
+      - cvat_server
+      - cvat_ui
+    ports:
+      - 127.0.0.1:48080:8080
+    volumes:
+      - ../cvat_tools/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      - cvat
+
+networks:
+  cvat:
+    name: hackalem-cvat

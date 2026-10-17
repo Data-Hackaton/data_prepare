@@ -1,0 +1,4686 @@
+{
+  "videos": [
+    {
+      "video": "X-1",
+      "reviewed_samples": [
+        "X-1_000000.jpg",
+        "X-1_001000.jpg",
+        "X-1_002000.jpg",
+        "X-1_003000.jpg",
+        "X-1_004000.jpg",
+        "X-1_005000.jpg",
+        "X-1_006000.jpg",
+        "X-1_007000.jpg",
+        "X-1_008033.jpg",
+        "X-1_009033.jpg",
+        "X-1_010033.jpg",
+        "X-1_011033.jpg",
+        "X-1_012033.jpg",
+        "X-1_013033.jpg",
+        "X-1_014033.jpg",
+        "X-1_015033.jpg",
+        "X-1_016033.jpg",
+        "X-1_017033.jpg",
+        "X-1_018033.jpg",
+        "X-1_019033.jpg",
+        "X-1_020033.jpg",
+        "X-1_021033.jpg",
+        "X-1_022033.jpg",
+        "X-1_023033.jpg",
+        "X-1_024033.jpg",
+        "X-1_025033.jpg",
+        "X-1_025880.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                35,
+                399,
+                114,
+                489
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 25.9,
+              "box": [
+                35,
+                399,
+                114,
+                489
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                21,
+                389,
+                299,
+                497
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 25.9,
+              "box": [
+                21,
+                389,
+                299,
+                497
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "active"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                230,
+                366,
+                298,
+                439
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 25.9,
+              "box": [
+                230,
+                366,
+                298,
+                439
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                305,
+                356,
+                413,
+                499
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 25.9,
+              "box": [
+                305,
+                356,
+                413,
+                499
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 1.0,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 2.0,
+              "box": [
+                0,
+                46,
+                80,
+                486
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 3.0,
+              "box": [
+                0,
+                46,
+                91,
+                480
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                0,
+                46,
+                109,
+                465
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 25.9,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ],
+          "note": "First observed sampled open/closed state; transition within the preceding sampling interval remains uncertain."
+        },
+        {
+          "label": "id_card",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                133,
+                407,
+                149,
+                414
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 6.0,
+              "box": [
+                133,
+                407,
+                149,
+                414
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 7.0,
+              "box": [
+                177,
+                405,
+                194,
+                424
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 8.033333,
+              "box": [
+                199,
+                423,
+                209,
+                435
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 9.033333,
+              "box": [
+                199,
+                423,
+                209,
+                435
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                140,
+                444,
+                154,
+                455
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 25.9,
+              "box": [
+                140,
+                444,
+                154,
+                455
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                186,
+                439,
+                207,
+                459
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                186,
+                439,
+                207,
+                459
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 11.033333,
+              "box": [
+                186,
+                439,
+                207,
+                459
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                186,
+                439,
+                207,
+                459
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 13.033333,
+              "box": [
+                183,
+                425,
+                202,
+                449
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                104,
+                398,
+                125,
+                409
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.033333,
+              "box": [
+                104,
+                398,
+                125,
+                409
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                76,
+                406,
+                89,
+                422
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 19.033333,
+              "box": [
+                76,
+                406,
+                89,
+                422
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.033333,
+              "box": [
+                76,
+                406,
+                89,
+                422
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 21.033333,
+              "box": [
+                190,
+                422,
+                211,
+                451
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 22.033333,
+              "box": [
+                179,
+                420,
+                197,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 23.033333,
+              "box": [
+                179,
+                420,
+                197,
+                447
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 25.9,
+              "box": [
+                179,
+                420,
+                197,
+                447
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            }
+          ],
+          "note": "Stack is visibly carried to the machine and back. Hand-dominated frames are outside; subsecond transfer boundaries are not independently validated."
+        }
+      ],
+      "notes": [
+        "table box covers the wooden work surface only; its axis-aligned enclosure necessarily contains some non-surface pixels at the diagonal edges. White foreground desk and vertical wood panels are excluded.",
+        "Stationary desk telephone, receipt printer, papers, wallets held by clients and work scissors are excluded.",
+        "Transition times are first observed sampled states, generally uncertain by up to 1 second (2 seconds for sparse bag and cash motion). Geometry between keyframes is interpolated, not independently reviewed.",
+        "No clear foreign clothing, personal bag, cup or mobile phone on the table. The folding black item held by the client is a wallet and was not labeled as phone."
+      ],
+      "unresolved": [
+        "Frame-by-frame validation of interpolated small-object motion and appearance/disappearance boundaries remains necessary.",
+        "Door start/end transitions lie between adjacent 1 s samples; entrance/exit frames need conservative handling for person versus reflection."
+      ],
+      "last_source_time_sec": 25.9,
+      "annotation_ready": true,
+      "reflection_regions": [
+        {
+          "kind": "closed_door",
+          "box": [
+            0,
+            65,
+            94,
+            385
+          ],
+          "max_person_bottom_y": 335,
+          "condition": "only while door state is closed; exclude tracks actively entering/leaving"
+        },
+        {
+          "kind": "fixed_glass",
+          "box": [
+            109,
+            60,
+            215,
+            370
+          ],
+          "max_person_bottom_y": 325,
+          "condition": "conservative rule only; seated clients with bottom near 430 are in the room"
+        }
+      ]
+    },
+    {
+      "video": "X-2",
+      "reviewed_samples": [
+        "X-2_000000.jpg",
+        "X-2_001000.jpg",
+        "X-2_002000.jpg",
+        "X-2_003000.jpg",
+        "X-2_004000.jpg",
+        "X-2_005000.jpg",
+        "X-2_006000.jpg",
+        "X-2_007000.jpg",
+        "X-2_008033.jpg",
+        "X-2_009033.jpg",
+        "X-2_010033.jpg",
+        "X-2_011033.jpg",
+        "X-2_012033.jpg",
+        "X-2_013033.jpg",
+        "X-2_014033.jpg",
+        "X-2_015033.jpg",
+        "X-2_016033.jpg",
+        "X-2_017033.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                35,
+                398,
+                114,
+                489
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 17.033333,
+              "box": [
+                35,
+                398,
+                114,
+                489
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                21,
+                390,
+                299,
+                497
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 17.033333,
+              "box": [
+                21,
+                390,
+                299,
+                497
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "active"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                231,
+                366,
+                298,
+                439
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 17.033333,
+              "box": [
+                231,
+                366,
+                298,
+                439
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                305,
+                356,
+                413,
+                499
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 17.033333,
+              "box": [
+                305,
+                356,
+                413,
+                499
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 3.0,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                0,
+                46,
+                75,
+                488
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                0,
+                46,
+                85,
+                481
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 6.0,
+              "box": [
+                0,
+                46,
+                109,
+                466
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 7.0,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 17.033333,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ],
+          "note": "First observed sampled open/closed state; transition within the preceding sampling interval remains uncertain."
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                121,
+                411,
+                141,
+                428
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 9.033333,
+              "box": [
+                121,
+                411,
+                141,
+                428
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                148,
+                429,
+                172,
+                442
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 11.033333,
+              "box": [
+                148,
+                429,
+                172,
+                442
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                184,
+                430,
+                211,
+                450
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 13.033333,
+              "box": [
+                176,
+                433,
+                198,
+                457
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                79,
+                404,
+                98,
+                421
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.033333,
+              "box": [
+                79,
+                404,
+                98,
+                421
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                78,
+                408,
+                99,
+                430
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 17.033333,
+              "box": [
+                78,
+                408,
+                99,
+                430
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "table box covers the wooden work surface only; its axis-aligned enclosure necessarily contains some non-surface pixels at the diagonal edges. White foreground desk and vertical wood panels are excluded.",
+        "Stationary desk telephone, receipt printer, papers, wallets held by clients and work scissors are excluded.",
+        "Transition times are first observed sampled states, generally uncertain by up to 1 second (2 seconds for sparse bag and cash motion). Geometry between keyframes is interpolated, not independently reviewed.",
+        "No clear foreign clothing, personal bag, cup or mobile phone on the table. The folding black item held by the client is a wallet and was not labeled as phone."
+      ],
+      "unresolved": [
+        "Frame-by-frame validation of interpolated small-object motion and appearance/disappearance boundaries remains necessary.",
+        "Door start/end transitions lie between adjacent 1 s samples; entrance/exit frames need conservative handling for person versus reflection."
+      ],
+      "last_source_time_sec": 17.033333,
+      "annotation_ready": true,
+      "reflection_regions": [
+        {
+          "kind": "closed_door",
+          "box": [
+            0,
+            65,
+            94,
+            385
+          ],
+          "max_person_bottom_y": 335,
+          "condition": "only while door state is closed; exclude tracks actively entering/leaving"
+        },
+        {
+          "kind": "fixed_glass",
+          "box": [
+            109,
+            60,
+            215,
+            370
+          ],
+          "max_person_bottom_y": 325,
+          "condition": "conservative rule only; seated clients with bottom near 430 are in the room"
+        }
+      ]
+    },
+    {
+      "video": "X-3",
+      "reviewed_samples": [
+        "X-3_000000.jpg",
+        "X-3_001000.jpg",
+        "X-3_002000.jpg",
+        "X-3_003000.jpg",
+        "X-3_004000.jpg",
+        "X-3_005000.jpg",
+        "X-3_006000.jpg",
+        "X-3_007000.jpg",
+        "X-3_008033.jpg",
+        "X-3_009033.jpg",
+        "X-3_010033.jpg",
+        "X-3_011033.jpg",
+        "X-3_012033.jpg",
+        "X-3_013033.jpg",
+        "X-3_014033.jpg",
+        "X-3_015033.jpg",
+        "X-3_016033.jpg",
+        "X-3_017033.jpg",
+        "X-3_018033.jpg",
+        "X-3_019033.jpg",
+        "X-3_019980.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                35,
+                398,
+                114,
+                489
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.0,
+              "box": [
+                35,
+                398,
+                114,
+                489
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                21,
+                389,
+                299,
+                497
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.0,
+              "box": [
+                21,
+                389,
+                299,
+                497
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "active"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                230,
+                366,
+                298,
+                439
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.0,
+              "box": [
+                230,
+                366,
+                298,
+                439
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                305,
+                356,
+                413,
+                499
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.0,
+              "box": [
+                305,
+                356,
+                413,
+                499
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 1.0,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 2.0,
+              "box": [
+                0,
+                46,
+                87,
+                484
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 3.0,
+              "box": [
+                0,
+                46,
+                91,
+                480
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                0,
+                46,
+                109,
+                465
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 20.0,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ],
+          "note": "First observed sampled open/closed state; transition within the preceding sampling interval remains uncertain."
+        },
+        {
+          "label": "id_card",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                140,
+                398,
+                151,
+                405
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 7.0,
+              "box": [
+                140,
+                398,
+                151,
+                405
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 8.033333,
+              "box": [
+                185,
+                411,
+                200,
+                428
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 9.033333,
+              "box": [
+                203,
+                421,
+                217,
+                433
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                201,
+                423,
+                216,
+                437
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 11.033333,
+              "box": [
+                193,
+                420,
+                213,
+                435
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                150,
+                435,
+                160,
+                444
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 13.033333,
+              "box": [
+                144,
+                436,
+                160,
+                446
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                144,
+                436,
+                160,
+                446
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.0,
+              "box": [
+                144,
+                436,
+                160,
+                446
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                153,
+                392,
+                172,
+                402
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                153,
+                392,
+                172,
+                402
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 13.033333,
+              "box": [
+                166,
+                416,
+                187,
+                429
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                166,
+                416,
+                187,
+                429
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.033333,
+              "box": [
+                184,
+                425,
+                207,
+                451
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                157,
+                438,
+                176,
+                452
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 17.033333,
+              "box": [
+                79,
+                404,
+                100,
+                429
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 18.033333,
+              "box": [
+                79,
+                404,
+                100,
+                429
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 19.033333,
+              "box": [
+                77,
+                410,
+                95,
+                430
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.0,
+              "box": [
+                77,
+                410,
+                95,
+                430
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "table box covers the wooden work surface only; its axis-aligned enclosure necessarily contains some non-surface pixels at the diagonal edges. White foreground desk and vertical wood panels are excluded.",
+        "Stationary desk telephone, receipt printer, papers, wallets held by clients and work scissors are excluded.",
+        "Transition times are first observed sampled states, generally uncertain by up to 1 second (2 seconds for sparse bag and cash motion). Geometry between keyframes is interpolated, not independently reviewed.",
+        "No clear foreign clothing, personal bag, cup or mobile phone on the table. The folding black item held by the client is a wallet and was not labeled as phone."
+      ],
+      "unresolved": [
+        "Frame-by-frame validation of interpolated small-object motion and appearance/disappearance boundaries remains necessary.",
+        "Door start/end transitions lie between adjacent 1 s samples; entrance/exit frames need conservative handling for person versus reflection."
+      ],
+      "last_source_time_sec": 20.0,
+      "annotation_ready": true,
+      "reflection_regions": [
+        {
+          "kind": "closed_door",
+          "box": [
+            0,
+            65,
+            94,
+            385
+          ],
+          "max_person_bottom_y": 335,
+          "condition": "only while door state is closed; exclude tracks actively entering/leaving"
+        },
+        {
+          "kind": "fixed_glass",
+          "box": [
+            109,
+            60,
+            215,
+            370
+          ],
+          "max_person_bottom_y": 325,
+          "condition": "conservative rule only; seated clients with bottom near 430 are in the room"
+        }
+      ]
+    },
+    {
+      "video": "X-4",
+      "reviewed_samples": [
+        "X-4_000000.jpg",
+        "X-4_002000.jpg",
+        "X-4_004000.jpg",
+        "X-4_005000.jpg",
+        "X-4_006000.jpg",
+        "X-4_007000.jpg",
+        "X-4_008033.jpg",
+        "X-4_009033.jpg",
+        "X-4_010033.jpg",
+        "X-4_012033.jpg",
+        "X-4_014033.jpg",
+        "X-4_016033.jpg",
+        "X-4_018033.jpg",
+        "X-4_020033.jpg",
+        "X-4_021033.jpg",
+        "X-4_022033.jpg",
+        "X-4_024033.jpg",
+        "X-4_026033.jpg",
+        "X-4_028033.jpg",
+        "X-4_030033.jpg",
+        "X-4_032033.jpg",
+        "X-4_034033.jpg",
+        "X-4_036033.jpg",
+        "X-4_037033.jpg",
+        "X-4_038033.jpg",
+        "X-4_040033.jpg",
+        "X-4_041033.jpg",
+        "X-4_042033.jpg",
+        "X-4_043033.jpg",
+        "X-4_044033.jpg",
+        "X-4_046033.jpg",
+        "X-4_048033.jpg",
+        "X-4_049033.jpg",
+        "X-4_050033.jpg",
+        "X-4_051033.jpg",
+        "X-4_052033.jpg",
+        "X-4_053033.jpg",
+        "X-4_054033.jpg",
+        "X-4_055033.jpg",
+        "X-4_056033.jpg",
+        "X-4_057033.jpg",
+        "X-4_058033.jpg",
+        "X-4_059033.jpg",
+        "X-4_060033.jpg",
+        "X-4_062033.jpg",
+        "X-4_064067.jpg",
+        "X-4_065067.jpg",
+        "X-4_066067.jpg",
+        "X-4_067067.jpg",
+        "X-4_068067.jpg",
+        "X-4_069067.jpg",
+        "X-4_070067.jpg",
+        "X-4_071067.jpg",
+        "X-4_072067.jpg",
+        "X-4_072650.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                35,
+                398,
+                114,
+                489
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 72.666667,
+              "box": [
+                35,
+                398,
+                114,
+                489
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                21,
+                389,
+                299,
+                497
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 72.666667,
+              "box": [
+                21,
+                389,
+                299,
+                497
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "active"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                230,
+                366,
+                298,
+                439
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 72.666667,
+              "box": [
+                230,
+                366,
+                298,
+                439
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                305,
+                356,
+                413,
+                499
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 72.666667,
+              "box": [
+                305,
+                356,
+                413,
+                499
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 6.0,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 7.0,
+              "box": [
+                0,
+                46,
+                73,
+                488
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 8.033333,
+              "box": [
+                0,
+                46,
+                83,
+                483
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 9.033333,
+              "box": [
+                0,
+                46,
+                108,
+                466
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 51.033333,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 52.033333,
+              "box": [
+                0,
+                46,
+                95,
+                478
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 53.033333,
+              "box": [
+                0,
+                46,
+                77,
+                486
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 54.033333,
+              "box": [
+                0,
+                46,
+                96,
+                474
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 55.033333,
+              "box": [
+                0,
+                46,
+                107,
+                468
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 56.033333,
+              "box": [
+                0,
+                46,
+                102,
+                472
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 57.033333,
+              "box": [
+                0,
+                46,
+                84,
+                484
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 58.033333,
+              "box": [
+                0,
+                46,
+                110,
+                465
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 59.033333,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 72.666667,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ],
+          "note": "First observed sampled open/closed state; transition within the preceding sampling interval remains uncertain."
+        },
+        {
+          "label": "id_card",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                188,
+                415,
+                206,
+                430
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                188,
+                415,
+                206,
+                430
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 18.033333,
+              "box": [
+                164,
+                429,
+                182,
+                439
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.033333,
+              "box": [
+                140,
+                437,
+                157,
+                448
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 41.033333,
+              "box": [
+                140,
+                437,
+                157,
+                448
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 42.033333,
+              "box": [
+                176,
+                457,
+                184,
+                464
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 43.033333,
+              "box": [
+                176,
+                457,
+                184,
+                464
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 44.033333,
+              "box": [
+                166,
+                437,
+                183,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 47.033333,
+              "box": [
+                166,
+                437,
+                183,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 48.033333,
+              "box": [
+                175,
+                395,
+                192,
+                408
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 49.033333,
+              "box": [
+                175,
+                395,
+                192,
+                408
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 72.666667,
+              "box": [
+                175,
+                395,
+                192,
+                408
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            }
+          ],
+          "note": "Document appearance before 16 s is not confidently resolved in 2 s overview samples; the clear inspection/table interval is included."
+        },
+        {
+          "label": "id_card",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                200,
+                409,
+                216,
+                422
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 62.033333,
+              "box": [
+                200,
+                409,
+                216,
+                422
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 64.066667,
+              "box": [
+                196,
+                408,
+                213,
+                422
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 65.066667,
+              "box": [
+                198,
+                423,
+                213,
+                434
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 66.066667,
+              "box": [
+                183,
+                436,
+                194,
+                445
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 67.066667,
+              "box": [
+                175,
+                438,
+                187,
+                445
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 68.066667,
+              "box": [
+                169,
+                434,
+                184,
+                444
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 72.666667,
+              "box": [
+                167,
+                433,
+                184,
+                444
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                163,
+                418,
+                178,
+                432
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.033333,
+              "box": [
+                163,
+                418,
+                178,
+                432
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 21.033333,
+              "box": [
+                163,
+                418,
+                178,
+                432
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 24.033333,
+              "box": [
+                184,
+                441,
+                201,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 25.033333,
+              "box": [
+                92,
+                395,
+                112,
+                411
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 26.033333,
+              "box": [
+                92,
+                395,
+                112,
+                411
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 27.033333,
+              "box": [
+                77,
+                409,
+                95,
+                427
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 31.033333,
+              "box": [
+                77,
+                409,
+                95,
+                427
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 32.033333,
+              "box": [
+                77,
+                409,
+                95,
+                427
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 34.033333,
+              "box": [
+                178,
+                444,
+                200,
+                461
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 36.033333,
+              "box": [
+                183,
+                433,
+                201,
+                453
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 38.033333,
+              "box": [
+                181,
+                433,
+                202,
+                461
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 39.033333,
+              "box": [
+                181,
+                433,
+                202,
+                461
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 41.033333,
+              "box": [
+                184,
+                442,
+                208,
+                451
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 42.033333,
+              "box": [
+                184,
+                444,
+                209,
+                455
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 48.033333,
+              "box": [
+                184,
+                444,
+                209,
+                455
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 54.033333,
+              "box": [
+                184,
+                444,
+                209,
+                455
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 55.033333,
+              "box": [
+                171,
+                445,
+                198,
+                458
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 56.033333,
+              "box": [
+                137,
+                443,
+                163,
+                457
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 57.033333,
+              "box": [
+                136,
+                443,
+                163,
+                457
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 67.066667,
+              "box": [
+                136,
+                443,
+                164,
+                458
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 68.066667,
+              "box": [
+                136,
+                443,
+                164,
+                458
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 72.666667,
+              "box": [
+                136,
+                443,
+                164,
+                458
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            }
+          ],
+          "note": "Brown stack remains on the wooden surface between clients, then is merged/covered by the second stack around 68–69 s."
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                143,
+                386,
+                158,
+                394
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 64.066667,
+              "box": [
+                143,
+                386,
+                158,
+                394
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 65.066667,
+              "box": [
+                161,
+                404,
+                174,
+                411
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 66.066667,
+              "box": [
+                174,
+                418,
+                192,
+                431
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 67.066667,
+              "box": [
+                180,
+                405,
+                202,
+                431
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 68.066667,
+              "box": [
+                136,
+                444,
+                163,
+                456
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 69.066667,
+              "box": [
+                134,
+                443,
+                165,
+                456
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 70.066667,
+              "box": [
+                135,
+                445,
+                163,
+                458
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 72.666667,
+              "box": [
+                134,
+                444,
+                164,
+                458
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ],
+          "note": "After 68 s the compact box encloses the blue stack on top of the older brown group; it is a single compact group, not two overlapping labels."
+        }
+      ],
+      "notes": [
+        "table box covers the wooden work surface only; its axis-aligned enclosure necessarily contains some non-surface pixels at the diagonal edges. White foreground desk and vertical wood panels are excluded.",
+        "Stationary desk telephone, receipt printer, papers, wallets held by clients and work scissors are excluded.",
+        "Transition times are first observed sampled states, generally uncertain by up to 1 second (2 seconds for sparse bag and cash motion). Geometry between keyframes is interpolated, not independently reviewed.",
+        "No clear foreign clothing, personal bag, cup or mobile phone on the table. The folding black item held by the client is a wallet and was not labeled as phone."
+      ],
+      "unresolved": [
+        "Frame-by-frame validation of interpolated small-object motion and appearance/disappearance boundaries remains necessary.",
+        "Door start/end transitions lie between adjacent 1 s samples; entrance/exit frames need conservative handling for person versus reflection."
+      ],
+      "last_source_time_sec": 72.666667,
+      "annotation_ready": true,
+      "reflection_regions": [
+        {
+          "kind": "closed_door",
+          "box": [
+            0,
+            65,
+            94,
+            385
+          ],
+          "max_person_bottom_y": 335,
+          "condition": "only while door state is closed; exclude tracks actively entering/leaving"
+        },
+        {
+          "kind": "fixed_glass",
+          "box": [
+            109,
+            60,
+            215,
+            370
+          ],
+          "max_person_bottom_y": 325,
+          "condition": "conservative rule only; seated clients with bottom near 430 are in the room"
+        }
+      ]
+    },
+    {
+      "video": "X-5",
+      "reviewed_samples": [
+        "X-5_000000.jpg",
+        "X-5_001000.jpg",
+        "X-5_002000.jpg",
+        "X-5_003000.jpg",
+        "X-5_004000.jpg",
+        "X-5_005000.jpg",
+        "X-5_006000.jpg",
+        "X-5_007000.jpg",
+        "X-5_008033.jpg",
+        "X-5_009033.jpg",
+        "X-5_010033.jpg",
+        "X-5_012033.jpg",
+        "X-5_014033.jpg",
+        "X-5_015033.jpg",
+        "X-5_016033.jpg",
+        "X-5_017033.jpg",
+        "X-5_018033.jpg",
+        "X-5_020033.jpg",
+        "X-5_022033.jpg",
+        "X-5_024033.jpg",
+        "X-5_026033.jpg",
+        "X-5_028033.jpg",
+        "X-5_030033.jpg",
+        "X-5_032033.jpg",
+        "X-5_034033.jpg",
+        "X-5_036033.jpg",
+        "X-5_038033.jpg",
+        "X-5_040033.jpg",
+        "X-5_042033.jpg",
+        "X-5_044033.jpg",
+        "X-5_045033.jpg",
+        "X-5_046033.jpg",
+        "X-5_047033.jpg",
+        "X-5_048033.jpg",
+        "X-5_049033.jpg",
+        "X-5_050033.jpg",
+        "X-5_051033.jpg",
+        "X-5_052033.jpg",
+        "X-5_053033.jpg",
+        "X-5_054033.jpg",
+        "X-5_055033.jpg",
+        "X-5_056033.jpg",
+        "X-5_057033.jpg",
+        "X-5_058033.jpg",
+        "X-5_059033.jpg",
+        "X-5_060033.jpg",
+        "X-5_061033.jpg",
+        "X-5_062033.jpg",
+        "X-5_063033.jpg",
+        "X-5_064067.jpg",
+        "X-5_065067.jpg",
+        "X-5_066067.jpg",
+        "X-5_068067.jpg",
+        "X-5_069067.jpg",
+        "X-5_070067.jpg",
+        "X-5_071067.jpg",
+        "X-5_071550.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                35,
+                398,
+                114,
+                490
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 71.566667,
+              "box": [
+                35,
+                398,
+                114,
+                490
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                21,
+                390,
+                299,
+                497
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 71.566667,
+              "box": [
+                21,
+                390,
+                299,
+                497
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "active"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                230,
+                366,
+                298,
+                439
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 71.566667,
+              "box": [
+                230,
+                366,
+                298,
+                439
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 1.0,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 2.0,
+              "box": [
+                0,
+                46,
+                78,
+                486
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 3.0,
+              "box": [
+                0,
+                46,
+                90,
+                480
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                0,
+                46,
+                109,
+                465
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 58.033333,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 59.033333,
+              "box": [
+                0,
+                46,
+                81,
+                485
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 60.033333,
+              "box": [
+                0,
+                46,
+                85,
+                483
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 61.033333,
+              "box": [
+                0,
+                46,
+                110,
+                466
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 62.033333,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 63.033333,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 64.066667,
+              "box": [
+                0,
+                46,
+                79,
+                486
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 65.066667,
+              "box": [
+                0,
+                46,
+                110,
+                465
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 66.066667,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 71.566667,
+              "box": [
+                0,
+                40,
+                114,
+                462
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ],
+          "note": "First observed sampled open/closed state; transition within the preceding sampling interval remains uncertain."
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                305,
+                356,
+                413,
+                500
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 47.033333,
+              "box": [
+                305,
+                356,
+                413,
+                500
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 48.033333,
+              "box": [
+                294,
+                356,
+                413,
+                511
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 49.033333,
+              "box": [
+                291,
+                356,
+                413,
+                512
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 50.033333,
+              "box": [
+                292,
+                356,
+                413,
+                512
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 51.033333,
+              "box": [
+                305,
+                356,
+                413,
+                500
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 71.566667,
+              "box": [
+                305,
+                356,
+                413,
+                500
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        },
+        {
+          "label": "id_card",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                184,
+                437,
+                193,
+                444
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 8.033333,
+              "box": [
+                184,
+                437,
+                193,
+                444
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 9.033333,
+              "box": [
+                184,
+                437,
+                193,
+                444
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                179,
+                422,
+                196,
+                435
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                187,
+                415,
+                205,
+                429
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                205,
+                410,
+                217,
+                424
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.033333,
+              "box": [
+                204,
+                412,
+                215,
+                430
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                177,
+                405,
+                194,
+                421
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 17.033333,
+              "box": [
+                151,
+                438,
+                168,
+                449
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 18.033333,
+              "box": [
+                151,
+                438,
+                168,
+                449
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 53.033333,
+              "box": [
+                151,
+                438,
+                168,
+                449
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 54.033333,
+              "box": [
+                191,
+                444,
+                201,
+                450
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 55.033333,
+              "box": [
+                167,
+                401,
+                184,
+                412
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 56.033333,
+              "box": [
+                167,
+                401,
+                184,
+                412
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 71.566667,
+              "box": [
+                167,
+                401,
+                184,
+                412
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "id_card",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                168,
+                393,
+                177,
+                399
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 69.066667,
+              "box": [
+                168,
+                393,
+                177,
+                399
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 70.066667,
+              "box": [
+                179,
+                389,
+                197,
+                408
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 71.066667,
+              "box": [
+                194,
+                402,
+                211,
+                416
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 71.566667,
+              "box": [
+                194,
+                402,
+                211,
+                416
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                167,
+                414,
+                178,
+                420
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                167,
+                414,
+                178,
+                420
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                163,
+                414,
+                178,
+                421
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 17.033333,
+              "box": [
+                174,
+                421,
+                190,
+                431
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 18.033333,
+              "box": [
+                174,
+                421,
+                190,
+                431
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.033333,
+              "box": [
+                198,
+                432,
+                215,
+                452
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 22.033333,
+              "box": [
+                201,
+                425,
+                217,
+                450
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 24.033333,
+              "box": [
+                193,
+                439,
+                209,
+                458
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 25.033333,
+              "box": [
+                101,
+                396,
+                123,
+                408
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 26.033333,
+              "box": [
+                77,
+                409,
+                95,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 27.033333,
+              "box": [
+                77,
+                407,
+                96,
+                428
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 31.033333,
+              "box": [
+                77,
+                407,
+                96,
+                428
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 32.033333,
+              "box": [
+                77,
+                407,
+                96,
+                428
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 34.033333,
+              "box": [
+                203,
+                434,
+                219,
+                452
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 36.033333,
+              "box": [
+                205,
+                434,
+                220,
+                452
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 38.033333,
+              "box": [
+                205,
+                434,
+                220,
+                452
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 71.566667,
+              "box": [
+                205,
+                434,
+                220,
+                452
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            }
+          ],
+          "note": "Cash visible in hand after removal from machine becomes too occluded to box confidently after 38 s. It is not propagated through occluded safe access."
+        }
+      ],
+      "notes": [
+        "table box covers the wooden work surface only; its axis-aligned enclosure necessarily contains some non-surface pixels at the diagonal edges. White foreground desk and vertical wood panels are excluded.",
+        "Stationary desk telephone, receipt printer, papers, wallets held by clients and work scissors are excluded.",
+        "Transition times are first observed sampled states, generally uncertain by up to 1 second (2 seconds for sparse bag and cash motion). Geometry between keyframes is interpolated, not independently reviewed.",
+        "No clear foreign clothing, personal bag, cup or mobile phone on the table. The folding black item held by the client is a wallet and was not labeled as phone."
+      ],
+      "unresolved": [
+        "Frame-by-frame validation of interpolated small-object motion and appearance/disappearance boundaries remains necessary.",
+        "Door start/end transitions lie between adjacent 1 s samples; entrance/exit frames need conservative handling for person versus reflection."
+      ],
+      "last_source_time_sec": 71.566667,
+      "annotation_ready": true,
+      "reflection_regions": [
+        {
+          "kind": "closed_door",
+          "box": [
+            0,
+            65,
+            94,
+            385
+          ],
+          "max_person_bottom_y": 335,
+          "condition": "only while door state is closed; exclude tracks actively entering/leaving"
+        },
+        {
+          "kind": "fixed_glass",
+          "box": [
+            109,
+            60,
+            215,
+            370
+          ],
+          "max_person_bottom_y": 325,
+          "condition": "conservative rule only; seated clients with bottom near 430 are in the room"
+        }
+      ]
+    },
+    {
+      "video": "X-8",
+      "reviewed_samples": [
+        "X-8_000000.jpg",
+        "X-8_002000.jpg",
+        "X-8_004000.jpg",
+        "X-8_006000.jpg",
+        "X-8_008033.jpg",
+        "X-8_010033.jpg",
+        "X-8_012033.jpg",
+        "X-8_014033.jpg",
+        "X-8_016033.jpg",
+        "X-8_018033.jpg",
+        "X-8_019033.jpg",
+        "X-8_020033.jpg",
+        "X-8_021033.jpg",
+        "X-8_022033.jpg",
+        "X-8_023033.jpg",
+        "X-8_024033.jpg",
+        "X-8_025033.jpg",
+        "X-8_026033.jpg",
+        "X-8_027033.jpg",
+        "X-8_028033.jpg",
+        "X-8_030033.jpg",
+        "X-8_032033.jpg",
+        "X-8_034033.jpg",
+        "X-8_036033.jpg",
+        "X-8_037980.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                47,
+                369,
+                116,
+                451
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 38.0,
+              "box": [
+                47,
+                369,
+                116,
+                451
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                45,
+                383,
+                320,
+                496
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 38.0,
+              "box": [
+                45,
+                383,
+                320,
+                496
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                237,
+                347,
+                287,
+                414
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 38.0,
+              "box": [
+                237,
+                347,
+                287,
+                414
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                42,
+                139,
+                480
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 38.0,
+              "box": [
+                0,
+                42,
+                139,
+                480
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "table box covers the wooden work surface only; its axis-aligned enclosure necessarily contains some non-surface pixels at the diagonal edges. White foreground desk and vertical wood panels are excluded.",
+        "Stationary desk telephone, receipt printer, papers, wallets held by clients and work scissors are excluded.",
+        "Transition times are first observed sampled states, generally uncertain by up to 1 second (2 seconds for sparse bag and cash motion). Geometry between keyframes is interpolated, not independently reviewed."
+      ],
+      "unresolved": [
+        "Frame-by-frame validation of interpolated small-object motion and appearance/disappearance boundaries remains necessary."
+      ],
+      "last_source_time_sec": 38.0,
+      "annotation_ready": false
+    },
+    {
+      "video": "X-10",
+      "reviewed_samples": [
+        "X-10_000000.jpg",
+        "X-10_001000.jpg",
+        "X-10_002000.jpg",
+        "X-10_003000.jpg",
+        "X-10_004000.jpg",
+        "X-10_005000.jpg",
+        "X-10_006000.jpg",
+        "X-10_007000.jpg",
+        "X-10_008033.jpg",
+        "X-10_009033.jpg",
+        "X-10_010033.jpg",
+        "X-10_011033.jpg",
+        "X-10_012033.jpg",
+        "X-10_013033.jpg",
+        "X-10_014033.jpg",
+        "X-10_015033.jpg",
+        "X-10_015520.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                13,
+                333,
+                84,
+                416
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.533333,
+              "box": [
+                13,
+                333,
+                84,
+                416
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                10,
+                346,
+                289,
+                462
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.533333,
+              "box": [
+                10,
+                346,
+                289,
+                462
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                206,
+                312,
+                258,
+                379
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.533333,
+              "box": [
+                206,
+                312,
+                258,
+                379
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                201,
+                263,
+                277,
+                379
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.533333,
+              "box": [
+                201,
+                263,
+                277,
+                379
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                0,
+                107,
+                440
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.533333,
+              "box": [
+                0,
+                0,
+                107,
+                440
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "table box covers the wooden work surface only; its axis-aligned enclosure necessarily contains some non-surface pixels at the diagonal edges. White foreground desk and vertical wood panels are excluded.",
+        "Stationary desk telephone, receipt printer, papers, wallets held by clients and work scissors are excluded.",
+        "Transition times are first observed sampled states, generally uncertain by up to 1 second (2 seconds for sparse bag and cash motion). Geometry between keyframes is interpolated, not independently reviewed."
+      ],
+      "unresolved": [
+        "Frame-by-frame validation of interpolated small-object motion and appearance/disappearance boundaries remains necessary."
+      ],
+      "last_source_time_sec": 15.533333,
+      "annotation_ready": false
+    },
+    {
+      "video": "X-11",
+      "reviewed_samples": [
+        "X-11_000000.jpg",
+        "X-11_001000.jpg",
+        "X-11_002000.jpg",
+        "X-11_003000.jpg",
+        "X-11_004000.jpg",
+        "X-11_005000.jpg",
+        "X-11_006000.jpg",
+        "X-11_007000.jpg",
+        "X-11_008033.jpg",
+        "X-11_009033.jpg",
+        "X-11_010033.jpg",
+        "X-11_011033.jpg",
+        "X-11_012033.jpg",
+        "X-11_013033.jpg",
+        "X-11_014033.jpg",
+        "X-11_015033.jpg",
+        "X-11_016033.jpg",
+        "X-11_017033.jpg",
+        "X-11_018033.jpg",
+        "X-11_019033.jpg",
+        "X-11_020033.jpg",
+        "X-11_021033.jpg",
+        "X-11_022033.jpg",
+        "X-11_023033.jpg",
+        "X-11_024033.jpg",
+        "X-11_025033.jpg",
+        "X-11_025550.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                46,
+                377,
+                117,
+                459
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 25.566667,
+              "box": [
+                46,
+                377,
+                117,
+                459
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                44,
+                388,
+                319,
+                505
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 25.566667,
+              "box": [
+                44,
+                388,
+                319,
+                505
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "active"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                223,
+                351,
+                285,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 25.566667,
+              "box": [
+                223,
+                351,
+                285,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                226,
+                305,
+                301,
+                417
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 25.566667,
+              "box": [
+                226,
+                305,
+                301,
+                417
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "table box covers the wooden work surface only; its axis-aligned enclosure necessarily contains some non-surface pixels at the diagonal edges. White foreground desk and vertical wood panels are excluded.",
+        "Stationary desk telephone, receipt printer, papers, wallets held by clients and work scissors are excluded.",
+        "Transition times are first observed sampled states, generally uncertain by up to 1 second (2 seconds for sparse bag and cash motion). Geometry between keyframes is interpolated, not independently reviewed."
+      ],
+      "unresolved": [
+        "Frame-by-frame validation of interpolated small-object motion and appearance/disappearance boundaries remains necessary."
+      ],
+      "last_source_time_sec": 25.566667,
+      "annotation_ready": false
+    },
+    {
+      "video": "X-12",
+      "reviewed_samples": [
+        "X-12_000000.jpg",
+        "X-12_002000.jpg",
+        "X-12_004000.jpg",
+        "X-12_006000.jpg",
+        "X-12_008033.jpg",
+        "X-12_010033.jpg",
+        "X-12_012033.jpg",
+        "X-12_014033.jpg",
+        "X-12_016033.jpg",
+        "X-12_018033.jpg",
+        "X-12_020033.jpg",
+        "X-12_022033.jpg",
+        "X-12_024033.jpg",
+        "X-12_026033.jpg",
+        "X-12_028033.jpg",
+        "X-12_030033.jpg",
+        "X-12_032033.jpg",
+        "X-12_033033.jpg",
+        "X-12_034033.jpg",
+        "X-12_035033.jpg",
+        "X-12_036033.jpg",
+        "X-12_037033.jpg",
+        "X-12_038033.jpg",
+        "X-12_039033.jpg",
+        "X-12_040033.jpg",
+        "X-12_041033.jpg",
+        "X-12_042033.jpg",
+        "X-12_042250.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                46,
+                377,
+                117,
+                459
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 42.266667,
+              "box": [
+                46,
+                377,
+                117,
+                459
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                44,
+                388,
+                319,
+                505
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 42.266667,
+              "box": [
+                44,
+                388,
+                319,
+                505
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                226,
+                305,
+                301,
+                417
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 42.266667,
+              "box": [
+                226,
+                305,
+                301,
+                417
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "table box covers the wooden work surface only; its axis-aligned enclosure necessarily contains some non-surface pixels at the diagonal edges. White foreground desk and vertical wood panels are excluded.",
+        "Stationary desk telephone, receipt printer, papers, wallets held by clients and work scissors are excluded.",
+        "Transition times are first observed sampled states, generally uncertain by up to 1 second (2 seconds for sparse bag and cash motion). Geometry between keyframes is interpolated, not independently reviewed."
+      ],
+      "unresolved": [
+        "Frame-by-frame validation of interpolated small-object motion and appearance/disappearance boundaries remains necessary."
+      ],
+      "last_source_time_sec": 42.266667,
+      "annotation_ready": false
+    },
+    {
+      "video": "X-13",
+      "reviewed_samples": [
+        "X-13_000000.jpg",
+        "X-13_002000.jpg",
+        "X-13_004000.jpg",
+        "X-13_006000.jpg",
+        "X-13_008033.jpg",
+        "X-13_010033.jpg",
+        "X-13_012033.jpg",
+        "X-13_014033.jpg",
+        "X-13_016033.jpg",
+        "X-13_018033.jpg",
+        "X-13_020033.jpg",
+        "X-13_022033.jpg",
+        "X-13_024033.jpg",
+        "X-13_026033.jpg",
+        "X-13_028033.jpg",
+        "X-13_030033.jpg",
+        "X-13_032033.jpg",
+        "X-13_033033.jpg",
+        "X-13_034033.jpg",
+        "X-13_036033.jpg",
+        "X-13_038033.jpg",
+        "X-13_040033.jpg",
+        "X-13_042033.jpg",
+        "X-13_044033.jpg",
+        "X-13_045033.jpg",
+        "X-13_046033.jpg",
+        "X-13_047033.jpg",
+        "X-13_048033.jpg",
+        "X-13_049033.jpg",
+        "X-13_050033.jpg",
+        "X-13_051033.jpg",
+        "X-13_052033.jpg",
+        "X-13_053033.jpg",
+        "X-13_054033.jpg",
+        "X-13_056033.jpg",
+        "X-13_058033.jpg",
+        "X-13_059033.jpg",
+        "X-13_060033.jpg",
+        "X-13_061033.jpg",
+        "X-13_062033.jpg",
+        "X-13_063033.jpg",
+        "X-13_064067.jpg",
+        "X-13_065067.jpg",
+        "X-13_065250.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                31,
+                320,
+                102,
+                412
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 65.266667,
+              "box": [
+                31,
+                320,
+                102,
+                412
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                27,
+                349,
+                305,
+                457
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 65.266667,
+              "box": [
+                27,
+                349,
+                305,
+                457
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                212,
+                313,
+                272,
+                380
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 65.266667,
+              "box": [
+                212,
+                313,
+                272,
+                380
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "table box covers the wooden work surface only; its axis-aligned enclosure necessarily contains some non-surface pixels at the diagonal edges. White foreground desk and vertical wood panels are excluded.",
+        "Stationary desk telephone, receipt printer, papers, wallets held by clients and work scissors are excluded.",
+        "Transition times are first observed sampled states, generally uncertain by up to 1 second (2 seconds for sparse bag and cash motion). Geometry between keyframes is interpolated, not independently reviewed."
+      ],
+      "unresolved": [
+        "Frame-by-frame validation of interpolated small-object motion and appearance/disappearance boundaries remains necessary."
+      ],
+      "last_source_time_sec": 65.266667,
+      "annotation_ready": false
+    },
+    {
+      "video": "X-14",
+      "reviewed_samples": [
+        "X-14_000000.jpg",
+        "X-14_002000.jpg",
+        "X-14_004000.jpg",
+        "X-14_006000.jpg",
+        "X-14_008033.jpg",
+        "X-14_010033.jpg",
+        "X-14_012033.jpg",
+        "X-14_014033.jpg",
+        "X-14_016033.jpg",
+        "X-14_018033.jpg",
+        "X-14_020033.jpg",
+        "X-14_022033.jpg",
+        "X-14_024033.jpg",
+        "X-14_026033.jpg",
+        "X-14_028033.jpg",
+        "X-14_030033.jpg",
+        "X-14_032033.jpg",
+        "X-14_034033.jpg",
+        "X-14_036033.jpg",
+        "X-14_038033.jpg",
+        "X-14_040033.jpg",
+        "X-14_042033.jpg",
+        "X-14_044033.jpg",
+        "X-14_046033.jpg",
+        "X-14_048033.jpg",
+        "X-14_050033.jpg",
+        "X-14_052033.jpg",
+        "X-14_054033.jpg",
+        "X-14_056033.jpg",
+        "X-14_058033.jpg",
+        "X-14_060033.jpg",
+        "X-14_062033.jpg",
+        "X-14_064067.jpg",
+        "X-14_066067.jpg",
+        "X-14_068067.jpg",
+        "X-14_070067.jpg",
+        "X-14_072067.jpg",
+        "X-14_074067.jpg",
+        "X-14_076067.jpg",
+        "X-14_078067.jpg",
+        "X-14_080067.jpg",
+        "X-14_082067.jpg",
+        "X-14_084067.jpg",
+        "X-14_086067.jpg",
+        "X-14_088067.jpg",
+        "X-14_090067.jpg",
+        "X-14_092067.jpg",
+        "X-14_094067.jpg",
+        "X-14_096067.jpg",
+        "X-14_098067.jpg",
+        "X-14_100067.jpg",
+        "X-14_102067.jpg",
+        "X-14_104067.jpg",
+        "X-14_106067.jpg",
+        "X-14_108067.jpg",
+        "X-14_110067.jpg",
+        "X-14_112067.jpg",
+        "X-14_114067.jpg",
+        "X-14_115067.jpg",
+        "X-14_116067.jpg",
+        "X-14_117067.jpg",
+        "X-14_118067.jpg",
+        "X-14_119067.jpg",
+        "X-14_120067.jpg",
+        "X-14_121067.jpg",
+        "X-14_122067.jpg",
+        "X-14_123067.jpg",
+        "X-14_124067.jpg",
+        "X-14_125067.jpg",
+        "X-14_126067.jpg",
+        "X-14_127067.jpg",
+        "X-14_128100.jpg",
+        "X-14_130100.jpg",
+        "X-14_132100.jpg",
+        "X-14_134100.jpg",
+        "X-14_136100.jpg",
+        "X-14_138100.jpg",
+        "X-14_140100.jpg",
+        "X-14_142100.jpg",
+        "X-14_142480.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                46,
+                377,
+                117,
+                459
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 142.5,
+              "box": [
+                46,
+                377,
+                117,
+                459
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                44,
+                388,
+                319,
+                505
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 142.5,
+              "box": [
+                44,
+                388,
+                319,
+                505
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                225,
+                350,
+                284,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 142.5,
+              "box": [
+                225,
+                350,
+                284,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                50,
+                143,
+                483
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 142.5,
+              "box": [
+                0,
+                50,
+                143,
+                483
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "table box covers the wooden work surface only; its axis-aligned enclosure necessarily contains some non-surface pixels at the diagonal edges. White foreground desk and vertical wood panels are excluded.",
+        "Stationary desk telephone, receipt printer, papers, wallets held by clients and work scissors are excluded.",
+        "Transition times are first observed sampled states, generally uncertain by up to 1 second (2 seconds for sparse bag and cash motion). Geometry between keyframes is interpolated, not independently reviewed."
+      ],
+      "unresolved": [
+        "Frame-by-frame validation of interpolated small-object motion and appearance/disappearance boundaries remains necessary."
+      ],
+      "last_source_time_sec": 142.5,
+      "annotation_ready": false
+    }
+  ],
+  "review_method": "Visual inspection of sampled source frames, cropped action contact sheets, and start/middle/end full frames; linear geometry interpolation between manually placed keyframes. Samples are approximately 1 second apart, sometimes 2 seconds. This is not a claim that every source frame was visually reviewed.",
+  "coordinate_space": {
+    "width": 464,
+    "height": 848
+  },
+  "completion_scope": "Fixed objects plus visually clear small/rare objects; dynamic people/hands handled separately. Temporal changes between samples retain explicit uncertainty."
+}

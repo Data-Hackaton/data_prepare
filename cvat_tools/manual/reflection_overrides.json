@@ -1,0 +1,175 @@
+{
+  "X-1": {
+    "reflection_regions": [
+      {
+        "kind": "closed_door",
+        "box": [
+          0,
+          65,
+          94,
+          385
+        ],
+        "max_person_bottom_y": 440,
+        "condition": "only while door state is closed; exclude tracks actively entering/leaving",
+        "max_center_x": 90
+      },
+      {
+        "kind": "fixed_glass",
+        "box": [
+          109,
+          60,
+          215,
+          370
+        ],
+        "max_person_bottom_y": 325,
+        "condition": "conservative rule only; seated clients with bottom near 430 are in the room"
+      }
+    ],
+    "entry_exit_exclusion_intervals_sec": [
+      [
+        1,
+        7
+      ]
+    ]
+  },
+  "X-2": {
+    "reflection_regions": [
+      {
+        "kind": "closed_door",
+        "box": [
+          0,
+          65,
+          94,
+          385
+        ],
+        "max_person_bottom_y": 440,
+        "condition": "only while door state is closed; exclude tracks actively entering/leaving",
+        "max_center_x": 90
+      },
+      {
+        "kind": "fixed_glass",
+        "box": [
+          109,
+          60,
+          215,
+          370
+        ],
+        "max_person_bottom_y": 325,
+        "condition": "conservative rule only; seated clients with bottom near 430 are in the room"
+      }
+    ],
+    "entry_exit_exclusion_intervals_sec": [
+      [
+        3,
+        9
+      ]
+    ]
+  },
+  "X-3": {
+    "reflection_regions": [
+      {
+        "kind": "closed_door",
+        "box": [
+          0,
+          65,
+          94,
+          385
+        ],
+        "max_person_bottom_y": 440,
+        "condition": "only while door state is closed; exclude tracks actively entering/leaving",
+        "max_center_x": 90
+      },
+      {
+        "kind": "fixed_glass",
+        "box": [
+          109,
+          60,
+          215,
+          370
+        ],
+        "max_person_bottom_y": 325,
+        "condition": "conservative rule only; seated clients with bottom near 430 are in the room"
+      }
+    ],
+    "entry_exit_exclusion_intervals_sec": [
+      [
+        1,
+        7
+      ]
+    ]
+  },
+  "X-4": {
+    "reflection_regions": [
+      {
+        "kind": "closed_door",
+        "box": [
+          0,
+          65,
+          94,
+          385
+        ],
+        "max_person_bottom_y": 440,
+        "condition": "only while door state is closed; exclude tracks actively entering/leaving",
+        "max_center_x": 90
+      },
+      {
+        "kind": "fixed_glass",
+        "box": [
+          109,
+          60,
+          215,
+          370
+        ],
+        "max_person_bottom_y": 325,
+        "condition": "conservative rule only; seated clients with bottom near 430 are in the room"
+      }
+    ],
+    "entry_exit_exclusion_intervals_sec": [
+      [
+        6,
+        12
+      ],
+      [
+        51,
+        61
+      ]
+    ]
+  },
+  "X-5": {
+    "reflection_regions": [
+      {
+        "kind": "closed_door",
+        "box": [
+          0,
+          65,
+          94,
+          385
+        ],
+        "max_person_bottom_y": 440,
+        "condition": "only while door state is closed; exclude tracks actively entering/leaving",
+        "max_center_x": 90
+      },
+      {
+        "kind": "fixed_glass",
+        "box": [
+          109,
+          60,
+          215,
+          370
+        ],
+        "max_person_bottom_y": 325,
+        "condition": "conservative rule only; seated clients with bottom near 430 are in the room"
+      }
+    ],
+    "entry_exit_exclusion_intervals_sec": [
+      [
+        1,
+        7
+      ],
+      [
+        58,
+        68
+      ]
+    ]
+  }
+}

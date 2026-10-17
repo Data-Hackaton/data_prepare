@@ -2,6 +2,14 @@
 __pycache__/
 .pytest_cache/
 .env
+admin.env
+cvat_tools/.venv/
+cvat_tools/imports/
+cvat_tools/exports/
+cvat_tools/automatic/
+cvat_tools/assembled/
+cvat_tools/models/**/*.onnx
+cvat_local/
 *.xlsx
 
 # data/ в репозитории: видео, кадры, предразметка, выгрузки CVAT, feature store.

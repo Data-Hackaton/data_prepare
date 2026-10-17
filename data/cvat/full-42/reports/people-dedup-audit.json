@@ -1,0 +1,698 @@
+[
+  {
+    "video": "X-1",
+    "duplicate_people_samples_removed": 44,
+    "duplicate_people_removed_by_label": {
+      "reflection": 44
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": [
+      {
+        "label": "reflection",
+        "kept_original_id": 10,
+        "removed_original_id": 12,
+        "samples_removed": 14
+      },
+      {
+        "label": "reflection",
+        "kept_original_id": 12,
+        "removed_original_id": 38,
+        "samples_removed": 30
+      }
+    ]
+  },
+  {
+    "video": "X-2",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-3",
+    "duplicate_people_samples_removed": 27,
+    "duplicate_people_removed_by_label": {
+      "person": 12,
+      "reflection": 15
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 15,
+    "duplicate_people_pairs": [
+      {
+        "label": "person",
+        "kept_original_id": 5,
+        "removed_original_id": 9,
+        "samples_removed": 12
+      },
+      {
+        "label": "reflection",
+        "kept_original_id": 14,
+        "removed_original_id": 31,
+        "samples_removed": 15
+      }
+    ]
+  },
+  {
+    "video": "X-4",
+    "duplicate_people_samples_removed": 30,
+    "duplicate_people_removed_by_label": {
+      "reflection": 30
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": [
+      {
+        "label": "reflection",
+        "kept_original_id": 9,
+        "removed_original_id": 57,
+        "samples_removed": 30
+      }
+    ]
+  },
+  {
+    "video": "X-5",
+    "duplicate_people_samples_removed": 60,
+    "duplicate_people_removed_by_label": {
+      "reflection": 60
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 90,
+    "duplicate_people_pairs": [
+      {
+        "label": "reflection",
+        "kept_original_id": 41,
+        "removed_original_id": 58,
+        "samples_removed": 15
+      },
+      {
+        "label": "reflection",
+        "kept_original_id": 41,
+        "removed_original_id": 59,
+        "samples_removed": 15
+      },
+      {
+        "label": "reflection",
+        "kept_original_id": 41,
+        "removed_original_id": 65,
+        "samples_removed": 15
+      },
+      {
+        "label": "reflection",
+        "kept_original_id": 112,
+        "removed_original_id": 107,
+        "samples_removed": 15
+      }
+    ]
+  },
+  {
+    "video": "X-8",
+    "duplicate_people_samples_removed": 114,
+    "duplicate_people_removed_by_label": {
+      "person": 114
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 15,
+    "duplicate_people_pairs": [
+      {
+        "label": "person",
+        "kept_original_id": 0,
+        "removed_original_id": 10,
+        "samples_removed": 30
+      },
+      {
+        "label": "person",
+        "kept_original_id": 16,
+        "removed_original_id": 0,
+        "samples_removed": 15
+      },
+      {
+        "label": "person",
+        "kept_original_id": 22,
+        "removed_original_id": 16,
+        "samples_removed": 54
+      },
+      {
+        "label": "person",
+        "kept_original_id": 22,
+        "removed_original_id": 26,
+        "samples_removed": 15
+      }
+    ]
+  },
+  {
+    "video": "X-10",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-11",
+    "duplicate_people_samples_removed": 150,
+    "duplicate_people_removed_by_label": {
+      "person": 111,
+      "reflection": 39
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 30,
+    "duplicate_people_pairs": [
+      {
+        "label": "person",
+        "kept_original_id": 0,
+        "removed_original_id": 5,
+        "samples_removed": 15
+      },
+      {
+        "label": "person",
+        "kept_original_id": 0,
+        "removed_original_id": 16,
+        "samples_removed": 45
+      },
+      {
+        "label": "person",
+        "kept_original_id": 0,
+        "removed_original_id": 19,
+        "samples_removed": 51
+      },
+      {
+        "label": "reflection",
+        "kept_original_id": 0,
+        "removed_original_id": 19,
+        "samples_removed": 24
+      },
+      {
+        "label": "reflection",
+        "kept_original_id": 1,
+        "removed_original_id": 7,
+        "samples_removed": 15
+      }
+    ]
+  },
+  {
+    "video": "X-12",
+    "duplicate_people_samples_removed": 60,
+    "duplicate_people_removed_by_label": {
+      "person": 60
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": [
+      {
+        "label": "person",
+        "kept_original_id": 0,
+        "removed_original_id": 4,
+        "samples_removed": 30
+      },
+      {
+        "label": "person",
+        "kept_original_id": 0,
+        "removed_original_id": 6,
+        "samples_removed": 15
+      },
+      {
+        "label": "person",
+        "kept_original_id": 6,
+        "removed_original_id": 0,
+        "samples_removed": 15
+      }
+    ]
+  },
+  {
+    "video": "X-13",
+    "duplicate_people_samples_removed": 21,
+    "duplicate_people_removed_by_label": {
+      "person": 21
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": [
+      {
+        "label": "person",
+        "kept_original_id": 1,
+        "removed_original_id": 47,
+        "samples_removed": 21
+      }
+    ]
+  },
+  {
+    "video": "X-14",
+    "duplicate_people_samples_removed": 420,
+    "duplicate_people_removed_by_label": {
+      "person": 345,
+      "reflection": 75
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 165,
+    "duplicate_people_pairs": [
+      {
+        "label": "person",
+        "kept_original_id": 55,
+        "removed_original_id": 6,
+        "samples_removed": 45
+      },
+      {
+        "label": "person",
+        "kept_original_id": 55,
+        "removed_original_id": 66,
+        "samples_removed": 75
+      },
+      {
+        "label": "person",
+        "kept_original_id": 55,
+        "removed_original_id": 77,
+        "samples_removed": 45
+      },
+      {
+        "label": "person",
+        "kept_original_id": 55,
+        "removed_original_id": 90,
+        "samples_removed": 30
+      },
+      {
+        "label": "person",
+        "kept_original_id": 55,
+        "removed_original_id": 97,
+        "samples_removed": 15
+      },
+      {
+        "label": "person",
+        "kept_original_id": 55,
+        "removed_original_id": 103,
+        "samples_removed": 45
+      },
+      {
+        "label": "person",
+        "kept_original_id": 55,
+        "removed_original_id": 108,
+        "samples_removed": 45
+      },
+      {
+        "label": "person",
+        "kept_original_id": 77,
+        "removed_original_id": 55,
+        "samples_removed": 45
+      },
+      {
+        "label": "reflection",
+        "kept_original_id": 34,
+        "removed_original_id": 37,
+        "samples_removed": 15
+      },
+      {
+        "label": "reflection",
+        "kept_original_id": 37,
+        "removed_original_id": 34,
+        "samples_removed": 15
+      },
+      {
+        "label": "reflection",
+        "kept_original_id": 89,
+        "removed_original_id": 110,
+        "samples_removed": 30
+      },
+      {
+        "label": "reflection",
+        "kept_original_id": 89,
+        "removed_original_id": 116,
+        "samples_removed": 15
+      }
+    ]
+  },
+  {
+    "video": "X-15",
+    "duplicate_people_samples_removed": 30,
+    "duplicate_people_removed_by_label": {
+      "person": 30
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": [
+      {
+        "label": "person",
+        "kept_original_id": 0,
+        "removed_original_id": 8,
+        "samples_removed": 30
+      }
+    ]
+  },
+  {
+    "video": "X-16",
+    "duplicate_people_samples_removed": 15,
+    "duplicate_people_removed_by_label": {
+      "reflection": 15
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 13,
+    "duplicate_people_pairs": [
+      {
+        "label": "reflection",
+        "kept_original_id": 23,
+        "removed_original_id": 24,
+        "samples_removed": 15
+      }
+    ]
+  },
+  {
+    "video": "X-17",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-18",
+    "duplicate_people_samples_removed": 30,
+    "duplicate_people_removed_by_label": {
+      "person": 30
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": [
+      {
+        "label": "person",
+        "kept_original_id": 25,
+        "removed_original_id": 3,
+        "samples_removed": 30
+      }
+    ]
+  },
+  {
+    "video": "X-19",
+    "duplicate_people_samples_removed": 30,
+    "duplicate_people_removed_by_label": {
+      "person": 30
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 30,
+    "duplicate_people_pairs": [
+      {
+        "label": "person",
+        "kept_original_id": 2,
+        "removed_original_id": 30,
+        "samples_removed": 15
+      },
+      {
+        "label": "person",
+        "kept_original_id": 2,
+        "removed_original_id": 46,
+        "samples_removed": 15
+      }
+    ]
+  },
+  {
+    "video": "X-20",
+    "duplicate_people_samples_removed": 30,
+    "duplicate_people_removed_by_label": {
+      "person": 30
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 15,
+    "duplicate_people_pairs": [
+      {
+        "label": "person",
+        "kept_original_id": 13,
+        "removed_original_id": 0,
+        "samples_removed": 30
+      }
+    ]
+  },
+  {
+    "video": "X-21",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-22",
+    "duplicate_people_samples_removed": 15,
+    "duplicate_people_removed_by_label": {
+      "reflection": 15
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": [
+      {
+        "label": "reflection",
+        "kept_original_id": 6,
+        "removed_original_id": 1,
+        "samples_removed": 15
+      }
+    ]
+  },
+  {
+    "video": "X-23",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-24",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-25",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-26",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-27",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-28",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-29",
+    "duplicate_people_samples_removed": 30,
+    "duplicate_people_removed_by_label": {
+      "person": 30
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": [
+      {
+        "label": "person",
+        "kept_original_id": 12,
+        "removed_original_id": 13,
+        "samples_removed": 30
+      }
+    ]
+  },
+  {
+    "video": "X-30",
+    "duplicate_people_samples_removed": 15,
+    "duplicate_people_removed_by_label": {
+      "person": 15
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 45,
+    "duplicate_people_pairs": [
+      {
+        "label": "person",
+        "kept_original_id": 0,
+        "removed_original_id": 14,
+        "samples_removed": 15
+      }
+    ]
+  },
+  {
+    "video": "X-31",
+    "duplicate_people_samples_removed": 45,
+    "duplicate_people_removed_by_label": {
+      "person": 45
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 15,
+    "duplicate_people_pairs": [
+      {
+        "label": "person",
+        "kept_original_id": 1,
+        "removed_original_id": 17,
+        "samples_removed": 30
+      },
+      {
+        "label": "person",
+        "kept_original_id": 22,
+        "removed_original_id": 1,
+        "samples_removed": 15
+      }
+    ]
+  },
+  {
+    "video": "X-32",
+    "duplicate_people_samples_removed": 31,
+    "duplicate_people_removed_by_label": {
+      "person": 31
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 30,
+    "duplicate_people_pairs": [
+      {
+        "label": "person",
+        "kept_original_id": 0,
+        "removed_original_id": 7,
+        "samples_removed": 15
+      },
+      {
+        "label": "person",
+        "kept_original_id": 0,
+        "removed_original_id": 8,
+        "samples_removed": 5
+      },
+      {
+        "label": "person",
+        "kept_original_id": 12,
+        "removed_original_id": 0,
+        "samples_removed": 11
+      }
+    ]
+  },
+  {
+    "video": "X-33",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 15,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-34",
+    "duplicate_people_samples_removed": 1,
+    "duplicate_people_removed_by_label": {
+      "reflection": 1
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 21,
+    "duplicate_people_pairs": [
+      {
+        "label": "reflection",
+        "kept_original_id": 16,
+        "removed_original_id": 15,
+        "samples_removed": 1
+      }
+    ]
+  },
+  {
+    "video": "X-35",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 15,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-37",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-38",
+    "duplicate_people_samples_removed": 1,
+    "duplicate_people_removed_by_label": {
+      "reflection": 1
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 59,
+    "duplicate_people_pairs": [
+      {
+        "label": "reflection",
+        "kept_original_id": 102,
+        "removed_original_id": 107,
+        "samples_removed": 1
+      }
+    ]
+  },
+  {
+    "video": "X-39",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-40",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 45,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-43",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-44",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-45",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-46",
+    "duplicate_people_samples_removed": 0,
+    "duplicate_people_removed_by_label": {},
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": []
+  },
+  {
+    "video": "X-47",
+    "duplicate_people_samples_removed": 30,
+    "duplicate_people_removed_by_label": {
+      "reflection": 30
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 0,
+    "duplicate_people_pairs": [
+      {
+        "label": "reflection",
+        "kept_original_id": 9,
+        "removed_original_id": 57,
+        "samples_removed": 30
+      }
+    ]
+  },
+  {
+    "video": "X-48",
+    "duplicate_people_samples_removed": 60,
+    "duplicate_people_removed_by_label": {
+      "reflection": 60
+    },
+    "duplicate_people_ambiguous_pair_samples_kept": 90,
+    "duplicate_people_pairs": [
+      {
+        "label": "reflection",
+        "kept_original_id": 41,
+        "removed_original_id": 58,
+        "samples_removed": 15
+      },
+      {
+        "label": "reflection",
+        "kept_original_id": 41,
+        "removed_original_id": 59,
+        "samples_removed": 15
+      },
+      {
+        "label": "reflection",
+        "kept_original_id": 41,
+        "removed_original_id": 65,
+        "samples_removed": 15
+      },
+      {
+        "label": "reflection",
+        "kept_original_id": 112,
+        "removed_original_id": 107,
+        "samples_removed": 15
+      }
+    ]
+  }
+]

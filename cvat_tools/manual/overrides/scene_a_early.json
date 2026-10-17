@@ -1,0 +1,2653 @@
+{
+  "videos": [
+    {
+      "video": "X-8",
+      "reviewed_samples": [
+        "X-8_000000.jpg",
+        "X-8_002000.jpg",
+        "X-8_004000.jpg",
+        "X-8_006000.jpg",
+        "X-8_008033.jpg",
+        "X-8_010033.jpg",
+        "X-8_012033.jpg",
+        "X-8_014033.jpg",
+        "X-8_016033.jpg",
+        "X-8_018033.jpg",
+        "X-8_019033.jpg",
+        "X-8_020033.jpg",
+        "X-8_021033.jpg",
+        "X-8_022033.jpg",
+        "X-8_023033.jpg",
+        "X-8_024033.jpg",
+        "X-8_025033.jpg",
+        "X-8_026033.jpg",
+        "X-8_027033.jpg",
+        "X-8_028033.jpg",
+        "X-8_030033.jpg",
+        "X-8_032033.jpg",
+        "X-8_034033.jpg",
+        "X-8_036033.jpg",
+        "X-8_037980.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                47,
+                369,
+                116,
+                451
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 38.0,
+              "box": [
+                47,
+                369,
+                116,
+                451
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                45,
+                383,
+                320,
+                496
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 38.0,
+              "box": [
+                45,
+                383,
+                320,
+                496
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                237,
+                347,
+                287,
+                414
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 38.0,
+              "box": [
+                237,
+                347,
+                287,
+                414
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                42,
+                139,
+                480
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 38.0,
+              "box": [
+                0,
+                42,
+                139,
+                480
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                231,
+                297,
+                304,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 20.3,
+              "box": [
+                231,
+                297,
+                304,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 20.4,
+              "box": [
+                229,
+                297,
+                304,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 20.5,
+              "box": [
+                224,
+                297,
+                304,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 20.6,
+              "box": [
+                218,
+                297,
+                304,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 20.7,
+              "box": [
+                211,
+                297,
+                304,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 20.8,
+              "box": [
+                208,
+                297,
+                304,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 21.0,
+              "box": [
+                208,
+                297,
+                304,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 22.5,
+              "box": [
+                208,
+                297,
+                304,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 23.0,
+              "box": [
+                208,
+                297,
+                304,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 23.3,
+              "box": [
+                216,
+                297,
+                304,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 23.6,
+              "box": [
+                224,
+                297,
+                304,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 23.9,
+              "box": [
+                230,
+                297,
+                304,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 24.0,
+              "box": [
+                231,
+                297,
+                304,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 38.0,
+              "box": [
+                231,
+                297,
+                304,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                173,
+                396,
+                194,
+                407
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 0.5,
+              "box": [
+                166,
+                396,
+                190,
+                405
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 1.0,
+              "box": [
+                164,
+                396,
+                190,
+                405
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 1.5,
+              "box": [
+                167,
+                397,
+                191,
+                406
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 2.0,
+              "box": [
+                165,
+                396,
+                190,
+                406
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 2.5,
+              "box": [
+                168,
+                396,
+                187,
+                407
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 3.0,
+              "box": [
+                160,
+                395,
+                186,
+                407
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 3.5,
+              "box": [
+                147,
+                383,
+                176,
+                404
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                84,
+                367,
+                105,
+                386
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 4.5,
+              "box": [
+                77,
+                373,
+                99,
+                388
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                77,
+                373,
+                99,
+                388
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 10.5,
+              "box": [
+                163,
+                399,
+                184,
+                416
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 11.0,
+              "box": [
+                171,
+                401,
+                190,
+                417
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 11.5,
+              "box": [
+                171,
+                400,
+                191,
+                417
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 12.0,
+              "box": [
+                164,
+                398,
+                186,
+                412
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 12.5,
+              "box": [
+                168,
+                389,
+                183,
+                402
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 13.0,
+              "box": [
+                175,
+                383,
+                191,
+                397
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 13.5,
+              "box": [
+                170,
+                392,
+                186,
+                405
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.0,
+              "box": [
+                168,
+                392,
+                185,
+                405
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.5,
+              "box": [
+                166,
+                383,
+                182,
+                396
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.0,
+              "box": [
+                176,
+                389,
+                190,
+                403
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.5,
+              "box": [
+                176,
+                394,
+                194,
+                407
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.0,
+              "box": [
+                171,
+                393,
+                191,
+                407
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.5,
+              "box": [
+                168,
+                382,
+                184,
+                396
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 17.0,
+              "box": [
+                171,
+                385,
+                186,
+                400
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 17.5,
+              "box": [
+                171,
+                385,
+                186,
+                400
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 18.5,
+              "box": [
+                175,
+                371,
+                190,
+                386
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 19.0,
+              "box": [
+                172,
+                360,
+                191,
+                377
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 19.5,
+              "box": [
+                179,
+                368,
+                195,
+                384
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.0,
+              "box": [
+                184,
+                366,
+                201,
+                383
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.5,
+              "box": [
+                187,
+                358,
+                201,
+                376
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 21.0,
+              "box": [
+                191,
+                351,
+                205,
+                365
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 21.5,
+              "box": [
+                188,
+                350,
+                203,
+                364
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 22.0,
+              "box": [
+                188,
+                350,
+                203,
+                364
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "table box covers the wooden work surface only; its axis-aligned enclosure necessarily contains some non-surface pixels at the diagonal edges. White foreground desk and vertical wood panels are excluded.",
+        "Stationary desk telephone, receipt printer, papers, wallets held by clients and work scissors are excluded.",
+        "No green collection bag or identity card was confidently visible in the reviewed samples. Paper forms and the held personal wallet are not labelled banknotes/id_card.",
+        "Additional original crops were reviewed at approximately 0.5 s; money boxes between these samples are interpolated. More than half-hidden cash and cash hidden inside the counter/safe are omitted.",
+        "Safe opening is bracketed by 20.3-20.4 s and closing by 23.9-24.0 s on original samples. Safe box includes swung door. Glass room door remains closed.",
+        "Visible blue banknotes are counted, fed into counter, retrieved and placed in safe. Counter internals obscure the group during counting. Large white/black item after 32 s is paperwork, not cash. Laptop screen faces away, so screen=unknown."
+      ],
+      "unresolved": [
+        "Money appearance/disappearance and hand occlusion between 0.5 s reviewed samples can differ from interpolation; no claim of visual review of every source frame."
+      ],
+      "last_source_time_sec": 38.0,
+      "annotation_ready": true,
+      "reviewed_original_frames": [
+        {
+          "frame": 0,
+          "time_sec": 0.0,
+          "file": "dynamic_qa.early.X-8.f00000.jpg"
+        },
+        {
+          "frame": 15,
+          "time_sec": 0.5,
+          "file": "dynamic_qa.early.X-8.f00015.jpg"
+        },
+        {
+          "frame": 30,
+          "time_sec": 1.0,
+          "file": "dynamic_qa.early.X-8.f00030.jpg"
+        },
+        {
+          "frame": 45,
+          "time_sec": 1.5,
+          "file": "dynamic_qa.early.X-8.f00045.jpg"
+        },
+        {
+          "frame": 60,
+          "time_sec": 2.0,
+          "file": "dynamic_qa.early.X-8.f00060.jpg"
+        },
+        {
+          "frame": 75,
+          "time_sec": 2.5,
+          "file": "dynamic_qa.early.X-8.f00075.jpg"
+        },
+        {
+          "frame": 90,
+          "time_sec": 3.0,
+          "file": "dynamic_qa.early.X-8.f00090.jpg"
+        },
+        {
+          "frame": 105,
+          "time_sec": 3.5,
+          "file": "dynamic_qa.early.X-8.f00105.jpg"
+        },
+        {
+          "frame": 120,
+          "time_sec": 4.0,
+          "file": "dynamic_qa.early.X-8.f00120.jpg"
+        },
+        {
+          "frame": 135,
+          "time_sec": 4.5,
+          "file": "dynamic_qa.early.X-8.f00135.jpg"
+        },
+        {
+          "frame": 150,
+          "time_sec": 5.0,
+          "file": "dynamic_qa.early.X-8.f00150.jpg"
+        },
+        {
+          "frame": 165,
+          "time_sec": 5.5,
+          "file": "dynamic_qa.early.X-8.f00165.jpg"
+        },
+        {
+          "frame": 180,
+          "time_sec": 6.0,
+          "file": "dynamic_qa.early.X-8.f00180.jpg"
+        },
+        {
+          "frame": 195,
+          "time_sec": 6.5,
+          "file": "dynamic_qa.early.X-8.f00195.jpg"
+        },
+        {
+          "frame": 210,
+          "time_sec": 7.0,
+          "file": "dynamic_qa.early.X-8.f00210.jpg"
+        },
+        {
+          "frame": 225,
+          "time_sec": 7.5,
+          "file": "dynamic_qa.early.X-8.f00225.jpg"
+        },
+        {
+          "frame": 240,
+          "time_sec": 8.0,
+          "file": "dynamic_qa.early.X-8.f00240.jpg"
+        },
+        {
+          "frame": 255,
+          "time_sec": 8.5,
+          "file": "dynamic_qa.early.X-8.f00255.jpg"
+        },
+        {
+          "frame": 270,
+          "time_sec": 9.0,
+          "file": "dynamic_qa.early.X-8.f00270.jpg"
+        },
+        {
+          "frame": 285,
+          "time_sec": 9.5,
+          "file": "dynamic_qa.early.X-8.f00285.jpg"
+        },
+        {
+          "frame": 300,
+          "time_sec": 10.0,
+          "file": "dynamic_qa.early.X-8.f00300.jpg"
+        },
+        {
+          "frame": 315,
+          "time_sec": 10.5,
+          "file": "dynamic_qa.early.X-8.f00315.jpg"
+        },
+        {
+          "frame": 330,
+          "time_sec": 11.0,
+          "file": "dynamic_qa.early.X-8.f00330.jpg"
+        },
+        {
+          "frame": 345,
+          "time_sec": 11.5,
+          "file": "dynamic_qa.early.X-8.f00345.jpg"
+        },
+        {
+          "frame": 360,
+          "time_sec": 12.0,
+          "file": "dynamic_qa.early.X-8.f00360.jpg"
+        },
+        {
+          "frame": 375,
+          "time_sec": 12.5,
+          "file": "dynamic_qa.early.X-8.f00375.jpg"
+        },
+        {
+          "frame": 390,
+          "time_sec": 13.0,
+          "file": "dynamic_qa.early.X-8.f00390.jpg"
+        },
+        {
+          "frame": 405,
+          "time_sec": 13.5,
+          "file": "dynamic_qa.early.X-8.f00405.jpg"
+        },
+        {
+          "frame": 420,
+          "time_sec": 14.0,
+          "file": "dynamic_qa.early.X-8.f00420.jpg"
+        },
+        {
+          "frame": 435,
+          "time_sec": 14.5,
+          "file": "dynamic_qa.early.X-8.f00435.jpg"
+        },
+        {
+          "frame": 450,
+          "time_sec": 15.0,
+          "file": "dynamic_qa.early.X-8.f00450.jpg"
+        },
+        {
+          "frame": 465,
+          "time_sec": 15.5,
+          "file": "dynamic_qa.early.X-8.f00465.jpg"
+        },
+        {
+          "frame": 479,
+          "time_sec": 16.0,
+          "file": "dynamic_qa.early.X-8.f00479.jpg"
+        },
+        {
+          "frame": 494,
+          "time_sec": 16.5,
+          "file": "dynamic_qa.early.X-8.f00494.jpg"
+        },
+        {
+          "frame": 509,
+          "time_sec": 17.0,
+          "file": "dynamic_qa.early.X-8.f00509.jpg"
+        },
+        {
+          "frame": 524,
+          "time_sec": 17.5,
+          "file": "dynamic_qa.early.X-8.f00524.jpg"
+        },
+        {
+          "frame": 539,
+          "time_sec": 18.0,
+          "file": "dynamic_qa.early.X-8.f00539.jpg"
+        },
+        {
+          "frame": 554,
+          "time_sec": 18.5,
+          "file": "dynamic_qa.early.X-8.f00554.jpg"
+        },
+        {
+          "frame": 569,
+          "time_sec": 19.0,
+          "file": "dynamic_qa.early.X-8.f00569.jpg"
+        },
+        {
+          "frame": 584,
+          "time_sec": 19.5,
+          "file": "dynamic_qa.early.X-8.f00584.jpg"
+        },
+        {
+          "frame": 599,
+          "time_sec": 20.0,
+          "file": "dynamic_qa.early.X-8.f00599.jpg"
+        },
+        {
+          "frame": 614,
+          "time_sec": 20.5,
+          "file": "dynamic_qa.early.X-8.f00614.jpg"
+        },
+        {
+          "frame": 629,
+          "time_sec": 21.0,
+          "file": "dynamic_qa.early.X-8.f00629.jpg"
+        },
+        {
+          "frame": 644,
+          "time_sec": 21.5,
+          "file": "dynamic_qa.early.X-8.f00644.jpg"
+        },
+        {
+          "frame": 659,
+          "time_sec": 22.0,
+          "file": "dynamic_qa.early.X-8.f00659.jpg"
+        },
+        {
+          "frame": 674,
+          "time_sec": 22.5,
+          "file": "dynamic_qa.early.X-8.f00674.jpg"
+        },
+        {
+          "frame": 689,
+          "time_sec": 23.0,
+          "file": "dynamic_qa.early.X-8.f00689.jpg"
+        },
+        {
+          "frame": 704,
+          "time_sec": 23.5,
+          "file": "dynamic_qa.early.X-8.f00704.jpg"
+        },
+        {
+          "frame": 719,
+          "time_sec": 24.0,
+          "file": "dynamic_qa.early.X-8.f00719.jpg"
+        },
+        {
+          "frame": 734,
+          "time_sec": 24.5,
+          "file": "dynamic_qa.early.X-8.f00734.jpg"
+        },
+        {
+          "frame": 749,
+          "time_sec": 25.0,
+          "file": "dynamic_qa.early.X-8.f00749.jpg"
+        },
+        {
+          "frame": 764,
+          "time_sec": 25.5,
+          "file": "dynamic_qa.early.X-8.f00764.jpg"
+        },
+        {
+          "frame": 779,
+          "time_sec": 26.0,
+          "file": "dynamic_qa.early.X-8.f00779.jpg"
+        },
+        {
+          "frame": 794,
+          "time_sec": 26.5,
+          "file": "dynamic_qa.early.X-8.f00794.jpg"
+        },
+        {
+          "frame": 809,
+          "time_sec": 27.0,
+          "file": "dynamic_qa.early.X-8.f00809.jpg"
+        },
+        {
+          "frame": 824,
+          "time_sec": 27.5,
+          "file": "dynamic_qa.early.X-8.f00824.jpg"
+        },
+        {
+          "frame": 839,
+          "time_sec": 28.0,
+          "file": "dynamic_qa.early.X-8.f00839.jpg"
+        },
+        {
+          "frame": 959,
+          "time_sec": 32.0,
+          "file": "dynamic_qa.early.X-8.f00959.jpg"
+        },
+        {
+          "frame": 1019,
+          "time_sec": 34.0,
+          "file": "dynamic_qa.early.X-8.f01019.jpg"
+        },
+        {
+          "frame": 1079,
+          "time_sec": 36.0,
+          "file": "dynamic_qa.early.X-8.f01079.jpg"
+        },
+        {
+          "frame": 1139,
+          "time_sec": 38.0,
+          "file": "dynamic_qa.early.X-8.f01139.jpg"
+        },
+        {
+          "frame": 602,
+          "time_sec": 20.1,
+          "file": "dynamic_qa.transition.X-8.f00602.jpg"
+        },
+        {
+          "frame": 605,
+          "time_sec": 20.2,
+          "file": "dynamic_qa.transition.X-8.f00605.jpg"
+        },
+        {
+          "frame": 608,
+          "time_sec": 20.3,
+          "file": "dynamic_qa.transition.X-8.f00608.jpg"
+        },
+        {
+          "frame": 611,
+          "time_sec": 20.4,
+          "file": "dynamic_qa.transition.X-8.f00611.jpg"
+        },
+        {
+          "frame": 614,
+          "time_sec": 20.5,
+          "file": "dynamic_qa.transition.X-8.f00614.jpg"
+        },
+        {
+          "frame": 617,
+          "time_sec": 20.6,
+          "file": "dynamic_qa.transition.X-8.f00617.jpg"
+        },
+        {
+          "frame": 620,
+          "time_sec": 20.7,
+          "file": "dynamic_qa.transition.X-8.f00620.jpg"
+        },
+        {
+          "frame": 623,
+          "time_sec": 20.8,
+          "file": "dynamic_qa.transition.X-8.f00623.jpg"
+        },
+        {
+          "frame": 698,
+          "time_sec": 23.3,
+          "file": "dynamic_qa.transition.X-8.f00698.jpg"
+        },
+        {
+          "frame": 701,
+          "time_sec": 23.4,
+          "file": "dynamic_qa.transition.X-8.f00701.jpg"
+        },
+        {
+          "frame": 704,
+          "time_sec": 23.5,
+          "file": "dynamic_qa.transition.X-8.f00704.jpg"
+        },
+        {
+          "frame": 707,
+          "time_sec": 23.6,
+          "file": "dynamic_qa.transition.X-8.f00707.jpg"
+        },
+        {
+          "frame": 710,
+          "time_sec": 23.7,
+          "file": "dynamic_qa.transition.X-8.f00710.jpg"
+        },
+        {
+          "frame": 713,
+          "time_sec": 23.8,
+          "file": "dynamic_qa.transition.X-8.f00713.jpg"
+        },
+        {
+          "frame": 716,
+          "time_sec": 23.9,
+          "file": "dynamic_qa.transition.X-8.f00716.jpg"
+        },
+        {
+          "frame": 719,
+          "time_sec": 24.0,
+          "file": "dynamic_qa.transition.X-8.f00719.jpg"
+        },
+        {
+          "frame": 722,
+          "time_sec": 24.1,
+          "file": "dynamic_qa.transition.X-8.f00722.jpg"
+        }
+      ],
+      "reflection_regions": [
+        {
+          "kind": "closed_door",
+          "box": [
+            0,
+            35,
+            124,
+            370
+          ],
+          "max_person_bottom_y": 350,
+          "max_center_x": 116,
+          "condition": "Door remains closed. Reflection of the seated cashier can extend below y325 when she turns toward safe."
+        },
+        {
+          "kind": "fixed_glass",
+          "box": [
+            118,
+            35,
+            232,
+            350
+          ],
+          "max_person_bottom_y": 320,
+          "condition": "The actual cashier extends below this conservative background threshold."
+        }
+      ],
+      "state_transition_evidence": [
+        {
+          "label": "safe",
+          "from": "closed",
+          "to": "open",
+          "last_before_sec": 20.3,
+          "first_after_sec": 20.4
+        },
+        {
+          "label": "safe",
+          "from": "open",
+          "to": "closed",
+          "last_before_sec": 23.9,
+          "first_after_sec": 24.0
+        }
+      ]
+    },
+    {
+      "video": "X-10",
+      "reviewed_samples": [
+        "X-10_000000.jpg",
+        "X-10_001000.jpg",
+        "X-10_002000.jpg",
+        "X-10_003000.jpg",
+        "X-10_004000.jpg",
+        "X-10_005000.jpg",
+        "X-10_006000.jpg",
+        "X-10_007000.jpg",
+        "X-10_008033.jpg",
+        "X-10_009033.jpg",
+        "X-10_010033.jpg",
+        "X-10_011033.jpg",
+        "X-10_012033.jpg",
+        "X-10_013033.jpg",
+        "X-10_014033.jpg",
+        "X-10_015033.jpg",
+        "X-10_015520.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                13,
+                333,
+                84,
+                416
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.533333,
+              "box": [
+                13,
+                333,
+                84,
+                416
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                10,
+                346,
+                289,
+                462
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.533333,
+              "box": [
+                10,
+                346,
+                289,
+                462
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                206,
+                312,
+                258,
+                379
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.533333,
+              "box": [
+                206,
+                312,
+                258,
+                379
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                201,
+                263,
+                277,
+                379
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.533333,
+              "box": [
+                201,
+                263,
+                277,
+                379
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                0,
+                107,
+                440
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.533333,
+              "box": [
+                0,
+                0,
+                107,
+                440
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                169,
+                374,
+                200,
+                391
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.533333,
+              "box": [
+                169,
+                374,
+                200,
+                391
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                131,
+                391,
+                159,
+                400
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                131,
+                391,
+                159,
+                400
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 4.5,
+              "box": [
+                131,
+                390,
+                159,
+                400
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                133,
+                389,
+                158,
+                400
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 5.5,
+              "box": [
+                135,
+                382,
+                160,
+                394
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 6.0,
+              "box": [
+                133,
+                382,
+                161,
+                393
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 6.5,
+              "box": [
+                93,
+                330,
+                108,
+                350
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 7.0,
+              "box": [
+                45,
+                338,
+                68,
+                353
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 7.5,
+              "box": [
+                47,
+                340,
+                69,
+                354
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 8.0,
+              "box": [
+                46,
+                340,
+                67,
+                352
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 8.1,
+              "box": [
+                46,
+                340,
+                67,
+                352
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 13.0,
+              "box": [
+                122,
+                358,
+                147,
+                377
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 13.5,
+              "box": [
+                143,
+                381,
+                163,
+                393
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.0,
+              "box": [
+                142,
+                381,
+                161,
+                393
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.5,
+              "box": [
+                142,
+                382,
+                160,
+                394
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.0,
+              "box": [
+                138,
+                391,
+                162,
+                402
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.5,
+              "box": [
+                137,
+                393,
+                163,
+                402
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.533333,
+              "box": [
+                137,
+                393,
+                163,
+                402
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "table box covers the wooden work surface only; its axis-aligned enclosure necessarily contains some non-surface pixels at the diagonal edges. White foreground desk and vertical wood panels are excluded.",
+        "Stationary desk telephone, receipt printer, papers, wallets held by clients and work scissors are excluded.",
+        "No green collection bag or identity card was confidently visible in the reviewed samples. Paper forms and the held personal wallet are not labelled banknotes/id_card.",
+        "Additional original crops were reviewed at approximately 0.5 s; money boxes between these samples are interpolated. More than half-hidden cash and cash hidden inside the counter/safe are omitted.",
+        "Safe and glass door remain closed in all reviewed samples. Laptop screen faces away, so screen=unknown is retained. Two distinct banknote groups are visible; tan stack remains at the right-hand side of the work surface for the full clip."
+      ],
+      "unresolved": [
+        "Money appearance/disappearance and hand occlusion between 0.5 s reviewed samples can differ from interpolation; no claim of visual review of every source frame."
+      ],
+      "last_source_time_sec": 15.533333,
+      "annotation_ready": true,
+      "reviewed_original_frames": [
+        {
+          "frame": 0,
+          "time_sec": 0.0,
+          "file": "dynamic_qa.early.X-10.f00000.jpg"
+        },
+        {
+          "frame": 15,
+          "time_sec": 0.5,
+          "file": "dynamic_qa.early.X-10.f00015.jpg"
+        },
+        {
+          "frame": 30,
+          "time_sec": 1.0,
+          "file": "dynamic_qa.early.X-10.f00030.jpg"
+        },
+        {
+          "frame": 45,
+          "time_sec": 1.5,
+          "file": "dynamic_qa.early.X-10.f00045.jpg"
+        },
+        {
+          "frame": 60,
+          "time_sec": 2.0,
+          "file": "dynamic_qa.early.X-10.f00060.jpg"
+        },
+        {
+          "frame": 75,
+          "time_sec": 2.5,
+          "file": "dynamic_qa.early.X-10.f00075.jpg"
+        },
+        {
+          "frame": 90,
+          "time_sec": 3.0,
+          "file": "dynamic_qa.early.X-10.f00090.jpg"
+        },
+        {
+          "frame": 105,
+          "time_sec": 3.5,
+          "file": "dynamic_qa.early.X-10.f00105.jpg"
+        },
+        {
+          "frame": 120,
+          "time_sec": 4.0,
+          "file": "dynamic_qa.early.X-10.f00120.jpg"
+        },
+        {
+          "frame": 135,
+          "time_sec": 4.5,
+          "file": "dynamic_qa.early.X-10.f00135.jpg"
+        },
+        {
+          "frame": 150,
+          "time_sec": 5.0,
+          "file": "dynamic_qa.early.X-10.f00150.jpg"
+        },
+        {
+          "frame": 165,
+          "time_sec": 5.5,
+          "file": "dynamic_qa.early.X-10.f00165.jpg"
+        },
+        {
+          "frame": 180,
+          "time_sec": 6.0,
+          "file": "dynamic_qa.early.X-10.f00180.jpg"
+        },
+        {
+          "frame": 195,
+          "time_sec": 6.5,
+          "file": "dynamic_qa.early.X-10.f00195.jpg"
+        },
+        {
+          "frame": 210,
+          "time_sec": 7.0,
+          "file": "dynamic_qa.early.X-10.f00210.jpg"
+        },
+        {
+          "frame": 225,
+          "time_sec": 7.5,
+          "file": "dynamic_qa.early.X-10.f00225.jpg"
+        },
+        {
+          "frame": 240,
+          "time_sec": 8.0,
+          "file": "dynamic_qa.early.X-10.f00240.jpg"
+        },
+        {
+          "frame": 255,
+          "time_sec": 8.5,
+          "file": "dynamic_qa.early.X-10.f00255.jpg"
+        },
+        {
+          "frame": 270,
+          "time_sec": 9.0,
+          "file": "dynamic_qa.early.X-10.f00270.jpg"
+        },
+        {
+          "frame": 285,
+          "time_sec": 9.5,
+          "file": "dynamic_qa.early.X-10.f00285.jpg"
+        },
+        {
+          "frame": 300,
+          "time_sec": 10.0,
+          "file": "dynamic_qa.early.X-10.f00300.jpg"
+        },
+        {
+          "frame": 315,
+          "time_sec": 10.5,
+          "file": "dynamic_qa.early.X-10.f00315.jpg"
+        },
+        {
+          "frame": 330,
+          "time_sec": 11.0,
+          "file": "dynamic_qa.early.X-10.f00330.jpg"
+        },
+        {
+          "frame": 345,
+          "time_sec": 11.5,
+          "file": "dynamic_qa.early.X-10.f00345.jpg"
+        },
+        {
+          "frame": 360,
+          "time_sec": 12.0,
+          "file": "dynamic_qa.early.X-10.f00360.jpg"
+        },
+        {
+          "frame": 375,
+          "time_sec": 12.5,
+          "file": "dynamic_qa.early.X-10.f00375.jpg"
+        },
+        {
+          "frame": 390,
+          "time_sec": 13.0,
+          "file": "dynamic_qa.early.X-10.f00390.jpg"
+        },
+        {
+          "frame": 405,
+          "time_sec": 13.5,
+          "file": "dynamic_qa.early.X-10.f00405.jpg"
+        },
+        {
+          "frame": 420,
+          "time_sec": 14.0,
+          "file": "dynamic_qa.early.X-10.f00420.jpg"
+        },
+        {
+          "frame": 435,
+          "time_sec": 14.5,
+          "file": "dynamic_qa.early.X-10.f00435.jpg"
+        },
+        {
+          "frame": 450,
+          "time_sec": 15.0,
+          "file": "dynamic_qa.early.X-10.f00450.jpg"
+        },
+        {
+          "frame": 465,
+          "time_sec": 15.5,
+          "file": "dynamic_qa.early.X-10.f00465.jpg"
+        }
+      ],
+      "reflection_regions": [
+        {
+          "kind": "closed_door",
+          "box": [
+            0,
+            0,
+            94,
+            350
+          ],
+          "max_person_bottom_y": 335,
+          "max_center_x": 90,
+          "condition": "Valid only with closed glass door; reflected seated cashier is left of the physical cashier."
+        },
+        {
+          "kind": "fixed_glass",
+          "box": [
+            93,
+            0,
+            208,
+            340
+          ],
+          "max_person_bottom_y": 305,
+          "condition": "Conservative threshold: the real seated cashier extends well below this limit."
+        }
+      ]
+    },
+    {
+      "video": "X-11",
+      "reviewed_samples": [
+        "X-11_000000.jpg",
+        "X-11_001000.jpg",
+        "X-11_002000.jpg",
+        "X-11_003000.jpg",
+        "X-11_004000.jpg",
+        "X-11_005000.jpg",
+        "X-11_006000.jpg",
+        "X-11_007000.jpg",
+        "X-11_008033.jpg",
+        "X-11_009033.jpg",
+        "X-11_010033.jpg",
+        "X-11_011033.jpg",
+        "X-11_012033.jpg",
+        "X-11_013033.jpg",
+        "X-11_014033.jpg",
+        "X-11_015033.jpg",
+        "X-11_016033.jpg",
+        "X-11_017033.jpg",
+        "X-11_018033.jpg",
+        "X-11_019033.jpg",
+        "X-11_020033.jpg",
+        "X-11_021033.jpg",
+        "X-11_022033.jpg",
+        "X-11_023033.jpg",
+        "X-11_024033.jpg",
+        "X-11_025033.jpg",
+        "X-11_025550.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                46,
+                377,
+                117,
+                459
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 25.566667,
+              "box": [
+                46,
+                377,
+                117,
+                459
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                44,
+                388,
+                319,
+                505
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 25.566667,
+              "box": [
+                44,
+                388,
+                319,
+                505
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "active"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                223,
+                351,
+                285,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "screen": "active"
+              }
+            },
+            {
+              "time_sec": 16.0,
+              "box": [
+                223,
+                351,
+                285,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "screen": "active"
+              }
+            },
+            {
+              "time_sec": 16.5,
+              "box": [
+                223,
+                351,
+                285,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "screen": "unknown"
+              }
+            },
+            {
+              "time_sec": 25.566667,
+              "box": [
+                223,
+                351,
+                285,
+                418
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "screen": "unknown"
+              }
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                226,
+                305,
+                301,
+                417
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 25.566667,
+              "box": [
+                226,
+                305,
+                301,
+                417
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                47,
+                145,
+                484
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 18.1,
+              "box": [
+                0,
+                47,
+                145,
+                484
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 18.3,
+              "box": [
+                0,
+                47,
+                149,
+                484
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 18.5,
+              "box": [
+                0,
+                47,
+                153,
+                484
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 19.0,
+              "box": [
+                0,
+                53,
+                158,
+                484
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 19.5,
+              "box": [
+                0,
+                56,
+                153,
+                484
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 20.0,
+              "box": [
+                0,
+                56,
+                149,
+                484
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 20.5,
+              "box": [
+                0,
+                53,
+                149,
+                484
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 21.0,
+              "box": [
+                0,
+                50,
+                150,
+                484
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 21.8,
+              "box": [
+                0,
+                48,
+                148,
+                484
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 21.9,
+              "box": [
+                0,
+                48,
+                147,
+                484
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {
+                "state": "unknown"
+              }
+            },
+            {
+              "time_sec": 23.3,
+              "box": [
+                0,
+                47,
+                145,
+                484
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 25.566667,
+              "box": [
+                0,
+                47,
+                145,
+                484
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "table box covers the wooden work surface only; its axis-aligned enclosure necessarily contains some non-surface pixels at the diagonal edges. White foreground desk and vertical wood panels are excluded.",
+        "Stationary desk telephone, receipt printer, papers, wallets held by clients and work scissors are excluded.",
+        "No green collection bag or identity card was confidently visible in the reviewed samples. Paper forms and the held personal wallet are not labelled banknotes/id_card.",
+        "Additional original crops were reviewed at approximately 0.5 s; money boxes between these samples are interpolated. More than half-hidden cash and cash hidden inside the counter/safe are omitted.",
+        "No banknote, identity-card or collection-bag handling is visible. Safe remains closed, including the brief hand contact with its lock around 12-13 s.",
+        "Laptop stays open and luminous after the lights go out. Working UI is visible initially; subsequent overexposed screen is unknown, not off or confidently locked.",
+        "Glass door is first clearly open at 18.3 s after a closed 18.1 s sample. Closing geometry is nearly parallel to the image plane; state is unknown from 21.9 s until confirmed closed at 23.3 s. Cashier is outside and room empty from 23.3 s through end."
+      ],
+      "unresolved": [
+        "Precise door latch closure remains within 21.8-23.3 s despite 0.1 s original samples; near-parallel glass and occlusion prevent a reliable single-frame decision.",
+        "Bright laptop screen after room lights go out is not readable enough to distinguish active versus locked; explicit unknown retained.",
+        "Object geometry is interpolated between reviewed originals; no exhaustive visual audit of every source frame."
+      ],
+      "last_source_time_sec": 25.566667,
+      "annotation_ready": true,
+      "reviewed_original_frames": [
+        {
+          "frame": 0,
+          "time_sec": 0.0,
+          "file": "dynamic_qa.early.X-11.f00000.jpg"
+        },
+        {
+          "frame": 240,
+          "time_sec": 8.0,
+          "file": "dynamic_qa.early.X-11.f00240.jpg"
+        },
+        {
+          "frame": 300,
+          "time_sec": 10.0,
+          "file": "dynamic_qa.early.X-11.f00300.jpg"
+        },
+        {
+          "frame": 330,
+          "time_sec": 11.0,
+          "file": "dynamic_qa.early.X-11.f00330.jpg"
+        },
+        {
+          "frame": 360,
+          "time_sec": 12.0,
+          "file": "dynamic_qa.early.X-11.f00360.jpg"
+        },
+        {
+          "frame": 390,
+          "time_sec": 13.0,
+          "file": "dynamic_qa.early.X-11.f00390.jpg"
+        },
+        {
+          "frame": 420,
+          "time_sec": 14.0,
+          "file": "dynamic_qa.early.X-11.f00420.jpg"
+        },
+        {
+          "frame": 450,
+          "time_sec": 15.0,
+          "file": "dynamic_qa.early.X-11.f00450.jpg"
+        },
+        {
+          "frame": 465,
+          "time_sec": 15.5,
+          "file": "dynamic_qa.early.X-11.f00465.jpg"
+        },
+        {
+          "frame": 477,
+          "time_sec": 16.0,
+          "file": "dynamic_qa.early.X-11.f00477.jpg"
+        },
+        {
+          "frame": 492,
+          "time_sec": 16.5,
+          "file": "dynamic_qa.early.X-11.f00492.jpg"
+        },
+        {
+          "frame": 507,
+          "time_sec": 17.0,
+          "file": "dynamic_qa.early.X-11.f00507.jpg"
+        },
+        {
+          "frame": 522,
+          "time_sec": 17.5,
+          "file": "dynamic_qa.early.X-11.f00522.jpg"
+        },
+        {
+          "frame": 537,
+          "time_sec": 18.0,
+          "file": "dynamic_qa.early.X-11.f00537.jpg"
+        },
+        {
+          "frame": 552,
+          "time_sec": 18.5,
+          "file": "dynamic_qa.early.X-11.f00552.jpg"
+        },
+        {
+          "frame": 567,
+          "time_sec": 19.0,
+          "file": "dynamic_qa.early.X-11.f00567.jpg"
+        },
+        {
+          "frame": 582,
+          "time_sec": 19.5,
+          "file": "dynamic_qa.early.X-11.f00582.jpg"
+        },
+        {
+          "frame": 597,
+          "time_sec": 20.0,
+          "file": "dynamic_qa.early.X-11.f00597.jpg"
+        },
+        {
+          "frame": 612,
+          "time_sec": 20.5,
+          "file": "dynamic_qa.early.X-11.f00612.jpg"
+        },
+        {
+          "frame": 627,
+          "time_sec": 21.0,
+          "file": "dynamic_qa.early.X-11.f00627.jpg"
+        },
+        {
+          "frame": 642,
+          "time_sec": 21.5,
+          "file": "dynamic_qa.early.X-11.f00642.jpg"
+        },
+        {
+          "frame": 657,
+          "time_sec": 22.0,
+          "file": "dynamic_qa.early.X-11.f00657.jpg"
+        },
+        {
+          "frame": 672,
+          "time_sec": 22.5,
+          "file": "dynamic_qa.early.X-11.f00672.jpg"
+        },
+        {
+          "frame": 687,
+          "time_sec": 23.0,
+          "file": "dynamic_qa.early.X-11.f00687.jpg"
+        },
+        {
+          "frame": 702,
+          "time_sec": 23.5,
+          "file": "dynamic_qa.early.X-11.f00702.jpg"
+        },
+        {
+          "frame": 717,
+          "time_sec": 24.0,
+          "file": "dynamic_qa.early.X-11.f00717.jpg"
+        },
+        {
+          "frame": 732,
+          "time_sec": 24.5,
+          "file": "dynamic_qa.early.X-11.f00732.jpg"
+        },
+        {
+          "frame": 747,
+          "time_sec": 25.0,
+          "file": "dynamic_qa.early.X-11.f00747.jpg"
+        },
+        {
+          "frame": 762,
+          "time_sec": 25.5,
+          "file": "dynamic_qa.early.X-11.f00762.jpg"
+        },
+        {
+          "frame": 540,
+          "time_sec": 18.1,
+          "file": "dynamic_qa.transition.X-11.f00540.jpg"
+        },
+        {
+          "frame": 543,
+          "time_sec": 18.2,
+          "file": "dynamic_qa.transition.X-11.f00543.jpg"
+        },
+        {
+          "frame": 546,
+          "time_sec": 18.3,
+          "file": "dynamic_qa.transition.X-11.f00546.jpg"
+        },
+        {
+          "frame": 549,
+          "time_sec": 18.4,
+          "file": "dynamic_qa.transition.X-11.f00549.jpg"
+        },
+        {
+          "frame": 552,
+          "time_sec": 18.5,
+          "file": "dynamic_qa.transition.X-11.f00552.jpg"
+        },
+        {
+          "frame": 555,
+          "time_sec": 18.6,
+          "file": "dynamic_qa.transition.X-11.f00555.jpg"
+        },
+        {
+          "frame": 558,
+          "time_sec": 18.7,
+          "file": "dynamic_qa.transition.X-11.f00558.jpg"
+        },
+        {
+          "frame": 561,
+          "time_sec": 18.8,
+          "file": "dynamic_qa.transition.X-11.f00561.jpg"
+        },
+        {
+          "frame": 564,
+          "time_sec": 18.9,
+          "file": "dynamic_qa.transition.X-11.f00564.jpg"
+        },
+        {
+          "frame": 618,
+          "time_sec": 20.7,
+          "file": "dynamic_qa.transition.X-11.f00618.jpg"
+        },
+        {
+          "frame": 621,
+          "time_sec": 20.8,
+          "file": "dynamic_qa.transition.X-11.f00621.jpg"
+        },
+        {
+          "frame": 624,
+          "time_sec": 20.9,
+          "file": "dynamic_qa.transition.X-11.f00624.jpg"
+        },
+        {
+          "frame": 627,
+          "time_sec": 21.0,
+          "file": "dynamic_qa.transition.X-11.f00627.jpg"
+        },
+        {
+          "frame": 630,
+          "time_sec": 21.1,
+          "file": "dynamic_qa.transition.X-11.f00630.jpg"
+        },
+        {
+          "frame": 633,
+          "time_sec": 21.2,
+          "file": "dynamic_qa.transition.X-11.f00633.jpg"
+        },
+        {
+          "frame": 636,
+          "time_sec": 21.3,
+          "file": "dynamic_qa.transition.X-11.f00636.jpg"
+        },
+        {
+          "frame": 639,
+          "time_sec": 21.4,
+          "file": "dynamic_qa.transition.X-11.f00639.jpg"
+        },
+        {
+          "frame": 642,
+          "time_sec": 21.5,
+          "file": "dynamic_qa.transition.X-11.f00642.jpg"
+        },
+        {
+          "frame": 645,
+          "time_sec": 21.6,
+          "file": "dynamic_qa.transition.X-11.f00645.jpg"
+        },
+        {
+          "frame": 648,
+          "time_sec": 21.7,
+          "file": "dynamic_qa.transition.X-11.f00648.jpg"
+        },
+        {
+          "frame": 651,
+          "time_sec": 21.8,
+          "file": "dynamic_qa.transition.X-11.f00651.jpg"
+        },
+        {
+          "frame": 654,
+          "time_sec": 21.9,
+          "file": "dynamic_qa.transition.X-11.f00654.jpg"
+        },
+        {
+          "frame": 657,
+          "time_sec": 22.0,
+          "file": "dynamic_qa.transition.X-11.f00657.jpg"
+        },
+        {
+          "frame": 660,
+          "time_sec": 22.1,
+          "file": "dynamic_qa.transition.X-11.f00660.jpg"
+        },
+        {
+          "frame": 663,
+          "time_sec": 22.2,
+          "file": "dynamic_qa.transition.X-11.f00663.jpg"
+        },
+        {
+          "frame": 666,
+          "time_sec": 22.3,
+          "file": "dynamic_qa.transition.X-11.f00666.jpg"
+        },
+        {
+          "frame": 669,
+          "time_sec": 22.4,
+          "file": "dynamic_qa.transition.X-11.f00669.jpg"
+        },
+        {
+          "frame": 672,
+          "time_sec": 22.5,
+          "file": "dynamic_qa.transition.X-11.f00672.jpg"
+        },
+        {
+          "frame": 675,
+          "time_sec": 22.6,
+          "file": "dynamic_qa.transition.X-11.f00675.jpg"
+        },
+        {
+          "frame": 678,
+          "time_sec": 22.7,
+          "file": "dynamic_qa.transition.X-11.f00678.jpg"
+        },
+        {
+          "frame": 681,
+          "time_sec": 22.8,
+          "file": "dynamic_qa.transition.X-11.f00681.jpg"
+        },
+        {
+          "frame": 684,
+          "time_sec": 22.9,
+          "file": "dynamic_qa.transition.X-11.f00684.jpg"
+        },
+        {
+          "frame": 687,
+          "time_sec": 23.0,
+          "file": "dynamic_qa.transition.X-11.f00687.jpg"
+        },
+        {
+          "frame": 690,
+          "time_sec": 23.1,
+          "file": "dynamic_qa.transition.X-11.f00690.jpg"
+        },
+        {
+          "frame": 693,
+          "time_sec": 23.2,
+          "file": "dynamic_qa.transition.X-11.f00693.jpg"
+        },
+        {
+          "frame": 696,
+          "time_sec": 23.3,
+          "file": "dynamic_qa.transition.X-11.f00696.jpg"
+        }
+      ],
+      "reflection_regions": [
+        {
+          "kind": "closed_door",
+          "box": [
+            0,
+            45,
+            126,
+            385
+          ],
+          "max_person_bottom_y": 370,
+          "max_center_x": 120,
+          "condition": "Reflections of the seated/standing cashier extend below y325. Door passage is excluded by door state and in-room identity."
+        },
+        {
+          "kind": "fixed_glass",
+          "box": [
+            120,
+            40,
+            237,
+            375
+          ],
+          "max_person_bottom_y": 360,
+          "condition": "Standing cashier reflection around 14-16 s appears in fixed right glazing; physical cashier extends below y400."
+        }
+      ],
+      "empty_room_intervals_sec": [
+        [
+          23.3,
+          25.566667
+        ]
+      ],
+      "state_transition_evidence": [
+        {
+          "label": "door",
+          "from": "closed",
+          "to": "open",
+          "last_before_sec": 18.1,
+          "first_after_sec": 18.3
+        },
+        {
+          "label": "door",
+          "from": "open",
+          "to": "closed",
+          "last_before_sec": 21.8,
+          "first_after_sec": 23.3,
+          "uncertain_interval_state": "unknown"
+        },
+        {
+          "label": "computer",
+          "attribute": "screen",
+          "from": "active",
+          "to": "unknown",
+          "last_before_sec": 16.0,
+          "first_after_sec": 16.5,
+          "reason": "Room lighting switched off; luminous screen becomes overexposed and UI state is unreadable."
+        }
+      ]
+    }
+  ],
+  "review_method": "Visual inspection of native original frames, prepared desk sheets, and targeted original-frame transition samples; interpolation between keyframes. This is not an exhaustive visual audit of every source frame."
+}

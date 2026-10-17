@@ -1,0 +1,6833 @@
+{
+  "videos": [
+    {
+      "video": "X-15",
+      "reviewed_samples": [
+        "X-15_000000.jpg",
+        "X-15_001000.jpg",
+        "X-15_002000.jpg",
+        "X-15_003000.jpg",
+        "X-15_004000.jpg",
+        "X-15_005000.jpg",
+        "X-15_006000.jpg",
+        "X-15_007000.jpg",
+        "X-15_008033.jpg",
+        "X-15_009033.jpg",
+        "X-15_010033.jpg",
+        "X-15_011033.jpg",
+        "X-15_012033.jpg",
+        "X-15_013033.jpg",
+        "X-15_014033.jpg",
+        "X-15_015033.jpg",
+        "X-15_016033.jpg",
+        "X-15_017033.jpg",
+        "X-15_018033.jpg",
+        "X-15_019033.jpg",
+        "X-15_020033.jpg",
+        "X-15_020820.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                31,
+                327,
+                106,
+                417
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.833333,
+              "box": [
+                31,
+                327,
+                106,
+                417
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                33,
+                350,
+                305,
+                455
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.833333,
+              "box": [
+                33,
+                350,
+                305,
+                455
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                212,
+                314,
+                272,
+                381
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.833333,
+              "box": [
+                212,
+                314,
+                272,
+                381
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                215,
+                264,
+                296,
+                380
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.833333,
+              "box": [
+                215,
+                264,
+                296,
+                380
+              ],
+              "outside": false,
+              "occluded": true,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                0,
+                123,
+                422
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 15.033333,
+              "box": [
+                0,
+                0,
+                123,
+                422
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                0,
+                0,
+                122,
+                422
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 17.033333,
+              "box": [
+                0,
+                0,
+                99,
+                422
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 18.033333,
+              "box": [
+                0,
+                0,
+                81,
+                422
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 19.033333,
+              "box": [
+                0,
+                0,
+                109,
+                422
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 20.033333,
+              "box": [
+                0,
+                0,
+                124,
+                422
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 20.833333,
+              "box": [
+                0,
+                0,
+                124,
+                422
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        },
+        {
+          "label": "bag",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                109,
+                330,
+                171,
+                391
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 1.0,
+              "box": [
+                126,
+                355,
+                163,
+                399
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 2.0,
+              "box": [
+                130,
+                347,
+                165,
+                396
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 3.0,
+              "box": [
+                132,
+                348,
+                163,
+                398
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                128,
+                321,
+                161,
+                386
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                123,
+                348,
+                176,
+                399
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 6.0,
+              "box": [
+                126,
+                369,
+                208,
+                402
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 7.0,
+              "box": [
+                124,
+                373,
+                208,
+                402
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.833333,
+              "box": [
+                124,
+                373,
+                208,
+                402
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Green collection bag remains on the wooden desk after the cashier leaves. Safe appears closed throughout the reviewed samples.",
+        "Viewed start/middle/end at native resolution and one-second timeline/desk contact sheets. Intermediate original video frames were not individually reviewed. Keyframe measurements are in native 464x848 pixels.",
+        "Reflection regions are conditional visual-review aids, not automatic relabel masks. Real people in front of the partition overlap these regions; people standing in the open doorway remain person. Reflected hands must not be labeled hand."
+      ],
+      "unresolved": [
+        "Laptop display faces away/obliquely; screen state is unknown. Door opening/closing transitions are bounded by one-second samples."
+      ],
+      "reflection_regions": [
+        {
+          "box": [
+            0,
+            0,
+            123,
+            335
+          ],
+          "condition": "Closed left glass door; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        },
+        {
+          "box": [
+            127,
+            0,
+            232,
+            320
+          ],
+          "condition": "Fixed right glass pane; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        }
+      ]
+    },
+    {
+      "video": "X-16",
+      "reviewed_samples": [
+        "X-16_000000.jpg",
+        "X-16_001000.jpg",
+        "X-16_002000.jpg",
+        "X-16_003000.jpg",
+        "X-16_004000.jpg",
+        "X-16_005000.jpg",
+        "X-16_006000.jpg",
+        "X-16_007000.jpg",
+        "X-16_008033.jpg",
+        "X-16_009033.jpg",
+        "X-16_010033.jpg",
+        "X-16_011033.jpg",
+        "X-16_012033.jpg",
+        "X-16_013033.jpg",
+        "X-16_014033.jpg",
+        "X-16_015033.jpg",
+        "X-16_016033.jpg",
+        "X-16_017033.jpg",
+        "X-16_018033.jpg",
+        "X-16_019033.jpg",
+        "X-16_020033.jpg",
+        "X-16_021033.jpg",
+        "X-16_022033.jpg",
+        "X-16_022680.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                31,
+                335,
+                105,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 22.7,
+              "box": [
+                31,
+                335,
+                105,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                36,
+                354,
+                306,
+                451
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 22.7,
+              "box": [
+                36,
+                354,
+                306,
+                451
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                220,
+                324,
+                301,
+                398
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 22.7,
+              "box": [
+                220,
+                324,
+                301,
+                398
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                316,
+                324,
+                430,
+                466
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 22.7,
+              "box": [
+                316,
+                324,
+                430,
+                466
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 2.0,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 3.0,
+              "box": [
+                0,
+                0,
+                112,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                0,
+                0,
+                75,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                0,
+                0,
+                106,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 6.0,
+              "box": [
+                0,
+                0,
+                130,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 22.7,
+              "box": [
+                0,
+                0,
+                130,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        },
+        {
+          "label": "bag",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 3.0,
+              "box": [
+                60,
+                278,
+                95,
+                323
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                61,
+                275,
+                96,
+                327
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                49,
+                306,
+                109,
+                350
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 6.0,
+              "box": [
+                44,
+                330,
+                109,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 7.0,
+              "box": [
+                62,
+                332,
+                126,
+                379
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 8.033333,
+              "box": [
+                69,
+                336,
+                119,
+                380
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 9.033333,
+              "box": [
+                72,
+                334,
+                129,
+                377
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                70,
+                327,
+                129,
+                374
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                83,
+                324,
+                139,
+                378
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 13.033333,
+              "box": [
+                84,
+                330,
+                137,
+                379
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                87,
+                332,
+                139,
+                379
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.033333,
+              "box": [
+                88,
+                329,
+                139,
+                376
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                116,
+                348,
+                188,
+                417
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 17.033333,
+              "box": [
+                120,
+                370,
+                192,
+                419
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 18.033333,
+              "box": [
+                132,
+                380,
+                198,
+                431
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 20.033333,
+              "box": [
+                130,
+                394,
+                201,
+                429
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 22.7,
+              "box": [
+                130,
+                378,
+                199,
+                426
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "id_card",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 8.033333,
+              "box": [
+                136,
+                311,
+                153,
+                326
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 9.033333,
+              "box": [
+                167,
+                364,
+                185,
+                381
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                178,
+                390,
+                192,
+                403
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 11.033333,
+              "box": [
+                179,
+                388,
+                192,
+                402
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                179,
+                391,
+                193,
+                405
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 13.033333,
+              "box": [
+                178,
+                394,
+                192,
+                413
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                182,
+                365,
+                199,
+                389
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.033333,
+              "box": [
+                152,
+                336,
+                174,
+                351
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                153,
+                336,
+                174,
+                351
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "The collector brings a green bag; a small document is examined and returned before the bag is handed over. Safe remains closed.",
+        "Viewed start/middle/end at native resolution and one-second timeline/desk contact sheets. Intermediate original video frames were not individually reviewed. Keyframe measurements are in native 464x848 pixels.",
+        "Reflection regions are conditional visual-review aids, not automatic relabel masks. Real people in front of the partition overlap these regions; people standing in the open doorway remain person. Reflected hands must not be labeled hand."
+      ],
+      "unresolved": [
+        "Laptop screen is black but power/lock state cannot be distinguished. Door transition timing is limited to sampled frames. Document pixels are small; hand-occluded intervals are omitted."
+      ],
+      "reflection_regions": [
+        {
+          "box": [
+            0,
+            0,
+            123,
+            335
+          ],
+          "condition": "Closed left glass door; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        },
+        {
+          "box": [
+            127,
+            0,
+            232,
+            320
+          ],
+          "condition": "Fixed right glass pane; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        }
+      ]
+    },
+    {
+      "video": "X-17",
+      "reviewed_samples": [
+        "X-17_000000.jpg",
+        "X-17_001000.jpg",
+        "X-17_002000.jpg",
+        "X-17_003000.jpg",
+        "X-17_004000.jpg",
+        "X-17_005000.jpg",
+        "X-17_006000.jpg",
+        "X-17_007000.jpg",
+        "X-17_008033.jpg",
+        "X-17_009033.jpg",
+        "X-17_010033.jpg",
+        "X-17_011033.jpg",
+        "X-17_012033.jpg",
+        "X-17_013033.jpg",
+        "X-17_014033.jpg",
+        "X-17_014680.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                31,
+                335,
+                106,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.7,
+              "box": [
+                31,
+                335,
+                106,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                36,
+                354,
+                306,
+                451
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.7,
+              "box": [
+                36,
+                354,
+                306,
+                451
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                220,
+                324,
+                301,
+                398
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.7,
+              "box": [
+                220,
+                324,
+                301,
+                398
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                316,
+                324,
+                430,
+                466
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.7,
+              "box": [
+                316,
+                324,
+                430,
+                466
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 2.0,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 3.0,
+              "box": [
+                0,
+                0,
+                111,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                0,
+                0,
+                75,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                0,
+                0,
+                113,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 6.0,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 11.033333,
+              "box": [
+                0,
+                0,
+                124,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                0,
+                0,
+                87,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 13.033333,
+              "box": [
+                0,
+                0,
+                116,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 14.7,
+              "box": [
+                0,
+                0,
+                134,
+                427
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        },
+        {
+          "label": "bag",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 3.0,
+              "box": [
+                37,
+                292,
+                97,
+                344
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                37,
+                293,
+                97,
+                344
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                51,
+                278,
+                111,
+                327
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 6.0,
+              "box": [
+                62,
+                316,
+                128,
+                367
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 7.0,
+              "box": [
+                105,
+                326,
+                179,
+                393
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 8.033333,
+              "box": [
+                112,
+                345,
+                183,
+                402
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 9.033333,
+              "box": [
+                126,
+                352,
+                195,
+                412
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                131,
+                366,
+                201,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 11.033333,
+              "box": [
+                131,
+                372,
+                201,
+                427
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                131,
+                375,
+                203,
+                429
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                131,
+                375,
+                203,
+                429
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.7,
+              "box": [
+                129,
+                375,
+                202,
+                429
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Collector gives the green collection bag to the cashier, then leaves. Safe remains closed.",
+        "Viewed start/middle/end at native resolution and one-second timeline/desk contact sheets. Intermediate original video frames were not individually reviewed. Keyframe measurements are in native 464x848 pixels.",
+        "Reflection regions are conditional visual-review aids, not automatic relabel masks. Real people in front of the partition overlap these regions; people standing in the open doorway remain person. Reflected hands must not be labeled hand."
+      ],
+      "unresolved": [
+        "Laptop screen state is unknown. Door and bag motion between sampled frames requires interpolation."
+      ],
+      "reflection_regions": [
+        {
+          "box": [
+            0,
+            0,
+            123,
+            335
+          ],
+          "condition": "Closed left glass door; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        },
+        {
+          "box": [
+            127,
+            0,
+            232,
+            320
+          ],
+          "condition": "Fixed right glass pane; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        }
+      ]
+    },
+    {
+      "video": "X-18",
+      "reviewed_samples": [
+        "X-18_000000.jpg",
+        "X-18_001000.jpg",
+        "X-18_002000.jpg",
+        "X-18_003000.jpg",
+        "X-18_004000.jpg",
+        "X-18_005000.jpg",
+        "X-18_006000.jpg",
+        "X-18_007000.jpg",
+        "X-18_008033.jpg",
+        "X-18_009033.jpg",
+        "X-18_010033.jpg",
+        "X-18_011033.jpg",
+        "X-18_012033.jpg",
+        "X-18_013033.jpg",
+        "X-18_014033.jpg",
+        "X-18_015033.jpg",
+        "X-18_016033.jpg",
+        "X-18_017033.jpg",
+        "X-18_018033.jpg",
+        "X-18_019033.jpg",
+        "X-18_020033.jpg",
+        "X-18_021033.jpg",
+        "X-18_022033.jpg",
+        "X-18_022550.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                31,
+                335,
+                106,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 22.566667,
+              "box": [
+                31,
+                335,
+                106,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                36,
+                354,
+                306,
+                451
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 22.566667,
+              "box": [
+                36,
+                354,
+                306,
+                451
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                221,
+                324,
+                302,
+                398
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 22.566667,
+              "box": [
+                221,
+                324,
+                302,
+                398
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                316,
+                324,
+                430,
+                466
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 22.566667,
+              "box": [
+                316,
+                324,
+                430,
+                466
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 1.0,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 2.0,
+              "box": [
+                0,
+                0,
+                116,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 3.0,
+              "box": [
+                0,
+                0,
+                79,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                0,
+                0,
+                119,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 17.033333,
+              "box": [
+                0,
+                0,
+                112,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 18.033333,
+              "box": [
+                0,
+                0,
+                70,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 19.033333,
+              "box": [
+                0,
+                0,
+                119,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 20.033333,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 22.566667,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 6.0,
+              "box": [
+                134,
+                380,
+                158,
+                392
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 7.0,
+              "box": [
+                134,
+                380,
+                158,
+                392
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 8.033333,
+              "box": [
+                147,
+                389,
+                172,
+                405
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 9.033333,
+              "box": [
+                165,
+                388,
+                190,
+                413
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                168,
+                383,
+                194,
+                409
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 11.033333,
+              "box": [
+                146,
+                397,
+                158,
+                419
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                68,
+                338,
+                85,
+                354
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 13.033333,
+              "box": [
+                68,
+                338,
+                85,
+                354
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "id_card",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 9.033333,
+              "box": [
+                146,
+                412,
+                160,
+                423
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                146,
+                412,
+                160,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 11.033333,
+              "box": [
+                146,
+                412,
+                160,
+                423
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                146,
+                412,
+                160,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 22.566667,
+              "box": [
+                146,
+                412,
+                160,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "id_card",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 20.033333,
+              "box": [
+                144,
+                347,
+                160,
+                361
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 21.033333,
+              "box": [
+                144,
+                347,
+                160,
+                361
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 22.033333,
+              "box": [
+                193,
+                394,
+                210,
+                408
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 22.566667,
+              "box": [
+                193,
+                394,
+                210,
+                408
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Client places banknotes on the desk. The cashier loads the counter; a small blue-white card stays on the desk. A second person presents another card near the end. Safe remains closed.",
+        "Viewed start/middle/end at native resolution and one-second timeline/desk contact sheets. Intermediate original video frames were not individually reviewed. Keyframe measurements are in native 464x848 pixels.",
+        "Reflection regions are conditional visual-review aids, not automatic relabel masks. Real people in front of the partition overlap these regions; people standing in the open doorway remain person. Reflected hands must not be labeled hand."
+      ],
+      "unresolved": [
+        "Screen state is unknown. Banknote identity in the counter tray after loading is partly obscured and not followed through occlusion. Exact glass-door transition frames lie between the sampled observations."
+      ],
+      "reflection_regions": [
+        {
+          "box": [
+            0,
+            0,
+            123,
+            335
+          ],
+          "condition": "Closed left glass door; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        },
+        {
+          "box": [
+            127,
+            0,
+            232,
+            320
+          ],
+          "condition": "Fixed right glass pane; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        }
+      ]
+    },
+    {
+      "video": "X-19",
+      "reviewed_samples": [
+        "X-19_000000.jpg",
+        "X-19_001000.jpg",
+        "X-19_002000.jpg",
+        "X-19_003000.jpg",
+        "X-19_004000.jpg",
+        "X-19_005000.jpg",
+        "X-19_006000.jpg",
+        "X-19_007000.jpg",
+        "X-19_008033.jpg",
+        "X-19_009033.jpg",
+        "X-19_010033.jpg",
+        "X-19_011033.jpg",
+        "X-19_012033.jpg",
+        "X-19_013033.jpg",
+        "X-19_014033.jpg",
+        "X-19_015033.jpg",
+        "X-19_016033.jpg",
+        "X-19_017033.jpg",
+        "X-19_018033.jpg",
+        "X-19_019033.jpg",
+        "X-19_020033.jpg",
+        "X-19_021033.jpg",
+        "X-19_022033.jpg",
+        "X-19_023033.jpg",
+        "X-19_024033.jpg",
+        "X-19_025033.jpg",
+        "X-19_026033.jpg",
+        "X-19_027033.jpg",
+        "X-19_028033.jpg",
+        "X-19_029033.jpg",
+        "X-19_030033.jpg",
+        "X-19_031033.jpg",
+        "X-19_032033.jpg",
+        "X-19_033033.jpg",
+        "X-19_034033.jpg",
+        "X-19_035033.jpg",
+        "X-19_036033.jpg",
+        "X-19_037033.jpg",
+        "X-19_038033.jpg",
+        "X-19_039033.jpg",
+        "X-19_040033.jpg",
+        "X-19_041033.jpg",
+        "X-19_042033.jpg",
+        "X-19_043033.jpg",
+        "X-19_044033.jpg",
+        "X-19_045033.jpg",
+        "X-19_046033.jpg",
+        "X-19_047033.jpg",
+        "X-19_048033.jpg",
+        "X-19_049033.jpg",
+        "X-19_050033.jpg",
+        "X-19_051033.jpg",
+        "X-19_052033.jpg",
+        "X-19_053033.jpg",
+        "X-19_054033.jpg",
+        "X-19_055033.jpg",
+        "X-19_056033.jpg",
+        "X-19_057033.jpg",
+        "X-19_057380.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                31,
+                335,
+                106,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 57.4,
+              "box": [
+                31,
+                335,
+                106,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                36,
+                354,
+                306,
+                451
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 57.4,
+              "box": [
+                36,
+                354,
+                306,
+                451
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                220,
+                324,
+                301,
+                398
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "unknown"
+              }
+            },
+            {
+              "time_sec": 24.033333,
+              "box": [
+                220,
+                324,
+                301,
+                398
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "unknown"
+              }
+            },
+            {
+              "time_sec": 25.033333,
+              "box": [
+                220,
+                324,
+                301,
+                398
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "locked"
+              }
+            },
+            {
+              "time_sec": 26.033333,
+              "box": [
+                220,
+                324,
+                301,
+                398
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "locked"
+              }
+            },
+            {
+              "time_sec": 27.033333,
+              "box": [
+                220,
+                324,
+                301,
+                398
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "active"
+              }
+            },
+            {
+              "time_sec": 57.4,
+              "box": [
+                220,
+                324,
+                301,
+                398
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "active"
+              }
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                316,
+                324,
+                430,
+                466
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 37.033333,
+              "box": [
+                316,
+                324,
+                430,
+                466
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 38.033333,
+              "box": [
+                304,
+                324,
+                430,
+                470
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 41.033333,
+              "box": [
+                304,
+                324,
+                430,
+                470
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 42.033333,
+              "box": [
+                316,
+                324,
+                430,
+                466
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 57.4,
+              "box": [
+                316,
+                324,
+                430,
+                466
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 1.0,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 2.0,
+              "box": [
+                0,
+                0,
+                115,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 3.0,
+              "box": [
+                0,
+                0,
+                76,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                0,
+                0,
+                118,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 44.033333,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 45.033333,
+              "box": [
+                0,
+                0,
+                111,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 46.033333,
+              "box": [
+                0,
+                0,
+                76,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 47.033333,
+              "box": [
+                0,
+                0,
+                115,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 48.033333,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 50.033333,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 51.033333,
+              "box": [
+                0,
+                0,
+                80,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 52.033333,
+              "box": [
+                0,
+                0,
+                106,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 53.033333,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 57.4,
+              "box": [
+                0,
+                0,
+                132,
+                425
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 7.0,
+              "box": [
+                108,
+                301,
+                127,
+                312
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 8.033333,
+              "box": [
+                149,
+                389,
+                174,
+                402
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 9.033333,
+              "box": [
+                171,
+                392,
+                191,
+                406
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                173,
+                397,
+                192,
+                408
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 11.033333,
+              "box": [
+                175,
+                386,
+                202,
+                402
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                150,
+                401,
+                176,
+                421
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 13.033333,
+              "box": [
+                81,
+                337,
+                101,
+                355
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                70,
+                338,
+                90,
+                353
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 21.033333,
+              "box": [
+                149,
+                386,
+                174,
+                402
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 22.033333,
+              "box": [
+                150,
+                389,
+                173,
+                411
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 23.033333,
+              "box": [
+                182,
+                397,
+                204,
+                415
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 24.033333,
+              "box": [
+                186,
+                397,
+                204,
+                410
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 29.033333,
+              "box": [
+                186,
+                397,
+                204,
+                410
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 33.033333,
+              "box": [
+                185,
+                398,
+                207,
+                413
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 34.033333,
+              "box": [
+                179,
+                398,
+                205,
+                418
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 35.033333,
+              "box": [
+                212,
+                404,
+                233,
+                420
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 36.033333,
+              "box": [
+                212,
+                404,
+                233,
+                420
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "id_card",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 12.033333,
+              "box": [
+                149,
+                411,
+                165,
+                422
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 13.033333,
+              "box": [
+                149,
+                411,
+                165,
+                422
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 33.033333,
+              "box": [
+                149,
+                411,
+                165,
+                422
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 34.033333,
+              "box": [
+                162,
+                407,
+                177,
+                424
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "id_card",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 53.033333,
+              "box": [
+                173,
+                374,
+                188,
+                383
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 54.033333,
+              "box": [
+                173,
+                374,
+                188,
+                383
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 55.033333,
+              "box": [
+                181,
+                390,
+                195,
+                400
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 56.033333,
+              "box": [
+                175,
+                417,
+                190,
+                431
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 57.033333,
+              "box": [
+                174,
+                404,
+                190,
+                419
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 57.4,
+              "box": [
+                174,
+                402,
+                190,
+                418
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Laptop changes from black to a visible lock/login screen at sample 25.033 s, then an active spreadsheet at 27.033 s. Safe door visibly open during samples 38.033–41.033 s; closed at 42.033 s.",
+        "Viewed start/middle/end at native resolution and one-second timeline/desk contact sheets. Intermediate original video frames were not individually reviewed. Keyframe measurements are in native 464x848 pixels.",
+        "Reflection regions are conditional visual-review aids, not automatic relabel masks. Real people in front of the partition overlap these regions; people standing in the open doorway remain person. Reflected hands must not be labeled hand."
+      ],
+      "unresolved": [
+        "Exact transitions between one-second samples are uncertain. Counter-held banknotes may be partially hidden; no identity is inferred through the hidden interval."
+      ],
+      "reflection_regions": [
+        {
+          "box": [
+            0,
+            0,
+            123,
+            335
+          ],
+          "condition": "Closed left glass door; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        },
+        {
+          "box": [
+            127,
+            0,
+            232,
+            320
+          ],
+          "condition": "Fixed right glass pane; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        }
+      ]
+    },
+    {
+      "video": "X-20",
+      "reviewed_samples": [
+        "X-20_000000.jpg",
+        "X-20_001000.jpg",
+        "X-20_002000.jpg",
+        "X-20_003000.jpg",
+        "X-20_004000.jpg",
+        "X-20_005000.jpg",
+        "X-20_006000.jpg",
+        "X-20_007000.jpg",
+        "X-20_008033.jpg",
+        "X-20_009033.jpg",
+        "X-20_010033.jpg",
+        "X-20_011033.jpg",
+        "X-20_011580.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                48,
+                327,
+                128,
+                410
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 11.6,
+              "box": [
+                48,
+                327,
+                128,
+                410
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                64,
+                348,
+                328,
+                445
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 11.6,
+              "box": [
+                64,
+                348,
+                328,
+                445
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                224,
+                307,
+                300,
+                374
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 11.6,
+              "box": [
+                224,
+                307,
+                300,
+                374
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                0,
+                132,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 11.6,
+              "box": [
+                0,
+                0,
+                132,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                187,
+                250,
+                265,
+                355
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 1.0,
+              "box": [
+                187,
+                250,
+                265,
+                355
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 2.0,
+              "box": [
+                182,
+                250,
+                265,
+                358
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 11.6,
+              "box": [
+                182,
+                250,
+                265,
+                358
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 8.033333,
+              "box": [
+                171,
+                370,
+                195,
+                385
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 9.033333,
+              "box": [
+                171,
+                370,
+                195,
+                385
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                160,
+                354,
+                187,
+                369
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 11.033333,
+              "box": [
+                90,
+                326,
+                115,
+                349
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 11.6,
+              "box": [
+                89,
+                333,
+                110,
+                353
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Safe is opened early and remains open through the last sample. Cashier carries banknotes to the counting machine.",
+        "Viewed start/middle/end at native resolution and one-second timeline/desk contact sheets. Intermediate original video frames were not individually reviewed. Keyframe measurements are in native 464x848 pixels.",
+        "Reflection regions are conditional visual-review aids, not automatic relabel masks. Real people in front of the partition overlap these regions; people standing in the open doorway remain person. Reflected hands must not be labeled hand."
+      ],
+      "unresolved": [
+        "Screen state is unknown. Cash is mostly hand-occluded before sample 9.033 s and is omitted then. Safe transition timing between samples is uncertain."
+      ],
+      "reflection_regions": [
+        {
+          "box": [
+            0,
+            0,
+            123,
+            335
+          ],
+          "condition": "Closed left glass door; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        },
+        {
+          "box": [
+            127,
+            0,
+            232,
+            320
+          ],
+          "condition": "Fixed right glass pane; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        }
+      ]
+    },
+    {
+      "video": "X-21",
+      "reviewed_samples": [
+        "X-21_000000.jpg",
+        "X-21_001000.jpg",
+        "X-21_002000.jpg",
+        "X-21_003000.jpg",
+        "X-21_004000.jpg",
+        "X-21_005000.jpg",
+        "X-21_006000.jpg",
+        "X-21_007000.jpg",
+        "X-21_008033.jpg",
+        "X-21_009033.jpg",
+        "X-21_010033.jpg",
+        "X-21_011033.jpg",
+        "X-21_012033.jpg",
+        "X-21_013033.jpg",
+        "X-21_014033.jpg",
+        "X-21_015033.jpg",
+        "X-21_016033.jpg",
+        "X-21_017033.jpg",
+        "X-21_018033.jpg",
+        "X-21_019033.jpg",
+        "X-21_019550.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                48,
+                327,
+                128,
+                410
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 19.566667,
+              "box": [
+                48,
+                327,
+                128,
+                410
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                64,
+                348,
+                328,
+                445
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 19.566667,
+              "box": [
+                64,
+                348,
+                328,
+                445
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                224,
+                307,
+                300,
+                374
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 19.566667,
+              "box": [
+                224,
+                307,
+                300,
+                374
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                0,
+                132,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 19.566667,
+              "box": [
+                0,
+                0,
+                132,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                187,
+                250,
+                265,
+                355
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 1.0,
+              "box": [
+                187,
+                250,
+                265,
+                355
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 2.0,
+              "box": [
+                182,
+                250,
+                265,
+                358
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 3.0,
+              "box": [
+                182,
+                250,
+                265,
+                358
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                187,
+                250,
+                265,
+                355
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 19.566667,
+              "box": [
+                187,
+                250,
+                265,
+                355
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 7.0,
+              "box": [
+                169,
+                291,
+                187,
+                302
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 8.033333,
+              "box": [
+                208,
+                342,
+                232,
+                355
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 9.033333,
+              "box": [
+                184,
+                339,
+                206,
+                351
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                184,
+                339,
+                206,
+                351
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 11.033333,
+              "box": [
+                170,
+                373,
+                189,
+                383
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                163,
+                370,
+                181,
+                382
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 13.033333,
+              "box": [
+                91,
+                336,
+                112,
+                351
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                88,
+                336,
+                110,
+                350
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 15.033333,
+              "box": [
+                88,
+                336,
+                110,
+                350
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                90,
+                337,
+                109,
+                350
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 19.566667,
+              "box": [
+                90,
+                337,
+                109,
+                350
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Safe opens briefly near the beginning and is closed again before the cashier sits. Banknotes are loaded into the top hopper; a visible green group remains there at the end.",
+        "Viewed start/middle/end at native resolution and one-second timeline/desk contact sheets. Intermediate original video frames were not individually reviewed. Keyframe measurements are in native 464x848 pixels.",
+        "Reflection regions are conditional visual-review aids, not automatic relabel masks. Real people in front of the partition overlap these regions; people standing in the open doorway remain person. Reflected hands must not be labeled hand."
+      ],
+      "unresolved": [
+        "Screen state is unknown. Cash is obscured by hands in several early samples; only clear visible intervals are annotated. Safe opening and closing boundaries are one-second estimates."
+      ],
+      "reflection_regions": [
+        {
+          "box": [
+            0,
+            0,
+            123,
+            335
+          ],
+          "condition": "Closed left glass door; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        },
+        {
+          "box": [
+            127,
+            0,
+            232,
+            320
+          ],
+          "condition": "Fixed right glass pane; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        }
+      ]
+    },
+    {
+      "video": "X-22",
+      "reviewed_samples": [
+        "X-22_000000.jpg",
+        "X-22_001000.jpg",
+        "X-22_002000.jpg",
+        "X-22_003000.jpg",
+        "X-22_004000.jpg",
+        "X-22_005000.jpg",
+        "X-22_006000.jpg",
+        "X-22_007000.jpg",
+        "X-22_008033.jpg",
+        "X-22_009033.jpg",
+        "X-22_010033.jpg",
+        "X-22_011033.jpg",
+        "X-22_012033.jpg",
+        "X-22_013033.jpg",
+        "X-22_014033.jpg",
+        "X-22_015033.jpg",
+        "X-22_016033.jpg",
+        "X-22_017033.jpg",
+        "X-22_018033.jpg",
+        "X-22_019033.jpg",
+        "X-22_020033.jpg",
+        "X-22_020980.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                54,
+                318,
+                129,
+                411
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 21.0,
+              "box": [
+                54,
+                318,
+                129,
+                411
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                66,
+                347,
+                328,
+                446
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 21.0,
+              "box": [
+                66,
+                347,
+                328,
+                446
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                232,
+                307,
+                292,
+                374
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "active"
+              }
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                232,
+                307,
+                292,
+                374
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "active"
+              }
+            },
+            {
+              "time_sec": 6.0,
+              "box": [
+                224,
+                310,
+                283,
+                373
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "unknown"
+              }
+            },
+            {
+              "time_sec": 21.0,
+              "box": [
+                224,
+                310,
+                283,
+                373
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "unknown"
+              }
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                188,
+                250,
+                263,
+                352
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 21.0,
+              "box": [
+                188,
+                250,
+                263,
+                352
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                0,
+                132,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                0,
+                0,
+                132,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 15.033333,
+              "box": [
+                0,
+                0,
+                118,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                0,
+                0,
+                76,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 17.033333,
+              "box": [
+                0,
+                0,
+                95,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 18.033333,
+              "box": [
+                0,
+                0,
+                112,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 19.033333,
+              "box": [
+                0,
+                0,
+                129,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 21.0,
+              "box": [
+                0,
+                0,
+                132,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Cashier leaves after interacting with the laptop and closed safe. Laptop lid is tilted forward at 6 s but remains open.",
+        "Viewed start/middle/end at native resolution and one-second timeline/desk contact sheets. Intermediate original video frames were not individually reviewed. Keyframe measurements are in native 464x848 pixels.",
+        "Reflection regions are conditional visual-review aids, not automatic relabel masks. Real people in front of the partition overlap these regions; people standing in the open doorway remain person. Reflected hands must not be labeled hand."
+      ],
+      "unresolved": [
+        "Laptop shows a dark image after 6 s; its screen state cannot be reliably distinguished from this oblique view, so unknown is recorded. Door transition timing is bounded by samples."
+      ],
+      "reflection_regions": [
+        {
+          "box": [
+            0,
+            0,
+            123,
+            335
+          ],
+          "condition": "Closed left glass door; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        },
+        {
+          "box": [
+            127,
+            0,
+            232,
+            320
+          ],
+          "condition": "Fixed right glass pane; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        }
+      ]
+    },
+    {
+      "video": "X-23",
+      "reviewed_samples": [
+        "X-23_000000.jpg",
+        "X-23_001000.jpg",
+        "X-23_002000.jpg",
+        "X-23_003000.jpg",
+        "X-23_004000.jpg",
+        "X-23_005000.jpg",
+        "X-23_006000.jpg",
+        "X-23_007000.jpg",
+        "X-23_008033.jpg",
+        "X-23_009033.jpg",
+        "X-23_010033.jpg",
+        "X-23_011033.jpg",
+        "X-23_012033.jpg",
+        "X-23_013033.jpg",
+        "X-23_014033.jpg",
+        "X-23_015033.jpg",
+        "X-23_016033.jpg",
+        "X-23_017033.jpg",
+        "X-23_018033.jpg",
+        "X-23_018220.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                54,
+                318,
+                129,
+                411
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 18.233333,
+              "box": [
+                54,
+                318,
+                129,
+                411
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                66,
+                347,
+                328,
+                446
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 18.233333,
+              "box": [
+                66,
+                347,
+                328,
+                446
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                224,
+                306,
+                300,
+                374
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "active"
+              }
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                224,
+                306,
+                300,
+                374
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "active"
+              }
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                224,
+                306,
+                300,
+                374
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "locked"
+              }
+            },
+            {
+              "time_sec": 18.233333,
+              "box": [
+                224,
+                306,
+                300,
+                374
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "locked"
+              }
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                188,
+                250,
+                263,
+                352
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 18.233333,
+              "box": [
+                188,
+                250,
+                263,
+                352
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                0,
+                132,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                0,
+                0,
+                132,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 13.033333,
+              "box": [
+                0,
+                0,
+                113,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                0,
+                0,
+                76,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 15.033333,
+              "box": [
+                0,
+                0,
+                97,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                0,
+                0,
+                114,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 17.033333,
+              "box": [
+                0,
+                0,
+                129,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 18.233333,
+              "box": [
+                0,
+                0,
+                132,
+                423
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Visible active spreadsheet changes to a Windows lock/login display at sample 5 s. Safe remains closed as the cashier leaves.",
+        "Viewed start/middle/end at native resolution and one-second timeline/desk contact sheets. Intermediate original video frames were not individually reviewed. Keyframe measurements are in native 464x848 pixels.",
+        "Reflection regions are conditional visual-review aids, not automatic relabel masks. Real people in front of the partition overlap these regions; people standing in the open doorway remain person. Reflected hands must not be labeled hand."
+      ],
+      "unresolved": [
+        "State changes are bounded by the sampled frames rather than individual original-frame review."
+      ],
+      "reflection_regions": [
+        {
+          "box": [
+            0,
+            0,
+            123,
+            335
+          ],
+          "condition": "Closed left glass door; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        },
+        {
+          "box": [
+            127,
+            0,
+            232,
+            320
+          ],
+          "condition": "Fixed right glass pane; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        }
+      ]
+    },
+    {
+      "video": "X-24",
+      "reviewed_samples": [
+        "X-24_000000.jpg",
+        "X-24_001000.jpg",
+        "X-24_002000.jpg",
+        "X-24_003000.jpg",
+        "X-24_004000.jpg",
+        "X-24_005000.jpg",
+        "X-24_006000.jpg",
+        "X-24_007000.jpg",
+        "X-24_008033.jpg",
+        "X-24_009033.jpg",
+        "X-24_010033.jpg",
+        "X-24_011033.jpg",
+        "X-24_012033.jpg",
+        "X-24_013033.jpg",
+        "X-24_014033.jpg",
+        "X-24_014650.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                73,
+                346,
+                150,
+                431
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                73,
+                346,
+                150,
+                431
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.666667,
+              "box": [
+                74,
+                347,
+                151,
+                433
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                85,
+                365,
+                346,
+                470
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                85,
+                365,
+                346,
+                470
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.666667,
+              "box": [
+                86,
+                366,
+                347,
+                472
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                245,
+                326,
+                317,
+                393
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                245,
+                326,
+                317,
+                393
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.666667,
+              "box": [
+                246,
+                327,
+                318,
+                395
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 14.666667,
+              "box": [
+                205,
+                268,
+                277,
+                373
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 8.033333,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 9.033333,
+              "box": [
+                0,
+                16,
+                136,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                0,
+                16,
+                97,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 11.033333,
+              "box": [
+                0,
+                16,
+                121,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                0,
+                16,
+                138,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 13.033333,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 14.666667,
+              "box": [
+                0,
+                17,
+                149,
+                449
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Black notebook/register and two small teal cylinders remain on the desk when the cashier leaves. Paper/register is excluded under the paper rule. Safe stays closed.",
+        "Viewed start/middle/end at native resolution and one-second timeline/desk contact sheets. Intermediate original video frames were not individually reviewed. Keyframe measurements are in native 464x848 pixels.",
+        "Reflection regions are conditional visual-review aids, not automatic relabel masks. Real people in front of the partition overlap these regions; people standing in the open doorway remain person. Reflected hands must not be labeled hand."
+      ],
+      "unresolved": [
+        "Teal cylinders look like work stamps rather than drinking cups, but their exact identity is unresolved; they are not invented as foreign_object. Black laptop screen state is unknown. Door transition timing is sampled."
+      ],
+      "reflection_regions": [
+        {
+          "box": [
+            0,
+            16,
+            145,
+            360
+          ],
+          "condition": "Closed left glass door; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        },
+        {
+          "box": [
+            145,
+            20,
+            248,
+            335
+          ],
+          "condition": "Fixed right glass pane; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        }
+      ]
+    },
+    {
+      "video": "X-25",
+      "reviewed_samples": [
+        "X-25_000000.jpg",
+        "X-25_001000.jpg",
+        "X-25_002000.jpg",
+        "X-25_003000.jpg",
+        "X-25_004000.jpg",
+        "X-25_005000.jpg",
+        "X-25_006000.jpg",
+        "X-25_007000.jpg",
+        "X-25_008033.jpg",
+        "X-25_009033.jpg",
+        "X-25_010033.jpg",
+        "X-25_011033.jpg",
+        "X-25_012033.jpg",
+        "X-25_013033.jpg",
+        "X-25_014033.jpg",
+        "X-25_015033.jpg",
+        "X-25_016033.jpg",
+        "X-25_017033.jpg",
+        "X-25_018033.jpg",
+        "X-25_019033.jpg",
+        "X-25_020033.jpg",
+        "X-25_021033.jpg",
+        "X-25_022033.jpg",
+        "X-25_023033.jpg",
+        "X-25_024033.jpg",
+        "X-25_025033.jpg",
+        "X-25_026033.jpg",
+        "X-25_027033.jpg",
+        "X-25_028033.jpg",
+        "X-25_029033.jpg",
+        "X-25_030033.jpg",
+        "X-25_031033.jpg",
+        "X-25_031650.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                73,
+                346,
+                150,
+                431
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 31.666667,
+              "box": [
+                73,
+                346,
+                150,
+                431
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                85,
+                365,
+                346,
+                470
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 31.666667,
+              "box": [
+                85,
+                365,
+                346,
+                470
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                245,
+                326,
+                317,
+                393
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 31.666667,
+              "box": [
+                245,
+                326,
+                317,
+                393
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 8.033333,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 9.033333,
+              "box": [
+                189,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 11.033333,
+              "box": [
+                189,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 15.033333,
+              "box": [
+                189,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 18.033333,
+              "box": [
+                189,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 19.033333,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 31.666667,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 25.033333,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 26.033333,
+              "box": [
+                0,
+                16,
+                123,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 27.033333,
+              "box": [
+                0,
+                16,
+                97,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 28.033333,
+              "box": [
+                0,
+                16,
+                121,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 29.033333,
+              "box": [
+                0,
+                16,
+                137,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 30.033333,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 31.666667,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Cashier places the notebook/register in the safe, closes it, then reopens it to put away two teal cylinders. Safe is finally closed before exit. Paper/register excluded.",
+        "Viewed start/middle/end at native resolution and one-second timeline/desk contact sheets. Intermediate original video frames were not individually reviewed. Keyframe measurements are in native 464x848 pixels.",
+        "Reflection regions are conditional visual-review aids, not automatic relabel masks. Real people in front of the partition overlap these regions; people standing in the open doorway remain person. Reflected hands must not be labeled hand."
+      ],
+      "unresolved": [
+        "Teal cylinders may be work stamps; no foreign-object class is invented. Laptop power/lock state cannot be determined from the black display. Door/safe boundaries are sampled estimates."
+      ],
+      "reflection_regions": [
+        {
+          "box": [
+            0,
+            16,
+            145,
+            360
+          ],
+          "condition": "Closed left glass door; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        },
+        {
+          "box": [
+            145,
+            20,
+            248,
+            335
+          ],
+          "condition": "Fixed right glass pane; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        }
+      ]
+    },
+    {
+      "video": "X-26",
+      "reviewed_samples": [
+        "X-26_000000.jpg",
+        "X-26_001000.jpg",
+        "X-26_002000.jpg",
+        "X-26_003000.jpg",
+        "X-26_004000.jpg",
+        "X-26_005000.jpg",
+        "X-26_006000.jpg",
+        "X-26_007000.jpg",
+        "X-26_008033.jpg",
+        "X-26_009033.jpg",
+        "X-26_010033.jpg",
+        "X-26_011033.jpg",
+        "X-26_012033.jpg",
+        "X-26_013033.jpg",
+        "X-26_014033.jpg",
+        "X-26_015033.jpg",
+        "X-26_016033.jpg",
+        "X-26_017033.jpg",
+        "X-26_018033.jpg",
+        "X-26_019033.jpg",
+        "X-26_019750.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                73,
+                346,
+                150,
+                431
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 19.766667,
+              "box": [
+                73,
+                346,
+                150,
+                431
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                85,
+                365,
+                346,
+                470
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 19.766667,
+              "box": [
+                85,
+                365,
+                346,
+                470
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                245,
+                326,
+                317,
+                393
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 19.766667,
+              "box": [
+                245,
+                326,
+                317,
+                393
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 19.766667,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 13.033333,
+              "box": [
+                0,
+                16,
+                141,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                0,
+                16,
+                105,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 15.033333,
+              "box": [
+                0,
+                16,
+                104,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                0,
+                16,
+                132,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 17.033333,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 19.766667,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                198,
+                375,
+                219,
+                389
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 1.0,
+              "box": [
+                199,
+                374,
+                218,
+                387
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 2.0,
+              "box": [
+                205,
+                372,
+                221,
+                389
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 3.0,
+              "box": [
+                200,
+                368,
+                221,
+                385
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                202,
+                366,
+                223,
+                383
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                192,
+                368,
+                215,
+                385
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 6.0,
+              "box": [
+                207,
+                369,
+                224,
+                388
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 7.0,
+              "box": [
+                201,
+                366,
+                225,
+                385
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 8.033333,
+              "box": [
+                210,
+                397,
+                235,
+                408
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 19.766667,
+              "box": [
+                209,
+                398,
+                235,
+                408
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Cashier counts a compact group of banknotes, leaves it on the wooden work surface, then exits. Safe stays closed.",
+        "Viewed start/middle/end at native resolution and one-second timeline/desk contact sheets. Intermediate original video frames were not individually reviewed. Keyframe measurements are in native 464x848 pixels.",
+        "Reflection regions are conditional visual-review aids, not automatic relabel masks. Real people in front of the partition overlap these regions; people standing in the open doorway remain person. Reflected hands must not be labeled hand."
+      ],
+      "unresolved": [
+        "Screen state is unknown. Brief finger-occluded money intervals are omitted; interpolation between sampled money boxes is not original-frame verification."
+      ],
+      "reflection_regions": [
+        {
+          "box": [
+            0,
+            16,
+            145,
+            360
+          ],
+          "condition": "Closed left glass door; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        },
+        {
+          "box": [
+            145,
+            20,
+            248,
+            335
+          ],
+          "condition": "Fixed right glass pane; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        }
+      ]
+    },
+    {
+      "video": "X-27",
+      "reviewed_samples": [
+        "X-27_000000.jpg",
+        "X-27_001000.jpg",
+        "X-27_002000.jpg",
+        "X-27_003000.jpg",
+        "X-27_004000.jpg",
+        "X-27_005000.jpg",
+        "X-27_006000.jpg",
+        "X-27_007000.jpg",
+        "X-27_008033.jpg",
+        "X-27_009033.jpg",
+        "X-27_010033.jpg",
+        "X-27_011033.jpg",
+        "X-27_012033.jpg",
+        "X-27_013033.jpg",
+        "X-27_014033.jpg",
+        "X-27_015033.jpg",
+        "X-27_016033.jpg",
+        "X-27_017033.jpg",
+        "X-27_018033.jpg",
+        "X-27_019033.jpg",
+        "X-27_020033.jpg",
+        "X-27_021033.jpg",
+        "X-27_022033.jpg",
+        "X-27_023033.jpg",
+        "X-27_024033.jpg",
+        "X-27_025033.jpg",
+        "X-27_026033.jpg",
+        "X-27_026380.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                73,
+                346,
+                150,
+                431
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 26.4,
+              "box": [
+                73,
+                346,
+                150,
+                431
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                85,
+                365,
+                346,
+                470
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 26.4,
+              "box": [
+                85,
+                365,
+                346,
+                470
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "unknown"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                245,
+                326,
+                317,
+                393
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 26.4,
+              "box": [
+                245,
+                326,
+                317,
+                393
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 11.033333,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                188,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 13.033333,
+              "box": [
+                188,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 26.4,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 19.033333,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 20.033333,
+              "box": [
+                0,
+                16,
+                135,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 21.033333,
+              "box": [
+                0,
+                16,
+                99,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 22.033333,
+              "box": [
+                0,
+                16,
+                112,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 23.033333,
+              "box": [
+                0,
+                16,
+                131,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 24.033333,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 26.4,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        },
+        {
+          "label": "banknotes",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                202,
+                385,
+                228,
+                400
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 1.0,
+              "box": [
+                207,
+                382,
+                231,
+                401
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 2.0,
+              "box": [
+                207,
+                370,
+                230,
+                388
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 3.0,
+              "box": [
+                207,
+                368,
+                229,
+                387
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 4.0,
+              "box": [
+                205,
+                373,
+                222,
+                391
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                206,
+                374,
+                225,
+                391
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 6.0,
+              "box": [
+                208,
+                364,
+                224,
+                388
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 7.0,
+              "box": [
+                208,
+                365,
+                227,
+                386
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 8.033333,
+              "box": [
+                204,
+                378,
+                223,
+                394
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 9.033333,
+              "box": [
+                249,
+                326,
+                267,
+                339
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                249,
+                326,
+                267,
+                339
+              ],
+              "outside": true,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Cashier handles banknotes and puts them in the safe. Safe is visibly open at samples 12.033 and 13.033 s and closed again at 14.033 s.",
+        "Viewed start/middle/end at native resolution and one-second timeline/desk contact sheets. Intermediate original video frames were not individually reviewed. Keyframe measurements are in native 464x848 pixels.",
+        "Reflection regions are conditional visual-review aids, not automatic relabel masks. Real people in front of the partition overlap these regions; people standing in the open doorway remain person. Reflected hands must not be labeled hand."
+      ],
+      "unresolved": [
+        "Black laptop display has unknown power/lock state. Money is hidden during movement into the safe; those occluded intervals are excluded."
+      ],
+      "reflection_regions": [
+        {
+          "box": [
+            0,
+            16,
+            145,
+            360
+          ],
+          "condition": "Closed left glass door; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        },
+        {
+          "box": [
+            145,
+            20,
+            248,
+            335
+          ],
+          "condition": "Fixed right glass pane; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        }
+      ]
+    },
+    {
+      "video": "X-28",
+      "reviewed_samples": [
+        "X-28_000000.jpg",
+        "X-28_001000.jpg",
+        "X-28_002000.jpg",
+        "X-28_003000.jpg",
+        "X-28_004000.jpg",
+        "X-28_005000.jpg",
+        "X-28_006000.jpg",
+        "X-28_007000.jpg",
+        "X-28_008033.jpg",
+        "X-28_009033.jpg",
+        "X-28_010033.jpg",
+        "X-28_011033.jpg",
+        "X-28_012033.jpg",
+        "X-28_013033.jpg",
+        "X-28_014033.jpg",
+        "X-28_015033.jpg",
+        "X-28_016033.jpg",
+        "X-28_016480.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                73,
+                346,
+                150,
+                431
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                73,
+                346,
+                150,
+                431
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.5,
+              "box": [
+                72,
+                344,
+                149,
+                429
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                85,
+                365,
+                346,
+                470
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                85,
+                365,
+                346,
+                470
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.5,
+              "box": [
+                84,
+                363,
+                345,
+                468
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop",
+            "screen": "active"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                245,
+                326,
+                317,
+                393
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                245,
+                326,
+                317,
+                393
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.5,
+              "box": [
+                244,
+                324,
+                316,
+                391
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.033333,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 16.5,
+              "box": [
+                203,
+                265,
+                275,
+                369
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 9.033333,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                0,
+                16,
+                138,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 11.033333,
+              "box": [
+                0,
+                16,
+                116,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                0,
+                16,
+                99,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 13.033333,
+              "box": [
+                0,
+                16,
+                119,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                0,
+                16,
+                137,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 15.033333,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 16.5,
+              "box": [
+                0,
+                14,
+                147,
+                445
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Laptop spreadsheet remains visibly active after the cashier leaves. Safe stays closed.",
+        "Viewed start/middle/end at native resolution and one-second timeline/desk contact sheets. Intermediate original video frames were not individually reviewed. Keyframe measurements are in native 464x848 pixels.",
+        "Reflection regions are conditional visual-review aids, not automatic relabel masks. Real people in front of the partition overlap these regions; people standing in the open doorway remain person. Reflected hands must not be labeled hand."
+      ],
+      "unresolved": [
+        "Door transition timing is limited to sampled frames. Small final-frame camera movement is reflected in the last geometry keyframes."
+      ],
+      "reflection_regions": [
+        {
+          "box": [
+            0,
+            16,
+            145,
+            360
+          ],
+          "condition": "Closed left glass door; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        },
+        {
+          "box": [
+            145,
+            20,
+            248,
+            335
+          ],
+          "condition": "Fixed right glass pane; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        }
+      ]
+    },
+    {
+      "video": "X-29",
+      "reviewed_samples": [
+        "X-29_000000.jpg",
+        "X-29_001000.jpg",
+        "X-29_002000.jpg",
+        "X-29_003000.jpg",
+        "X-29_004000.jpg",
+        "X-29_005000.jpg",
+        "X-29_006000.jpg",
+        "X-29_007000.jpg",
+        "X-29_008033.jpg",
+        "X-29_009033.jpg",
+        "X-29_010033.jpg",
+        "X-29_011033.jpg",
+        "X-29_012033.jpg",
+        "X-29_013033.jpg",
+        "X-29_014033.jpg",
+        "X-29_015033.jpg",
+        "X-29_016033.jpg",
+        "X-29_017033.jpg",
+        "X-29_017250.jpg"
+      ],
+      "tracks": [
+        {
+          "label": "cash_machine",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                73,
+                346,
+                150,
+                431
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 17.266667,
+              "box": [
+                73,
+                346,
+                150,
+                431
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "table",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                85,
+                365,
+                346,
+                470
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 17.266667,
+              "box": [
+                85,
+                365,
+                346,
+                470
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "computer",
+          "attributes": {
+            "kind": "laptop"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                245,
+                326,
+                317,
+                393
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "active"
+              }
+            },
+            {
+              "time_sec": 5.0,
+              "box": [
+                245,
+                326,
+                317,
+                393
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "active"
+              }
+            },
+            {
+              "time_sec": 6.0,
+              "box": [
+                245,
+                326,
+                317,
+                393
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "unknown"
+              }
+            },
+            {
+              "time_sec": 7.0,
+              "box": [
+                245,
+                326,
+                317,
+                393
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "locked"
+              }
+            },
+            {
+              "time_sec": 17.266667,
+              "box": [
+                245,
+                326,
+                317,
+                393
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "screen": "locked"
+              }
+            }
+          ]
+        },
+        {
+          "label": "safe",
+          "attributes": {
+            "state": "closed"
+          },
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            },
+            {
+              "time_sec": 17.266667,
+              "box": [
+                204,
+                267,
+                276,
+                371
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {}
+            }
+          ]
+        },
+        {
+          "label": "door",
+          "attributes": {},
+          "keyframes": [
+            {
+              "time_sec": 0.0,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 9.033333,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 10.033333,
+              "box": [
+                0,
+                16,
+                141,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 11.033333,
+              "box": [
+                0,
+                16,
+                119,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 12.033333,
+              "box": [
+                0,
+                16,
+                99,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 13.033333,
+              "box": [
+                0,
+                16,
+                112,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 14.033333,
+              "box": [
+                0,
+                16,
+                131,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "open"
+              }
+            },
+            {
+              "time_sec": 15.033333,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            },
+            {
+              "time_sec": 17.266667,
+              "box": [
+                0,
+                16,
+                148,
+                447
+              ],
+              "outside": false,
+              "occluded": false,
+              "attributes": {
+                "state": "closed"
+              }
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Laptop spreadsheet changes to a dark transition at sample 6 s and a visible lock/login display at 7 s. Safe stays closed as the cashier exits.",
+        "Viewed start/middle/end at native resolution and one-second timeline/desk contact sheets. Intermediate original video frames were not individually reviewed. Keyframe measurements are in native 464x848 pixels.",
+        "Reflection regions are conditional visual-review aids, not automatic relabel masks. Real people in front of the partition overlap these regions; people standing in the open doorway remain person. Reflected hands must not be labeled hand."
+      ],
+      "unresolved": [
+        "At 6 s the blank screen is recorded unknown rather than inferred off. Door timing is based on sampled observations."
+      ],
+      "reflection_regions": [
+        {
+          "box": [
+            0,
+            16,
+            145,
+            360
+          ],
+          "condition": "Closed left glass door; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        },
+        {
+          "box": [
+            145,
+            20,
+            248,
+            335
+          ],
+          "condition": "Fixed right glass pane; person is visually behind or reflected in the glass.",
+          "requires_visual_confirmation": true
+        }
+      ]
+    }
+  ],
+  "review_method": "visual inspection of sampled frames; interpolation between keyframes"
+}

@@ -1,0 +1,221 @@
+[
+  {
+    "name": "person",
+    "id": 1,
+    "color": "#e6194b",
+    "attributes": [
+      {
+        "name": "role",
+        "mutable": true,
+        "input_type": "select",
+        "values": [
+          "unknown",
+          "cashier",
+          "client",
+          "collector"
+        ],
+        "id": 1,
+        "default_value": "unknown"
+      }
+    ],
+    "type": "any",
+    "sublabels": [],
+    "project_id": 1,
+    "parent_id": null,
+    "has_parent": false
+  },
+  {
+    "name": "reflection",
+    "id": 2,
+    "color": "#808080",
+    "attributes": [],
+    "type": "any",
+    "sublabels": [],
+    "project_id": 1,
+    "parent_id": null,
+    "has_parent": false
+  },
+  {
+    "name": "hand",
+    "id": 3,
+    "color": "#3cb44b",
+    "attributes": [],
+    "type": "any",
+    "sublabels": [],
+    "project_id": 1,
+    "parent_id": null,
+    "has_parent": false
+  },
+  {
+    "name": "banknotes",
+    "id": 4,
+    "color": "#ffe119",
+    "attributes": [],
+    "type": "any",
+    "sublabels": [],
+    "project_id": 1,
+    "parent_id": null,
+    "has_parent": false
+  },
+  {
+    "name": "id_card",
+    "id": 5,
+    "color": "#4363d8",
+    "attributes": [],
+    "type": "any",
+    "sublabels": [],
+    "project_id": 1,
+    "parent_id": null,
+    "has_parent": false
+  },
+  {
+    "name": "cash_machine",
+    "id": 6,
+    "color": "#f58231",
+    "attributes": [],
+    "type": "any",
+    "sublabels": [],
+    "project_id": 1,
+    "parent_id": null,
+    "has_parent": false
+  },
+  {
+    "name": "safe",
+    "id": 7,
+    "color": "#911eb4",
+    "attributes": [
+      {
+        "name": "state",
+        "mutable": true,
+        "input_type": "select",
+        "values": [
+          "closed",
+          "open"
+        ],
+        "id": 2,
+        "default_value": "closed"
+      }
+    ],
+    "type": "any",
+    "sublabels": [],
+    "project_id": 1,
+    "parent_id": null,
+    "has_parent": false
+  },
+  {
+    "name": "door",
+    "id": 8,
+    "color": "#46f0f0",
+    "attributes": [
+      {
+        "name": "state",
+        "mutable": true,
+        "input_type": "select",
+        "values": [
+          "closed",
+          "open"
+        ],
+        "id": 3,
+        "default_value": "closed"
+      }
+    ],
+    "type": "any",
+    "sublabels": [],
+    "project_id": 1,
+    "parent_id": null,
+    "has_parent": false
+  },
+  {
+    "name": "phone",
+    "id": 9,
+    "color": "#f032e6",
+    "attributes": [],
+    "type": "any",
+    "sublabels": [],
+    "project_id": 1,
+    "parent_id": null,
+    "has_parent": false
+  },
+  {
+    "name": "bag",
+    "id": 10,
+    "color": "#bcf60c",
+    "attributes": [],
+    "type": "any",
+    "sublabels": [],
+    "project_id": 1,
+    "parent_id": null,
+    "has_parent": false
+  },
+  {
+    "name": "table",
+    "id": 11,
+    "color": "#9a6324",
+    "attributes": [],
+    "type": "any",
+    "sublabels": [],
+    "project_id": 1,
+    "parent_id": null,
+    "has_parent": false
+  },
+  {
+    "name": "foreign_object",
+    "id": 12,
+    "color": "#fabebe",
+    "attributes": [
+      {
+        "name": "kind",
+        "mutable": true,
+        "input_type": "select",
+        "values": [
+          "other",
+          "clothing",
+          "personal_bag",
+          "cup"
+        ],
+        "id": 4,
+        "default_value": "other"
+      }
+    ],
+    "type": "any",
+    "sublabels": [],
+    "project_id": 1,
+    "parent_id": null,
+    "has_parent": false
+  },
+  {
+    "name": "computer",
+    "id": 13,
+    "color": "#008080",
+    "attributes": [
+      {
+        "name": "kind",
+        "mutable": false,
+        "input_type": "select",
+        "values": [
+          "laptop",
+          "monitor"
+        ],
+        "id": 5,
+        "default_value": "laptop"
+      },
+      {
+        "name": "screen",
+        "mutable": true,
+        "input_type": "select",
+        "values": [
+          "active",
+          "locked",
+          "off"
+        ],
+        "id": 6,
+        "default_value": "active"
+      }
+    ],
+    "type": "any",
+    "sublabels": [],
+    "project_id": 1,
+    "parent_id": null,
+    "has_parent": false
+  }
+]

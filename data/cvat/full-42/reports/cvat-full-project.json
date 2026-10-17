@@ -1,0 +1,726 @@
+{
+  "url": "http://localhost:48080",
+  "project_id": 1,
+  "project_name": "Datathon — 42 полных видео, все кадры",
+  "project_url": "http://localhost:48080/projects/1",
+  "frame_step": 1,
+  "annotation_status": "not_started",
+  "tasks": [
+    {
+      "video": "X-1",
+      "task_id": 1,
+      "frames": 776,
+      "start_frame": 0,
+      "stop_frame": 775,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "8911a9219b9433091824e553a70bb80335f075fd8ac982d2062d2ecf023c16bc",
+      "job_ids": [
+        1
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/1/jobs/1"
+      ]
+    },
+    {
+      "video": "X-2",
+      "task_id": 2,
+      "frames": 510,
+      "start_frame": 0,
+      "stop_frame": 509,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "9932ae0a10d3b9371bf52ea558dc19092fcf47adcd275a73a52a56b95464bca6",
+      "job_ids": [
+        2
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/2/jobs/2"
+      ]
+    },
+    {
+      "video": "X-3",
+      "task_id": 3,
+      "frames": 599,
+      "start_frame": 0,
+      "stop_frame": 598,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "21468fcef4ea5f45ce7d465e620f84e09c8b50314f4ecdc06f69224c701b3a5b",
+      "job_ids": [
+        3
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/3/jobs/3"
+      ]
+    },
+    {
+      "video": "X-4",
+      "task_id": 4,
+      "frames": 2177,
+      "start_frame": 0,
+      "stop_frame": 2176,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "5385be9420e6a70547d6bcfd0b13d60f9c0738877645afa277d09550a96b8445",
+      "job_ids": [
+        4
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/4/jobs/4"
+      ]
+    },
+    {
+      "video": "X-5",
+      "task_id": 5,
+      "frames": 2145,
+      "start_frame": 0,
+      "stop_frame": 2144,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "1f5840bff58f298e89c4afa00cb1c18f6dafc5c4096c251d9b507604ebefe906",
+      "job_ids": [
+        5
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/5/jobs/5"
+      ]
+    },
+    {
+      "video": "X-8",
+      "task_id": 6,
+      "frames": 1140,
+      "start_frame": 0,
+      "stop_frame": 1139,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "6a53e10acdcf52396ad5b1697eead32d8322c0911d792523a5c33fe5b388f4e7",
+      "job_ids": [
+        6
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/6/jobs/6"
+      ]
+    },
+    {
+      "video": "X-10",
+      "task_id": 7,
+      "frames": 467,
+      "start_frame": 0,
+      "stop_frame": 466,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "57a0e46c7a45f0e831f61d9c80722fefe4b74dbcfe1d3031ff58307d481f9a5c",
+      "job_ids": [
+        7
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/7/jobs/7"
+      ]
+    },
+    {
+      "video": "X-11",
+      "task_id": 8,
+      "frames": 765,
+      "start_frame": 0,
+      "stop_frame": 764,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "b3a954a5b761ad47943e061599315e3fe9d22573eeb92bb14bf315cdcd422fc5",
+      "job_ids": [
+        8
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/8/jobs/8"
+      ]
+    },
+    {
+      "video": "X-12",
+      "task_id": 9,
+      "frames": 1267,
+      "start_frame": 0,
+      "stop_frame": 1266,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "955755baf54418b48ea645dcd98e7e8dcca1d1e227e9b286a9427062db304fd4",
+      "job_ids": [
+        9
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/9/jobs/9"
+      ]
+    },
+    {
+      "video": "X-13",
+      "task_id": 10,
+      "frames": 1956,
+      "start_frame": 0,
+      "stop_frame": 1955,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "a37930cf119bb691be77d8624b18333b04d9c67066a7f4627d63e3208dfa6057",
+      "job_ids": [
+        10
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/10/jobs/10"
+      ]
+    },
+    {
+      "video": "X-14",
+      "task_id": 11,
+      "frames": 4273,
+      "start_frame": 0,
+      "stop_frame": 4272,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "7d6890ecb4a2b28bbdd3b61b6711566eee84a53ab3439c40cd9b6a3a6714c681",
+      "job_ids": [
+        11
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/11/jobs/11"
+      ]
+    },
+    {
+      "video": "X-15",
+      "task_id": 12,
+      "frames": 624,
+      "start_frame": 0,
+      "stop_frame": 623,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "69caf59620fcd80bedcb664514730ab38f2f800da27000a8e037d7440be5dc7a",
+      "job_ids": [
+        12
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/12/jobs/12"
+      ]
+    },
+    {
+      "video": "X-16",
+      "task_id": 13,
+      "frames": 680,
+      "start_frame": 0,
+      "stop_frame": 679,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "3f516431cf37e3900b7eae857a7b09be258f485702ab56bc6e5b6129103f1fa5",
+      "job_ids": [
+        13
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/13/jobs/13"
+      ]
+    },
+    {
+      "video": "X-17",
+      "task_id": 14,
+      "frames": 442,
+      "start_frame": 0,
+      "stop_frame": 441,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "0378b8026b2e6afd1775a5d0fdd12dd09c491785b626e9c20428f7dc6bd59364",
+      "job_ids": [
+        14
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/14/jobs/14"
+      ]
+    },
+    {
+      "video": "X-18",
+      "task_id": 15,
+      "frames": 676,
+      "start_frame": 0,
+      "stop_frame": 675,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "90607b0b0cb772fcf29b0c7e0e56fa6af36da6fac0efe93b8a616b5de94a156c",
+      "job_ids": [
+        15
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/15/jobs/15"
+      ]
+    },
+    {
+      "video": "X-19",
+      "task_id": 16,
+      "frames": 1720,
+      "start_frame": 0,
+      "stop_frame": 1719,
+      "frame_filter": "step=1",
+      "subset": "val",
+      "duplicate_of": null,
+      "source_sha256": "16065504b21260bff18698c7bbf048ffa356c9de43d43b92643b6c2eddedac0f",
+      "job_ids": [
+        16
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/16/jobs/16"
+      ]
+    },
+    {
+      "video": "X-20",
+      "task_id": 17,
+      "frames": 349,
+      "start_frame": 0,
+      "stop_frame": 348,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "7e585e33517f7258bd2d1ed3e139556609bc997bb07b78355555060ef193b77a",
+      "job_ids": [
+        17
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/17/jobs/17"
+      ]
+    },
+    {
+      "video": "X-21",
+      "task_id": 18,
+      "frames": 585,
+      "start_frame": 0,
+      "stop_frame": 584,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "efd876a04224cac781ac64bf5d6e107ded67340b7b7715fd9ca3408b240a1075",
+      "job_ids": [
+        18
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/18/jobs/18"
+      ]
+    },
+    {
+      "video": "X-22",
+      "task_id": 19,
+      "frames": 628,
+      "start_frame": 0,
+      "stop_frame": 627,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "c9a30d44907e4a41b3a8ccf101774cd2e0804de20927bfbc9e1ccba1f2326b78",
+      "job_ids": [
+        19
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/19/jobs/19"
+      ]
+    },
+    {
+      "video": "X-23",
+      "task_id": 20,
+      "frames": 545,
+      "start_frame": 0,
+      "stop_frame": 544,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "b637677ef5a7f0fa54d9f116ce6493cf74a4c99b8149a9c9916b96ef257535bd",
+      "job_ids": [
+        20
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/20/jobs/20"
+      ]
+    },
+    {
+      "video": "X-24",
+      "task_id": 21,
+      "frames": 441,
+      "start_frame": 0,
+      "stop_frame": 440,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "c175a683749401d5a9ecf6f1c188b64fa8a09543f41482c1e4eb2232255715d3",
+      "job_ids": [
+        21
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/21/jobs/21"
+      ]
+    },
+    {
+      "video": "X-25",
+      "task_id": 22,
+      "frames": 950,
+      "start_frame": 0,
+      "stop_frame": 949,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "901f61cf1a1b8754dda56466308c19fc203a1a4c0e85d1e7827849d34e2d52f0",
+      "job_ids": [
+        22
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/22/jobs/22"
+      ]
+    },
+    {
+      "video": "X-26",
+      "task_id": 23,
+      "frames": 592,
+      "start_frame": 0,
+      "stop_frame": 591,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "e3a00b6e0f38b1d9b5498140f14906c71e204359262a90ce7a9974d64bf081e9",
+      "job_ids": [
+        23
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/23/jobs/23"
+      ]
+    },
+    {
+      "video": "X-27",
+      "task_id": 24,
+      "frames": 791,
+      "start_frame": 0,
+      "stop_frame": 790,
+      "frame_filter": "step=1",
+      "subset": "val",
+      "duplicate_of": null,
+      "source_sha256": "d3d21494d74e40a7586fe4f6164e515f6621a2d413538c4e15c67d394e85fc2d",
+      "job_ids": [
+        24
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/24/jobs/24"
+      ]
+    },
+    {
+      "video": "X-28",
+      "task_id": 25,
+      "frames": 492,
+      "start_frame": 0,
+      "stop_frame": 491,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "d15ef04bcfae571bd2d7fc4e4d709ba595ae19f44136a43e7277f17e7b6e5b6d",
+      "job_ids": [
+        25
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/25/jobs/25"
+      ]
+    },
+    {
+      "video": "X-29",
+      "task_id": 26,
+      "frames": 515,
+      "start_frame": 0,
+      "stop_frame": 514,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "b9bfb76ac8ea47eb368fc78a2f6370e4d98e79185972f63cf301ee22f12b5941",
+      "job_ids": [
+        26
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/26/jobs/26"
+      ]
+    },
+    {
+      "video": "X-30",
+      "task_id": 27,
+      "frames": 562,
+      "start_frame": 0,
+      "stop_frame": 561,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "05af66ce27b83d7c10c5d33b6f1847ec042c01ed21afdcbd43a13abcefd28199",
+      "job_ids": [
+        27
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/27/jobs/27"
+      ]
+    },
+    {
+      "video": "X-31",
+      "task_id": 28,
+      "frames": 711,
+      "start_frame": 0,
+      "stop_frame": 710,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "6a9fa7dd2e6db4cbe57f3c96a6cb256f23c04aa4e6fd44622fdf5de662cc0649",
+      "job_ids": [
+        28
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/28/jobs/28"
+      ]
+    },
+    {
+      "video": "X-32",
+      "task_id": 29,
+      "frames": 637,
+      "start_frame": 0,
+      "stop_frame": 636,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "bcc277cbf1a36245156b2bb9a0e0b826432390b42040c0b82201a8c21ab23ce9",
+      "job_ids": [
+        29
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/29/jobs/29"
+      ]
+    },
+    {
+      "video": "X-33",
+      "task_id": 30,
+      "frames": 430,
+      "start_frame": 0,
+      "stop_frame": 429,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "209e8aaca88df59064e5f28b3bcc489fee3eea9eb920889b69c03c83d52430c6",
+      "job_ids": [
+        30
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/30/jobs/30"
+      ]
+    },
+    {
+      "video": "X-34",
+      "task_id": 31,
+      "frames": 530,
+      "start_frame": 0,
+      "stop_frame": 529,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "f3e351bea71150f4e8c76e2c8f0656a4e92063319d7cd39e264078c5ba9139c3",
+      "job_ids": [
+        31
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/31/jobs/31"
+      ]
+    },
+    {
+      "video": "X-35",
+      "task_id": 32,
+      "frames": 1700,
+      "start_frame": 0,
+      "stop_frame": 1699,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "26430119e074d6f0eb5dbc7ec3e26bbc31cf18903265bb4372bd7d7104908640",
+      "job_ids": [
+        32
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/32/jobs/32"
+      ]
+    },
+    {
+      "video": "X-37",
+      "task_id": 33,
+      "frames": 473,
+      "start_frame": 0,
+      "stop_frame": 472,
+      "frame_filter": "step=1",
+      "subset": "val",
+      "duplicate_of": null,
+      "source_sha256": "ac4cf04844c0aa08a5e19f5f7fe984f1477943294922d6ef77bdc5b88b97160e",
+      "job_ids": [
+        33
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/33/jobs/33"
+      ]
+    },
+    {
+      "video": "X-38",
+      "task_id": 34,
+      "frames": 1767,
+      "start_frame": 0,
+      "stop_frame": 1766,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "5a6f6a13ef88191ec1d9a2a303f1be74d16aa3381a57aaadba8850aac715ff10",
+      "job_ids": [
+        34
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/34/jobs/34"
+      ]
+    },
+    {
+      "video": "X-39",
+      "task_id": 35,
+      "frames": 2359,
+      "start_frame": 0,
+      "stop_frame": 2358,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "deeeee54539fb894b17447296bd7f0807b9dc662bad9af4dcd27f4fbdd677187",
+      "job_ids": [
+        35
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/35/jobs/35"
+      ]
+    },
+    {
+      "video": "X-40",
+      "task_id": 36,
+      "frames": 755,
+      "start_frame": 0,
+      "stop_frame": 754,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "6a81739ced0efdcd4a4feb76ea16562a20ceb53a2232a801528716c450366c9f",
+      "job_ids": [
+        36
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/36/jobs/36"
+      ]
+    },
+    {
+      "video": "X-43",
+      "task_id": 37,
+      "frames": 699,
+      "start_frame": 0,
+      "stop_frame": 698,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "39e28d7be01cdb090ede1881ce3ef704fa413271deb69d6735c1953f340d6069",
+      "job_ids": [
+        37
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/37/jobs/37"
+      ]
+    },
+    {
+      "video": "X-44",
+      "task_id": 38,
+      "frames": 612,
+      "start_frame": 0,
+      "stop_frame": 611,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "9774ed882153af3ba1a7e71c9b9249619e2b3a97ae336aad6143369802ca3522",
+      "job_ids": [
+        38
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/38/jobs/38"
+      ]
+    },
+    {
+      "video": "X-45",
+      "task_id": 39,
+      "frames": 996,
+      "start_frame": 0,
+      "stop_frame": 995,
+      "frame_filter": "step=1",
+      "subset": "val",
+      "duplicate_of": null,
+      "source_sha256": "524bf9ff2d5e81211dbbeff73129dbb5f3a5e5e35a64f443f53e16b1c2d471c7",
+      "job_ids": [
+        39
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/39/jobs/39"
+      ]
+    },
+    {
+      "video": "X-46",
+      "task_id": 40,
+      "frames": 572,
+      "start_frame": 0,
+      "stop_frame": 571,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": null,
+      "source_sha256": "66fc5d28c2371592f9260305589bdc86636fdd2ebe7a7ec976eec00a23d43df4",
+      "job_ids": [
+        40
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/40/jobs/40"
+      ]
+    },
+    {
+      "video": "X-47",
+      "task_id": 41,
+      "frames": 2177,
+      "start_frame": 0,
+      "stop_frame": 2176,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": "X-4",
+      "source_sha256": "5385be9420e6a70547d6bcfd0b13d60f9c0738877645afa277d09550a96b8445",
+      "job_ids": [
+        41
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/41/jobs/41"
+      ]
+    },
+    {
+      "video": "X-48",
+      "task_id": 42,
+      "frames": 2145,
+      "start_frame": 0,
+      "stop_frame": 2144,
+      "frame_filter": "step=1",
+      "subset": "train",
+      "duplicate_of": "X-5",
+      "source_sha256": "1f5840bff58f298e89c4afa00cb1c18f6dafc5c4096c251d9b507604ebefe906",
+      "job_ids": [
+        42
+      ],
+      "job_urls": [
+        "http://localhost:48080/tasks/42/jobs/42"
+      ]
+    }
+  ],
+  "total_tasks": 42,
+  "total_frames": 43230
+}

@@ -1,0 +1,512 @@
+[
+  {
+    "file": "X-1_007000.jpg",
+    "gpu_sec": 1.1797874000003503,
+    "max_logit_error": 4.530332088470459,
+    "mean_logit_error": 0.7231592535972595,
+    "max_box_error": 0.9961204528808594,
+    "mean_box_error": 0.23211416602134705,
+    "cpu_detections": [
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.7798,
+        "box": [
+          170.23,
+          114.32,
+          270.2,
+          323.64
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.7684,
+        "box": [
+          115.29,
+          24.21,
+          213.22,
+          137.57
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.2979,
+        "box": [
+          46.67,
+          0.0,
+          130.61,
+          50.27
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "hand",
+        "query": "hand",
+        "score": 0.2857,
+        "box": [
+          173.31,
+          153.21,
+          191.23,
+          179.05
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "table",
+        "query": "desk",
+        "score": 0.2852,
+        "box": [
+          0.34,
+          121.66,
+          298.04,
+          323.72
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "phone",
+        "query": "smartphone",
+        "score": 0.2767,
+        "box": [
+          176.95,
+          134.06,
+          195.74,
+          151.79
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.2531,
+        "box": [
+          0.0,
+          0.02,
+          53.44,
+          48.12
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.2367,
+        "box": [
+          1.71,
+          0.0,
+          53.6,
+          22.24
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "hand",
+        "query": "hand",
+        "score": 0.2058,
+        "box": [
+          186.27,
+          141.34,
+          207.72,
+          163.84
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "hand",
+        "query": "hand",
+        "score": 0.2035,
+        "box": [
+          157.66,
+          115.17,
+          179.24,
+          133.13
+        ],
+        "source": "auto"
+      }
+    ],
+    "gpu_detections": [
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.7813,
+        "box": [
+          170.24,
+          114.41,
+          270.24,
+          323.62
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.7721,
+        "box": [
+          115.27,
+          24.18,
+          213.27,
+          137.59
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.2982,
+        "box": [
+          46.62,
+          0.0,
+          130.72,
+          50.28
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "table",
+        "query": "desk",
+        "score": 0.288,
+        "box": [
+          0.26,
+          121.82,
+          297.99,
+          323.57
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "hand",
+        "query": "hand",
+        "score": 0.2847,
+        "box": [
+          173.33,
+          153.23,
+          191.27,
+          179.07
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "phone",
+        "query": "smartphone",
+        "score": 0.2784,
+        "box": [
+          176.95,
+          134.08,
+          195.75,
+          151.84
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.25,
+        "box": [
+          0.0,
+          0.03,
+          53.43,
+          48.03
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.2342,
+        "box": [
+          1.78,
+          0.01,
+          53.54,
+          22.2
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "hand",
+        "query": "hand",
+        "score": 0.2062,
+        "box": [
+          157.65,
+          115.14,
+          179.25,
+          133.13
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "foreign_object",
+        "query": "handbag",
+        "score": 0.2056,
+        "box": [
+          186.27,
+          141.31,
+          207.78,
+          163.86
+        ],
+        "source": "auto"
+      }
+    ],
+    "matched_detections": [
+      {
+        "iou": 0.9989750115132785,
+        "score_error": 0.0014999999999999458,
+        "class_equal": true,
+        "cpu_score": 0.7798
+      },
+      {
+        "iou": 0.9988451509693018,
+        "score_error": 0.0037000000000000366,
+        "class_equal": true,
+        "cpu_score": 0.7684
+      },
+      {
+        "iou": 0.9978989951160544,
+        "score_error": 0.00030000000000002247,
+        "class_equal": true,
+        "cpu_score": 0.2979
+      },
+      {
+        "iou": 0.9951201909205922,
+        "score_error": 0.0010000000000000009,
+        "class_equal": true,
+        "cpu_score": 0.2857
+      },
+      {
+        "iou": 0.9980303194637035,
+        "score_error": 0.002799999999999969,
+        "class_equal": true,
+        "cpu_score": 0.2852
+      },
+      {
+        "iou": 0.9955337670426765,
+        "score_error": 0.0016999999999999793,
+        "class_equal": true,
+        "cpu_score": 0.2767
+      },
+      {
+        "iou": 0.9977342612073152,
+        "score_error": 0.0030999999999999917,
+        "class_equal": true,
+        "cpu_score": 0.2531
+      },
+      {
+        "iou": 0.9952521313070952,
+        "score_error": 0.0025000000000000022,
+        "class_equal": true,
+        "cpu_score": 0.2367
+      },
+      {
+        "iou": 0.9949994897438508,
+        "score_error": 0.00020000000000000573,
+        "class_equal": false,
+        "cpu_score": 0.2058
+      },
+      {
+        "iou": 0.997408025034485,
+        "score_error": 0.002700000000000008,
+        "class_equal": true,
+        "cpu_score": 0.2035
+      }
+    ],
+    "parity_pass": true
+  },
+  {
+    "file": "X-35_010033.jpg",
+    "gpu_sec": 0.44240179999997054,
+    "max_logit_error": 5.010734558105469,
+    "mean_logit_error": 0.7376322746276855,
+    "max_box_error": 0.997893214225769,
+    "mean_box_error": 0.23836778104305267,
+    "cpu_detections": [
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.8013,
+        "box": [
+          168.79,
+          0.0,
+          246.05,
+          101.84
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.7322,
+        "box": [
+          171.28,
+          94.26,
+          276.86,
+          293.75
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "table",
+        "query": "desk",
+        "score": 0.2682,
+        "box": [
+          67.97,
+          93.94,
+          336.45,
+          274.09
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "table",
+        "query": "desk",
+        "score": 0.246,
+        "box": [
+          309.2,
+          168.42,
+          443.89,
+          302.73
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "foreign_object",
+        "query": "jacket",
+        "score": 0.2249,
+        "box": [
+          153.78,
+          213.74,
+          298.21,
+          316.06
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "hand",
+        "query": "hand",
+        "score": 0.2096,
+        "box": [
+          182.29,
+          136.47,
+          202.41,
+          162.75
+        ],
+        "source": "auto"
+      }
+    ],
+    "gpu_detections": [
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.8014,
+        "box": [
+          168.79,
+          0.01,
+          246.02,
+          101.88
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "person",
+        "query": "person",
+        "score": 0.7378,
+        "box": [
+          171.31,
+          94.27,
+          276.9,
+          293.9
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "table",
+        "query": "desk",
+        "score": 0.2669,
+        "box": [
+          68.16,
+          94.02,
+          336.32,
+          274.22
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "table",
+        "query": "desk",
+        "score": 0.2455,
+        "box": [
+          309.01,
+          168.3,
+          443.77,
+          302.64
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "foreign_object",
+        "query": "jacket",
+        "score": 0.226,
+        "box": [
+          153.77,
+          213.65,
+          298.08,
+          316.0
+        ],
+        "source": "auto"
+      },
+      {
+        "label": "hand",
+        "query": "hand",
+        "score": 0.209,
+        "box": [
+          182.3,
+          136.45,
+          202.45,
+          162.78
+        ],
+        "source": "auto"
+      }
+    ],
+    "matched_detections": [
+      {
+        "iou": 0.9991212701783133,
+        "score_error": 9.999999999998899e-05,
+        "class_equal": true,
+        "cpu_score": 0.8013
+      },
+      {
+        "iou": 0.998536567337454,
+        "score_error": 0.005600000000000049,
+        "class_equal": true,
+        "cpu_score": 0.7322
+      },
+      {
+        "iou": 0.9976454960533807,
+        "score_error": 0.0012999999999999678,
+        "class_equal": true,
+        "cpu_score": 0.2682
+      },
+      {
+        "iou": 0.9961448303540871,
+        "score_error": 0.0005000000000000004,
+        "class_equal": true,
+        "cpu_score": 0.246
+      },
+      {
+        "iou": 0.9975682878741101,
+        "score_error": 0.0011000000000000176,
+        "class_equal": true,
+        "cpu_score": 0.2249
+      },
+      {
+        "iou": 0.9956265143064686,
+        "score_error": 0.0006000000000000172,
+        "class_equal": true,
+        "cpu_score": 0.2096
+      }
+    ],
+    "parity_pass": true
+  }
+]

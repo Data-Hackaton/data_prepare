@@ -183,7 +183,10 @@ def check_video(where: str, instances: list[list[dict]], video_invariants: list[
         on_desk: list[tuple[int, float]] = []  # (экземпляр, когда положили) для предметов objects
         for t, k, a in timeline:
             if any(selector_matches(trig, a) for trig in inv["triggers"]):
-                stale = [(k0, t0) for k0, t0 in on_desk if k0 < k or inv.get("any_instance")]
+                # min_age_sec — сколько предмет должен пролежать до триггера: деньги, положенные за секунду до
+                # прихода клиента, принёс он сам (X-39)
+                stale = [(k0, t0) for k0, t0 in on_desk
+                         if (k0 < k or inv.get("any_instance")) and t - t0 >= inv.get("min_age_sec", 0)]
                 if stale:
                     whose = "" if inv.get("any_instance") else " предыдущего клиента"
                     message = (f"{a['action']} на {t} с, а на месте «{target}» {'/'.join(objects)}{whose} "

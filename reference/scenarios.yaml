@@ -60,7 +60,8 @@ scenarios:
       - {title: Пересчёт наличных после ухода клиента, kind: forbidden_after, after: {action: person_leave, actor: client}, action: {action: put, object: banknotes, target: cash_machine}, norm: n231_p20, why: деньги пересчитываются в присутствии клиента (X-34)}
       - {title: Пересчёт наличных после ухода клиента, kind: forbidden_after, after: {action: person_leave, actor: client}, action: count_by_hand, norm: n231_p20, why: деньги пересчитываются в присутствии клиента}
       - {title: Личные вещи на кассовом столе, kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, why: личные вещи хранятся вне кассового узла}
-      - {title: Телефон кассира при обслуживании клиента, kind: forbidden, action: phone_call, norm: null, severity: violation, why: при клиенте кассир не пользуется личным телефоном (X-2; в X-14 телефон без клиента — норма)}
+      # предупреждение, не нарушение: детектор путает телефон у лица с удостоверением, поднятым к глазам (X-5)
+      - {title: Телефон кассира при обслуживании клиента, kind: forbidden, action: phone_call, norm: null, severity: warning, why: при клиенте кассир не пользуется личным телефоном (X-2; в X-14 телефон без клиента — норма)}
       - {title: Постороннее лицо у кассы во время обслуживания, kind: forbidden, action: {action: person_enter, actor: visitor}, norm: null, severity: violation, why: пока обслуживается клиент, у кассы нет других посетителей (X-18)}
       - {title: Кассир ушёл до окончания обслуживания, kind: before, first: {action: person_leave, actor: client}, then: {action: person_leave, actor: cashier}, norm: n231_p22, why: кассир не покидает рабочее место, пока клиент не обслужен}
 
@@ -126,6 +127,7 @@ video_invariants:
   - kind: desk_carryover
     title: Деньги предыдущего клиента на кассовом столе
     object: banknotes
+    min_age_sec: 3  # положенное за секунды до прихода клиента — его же деньги (X-39)
     triggers:
       - {action: person_enter, actor: client}
       - {action: give, actor: client, object: banknotes}

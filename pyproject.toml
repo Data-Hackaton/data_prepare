@@ -1,0 +1,23 @@
+[project]
+name = "data-prepare"
+version = "0.1.0"
+description = "Подготовка датасета Datathon 26: распаковка, имена, дубли, разметка, CVAT"
+authors = [
+    { name = "Nik", email = "byluginnikita@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openpyxl>=3.1.5",
+]
+
+[project.scripts]
+prepare = "data_prepare.prepare:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

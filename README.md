@@ -100,6 +100,20 @@ Feature store (`data/features/`, ключ — sha256 видео):
 
 `source=reference_r0` — эталон, снятый человеком. Действия, распознанные моделью, лягут рядом с другим `source`, и их можно сравнивать с эталоном построчно.
 
+## Предразметка целых видео для CVAT
+
+`data/cvat/prelabels-video-yolo.zip` содержит по файлу `X-n.xml` на каждое из 42 видео (копии X-47 и X-48 тоже). Формат «CVAT for video 1.1»: предсказания YOLO26s (4 кадра/с) в виде треков с ключевыми кадрами, номера кадров исходные (30 кадров/с).
+- Люди — треки с ролью (`cashier`, `client`, `unknown`).
+- Остальные классы связаны по классу и перекрытию.
+
+Импорт:
+1. Создать задачу в CVAT из того же `X-n.mov`: шаг кадров 1, начальный кадр 0, метки из `cvat/labels.json`.
+2. Actions → Upload annotations → «CVAT 1.1» → `X-n.xml`.
+
+Разметчик правит, а не рисует с нуля. Самые слабые классы детектора — `banknotes`, `id_card`, `phone`, `bag`.
+
+Пересборка: `docker compose --profile tools run --rm cv python -m cv.export_cvat --detector yolo` (из `infra`, нужен кэш L1 `cv.infer`).
+
 ## Кадры для детектора и CVAT
 
 ```sh

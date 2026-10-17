@@ -100,6 +100,17 @@ Feature store (`data/features/`, ключ — sha256 видео):
 
 `source=reference_r0` — эталон, снятый человеком. Действия, распознанные моделью, лягут рядом с другим `source`, и их можно сравнивать с эталоном построчно.
 
+## Процедуры как конечные автоматы
+
+L3 (`src/data_prepare/sop_fsm.py`) — автоматы `transitions` по шаблонам `reference/scenarios.yaml`:
+- **процедура** — указатель по шагам: переход вперёд на первый подходящий шаг, «не по порядку», «вне шаблона»;
+- **инварианты** — `Forbidden`, `ForbiddenAfter`, `Before`, `MaxDuration`;
+- **на видео** — `DeskCarryover`.
+
+`reference-actions` и сервис работают на них. Старые `check_instance`/`check_video` в `reference_actions.py` — эталон для `tests/test_sop_fsm.py`: на всех журналах результат одинаковый.
+
+Схемы процедур, экземпляров и сцены — [`docs/procedures.md`](docs/procedures.md), mermaid. Генерирует `computer-vision`: `python -m decision.fsm --diagrams`.
+
 ## Предразметка целых видео для CVAT
 
 `data/cvat/prelabels-video-yolo.zip` содержит по файлу `X-n.xml` на каждое из 42 видео (копии X-47 и X-48 тоже). Формат «CVAT for video 1.1»: предсказания YOLO26s (4 кадра/с) в виде треков с ключевыми кадрами, номера кадров исходные (30 кадров/с).

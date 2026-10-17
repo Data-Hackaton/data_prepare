@@ -94,6 +94,7 @@ def selector_matches(sel, a: dict) -> bool:
     return all(a.get(k) == v for k, v in sel.items())
 
 
+# Эталон для tests/test_sop_fsm.py. Проверка журналов и сервис работают на автоматах (sop_fsm): тот же результат.
 def check_instance(where: str, scenario: dict, actions: list[dict], errors: list, warnings: list,
                    safe_durations: list, hits: list | None = None, partial: bool = False) -> list[int | None]:
     """Возвращает номер шага шаблона для каждого действия (None — вне шаблона).
@@ -204,6 +205,8 @@ def check_video(where: str, instances: list[list[dict]], video_invariants: list[
 
 
 def main() -> None:
+    from data_prepare.sop_fsm import check_instance_fsm, check_video_fsm  # sop_fsm импортирует этот модуль
+
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--data", type=Path, default=Path(os.environ.get("DATA_DIR", "/data")))
     ap.add_argument("--reference", type=Path, default=Path(os.environ.get("REFERENCE_DIR", "/app/reference")))
@@ -258,7 +261,7 @@ def main() -> None:
                 if max(a["t"], a.get("t_end", a["t"])) > duration + 1:
                     errors.append(f"{where}: {a['action']} на {a['t']} с за пределами видео ({duration:.1f} с)")
             first_hit = len(hits)
-            steps = check_instance(where, scenarios[name], actions, check_errors, check_warnings,
+            steps = check_instance_fsm(where, scenarios[name], actions, check_errors, check_warnings,
                                    safe_durations if verdict == "no_violation" else [], hits, inst.get("partial", False))
             for h in hits[first_hit:]:
                 h.update(instance=idx, scenario=name)
@@ -274,7 +277,7 @@ def main() -> None:
                     "action": a["action"], "actor": a.get("actor"), "object": a.get("object"),
                     "target": a.get("target"), "certain": a.get("certain", True), "source": SOURCE,
                 })
-        check_video(video, instance_actions, spec.get("video_invariants", []), check_errors, hits)
+        check_video_fsm(video, instance_actions, spec.get("video_invariants", []), check_errors, hits)
         for e in (events := build_events(video, instances, hits)):
             e.update(sha256=label["sha256"], scene=entry.get("scene"), source=SOURCE)
         return rows, events, hits

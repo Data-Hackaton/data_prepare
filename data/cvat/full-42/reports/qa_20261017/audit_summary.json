@@ -1,0 +1,806 @@
+{
+  "updated_at": "2026-10-17T15:20:19.652319+00:00",
+  "videos_audited": 42,
+  "frames_audited": 43230,
+  "visual_review_complete": false,
+  "errors": [],
+  "per_video": [
+    {
+      "video": "X-1",
+      "started_at": "2026-10-17T15:17:15.679203+00:00",
+      "source_sha256": "8911a9219b9433091824e553a70bb80335f075fd8ac982d2062d2ecf023c16bc",
+      "expected_frames": 776,
+      "decoded_frames": 776,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:17:18.760816+00:00",
+      "flags": {
+        "held_without_motion_evidence": 118,
+        "center_jump": 4,
+        "unknown_state": 58,
+        "area_jump": 10,
+        "brief_track": 1,
+        "possible_duplicate": 1
+      },
+      "frame_report_sha256": "2f96853a317c201ffc64be8ab57011d46bc19b36c01df791dcda5f599f1de4de"
+    },
+    {
+      "video": "X-2",
+      "started_at": "2026-10-17T15:17:18.796597+00:00",
+      "source_sha256": "9932ae0a10d3b9371bf52ea558dc19092fcf47adcd275a73a52a56b95464bca6",
+      "expected_frames": 510,
+      "decoded_frames": 510,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:17:20.803113+00:00",
+      "flags": {
+        "held_without_motion_evidence": 16,
+        "unknown_state": 58,
+        "area_jump": 7,
+        "center_jump": 5
+      },
+      "frame_report_sha256": "1e75f8979d20794297695505529c85d3784d230107fe8039635539797e512af6"
+    },
+    {
+      "video": "X-3",
+      "started_at": "2026-10-17T15:17:20.879495+00:00",
+      "source_sha256": "21468fcef4ea5f45ce7d465e620f84e09c8b50314f4ecdc06f69224c701b3a5b",
+      "expected_frames": 599,
+      "decoded_frames": 599,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:17:23.281357+00:00",
+      "flags": {
+        "held_without_motion_evidence": 115,
+        "center_jump": 4,
+        "unknown_state": 58,
+        "area_jump": 10,
+        "brief_track": 3,
+        "possible_duplicate": 10
+      },
+      "frame_report_sha256": "244eb3d6d298bff8a95f5840d06e4f49c031fcda9ee4fe0ca9153d51b55a56ce"
+    },
+    {
+      "video": "X-4",
+      "started_at": "2026-10-17T15:17:23.398918+00:00",
+      "source_sha256": "5385be9420e6a70547d6bcfd0b13d60f9c0738877645afa277d09550a96b8445",
+      "expected_frames": 2177,
+      "decoded_frames": 2177,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:17:31.763205+00:00",
+      "flags": {
+        "area_jump": 53,
+        "unknown_state": 116,
+        "held_without_motion_evidence": 48,
+        "possible_duplicate": 53,
+        "center_jump": 18,
+        "brief_track": 5
+      },
+      "frame_report_sha256": "79334c09845291583ba831fe195b809aef72a345186692c80ec8fb7786fc233c"
+    },
+    {
+      "video": "X-5",
+      "started_at": "2026-10-17T15:17:31.926656+00:00",
+      "source_sha256": "1f5840bff58f298e89c4afa00cb1c18f6dafc5c4096c251d9b507604ebefe906",
+      "expected_frames": 2145,
+      "decoded_frames": 2145,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:17:40.783621+00:00",
+      "flags": {
+        "held_without_motion_evidence": 58,
+        "possible_duplicate": 48,
+        "unknown_state": 233,
+        "area_jump": 46,
+        "center_jump": 6,
+        "brief_track": 2
+      },
+      "frame_report_sha256": "457141afd1f00f925c6f6c1acc0f2d1524d0a88cb87bc8bbcee1aea7a2599e34"
+    },
+    {
+      "video": "X-8",
+      "started_at": "2026-10-17T15:17:40.848607+00:00",
+      "source_sha256": "6a53e10acdcf52396ad5b1697eead32d8322c0911d792523a5c33fe5b388f4e7",
+      "expected_frames": 1140,
+      "decoded_frames": 1140,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:17:45.753938+00:00",
+      "flags": {
+        "unknown_state": 1144,
+        "area_jump": 18,
+        "possible_duplicate": 139,
+        "center_jump": 8,
+        "brief_track": 3,
+        "held_without_motion_evidence": 8
+      },
+      "frame_report_sha256": "6b4934a0bd9577a52576fd77903609e7e5e9727dd4ad6588343eac01ff65af3c"
+    },
+    {
+      "video": "X-10",
+      "started_at": "2026-10-17T15:17:45.792047+00:00",
+      "source_sha256": "57a0e46c7a45f0e831f61d9c80722fefe4b74dbcfe1d3031ff58307d481f9a5c",
+      "expected_frames": 467,
+      "decoded_frames": 467,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:17:47.794511+00:00",
+      "flags": {
+        "unknown_state": 467,
+        "area_jump": 1,
+        "held_without_motion_evidence": 2
+      },
+      "frame_report_sha256": "ad1ac13ce57e88ae089336994adc4bf457491942432be45c958c47d5d4378ba3"
+    },
+    {
+      "video": "X-11",
+      "started_at": "2026-10-17T15:17:47.826813+00:00",
+      "source_sha256": "b3a954a5b761ad47943e061599315e3fe9d22573eeb92bb14bf315cdcd422fc5",
+      "expected_frames": 765,
+      "decoded_frames": 765,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:17:50.715647+00:00",
+      "flags": {
+        "area_jump": 10,
+        "possible_duplicate": 36,
+        "center_jump": 6,
+        "unknown_state": 336,
+        "held_without_motion_evidence": 16
+      },
+      "frame_report_sha256": "28f68d792d000b98f669973ad3fcf6f291ad942262dd874b8cef6217856216b3"
+    },
+    {
+      "video": "X-12",
+      "started_at": "2026-10-17T15:17:50.766551+00:00",
+      "source_sha256": "955755baf54418b48ea645dcd98e7e8dcca1d1e227e9b286a9427062db304fd4",
+      "expected_frames": 1267,
+      "decoded_frames": 1267,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:17:56.607755+00:00",
+      "flags": {
+        "unknown_state": 419,
+        "area_jump": 21,
+        "held_without_motion_evidence": 13,
+        "large_hand_box": 10,
+        "possible_duplicate": 20,
+        "center_jump": 15
+      },
+      "frame_report_sha256": "7bba789f369768ae3fc14548b0cb3e3eb05aa9ae247c14851d073644e9500de9"
+    },
+    {
+      "video": "X-13",
+      "started_at": "2026-10-17T15:17:56.764655+00:00",
+      "source_sha256": "a37930cf119bb691be77d8624b18333b04d9c67066a7f4627d63e3208dfa6057",
+      "expected_frames": 1956,
+      "decoded_frames": 1956,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:18:05.333047+00:00",
+      "flags": {
+        "unknown_state": 2072,
+        "center_jump": 19,
+        "area_jump": 13,
+        "possible_duplicate": 92,
+        "held_without_motion_evidence": 16
+      },
+      "frame_report_sha256": "2b6b4ab15a7b5b9c2ca9f08c2fcc3a314525c642a985e7a1040b94a733d99d83"
+    },
+    {
+      "video": "X-14",
+      "started_at": "2026-10-17T15:18:05.588107+00:00",
+      "source_sha256": "7d6890ecb4a2b28bbdd3b61b6711566eee84a53ab3439c40cd9b6a3a6714c681",
+      "expected_frames": 4273,
+      "decoded_frames": 4273,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:18:24.582638+00:00",
+      "flags": {
+        "unknown_state": 3988,
+        "area_jump": 51,
+        "possible_duplicate": 286,
+        "center_jump": 13,
+        "held_without_motion_evidence": 5
+      },
+      "frame_report_sha256": "cdb556933654592c0a238043c2837a8c44caa9dd43935b8cdcc21f765f9c0ad2"
+    },
+    {
+      "video": "X-15",
+      "started_at": "2026-10-17T15:18:24.652811+00:00",
+      "source_sha256": "69caf59620fcd80bedcb664514730ab38f2f800da27000a8e037d7440be5dc7a",
+      "expected_frames": 624,
+      "decoded_frames": 624,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:18:27.490976+00:00",
+      "flags": {
+        "unknown_state": 680,
+        "area_jump": 8,
+        "possible_duplicate": 34,
+        "center_jump": 3,
+        "held_without_motion_evidence": 1,
+        "brief_track": 1
+      },
+      "frame_report_sha256": "c7d068cdb579b5f4816858a6fd2118bd4d75dd905cf79eaa6d1f426932e942b2"
+    },
+    {
+      "video": "X-16",
+      "started_at": "2026-10-17T15:18:27.540430+00:00",
+      "source_sha256": "3f516431cf37e3900b7eae857a7b09be258f485702ab56bc6e5b6129103f1fa5",
+      "expected_frames": 680,
+      "decoded_frames": 680,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:18:30.859856+00:00",
+      "flags": {
+        "unknown_state": 738,
+        "held_without_motion_evidence": 4,
+        "center_jump": 2,
+        "area_jump": 10,
+        "brief_track": 3
+      },
+      "frame_report_sha256": "3e474d0291345107c4982f25ec7ffe2951c1fda29e6efd8f19512cef0aa3734d"
+    },
+    {
+      "video": "X-17",
+      "started_at": "2026-10-17T15:18:30.930307+00:00",
+      "source_sha256": "0378b8026b2e6afd1775a5d0fdd12dd09c491785b626e9c20428f7dc6bd59364",
+      "expected_frames": 442,
+      "decoded_frames": 442,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:18:33.057501+00:00",
+      "flags": {
+        "unknown_state": 558,
+        "center_jump": 7,
+        "area_jump": 13,
+        "held_without_motion_evidence": 2
+      },
+      "frame_report_sha256": "f17af2f341e1547344ee517743f35a99409da447c66009da86d561a2a55a5ed6"
+    },
+    {
+      "video": "X-18",
+      "started_at": "2026-10-17T15:18:33.094317+00:00",
+      "source_sha256": "90607b0b0cb772fcf29b0c7e0e56fa6af36da6fac0efe93b8a616b5de94a156c",
+      "expected_frames": 676,
+      "decoded_frames": 676,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:18:35.836092+00:00",
+      "flags": {
+        "unknown_state": 792,
+        "held_without_motion_evidence": 108,
+        "area_jump": 9,
+        "center_jump": 12
+      },
+      "frame_report_sha256": "725bb0be76c6e7afe8c139d16aa5981cf9addee8fcc1c869225f6d9a8a7f711a"
+    },
+    {
+      "video": "X-19",
+      "started_at": "2026-10-17T15:18:35.915974+00:00",
+      "source_sha256": "16065504b21260bff18698c7bbf048ffa356c9de43d43b92643b6c2eddedac0f",
+      "expected_frames": 1720,
+      "decoded_frames": 1720,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:18:42.758962+00:00",
+      "flags": {
+        "unknown_state": 1009,
+        "center_jump": 17,
+        "area_jump": 34,
+        "held_without_motion_evidence": 562,
+        "possible_duplicate": 150,
+        "brief_track": 1
+      },
+      "frame_report_sha256": "1b2cf7954b7dac4064c5b73ff2c4ff3e25edea5f293b1c897473b17d17911f78"
+    },
+    {
+      "video": "X-20",
+      "started_at": "2026-10-17T15:18:42.841863+00:00",
+      "source_sha256": "7e585e33517f7258bd2d1ed3e139556609bc997bb07b78355555060ef193b77a",
+      "expected_frames": 349,
+      "decoded_frames": 349,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:18:44.187861+00:00",
+      "flags": {
+        "unknown_state": 378,
+        "area_jump": 10,
+        "possible_duplicate": 29,
+        "center_jump": 3
+      },
+      "frame_report_sha256": "cf9908a51bf3d8becdea5b24f5fedc1e0fb6388e38baee65406102c74e8c4aac"
+    },
+    {
+      "video": "X-21",
+      "started_at": "2026-10-17T15:18:44.216388+00:00",
+      "source_sha256": "efd876a04224cac781ac64bf5d6e107ded67340b7b7715fd9ca3408b240a1075",
+      "expected_frames": 585,
+      "decoded_frames": 585,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:18:46.498259+00:00",
+      "flags": {
+        "unknown_state": 643,
+        "center_jump": 6,
+        "area_jump": 15,
+        "held_without_motion_evidence": 7
+      },
+      "frame_report_sha256": "ebe42079202908ccc57e98052a5f308cf96b11905e39137d8ac65b9ed6f7b20c"
+    },
+    {
+      "video": "X-22",
+      "started_at": "2026-10-17T15:18:46.531080+00:00",
+      "source_sha256": "c9a30d44907e4a41b3a8ccf101774cd2e0804de20927bfbc9e1ccba1f2326b78",
+      "expected_frames": 628,
+      "decoded_frames": 628,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:18:49.080078+00:00",
+      "flags": {
+        "area_jump": 7,
+        "possible_duplicate": 60,
+        "unknown_state": 535,
+        "center_jump": 5
+      },
+      "frame_report_sha256": "c675b47b5ae9df0196ba59c54dcd77a85b9e1452e526e47d77c36497c8f2bf54"
+    },
+    {
+      "video": "X-23",
+      "started_at": "2026-10-17T15:18:49.112236+00:00",
+      "source_sha256": "b637677ef5a7f0fa54d9f116ce6493cf74a4c99b8149a9c9916b96ef257535bd",
+      "expected_frames": 545,
+      "decoded_frames": 545,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:18:51.584628+00:00",
+      "flags": {
+        "unknown_state": 87,
+        "center_jump": 5,
+        "area_jump": 9,
+        "held_without_motion_evidence": 4,
+        "possible_duplicate": 20
+      },
+      "frame_report_sha256": "6b1152898d25908adf69a6c60f12ca8546b2fb28a4e354b194070b28aba5fd55"
+    },
+    {
+      "video": "X-24",
+      "started_at": "2026-10-17T15:18:51.618371+00:00",
+      "source_sha256": "c175a683749401d5a9ecf6f1c188b64fa8a09543f41482c1e4eb2232255715d3",
+      "expected_frames": 441,
+      "decoded_frames": 441,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:18:53.716710+00:00",
+      "flags": {
+        "unknown_state": 499,
+        "held_without_motion_evidence": 1,
+        "area_jump": 8,
+        "center_jump": 3,
+        "possible_duplicate": 20
+      },
+      "frame_report_sha256": "a7121dcaed3d991f1a2d329d55da80e04c373ed02e2049aa00ea5e3f82bede9a"
+    },
+    {
+      "video": "X-25",
+      "started_at": "2026-10-17T15:18:53.801521+00:00",
+      "source_sha256": "901f61cf1a1b8754dda56466308c19fc203a1a4c0e85d1e7827849d34e2d52f0",
+      "expected_frames": 950,
+      "decoded_frames": 950,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:18:58.002530+00:00",
+      "flags": {
+        "unknown_state": 1124,
+        "center_jump": 9,
+        "area_jump": 18,
+        "held_without_motion_evidence": 13,
+        "possible_duplicate": 11
+      },
+      "frame_report_sha256": "7b5bdc138456de9e2185b43575e3517b0163ba456f633da6d13494ee3063382c"
+    },
+    {
+      "video": "X-26",
+      "started_at": "2026-10-17T15:18:58.060608+00:00",
+      "source_sha256": "e3a00b6e0f38b1d9b5498140f14906c71e204359262a90ce7a9974d64bf081e9",
+      "expected_frames": 592,
+      "decoded_frames": 592,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:19:00.470989+00:00",
+      "flags": {
+        "unknown_state": 650,
+        "area_jump": 10,
+        "possible_duplicate": 21,
+        "center_jump": 3,
+        "held_without_motion_evidence": 2
+      },
+      "frame_report_sha256": "907edfcfe5f39d29f9043a56dd2cbd1f46d749f8599f11b7f26833a34cea14e0"
+    },
+    {
+      "video": "X-27",
+      "started_at": "2026-10-17T15:19:00.505686+00:00",
+      "source_sha256": "d3d21494d74e40a7586fe4f6164e515f6621a2d413538c4e15c67d394e85fc2d",
+      "expected_frames": 791,
+      "decoded_frames": 791,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:19:03.960918+00:00",
+      "flags": {
+        "unknown_state": 907,
+        "area_jump": 12,
+        "center_jump": 4,
+        "possible_duplicate": 28,
+        "held_without_motion_evidence": 9
+      },
+      "frame_report_sha256": "27de365b3b262834843831c3e976535c00e2ee816d75e1111e851423b6dbd2f3"
+    },
+    {
+      "video": "X-28",
+      "started_at": "2026-10-17T15:19:04.034158+00:00",
+      "source_sha256": "d15ef04bcfae571bd2d7fc4e4d709ba595ae19f44136a43e7277f17e7b6e5b6d",
+      "expected_frames": 492,
+      "decoded_frames": 492,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:19:06.099424+00:00",
+      "flags": {
+        "center_jump": 4,
+        "area_jump": 9,
+        "unknown_state": 58,
+        "held_without_motion_evidence": 3,
+        "possible_duplicate": 59
+      },
+      "frame_report_sha256": "915775716480063f2873d7840d141ff2cd3123780480b5f355298eadef2df533"
+    },
+    {
+      "video": "X-29",
+      "started_at": "2026-10-17T15:19:06.133574+00:00",
+      "source_sha256": "b9bfb76ac8ea47eb368fc78a2f6370e4d98e79185972f63cf301ee22f12b5941",
+      "expected_frames": 515,
+      "decoded_frames": 515,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:19:08.130388+00:00",
+      "flags": {
+        "area_jump": 12,
+        "possible_duplicate": 20,
+        "unknown_state": 117,
+        "center_jump": 3,
+        "held_without_motion_evidence": 5
+      },
+      "frame_report_sha256": "10c52c042f14fa970c15d3fc155b2cb5857fcfb7eca7ac06f30750cd37bd514d"
+    },
+    {
+      "video": "X-30",
+      "started_at": "2026-10-17T15:19:08.171519+00:00",
+      "source_sha256": "05af66ce27b83d7c10c5d33b6f1847ec042c01ed21afdcbd43a13abcefd28199",
+      "expected_frames": 562,
+      "decoded_frames": 562,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:19:10.416110+00:00",
+      "flags": {
+        "held_without_motion_evidence": 10,
+        "center_jump": 7,
+        "area_jump": 10,
+        "possible_duplicate": 20,
+        "unknown_state": 5
+      },
+      "frame_report_sha256": "bdd4b3a126ef72caac3ab6d1de80fa7e7ed719837001095b3275d1587e6b9ac3"
+    },
+    {
+      "video": "X-31",
+      "started_at": "2026-10-17T15:19:10.492615+00:00",
+      "source_sha256": "6a9fa7dd2e6db4cbe57f3c96a6cb256f23c04aa4e6fd44622fdf5de662cc0649",
+      "expected_frames": 711,
+      "decoded_frames": 711,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:19:13.320540+00:00",
+      "flags": {
+        "area_jump": 14,
+        "center_jump": 6,
+        "unknown_state": 10,
+        "possible_duplicate": 40,
+        "brief_track": 1
+      },
+      "frame_report_sha256": "c56bcff692129a7b6f2ad783a2a460431755b2c52703ca1932c14fa68708c568"
+    },
+    {
+      "video": "X-32",
+      "started_at": "2026-10-17T15:19:13.400307+00:00",
+      "source_sha256": "bcc277cbf1a36245156b2bb9a0e0b826432390b42040c0b82201a8c21ab23ce9",
+      "expected_frames": 637,
+      "decoded_frames": 637,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:19:15.858519+00:00",
+      "flags": {
+        "center_jump": 11,
+        "area_jump": 10,
+        "possible_duplicate": 40,
+        "unknown_state": 5,
+        "held_without_motion_evidence": 2
+      },
+      "frame_report_sha256": "cf0c34c94348a5d1829f3bd001fadfecd40b841a52ef4d24179fc3a29c53419e"
+    },
+    {
+      "video": "X-33",
+      "started_at": "2026-10-17T15:19:15.887580+00:00",
+      "source_sha256": "209e8aaca88df59064e5f28b3bcc489fee3eea9eb920889b69c03c83d52430c6",
+      "expected_frames": 430,
+      "decoded_frames": 430,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:19:17.509250+00:00",
+      "flags": {
+        "unknown_state": 435,
+        "held_without_motion_evidence": 10,
+        "center_jump": 7,
+        "area_jump": 10
+      },
+      "frame_report_sha256": "8ae5d9024875050e93bb7cffc1ee0d04eeeda994d760a3b0c44e3f801e1cb2a1"
+    },
+    {
+      "video": "X-34",
+      "started_at": "2026-10-17T15:19:17.541390+00:00",
+      "source_sha256": "f3e351bea71150f4e8c76e2c8f0656a4e92063319d7cd39e264078c5ba9139c3",
+      "expected_frames": 530,
+      "decoded_frames": 530,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:19:19.743879+00:00",
+      "flags": {
+        "unknown_state": 546,
+        "held_without_motion_evidence": 17,
+        "area_jump": 5,
+        "center_jump": 3
+      },
+      "frame_report_sha256": "2d7eb93410bcc8c1529f67a47225363b2017398276e665daeff07a06484316f0"
+    },
+    {
+      "video": "X-35",
+      "started_at": "2026-10-17T15:19:19.847635+00:00",
+      "source_sha256": "26430119e074d6f0eb5dbc7ec3e26bbc31cf18903265bb4372bd7d7104908640",
+      "expected_frames": 1700,
+      "decoded_frames": 1700,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:19:26.401930+00:00",
+      "flags": {
+        "unknown_state": 1724,
+        "held_without_motion_evidence": 17,
+        "area_jump": 30,
+        "center_jump": 10,
+        "possible_duplicate": 47
+      },
+      "frame_report_sha256": "f173a0a53af4cd4cbc37bde6c314bc653bac35129683533be9949b73985cab22"
+    },
+    {
+      "video": "X-37",
+      "started_at": "2026-10-17T15:19:26.441634+00:00",
+      "source_sha256": "ac4cf04844c0aa08a5e19f5f7fe984f1477943294922d6ef77bdc5b88b97160e",
+      "expected_frames": 473,
+      "decoded_frames": 473,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:19:28.218520+00:00",
+      "flags": {
+        "unknown_state": 480,
+        "center_jump": 2,
+        "area_jump": 8,
+        "held_without_motion_evidence": 6
+      },
+      "frame_report_sha256": "5130104e71ab98379d39ad7cdc8002a3c3cc25b60671dc7c778bc7a809486cf1"
+    },
+    {
+      "video": "X-38",
+      "started_at": "2026-10-17T15:19:28.294392+00:00",
+      "source_sha256": "5a6f6a13ef88191ec1d9a2a303f1be74d16aa3381a57aaadba8850aac715ff10",
+      "expected_frames": 1767,
+      "decoded_frames": 1767,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:19:35.251038+00:00",
+      "flags": {
+        "unknown_state": 1804,
+        "center_jump": 10,
+        "possible_duplicate": 82,
+        "held_without_motion_evidence": 38,
+        "area_jump": 44,
+        "brief_track": 8
+      },
+      "frame_report_sha256": "5513e9b91cb28b18bd1f0bedae0b6f1845ec94542dae3d644acf883f410b4e50"
+    },
+    {
+      "video": "X-39",
+      "started_at": "2026-10-17T15:19:35.341523+00:00",
+      "source_sha256": "deeeee54539fb894b17447296bd7f0807b9dc662bad9af4dcd27f4fbdd677187",
+      "expected_frames": 2359,
+      "decoded_frames": 2359,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:19:44.831418+00:00",
+      "flags": {
+        "unknown_state": 2413,
+        "area_jump": 51,
+        "possible_duplicate": 101,
+        "center_jump": 16,
+        "brief_track": 5,
+        "held_without_motion_evidence": 54
+      },
+      "frame_report_sha256": "ea41fcf3695de5bba384e1e5b75476068e92e6d01ee50a59157ea96ffd37a476"
+    },
+    {
+      "video": "X-40",
+      "started_at": "2026-10-17T15:19:44.881796+00:00",
+      "source_sha256": "6a81739ced0efdcd4a4feb76ea16562a20ceb53a2232a801528716c450366c9f",
+      "expected_frames": 755,
+      "decoded_frames": 755,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:19:47.711983+00:00",
+      "flags": {
+        "unknown_state": 765,
+        "area_jump": 19,
+        "center_jump": 11,
+        "possible_duplicate": 25,
+        "brief_track": 3,
+        "held_without_motion_evidence": 3
+      },
+      "frame_report_sha256": "849587a7fbbf2493db76f2da57b7b8e3a554af90710ebe602a2f9f78ba56930d"
+    },
+    {
+      "video": "X-43",
+      "started_at": "2026-10-17T15:19:47.749035+00:00",
+      "source_sha256": "39e28d7be01cdb090ede1881ce3ef704fa413271deb69d6735c1953f340d6069",
+      "expected_frames": 699,
+      "decoded_frames": 699,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:19:50.459584+00:00",
+      "flags": {
+        "unknown_state": 699,
+        "center_jump": 3,
+        "area_jump": 10,
+        "possible_duplicate": 15
+      },
+      "frame_report_sha256": "4f18039b8a818f3858593724fa12f15005bedf51e8587df0a8ab49fe5973674f"
+    },
+    {
+      "video": "X-44",
+      "started_at": "2026-10-17T15:19:50.493376+00:00",
+      "source_sha256": "9774ed882153af3ba1a7e71c9b9249619e2b3a97ae336aad6143369802ca3522",
+      "expected_frames": 612,
+      "decoded_frames": 612,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:19:53.350365+00:00",
+      "flags": {
+        "unknown_state": 612,
+        "center_jump": 13,
+        "area_jump": 14,
+        "possible_duplicate": 20
+      },
+      "frame_report_sha256": "03889f57a09589b7fa34377532ca99640c9899f59278bc8b80a0647199835d2d"
+    },
+    {
+      "video": "X-45",
+      "started_at": "2026-10-17T15:19:53.399557+00:00",
+      "source_sha256": "524bf9ff2d5e81211dbbeff73129dbb5f3a5e5e35a64f443f53e16b1c2d471c7",
+      "expected_frames": 996,
+      "decoded_frames": 996,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:19:57.691479+00:00",
+      "flags": {
+        "unknown_state": 996,
+        "area_jump": 20,
+        "possible_duplicate": 31,
+        "center_jump": 6
+      },
+      "frame_report_sha256": "d9a21006398fb8cfe7df436558b68453b994c29a5e071acc1b6e944976267b06"
+    },
+    {
+      "video": "X-46",
+      "started_at": "2026-10-17T15:19:57.726415+00:00",
+      "source_sha256": "66fc5d28c2371592f9260305589bdc86636fdd2ebe7a7ec976eec00a23d43df4",
+      "expected_frames": 572,
+      "decoded_frames": 572,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:20:00.202994+00:00",
+      "flags": {
+        "unknown_state": 572,
+        "possible_duplicate": 45,
+        "area_jump": 18,
+        "center_jump": 1,
+        "held_without_motion_evidence": 1
+      },
+      "frame_report_sha256": "3e89cf3ba0dcc7ceb1a9137e48c596772b5abca93da801c3c2a8bf22ae15c5d5"
+    },
+    {
+      "video": "X-47",
+      "started_at": "2026-10-17T15:20:00.307424+00:00",
+      "source_sha256": "5385be9420e6a70547d6bcfd0b13d60f9c0738877645afa277d09550a96b8445",
+      "expected_frames": 2177,
+      "decoded_frames": 2177,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:20:09.805685+00:00",
+      "flags": {
+        "area_jump": 53,
+        "unknown_state": 116,
+        "held_without_motion_evidence": 48,
+        "possible_duplicate": 53,
+        "center_jump": 18,
+        "brief_track": 5
+      },
+      "frame_report_sha256": "18b937250683af9d1f1f38f289de36079bfb1dd8adb298bd27e0e5c96397b088"
+    },
+    {
+      "video": "X-48",
+      "started_at": "2026-10-17T15:20:09.904558+00:00",
+      "source_sha256": "1f5840bff58f298e89c4afa00cb1c18f6dafc5c4096c251d9b507604ebefe906",
+      "expected_frames": 2145,
+      "decoded_frames": 2145,
+      "errors": [],
+      "visually_reviewed_frames": 0,
+      "review_method": "programmatic_full_frame_audit",
+      "completed_at": "2026-10-17T15:20:19.619922+00:00",
+      "flags": {
+        "held_without_motion_evidence": 58,
+        "possible_duplicate": 48,
+        "unknown_state": 233,
+        "area_jump": 46,
+        "center_jump": 6,
+        "brief_track": 2
+      },
+      "frame_report_sha256": "57c9745a7ceb23a615cadaf6be3e10f8783ae9ccc6a1140fcf62dbc2c77b9b3b"
+    }
+  ]
+}

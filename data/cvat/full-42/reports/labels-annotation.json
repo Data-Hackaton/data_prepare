@@ -220,5 +220,29 @@
     "project_id": 1,
     "parent_id": null,
     "has_parent": false
+  },
+  {
+    "name": "ignore_zone",
+    "id": 14,
+    "color": "#000075",
+    "attributes": [
+      {
+        "name": "kind",
+        "mutable": true,
+        "input_type": "select",
+        "values": [
+          "glass",
+          "window",
+          "other"
+        ],
+        "id": 7,
+        "default_value": "glass"
+      }
+    ],
+    "type": "rectangle",
+    "sublabels": [],
+    "project_id": 1,
+    "parent_id": null,
+    "has_parent": false
   }
 ]

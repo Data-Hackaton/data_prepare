@@ -12,6 +12,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 from deduplicate_people import deduplicate_people
+from review_corrections import apply as apply_review_corrections
 
 ROOT=Path(__file__).resolve().parent
 DATA=ROOT.parent/'data'
@@ -189,6 +190,20 @@ def assemble(name,manual_index=None):
     scene=[densify(t,times) for t in manual['tracks']]
     dynamic,stats=make_dynamic(auto,manual,scene,len(times))
     tracks=scene+dynamic
+    corrections_path=ROOT/'manual/dense_corrections.json'
+    corrections=json.loads(corrections_path.read_text(encoding='utf-8')) if corrections_path.exists() else {}
+    if source in corrections.get('videos',{}):
+        tracks,review_stats=apply_review_corrections(tracks,corrections['videos'][source],times)
+        stats['visual_corrections']=review_stats
+    zones_path=ROOT/'manual/glass_zones.json'
+    zones=json.loads(zones_path.read_text(encoding='utf-8')) if zones_path.exists() else {}
+    if source in zones.get('videos',{}):
+        zone=zones['videos'][source]
+        tracks.append({'label':'ignore_zone','attributes':{'kind':'glass'},'origin':'reviewed_glass_region',
+            'samples':[{'frame':f,'box':zone['box'],'outside':False,'occluded':False,
+                        'attributes':{'kind':'glass'},
+                        'method':'reviewed_keyframe' if f in zone['evidence_frames'] else 'static_scene_region'}
+                       for f in range(len(times))]})
     coverage=set();counts=Counter();unknown=Counter()
     for track in tracks:
         frames=[s['frame'] for s in track['samples']]
@@ -212,6 +227,8 @@ def assemble(name,manual_index=None):
     OUT.mkdir(exist_ok=True)
     reflection_path=ROOT/'manual/reflection_overrides.json'
     if reflection_path.exists():result['provenance']['reflection_metadata_sha256']=digest(reflection_path)
+    if corrections_path.exists():result['provenance']['dense_corrections_sha256']=digest(corrections_path)
+    if zones_path.exists():result['provenance']['glass_zones_sha256']=digest(zones_path)
     target=OUT/f'{name}.json'
     target.write_text(json.dumps(result,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
     print(json.dumps({'assembled':name,'frames':len(times),'tracks':len(tracks),'shapes':sum(counts.values()),'quality':stats}),flush=True)

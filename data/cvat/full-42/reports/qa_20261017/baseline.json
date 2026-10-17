@@ -1,0 +1,427 @@
+{
+  "created_at": "2026-10-17T15:16:06.733455+00:00",
+  "tasks": [
+    {
+      "video": "X-1",
+      "task_id": 1,
+      "tracks": 61,
+      "own_tracks": 61,
+      "published_baseline_matches_live": true,
+      "source_sha256": "8911a9219b9433091824e553a70bb80335f075fd8ac982d2062d2ecf023c16bc",
+      "assembled_sha256": "26b6bb852b24fefe69d9b2d478c2d07018326e17ed98ab25ff87af943a905e9c",
+      "snapshot_sha256": "66507febd2c8dc60262c6b0a27b77e5855277808b71a7cb4fedbbdd578adda87"
+    },
+    {
+      "video": "X-2",
+      "task_id": 2,
+      "tracks": 36,
+      "own_tracks": 36,
+      "published_baseline_matches_live": true,
+      "source_sha256": "9932ae0a10d3b9371bf52ea558dc19092fcf47adcd275a73a52a56b95464bca6",
+      "assembled_sha256": "6c775efecec4b79340b838db3d96a46a2af89149edfe5f16c7f12d5ab098e5bf",
+      "snapshot_sha256": "d638181c9d128a98f0f1ed78d213624ca05bd7e034e3927ccbe5db9bd50ea930"
+    },
+    {
+      "video": "X-3",
+      "task_id": 3,
+      "tracks": 53,
+      "own_tracks": 53,
+      "published_baseline_matches_live": true,
+      "source_sha256": "21468fcef4ea5f45ce7d465e620f84e09c8b50314f4ecdc06f69224c701b3a5b",
+      "assembled_sha256": "72ff6648b26e4ce1fd554dc6f98d346f14d4c63fdfa35c6c28a04d06680d7869",
+      "snapshot_sha256": "f9919bbe75ebab266af540a77898b66d3c1c797a0e027bf43e1137197d97f7ad"
+    },
+    {
+      "video": "X-4",
+      "task_id": 4,
+      "tracks": 109,
+      "own_tracks": 109,
+      "published_baseline_matches_live": true,
+      "source_sha256": "5385be9420e6a70547d6bcfd0b13d60f9c0738877645afa277d09550a96b8445",
+      "assembled_sha256": "a898eee79c22bbf52568c71adc9e930a292365c99ebf14478189bbd0c9aa024b",
+      "snapshot_sha256": "95990c9aa48d73d94b1ee0b5898949ca3ef30648b6cd7ad91453510967f8f016"
+    },
+    {
+      "video": "X-5",
+      "task_id": 5,
+      "tracks": 136,
+      "own_tracks": 136,
+      "published_baseline_matches_live": true,
+      "source_sha256": "1f5840bff58f298e89c4afa00cb1c18f6dafc5c4096c251d9b507604ebefe906",
+      "assembled_sha256": "83b0abc7f9d0cf328b9223627ec818eee7ca36db983f11ec869066b088ef0e2d",
+      "snapshot_sha256": "cd1e449a092306ef22fadc0f2085b3716ad09633698856f3ee46f7846c04132f"
+    },
+    {
+      "video": "X-8",
+      "task_id": 6,
+      "tracks": 42,
+      "own_tracks": 42,
+      "published_baseline_matches_live": true,
+      "source_sha256": "6a53e10acdcf52396ad5b1697eead32d8322c0911d792523a5c33fe5b388f4e7",
+      "assembled_sha256": "c4d07ce3a019bc7d8ec9c1f18f8e5a7f1eaf52f167ffeb6240db045b0c75eebd",
+      "snapshot_sha256": "7d157adf18ae864a3be649a2eff4ef3ed941b6828e2437b41311303d5855358a"
+    },
+    {
+      "video": "X-10",
+      "task_id": 7,
+      "tracks": 19,
+      "own_tracks": 19,
+      "published_baseline_matches_live": true,
+      "source_sha256": "57a0e46c7a45f0e831f61d9c80722fefe4b74dbcfe1d3031ff58307d481f9a5c",
+      "assembled_sha256": "9d96bc58c7e7521e50f8bc60c0f7aa9234c1b9bdb2b6c52bd8b3a71ce6f50b46",
+      "snapshot_sha256": "8cdfe48c492fa8c0eaf68beb7d0cc120326672897ea34ab58b24b681759e66fd"
+    },
+    {
+      "video": "X-11",
+      "task_id": 8,
+      "tracks": 27,
+      "own_tracks": 27,
+      "published_baseline_matches_live": true,
+      "source_sha256": "b3a954a5b761ad47943e061599315e3fe9d22573eeb92bb14bf315cdcd422fc5",
+      "assembled_sha256": "72d945725201f3fd26d522a12b1b826c723cf5144d48293b3aef06c584b900b0",
+      "snapshot_sha256": "546e948049a10ad5daca8e01de02ccc2498ab6a2423479fbb51a08b9106ae33a"
+    },
+    {
+      "video": "X-12",
+      "task_id": 9,
+      "tracks": 41,
+      "own_tracks": 41,
+      "published_baseline_matches_live": true,
+      "source_sha256": "955755baf54418b48ea645dcd98e7e8dcca1d1e227e9b286a9427062db304fd4",
+      "assembled_sha256": "306176bcd27550b163fb86266246263b6964748889edd124e72253dc4be1df36",
+      "snapshot_sha256": "c0b1ce138c440938ce4427aa3594345ceca249567470f8b634bd41c15c02af63"
+    },
+    {
+      "video": "X-13",
+      "task_id": 10,
+      "tracks": 96,
+      "own_tracks": 96,
+      "published_baseline_matches_live": true,
+      "source_sha256": "a37930cf119bb691be77d8624b18333b04d9c67066a7f4627d63e3208dfa6057",
+      "assembled_sha256": "0d9d6865be04d0df56a6fa6f84b0d2fb5a25f58bb5907885c22443b54e8d2fef",
+      "snapshot_sha256": "8d81dfc721f7d7eecdbf32d144b65e655cf47e47ca6c81161dd4f35bedfeddeb"
+    },
+    {
+      "video": "X-14",
+      "task_id": 11,
+      "tracks": 134,
+      "own_tracks": 134,
+      "published_baseline_matches_live": true,
+      "source_sha256": "7d6890ecb4a2b28bbdd3b61b6711566eee84a53ab3439c40cd9b6a3a6714c681",
+      "assembled_sha256": "9021b83a02efd05c386115ed8b38f938c0f04d81e4052aa7f5f8aec6de3dbd18",
+      "snapshot_sha256": "e4f4b91369be60a35d36ef6c32af8d4fc0268968179262426c67e6bd321c3f34"
+    },
+    {
+      "video": "X-15",
+      "task_id": 12,
+      "tracks": 40,
+      "own_tracks": 40,
+      "published_baseline_matches_live": true,
+      "source_sha256": "69caf59620fcd80bedcb664514730ab38f2f800da27000a8e037d7440be5dc7a",
+      "assembled_sha256": "5b6f281c3bdff500286294448c08bc31840523016c20403215807c920718e3c5",
+      "snapshot_sha256": "0dc5a984fc4542db05ecfc215babffb275dc77c1d5f4cb14fcbadd9b91e79ff4"
+    },
+    {
+      "video": "X-16",
+      "task_id": 13,
+      "tracks": 34,
+      "own_tracks": 34,
+      "published_baseline_matches_live": true,
+      "source_sha256": "3f516431cf37e3900b7eae857a7b09be258f485702ab56bc6e5b6129103f1fa5",
+      "assembled_sha256": "dce259b0510052ac498b303c9ebe2a82cfcff9df5152c11fa4f2ed69c0fb4681",
+      "snapshot_sha256": "369fd00c539d771bc6665324f4fcde56769002d8edd0f974c05bc21db294bb6c"
+    },
+    {
+      "video": "X-17",
+      "task_id": 14,
+      "tracks": 31,
+      "own_tracks": 31,
+      "published_baseline_matches_live": true,
+      "source_sha256": "0378b8026b2e6afd1775a5d0fdd12dd09c491785b626e9c20428f7dc6bd59364",
+      "assembled_sha256": "2fccdadd0bd14520398d7e9e7dbfeba9d04496253c440aa0dd76fd4648a20c17",
+      "snapshot_sha256": "a197bce5187aef5421b631c86282d8749968488e3d17922e0750e8fc406c4e1a"
+    },
+    {
+      "video": "X-18",
+      "task_id": 15,
+      "tracks": 53,
+      "own_tracks": 53,
+      "published_baseline_matches_live": true,
+      "source_sha256": "90607b0b0cb772fcf29b0c7e0e56fa6af36da6fac0efe93b8a616b5de94a156c",
+      "assembled_sha256": "48626c73eb1aaeff59f4e2ab3166bccd40be8520e05868cc477ad3c1c2ae7a8c",
+      "snapshot_sha256": "b3f1177b699f4048afab791c45f60658c0181d028b4b9516fd247435e40a409a"
+    },
+    {
+      "video": "X-19",
+      "task_id": 16,
+      "tracks": 105,
+      "own_tracks": 105,
+      "published_baseline_matches_live": true,
+      "source_sha256": "16065504b21260bff18698c7bbf048ffa356c9de43d43b92643b6c2eddedac0f",
+      "assembled_sha256": "76b5537b3765e5004df031c23691cdf3a2247168749dbc031b42658fe730f4a0",
+      "snapshot_sha256": "1cbbcbf29d03ebfbc62ae776a9e6388e26295898018c0d52975ddbd8a35c8692"
+    },
+    {
+      "video": "X-20",
+      "task_id": 17,
+      "tracks": 23,
+      "own_tracks": 23,
+      "published_baseline_matches_live": true,
+      "source_sha256": "7e585e33517f7258bd2d1ed3e139556609bc997bb07b78355555060ef193b77a",
+      "assembled_sha256": "08fd9b29be13b5929939faf7a8d3ac37eb56f29d2abdc4b3c95eb8c1366ade1c",
+      "snapshot_sha256": "f0cc5cdf2f116d006e64b1aca6e1202d14f9dc5d2e23e64f87871a15788f74e4"
+    },
+    {
+      "video": "X-21",
+      "task_id": 18,
+      "tracks": 24,
+      "own_tracks": 24,
+      "published_baseline_matches_live": true,
+      "source_sha256": "efd876a04224cac781ac64bf5d6e107ded67340b7b7715fd9ca3408b240a1075",
+      "assembled_sha256": "ad96c0735ae2f64452abd4e7bb5022d9b49f003f2d22906539925d55e4184c5d",
+      "snapshot_sha256": "0dd99109c8e19ad9a6a2d6348e395ed29af3b71a40d0caca17923e1542fda5d3"
+    },
+    {
+      "video": "X-22",
+      "task_id": 19,
+      "tracks": 23,
+      "own_tracks": 23,
+      "published_baseline_matches_live": true,
+      "source_sha256": "c9a30d44907e4a41b3a8ccf101774cd2e0804de20927bfbc9e1ccba1f2326b78",
+      "assembled_sha256": "ba8ed7116b046721697c8ad876120fad0b74b559b73163cd25dfda336f6e38b2",
+      "snapshot_sha256": "b0ae66bee000b81e634a0dfe49842a9b35eb1b4656823b7bd85a649b70459782"
+    },
+    {
+      "video": "X-23",
+      "task_id": 20,
+      "tracks": 20,
+      "own_tracks": 20,
+      "published_baseline_matches_live": true,
+      "source_sha256": "b637677ef5a7f0fa54d9f116ce6493cf74a4c99b8149a9c9916b96ef257535bd",
+      "assembled_sha256": "417d8377477b75ec314c4db164de7052e65850df5ed8e39c4fddca79c7f53606",
+      "snapshot_sha256": "3ad265e18e4de7b762ae16b6916b4e0475d2589e441b8d84839ab932e9864330"
+    },
+    {
+      "video": "X-24",
+      "task_id": 21,
+      "tracks": 25,
+      "own_tracks": 25,
+      "published_baseline_matches_live": true,
+      "source_sha256": "c175a683749401d5a9ecf6f1c188b64fa8a09543f41482c1e4eb2232255715d3",
+      "assembled_sha256": "d4d2a570ae924ba0ae398c8d1e603525a0c181756487df52f4949dcb779b3ed1",
+      "snapshot_sha256": "2046f7eca27bc62eb6bc77c5aa5c2140f2acd5a2ab44510fcfbd09c4bbb97d81"
+    },
+    {
+      "video": "X-25",
+      "task_id": 22,
+      "tracks": 35,
+      "own_tracks": 35,
+      "published_baseline_matches_live": true,
+      "source_sha256": "901f61cf1a1b8754dda56466308c19fc203a1a4c0e85d1e7827849d34e2d52f0",
+      "assembled_sha256": "ce197171863fac1d82f296a90ecbbbf7906f0b78e1975bb575ffea7cc72d29b8",
+      "snapshot_sha256": "f1826ac88b9ebe9239da4c248c0a1fc8d2fc147128e520ddffb233fce51a948d"
+    },
+    {
+      "video": "X-26",
+      "task_id": 23,
+      "tracks": 25,
+      "own_tracks": 25,
+      "published_baseline_matches_live": true,
+      "source_sha256": "e3a00b6e0f38b1d9b5498140f14906c71e204359262a90ce7a9974d64bf081e9",
+      "assembled_sha256": "4bf04ac7c29dcbbc1f000161c99372ffff00184232e768fa4694e84fe826ec83",
+      "snapshot_sha256": "ac08455bb02c513947c2c520a4eaf681abf2751dff093746e60bd90a3f727788"
+    },
+    {
+      "video": "X-27",
+      "task_id": 24,
+      "tracks": 26,
+      "own_tracks": 26,
+      "published_baseline_matches_live": true,
+      "source_sha256": "d3d21494d74e40a7586fe4f6164e515f6621a2d413538c4e15c67d394e85fc2d",
+      "assembled_sha256": "9309d5bdb357c3a2e637e9956e7a2ed1063727d8b0aed64d0a771cc914b2671c",
+      "snapshot_sha256": "f8477d9244cd906d60036ea05222c6f587a6c6e8df0633427686e9d26f39ca64"
+    },
+    {
+      "video": "X-28",
+      "task_id": 25,
+      "tracks": 28,
+      "own_tracks": 28,
+      "published_baseline_matches_live": true,
+      "source_sha256": "d15ef04bcfae571bd2d7fc4e4d709ba595ae19f44136a43e7277f17e7b6e5b6d",
+      "assembled_sha256": "617d8892caacde5e6d20fb929b832e2c9d906f6382c943f261f806c59ff378eb",
+      "snapshot_sha256": "9a671c76c8bfd3351db1c5bcfc8c6fcaabe228502894b7f43c884437497fe32b"
+    },
+    {
+      "video": "X-29",
+      "task_id": 26,
+      "tracks": 26,
+      "own_tracks": 26,
+      "published_baseline_matches_live": true,
+      "source_sha256": "b9bfb76ac8ea47eb368fc78a2f6370e4d98e79185972f63cf301ee22f12b5941",
+      "assembled_sha256": "5d830265f6d65efef60a90ca2b61c946dcf638cffccf7a7d6aa1e42f5a6b716a",
+      "snapshot_sha256": "e92b63057318876148eaf2207fda0b2d89d0c3319661735cd6d352730a0bddf1"
+    },
+    {
+      "video": "X-30",
+      "task_id": 27,
+      "tracks": 39,
+      "own_tracks": 39,
+      "published_baseline_matches_live": true,
+      "source_sha256": "05af66ce27b83d7c10c5d33b6f1847ec042c01ed21afdcbd43a13abcefd28199",
+      "assembled_sha256": "48e9aeb08933de5c36b4e624d72b74df5918135501c39029b0c19245f11f4174",
+      "snapshot_sha256": "d3e038db293de3ef2d28b509a6f17ed423025f88b5eed8884eb5471cf313af2d"
+    },
+    {
+      "video": "X-31",
+      "task_id": 28,
+      "tracks": 47,
+      "own_tracks": 47,
+      "published_baseline_matches_live": true,
+      "source_sha256": "6a9fa7dd2e6db4cbe57f3c96a6cb256f23c04aa4e6fd44622fdf5de662cc0649",
+      "assembled_sha256": "1e1f7f4cde4b2c006d723acde5f202c91332a711bd9cd7ab0c03ec2533c76418",
+      "snapshot_sha256": "cf50923ed3fe9edef745983ca18a76ea97386f502e3afc92fde3ded46dace0c0"
+    },
+    {
+      "video": "X-32",
+      "task_id": 29,
+      "tracks": 44,
+      "own_tracks": 44,
+      "published_baseline_matches_live": true,
+      "source_sha256": "bcc277cbf1a36245156b2bb9a0e0b826432390b42040c0b82201a8c21ab23ce9",
+      "assembled_sha256": "a47ede3b228f4c2edc80b3559f1f7814ff6d8459098e743632ef7acaf825c7a3",
+      "snapshot_sha256": "73fc05eff8f268daee8cd61259ee2309d8be3bba194ce066745513394fc335d6"
+    },
+    {
+      "video": "X-33",
+      "task_id": 30,
+      "tracks": 31,
+      "own_tracks": 31,
+      "published_baseline_matches_live": true,
+      "source_sha256": "209e8aaca88df59064e5f28b3bcc489fee3eea9eb920889b69c03c83d52430c6",
+      "assembled_sha256": "457865b652d79c53646ca79daacf4c827226fce8ed1b875777fb5605987d02f1",
+      "snapshot_sha256": "3e99cc887ecf69aafc5ebf8eaf9ce6333e71bfd8944c297146f15d98d7f924a8"
+    },
+    {
+      "video": "X-34",
+      "task_id": 31,
+      "tracks": 45,
+      "own_tracks": 45,
+      "published_baseline_matches_live": true,
+      "source_sha256": "f3e351bea71150f4e8c76e2c8f0656a4e92063319d7cd39e264078c5ba9139c3",
+      "assembled_sha256": "a35e17fb1671ae5d158ebc6c30dd7b532deb623962c622314a755577feff47a2",
+      "snapshot_sha256": "67a3faa5d1a21c0c2f06f86647eb4d5b26e0bfe6abf075181c9733f64839856c"
+    },
+    {
+      "video": "X-35",
+      "task_id": 32,
+      "tracks": 95,
+      "own_tracks": 95,
+      "published_baseline_matches_live": true,
+      "source_sha256": "26430119e074d6f0eb5dbc7ec3e26bbc31cf18903265bb4372bd7d7104908640",
+      "assembled_sha256": "718f1b2917bf4ec48372c374972bc829be68c98122e3e322435a4934c8523ed9",
+      "snapshot_sha256": "81d56f50ec1253aa14cd54ae4c6e21d99c4bc4c8aeea668a62579fe2c3771cbd"
+    },
+    {
+      "video": "X-37",
+      "task_id": 33,
+      "tracks": 40,
+      "own_tracks": 40,
+      "published_baseline_matches_live": true,
+      "source_sha256": "ac4cf04844c0aa08a5e19f5f7fe984f1477943294922d6ef77bdc5b88b97160e",
+      "assembled_sha256": "889b3071590675889dbfef99055e900fa824ac2a41c9b80fa860e477583c3e0e",
+      "snapshot_sha256": "a13deef881f28bf8ae496aee2569bee6818537b943c519faa612777f79848ec9"
+    },
+    {
+      "video": "X-38",
+      "task_id": 34,
+      "tracks": 158,
+      "own_tracks": 158,
+      "published_baseline_matches_live": true,
+      "source_sha256": "5a6f6a13ef88191ec1d9a2a303f1be74d16aa3381a57aaadba8850aac715ff10",
+      "assembled_sha256": "2e57d69ca4d04e73bfc37f11e1f89efafce9e1ed0164dc8a01d0bd6133c027a3",
+      "snapshot_sha256": "2f56c051853c3b9a826e4e0c758500f9bf0f3acd4ef8214248603e3082e37d84"
+    },
+    {
+      "video": "X-39",
+      "task_id": 35,
+      "tracks": 155,
+      "own_tracks": 155,
+      "published_baseline_matches_live": true,
+      "source_sha256": "deeeee54539fb894b17447296bd7f0807b9dc662bad9af4dcd27f4fbdd677187",
+      "assembled_sha256": "dab284545f01d943f21f584769701a0782db8b74152da30b8bfe46f12506df30",
+      "snapshot_sha256": "43a6ae657f07d66ac78efa07b8f2e0a1cf21b04ea725206d5415a9da8f868ff4"
+    },
+    {
+      "video": "X-40",
+      "task_id": 36,
+      "tracks": 58,
+      "own_tracks": 58,
+      "published_baseline_matches_live": true,
+      "source_sha256": "6a81739ced0efdcd4a4feb76ea16562a20ceb53a2232a801528716c450366c9f",
+      "assembled_sha256": "eb1c4015b18444ad65810da32f23783d9ef5fbdfa2e516b82b56d19d689ca330",
+      "snapshot_sha256": "250f474ce760705e6f013135823d2449c9af8eada53734c0494b9f95f9dc44f2"
+    },
+    {
+      "video": "X-43",
+      "task_id": 37,
+      "tracks": 37,
+      "own_tracks": 37,
+      "published_baseline_matches_live": true,
+      "source_sha256": "39e28d7be01cdb090ede1881ce3ef704fa413271deb69d6735c1953f340d6069",
+      "assembled_sha256": "36951e8973455c2bc8e1c293eed109fae878111d833b8b6c0d7f1cc94ae24aaa",
+      "snapshot_sha256": "cb36a62f25290bd6619832fe8a4d8236eda57eb3c7740f5ee4d2e05e824b154f"
+    },
+    {
+      "video": "X-44",
+      "task_id": 38,
+      "tracks": 24,
+      "own_tracks": 24,
+      "published_baseline_matches_live": true,
+      "source_sha256": "9774ed882153af3ba1a7e71c9b9249619e2b3a97ae336aad6143369802ca3522",
+      "assembled_sha256": "0c6764bb15d71fb18c31256c8f6082c829654fd0159c96f02eee69ea334c9a7c",
+      "snapshot_sha256": "51e8cbdfcb0684484d624292033edf87d9c2c86eadbff80038c2cdc8a5d6f259"
+    },
+    {
+      "video": "X-45",
+      "task_id": 39,
+      "tracks": 35,
+      "own_tracks": 35,
+      "published_baseline_matches_live": true,
+      "source_sha256": "524bf9ff2d5e81211dbbeff73129dbb5f3a5e5e35a64f443f53e16b1c2d471c7",
+      "assembled_sha256": "d9d3d3dfd0422fa685e0e344bb2db1648ff8a90b6b7b419f6d6d5c2cd91078e7",
+      "snapshot_sha256": "fff7764ad4a6baed3599d701a4e903c6a15d7b7520530639b9ee2706d820dc33"
+    },
+    {
+      "video": "X-46",
+      "task_id": 40,
+      "tracks": 29,
+      "own_tracks": 29,
+      "published_baseline_matches_live": true,
+      "source_sha256": "66fc5d28c2371592f9260305589bdc86636fdd2ebe7a7ec976eec00a23d43df4",
+      "assembled_sha256": "26b3b89d48610d6044e92018672438c5e259be72041881482ddfa0548d3044be",
+      "snapshot_sha256": "8b324a3abbd7401c6db6f6c04efedbdf275f6d5a7d6110a0a4275978ecc74e4e"
+    },
+    {
+      "video": "X-47",
+      "task_id": 41,
+      "tracks": 109,
+      "own_tracks": 109,
+      "published_baseline_matches_live": true,
+      "source_sha256": "5385be9420e6a70547d6bcfd0b13d60f9c0738877645afa277d09550a96b8445",
+      "assembled_sha256": "f819e72b44cdaa08c42603bef1d9d83495428e5d5c38db57fd31040d25be69c1",
+      "snapshot_sha256": "5801a1489a4fbf5e586b70c4c869f8f2e6d018fce9264b2128befeb481b26340"
+    },
+    {
+      "video": "X-48",
+      "task_id": 42,
+      "tracks": 136,
+      "own_tracks": 136,
+      "published_baseline_matches_live": true,
+      "source_sha256": "1f5840bff58f298e89c4afa00cb1c18f6dafc5c4096c251d9b507604ebefe906",
+      "assembled_sha256": "f694ec40fe557f660b9effe44a7d2fe6b463f71be384dd3a989e13b059d7e7cc",
+      "snapshot_sha256": "47843b35b4ee84af766798038c9c619415dccdd0344a8ab729df2fb4c0dbc94a"
+    }
+  ],
+  "errors": [],
+  "completed_at": "2026-10-17T15:19:08.745677+00:00"
+}

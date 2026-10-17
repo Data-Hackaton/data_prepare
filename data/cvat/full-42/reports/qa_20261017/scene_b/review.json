@@ -1,0 +1,949 @@
+{
+  "scope": "X-15..X-27",
+  "visual_complete": false,
+  "videos": {
+    "X-20": {
+      "frame_count": 349,
+      "assembled_sha256": "08fd9b29be13b5929939faf7a8d3ac37eb56f29d2abdc4b3c95eb8c1366ade1c",
+      "visual_reviewed_intervals": [
+        [
+          0,
+          348
+        ]
+      ],
+      "remaining_intervals": [],
+      "viewed_sheets": [
+        "00000-00039.jpg",
+        "00040-00079.jpg",
+        "00080-00119.jpg",
+        "00120-00159.jpg",
+        "00160-00199.jpg",
+        "00200-00239.jpg",
+        "00240-00279.jpg",
+        "00280-00319.jpg",
+        "00320-00348.jpg"
+      ],
+      "viewed_probes": [
+        "X-20.body285-348.jpg",
+        "X-20.crop145-179-s1-170-310-1.jpg",
+        "X-20.crop230-280-s2-145-330-0.jpg",
+        "X-20.f00110.jpg",
+        "X-20.f00160.jpg",
+        "X-20.f00195.jpg",
+        "X-20.f00300.jpg",
+        "X-20.f00320.jpg",
+        "X-20.f00348.jpg",
+        "X-20.lowerbody.jpg",
+        "X-20.notes271-290.jpg",
+        "X-20.notes291-310.jpg"
+      ],
+      "complete": false,
+      "method": "Consecutive full-image frames with dynamic and small-object boxes at 232x424 per frame. Fine geometry needs native-resolution probes.",
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ],
+      "visual_reviewed_frame_count": 349,
+      "continuation_resolutions": [
+        "Native145..179 confirms two adjacent real hands18/20; retain both.",
+        "Exposed banknotes248..270 restored; earlier covered edge omitted.",
+        "Existing banknote outside281..297 preserved."
+      ],
+      "source_frame_screening_complete": true,
+      "known_limits": [
+        "Moving bounds use timestamp interpolation between inspected native keys. Pixel-exact independent measurement of every object on every frame is not claimed."
+      ],
+      "pre_continuation_unresolved": [
+        "Small hand-box separation around150-170 and possible earlier banknote visibility need native review.",
+        "All349 frames visually screened, fine geometry review is not exhaustive."
+      ]
+    },
+    "X-21": {
+      "frame_count": 585,
+      "assembled_sha256": "ad96c0735ae2f64452abd4e7bb5022d9b49f003f2d22906539925d55e4184c5d",
+      "visual_reviewed_intervals": [
+        [
+          0,
+          584
+        ]
+      ],
+      "remaining_intervals": [],
+      "viewed_sheets": [
+        "00000-00039.jpg",
+        "00040-00079.jpg",
+        "00080-00119.jpg",
+        "00120-00159.jpg",
+        "00160-00199.jpg",
+        "00200-00239.jpg",
+        "00240-00279.jpg",
+        "00280-00319.jpg",
+        "00320-00359.jpg",
+        "00360-00399.jpg",
+        "00400-00439.jpg",
+        "00440-00479.jpg",
+        "00480-00519.jpg",
+        "00520-00559.jpg",
+        "00560-00584.jpg"
+      ],
+      "viewed_probes": [
+        "X-21.crop0-299-s10-90-420-1.jpg",
+        "X-21.crop210-279-s2-140-240-0.jpg",
+        "X-21.crop210-279-s2-140-240-1.jpg",
+        "X-21.crop270-364-s3-145-300-1.jpg",
+        "X-21.crop280-410-s5-80-300-0.jpg",
+        "X-21.crop300-584-s10-80-430-0.jpg",
+        "X-21.crop365-410-s5-80-300-0.jpg",
+        "X-21.f00225.jpg",
+        "X-21.f00240.jpg",
+        "X-21.f00254.jpg",
+        "X-21.f00300.jpg",
+        "X-21.f00400.jpg",
+        "X-21.f00500.jpg",
+        "X-21.f00584.jpg"
+      ],
+      "complete": false,
+      "method": "Consecutive full-image frames with dynamic and small-object boxes at 232x424 per frame. Fine geometry needs native-resolution probes.",
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ],
+      "visual_reviewed_frame_count": 585,
+      "continuation_resolutions": [
+        "Native270..364 resolves small-item hand occlusion; additional outside intervals appended.",
+        "Lower-body0..299 confirms shoe visible from280; person6 extended to include it."
+      ],
+      "source_frame_screening_complete": true,
+      "known_limits": [
+        "Moving bounds use timestamp interpolation between inspected native keys. Pixel-exact independent measurement of every object on every frame is not claimed."
+      ],
+      "pre_continuation_unresolved": [
+        "Banknotes5 fine geometry/occlusion over270-279 and331-364 remains uncertain.",
+        "Earlier person6 boxes may omit visible legs while standing; the corrected interval is300-584.",
+        "All585 frames visually screened; small-object and hand fine geometry review is not exhaustive."
+      ]
+    },
+    "X-22": {
+      "frame_count": 628,
+      "assembled_sha256": "ba8ed7116b046721697c8ad876120fad0b74b559b73163cd25dfda336f6e38b2",
+      "visual_reviewed_intervals": [
+        [
+          0,
+          627
+        ]
+      ],
+      "remaining_intervals": [],
+      "viewed_sheets": [
+        "00000-00039.jpg",
+        "00040-00079.jpg",
+        "00080-00119.jpg",
+        "00120-00159.jpg",
+        "00160-00199.jpg",
+        "00200-00239.jpg",
+        "00240-00279.jpg",
+        "00280-00319.jpg",
+        "00320-00359.jpg",
+        "00360-00399.jpg",
+        "00400-00439.jpg",
+        "00440-00479.jpg",
+        "00480-00519.jpg",
+        "00520-00559.jpg",
+        "00560-00599.jpg",
+        "00600-00627.jpg"
+      ],
+      "viewed_probes": [
+        "X-22.crop205-239-s2-120-190-1.jpg",
+        "X-22.crop330-389-s10-65-135-0.jpg",
+        "X-22.crop510-540-s1-30-160-1.jpg",
+        "X-22.crop510-554-s2-0-100-0.jpg",
+        "X-22.crop585-605-s1-140-130-0.jpg",
+        "X-22.crop80-94-s1-215-330-0.jpg",
+        "X-22.f00085.jpg",
+        "X-22.f00220.jpg",
+        "X-22.f00260.jpg",
+        "X-22.f00350.jpg",
+        "X-22.f00430.jpg",
+        "X-22.f00520.jpg",
+        "X-22.f00535.jpg",
+        "X-22.f00565.jpg",
+        "X-22.f00585.jpg",
+        "X-22.f00605.jpg"
+      ],
+      "complete": false,
+      "method": "Consecutive full-image frames with dynamic and small-object boxes at 232x424 per frame. Fine geometry needs native-resolution probes.",
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ],
+      "visual_reviewed_frame_count": 628,
+      "continuation_resolutions": [
+        "Stand-up head205..224 corrected; late far-hand sleeve226..229 removed.",
+        "Doorway510..540 checked consecutively; retain conservative540 closed-glass transition and519 end of partial reflection12.",
+        "Genuine hands13/14 retained. Restored330..389 reflection remains an occluded bounding extent."
+      ],
+      "source_frame_screening_complete": true,
+      "known_limits": [
+        "Moving bounds use timestamp interpolation between inspected native keys. Pixel-exact independent measurement of every object on every frame is not claimed."
+      ],
+      "pre_continuation_unresolved": [
+        "All628 frames visually screened; fine geometry and small-hand completeness are not exhaustively verified.",
+        "Hands13/14 at80..94 are two real adjacent hands and must be retained.",
+        "Person5 may clip upper head briefly near220 and lower visible legs during motion; requires per-frame native geometry refinement.",
+        "Door transition near530..540 and screen state near148 can be narrowed; class relabel starts conservatively540.",
+        "Partial reflection12 before520 and restored reflection330..389 have coarse visible-body geometry."
+      ]
+    },
+    "X-23": {
+      "frame_count": 545,
+      "assembled_sha256": "417d8377477b75ec314c4db164de7052e65850df5ed8e39c4fddca79c7f53606",
+      "visual_reviewed_intervals": [
+        [
+          0,
+          544
+        ]
+      ],
+      "remaining_intervals": [],
+      "viewed_sheets": [
+        "00000-00039.jpg",
+        "00040-00079.jpg",
+        "00080-00119.jpg",
+        "00120-00159.jpg",
+        "00160-00199.jpg",
+        "00200-00239.jpg",
+        "00240-00279.jpg",
+        "00280-00319.jpg",
+        "00320-00359.jpg",
+        "00360-00399.jpg",
+        "00400-00439.jpg",
+        "00440-00479.jpg",
+        "00480-00519.jpg",
+        "00520-00544.jpg"
+      ],
+      "viewed_probes": [
+        "X-23.crop145-194-s3-130-190-1.jpg",
+        "X-23.crop220-315-s10-65-140-0.jpg",
+        "X-23.crop430-450-s1-0-130-1-all.jpg",
+        "X-23.crop430-474-s1-30-160-1.jpg",
+        "X-23.crop435-459-s1-0-120-1-all.jpg",
+        "X-23.crop455-480-s1-90-140-0.jpg",
+        "X-23.crop500-521-s1-120-140-0.jpg",
+        "X-23.crop515-535-s1-140-135-0.jpg",
+        "X-23.f00000.jpg",
+        "X-23.f00225.jpg",
+        "X-23.f00300.jpg",
+        "X-23.f00380.jpg",
+        "X-23.f00430.jpg",
+        "X-23.f00455.jpg",
+        "X-23.f00475.jpg",
+        "X-23.f00505.jpg",
+        "X-23.f00525.jpg"
+      ],
+      "complete": false,
+      "method": "Consecutive full-image frames with dynamic and small-object boxes at 232x424 per frame. Fine geometry needs native-resolution probes.",
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ],
+      "visual_reviewed_frame_count": 545,
+      "continuation_resolutions": [
+        "Stand-up head154..179 and stale far hand160..169 corrected.",
+        "Doorway430..474 checked consecutively; restored missing rotating-door reflection435..451.",
+        "Retain474 final closed-glass hand/person boundary; restored225..314 reflection remains partly occluded."
+      ],
+      "source_frame_screening_complete": true,
+      "known_limits": [
+        "Moving bounds use timestamp interpolation between inspected native keys. Pixel-exact independent measurement of every object on every frame is not claimed."
+      ],
+      "pre_continuation_unresolved": [
+        "All545 frames visually screened; fine hand/body geometry not exhaustively verified.",
+        "Person5 upper head can be clipped by lagging box during stand-up150..190; needs additional native geometry correction.",
+        "A brief secondary reflection may remain visible after434 before disappearing as door rotates; not restored without tighter geometry.",
+        "Hands near doorway460..473 may be partially behind glass; conservative existing boxes retained.",
+        "Restored reflection225..314 is partially occluded and spans door frame; bounds can be tightened further at native scale."
+      ]
+    },
+    "X-24": {
+      "frame_count": 441,
+      "assembled_sha256": "d4d2a570ae924ba0ae398c8d1e603525a0c181756487df52f4949dcb779b3ed1",
+      "visual_reviewed_intervals": [
+        [
+          0,
+          440
+        ]
+      ],
+      "remaining_intervals": [],
+      "viewed_sheets": [
+        "00000-00039.jpg",
+        "00040-00079.jpg",
+        "00080-00119.jpg",
+        "00120-00159.jpg",
+        "00160-00199.jpg",
+        "00200-00239.jpg",
+        "00240-00279.jpg",
+        "00280-00319.jpg",
+        "00320-00359.jpg",
+        "00360-00399.jpg",
+        "00400-00439.jpg",
+        "00440-00440.jpg"
+      ],
+      "viewed_probes": [
+        "X-24.crop145-180-s2-140-200-1.jpg",
+        "X-24.crop170-179-s1-190-285-1-all.jpg",
+        "X-24.crop300-309-s1-70-235-1-all.jpg",
+        "X-24.crop300-369-s2-60-240-0.jpg",
+        "X-24.crop300-369-s2-60-250-1.jpg",
+        "X-24.crop350-419-s2-100-170-1.jpg",
+        "X-24.crop400-410-s1-140-160-0.jpg",
+        "X-24.f00160.jpg",
+        "X-24.f00220.jpg",
+        "X-24.f00330.jpg"
+      ],
+      "complete": false,
+      "method": "Consecutive full-image frames with dynamic and small-object boxes at 232x424 per frame. Fine geometry needs native-resolution probes.",
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ],
+      "visual_reviewed_frame_count": 441,
+      "continuation_resolutions": [
+        "All441 source frames viewed, native standing/door-hand/exit issues corrected.",
+        "Closed-glass cashier/reflections and exact disappearance408 corrected."
+      ],
+      "source_frame_screening_complete": true,
+      "known_limits": [
+        "Moving bounds use timestamp interpolation between inspected native keys. Pixel-exact independent measurement of every object on every frame is not claimed."
+      ],
+      "pre_continuation_unresolved": []
+    },
+    "X-25": {
+      "frame_count": 950,
+      "assembled_sha256": "ce197171863fac1d82f296a90ecbbbf7906f0b78e1975bb575ffea7cc72d29b8",
+      "visual_reviewed_intervals": [
+        [
+          0,
+          949
+        ]
+      ],
+      "remaining_intervals": [],
+      "viewed_sheets": [
+        "00000-00039.jpg",
+        "00040-00079.jpg",
+        "00080-00119.jpg",
+        "00120-00159.jpg",
+        "00160-00199.jpg",
+        "00200-00239.jpg",
+        "00240-00279.jpg",
+        "00280-00319.jpg",
+        "00320-00359.jpg",
+        "00360-00399.jpg",
+        "00400-00439.jpg",
+        "00440-00479.jpg",
+        "00480-00519.jpg",
+        "00520-00559.jpg",
+        "00560-00599.jpg",
+        "00600-00639.jpg",
+        "00640-00679.jpg",
+        "00680-00719.jpg",
+        "00720-00759.jpg",
+        "00760-00799.jpg",
+        "00800-00839.jpg",
+        "00840-00879.jpg",
+        "00880-00919.jpg",
+        "00920-00949.jpg"
+      ],
+      "viewed_probes": [
+        "X-25.crop0-14-s2-60-205-0.jpg",
+        "X-25.crop135-180-s3-130-190-1.jpg",
+        "X-25.crop150-169-s1-205-300-1-all.jpg",
+        "X-25.crop450-479-s3-60-160-1.jpg",
+        "X-25.crop510-529-s1-150-290-1.jpg",
+        "X-25.crop510-530-s1-160-265-0.jpg",
+        "X-25.crop510-704-s10-80-170-1.jpg",
+        "X-25.crop810-859-s2-60-235-0.jpg",
+        "X-25.crop825-869-s2-20-140-1.jpg",
+        "X-25.crop835-855-s1-20-150-0.jpg",
+        "X-25.crop905-925-s1-160-170-0.jpg",
+        "X-25.f00000.jpg",
+        "X-25.f00250.jpg",
+        "X-25.f00350.jpg",
+        "X-25.f00385.jpg",
+        "X-25.f00500.jpg",
+        "X-25.f00525.jpg",
+        "X-25.f00600.jpg",
+        "X-25.f00650.jpg",
+        "X-25.f00750.jpg",
+        "X-25.f00835.jpg"
+      ],
+      "complete": false,
+      "method": "Consecutive full-image frames with dynamic and small-object boxes at 232x424 per frame. Fine geometry needs native-resolution probes.",
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ],
+      "visual_reviewed_frame_count": 950,
+      "continuation_resolutions": [
+        "All950 source frames viewed; duplicate reflections, native hands, standing and exit corrected.",
+        "Reflection detector gaps restored with dense add_track samples.",
+        "Last visible exit sliver914; first empty915."
+      ],
+      "source_frame_screening_complete": true,
+      "known_limits": [
+        "Moving bounds use timestamp interpolation between inspected native keys. Pixel-exact independent measurement of every object on every frame is not claimed."
+      ],
+      "viewed_corrected_probes": [
+        "X-25.crop510-529-s1-150-265-1-all.jpg"
+      ],
+      "pre_continuation_unresolved": []
+    },
+    "X-26": {
+      "frame_count": 592,
+      "assembled_sha256": "4bf04ac7c29dcbbc1f000161c99372ffff00184232e768fa4694e84fe826ec83",
+      "visual_reviewed_intervals": [
+        [
+          0,
+          591
+        ]
+      ],
+      "remaining_intervals": [],
+      "viewed_sheets": [
+        "00000-00039.jpg",
+        "00040-00079.jpg",
+        "00080-00119.jpg",
+        "00120-00159.jpg",
+        "00160-00199.jpg",
+        "00200-00239.jpg",
+        "00240-00279.jpg",
+        "00280-00319.jpg",
+        "00320-00359.jpg",
+        "00360-00399.jpg",
+        "00400-00439.jpg",
+        "00440-00479.jpg",
+        "00480-00519.jpg",
+        "00520-00559.jpg",
+        "00560-00591.jpg"
+      ],
+      "viewed_probes": [
+        "X-26.crop0-14-s2-60-205-0.jpg",
+        "X-26.crop0-149-s5-170-335-0.jpg",
+        "X-26.crop15-65-s1-185-350-0.jpg",
+        "X-26.crop150-279-s5-170-335-0.jpg",
+        "X-26.crop165-220-s1-185-345-0.jpg",
+        "X-26.crop285-329-s3-130-190-1.jpg",
+        "X-26.crop345-374-s3-70-165-1.jpg",
+        "X-26.crop430-529-s3-50-180-1.jpg",
+        "X-26.crop440-489-s2-60-235-0.jpg",
+        "X-26.crop530-555-s1-170-170-0.jpg",
+        "X-26.f00315.jpg",
+        "X-26.f00330.jpg",
+        "X-26.measured55-270.jpg"
+      ],
+      "complete": false,
+      "method": "Consecutive full-image frames with dynamic and small-object boxes at 232x424 per frame. Fine geometry needs native-resolution probes.",
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ],
+      "visual_reviewed_frame_count": 592,
+      "continuation_resolutions": [
+        "All592 source frames viewed; duplicate reflected people/hands, standing and exit corrected.",
+        "Initial and345..374 reflection gaps restored. Native counting occlusion and paper bounds corrected.",
+        "Last visible exit sliver542; first empty543."
+      ],
+      "source_frame_screening_complete": true,
+      "known_limits": [
+        "Moving bounds use timestamp interpolation between inspected native keys. Pixel-exact independent measurement of every object on every frame is not claimed."
+      ],
+      "viewed_corrected_probes": [
+        "X-26.crop530-554-s2-160-170-1-all.jpg"
+      ],
+      "pre_continuation_unresolved": []
+    },
+    "X-27": {
+      "frame_count": 791,
+      "assembled_sha256": "9309d5bdb357c3a2e637e9956e7a2ed1063727d8b0aed64d0a771cc914b2671c",
+      "visual_reviewed_intervals": [
+        [
+          0,
+          790
+        ]
+      ],
+      "remaining_intervals": [],
+      "viewed_sheets": [
+        "00000-00039.jpg",
+        "00040-00079.jpg",
+        "00080-00119.jpg",
+        "00120-00159.jpg",
+        "00160-00199.jpg",
+        "00200-00239.jpg",
+        "00240-00279.jpg",
+        "00280-00319.jpg",
+        "00320-00359.jpg",
+        "00360-00399.jpg",
+        "00400-00439.jpg",
+        "00440-00479.jpg",
+        "00480-00519.jpg",
+        "00520-00559.jpg",
+        "00560-00599.jpg",
+        "00600-00639.jpg",
+        "00640-00679.jpg",
+        "00680-00719.jpg",
+        "00720-00759.jpg",
+        "00760-00790.jpg"
+      ],
+      "viewed_probes": [
+        "X-27.crop0-14-s2-60-205-0.jpg",
+        "X-27.crop138-180-s1-185-350-0.jpg",
+        "X-27.crop240-285-s2-210-310-0.jpg",
+        "X-27.crop250-295-s3-130-190-1.jpg",
+        "X-27.crop270-310-s2-220-265-0.jpg",
+        "X-27.crop30-239-s7-170-335-0.jpg",
+        "X-27.crop510-554-s3-70-165-1.jpg",
+        "X-27.crop640-744-s3-50-180-1.jpg",
+        "X-27.crop650-709-s2-60-225-0.jpg",
+        "X-27.crop750-775-s1-160-170-0.jpg",
+        "X-27.crop770-785-s1-220-200-0.jpg",
+        "X-27.f00300.jpg",
+        "X-27.f00315.jpg",
+        "X-27.measured270-284.jpg"
+      ],
+      "complete": false,
+      "method": "Consecutive full-image frames with dynamic and small-object boxes at 232x424 per frame. Fine geometry needs native-resolution probes.",
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ],
+      "visual_reviewed_frame_count": 791,
+      "continuation_resolutions": [
+        "All791 source frames viewed; duplicate reflection/hand, standing and note turn corrected.",
+        "Initial and510..554 reflection gaps restored.",
+        "Last visible exit sliver775; first empty776."
+      ],
+      "source_frame_screening_complete": true,
+      "known_limits": [
+        "Moving bounds use timestamp interpolation between inspected native keys. Pixel-exact independent measurement of every object on every frame is not claimed."
+      ],
+      "viewed_corrected_probes": [
+        "X-27.crop270-300-s2-170-200-1-all.jpg",
+        "X-27.crop276-284-s1-230-280-1-all.jpg"
+      ],
+      "pre_continuation_unresolved": []
+    },
+    "X-15": {
+      "frame_count": 624,
+      "assembled_sha256": "5b6f281c3bdff500286294448c08bc31840523016c20403215807c920718e3c5",
+      "visual_reviewed_intervals": [
+        [
+          0,
+          623
+        ]
+      ],
+      "remaining_intervals": [],
+      "viewed_sheets": [
+        "00000-00039.jpg",
+        "00040-00079.jpg",
+        "00080-00119.jpg",
+        "00120-00159.jpg",
+        "00160-00199.jpg",
+        "00200-00239.jpg",
+        "00240-00279.jpg",
+        "00280-00319.jpg",
+        "00320-00359.jpg",
+        "00360-00399.jpg",
+        "00400-00439.jpg",
+        "00440-00479.jpg",
+        "00480-00519.jpg",
+        "00520-00559.jpg",
+        "00560-00599.jpg",
+        "00600-00623.jpg"
+      ],
+      "viewed_probes": [
+        "X-15.crop0-190-s10-85-320-1-all.jpg",
+        "X-15.crop0-190-s10-85-320-1.jpg",
+        "X-15.crop200-229-s2-20-210-1.jpg",
+        "X-15.crop30-79-s2-80-315-1.jpg",
+        "X-15.crop340-449-s5-30-210-1.jpg",
+        "X-15.crop500-569-s3-20-200-1.jpg",
+        "X-15.crop590-623-s1-105-140-0.jpg",
+        "X-15.f00000.jpg",
+        "X-15.f00160.jpg",
+        "X-15.f00200.jpg",
+        "X-15.f00300.jpg",
+        "X-15.f00400.jpg",
+        "X-15.f00460.jpg",
+        "X-15.f00520.jpg",
+        "X-15.f00540.jpg",
+        "X-15.f00570.jpg",
+        "X-15.f00600.jpg"
+      ],
+      "complete": false,
+      "method": "Consecutive full-image frames with dynamic and small-object boxes at 232x424 per frame. Fine geometry needs native-resolution probes.",
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ],
+      "visual_reviewed_frame_count": 624,
+      "continuation_resolutions": [
+        "Native adjacent hands checked: retain genuine23/24 and23/25; remove combined26.",
+        "Sleeve/reflection hand findings resolved with appended patches.",
+        "Bag0..190 checked at native scale; unfolding160..179 geometry corrected."
+      ],
+      "source_frame_screening_complete": true,
+      "known_limits": [
+        "Moving bounds use timestamp interpolation between inspected native keys. Pixel-exact independent measurement of every object on every frame is not claimed."
+      ],
+      "pre_continuation_unresolved": [
+        "Hand23/24 and25/26 overlaps require native small-box verification, as do hand36-39 around exit.",
+        "Bag geometry is approximate during manipulation0-190; no exact per-frame refinement yet.",
+        "Hand29/33/34 near glass may include reflections; exact boundaries remain to be checked.",
+        "All624 frames visually screened; fine geometry review is not exhaustive."
+      ]
+    },
+    "X-16": {
+      "frame_count": 680,
+      "assembled_sha256": "dce259b0510052ac498b303c9ebe2a82cfcff9df5152c11fa4f2ed69c0fb4681",
+      "visual_reviewed_intervals": [
+        [
+          0,
+          679
+        ]
+      ],
+      "remaining_intervals": [],
+      "viewed_sheets": [
+        "00000-00039.jpg",
+        "00040-00079.jpg",
+        "00080-00119.jpg",
+        "00120-00159.jpg",
+        "00160-00199.jpg",
+        "00200-00239.jpg",
+        "00240-00279.jpg",
+        "00280-00319.jpg",
+        "00320-00359.jpg",
+        "00360-00399.jpg",
+        "00400-00439.jpg",
+        "00440-00479.jpg",
+        "00480-00519.jpg",
+        "00520-00559.jpg",
+        "00560-00599.jpg",
+        "00600-00639.jpg",
+        "00640-00679.jpg"
+      ],
+      "viewed_probes": [
+        "X-16.crop460-529-s3-90-300-1-all.jpg",
+        "X-16.crop460-529-s3-90-300-1.jpg",
+        "X-16.crop530-579-s2-110-340-1-all.jpg",
+        "X-16.crop555-644-s5-0-120-1.jpg",
+        "X-16.crop580-679-s5-110-340-1-all.jpg",
+        "X-16.crop620-644-s1-50-180-0.jpg",
+        "X-16.crop75-104-s1-20-110-1.jpg",
+        "X-16.f00050.jpg",
+        "X-16.f00080.jpg",
+        "X-16.f00160.jpg",
+        "X-16.f00300.jpg",
+        "X-16.f00460.jpg",
+        "X-16.f00600.jpg",
+        "X-16.measured460-468.jpg",
+        "X-16.measured469-529.jpg",
+        "X-16.measured530-679.jpg"
+      ],
+      "complete": false,
+      "method": "Consecutive full-image frames with dynamic and small-object boxes at 232x424 per frame. Fine geometry needs native-resolution probes.",
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ],
+      "visual_reviewed_frame_count": 680,
+      "continuation_resolutions": [
+        "Incoming doorway83..89 refined to person after consecutive native frames.",
+        "Bag handover460..529 inspected with all-label native crops; geometry corrected."
+      ],
+      "source_frame_screening_complete": true,
+      "known_limits": [
+        "Moving bounds use timestamp interpolation between inspected native keys. Pixel-exact independent measurement of every object on every frame is not claimed."
+      ],
+      "viewed_corrected_probes": [
+        "X-16.crop460-529-s4-85-305-1-all.jpg",
+        "X-16.crop530-679-s20-110-340-1-all.jpg"
+      ],
+      "pre_continuation_unresolved": [
+        "Bag5 position during handover470-520 is approximate; exact fine-geometry correction pending.",
+        "Doorway person/reflection transition around90 is conservative, while45-89 is confirmed behind glass.",
+        "All680 frames visually screened; fine hand/small-object geometry is not exhaustively verified."
+      ]
+    },
+    "X-17": {
+      "frame_count": 442,
+      "assembled_sha256": "2fccdadd0bd14520398d7e9e7dbfeba9d04496253c440aa0dd76fd4648a20c17",
+      "visual_reviewed_intervals": [
+        [
+          0,
+          441
+        ]
+      ],
+      "remaining_intervals": [],
+      "viewed_sheets": [
+        "00000-00039.jpg",
+        "00040-00079.jpg",
+        "00080-00119.jpg",
+        "00120-00159.jpg",
+        "00160-00199.jpg",
+        "00200-00239.jpg",
+        "00240-00279.jpg",
+        "00280-00319.jpg",
+        "00320-00359.jpg",
+        "00360-00399.jpg",
+        "00400-00439.jpg",
+        "00440-00441.jpg"
+      ],
+      "viewed_probes": [
+        "X-17.crop110-200-s5-80-300-1-all.jpg",
+        "X-17.crop225-239-s1-0-130-0.jpg",
+        "X-17.crop350-389-s1-30-120-1.jpg",
+        "X-17.crop390-420-s1-120-120-0.jpg",
+        "X-17.f00050.jpg",
+        "X-17.f00120.jpg",
+        "X-17.f00180.jpg",
+        "X-17.f00230.jpg",
+        "X-17.f00360.jpg",
+        "X-17.f00380.jpg",
+        "X-17.f00389.jpg",
+        "X-17.f00400.jpg"
+      ],
+      "complete": false,
+      "method": "Consecutive full-image frames with dynamic and small-object boxes at 232x424 per frame. Fine geometry needs native-resolution probes.",
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ],
+      "visual_reviewed_frame_count": 442,
+      "continuation_resolutions": [
+        "Doorway350..389 checked consecutively; retain conservative375 transition where human becomes fully behind closed glass.",
+        "Earlier add_track reflections225..239 and390..415 are already integrated exactly once.",
+        "Bag110..200 and door-hand anatomy350..389 inspected; no further confident deletion."
+      ],
+      "source_frame_screening_complete": true,
+      "known_limits": [
+        "Moving bounds use timestamp interpolation between inspected native keys. Pixel-exact independent measurement of every object on every frame is not claimed."
+      ],
+      "pre_continuation_unresolved": [
+        "Male reflection missing225-239 and male behind glass missing390-415; proposed added tracks separately in extra_tracks.json.",
+        "Person11 and reflection conversion around exit375 is conservative; earlier360-374 mixed open doorway/glass needs precise policy review.",
+        "Hands and bag fine geometry not exhaustively corrected. All442 frames visually screened."
+      ]
+    },
+    "X-18": {
+      "frame_count": 676,
+      "assembled_sha256": "48626c73eb1aaeff59f4e2ab3166bccd40be8520e05868cc477ad3c1c2ae7a8c",
+      "visual_reviewed_intervals": [
+        [
+          0,
+          675
+        ]
+      ],
+      "remaining_intervals": [],
+      "viewed_sheets": [
+        "00000-00039.jpg",
+        "00040-00079.jpg",
+        "00080-00119.jpg",
+        "00120-00159.jpg",
+        "00160-00199.jpg",
+        "00200-00239.jpg",
+        "00240-00279.jpg",
+        "00280-00319.jpg",
+        "00320-00359.jpg",
+        "00360-00399.jpg",
+        "00400-00439.jpg",
+        "00440-00479.jpg",
+        "00480-00519.jpg",
+        "00520-00559.jpg",
+        "00560-00599.jpg",
+        "00600-00639.jpg",
+        "00640-00675.jpg"
+      ],
+      "viewed_probes": [
+        "X-18.crop210-329-s3-100-330-1.jpg",
+        "X-18.crop210-329-s5-160-300-1.jpg",
+        "X-18.crop210-360-s5-100-330-0.jpg",
+        "X-18.crop240-284-s4-0-130-0.jpg",
+        "X-18.crop255-284-s1-10-110-1.jpg",
+        "X-18.crop330-355-s1-130-385-0.jpg",
+        "X-18.crop330-370-s2-20-290-0.jpg",
+        "X-18.crop360-404-s3-40-150-1.jpg",
+        "X-18.crop360-404-s4-60-230-0.jpg",
+        "X-18.crop510-554-s2-0-100-0.jpg",
+        "X-18.crop525-554-s3-20-130-1.jpg",
+        "X-18.crop55-85-s1-0-120-0.jpg",
+        "X-18.f00030.jpg",
+        "X-18.f00060.jpg",
+        "X-18.f00090.jpg",
+        "X-18.f00120.jpg",
+        "X-18.f00300.jpg",
+        "X-18.f00360.jpg",
+        "X-18.f00400.jpg",
+        "X-18.f00480.jpg",
+        "X-18.f00500.jpg",
+        "X-18.f00520.jpg",
+        "X-18.f00530.jpg",
+        "X-18.f00550.jpg"
+      ],
+      "complete": false,
+      "method": "Consecutive full-image frames with dynamic and small-object boxes at 232x424 per frame. Fine geometry needs native-resolution probes.",
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ],
+      "visual_reviewed_frame_count": 676,
+      "continuation_resolutions": [
+        "Reflected visitor tail260..284 refined; first empty267.",
+        "Banknote counting210..329 and330..355 inspected; omit confirmed >50% covered264..279 and306..329.",
+        "Visitor15 lower body360..404 is occluded by cashier/desk; no unseen-leg extension.",
+        "Reflection18 near525..554 inspected as a genuine partial image in door glass."
+      ],
+      "source_frame_screening_complete": true,
+      "known_limits": [
+        "Moving bounds use timestamp interpolation between inspected native keys. Pixel-exact independent measurement of every object on every frame is not claimed."
+      ],
+      "pre_continuation_unresolved": [
+        "All676 consecutive frames screened; fine hand and small-object geometry is not exhaustive.",
+        "Banknotes210-329 and reflected male tail260-284 may need tighter native geometry; no uncertain deletion applied.",
+        "Person15 lower visible torso may need extension around360-404; duplicate11 removed because it spans the cashier arm.",
+        "Reflection18 geometry is loose although the reflected identity is confirmed."
+      ]
+    },
+    "X-19": {
+      "frame_count": 1720,
+      "assembled_sha256": "76b5537b3765e5004df031c23691cdf3a2247168749dbc031b42658fe730f4a0",
+      "visual_reviewed_intervals": [
+        [
+          0,
+          1719
+        ]
+      ],
+      "remaining_intervals": [],
+      "viewed_sheets": [
+        "00000-00039.jpg",
+        "00040-00079.jpg",
+        "00080-00119.jpg",
+        "00120-00159.jpg",
+        "00160-00199.jpg",
+        "00200-00239.jpg",
+        "00240-00279.jpg",
+        "00280-00319.jpg",
+        "00320-00359.jpg",
+        "00360-00399.jpg",
+        "00400-00439.jpg",
+        "00440-00479.jpg",
+        "00480-00519.jpg",
+        "00520-00559.jpg",
+        "00560-00599.jpg",
+        "00600-00639.jpg",
+        "00640-00679.jpg",
+        "00680-00719.jpg",
+        "00720-00759.jpg",
+        "00760-00799.jpg",
+        "00800-00839.jpg",
+        "00840-00879.jpg",
+        "00880-00919.jpg",
+        "00920-00959.jpg",
+        "00960-00999.jpg",
+        "01000-01039.jpg",
+        "01040-01079.jpg",
+        "01080-01119.jpg",
+        "01120-01159.jpg",
+        "01160-01199.jpg",
+        "01200-01239.jpg",
+        "01240-01279.jpg",
+        "01280-01319.jpg",
+        "01320-01359.jpg",
+        "01360-01399.jpg",
+        "01400-01439.jpg",
+        "01440-01479.jpg",
+        "01480-01519.jpg",
+        "01520-01559.jpg",
+        "01560-01599.jpg",
+        "01600-01639.jpg",
+        "01640-01679.jpg",
+        "01680-01719.jpg"
+      ],
+      "viewed_probes": [
+        "X-19.crop1050-1085-s1-230-320-0.jpg",
+        "X-19.crop1080-1289-s10-0-110-1.jpg",
+        "X-19.crop1080-1289-s15-0-165-0.jpg",
+        "X-19.crop1140-1154-s1-75-195-1.jpg",
+        "X-19.crop1280-1289-s1-40-190-1.jpg",
+        "X-19.crop1390-1430-s2-0-140-0.jpg",
+        "X-19.crop1396-1404-s1-80-140-0.jpg",
+        "X-19.crop1430-1470-s1-110-140-0.jpg",
+        "X-19.crop1495-1524-s2-30-120-1.jpg",
+        "X-19.crop1508-1528-s1-90-140-0.jpg",
+        "X-19.crop1618-1650-s1-100-330-1.jpg",
+        "X-19.crop1618-1650-s1-170-365-1-all.jpg",
+        "X-19.crop1620-1639-s2-175-365-1.jpg",
+        "X-19.crop1630-1639-s1-175-365-0.jpg",
+        "X-19.crop241-420-s7-100-330-1.jpg",
+        "X-19.crop255-329-s3-0-140-1.jpg",
+        "X-19.crop305-329-s1-40-130-1.jpg",
+        "X-19.crop312-330-s1-70-180-0.jpg",
+        "X-19.crop360-369-s1-135-375-1.jpg",
+        "X-19.crop360-420-s2-60-300-0.jpg",
+        "X-19.crop470-619-s10-155-445-1.jpg",
+        "X-19.crop55-70-s1-90-140-0.jpg",
+        "X-19.crop55-79-s2-30-120-1.jpg",
+        "X-19.crop658-1077-s15-100-330-1.jpg",
+        "X-19.crop998-1085-s3-150-380-0.jpg",
+        "X-19.f00040.jpg",
+        "X-19.f00060.jpg",
+        "X-19.f00067.jpg",
+        "X-19.f00280.jpg",
+        "X-19.f00365.jpg",
+        "X-19.f00420.jpg",
+        "X-19.f00495.jpg",
+        "X-19.f00550.jpg",
+        "X-19.f00650.jpg",
+        "X-19.f00733.jpg",
+        "X-19.f00943.jpg",
+        "X-19.f01018.jpg",
+        "X-19.f01063.jpg",
+        "X-19.f01085.jpg",
+        "X-19.f01155.jpg",
+        "X-19.f01245.jpg",
+        "X-19.f01265.jpg",
+        "X-19.f01325.jpg",
+        "X-19.f01390.jpg",
+        "X-19.f01425.jpg",
+        "X-19.f01455.jpg",
+        "X-19.f01510.jpg",
+        "X-19.f01545.jpg",
+        "X-19.f01635.jpg",
+        "X-19.measured1018-1051.jpg",
+        "X-19.measured374-420.jpg"
+      ],
+      "complete": false,
+      "method": "Consecutive full-image frames with dynamic and small-object boxes at 232x424 per frame. Fine geometry needs native-resolution probes.",
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ],
+      "visual_reviewed_frame_count": 1720,
+      "continuation_resolutions": [
+        "Tiny reflected male head1080..1289 retained, bounded and detector gap1140..1154 restored.",
+        "Reflection17 tail terminates316 after consecutive native review.",
+        "Door entry61 and later open-door1505 boundary checked.",
+        "Native banknote and ID crops resolve moving tail geometry, hidden-note interval, card lift and card detector gap.",
+        "Safe/screen unknown states remain where pixels do not establish a specific state."
+      ],
+      "source_frame_screening_complete": true,
+      "known_limits": [
+        "Moving bounds use timestamp interpolation between inspected native keys. Pixel-exact independent measurement of every object on every frame is not claimed."
+      ],
+      "viewed_corrected_probes": [
+        "X-19.crop374-420-s3-60-310-1-all.jpg",
+        "X-19.crop1018-1053-s3-160-380-1-all.jpg"
+      ],
+      "pre_continuation_unresolved": [
+        "All1720 source frames visually screened in consecutive sheets. Native probes confirm class and duplicate corrections; fine geometry remains incomplete.",
+        "Partly visible male reflection17 near312..329 may require tighter termination/geometry; tracks21..24 include very small occluded male head and excess glass/arm area. Relabeled21/22/24; preserved to avoid deleting real reflections.",
+        "Visitor12 and14 entry/exit partial-body geometry, and class transitions near61 and1510, need finer boundary review. Outside1453..1469 is confirmed empty; tiny earlier exit foot may need tight box.",
+        "Banknotes5/6 and id_card7/8 moving geometry and occlusion are not exhaustively corrected. id_card8 lags visibly near1635.",
+        "Safe opening/closing and screen state unknown transition spans can be narrowed with additional native frames.",
+        "Some glass hands close to moving doorway boundaries are conservatively preserved; missed/loose small hands remain possible."
+      ]
+    }
+  },
+  "continuation": {
+    "model": "GPT-6.1-sol",
+    "all_source_frames_screened": true,
+    "screened_frames": 9023,
+    "scope_frames": 9023,
+    "append_only_initial_patch_count": 114,
+    "initial_patch_sha256": "4b306468ba17c2c227c90620b91cb84149ef28f9efc317dffd44ed168a6e7e90",
+    "new_native_images_viewed": 117,
+    "patch_count": 231,
+    "new_patch_count": 117
+  }
+}

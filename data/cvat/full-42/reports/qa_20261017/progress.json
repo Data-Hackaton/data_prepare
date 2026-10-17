@@ -1,0 +1,2630 @@
+{
+  "updated_at": "2026-10-17T20:22:49.291532+00:00",
+  "full_frame_screening_is_not_all_object_geometry_validation": true,
+  "visual_review_complete": false,
+  "total_videos": 42,
+  "total_source_frames": 43230,
+  "full_frame_screened": 19790,
+  "any_region_screened": 23569,
+  "unique_source_frames": 38908,
+  "unique_full_frame_screened": 18381,
+  "source_frame_step": 1,
+  "automated_audit_errors": [],
+  "staged_correction_count": 446,
+  "videos": [
+    {
+      "video": "X-1",
+      "source_video": "X-1",
+      "frame_count": 776,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "8911a9219b9433091824e553a70bb80335f075fd8ac982d2062d2ecf023c16bc",
+      "ledger": "scene_a/review.json",
+      "full_frame_screened": 776,
+      "any_region_screened": 776,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          775
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Every source frame 0–775 full-frame and native doorway/work-area screened. All per-object occlusion and fine geometry transitions have not been exhaustively refined.",
+        "Track 9 returning reflection 50–59 has source box cutting reflected head/body; source 14 at 178–194 contains two reflections until separate cashier track 17 begins195. Needs precise split/geometry.",
+        "Native hand follow-up: missing exposed hanging palm 57–59; source hand gaps150–164 and580–584(second now fixed); possible merged/duplicate hands34,36,37,38,57,58,59,60; count of real palms needs clean crops.",
+        "Reflection source20 at705–734 may follow only an arm or empty glass. Do not remove without raw enlarged follow-up."
+      ]
+    },
+    {
+      "video": "X-2",
+      "source_video": "X-2",
+      "frame_count": 510,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "9932ae0a10d3b9371bf52ea558dc19092fcf47adcd275a73a52a56b95464bca6",
+      "ledger": "scene_a/review.json",
+      "full_frame_screened": 510,
+      "any_region_screened": 510,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          509
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Full-frame and native doorway/work-area sequence inspected 0–509; small geometry and all occlusion transitions have not received exhaustive per-box refinement.",
+        "Reflection track 8 at 109–119 is relabeled, but its source box cuts reflected head/body; full visible reflected envelope needs precise follow-up.",
+        "Potential missing short hanging-hand interval 105–109 before source track 19, exposed door-handle hand 97–109 geometry, and track 34 palm geometry 470–472 remain for follow-up."
+      ]
+    },
+    {
+      "video": "X-3",
+      "source_video": "X-3",
+      "frame_count": 599,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "21468fcef4ea5f45ce7d465e620f84e09c8b50314f4ecdc06f69224c701b3a5b",
+      "ledger": "scene_a/review.json",
+      "full_frame_screened": 599,
+      "any_region_screened": 599,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          598
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Track15 on left glass at145–149 is reflection; earlier120–144 still requires review.",
+        "All 599 full source frames and native desk/doorway crops viewed; fine-label correctness is not fully validated.",
+        "Entry glass/open-gap exact person boundary 45-49 and exposed handle-hand geometry need further enlarged review; real person retained there pending resolution.",
+        "Missing early client reflection 0-14 and hanging hand 60-69; hand28 geometry drifts on coat around110-119.",
+        "Reflection16 may combine client and cashier before reflection17 starts195; person/reflection box tightness needs further review.",
+        "Keep two real cashier palms34/44 at480-489; no deletion based on overlap. Hand50 drift562-569 and stationary hand47 after palm lowers require clean continuation geometry.",
+        "Hand49 at142,397 is a real client palm at table edge, not hair; retained."
+      ]
+    },
+    {
+      "video": "X-4",
+      "source_video": "X-4",
+      "frame_count": 2177,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "5385be9420e6a70547d6bcfd0b13d60f9c0738877645afa277d09550a96b8445",
+      "ledger": "scene_a/review.json",
+      "full_frame_screened": 1409,
+      "any_region_screened": 2177,
+      "full_frame_screened_intervals": [
+        [
+          768,
+          2176
+        ]
+      ],
+      "full_frame_remaining_intervals": [
+        [
+          0,
+          767
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Doorway reflected client boxes at1528–1539 (tracks17/20/24) and1760–1766 (track29) incorrectly remain person; review their full intervals before patching.",
+        "Track17 tail1608–1619 may be fully vanished reflection; exact last visible pixel needs tighter crop. Track14 transition1580–1589 straddles doorway/fixed-glass boundary; retained person pending precise boundary review. Reflection25 bbox should tighten as body is occluded at1609–1613."
+      ]
+    },
+    {
+      "video": "X-5",
+      "source_video": "X-5",
+      "frame_count": 2145,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "1f5840bff58f298e89c4afa00cb1c18f6dafc5c4096c251d9b507604ebefe906",
+      "ledger": "scene_a/review.json",
+      "full_frame_screened": 0,
+      "any_region_screened": 259,
+      "full_frame_screened_intervals": [],
+      "full_frame_remaining_intervals": [
+        [
+          0,
+          2144
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-8",
+      "source_video": "X-8",
+      "frame_count": 1140,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "6a53e10acdcf52396ad5b1697eead32d8322c0911d792523a5c33fe5b388f4e7",
+      "ledger": "scene_a/review.json",
+      "full_frame_screened": 0,
+      "any_region_screened": 249,
+      "full_frame_screened_intervals": [],
+      "full_frame_remaining_intervals": [
+        [
+          0,
+          1139
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-10",
+      "source_video": "X-10",
+      "frame_count": 467,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "57a0e46c7a45f0e831f61d9c80722fefe4b74dbcfe1d3031ff58307d481f9a5c",
+      "ledger": "scene_a/review.json",
+      "full_frame_screened": 467,
+      "any_region_screened": 467,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          466
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Full-frame screening and desk crops complete, but every small hand/banknote geometry and occlusion transition has not yet been exhaustively corrected.",
+        "Further native hand geometry audit needed especially100-129 and460-466 for possible second-hand misses; no unverified track added.",
+        "Phone visibility after69 is intentionally omitted once mostly hidden by hand/table; banknote slivers375-376 omitted while mostly occluded."
+      ]
+    },
+    {
+      "video": "X-11",
+      "source_video": "X-11",
+      "frame_count": 765,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "b3a954a5b761ad47943e061599315e3fe9d22573eeb92bb14bf315cdcd422fc5",
+      "ledger": "scene_a/review.json",
+      "full_frame_screened": 0,
+      "any_region_screened": 78,
+      "full_frame_screened_intervals": [],
+      "full_frame_remaining_intervals": [
+        [
+          0,
+          764
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-12",
+      "source_video": "X-12",
+      "frame_count": 1267,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "955755baf54418b48ea645dcd98e7e8dcca1d1e227e9b286a9427062db304fd4",
+      "ledger": "scene_a/review.json",
+      "full_frame_screened": 0,
+      "any_region_screened": 135,
+      "full_frame_screened_intervals": [],
+      "full_frame_remaining_intervals": [
+        [
+          0,
+          1266
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-13",
+      "source_video": "X-13",
+      "frame_count": 1956,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "a37930cf119bb691be77d8624b18333b04d9c67066a7f4627d63e3208dfa6057",
+      "ledger": "scene_a/review.json",
+      "full_frame_screened": 0,
+      "any_region_screened": 659,
+      "full_frame_screened_intervals": [],
+      "full_frame_remaining_intervals": [
+        [
+          0,
+          1955
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Reflection bbox geometry during partial occlusion at1795–1814 and1910–1922 needs tightening to remaining visible portions.",
+        "Several narrow reflection tracks around1170–1186 and1680–1739 may duplicate or fragment the wider reflected body; retained pending geometry review.",
+        "Only person/reflection regions reviewed in these sessions; safe/door timing and small banknote/hand boxes not fully reviewed.",
+        "Hand81 held geometry drifts onto laptop during1224–1229; needs tighter per-frame hand coordinates.",
+        "Hand91 at1840–1849 is near closing door boundary; kept pending precise occlusion/room-boundary review."
+      ]
+    },
+    {
+      "video": "X-14",
+      "source_video": "X-14",
+      "frame_count": 4273,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "7d6890ecb4a2b28bbdd3b61b6711566eee84a53ab3439c40cd9b6a3a6714c681",
+      "ledger": "parent/review.json",
+      "full_frame_screened": 4273,
+      "any_region_screened": 4273,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          4272
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Confirmed duplicate person19/person21 at120-179, native geometry probes viewed; bag keyframe interpolation warrants tighter review.",
+        "Consecutive frames 240-439 inspected; single cashier manipulating bag, no additional duplicate person observed.",
+        "Full sequence440-559 inspected. Cashier remains at green bag. No new person/reflection duplication observed; fine bag extent pending.",
+        "Consecutive560-679 inspected. Bag turns from edge-on to broad face around635-645; bag extent needs detailed correction. Person/reflection tracks stay on visible subject.",
+        "Full-scene frames680-839 inspected. Bag rotates and deforms; candidate geometry refinement being reviewed separately. No further person/reflection duplication found in this interval.",
+        "Full-scene840-999 inspected. First banknote bundle appears on table at928; notes under moving hand need native detail, no extra person/reflection track detected.",
+        "Frames1000-1159 inspected. New false person on bag/safe starting1035, and reflected cashier misclassified as person around1080; these are pending precise crops and patches.",
+        "Cashier bag turn and lean: false head reflection31 confirmed in every native crop 1155–1199. Glass person mislabels32/29 require refinement; bag moves rapidly and person box omits hands during rotation.",
+        "Single cashier rotates, puts green bag away and sits. Duplicate person21/36 at1395–1424, lower extent of person36 needs native examination. Repeated work-area hands and bundle motion flagged for finer review.",
+        "Seated cashier counts bills; overlapping hand80/82 and 78/80 around1550 need native duplicate decision. Whole-room scene stable, no additional person.",
+        "Everyframe1680–1839whole-room screening: single seated cashier, shoes visible below desk; counting bills, native desk refinement pending. Reflection38 has an unexplained gap1740–1754 and remains visually present in glass.",
+        "1840–1999 everyframe screening: duplicate person40 overlaps36 at1890–1904 and37 at1950–1979. 1905–1949 only upperbody40 remains although shoes visible. Duplicate hands89/94/92/93 require native desk review. Missing reflection1980–1994. All other-room/glass scene stable.",
+        "2000–2159allframes: cashier seated and counting bills, shoes keep person bottom at541. No new person/reflection duplicates; native crop review still needed for intermittent hand96 and98 and note geometry.",
+        "2160–2319everyframe: duplicateperson42 at2250–2309; retain37fullbody. Hands102/103 overlap at2250–2279 need native review. No additional inroom person.",
+        "2320–2559everyframe same seated cashier and bill handling; no person-label changes. Short hand106/109/110 appear around money-counting device and need native duplicate review; shoes visible beneath table.",
+        "2560–2719 everyframe: several extra reflection boxes43/44/45 inside reflection41 require native inspection, probable same cashier image. Hand115 also overlays113/114. No real additional person.",
+        "2720–2879fullframe: same cashier sorting notes, no extra people. Shorthand116/117looklikeadditionaldetectionsinthecountingarea; nativeverificationrequired. Reflection45overlaps41sameglasspanel.",
+        "Frames2880-3039 sequential full-scene screening: person37 and reflection41 persist, small objects need separate native validation.",
+        "Frames3040-3199 viewed consecutively; hands reaching toward notes and laptop. Person and reflection remain present.",
+        "Frames3200-3359 consecutive full-scene screening. No new large-subject identity failure; fine hand/notes review separately assigned.",
+        "Frames3360-3519 all screened. Person37 may clip extended right arm while reaching at3460-3519; native check queued.",
+        "Frames3520-3679 full-scene consecutive screening: cashier raises notes/hands then lowers. Fullbody and reflection persist.",
+        "Frames3680-3839 consecutively screened. Persistent seated person and reflected head; right arm stays extended near laptop.",
+        "Frames3840-3999 consecutively screened. Cashier seated with hands at laptop; no new person/reflection presence errors visible.",
+        "Frames4000-4159 screened, mostly stationary at laptop with small finger/head motion.",
+        "Completed consecutive full-frame screening0-4272. Person/reflection/bag unresolved geometry still requires targeted review; no full validation claim."
+      ]
+    },
+    {
+      "video": "X-15",
+      "source_video": "X-15",
+      "frame_count": 624,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "69caf59620fcd80bedcb664514730ab38f2f800da27000a8e037d7440be5dc7a",
+      "ledger": "scene_b/review.json",
+      "full_frame_screened": 624,
+      "any_region_screened": 624,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          623
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ]
+    },
+    {
+      "video": "X-16",
+      "source_video": "X-16",
+      "frame_count": 680,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "3f516431cf37e3900b7eae857a7b09be258f485702ab56bc6e5b6129103f1fa5",
+      "ledger": "scene_b/review.json",
+      "full_frame_screened": 680,
+      "any_region_screened": 680,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          679
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ]
+    },
+    {
+      "video": "X-17",
+      "source_video": "X-17",
+      "frame_count": 442,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "0378b8026b2e6afd1775a5d0fdd12dd09c491785b626e9c20428f7dc6bd59364",
+      "ledger": "scene_b/review.json",
+      "full_frame_screened": 442,
+      "any_region_screened": 442,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          441
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ]
+    },
+    {
+      "video": "X-18",
+      "source_video": "X-18",
+      "frame_count": 676,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "90607b0b0cb772fcf29b0c7e0e56fa6af36da6fac0efe93b8a616b5de94a156c",
+      "ledger": "scene_b/review.json",
+      "full_frame_screened": 676,
+      "any_region_screened": 676,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          675
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ]
+    },
+    {
+      "video": "X-19",
+      "source_video": "X-19",
+      "frame_count": 1720,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "16065504b21260bff18698c7bbf048ffa356c9de43d43b92643b6c2eddedac0f",
+      "ledger": "scene_b/review.json",
+      "full_frame_screened": 1720,
+      "any_region_screened": 1720,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          1719
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ]
+    },
+    {
+      "video": "X-20",
+      "source_video": "X-20",
+      "frame_count": 349,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "7e585e33517f7258bd2d1ed3e139556609bc997bb07b78355555060ef193b77a",
+      "ledger": "scene_b/review.json",
+      "full_frame_screened": 349,
+      "any_region_screened": 349,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          348
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ]
+    },
+    {
+      "video": "X-21",
+      "source_video": "X-21",
+      "frame_count": 585,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "efd876a04224cac781ac64bf5d6e107ded67340b7b7715fd9ca3408b240a1075",
+      "ledger": "scene_b/review.json",
+      "full_frame_screened": 585,
+      "any_region_screened": 585,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          584
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ]
+    },
+    {
+      "video": "X-22",
+      "source_video": "X-22",
+      "frame_count": 628,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "c9a30d44907e4a41b3a8ccf101774cd2e0804de20927bfbc9e1ccba1f2326b78",
+      "ledger": "scene_b/review.json",
+      "full_frame_screened": 628,
+      "any_region_screened": 628,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          627
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ]
+    },
+    {
+      "video": "X-23",
+      "source_video": "X-23",
+      "frame_count": 545,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "b637677ef5a7f0fa54d9f116ce6493cf74a4c99b8149a9c9916b96ef257535bd",
+      "ledger": "scene_b/review.json",
+      "full_frame_screened": 545,
+      "any_region_screened": 545,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          544
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ]
+    },
+    {
+      "video": "X-24",
+      "source_video": "X-24",
+      "frame_count": 441,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "c175a683749401d5a9ecf6f1c188b64fa8a09543f41482c1e4eb2232255715d3",
+      "ledger": "scene_b/review.json",
+      "full_frame_screened": 441,
+      "any_region_screened": 441,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          440
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ]
+    },
+    {
+      "video": "X-25",
+      "source_video": "X-25",
+      "frame_count": 950,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "901f61cf1a1b8754dda56466308c19fc203a1a4c0e85d1e7827849d34e2d52f0",
+      "ledger": "scene_b/review.json",
+      "full_frame_screened": 950,
+      "any_region_screened": 950,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          949
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ]
+    },
+    {
+      "video": "X-26",
+      "source_video": "X-26",
+      "frame_count": 592,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "e3a00b6e0f38b1d9b5498140f14906c71e204359262a90ce7a9974d64bf081e9",
+      "ledger": "scene_b/review.json",
+      "full_frame_screened": 592,
+      "any_region_screened": 592,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          591
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ]
+    },
+    {
+      "video": "X-27",
+      "source_video": "X-27",
+      "frame_count": 791,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "d3d21494d74e40a7586fe4f6164e515f6621a2d413538c4e15c67d394e85fc2d",
+      "ledger": "scene_b/review.json",
+      "full_frame_screened": 791,
+      "any_region_screened": 791,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          790
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Independent native measurement of every object on every frame was not performed; geometry between inspected keys is timestamp-interpolated."
+      ]
+    },
+    {
+      "video": "X-28",
+      "source_video": "X-28",
+      "frame_count": 492,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "d15ef04bcfae571bd2d7fc4e4d709ba595ae19f44136a43e7277f17e7b6e5b6d",
+      "ledger": "scene_c/review.json",
+      "full_frame_screened": 492,
+      "any_region_screened": 492,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          491
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-29",
+      "source_video": "X-29",
+      "frame_count": 515,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "b9bfb76ac8ea47eb368fc78a2f6370e4d98e79185972f63cf301ee22f12b5941",
+      "ledger": "scene_c/review.json",
+      "full_frame_screened": 515,
+      "any_region_screened": 515,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          514
+        ]
+      ],
+      "full_frame_remaining_intervals": [],
+      "full_frame_screening_complete": true,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-30",
+      "source_video": "X-30",
+      "frame_count": 562,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "05af66ce27b83d7c10c5d33b6f1847ec042c01ed21afdcbd43a13abcefd28199",
+      "ledger": "scene_c/review.json",
+      "full_frame_screened": 109,
+      "any_region_screened": 109,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          95
+        ],
+        [
+          112,
+          112
+        ],
+        [
+          150,
+          150
+        ],
+        [
+          187,
+          187
+        ],
+        [
+          224,
+          224
+        ],
+        [
+          262,
+          262
+        ],
+        [
+          299,
+          299
+        ],
+        [
+          337,
+          337
+        ],
+        [
+          374,
+          374
+        ],
+        [
+          411,
+          411
+        ],
+        [
+          449,
+          449
+        ],
+        [
+          486,
+          486
+        ],
+        [
+          524,
+          524
+        ],
+        [
+          561,
+          561
+        ]
+      ],
+      "full_frame_remaining_intervals": [
+        [
+          96,
+          111
+        ],
+        [
+          113,
+          149
+        ],
+        [
+          151,
+          186
+        ],
+        [
+          188,
+          223
+        ],
+        [
+          225,
+          261
+        ],
+        [
+          263,
+          298
+        ],
+        [
+          300,
+          336
+        ],
+        [
+          338,
+          373
+        ],
+        [
+          375,
+          410
+        ],
+        [
+          412,
+          448
+        ],
+        [
+          450,
+          485
+        ],
+        [
+          487,
+          523
+        ],
+        [
+          525,
+          560
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-31",
+      "source_video": "X-31",
+      "frame_count": 711,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "6a9fa7dd2e6db4cbe57f3c96a6cb256f23c04aa4e6fd44622fdf5de662cc0649",
+      "ledger": "scene_c/review.json",
+      "full_frame_screened": 16,
+      "any_region_screened": 117,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          0
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          95,
+          95
+        ],
+        [
+          142,
+          142
+        ],
+        [
+          189,
+          189
+        ],
+        [
+          237,
+          237
+        ],
+        [
+          284,
+          284
+        ],
+        [
+          331,
+          331
+        ],
+        [
+          379,
+          379
+        ],
+        [
+          426,
+          426
+        ],
+        [
+          473,
+          473
+        ],
+        [
+          521,
+          521
+        ],
+        [
+          568,
+          568
+        ],
+        [
+          615,
+          615
+        ],
+        [
+          663,
+          663
+        ],
+        [
+          710,
+          710
+        ]
+      ],
+      "full_frame_remaining_intervals": [
+        [
+          1,
+          46
+        ],
+        [
+          48,
+          94
+        ],
+        [
+          96,
+          141
+        ],
+        [
+          143,
+          188
+        ],
+        [
+          190,
+          236
+        ],
+        [
+          238,
+          283
+        ],
+        [
+          285,
+          330
+        ],
+        [
+          332,
+          378
+        ],
+        [
+          380,
+          425
+        ],
+        [
+          427,
+          472
+        ],
+        [
+          474,
+          520
+        ],
+        [
+          522,
+          567
+        ],
+        [
+          569,
+          614
+        ],
+        [
+          616,
+          662
+        ],
+        [
+          664,
+          709
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-32",
+      "source_video": "X-32",
+      "frame_count": 637,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "bcc277cbf1a36245156b2bb9a0e0b826432390b42040c0b82201a8c21ab23ce9",
+      "ledger": "scene_c/review.json",
+      "full_frame_screened": 16,
+      "any_region_screened": 70,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          0
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          85,
+          85
+        ],
+        [
+          127,
+          127
+        ],
+        [
+          170,
+          170
+        ],
+        [
+          212,
+          212
+        ],
+        [
+          254,
+          254
+        ],
+        [
+          297,
+          297
+        ],
+        [
+          339,
+          339
+        ],
+        [
+          382,
+          382
+        ],
+        [
+          424,
+          424
+        ],
+        [
+          466,
+          466
+        ],
+        [
+          509,
+          509
+        ],
+        [
+          551,
+          551
+        ],
+        [
+          594,
+          594
+        ],
+        [
+          636,
+          636
+        ]
+      ],
+      "full_frame_remaining_intervals": [
+        [
+          1,
+          41
+        ],
+        [
+          43,
+          84
+        ],
+        [
+          86,
+          126
+        ],
+        [
+          128,
+          169
+        ],
+        [
+          171,
+          211
+        ],
+        [
+          213,
+          253
+        ],
+        [
+          255,
+          296
+        ],
+        [
+          298,
+          338
+        ],
+        [
+          340,
+          381
+        ],
+        [
+          383,
+          423
+        ],
+        [
+          425,
+          465
+        ],
+        [
+          467,
+          508
+        ],
+        [
+          510,
+          550
+        ],
+        [
+          552,
+          593
+        ],
+        [
+          595,
+          635
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-33",
+      "source_video": "X-33",
+      "frame_count": 430,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "209e8aaca88df59064e5f28b3bcc489fee3eea9eb920889b69c03c83d52430c6",
+      "ledger": "scene_c/review.json",
+      "full_frame_screened": 16,
+      "any_region_screened": 84,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          0
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          86,
+          86
+        ],
+        [
+          114,
+          114
+        ],
+        [
+          143,
+          143
+        ],
+        [
+          172,
+          172
+        ],
+        [
+          200,
+          200
+        ],
+        [
+          229,
+          229
+        ],
+        [
+          257,
+          257
+        ],
+        [
+          286,
+          286
+        ],
+        [
+          315,
+          315
+        ],
+        [
+          343,
+          343
+        ],
+        [
+          372,
+          372
+        ],
+        [
+          400,
+          400
+        ],
+        [
+          429,
+          429
+        ]
+      ],
+      "full_frame_remaining_intervals": [
+        [
+          1,
+          28
+        ],
+        [
+          30,
+          56
+        ],
+        [
+          58,
+          85
+        ],
+        [
+          87,
+          113
+        ],
+        [
+          115,
+          142
+        ],
+        [
+          144,
+          171
+        ],
+        [
+          173,
+          199
+        ],
+        [
+          201,
+          228
+        ],
+        [
+          230,
+          256
+        ],
+        [
+          258,
+          285
+        ],
+        [
+          287,
+          314
+        ],
+        [
+          316,
+          342
+        ],
+        [
+          344,
+          371
+        ],
+        [
+          373,
+          399
+        ],
+        [
+          401,
+          428
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-34",
+      "source_video": "X-34",
+      "frame_count": 530,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "f3e351bea71150f4e8c76e2c8f0656a4e92063319d7cd39e264078c5ba9139c3",
+      "ledger": "scene_c/review.json",
+      "full_frame_screened": 16,
+      "any_region_screened": 123,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          0
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          71,
+          71
+        ],
+        [
+          106,
+          106
+        ],
+        [
+          141,
+          141
+        ],
+        [
+          176,
+          176
+        ],
+        [
+          212,
+          212
+        ],
+        [
+          247,
+          247
+        ],
+        [
+          282,
+          282
+        ],
+        [
+          317,
+          317
+        ],
+        [
+          353,
+          353
+        ],
+        [
+          388,
+          388
+        ],
+        [
+          423,
+          423
+        ],
+        [
+          458,
+          458
+        ],
+        [
+          494,
+          494
+        ],
+        [
+          529,
+          529
+        ]
+      ],
+      "full_frame_remaining_intervals": [
+        [
+          1,
+          34
+        ],
+        [
+          36,
+          70
+        ],
+        [
+          72,
+          105
+        ],
+        [
+          107,
+          140
+        ],
+        [
+          142,
+          175
+        ],
+        [
+          177,
+          211
+        ],
+        [
+          213,
+          246
+        ],
+        [
+          248,
+          281
+        ],
+        [
+          283,
+          316
+        ],
+        [
+          318,
+          352
+        ],
+        [
+          354,
+          387
+        ],
+        [
+          389,
+          422
+        ],
+        [
+          424,
+          457
+        ],
+        [
+          459,
+          493
+        ],
+        [
+          495,
+          528
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-35",
+      "source_video": "X-35",
+      "frame_count": 1700,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "26430119e074d6f0eb5dbc7ec3e26bbc31cf18903265bb4372bd7d7104908640",
+      "ledger": "scene_c/review.json",
+      "full_frame_screened": 16,
+      "any_region_screened": 47,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          0
+        ],
+        [
+          113,
+          113
+        ],
+        [
+          227,
+          227
+        ],
+        [
+          340,
+          340
+        ],
+        [
+          453,
+          453
+        ],
+        [
+          566,
+          566
+        ],
+        [
+          680,
+          680
+        ],
+        [
+          793,
+          793
+        ],
+        [
+          906,
+          906
+        ],
+        [
+          1019,
+          1019
+        ],
+        [
+          1133,
+          1133
+        ],
+        [
+          1246,
+          1246
+        ],
+        [
+          1359,
+          1359
+        ],
+        [
+          1472,
+          1472
+        ],
+        [
+          1586,
+          1586
+        ],
+        [
+          1699,
+          1699
+        ]
+      ],
+      "full_frame_remaining_intervals": [
+        [
+          1,
+          112
+        ],
+        [
+          114,
+          226
+        ],
+        [
+          228,
+          339
+        ],
+        [
+          341,
+          452
+        ],
+        [
+          454,
+          565
+        ],
+        [
+          567,
+          679
+        ],
+        [
+          681,
+          792
+        ],
+        [
+          794,
+          905
+        ],
+        [
+          907,
+          1018
+        ],
+        [
+          1020,
+          1132
+        ],
+        [
+          1134,
+          1245
+        ],
+        [
+          1247,
+          1358
+        ],
+        [
+          1360,
+          1471
+        ],
+        [
+          1473,
+          1585
+        ],
+        [
+          1587,
+          1698
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-37",
+      "source_video": "X-37",
+      "frame_count": 473,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "ac4cf04844c0aa08a5e19f5f7fe984f1477943294922d6ef77bdc5b88b97160e",
+      "ledger": "scene_c/review.json",
+      "full_frame_screened": 16,
+      "any_region_screened": 40,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          0
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          63,
+          63
+        ],
+        [
+          94,
+          94
+        ],
+        [
+          126,
+          126
+        ],
+        [
+          157,
+          157
+        ],
+        [
+          189,
+          189
+        ],
+        [
+          220,
+          220
+        ],
+        [
+          252,
+          252
+        ],
+        [
+          283,
+          283
+        ],
+        [
+          315,
+          315
+        ],
+        [
+          346,
+          346
+        ],
+        [
+          378,
+          378
+        ],
+        [
+          409,
+          409
+        ],
+        [
+          441,
+          441
+        ],
+        [
+          472,
+          472
+        ]
+      ],
+      "full_frame_remaining_intervals": [
+        [
+          1,
+          30
+        ],
+        [
+          32,
+          62
+        ],
+        [
+          64,
+          93
+        ],
+        [
+          95,
+          125
+        ],
+        [
+          127,
+          156
+        ],
+        [
+          158,
+          188
+        ],
+        [
+          190,
+          219
+        ],
+        [
+          221,
+          251
+        ],
+        [
+          253,
+          282
+        ],
+        [
+          284,
+          314
+        ],
+        [
+          316,
+          345
+        ],
+        [
+          347,
+          377
+        ],
+        [
+          379,
+          408
+        ],
+        [
+          410,
+          440
+        ],
+        [
+          442,
+          471
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-38",
+      "source_video": "X-38",
+      "frame_count": 1767,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "5a6f6a13ef88191ec1d9a2a303f1be74d16aa3381a57aaadba8850aac715ff10",
+      "ledger": "scene_c/review.json",
+      "full_frame_screened": 16,
+      "any_region_screened": 40,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          0
+        ],
+        [
+          118,
+          118
+        ],
+        [
+          235,
+          235
+        ],
+        [
+          353,
+          353
+        ],
+        [
+          471,
+          471
+        ],
+        [
+          589,
+          589
+        ],
+        [
+          706,
+          706
+        ],
+        [
+          824,
+          824
+        ],
+        [
+          942,
+          942
+        ],
+        [
+          1060,
+          1060
+        ],
+        [
+          1177,
+          1177
+        ],
+        [
+          1295,
+          1295
+        ],
+        [
+          1413,
+          1413
+        ],
+        [
+          1531,
+          1531
+        ],
+        [
+          1648,
+          1648
+        ],
+        [
+          1766,
+          1766
+        ]
+      ],
+      "full_frame_remaining_intervals": [
+        [
+          1,
+          117
+        ],
+        [
+          119,
+          234
+        ],
+        [
+          236,
+          352
+        ],
+        [
+          354,
+          470
+        ],
+        [
+          472,
+          588
+        ],
+        [
+          590,
+          705
+        ],
+        [
+          707,
+          823
+        ],
+        [
+          825,
+          941
+        ],
+        [
+          943,
+          1059
+        ],
+        [
+          1061,
+          1176
+        ],
+        [
+          1178,
+          1294
+        ],
+        [
+          1296,
+          1412
+        ],
+        [
+          1414,
+          1530
+        ],
+        [
+          1532,
+          1647
+        ],
+        [
+          1649,
+          1765
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-39",
+      "source_video": "X-39",
+      "frame_count": 2359,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "deeeee54539fb894b17447296bd7f0807b9dc662bad9af4dcd27f4fbdd677187",
+      "ledger": "scene_c/review.json",
+      "full_frame_screened": 16,
+      "any_region_screened": 16,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          0
+        ],
+        [
+          157,
+          157
+        ],
+        [
+          314,
+          314
+        ],
+        [
+          472,
+          472
+        ],
+        [
+          629,
+          629
+        ],
+        [
+          786,
+          786
+        ],
+        [
+          943,
+          943
+        ],
+        [
+          1100,
+          1100
+        ],
+        [
+          1258,
+          1258
+        ],
+        [
+          1415,
+          1415
+        ],
+        [
+          1572,
+          1572
+        ],
+        [
+          1729,
+          1729
+        ],
+        [
+          1886,
+          1886
+        ],
+        [
+          2044,
+          2044
+        ],
+        [
+          2201,
+          2201
+        ],
+        [
+          2358,
+          2358
+        ]
+      ],
+      "full_frame_remaining_intervals": [
+        [
+          1,
+          156
+        ],
+        [
+          158,
+          313
+        ],
+        [
+          315,
+          471
+        ],
+        [
+          473,
+          628
+        ],
+        [
+          630,
+          785
+        ],
+        [
+          787,
+          942
+        ],
+        [
+          944,
+          1099
+        ],
+        [
+          1101,
+          1257
+        ],
+        [
+          1259,
+          1414
+        ],
+        [
+          1416,
+          1571
+        ],
+        [
+          1573,
+          1728
+        ],
+        [
+          1730,
+          1885
+        ],
+        [
+          1887,
+          2043
+        ],
+        [
+          2045,
+          2200
+        ],
+        [
+          2202,
+          2357
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-40",
+      "source_video": "X-40",
+      "frame_count": 755,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "6a81739ced0efdcd4a4feb76ea16562a20ceb53a2232a801528716c450366c9f",
+      "ledger": "scene_c/review.json",
+      "full_frame_screened": 16,
+      "any_region_screened": 67,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          0
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          101,
+          101
+        ],
+        [
+          151,
+          151
+        ],
+        [
+          201,
+          201
+        ],
+        [
+          251,
+          251
+        ],
+        [
+          302,
+          302
+        ],
+        [
+          352,
+          352
+        ],
+        [
+          402,
+          402
+        ],
+        [
+          452,
+          452
+        ],
+        [
+          503,
+          503
+        ],
+        [
+          553,
+          553
+        ],
+        [
+          603,
+          603
+        ],
+        [
+          653,
+          653
+        ],
+        [
+          704,
+          704
+        ],
+        [
+          754,
+          754
+        ]
+      ],
+      "full_frame_remaining_intervals": [
+        [
+          1,
+          49
+        ],
+        [
+          51,
+          100
+        ],
+        [
+          102,
+          150
+        ],
+        [
+          152,
+          200
+        ],
+        [
+          202,
+          250
+        ],
+        [
+          252,
+          301
+        ],
+        [
+          303,
+          351
+        ],
+        [
+          353,
+          401
+        ],
+        [
+          403,
+          451
+        ],
+        [
+          453,
+          502
+        ],
+        [
+          504,
+          552
+        ],
+        [
+          554,
+          602
+        ],
+        [
+          604,
+          652
+        ],
+        [
+          654,
+          703
+        ],
+        [
+          705,
+          753
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-43",
+      "source_video": "X-43",
+      "frame_count": 699,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "39e28d7be01cdb090ede1881ce3ef704fa413271deb69d6735c1953f340d6069",
+      "ledger": "scene_c/review.json",
+      "full_frame_screened": 16,
+      "any_region_screened": 125,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          0
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          93,
+          93
+        ],
+        [
+          140,
+          140
+        ],
+        [
+          186,
+          186
+        ],
+        [
+          233,
+          233
+        ],
+        [
+          279,
+          279
+        ],
+        [
+          326,
+          326
+        ],
+        [
+          372,
+          372
+        ],
+        [
+          419,
+          419
+        ],
+        [
+          465,
+          465
+        ],
+        [
+          512,
+          512
+        ],
+        [
+          558,
+          558
+        ],
+        [
+          605,
+          605
+        ],
+        [
+          651,
+          651
+        ],
+        [
+          698,
+          698
+        ]
+      ],
+      "full_frame_remaining_intervals": [
+        [
+          1,
+          46
+        ],
+        [
+          48,
+          92
+        ],
+        [
+          94,
+          139
+        ],
+        [
+          141,
+          185
+        ],
+        [
+          187,
+          232
+        ],
+        [
+          234,
+          278
+        ],
+        [
+          280,
+          325
+        ],
+        [
+          327,
+          371
+        ],
+        [
+          373,
+          418
+        ],
+        [
+          420,
+          464
+        ],
+        [
+          466,
+          511
+        ],
+        [
+          513,
+          557
+        ],
+        [
+          559,
+          604
+        ],
+        [
+          606,
+          650
+        ],
+        [
+          652,
+          697
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-44",
+      "source_video": "X-44",
+      "frame_count": 612,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "9774ed882153af3ba1a7e71c9b9249619e2b3a97ae336aad6143369802ca3522",
+      "ledger": "scene_c/review.json",
+      "full_frame_screened": 16,
+      "any_region_screened": 51,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          0
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          81,
+          81
+        ],
+        [
+          122,
+          122
+        ],
+        [
+          163,
+          163
+        ],
+        [
+          204,
+          204
+        ],
+        [
+          244,
+          244
+        ],
+        [
+          285,
+          285
+        ],
+        [
+          326,
+          326
+        ],
+        [
+          367,
+          367
+        ],
+        [
+          407,
+          407
+        ],
+        [
+          448,
+          448
+        ],
+        [
+          489,
+          489
+        ],
+        [
+          530,
+          530
+        ],
+        [
+          570,
+          570
+        ],
+        [
+          611,
+          611
+        ]
+      ],
+      "full_frame_remaining_intervals": [
+        [
+          1,
+          40
+        ],
+        [
+          42,
+          80
+        ],
+        [
+          82,
+          121
+        ],
+        [
+          123,
+          162
+        ],
+        [
+          164,
+          203
+        ],
+        [
+          205,
+          243
+        ],
+        [
+          245,
+          284
+        ],
+        [
+          286,
+          325
+        ],
+        [
+          327,
+          366
+        ],
+        [
+          368,
+          406
+        ],
+        [
+          408,
+          447
+        ],
+        [
+          449,
+          488
+        ],
+        [
+          490,
+          529
+        ],
+        [
+          531,
+          569
+        ],
+        [
+          571,
+          610
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-45",
+      "source_video": "X-45",
+      "frame_count": 996,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "524bf9ff2d5e81211dbbeff73129dbb5f3a5e5e35a64f443f53e16b1c2d471c7",
+      "ledger": "scene_c/review.json",
+      "full_frame_screened": 16,
+      "any_region_screened": 16,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          0
+        ],
+        [
+          66,
+          66
+        ],
+        [
+          133,
+          133
+        ],
+        [
+          199,
+          199
+        ],
+        [
+          265,
+          265
+        ],
+        [
+          332,
+          332
+        ],
+        [
+          398,
+          398
+        ],
+        [
+          464,
+          464
+        ],
+        [
+          531,
+          531
+        ],
+        [
+          597,
+          597
+        ],
+        [
+          663,
+          663
+        ],
+        [
+          730,
+          730
+        ],
+        [
+          796,
+          796
+        ],
+        [
+          862,
+          862
+        ],
+        [
+          929,
+          929
+        ],
+        [
+          995,
+          995
+        ]
+      ],
+      "full_frame_remaining_intervals": [
+        [
+          1,
+          65
+        ],
+        [
+          67,
+          132
+        ],
+        [
+          134,
+          198
+        ],
+        [
+          200,
+          264
+        ],
+        [
+          266,
+          331
+        ],
+        [
+          333,
+          397
+        ],
+        [
+          399,
+          463
+        ],
+        [
+          465,
+          530
+        ],
+        [
+          532,
+          596
+        ],
+        [
+          598,
+          662
+        ],
+        [
+          664,
+          729
+        ],
+        [
+          731,
+          795
+        ],
+        [
+          797,
+          861
+        ],
+        [
+          863,
+          928
+        ],
+        [
+          930,
+          994
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-46",
+      "source_video": "X-46",
+      "frame_count": 572,
+      "duplicate_evidence_inherited": false,
+      "source_sha256": "66fc5d28c2371592f9260305589bdc86636fdd2ebe7a7ec976eec00a23d43df4",
+      "ledger": "scene_c/review.json",
+      "full_frame_screened": 16,
+      "any_region_screened": 16,
+      "full_frame_screened_intervals": [
+        [
+          0,
+          0
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          76,
+          76
+        ],
+        [
+          114,
+          114
+        ],
+        [
+          152,
+          152
+        ],
+        [
+          190,
+          190
+        ],
+        [
+          228,
+          228
+        ],
+        [
+          266,
+          266
+        ],
+        [
+          305,
+          305
+        ],
+        [
+          343,
+          343
+        ],
+        [
+          381,
+          381
+        ],
+        [
+          419,
+          419
+        ],
+        [
+          457,
+          457
+        ],
+        [
+          495,
+          495
+        ],
+        [
+          533,
+          533
+        ],
+        [
+          571,
+          571
+        ]
+      ],
+      "full_frame_remaining_intervals": [
+        [
+          1,
+          37
+        ],
+        [
+          39,
+          75
+        ],
+        [
+          77,
+          113
+        ],
+        [
+          115,
+          151
+        ],
+        [
+          153,
+          189
+        ],
+        [
+          191,
+          227
+        ],
+        [
+          229,
+          265
+        ],
+        [
+          267,
+          304
+        ],
+        [
+          306,
+          342
+        ],
+        [
+          344,
+          380
+        ],
+        [
+          382,
+          418
+        ],
+        [
+          420,
+          456
+        ],
+        [
+          458,
+          494
+        ],
+        [
+          496,
+          532
+        ],
+        [
+          534,
+          570
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    },
+    {
+      "video": "X-47",
+      "source_video": "X-4",
+      "frame_count": 2177,
+      "duplicate_evidence_inherited": true,
+      "source_sha256": "5385be9420e6a70547d6bcfd0b13d60f9c0738877645afa277d09550a96b8445",
+      "ledger": "scene_a/review.json",
+      "full_frame_screened": 1409,
+      "any_region_screened": 2177,
+      "full_frame_screened_intervals": [
+        [
+          768,
+          2176
+        ]
+      ],
+      "full_frame_remaining_intervals": [
+        [
+          0,
+          767
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": [
+        "Doorway reflected client boxes at1528–1539 (tracks17/20/24) and1760–1766 (track29) incorrectly remain person; review their full intervals before patching.",
+        "Track17 tail1608–1619 may be fully vanished reflection; exact last visible pixel needs tighter crop. Track14 transition1580–1589 straddles doorway/fixed-glass boundary; retained person pending precise boundary review. Reflection25 bbox should tighten as body is occluded at1609–1613."
+      ]
+    },
+    {
+      "video": "X-48",
+      "source_video": "X-5",
+      "frame_count": 2145,
+      "duplicate_evidence_inherited": true,
+      "source_sha256": "1f5840bff58f298e89c4afa00cb1c18f6dafc5c4096c251d9b507604ebefe906",
+      "ledger": "scene_a/review.json",
+      "full_frame_screened": 0,
+      "any_region_screened": 259,
+      "full_frame_screened_intervals": [],
+      "full_frame_remaining_intervals": [
+        [
+          0,
+          2144
+        ]
+      ],
+      "full_frame_screening_complete": false,
+      "all_object_geometry_validated": false,
+      "unresolved": []
+    }
+  ]
+}

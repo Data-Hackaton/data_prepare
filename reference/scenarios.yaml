@@ -2,35 +2,44 @@
 # Шаг: action + actor (+ object, target). required: false — шаг бывает не в каждом экземпляре.
 # Порядок шагов в экземпляре должен совпадать с порядком в шаблоне (пропуски необязательных допустимы, повторы — тоже).
 # Инварианты проверяются на каждом экземпляре сценария; это кандидаты в правила decision.
+# norm — id из norms.yaml; null — норматив не подтверждён, в отчёт без ссылки не выводим.
 
 vocabulary:
   actors: [cashier, client, collector]
-  objects: [banknotes, id_card, bag, phone, document]
+  objects: [banknotes, id_card, bag, phone, document, foreign_object, computer]
   targets: [cash_machine, safe, safe_top, bag, desk, client, cashier, door]
   actions:
     person_enter: человек входит в комнату через дверь
     person_leave: человек выходит из комнаты
     give: передаёт предмет через стол (object → target)
     inspect: рассматривает предмет, подняв к глазам
-    put: кладёт предмет (object → target)
-    take: берёт предмет (object ← target)
+    put: кладёт предмет (object → target); put … target desk — «положил на стол», должно быть «убрал»
+    take: берёт предмет (object ← target); take … target desk — «убрал со стола»
     sort_banknotes: раскладывает купюры по стопкам на столе
+    count_by_hand: пересчитывает купюры руками
     safe_open: открывает дверцу сейфа
     safe_close: закрывает дверцу сейфа
     open_bag: вскрывает инкассаторскую сумку
-    use_laptop: работает за ноутбуком
+    use_laptop: работает за компьютером
+    screen_lock: блокирует экран или закрывает ноутбук
     paperwork: оформляет бумаги на столе
     phone_call: говорит по мобильному телефону
     lights_off: выключает свет
+    split_bundle: делит одну пачку на две части (в руках была одна пачка — стало две)
+    keep: оставляет деньги при себе — не в машинку, не в сейф, не клиенту
 
 scenarios:
   client_service:
     title: Обслуживание клиента — приём или выдача наличных
     steps:
       - {action: person_enter, actor: client, required: true}
-      - {action: give, actor: client, object: [id_card, banknotes, document], target: cashier, required: false}
+      - {action: give, actor: client, object: [id_card, document], target: cashier, required: false}
       - {action: inspect, actor: cashier, object: id_card, required: false}
+      - {action: give, actor: client, object: banknotes, target: cashier, required: false}
       - {action: put, actor: cashier, object: banknotes, target: cash_machine, required: false}
+      - {action: take, actor: cashier, object: banknotes, target: cash_machine, required: false}
+      - {action: put, actor: cashier, object: banknotes, target: desk, required: false}
+      - {action: take, actor: cashier, object: banknotes, target: desk, required: false}
       - {action: use_laptop, actor: cashier, required: false}
       - {action: paperwork, actor: cashier, required: false}
       - {action: safe_open, actor: cashier, required: false}
@@ -40,9 +49,14 @@ scenarios:
       - {action: give, actor: cashier, object: [banknotes, id_card, document], target: client, required: false}
       - {action: person_leave, actor: client, required: false}
     invariants:
-      - {kind: max_duration, from: safe_open, to: safe_close, sec: 20, why: сейф открыт только на время закладки или выемки; в эталоне до ~11 с}
-      - {kind: before, first: safe_close, then: {action: person_leave, actor: client}, why: клиент уходит при закрытом сейфе}
-      - {kind: before, first: {action: put, target: cash_machine}, then: {action: put, target: safe}, why: деньги идут в сейф после машинки}
+      - {kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, why: сейф открыт только на время закладки или выемки; в эталоне до ~11 с}
+      - {kind: before, first: safe_close, then: {action: person_leave, actor: client}, norm: null, why: клиент уходит при закрытом сейфе}
+      - {kind: before, first: {action: put, target: cash_machine}, then: {action: put, target: safe}, norm: null, why: деньги идут в сейф после машинки}
+      - {kind: forbidden, action: split_bundle, norm: null, why: при клиенте пачку целиком отдают или кладут в сейф; по стопкам раскладывают только без посетителей (X-1)}
+      - {kind: forbidden, action: keep, norm: null, why: деньги не остаются у кассира (X-1)}
+      - {kind: forbidden_after, after: {action: person_leave, actor: client}, action: {action: put, object: banknotes, target: cash_machine}, norm: n231_p20, why: деньги пересчитываются в присутствии клиента (X-34)}
+      - {kind: forbidden_after, after: {action: person_leave, actor: client}, action: count_by_hand, norm: n231_p20, why: деньги пересчитываются в присутствии клиента}
+      - {kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, why: личные вещи хранятся вне кассового узла}
 
   collection:
     title: Инкассация — передача и вскрытие сумок
@@ -60,8 +74,10 @@ scenarios:
       - {action: safe_close, actor: cashier, required: false}
       - {action: use_laptop, actor: cashier, required: false}
     invariants:
-      - {kind: max_duration, from: safe_open, to: safe_close, sec: 20, why: сейф открыт только на время закладки; в эталоне до ~11 с}
-      - {kind: before, first: {action: put, target: cash_machine}, then: {action: put, target: safe}, why: пачки идут в сейф после пересчёта}
+      - {kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, why: сейф открыт только на время закладки; в эталоне до ~11 с}
+      - {kind: forbidden, action: keep, norm: null, why: деньги не остаются у кассира}
+      - {kind: before, first: {action: put, target: cash_machine}, then: {action: put, target: safe}, norm: null, why: пачки идут в сейф после пересчёта}
+      - {kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, why: личные вещи хранятся вне кассового узла}
 
   cash_handling:
     title: Работа с наличностью без посетителей
@@ -75,7 +91,9 @@ scenarios:
       - {action: paperwork, actor: cashier, required: false}
       - {action: use_laptop, actor: cashier, required: false}
     invariants:
-      - {kind: max_duration, from: safe_open, to: safe_close, sec: 20, why: сейф открыт только на время выемки; в эталоне до ~11 с}
+      - {kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, why: сейф открыт только на время выемки; в эталоне до ~11 с}
+      - {kind: forbidden, action: keep, norm: null, why: деньги не остаются у кассира}
+      - {kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, why: личные вещи хранятся вне кассового узла (X-40)}
 
   leave_workplace:
     title: Уход кассира с рабочего места
@@ -85,8 +103,31 @@ scenarios:
       - {action: safe_open, actor: cashier, required: false}
       - {action: put, actor: cashier, object: [banknotes, document], target: safe, required: false}
       - {action: safe_close, actor: cashier, required: false}
+      - {action: screen_lock, actor: cashier, required: false}
       - {action: lights_off, actor: cashier, required: false}
       - {action: person_leave, actor: cashier, required: true}
     invariants:
-      - {kind: before, first: safe_close, then: {action: person_leave, actor: cashier}, if_present: safe_open, why: кассир уходит при закрытом сейфе}
-      - {kind: max_duration, from: safe_open, to: safe_close, sec: 20, why: сейф открыт только на время закладки; в эталоне до ~11 с}
+      - {kind: before, first: safe_close, then: {action: person_leave, actor: cashier}, if_present: safe_open, norm: null, why: кассир уходит при закрытом сейфе}
+      - {kind: max_duration, from: safe_open, to: safe_close, sec: 20, norm: null, why: сейф открыт только на время закладки; в эталоне до ~11 с}
+      - {kind: forbidden, action: keep, norm: null, why: деньги не остаются у кассира}
+      - {kind: forbidden, action: {action: put, object: foreign_object, target: desk}, norm: n231_p12, why: личные вещи хранятся вне кассового узла}
+
+# Проверки через все экземпляры видео подряд.
+video_invariants:
+  # «Положил — убрал»: всё, что положили на стол при одном клиенте, убирают до следующего клиента.
+  # Срабатывает в момент, когда приходит следующий клиент или кладутся его деньги, а деньги прошлого ещё на столе.
+  - kind: desk_carryover
+    object: banknotes
+    triggers:
+      - {action: person_enter, actor: client}
+      - {action: give, actor: client, object: banknotes}
+      - {action: put, object: banknotes, target: desk}
+    norm: n231_p20
+    why: на рабочем месте кассира только наличные текущего клиента, ранее принятые хранятся в сейфе (X-4, X-38)
+
+# Правила, которые ещё не проверяются на эталоне: нужен признак из L1 или подтверждённый норматив.
+pending_rules:
+  - id: unattended_session
+    what: кассир вышел, а на компьютере активная сессия (computer.screen = active в момент person_leave cashier)
+    norm: null  # «п.35(3)» — источник не подтверждён; в Правилах №231 п.35 про пересчёт денег клиентом
+    needs: состояние экрана из детектора (класс computer, атрибут screen) и проверка чистых видео ухода (X-12, X-23, X-25, X-27, X-29)

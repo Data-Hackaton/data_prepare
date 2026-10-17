@@ -18,5 +18,6 @@ COPY pyproject.toml uv.lock .python-version ./
 RUN uv sync --frozen --no-install-project
 COPY src ./src
 COPY reference ./reference
+COPY cvat ./cvat
 COPY tests ./tests
 RUN uv sync --frozen

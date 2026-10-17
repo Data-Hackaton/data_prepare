@@ -1,4 +1,4 @@
-from data_prepare.reference_actions import check_instance
+from data_prepare.reference_actions import check_instance, check_video
 
 SCENARIO = {
     "steps": [
@@ -66,3 +66,59 @@ def test_safe_left_open_too_long_and_leave_before_close():
     ])
     assert any("30 с > 20 с" in e for e in errors)
     assert any("safe_close после person_leave" in e for e in errors)
+
+
+def test_forbidden_after_counting_once_client_left():
+    scenario = {"steps": SCENARIO["steps"], "invariants": [
+        {"kind": "forbidden_after", "after": {"action": "person_leave", "actor": "client"},
+         "action": {"action": "put", "object": "banknotes", "target": "cash_machine"}, "norm": "n231_p20"},
+    ]}
+    errors, hits = [], []
+    check_instance("t", scenario, [
+        a(1, "person_enter", "client"),
+        a(5, "put", object="banknotes", target="cash_machine"),  # при клиенте — можно
+        a(12, "person_leave", "client"),
+        a(12.5, "put", object="banknotes", target="cash_machine"),  # после ухода — нельзя
+    ], errors, [], [], hits)
+    rules = [h for h in hits if h["rule"].startswith("forbidden_after")]
+    assert [h["t"] for h in rules] == [12.5]
+    assert rules[0]["norm"] == "n231_p20"
+
+
+def test_forbidden_selector_with_object():
+    scenario = {"steps": SCENARIO["steps"], "invariants": [
+        {"kind": "forbidden", "action": {"action": "put", "object": "foreign_object", "target": "desk"}, "norm": "n231_p12"},
+    ]}
+    errors, hits = [], []
+    check_instance("t", scenario, [
+        a(1, "person_enter", "client"),
+        a(2, "put", object="banknotes", target="desk"),
+        a(3, "put", object="foreign_object", target="desk"),
+    ], errors, [], [], hits)
+    assert [h["t"] for h in hits if h["rule"].startswith("forbidden")] == [3]
+
+
+CARRYOVER = [{"kind": "desk_carryover", "object": "banknotes", "norm": "n231_p20", "triggers": [
+    {"action": "person_enter", "actor": "client"},
+    {"action": "put", "object": "banknotes", "target": "desk"},
+]}]
+
+
+def test_desk_carryover_previous_client_money():
+    errors, hits = [], []
+    check_video("v", [
+        [a(1, "person_enter", "client"), a(5, "put", object="banknotes", target="desk"), a(8, "person_leave", "client")],
+        [a(12, "person_enter", "client"), a(15, "put", object="banknotes", target="desk")],
+    ], CARRYOVER, errors, hits)
+    assert [h["t"] for h in hits] == [12, 15]
+    assert all(h["norm"] == "n231_p20" for h in hits)
+
+
+def test_desk_carryover_cleared_before_next_client():
+    errors = []
+    check_video("v", [
+        [a(1, "person_enter", "client"), a(5, "put", object="banknotes", target="desk"),
+         a(7, "take", object="banknotes", target="desk"), a(8, "person_leave", "client")],
+        [a(12, "person_enter", "client")],
+    ], CARRYOVER, errors)
+    assert errors == []

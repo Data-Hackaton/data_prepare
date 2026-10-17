@@ -12,18 +12,20 @@ from pathlib import Path
 
 
 def render(video: Path, out_dir: Path, fps: float, cols: int, rows: int, width: int,
-           crop: str | None, suffix: str) -> list[Path]:
+           crop: str | None, suffix: str, start: float | None = None, end: float | None = None) -> list[Path]:
     filters = [f"fps={fps}"]
     if crop:
         filters.append(f"crop={crop}")
     filters += [
         f"scale={width}:-2",
-        f"drawtext=text='{video.stem} %{{pts\\:hms}}':x=4:y=4:fontsize=14:fontcolor=yellow:box=1:boxcolor=black@0.6",
+        # -ss перед -i обнуляет pts, поэтому время в подписи сдвигаем на начало окна
+        f"drawtext=text='{video.stem} %{{pts\\:hms\\:{start or 0}}}':x=4:y=4:fontsize=14:fontcolor=yellow:box=1:boxcolor=black@0.6",
         f"tile={cols}x{rows}:padding=2:color=white",
     ]
     pattern = out_dir / f"{video.stem}{suffix}_%02d.jpg"
+    window = (["-ss", str(start)] if start else []) + (["-t", str(end - (start or 0))] if end else [])
     subprocess.run(
-        ["ffmpeg", "-v", "error", "-y", "-i", str(video), "-vf", ",".join(filters),
+        ["ffmpeg", "-v", "error", "-y", *window, "-i", str(video), "-vf", ",".join(filters),
          "-q:v", "3", "-start_number", "1", str(pattern)],
         check=True,
     )
@@ -41,6 +43,8 @@ def main() -> None:
     ap.add_argument("--width", type=int, default=232, help="ширина одного кадра в раскадровке")
     ap.add_argument("--crop", help="x:y:w:h в пикселях исходного кадра")
     ap.add_argument("--suffix", default="", help="добавка к имени файла, например _desk")
+    ap.add_argument("--start", type=float, help="начало окна, с")
+    ap.add_argument("--end", type=float, help="конец окна, с")
     args = ap.parse_args()
 
     with (args.data / "labels.csv").open() as f:
@@ -54,5 +58,5 @@ def main() -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     for r in rows:
         pages = render(args.data / "videos" / f"{r['video']}.mov", out_dir, args.fps, args.cols, args.rows,
-                       args.width, args.crop, args.suffix)
+                       args.width, args.crop, args.suffix, args.start, args.end)
         print(f"{r['video']}: {len(pages)} стр.")

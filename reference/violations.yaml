@@ -1,0 +1,106 @@
+# Каталог нарушений по видео с меткой «нарушение» (source: reference_r0).
+# Журнал действий в том же формате, что actions.yaml. `reference-actions` проверяет, что шаблоны
+# сценариев (scenarios.yaml) ловят каждое нарушение: хотя бы один инвариант или шаг не по шаблону
+# должен сработать рядом с размеченной секундой. Если не ловит — шаблон надо дополнить.
+# confirmed: true — тип нарушения подтверждён человеком. label_t — секунда или список секунд (несколько эпизодов в видео).
+# norm — id из norms.yaml, его дал человек; без norm берётся норматив сработавшего правила (если есть).
+
+X-1:
+  scene: A
+  label_t: 22
+  type: Присвоение части наличных
+  description: >-
+    Кассир забирает пачку из счётной машинки, делит её на две части (была одна пачка — стало две),
+    одну часть отдаёт клиенту, вторую оставляет у себя внизу, у колен: ни в машинку, ни в сейф, ни клиенту.
+  confirmed: true
+  evidence: {split: [20.75, 21.75], give: [22.0, 23.0], keep: [23.0, 25.75]}
+  instances:
+    - scenario: client_service
+      actions:
+        - {t: 1, action: person_enter, actor: client}
+        - {t: 5.5, t_end: 6.5, action: give, actor: client, object: id_card, target: cashier}
+        - {t: 7, t_end: 8, action: inspect, actor: cashier, object: id_card}
+        - {t: 9.5, t_end: 10.5, action: give, actor: client, object: banknotes, target: cashier}
+        - {t: 14, t_end: 15, action: put, actor: cashier, object: banknotes, target: cash_machine}
+        - {t: 19, t_end: 19.75, action: take, actor: cashier, object: banknotes, target: cash_machine}
+        - {t: 20.75, t_end: 21.75, action: split_bundle, actor: cashier, object: banknotes}
+        - {t: 22, t_end: 23, action: give, actor: cashier, object: banknotes, target: client}
+        - {t: 23, t_end: 25.75, action: keep, actor: cashier, object: banknotes}
+
+X-4:  # X-47 — побайтная копия X-4: таймкоды 57 с (X-4) и 68 с (X-47) — два эпизода одного видео
+  scene: A
+  label_t: [57, 68]
+  type: Деньги предыдущего клиента на кассовом столе
+  description: >-
+    Первый клиент уходит, его пачка остаётся на столе; кассир лишь сдвигает её и не убирает в сейф.
+    Входит следующий клиент (57 с), передаёт свои деньги, и кассир кладёт их на стол рядом со старой пачкой (68 с).
+  norm: n231_p20
+  confirmed: true
+  evidence: {left_on_desk: [48, 56], next_client: [56.5, 59], mixed: [64.5, 71.5]}
+  instances:
+    - scenario: client_service
+      actions:
+        - {t: 44, t_end: 47, action: use_laptop, actor: cashier, certain: false}
+        - {t: 47.5, t_end: 48.5, action: give, actor: cashier, object: document, target: client, certain: false}
+        - {t: 48, action: put, actor: cashier, object: banknotes, target: desk, certain: false}
+        - {t: 50, t_end: 53, action: person_leave, actor: client}
+    - scenario: client_service
+      actions:
+        - {t: 56.5, action: person_enter, actor: client}
+        - {t: 61, action: give, actor: client, object: id_card, target: cashier}
+        - {t: 61.5, t_end: 63, action: inspect, actor: cashier, object: id_card}
+        - {t: 64.5, t_end: 65.5, action: give, actor: client, object: banknotes, target: cashier}
+        - {t: 66, action: put, actor: cashier, object: banknotes, target: desk}
+
+X-38:
+  scene: D
+  label_t: 33
+  type: Деньги предыдущего клиента на кассовом столе
+  description: >-
+    Клиент уходит (26 с), на столе остаются его деньги; входит следующий клиент (32–33 с), деньги всё ещё на столе.
+  norm: n231_p20
+  confirmed: true
+  evidence: {left_on_desk: [26, 40], next_client: [31, 36]}
+  instances:
+    - scenario: client_service
+      actions:
+        - {t: 24, action: put, actor: cashier, object: banknotes, target: desk, certain: false}
+        - {t: 26, t_end: 28, action: person_leave, actor: client}
+    - scenario: client_service
+      actions:
+        - {t: 32, t_end: 34, action: person_enter, actor: client}
+
+X-34:
+  scene: D
+  label_t: 13
+  type: Пересчёт наличных после ухода клиента
+  description: >-
+    Клиент передаёт деньги (7 с) и уходит (12–14 с); кассир кладёт их в счётную машинку уже после его ухода (12,5–15,5 с).
+  norm: n231_p20
+  confirmed: true
+  evidence: {client_leaves: [11, 14], counting: [12.5, 15.5]}
+  instances:
+    - scenario: client_service
+      actions:
+        - {t: 3, action: person_enter, actor: client}
+        - {t: 6.5, t_end: 7.5, action: give, actor: client, object: banknotes, target: cashier}
+        - {t: 12, t_end: 14, action: person_leave, actor: client}
+        - {t: 12.5, t_end: 15.5, action: put, actor: cashier, object: banknotes, target: cash_machine}
+
+X-40:
+  scene: E
+  label_t: 17
+  type: Личные вещи на кассовом столе
+  description: >-
+    Кассир входит в куртке и с сумкой, снимает куртку и кладёт её на кассовый стол (14 с), рядом — личную сумку (16 с);
+    вещи лежат на столе, пока кассир работает с машинкой.
+  norm: n231_p12
+  confirmed: true
+  evidence: {clothing_on_desk: [14, 24], bag_on_desk: [16, 24]}
+  instances:
+    - scenario: cash_handling
+      actions:
+        - {t: 2, t_end: 4, action: person_enter, actor: cashier}
+        - {t: 14, action: put, actor: cashier, object: foreign_object, target: desk}
+        - {t: 16, action: put, actor: cashier, object: foreign_object, target: desk, certain: false}
+        - {t: 20, t_end: 23, action: put, actor: cashier, object: banknotes, target: cash_machine, certain: false}

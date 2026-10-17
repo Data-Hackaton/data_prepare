@@ -1,0 +1,29 @@
+[
+  {"name": "person", "color": "#e6194b", "attributes": [
+    {"name": "role", "input_type": "select", "mutable": true,
+     "values": ["unknown", "cashier", "client", "collector"], "default_value": "unknown"}
+  ]},
+  {"name": "reflection", "color": "#808080", "attributes": []},
+  {"name": "hand", "color": "#3cb44b", "attributes": []},
+  {"name": "banknotes", "color": "#ffe119", "attributes": []},
+  {"name": "id_card", "color": "#4363d8", "attributes": []},
+  {"name": "cash_machine", "color": "#f58231", "attributes": []},
+  {"name": "safe", "color": "#911eb4", "attributes": [
+    {"name": "state", "input_type": "select", "mutable": true, "values": ["closed", "open"], "default_value": "closed"}
+  ]},
+  {"name": "door", "color": "#46f0f0", "attributes": [
+    {"name": "state", "input_type": "select", "mutable": true, "values": ["closed", "open"], "default_value": "closed"}
+  ]},
+  {"name": "phone", "color": "#f032e6", "attributes": []},
+  {"name": "bag", "color": "#bcf60c", "attributes": []},
+  {"name": "table", "color": "#9a6324", "attributes": []},
+  {"name": "foreign_object", "color": "#fabebe", "attributes": [
+    {"name": "kind", "input_type": "select", "mutable": true,
+     "values": ["other", "clothing", "personal_bag", "cup"], "default_value": "other"}
+  ]},
+  {"name": "computer", "color": "#008080", "attributes": [
+    {"name": "kind", "input_type": "select", "mutable": false, "values": ["laptop", "monitor"], "default_value": "laptop"},
+    {"name": "screen", "input_type": "select", "mutable": true,
+     "values": ["active", "locked", "off"], "default_value": "active"}
+  ]}
+]

@@ -65,6 +65,7 @@ EVENTS_SCHEMA = pa.schema([
     ("status", pa.string()),  # expected / warning / violation
     ("rules", pa.list_(pa.string())),
     ("norm", pa.string()),
+    ("title", pa.string()),  # тип нарушения для ответа жюри и интерфейса
     ("message", pa.string()),
     ("certain", pa.bool_()),
     ("source", pa.string()),
@@ -103,11 +104,11 @@ def check_instance(where: str, scenario: dict, actions: list[dict], errors: list
     записан не с начала, пропущенные обязательные шаги не считаются.
     """
     def flag(t: float, rule: str, message: str, target: list, action: dict | None = None,
-             severity: str = "warning", norm: str | None = None) -> None:
+             severity: str = "warning", norm: str | None = None, title: str | None = None) -> None:
         target.append(f"{where}: {message}")
         if hits is not None:
             hits.append({"t": t, "rule": rule, "message": message, "norm": norm, "severity": severity,
-                         "ref": None if action is None else id(action)})
+                         "title": title, "ref": None if action is None else id(action)})
 
     steps = scenario["steps"]
     pointer, assigned = 0, []
@@ -130,17 +131,17 @@ def check_instance(where: str, scenario: dict, actions: list[dict], errors: list
             flag(actions[0]["t"] if actions else 0, "required", f"нет обязательного шага {s['action']} ({s.get('actor', '')})", errors)
 
     for inv in scenario.get("invariants", []):
-        norm, severity = inv.get("norm"), rule_severity(inv)
+        norm, severity, title = inv.get("norm"), rule_severity(inv), inv.get("title")
         if inv["kind"] == "max_duration":
             for a in (x for x in actions if selector_matches(inv["from"], x)):
                 close = next((b for b in actions if selector_matches(inv["to"], b) and b["t"] >= a["t"]), None)
                 if close is None:
-                    flag(a["t"], "max_duration", f"{inv['from']} на {a['t']} с без {inv['to']}", errors, a, severity, norm)
+                    flag(a["t"], "max_duration", f"{inv['from']} на {a['t']} с без {inv['to']}", errors, a, severity, norm, title)
                     continue
                 duration = close["t"] - a["t"]
                 safe_durations.append(duration)
                 if duration > inv["sec"]:
-                    flag(a["t"], "max_duration", f"{inv['from']}→{inv['to']} {duration} с > {inv['sec']} с", errors, a, severity, norm)
+                    flag(a["t"], "max_duration", f"{inv['from']}→{inv['to']} {duration} с > {inv['sec']} с", errors, a, severity, norm, title)
         elif inv["kind"] == "before":
             if "if_present" in inv and not any(selector_matches(inv["if_present"], x) for x in actions):
                 continue
@@ -149,14 +150,14 @@ def check_instance(where: str, scenario: dict, actions: list[dict], errors: list
                 if not firsts:
                     if "if_present" in inv:
                         flag(then["t"], "before", f"{then['action']} на {then['t']} с без предшествующего {inv['first']}",
-                             errors, then, severity, norm)
+                             errors, then, severity, norm, title)
                 elif min(firsts) > then["t"]:
                     flag(then["t"], "before", f"{inv['first']} после {then['action']} ({min(firsts)} с > {then['t']} с)",
-                         errors, then, severity, norm)
+                         errors, then, severity, norm, title)
         elif inv["kind"] == "forbidden":
             for a in (x for x in actions if selector_matches(inv["action"], x)):
                 flag(a["t"], f"forbidden:{a['action']}", f"{a['action']} {a.get('object') or ''} на {a['t']} с запрещено: {inv.get('why', '')}",
-                     errors, a, severity, norm)
+                     errors, a, severity, norm, title)
         elif inv["kind"] == "forbidden_after":
             starts = [x["t"] for x in actions if selector_matches(inv["after"], x)]
             if not starts:
@@ -164,7 +165,7 @@ def check_instance(where: str, scenario: dict, actions: list[dict], errors: list
             for a in (x for x in actions if selector_matches(inv["action"], x) and x["t"] >= min(starts)):
                 flag(a["t"], f"forbidden_after:{a['action']}",
                      f"{a['action']} на {a['t']} с после {inv['after']} ({min(starts)} с): {inv.get('why', '')}",
-                     errors, a, severity, norm)
+                     errors, a, severity, norm, title)
     return assigned
 
 
@@ -185,7 +186,8 @@ def check_video(where: str, instances: list[list[dict]], video_invariants: list[
                     errors.append(f"{where}: {message}")
                     if hits is not None:
                         hits.append({"t": t, "rule": f"desk_carryover:{inv['object']}", "message": message,
-                                     "norm": inv.get("norm"), "severity": rule_severity(inv), "ref": id(a)})
+                                     "norm": inv.get("norm"), "severity": rule_severity(inv), "title": inv.get("title"),
+                                     "ref": id(a)})
             if a.get("object") == inv["object"] and a.get("target") == "desk":
                 if a["action"] == "put":
                     on_desk.append((k, t))

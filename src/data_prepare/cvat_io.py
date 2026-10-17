@@ -116,6 +116,7 @@ def backup(args) -> None:
     with client_from_env() as client:
         project = next(p for p in client.projects.list() if p.name == f"{args.project}-{args.round}")
         path = out_dir / f"{project.name}.zip"
+        path.unlink(missing_ok=True)  # cvat-sdk не перезаписывает файл
         project.download_backup(str(path))
         print(f"  {project.name} → {path} ({path.stat().st_size / 1e6:.1f} МБ)")
 
@@ -129,6 +130,7 @@ def export(args) -> None:
             if task.project_id != project.id:
                 continue
             zip_path = out_dir / f"{task.name}.zip"
+            zip_path.unlink(missing_ok=True)  # cvat-sdk не перезаписывает файл
             task.export_dataset(format_name="COCO 1.0", filename=str(zip_path), include_images=False)
             print(f"  {task.name} → {zip_path}")
 

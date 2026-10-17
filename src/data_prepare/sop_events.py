@@ -49,6 +49,7 @@ def build_events(video: str, instances: list[tuple[str, list[dict], list[int | N
                 "scenario": scenario, "instance": k, "step": None if step is None else step + 1,
                 "status": status, "rules": sorted({h["rule"] for h in hs}),
                 "norm": next((h["norm"] for h in hs if h.get("norm") and h["severity"] == status), None),
+                "title": next((h["title"] for h in hs if h.get("title") and h["severity"] == status), None),
                 "message": "; ".join(h["message"] for h in hs) or None,
                 "certain": a.get("certain", True),
             })
@@ -57,7 +58,8 @@ def build_events(video: str, instances: list[tuple[str, list[dict], list[int | N
             "video": video, "t_start": float(h["t"]), "t_end": float(h["t"]),
             "event": "missing_step", "actor": None, "object": None, "target": None,
             "scenario": h.get("scenario"), "instance": h.get("instance"), "step": None,
-            "status": h["severity"], "rules": [h["rule"]], "norm": h.get("norm"), "message": h["message"],
+            "status": h["severity"], "rules": [h["rule"]], "norm": h.get("norm"), "title": h.get("title"),
+            "message": h["message"],
             "certain": True,
         })
     return sorted(events, key=lambda e: (e["t_start"], e["instance"] or 0))

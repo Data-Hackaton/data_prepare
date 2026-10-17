@@ -25,5 +25,8 @@
     {"name": "kind", "input_type": "select", "mutable": false, "values": ["laptop", "monitor"], "default_value": "laptop"},
     {"name": "screen", "input_type": "select", "mutable": true,
      "values": ["active", "locked", "off"], "default_value": "active"}
+  ]},
+  {"name": "ignore_zone", "color": "#000075", "attributes": [
+    {"name": "kind", "input_type": "select", "mutable": true, "values": ["glass", "window", "other"], "default_value": "glass"}
   ]}
 ]

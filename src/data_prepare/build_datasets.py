@@ -63,7 +63,8 @@ def main() -> None:
     ap.add_argument("--from-prelabels", action="store_true", help="сырая предразметка вместо выгрузки CVAT (дым-тест)")
     args = ap.parse_args()
 
-    class_names = [label["name"] for label in json.loads(LABELS.read_text())]
+    # классы детектора — только рамки; тег event (система событий в CVAT) классом не является
+    class_names = [label["name"] for label in json.loads(LABELS.read_text()) if label.get("type", "rectangle") != "tag"]
     split_of, root_of, cocos = {}, {}, []
     for rnd in args.round:
         root = args.data / "frames" / rnd

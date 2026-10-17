@@ -1,32 +1,311 @@
 [
-  {"name": "person", "color": "#e6194b", "attributes": [
-    {"name": "role", "input_type": "select", "mutable": true,
-     "values": ["unknown", "cashier", "client", "collector"], "default_value": "unknown"}
-  ]},
-  {"name": "reflection", "color": "#808080", "attributes": []},
-  {"name": "hand", "color": "#3cb44b", "attributes": []},
-  {"name": "banknotes", "color": "#ffe119", "attributes": []},
-  {"name": "id_card", "color": "#4363d8", "attributes": []},
-  {"name": "cash_machine", "color": "#f58231", "attributes": []},
-  {"name": "safe", "color": "#911eb4", "attributes": [
-    {"name": "state", "input_type": "select", "mutable": true, "values": ["closed", "open"], "default_value": "closed"}
-  ]},
-  {"name": "door", "color": "#46f0f0", "attributes": [
-    {"name": "state", "input_type": "select", "mutable": true, "values": ["closed", "open"], "default_value": "closed"}
-  ]},
-  {"name": "phone", "color": "#f032e6", "attributes": []},
-  {"name": "bag", "color": "#bcf60c", "attributes": []},
-  {"name": "table", "color": "#9a6324", "attributes": []},
-  {"name": "foreign_object", "color": "#fabebe", "attributes": [
-    {"name": "kind", "input_type": "select", "mutable": true,
-     "values": ["other", "clothing", "personal_bag", "cup"], "default_value": "other"}
-  ]},
-  {"name": "computer", "color": "#008080", "attributes": [
-    {"name": "kind", "input_type": "select", "mutable": false, "values": ["laptop", "monitor"], "default_value": "laptop"},
-    {"name": "screen", "input_type": "select", "mutable": true,
-     "values": ["active", "locked", "off"], "default_value": "active"}
-  ]},
-  {"name": "ignore_zone", "color": "#000075", "attributes": [
-    {"name": "kind", "input_type": "select", "mutable": true, "values": ["glass", "window", "other"], "default_value": "glass"}
-  ]}
+  {
+    "name": "person",
+    "color": "#e6194b",
+    "attributes": [
+      {
+        "name": "role",
+        "input_type": "select",
+        "mutable": true,
+        "values": [
+          "unknown",
+          "cashier",
+          "client",
+          "collector"
+        ],
+        "default_value": "unknown"
+      }
+    ],
+    "type": "rectangle"
+  },
+  {
+    "name": "reflection",
+    "color": "#808080",
+    "attributes": [],
+    "type": "rectangle"
+  },
+  {
+    "name": "hand",
+    "color": "#3cb44b",
+    "attributes": [],
+    "type": "rectangle"
+  },
+  {
+    "name": "banknotes",
+    "color": "#ffe119",
+    "attributes": [],
+    "type": "rectangle"
+  },
+  {
+    "name": "id_card",
+    "color": "#4363d8",
+    "attributes": [],
+    "type": "rectangle"
+  },
+  {
+    "name": "cash_machine",
+    "color": "#f58231",
+    "attributes": [],
+    "type": "rectangle"
+  },
+  {
+    "name": "safe",
+    "color": "#911eb4",
+    "attributes": [
+      {
+        "name": "state",
+        "input_type": "select",
+        "mutable": true,
+        "values": [
+          "closed",
+          "open"
+        ],
+        "default_value": "closed"
+      }
+    ],
+    "type": "rectangle"
+  },
+  {
+    "name": "door",
+    "color": "#46f0f0",
+    "attributes": [
+      {
+        "name": "state",
+        "input_type": "select",
+        "mutable": true,
+        "values": [
+          "closed",
+          "open"
+        ],
+        "default_value": "closed"
+      }
+    ],
+    "type": "rectangle"
+  },
+  {
+    "name": "phone",
+    "color": "#f032e6",
+    "attributes": [],
+    "type": "rectangle"
+  },
+  {
+    "name": "bag",
+    "color": "#bcf60c",
+    "attributes": [],
+    "type": "rectangle"
+  },
+  {
+    "name": "table",
+    "color": "#9a6324",
+    "attributes": [],
+    "type": "rectangle"
+  },
+  {
+    "name": "foreign_object",
+    "color": "#fabebe",
+    "attributes": [
+      {
+        "name": "kind",
+        "input_type": "select",
+        "mutable": true,
+        "values": [
+          "other",
+          "clothing",
+          "personal_bag",
+          "cup"
+        ],
+        "default_value": "other"
+      }
+    ],
+    "type": "rectangle"
+  },
+  {
+    "name": "computer",
+    "color": "#008080",
+    "attributes": [
+      {
+        "name": "kind",
+        "input_type": "select",
+        "mutable": false,
+        "values": [
+          "laptop",
+          "monitor"
+        ],
+        "default_value": "laptop"
+      },
+      {
+        "name": "screen",
+        "input_type": "select",
+        "mutable": true,
+        "values": [
+          "active",
+          "locked",
+          "off"
+        ],
+        "default_value": "active"
+      }
+    ],
+    "type": "rectangle"
+  },
+  {
+    "name": "ignore_zone",
+    "color": "#000075",
+    "attributes": [
+      {
+        "name": "kind",
+        "input_type": "select",
+        "mutable": true,
+        "values": [
+          "glass",
+          "window",
+          "other"
+        ],
+        "default_value": "glass"
+      }
+    ],
+    "type": "rectangle"
+  },
+  {
+    "name": "event",
+    "type": "tag",
+    "color": "#fc9385",
+    "attributes": [
+      {
+        "name": "action",
+        "mutable": true,
+        "input_type": "select",
+        "values": [
+          "person_enter",
+          "person_leave",
+          "give",
+          "inspect",
+          "put",
+          "take",
+          "sort_banknotes",
+          "count_by_hand",
+          "safe_open",
+          "safe_close",
+          "open_bag",
+          "use_laptop",
+          "screen_lock",
+          "paperwork",
+          "phone_call",
+          "lights_off",
+          "safe_left_open",
+          "split_bundle",
+          "keep"
+        ],
+        "default_value": "person_enter"
+      },
+      {
+        "name": "actor",
+        "mutable": true,
+        "input_type": "select",
+        "values": [
+          "none",
+          "cashier",
+          "client",
+          "collector",
+          "visitor"
+        ],
+        "default_value": "none"
+      },
+      {
+        "name": "object",
+        "mutable": true,
+        "input_type": "select",
+        "values": [
+          "none",
+          "banknotes",
+          "id_card",
+          "bag",
+          "phone",
+          "document",
+          "foreign_object",
+          "computer"
+        ],
+        "default_value": "none"
+      },
+      {
+        "name": "target",
+        "mutable": true,
+        "input_type": "select",
+        "values": [
+          "none",
+          "cash_machine",
+          "safe",
+          "safe_top",
+          "bag",
+          "desk",
+          "client",
+          "cashier",
+          "door"
+        ],
+        "default_value": "none"
+      },
+      {
+        "name": "status",
+        "mutable": true,
+        "input_type": "select",
+        "values": [
+          "expected",
+          "warning",
+          "violation"
+        ],
+        "default_value": "expected"
+      },
+      {
+        "name": "rule",
+        "mutable": true,
+        "input_type": "text",
+        "values": [
+          ""
+        ],
+        "default_value": ""
+      },
+      {
+        "name": "scenario",
+        "mutable": true,
+        "input_type": "select",
+        "values": [
+          "client_service",
+          "collection",
+          "cash_handling",
+          "leave_workplace"
+        ],
+        "default_value": "client_service"
+      },
+      {
+        "name": "instance",
+        "mutable": true,
+        "input_type": "number",
+        "values": [
+          "1",
+          "50",
+          "1"
+        ],
+        "default_value": "1"
+      },
+      {
+        "name": "end_sec",
+        "mutable": true,
+        "input_type": "number",
+        "values": [
+          "0",
+          "600",
+          "0.01"
+        ],
+        "default_value": "0"
+      },
+      {
+        "name": "certain",
+        "mutable": true,
+        "input_type": "checkbox",
+        "values": [
+          "true"
+        ],
+        "default_value": "true"
+      }
+    ]
+  }
 ]

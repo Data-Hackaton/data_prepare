@@ -2,8 +2,15 @@
 __pycache__/
 .pytest_cache/
 .env
-*.mov
-*.mp4
-*.zip
 *.xlsx
-data/
+
+# data/ в репозитории: видео, кадры, предразметка, выгрузки CVAT, feature store.
+# Не храним то, что скачивается или пересобирается:
+# веса моделей и HF-кэш (~1 ГБ) — скачиваются при первом запуске
+data/cache/
+# прогоны обучения
+data/runs/
+# build-datasets собирает заново из выгрузок CVAT
+data/datasets/
+data/frames/*/preview*/
+data/frames/*/exp_*.json

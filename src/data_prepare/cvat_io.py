@@ -4,7 +4,8 @@ upload   — проект с метками из cvat/labels.json, задачи 
          (jobs по --job-size, чтобы делить работу), импорт предразметки COCO по каждой задаче;
 labels   — добавить в проект новые метки из cvat/labels.json;
 reimport — заменить предразметку в задачах, которые ещё никто не правил;
-export   — выгрузка COCO 1.0 из всех задач раунда в data/frames/<round>/cvat_export/<task>.json.
+export   — выгрузка COCO 1.0 из всех задач раунда в data/frames/<round>/cvat_export/<task>.zip;
+backup   — полный бэкап проекта раунда (кадры + разметка) в data/cvat/<проект>.zip.
 Адрес и учётка: CVAT_URL, CVAT_USER, CVAT_PASSWORD (compose берёт их из ~/cvat/admin.env).
 """
 
@@ -107,6 +108,18 @@ def reimport(args) -> None:
             print(f"  {task.name}: {len(subset['annotations'])} боксов")
 
 
+def backup(args) -> None:
+    """Полный бэкап проекта раунда (кадры + разметка) в data/cvat/<проект>.zip — восстанавливается в другом
+    CVAT через Projects → Create from backup."""
+    out_dir = args.data / "cvat"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    with client_from_env() as client:
+        project = next(p for p in client.projects.list() if p.name == f"{args.project}-{args.round}")
+        path = out_dir / f"{project.name}.zip"
+        project.download_backup(str(path))
+        print(f"  {project.name} → {path} ({path.stat().st_size / 1e6:.1f} МБ)")
+
+
 def export(args) -> None:
     out_dir = args.data / "frames" / args.round / "cvat_export"
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -122,11 +135,11 @@ def export(args) -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("command", choices=["upload", "labels", "reimport", "export"])
+    ap.add_argument("command", choices=["upload", "labels", "reimport", "export", "backup"])
     ap.add_argument("--data", type=Path, default=Path(os.environ.get("DATA_DIR", "/data")))
     ap.add_argument("--round", default="r1")
     ap.add_argument("--project", default="datathon-l1")
     ap.add_argument("--task-size", type=int, default=200)
     ap.add_argument("--job-size", type=int, default=100)
     args = ap.parse_args()
-    {"upload": upload, "labels": sync_labels, "reimport": reimport, "export": export}[args.command](args)
+    {"upload": upload, "labels": sync_labels, "reimport": reimport, "export": export, "backup": backup}[args.command](args)

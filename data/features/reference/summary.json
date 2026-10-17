@@ -1,0 +1,442 @@
+{
+  "source": "reference_r0",
+  "videos": 24,
+  "scenarios": {
+    "client_service": {
+      "title": "Обслуживание клиента — приём или выдача наличных",
+      "instances": 9,
+      "steps": [
+        {
+          "step": 0,
+          "action": "person_enter",
+          "actor": "client",
+          "object": null,
+          "target": null,
+          "required": true,
+          "seen_in": "9/9"
+        },
+        {
+          "step": 1,
+          "action": "give",
+          "actor": "client",
+          "object": [
+            "id_card",
+            "document"
+          ],
+          "target": "cashier",
+          "required": false,
+          "seen_in": "5/9"
+        },
+        {
+          "step": 2,
+          "action": "inspect",
+          "actor": "cashier",
+          "object": "id_card",
+          "target": null,
+          "required": false,
+          "seen_in": "4/9"
+        },
+        {
+          "step": 3,
+          "action": "give",
+          "actor": "client",
+          "object": "banknotes",
+          "target": "cashier",
+          "required": false,
+          "seen_in": "4/9"
+        },
+        {
+          "step": 4,
+          "action": "put",
+          "actor": "cashier",
+          "object": "banknotes",
+          "target": "cash_machine",
+          "required": false,
+          "seen_in": "7/9"
+        },
+        {
+          "step": 5,
+          "action": "take",
+          "actor": "cashier",
+          "object": "banknotes",
+          "target": "cash_machine",
+          "required": false,
+          "seen_in": "0/9"
+        },
+        {
+          "step": 6,
+          "action": "put",
+          "actor": "cashier",
+          "object": "banknotes",
+          "target": "desk",
+          "required": false,
+          "seen_in": "0/9"
+        },
+        {
+          "step": 7,
+          "action": "take",
+          "actor": "cashier",
+          "object": "banknotes",
+          "target": "desk",
+          "required": false,
+          "seen_in": "0/9"
+        },
+        {
+          "step": 8,
+          "action": "use_laptop",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "2/9"
+        },
+        {
+          "step": 9,
+          "action": "paperwork",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "0/9"
+        },
+        {
+          "step": 10,
+          "action": "safe_open",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "5/9"
+        },
+        {
+          "step": 11,
+          "action": "put",
+          "actor": "cashier",
+          "object": "banknotes",
+          "target": "safe",
+          "required": false,
+          "seen_in": "3/9"
+        },
+        {
+          "step": 12,
+          "action": "take",
+          "actor": "cashier",
+          "object": "banknotes",
+          "target": "safe",
+          "required": false,
+          "seen_in": "2/9"
+        },
+        {
+          "step": 13,
+          "action": "safe_close",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "5/9"
+        },
+        {
+          "step": 14,
+          "action": "give",
+          "actor": "cashier",
+          "object": [
+            "banknotes",
+            "id_card",
+            "document"
+          ],
+          "target": "client",
+          "required": false,
+          "seen_in": "2/9"
+        },
+        {
+          "step": 15,
+          "action": "person_leave",
+          "actor": "client",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "5/9"
+        }
+      ]
+    },
+    "collection": {
+      "title": "Инкассация — передача и вскрытие сумок",
+      "instances": 2,
+      "steps": [
+        {
+          "step": 0,
+          "action": "person_enter",
+          "actor": "collector",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "1/2"
+        },
+        {
+          "step": 1,
+          "action": "give",
+          "actor": "collector",
+          "object": "bag",
+          "target": "cashier",
+          "required": false,
+          "seen_in": "1/2"
+        },
+        {
+          "step": 2,
+          "action": "inspect",
+          "actor": "cashier",
+          "object": "document",
+          "target": null,
+          "required": false,
+          "seen_in": "1/2"
+        },
+        {
+          "step": 3,
+          "action": "open_bag",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "1/2"
+        },
+        {
+          "step": 4,
+          "action": "take",
+          "actor": "cashier",
+          "object": "banknotes",
+          "target": "bag",
+          "required": false,
+          "seen_in": "1/2"
+        },
+        {
+          "step": 5,
+          "action": "put",
+          "actor": "cashier",
+          "object": "bag",
+          "target": "safe_top",
+          "required": false,
+          "seen_in": "1/2"
+        },
+        {
+          "step": 6,
+          "action": "put",
+          "actor": "cashier",
+          "object": "banknotes",
+          "target": "cash_machine",
+          "required": false,
+          "seen_in": "1/2"
+        },
+        {
+          "step": 7,
+          "action": "sort_banknotes",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "1/2"
+        },
+        {
+          "step": 8,
+          "action": "safe_open",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "1/2"
+        },
+        {
+          "step": 9,
+          "action": "put",
+          "actor": "cashier",
+          "object": "banknotes",
+          "target": "safe",
+          "required": false,
+          "seen_in": "1/2"
+        },
+        {
+          "step": 10,
+          "action": "safe_close",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "1/2"
+        },
+        {
+          "step": 11,
+          "action": "use_laptop",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "1/2"
+        }
+      ]
+    },
+    "cash_handling": {
+      "title": "Работа с наличностью без посетителей",
+      "instances": 8,
+      "steps": [
+        {
+          "step": 0,
+          "action": "person_enter",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "1/8"
+        },
+        {
+          "step": 1,
+          "action": "safe_open",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "2/8"
+        },
+        {
+          "step": 2,
+          "action": "take",
+          "actor": "cashier",
+          "object": "banknotes",
+          "target": "safe",
+          "required": false,
+          "seen_in": "2/8"
+        },
+        {
+          "step": 3,
+          "action": "safe_close",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "2/8"
+        },
+        {
+          "step": 4,
+          "action": "put",
+          "actor": "cashier",
+          "object": "banknotes",
+          "target": "cash_machine",
+          "required": true,
+          "seen_in": "8/8"
+        },
+        {
+          "step": 5,
+          "action": "sort_banknotes",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "5/8"
+        },
+        {
+          "step": 6,
+          "action": "paperwork",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "1/8"
+        },
+        {
+          "step": 7,
+          "action": "use_laptop",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "0/8"
+        }
+      ]
+    },
+    "leave_workplace": {
+      "title": "Уход кассира с рабочего места",
+      "instances": 5,
+      "steps": [
+        {
+          "step": 0,
+          "action": "use_laptop",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "4/5"
+        },
+        {
+          "step": 1,
+          "action": "paperwork",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "1/5"
+        },
+        {
+          "step": 2,
+          "action": "safe_open",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "2/5"
+        },
+        {
+          "step": 3,
+          "action": "put",
+          "actor": "cashier",
+          "object": [
+            "banknotes",
+            "document"
+          ],
+          "target": "safe",
+          "required": false,
+          "seen_in": "2/5"
+        },
+        {
+          "step": 4,
+          "action": "safe_close",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "4/5"
+        },
+        {
+          "step": 5,
+          "action": "screen_lock",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "0/5"
+        },
+        {
+          "step": 6,
+          "action": "lights_off",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": false,
+          "seen_in": "1/5"
+        },
+        {
+          "step": 7,
+          "action": "person_leave",
+          "actor": "cashier",
+          "object": null,
+          "target": null,
+          "required": true,
+          "seen_in": "5/5"
+        }
+      ]
+    }
+  },
+  "safe_open_sec": {
+    "n": 10,
+    "min": 2,
+    "median": 5.0,
+    "max": 11
+  }
+}

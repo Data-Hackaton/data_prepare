@@ -1,6 +1,21 @@
 # data_prepare
 
-Подготовка датасета Datathon 26, эталон нормы и всё, что связано с CVAT. Видео и разметка в git не попадают; общий каталог данных — `../data` рядом с репозиториями, в контейнере это `/data`.
+Подготовка датасета Datathon 26, эталон нормы и всё, что связано с CVAT. Данные лежат в этом репозитории в `data/`, в контейнерах это `/data`.
+
+**Данные хакатона используются только внутри команды:** репозиторий приватный, публиковать и выкладывать видео наружу нельзя (FAQ организаторов). Тестовые видео жюри сюда не попадают.
+
+| Путь | Что |
+|---|---|
+| `data/videos/X-<n>.mov`, `data/labels.csv` | обучающие видео (ASCII-имена) и разметка организаторов |
+| `data/sheets/` | раскадровки с таймкодами |
+| `data/frames/r1/`, `data/frames/r1b/` | кадры для детектора (`images/`, `manifest.csv`), предразметка `prelabels.coco.json`, выгрузка CVAT `cvat_export/*.zip` (COCO 1.0) |
+| `data/cvat/datathon-l1-r1.zip`, `data/cvat/datathon-l1-r1b.zip` | полные бэкапы проектов CVAT: CVAT → Projects → **Create from backup** |
+| `data/features/` | feature store: журналы действий, события, каталог нарушений |
+| `data/NBRK_*.md` | тексты Правил НБРК №14 и №231 |
+
+Не хранятся (см. `.gitignore`): `data/cache/` — веса моделей, скачиваются при первом запуске; `data/runs/` — прогоны обучения; `data/datasets/` — пересобираются `build-datasets`.
+
+Выгрузки CVAT на 17.10 15:09 — предразметка Grounding DINO **до** ручной валидации; после валидации повторить `cvat-io export` и `cvat-io backup` и закоммитить.
 
 Всё запускается через docker compose из `infra`:
 
@@ -10,7 +25,7 @@ docker compose --profile tools build data-prepare
 docker compose --profile tools run --rm data-prepare <команда> [аргументы]
 ```
 
-Сервис монтирует `../data` → `/data`, `../Datathon26` → `/raw` (только чтение), `reference/` → `/app/reference`, поэтому правки эталона не требуют пересборки. Тесты: `docker compose --profile tools run --rm data-prepare pytest -q -p no:cacheprovider tests`.
+Сервис монтирует `data/` → `/data`, `../Datathon26` → `/raw` (только чтение, нужен только для `prepare`), `reference/` → `/app/reference`, поэтому правки эталона не требуют пересборки. Тесты: `docker compose --profile tools run --rm data-prepare pytest -q -p no:cacheprovider tests`.
 
 ## prepare
 

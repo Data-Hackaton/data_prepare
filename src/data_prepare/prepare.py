@@ -10,6 +10,7 @@ import argparse
 import csv
 import hashlib
 import json
+import os
 import re
 import subprocess
 import zipfile
@@ -70,7 +71,7 @@ def read_labels(xlsx: bytes) -> dict[str, tuple[str, int | None]]:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("zip", type=Path, help="путь к open.zip")
-    ap.add_argument("--out", type=Path, default=Path("data"))
+    ap.add_argument("--out", type=Path, default=Path(os.environ.get("DATA_DIR", "/data")))
     args = ap.parse_args()
 
     videos_dir = args.out / "videos"

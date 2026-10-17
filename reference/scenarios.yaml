@@ -1,0 +1,92 @@
+# Эталонный порядок действий (L2) по 19 видео без нарушений. Описание сцен — docs/norm.md.
+# Шаг: action + actor (+ object, target). required: false — шаг бывает не в каждом экземпляре.
+# Порядок шагов в экземпляре должен совпадать с порядком в шаблоне (пропуски необязательных допустимы, повторы — тоже).
+# Инварианты проверяются на каждом экземпляре сценария; это кандидаты в правила decision.
+
+vocabulary:
+  actors: [cashier, client, collector]
+  objects: [banknotes, id_card, bag, phone, document]
+  targets: [cash_machine, safe, safe_top, bag, desk, client, cashier, door]
+  actions:
+    person_enter: человек входит в комнату через дверь
+    person_leave: человек выходит из комнаты
+    give: передаёт предмет через стол (object → target)
+    inspect: рассматривает предмет, подняв к глазам
+    put: кладёт предмет (object → target)
+    take: берёт предмет (object ← target)
+    sort_banknotes: раскладывает купюры по стопкам на столе
+    safe_open: открывает дверцу сейфа
+    safe_close: закрывает дверцу сейфа
+    open_bag: вскрывает инкассаторскую сумку
+    use_laptop: работает за ноутбуком
+    paperwork: оформляет бумаги на столе
+    phone_call: говорит по мобильному телефону
+    lights_off: выключает свет
+
+scenarios:
+  client_service:
+    title: Обслуживание клиента — приём или выдача наличных
+    steps:
+      - {action: person_enter, actor: client, required: true}
+      - {action: give, actor: client, object: [id_card, banknotes, document], target: cashier, required: false}
+      - {action: inspect, actor: cashier, object: id_card, required: false}
+      - {action: put, actor: cashier, object: banknotes, target: cash_machine, required: false}
+      - {action: use_laptop, actor: cashier, required: false}
+      - {action: paperwork, actor: cashier, required: false}
+      - {action: safe_open, actor: cashier, required: false}
+      - {action: put, actor: cashier, object: banknotes, target: safe, required: false}
+      - {action: take, actor: cashier, object: banknotes, target: safe, required: false}
+      - {action: safe_close, actor: cashier, required: false}
+      - {action: give, actor: cashier, object: [banknotes, id_card, document], target: client, required: false}
+      - {action: person_leave, actor: client, required: false}
+    invariants:
+      - {kind: max_duration, from: safe_open, to: safe_close, sec: 20, why: сейф открыт только на время закладки или выемки; в эталоне до ~11 с}
+      - {kind: before, first: safe_close, then: {action: person_leave, actor: client}, why: клиент уходит при закрытом сейфе}
+      - {kind: before, first: {action: put, target: cash_machine}, then: {action: put, target: safe}, why: деньги идут в сейф после машинки}
+
+  collection:
+    title: Инкассация — передача и вскрытие сумок
+    steps:
+      - {action: person_enter, actor: collector, required: false}
+      - {action: give, actor: collector, object: bag, target: cashier, required: false}
+      - {action: inspect, actor: cashier, object: document, required: false}
+      - {action: open_bag, actor: cashier, required: false}
+      - {action: take, actor: cashier, object: banknotes, target: bag, required: false}
+      - {action: put, actor: cashier, object: bag, target: safe_top, required: false}
+      - {action: put, actor: cashier, object: banknotes, target: cash_machine, required: false}
+      - {action: sort_banknotes, actor: cashier, required: false}
+      - {action: safe_open, actor: cashier, required: false}
+      - {action: put, actor: cashier, object: banknotes, target: safe, required: false}
+      - {action: safe_close, actor: cashier, required: false}
+      - {action: use_laptop, actor: cashier, required: false}
+    invariants:
+      - {kind: max_duration, from: safe_open, to: safe_close, sec: 20, why: сейф открыт только на время закладки; в эталоне до ~11 с}
+      - {kind: before, first: {action: put, target: cash_machine}, then: {action: put, target: safe}, why: пачки идут в сейф после пересчёта}
+
+  cash_handling:
+    title: Работа с наличностью без посетителей
+    steps:
+      - {action: person_enter, actor: cashier, required: false}
+      - {action: safe_open, actor: cashier, required: false}
+      - {action: take, actor: cashier, object: banknotes, target: safe, required: false}
+      - {action: safe_close, actor: cashier, required: false}
+      - {action: put, actor: cashier, object: banknotes, target: cash_machine, required: true}
+      - {action: sort_banknotes, actor: cashier, required: false}
+      - {action: paperwork, actor: cashier, required: false}
+      - {action: use_laptop, actor: cashier, required: false}
+    invariants:
+      - {kind: max_duration, from: safe_open, to: safe_close, sec: 20, why: сейф открыт только на время выемки; в эталоне до ~11 с}
+
+  leave_workplace:
+    title: Уход кассира с рабочего места
+    steps:
+      - {action: use_laptop, actor: cashier, required: false}
+      - {action: paperwork, actor: cashier, required: false}
+      - {action: safe_open, actor: cashier, required: false}
+      - {action: put, actor: cashier, object: [banknotes, document], target: safe, required: false}
+      - {action: safe_close, actor: cashier, required: false}
+      - {action: lights_off, actor: cashier, required: false}
+      - {action: person_leave, actor: cashier, required: true}
+    invariants:
+      - {kind: before, first: safe_close, then: {action: person_leave, actor: cashier}, if_present: safe_open, why: кассир уходит при закрытом сейфе}
+      - {kind: max_duration, from: safe_open, to: safe_close, sec: 20, why: сейф открыт только на время закладки; в эталоне до ~11 с}

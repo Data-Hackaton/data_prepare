@@ -1,0 +1,236 @@
+# Эталонный журнал действий по 19 видео без нарушений (source: reference_r0).
+# Снят глазами по раскадровкам 1 кадр/с (data/sheets/), точность ±1 с; certain: false — объект или действие под вопросом.
+# Один экземпляр (instance) — один проход по шаблону сценария из scenarios.yaml; повтор операции = новый экземпляр.
+# Правится человеком при валидации, затем `reference-actions` пишет его в feature store.
+
+X-3:
+  scene: A
+  instances:
+    - scenario: client_service
+      actions:
+        - {t: 2, action: person_enter, actor: client}
+        - {t: 7, action: give, actor: client, object: id_card, target: cashier, certain: false}
+        - {t: 9, t_end: 15, action: inspect, actor: cashier, object: id_card, certain: false}
+        - {t: 17, t_end: 18, action: put, actor: cashier, object: banknotes, target: cash_machine, certain: false}
+
+X-5:
+  scene: A
+  instances:
+    - scenario: client_service
+      actions:
+        - {t: 2, action: person_enter, actor: client}
+        - {t: 7, action: give, actor: client, object: id_card, target: cashier, certain: false}
+        - {t: 8, t_end: 15, action: inspect, actor: cashier, object: id_card}
+        - {t: 25, action: put, actor: cashier, object: banknotes, target: cash_machine, certain: false}
+        - {t: 32, t_end: 44, action: use_laptop, actor: cashier, certain: false}
+        - {t: 46, action: safe_open, actor: cashier}
+        - {t: 47, t_end: 51, action: take, actor: cashier, object: banknotes, target: safe, certain: false}
+        - {t: 52, action: safe_close, actor: cashier}
+        - {t: 54, action: give, actor: cashier, object: banknotes, target: client, certain: false}
+        - {t: 56, action: person_leave, actor: client}
+    - scenario: client_service
+      actions:
+        - {t: 61, action: person_enter, actor: client}
+        - {t: 69, action: give, actor: client, object: id_card, target: cashier, certain: false}
+        - {t: 70, t_end: 71, action: inspect, actor: cashier, object: id_card, certain: false}
+
+X-8:
+  scene: B
+  instances:
+    - scenario: cash_handling
+      actions:
+        - {t: 1, t_end: 4, action: put, actor: cashier, object: banknotes, target: cash_machine}
+        - {t: 8, t_end: 17, action: sort_banknotes, actor: cashier, certain: false}
+    - scenario: cash_handling
+      actions:
+        - {t: 19, action: safe_open, actor: cashier}
+        - {t: 20, t_end: 23, action: take, actor: cashier, object: banknotes, target: safe, certain: false}
+        - {t: 24, action: safe_close, actor: cashier}
+        - {t: 28, t_end: 29, action: put, actor: cashier, object: banknotes, target: cash_machine}
+        - {t: 32, t_end: 37, action: paperwork, actor: cashier}
+
+X-10:
+  scene: B
+  instances:
+    - scenario: cash_handling
+      actions:
+        - {t: 1, t_end: 2, action: put, actor: cashier, object: banknotes, target: cash_machine}
+        - {t: 3, t_end: 6, action: sort_banknotes, actor: cashier, certain: false}
+    - scenario: cash_handling
+      actions:
+        - {t: 7, action: put, actor: cashier, object: banknotes, target: cash_machine}
+        - {t: 8, t_end: 15, action: sort_banknotes, actor: cashier, certain: false}
+
+X-12:
+  scene: B
+  instances:
+    - scenario: leave_workplace
+      actions:
+        - {t: 0, t_end: 9, action: use_laptop, actor: cashier}
+        - {t: 25, t_end: 31, action: safe_close, actor: cashier, certain: false}
+        - {t: 32, action: lights_off, actor: cashier}
+        - {t: 37, action: person_leave, actor: cashier}
+
+X-14:
+  scene: B
+  instances:
+    - scenario: collection
+      actions:
+        - {t: 0, t_end: 31, action: open_bag, actor: cashier}
+        - {t: 28, t_end: 33, action: take, actor: cashier, object: banknotes, target: bag}
+        - {t: 34, t_end: 39, action: put, actor: cashier, object: bag, target: safe_top}
+        - {t: 43, action: phone_call, actor: cashier, certain: false}
+        - {t: 45, t_end: 47, action: put, actor: cashier, object: banknotes, target: cash_machine}
+        - {t: 48, t_end: 111, action: sort_banknotes, actor: cashier}
+        - {t: 115, action: safe_open, actor: cashier}
+        - {t: 122, t_end: 126, action: put, actor: cashier, object: banknotes, target: safe}
+        - {t: 126, action: safe_close, actor: cashier}
+        - {t: 128, t_end: 142, action: use_laptop, actor: cashier}
+
+X-16:
+  scene: A
+  instances:
+    - scenario: collection
+      actions:
+        - {t: 3, action: person_enter, actor: collector}
+        - {t: 8, t_end: 17, action: give, actor: collector, object: bag, target: cashier}
+        - {t: 9, t_end: 15, action: inspect, actor: cashier, object: document, certain: false}
+
+X-19:
+  scene: A
+  instances:
+    - scenario: client_service
+      actions:
+        - {t: 2, action: person_enter, actor: client}
+        - {t: 7, action: give, actor: client, object: id_card, target: cashier, certain: false}
+        - {t: 9, t_end: 11, action: inspect, actor: cashier, object: id_card}
+        - {t: 13, t_end: 14, action: put, actor: cashier, object: banknotes, target: cash_machine, certain: false}
+        - {t: 24, t_end: 33, action: use_laptop, actor: cashier}
+        - {t: 37, action: safe_open, actor: cashier}
+        - {t: 38, t_end: 40, action: take, actor: cashier, object: banknotes, target: safe, certain: false}
+        - {t: 41, action: safe_close, actor: cashier}
+        - {t: 42, action: give, actor: cashier, object: banknotes, target: client, certain: false}
+        - {t: 43, action: person_leave, actor: client}
+    - scenario: client_service
+      actions:
+        - {t: 49, action: person_enter, actor: client}
+        - {t: 54, action: give, actor: client, object: id_card, target: cashier, certain: false}
+
+X-21:
+  scene: B
+  instances:
+    - scenario: cash_handling
+      actions:
+        - {t: 0, action: safe_open, actor: cashier, certain: false}
+        - {t: 1, t_end: 6, action: take, actor: cashier, object: banknotes, target: safe}
+        - {t: 7, action: safe_close, actor: cashier}
+        - {t: 11, t_end: 19, action: put, actor: cashier, object: banknotes, target: cash_machine}
+
+X-23:
+  scene: B
+  instances:
+    - scenario: leave_workplace
+      actions:
+        - {t: 0, t_end: 4, action: use_laptop, actor: cashier}
+        - {t: 6, t_end: 11, action: safe_close, actor: cashier, certain: false}
+        - {t: 12, action: person_leave, actor: cashier}
+
+X-25:
+  scene: B
+  instances:
+    - scenario: leave_workplace
+      actions:
+        - {t: 0, t_end: 3, action: paperwork, actor: cashier}
+        - {t: 8, action: safe_open, actor: cashier}
+        - {t: 9, t_end: 12, action: put, actor: cashier, object: document, target: safe, certain: false}
+        - {t: 19, t_end: 23, action: safe_close, actor: cashier}
+        - {t: 24, action: person_leave, actor: cashier}
+
+X-27:
+  scene: B
+  instances:
+    - scenario: leave_workplace
+      actions:
+        - {t: 0, t_end: 8, action: use_laptop, actor: cashier, certain: false}
+        - {t: 12, action: safe_open, actor: cashier}
+        - {t: 13, action: put, actor: cashier, object: document, target: safe, certain: false}
+        - {t: 14, t_end: 18, action: safe_close, actor: cashier}
+        - {t: 19, action: person_leave, actor: cashier}
+
+X-29:
+  scene: B
+  instances:
+    - scenario: leave_workplace
+      actions:
+        - {t: 0, t_end: 6, action: use_laptop, actor: cashier}
+        - {t: 8, action: person_leave, actor: cashier}
+
+X-31:
+  scene: C
+  instances:
+    - scenario: cash_handling
+      actions:
+        - {t: 2, action: person_enter, actor: cashier}
+        - {t: 17, t_end: 23, action: put, actor: cashier, object: banknotes, target: cash_machine}
+
+X-35:
+  scene: D
+  instances:
+    - scenario: client_service
+      actions:
+        - {t: 1, action: person_enter, actor: client}
+        - {t: 7, action: give, actor: client, object: banknotes, target: cashier, certain: false}
+        - {t: 11, t_end: 21, action: put, actor: cashier, object: banknotes, target: cash_machine}
+        - {t: 42, action: safe_open, actor: cashier}
+        - {t: 43, t_end: 46, action: put, actor: cashier, object: banknotes, target: safe}
+        - {t: 47, action: safe_close, actor: cashier}
+        - {t: 50, action: person_leave, actor: client}
+
+X-37:
+  scene: D
+  instances:
+    - scenario: client_service
+      actions:
+        - {t: 2, action: person_enter, actor: client}
+        - {t: 8, action: give, actor: client, object: banknotes, target: cashier, certain: false}
+        - {t: 11, t_end: 13, action: put, actor: cashier, object: banknotes, target: cash_machine}
+
+X-39:
+  scene: D
+  instances:
+    - scenario: client_service
+      actions:
+        - {t: 1, action: person_enter, actor: client}
+        - {t: 7, action: give, actor: client, object: banknotes, target: cashier}
+        - {t: 11, t_end: 19, action: put, actor: cashier, object: banknotes, target: cash_machine}
+        - {t: 29, action: safe_open, actor: cashier}
+        - {t: 30, t_end: 32, action: put, actor: cashier, object: banknotes, target: safe}
+        - {t: 33, action: safe_close, actor: cashier}
+        - {t: 34, action: person_leave, actor: client}
+    - scenario: client_service
+      actions:
+        - {t: 45, action: person_enter, actor: client}
+        - {t: 50, action: give, actor: client, object: banknotes, target: cashier, certain: false}
+        - {t: 56, t_end: 58, action: put, actor: cashier, object: banknotes, target: cash_machine}
+        - {t: 66, action: safe_open, actor: cashier}
+        - {t: 67, t_end: 69, action: put, actor: cashier, object: banknotes, target: safe}
+        - {t: 71, action: safe_close, actor: cashier}
+        - {t: 73, action: person_leave, actor: client}
+
+X-43:
+  scene: E
+  instances:
+    - scenario: cash_handling
+      actions:
+        - {t: 0, t_end: 2, action: put, actor: cashier, object: banknotes, target: cash_machine}
+        - {t: 7, action: put, actor: cashier, object: banknotes, target: cash_machine}
+        - {t: 12, t_end: 22, action: sort_banknotes, actor: cashier}
+
+X-45:
+  scene: E
+  instances:
+    - scenario: cash_handling
+      actions:
+        - {t: 1, t_end: 3, action: put, actor: cashier, object: banknotes, target: cash_machine}
+        - {t: 9, t_end: 11, action: put, actor: cashier, object: banknotes, target: cash_machine}
+        - {t: 13, t_end: 31, action: sort_banknotes, actor: cashier}

@@ -8,10 +8,14 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "openpyxl>=3.1.5",
+    "pyarrow==22.0.0",
+    "pyyaml==6.0.3",
 ]
 
 [project.scripts]
 prepare = "data_prepare.prepare:main"
+contact-sheets = "data_prepare.contact_sheets:main"
+reference-actions = "data_prepare.reference_actions:main"
 
 [build-system]
 requires = ["uv_build>=0.12.17,<0.13.0"]

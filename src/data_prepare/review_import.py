@@ -21,26 +21,15 @@ from pathlib import Path
 
 import yaml
 
+from data_prepare.norm_keys import norm_key
+
 REFERENCE = Path(__file__).resolve().parents[2] / "reference"
 DEFAULT_PACKAGE = "review/forte-full-check-2026-10-17"
-ACTS = {"V1900019680": ("n231", "Правила №231"), "V2000020075": ("n14", "Правила №14 (охрана и устройство помещений)"),
-        "V2200026867": ("n55", "Правила пожарной безопасности №55"),
-        "V2600038336": ("n53", "Требования к информационной безопасности банков №53")}
-FORTE = {"B-ONLINE2025": "forte_online2025_p35_4", "B-ONLINE2024": "forte_online2024_p35_3", "B-REMOTE": "forte_remote",
-         "B-EBU19": "forte_ebu19", "B-EBU21": "forte_ebu21", "B-ETHICS": "forte_ethics", "B-CA": "forte_ca",
-         "B-INSIDER": "forte_insider", "B-ACCOUNTS-CASH": "forte_accounts_cash",
-         "B-ACCOUNTS-COLLECTION": "forte_accounts_collection", "B-ANNUAL2024": "forte_annual2024",
-         "B-GENERAL63": "forte_general63"}
+ACT_NAMES = {"V1900019680": "Правила №231", "V2000020075": "Правила №14 (охрана и устройство помещений)",
+             "V2200026867": "Правила пожарной безопасности №55",
+             "V2600038336": "Требования к информационной безопасности банков №53"}
 STATUS_RU = {"supported": "подтверждено", "probable": "вероятно", "insufficient": "недостаточно данных",
              "conditional_issue": "условный кандидат", "no_supported_violation": "нарушение не подтверждено"}
-
-
-def norm_key(rule_id: str) -> str:
-    """V1900019680:20 → n231_p20; V1900019680:10-1 → n231_p10_1; B-ONLINE2025 → forte_online2025_p35_4."""
-    if rule_id in FORTE:
-        return FORTE[rule_id]
-    act, _, point = rule_id.partition(":")
-    return f"{ACTS[act][0]}_p{point.replace('-', '_')}"
 
 
 def video_name(name: str) -> str:
@@ -52,7 +41,7 @@ def import_norms(audit: dict) -> dict:
     for r in audit["rules"]:
         act = r["id"].partition(":")[0]
         point = r["point_exact"]
-        short = (f"{ACTS[act][1]}, п.{r['id'].partition(':')[2]}" if act in ACTS
+        short = (f"{ACT_NAMES[act]}, п.{r['id'].partition(':')[2]}" if act in ACT_NAMES
                  else f"ForteBank: {r['document_title']}, " + re.sub(r"\s*\(редакция[^)]*\)", "", point.split(";")[0]))
         out[norm_key(r["id"])] = {
             "short": short,
